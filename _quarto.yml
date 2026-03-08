@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Pilot Protoplanetary Disk Catalog"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+resources:
+  - data/**
+  - images/**
+  - pages/images/**

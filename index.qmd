@@ -1,0 +1,13 @@
+---
+title: "Pilot Protoplanetary Disk Catalog"
+---
+
+# Pilot Protoplanetary Disk Catalog
+
+This project is an educational and computational pilot catalog of protoplanetary disks based on observational data.
+
+## Available disks
+
+[AS 209](pages/as_209.qmd)
+[HL Tau](pages/hl_tau.qmd)
+[HD 163296](pages/hd_163296.qmd)
