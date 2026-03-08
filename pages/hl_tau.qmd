@@ -1,0 +1,17 @@
+---
+title: "HL Tau"
+---
+
+# HL Tau
+
+This is the first disk in the **Pilot Protoplanetary Disk Catalog**.
+
+## ALMA Image
+
+![](images/hl_tau_eso.jpg){width=70%}
+
+High-resolution image of the protoplanetary disk around HL Tau obtained with ALMA.
+
+## Test
+
+If you can see this page and the image, the catalog website is working correctly.
