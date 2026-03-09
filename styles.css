@@ -1,4 +1,13 @@
+/* ============================= */
+/* Fuentes profesionales */
+/* ============================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+
+/* ============================= */
+/* Estilo general del sitio */
+/* ============================= */
 
 body {
   background-color: #050505;
@@ -6,15 +15,38 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-h1, h2, h3 {
+
+/* ============================= */
+/* Títulos */
+/* ============================= */
+
+h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
 }
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+
+/* ============================= */
+/* Texto */
+/* ============================= */
 
 p {
   font-size: 1.1rem;
   line-height: 1.7;
 }
+
+
+/* ============================= */
+/* Links */
+/* ============================= */
 
 a {
   color: #7fd7ff;
@@ -24,6 +56,76 @@ a:hover {
   color: #ffffff;
 }
 
+
+/* ============================= */
+/* Barra superior */
+/* ============================= */
+
 .navbar {
   background-color: #000000 !important;
+  border-bottom: 1px solid #222222;
+}
+
+
+/* ============================= */
+/* Sidebar (tabla de contenidos) */
+/* ============================= */
+
+.sidebar {
+  background-color: #0b0b0b;
+}
+
+
+/* ============================= */
+/* Imágenes */
+/* ============================= */
+
+img {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* ============================= */
+/* Introducción del catálogo */
+/* ============================= */
+
+.catalog-intro {
+  max-width: 900px;
+  margin-bottom: 2rem;
+}
+
+
+/* ============================= */
+/* Tarjetas de discos */
+/* ============================= */
+
+.disk-card {
+  background-color: #111111;
+  border: 1px solid #222222;
+  border-radius: 14px;
+  padding: 1.2rem;
+  margin-top: 1.5rem;
+  max-width: 720px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.04);
+}
+
+.disk-card img {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.disk-card h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.disk-card p {
+  margin-bottom: 0.8rem;
+}
+
+.disk-link {
+  font-weight: 600;
+  text-decoration: none;
 }
