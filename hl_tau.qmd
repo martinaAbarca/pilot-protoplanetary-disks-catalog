@@ -1,17 +1,172 @@
 ---
-title: "HL Tau"
+title: "HL Tau — Protoplanetary Disk"
+bibliography: references.bib
+format:
+  html:
+    toc: true
+    theme: cosmo
 ---
 
-# HL Tau
+# HL Tau — Protoplanetary Disk
 
-This is the first disk in the **Pilot Protoplanetary Disk Catalog**.
+![Protoplanetary disk around HL Tau observed with ALMA. The millimeter emission from dust reveals a system of bright rings and dark gaps within the disk, interpreted as possible signatures of planet formation.](images/hl_tau_eso.jpg){#fig-hltau fig-align="center" width="650"}
 
-## ALMA Image
+*Figure @fig-hltau. Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the density of solid material within the disk.*
 
-![](images/hl_tau_eso.jpg){width=70%}
+**Image credit:** ALMA (ESO/NAOJ/NRAO)
 
-High-resolution image of the protoplanetary disk around HL Tau obtained with ALMA.
+---
 
-## Test
+## Object names
 
-If you can see this page and the image, the catalog website is working correctly.
+| Catalog | Name |
+|---|---|
+| Primary name | HL Tau |
+| Other designations | IRAS 04368+2557 |
+| Region | Taurus Molecular Cloud |
+
+---
+
+## Location
+
+HL Tau is located in the **Taurus Molecular Cloud**, one of the closest star-forming regions to Earth. The system lies at a distance of approximately **140 parsecs (~450 light-years)**. Because of its proximity and young age, the region contains many protostars and protoplanetary disks that can be studied in detail.
+
+---
+
+## Overview of the system
+
+HL Tau is one of the most famous protoplanetary disks ever observed. High-resolution observations obtained with the **Atacama Large Millimeter/submillimeter Array (ALMA)** revealed a complex system of **bright rings and dark gaps** within the disk surrounding this very young star [@alma2015].
+
+These structures suggest that planet formation may begin much earlier than previously thought. With an estimated age of about **1–2 million years**, HL Tau has become a key laboratory for studying the early stages of protoplanetary disk evolution and planet formation.
+
+Models of the disk also indicate that millimeter-sized dust grains are concentrated in a very thin layer near the **midplane of the disk**, and that turbulence in the system is relatively weak [@pinte2016]. These conditions favor the growth of dust grains and the early formation of planetesimals.
+
+---
+
+## General system properties
+
+| Property | Value |
+|---|---|
+| Distance | ~140 pc |
+| Age | ~1–2 Myr |
+| Evolutionary class | Class I–II |
+| Spectral type | K5 |
+| Stellar mass | ~1.3–1.7 M☉ |
+| Disk radius | ~100 AU |
+| Disk mass | ~0.03–0.14 M☉ |
+| Disk inclination | ~47° |
+| Disk viscosity (α) | ≥ 2 × 10⁻⁴ |
+
+---
+
+## Disk morphology
+
+ALMA observations show that the disk of HL Tau contains a complex **radial structure** composed of bright rings and dark gaps [@alma2015]. In total, **14 substructures** have been identified, organized into **seven bright rings (B1–B7)** and **seven dark gaps (D1–D7)**.
+
+These structures appear consistently across multiple millimeter wavelengths, confirming that they are real physical features of the disk rather than observational artifacts.
+
+The rings correspond to regions with a high concentration of dust, while the gaps indicate areas where the density of material is significantly reduced. This pattern suggests that strong dynamical processes are shaping the disk, possibly related to interactions between the disk and forming planets.
+
+---
+
+## Morphology measurements
+
+| Structure | Type | Radius (AU) |
+|---|---|---|
+| D1 | Dark gap | 13.2 |
+| B1 | Bright ring | 20.4 |
+| D2 | Dark gap | 32.3 |
+| B2 | Bright ring | 38.1 |
+| D5 | Dark gap | 64.2 |
+| B5 | Bright ring | 68.8 |
+| D6 | Dark gap | 73.7 |
+| B6 | Bright ring | 81.3 |
+| D7 | Dark gap | ~91 |
+| B7 | Bright ring | ~97 |
+
+---
+
+## Dust in the disk
+
+Dust in protoplanetary disks emits thermal radiation at millimeter wavelengths, allowing astronomers to study its distribution using interferometric observations. The **spectral index of the emission** provides information about the size and properties of dust grains [@alma2015].
+
+In HL Tau, the central regions and some bright rings appear **optically thick**, indicating a high concentration of solid material. In contrast, the dark gaps exhibit lower brightness and higher spectral index values, suggesting that these regions contain less dust.
+
+The dust opacity index **β ≈ 0.3–0.8** indicates that dust grains have grown significantly beyond the typical size of interstellar grains, an important step toward the formation of planetesimals [@alma2015].
+
+Disk models also show that millimeter-sized grains are strongly concentrated near the **midplane of the disk**, forming a geometrically thin layer. At a distance of about **100 AU**, the vertical thickness of this dust layer is only **≈2 AU**, indicating strong **dust settling** [@pinte2016].
+
+This behavior implies that turbulence in the disk is relatively weak, with an estimated turbulent viscosity of **α ≈ 3 × 10⁻⁴** [@pinte2016]. Hydrodynamic simulations further show that small grains remain coupled to the gas, while larger millimeter grains migrate toward pressure maxima at the edges of gaps, where they accumulate into rings [@dipierro2015].
+
+---
+
+## Dust properties
+
+| Property | Value |
+|---|---|
+| Average spectral index (α) | 2.77 ± 0.13 |
+| Central α | ~2 |
+| Dark ring α | ~2.3–3.0 |
+| Dust opacity index (β) | ~0.3–0.8 |
+| Central temperature | ~212 K |
+| B1 temperature | ~59 K |
+| B6 temperature | ~24 K |
+| Dust scale height (100 AU) | ~2 AU |
+| Turbulent viscosity (α) | ~3 × 10⁻⁴ |
+| Total dust mass | ~5 × 10⁻⁴ M☉ (~160 M⊕) |
+
+---
+
+## Gas in the disk
+
+The disk around HL Tau also contains a large amount of **molecular gas**, observable through spectral lines of molecules such as **CO, HCO⁺, CN, and HCN** [@alma2015]. These emission lines allow astronomers to measure the velocity of the gas through the Doppler effect.
+
+Observations show that the gas follows a **Keplerian rotation pattern** around the central star, with velocities ranging from approximately **2 to 12 km/s**. Position–velocity diagrams of CO emission indicate that the mass of the central star is close to **1.7 solar masses** [@alma2015].
+
+The gas disk also extends farther than the region where millimeter dust emission is detected, which is typical in protoplanetary disks.
+
+---
+
+## Gas properties
+
+| Property | Value |
+|---|---|
+| Molecular tracers | HCO⁺, CO, CN, HCN |
+| Velocity range | 2–12 km/s |
+| Systemic velocity | 7.0 ± 0.2 km/s |
+| Rotation type | Keplerian |
+| Disk inclination | ~47° |
+| Stellar mass (kinematic) | ~1.7 M☉ |
+| Gas inner radius | ~10 AU |
+
+---
+
+## Evidence of planet formation
+
+Several lines of evidence suggest that HL Tau may already be forming planets. The dark gaps observed in the disk correspond to regions where the dust density is significantly lower than in neighboring rings [@alma2015].
+
+Models indicate that the formation of the largest gaps may require the removal of up to **≈40 Earth masses of dust**, material that could have been incorporated into growing planetary cores [@dipierro2015].
+
+Hydrodynamic simulations show that **embedded planets** can generate these structures through gravitational perturbations. Models including **three protoplanets** located at approximately **13.2 AU**, **32.3 AU**, and **68.8 AU** reproduce many of the observed features of the disk. The estimated masses of these planets are about **0.2**, **0.27**, and **0.55 Jupiter masses** [@dipierro2015].
+
+---
+
+## Physical interpretation of HL Tau
+
+Taken together, high-resolution ALMA observations and physical models indicate that HL Tau is an extremely young system in which planet formation may already be underway. The presence of massive dust rings, deep gaps, and millimeter-sized grains suggests that solid material in the disk is evolving toward the formation of planetesimals. Hydrodynamic simulations indicate that several young protoplanets with masses comparable to giant planets could explain the observed disk structures [@dipierro2015].
+
+---
+
+## Activity
+
+**Coming soon**
+
+---
+
+## References
+
+ALMA Partnership et al. 2015  
+
+Pinte et al. 2016  
+
+Dipierro et al. 2015
