@@ -3,8 +3,6 @@ title: "Pilot Protoplanetary Disk Catalog"
 format: html
 ---
 
-# Pilot Protoplanetary Disk Catalog
-
 ::: {.catalog-intro}
 
 This **Pilot Protoplanetary Disk Catalog** is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of **protoplanetary disks**.
