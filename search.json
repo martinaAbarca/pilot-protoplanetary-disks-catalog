@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "This project is an educational and computational pilot catalog of protoplanetary disks based on observational data.\n\n\nHL Tau"
-  },
-  {
-    "objectID": "index.html#available-disks",
-    "href": "index.html#available-disks",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "HL Tau"
-  },
-  {
     "objectID": "hl_tau.html",
     "href": "hl_tau.html",
     "title": "HL Tau",
@@ -33,5 +19,19 @@
     "title": "HL Tau",
     "section": "",
     "text": "If you can see this page and the image, the catalog website is working correctly."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "An interactive catalog of protoplanetary disks observed with facilities such as ALMA, VLT, and other instruments.\nThis project aims to explore the morphology of protoplanetary disks and the observational signatures of planet formation.\n\n\n\n\nHL Tau is one of the most famous protoplanetary disks observed with ALMA, revealing multiple rings and gaps that may indicate the presence of forming planets.\nOpen disk page →"
+  },
+  {
+    "objectID": "index.html#hl-tau",
+    "href": "index.html#hl-tau",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "HL Tau is one of the most famous protoplanetary disks observed with ALMA, revealing multiple rings and gaps that may indicate the presence of forming planets.\nOpen disk page →"
   }
 ]
