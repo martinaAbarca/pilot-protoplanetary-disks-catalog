@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This project is an educational and computational pilot catalog of protoplanetary disks based on observational data.</p>
 <section id="available-disks" class="level2">
 <h2 class="anchored" data-anchor-id="available-disks">Available disks</h2>
-<p><a href="pages/as_209.qmd">AS 209</a> <a href="pages/hl_tau.qmd">HL Tau</a> <a href="pages/hd_163296.qmd">HD 163296</a></p>
+<p><a href="./hl_tau.html">HL Tau</a></p>
 
 
 </section>
@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/martinaAbarca\.github\.io\/pilot-protoplanetary-disks-catalog\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
