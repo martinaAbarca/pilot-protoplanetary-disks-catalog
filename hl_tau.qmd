@@ -10,6 +10,8 @@ format:
 
 ![Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk. Image credit: ALMA (ESO/NAOJ/NRAO).](images/hl_tau_eso.jpg){#fig-hltau fig-align="center" width="650"}
 
+As shown in @fig-hltau, the HL Tau disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission.
+
 ## Object names
 
 | Catalog | Name |
