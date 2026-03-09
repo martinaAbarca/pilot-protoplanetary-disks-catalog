@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "An interactive catalog of protoplanetary disks designed to explore disk morphology, annular substructures, and possible signatures of planet formation from observational data.\nThis site combines scientific summaries, individual disk pages, and future data-science activities for selected systems."
-  },
-  {
-    "objectID": "index.html#available-disks",
-    "href": "index.html#available-disks",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Available disks",
-    "text": "Available disks\n\n\n\nHL Tau\nA young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.\nOpen disk page →"
-  },
-  {
     "objectID": "hl_tau.html",
     "href": "hl_tau.html",
     "title": "HL Tau — Protoplanetary Disk",
@@ -117,5 +103,19 @@
     "title": "HL Tau — Protoplanetary Disk",
     "section": "References",
     "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "An interactive catalog of protoplanetary disks designed to explore disk morphology, annular substructures, and possible signatures of planet formation from observational data.\nThis site combines scientific summaries, individual disk pages, and future data-science activities for selected systems."
+  },
+  {
+    "objectID": "index.html#available-disks",
+    "href": "index.html#available-disks",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Available disks",
+    "text": "Available disks\n\n\n\nHL Tau\nA young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.\nOpen disk page →"
   }
 ]
