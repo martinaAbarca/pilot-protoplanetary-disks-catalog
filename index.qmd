@@ -8,6 +8,4 @@ This project is an educational and computational pilot catalog of protoplanetary
 
 ## Available disks
 
-[AS 209](pages/as_209.qmd)
-[HL Tau](pages/hl_tau.qmd)
-[HD 163296](pages/hd_163296.qmd)
+[HL Tau](hl_tau.qmd)
