@@ -41,6 +41,20 @@ Understanding this density structure is essential because it determines the disk
 
 ---
 
+# Available disks
+
+::: {.disk-card}
+![](images/hl_tau_eso.jpg){width=100%}
+
+### HL Tau
+
+A young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.
+
+[Open disk page →](hl_tau.qmd){.disk-link}
+:::
+
+---
+
 # Images of protoplanetary disks
 
 Below are examples of protoplanetary disks observed at high angular resolution. These observations reveal a wide diversity of disk morphologies and structures.
