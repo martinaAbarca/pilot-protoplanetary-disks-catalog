@@ -61,6 +61,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-afa37c5c79185640b9c231024f4fe5ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -172,7 +175,7 @@ div.csl-indent {
 <div id="fig-hltau" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-hltau-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/hl_tau_eso.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="650">
+<a href="images/hl_tau_eso.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk. Image credit: ALMA (ESO/NAOJ/NRAO)."><img src="images/hl_tau_eso.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="650"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hltau-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk. Image credit: ALMA (ESO/NAOJ/NRAO).
@@ -876,6 +879,38 @@ Pinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. <span>“Du
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
