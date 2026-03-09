@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "An interactive catalog of protoplanetary disks designed to explore disk morphology, annular substructures, and possible signatures of planet formation from observational data.\nThis site combines scientific summaries, individual disk pages, and future data-science activities for selected systems."
+  },
+  {
+    "objectID": "index.html#available-disks",
+    "href": "index.html#available-disks",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Available disks",
+    "text": "Available disks\n\n\n\nHL Tau\nA young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.\nOpen disk page →"
+  },
+  {
     "objectID": "hl_tau.html",
     "href": "hl_tau.html",
     "title": "HL Tau — Protoplanetary Disk",
@@ -103,19 +117,5 @@
     "title": "HL Tau — Protoplanetary Disk",
     "section": "",
     "text": "ALMA Partnership et al. 2015\nPinte et al. 2016\nDipierro et al. 2015"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "An interactive catalog of protoplanetary disks designed to explore disk morphology, annular substructures, and possible signatures of planet formation from observational data.\nThis site combines scientific summaries, individual disk pages, and future data-science activities for selected systems."
-  },
-  {
-    "objectID": "index.html#available-disks",
-    "href": "index.html#available-disks",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Available disks",
-    "text": "Available disks\n\n\n\nHL Tau\nA young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.\nOpen disk page →"
   }
 ]
