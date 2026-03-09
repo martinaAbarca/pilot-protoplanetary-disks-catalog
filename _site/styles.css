@@ -37,3 +37,119 @@ code {
   color: #9be7ff;
   background-color: #111;
 }
+
+/* Figure captions */
+.quarto-figure figcaption,
+.figure-caption,
+figcaption {
+  color: #d8d8d8 !important;
+  font-style: italic;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
+/* Keep figures centered and neat */
+.quarto-figure,
+figure {
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.quarto-figure img,
+figure img {
+  border-radius: 10px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.3rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead th {
+  background-color: #a63f24 !important;
+  color: #ffffff !important;
+  border: 1px solid #c45b3e !important;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+tbody td {
+  background-color: #7f2f1b !important;
+  color: #ffffff !important;
+  border: 1px solid #c45b3e !important;
+  padding: 0.8rem;
+}
+
+tbody tr:nth-child(even) td {
+  background-color: #903522 !important;
+}
+
+/* Quarto / bootstrap table overrides */
+.table {
+  color: #ffffff !important;
+  --bs-table-color: #ffffff;
+  --bs-table-bg: #7f2f1b;
+  --bs-table-border-color: #c45b3e;
+  --bs-table-striped-bg: #903522;
+  --bs-table-striped-color: #ffffff;
+  --bs-table-hover-bg: #9d3a24;
+  --bs-table-hover-color: #ffffff;
+}
+
+.table th {
+  background-color: #a63f24 !important;
+  color: #ffffff !important;
+}
+
+.table td {
+  color: #ffffff !important;
+}
+
+/* References / bibliography */
+#refs,
+.references {
+  background: transparent !important;
+  color: #ffffff !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.csl-entry {
+  background: transparent !important;
+  color: #e8e8e8 !important;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.csl-entry a,
+#refs a,
+.references a {
+  color: #7fd7ff !important;
+}
+
+.csl-entry i,
+.csl-entry em {
+  color: #dcdcdc !important;
+}
+
+/* Remove possible white bibliography blocks */
+div#refs,
+div.references,
+#refs p,
+.references p {
+  background: transparent !important;
+  color: #e8e8e8 !important;
+}
+
+/* Horizontal rules and section separators */
+hr {
+  border: 0;
+  border-top: 1px solid #2b2b2b;
+  margin: 2rem 0;
+}
