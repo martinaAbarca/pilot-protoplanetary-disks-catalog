@@ -25,13 +25,13 @@
     "href": "index.html",
     "title": "Pilot Protoplanetary Disk Catalog",
     "section": "",
-    "text": "An interactive catalog of protoplanetary disks observed with facilities such as ALMA, VLT, and other instruments.\nThis project aims to explore the morphology of protoplanetary disks and the observational signatures of planet formation.\n\n\n\n\nHL Tau is one of the most famous protoplanetary disks observed with ALMA, revealing multiple rings and gaps that may indicate the presence of forming planets.\nOpen disk page →"
+    "text": "An interactive catalog of protoplanetary disks designed to explore disk morphology, annular substructures, and possible signatures of planet formation from observational data.\nThis site combines scientific summaries, individual disk pages, and future data-science activities for selected systems."
   },
   {
-    "objectID": "index.html#hl-tau",
-    "href": "index.html#hl-tau",
+    "objectID": "index.html#available-disks",
+    "href": "index.html#available-disks",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "HL Tau is one of the most famous protoplanetary disks observed with ALMA, revealing multiple rings and gaps that may indicate the presence of forming planets.\nOpen disk page →"
+    "section": "Available disks",
+    "text": "Available disks\n\n\n\nHL Tau\nA young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.\nOpen disk page →"
   }
 ]
