@@ -4,8 +4,16 @@ title: "Pilot Protoplanetary Disk Catalog"
 
 # Pilot Protoplanetary Disk Catalog
 
-This project is an educational and computational pilot catalog of protoplanetary disks based on observational data.
+An interactive catalog of **protoplanetary disks** observed with facilities such as **ALMA**, **VLT**, and other instruments.
 
-## Available disks
+This project aims to explore the **morphology of protoplanetary disks** and the observational signatures of **planet formation**.
 
-[HL Tau](hl_tau.qmd)
+---
+
+## HL Tau
+
+![](images/hl_tau_eso.jpg)
+
+HL Tau is one of the most famous protoplanetary disks observed with **ALMA**, revealing multiple rings and gaps that may indicate the presence of forming planets.
+
+[Open disk page →](hl_tau.qmd)
