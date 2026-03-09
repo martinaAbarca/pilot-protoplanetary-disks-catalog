@@ -7,11 +7,39 @@
     "text": "An interactive catalog of protoplanetary disks designed to explore disk morphology, annular substructures, and possible signatures of planet formation from observational data.\nThis site combines scientific summaries, individual disk pages, and future data-science activities for selected systems."
   },
   {
+    "objectID": "index.html#what-is-a-protoplanetary-disk",
+    "href": "index.html#what-is-a-protoplanetary-disk",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "What is a protoplanetary disk?",
+    "text": "What is a protoplanetary disk?\nA protoplanetary disk is a rotating structure of gas and dust surrounding a young star. These disks naturally form during the process of star formation, when a collapsing molecular cloud conserves angular momentum and produces a flattened disk around the central protostar.\nThe material within these disks provides the raw ingredients from which planetary systems are built. Dust grains can collide, grow, and evolve into larger solid bodies, while the gas component influences the dynamics and thermodynamics of the system.\nObservations of protoplanetary disks therefore provide a direct window into the earliest stages of planet formation and planetary system architecture."
+  },
+  {
+    "objectID": "index.html#planet-formation-theories",
+    "href": "index.html#planet-formation-theories",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Planet formation theories",
+    "text": "Planet formation theories\nAlthough many details remain uncertain, two major theoretical frameworks are commonly discussed when explaining how planets form in protoplanetary disks.\n\nCore accretion\nIn the core accretion scenario, microscopic dust grains collide and stick together through a sequence of growth stages. These grains gradually evolve into larger aggregates, pebbles, and planetesimals. Once solid bodies reach sufficiently large masses, they can gravitationally accrete surrounding material and form planetary cores.\nIf these cores grow beyond a critical mass, they may begin to accrete large envelopes of gas, eventually forming giant planets.\n\n\nGravitational instability\nAn alternative mechanism is gravitational instability, which can occur in massive disks where the disk’s own gravity becomes dynamically important.\nUnder the right conditions, the disk may fragment into dense clumps of material that collapse gravitationally, potentially forming giant planets on much shorter timescales than the core accretion scenario."
+  },
+  {
+    "objectID": "index.html#morphology-of-protoplanetary-disks",
+    "href": "index.html#morphology-of-protoplanetary-disks",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Morphology of protoplanetary disks",
+    "text": "Morphology of protoplanetary disks\nHigh-resolution observations, especially those obtained with the Atacama Large Millimeter/submillimeter Array (ALMA), have revealed that many disks are not smooth or featureless. Instead, they often display a variety of substructures that may reflect the underlying physical processes shaping the disk.\nSome of the most common structures observed in protoplanetary disks include:\n\nBright rings and dark gaps\nThese annular structures are among the most common disk morphologies and may be associated with planet–disk interactions, dust growth, or changes in disk chemistry.\nSpiral arms\nSpiral patterns can arise from gravitational instabilities, perturbations by companions, or embedded planets.\nAsymmetric dust concentrations\nSome disks show crescent-like features or vortices that may act as dust traps, where solid particles accumulate efficiently.\nInner cavities\nCertain disks appear depleted of dust near their central regions, creating large inner holes or cavities.\n\nStudying these morphologies is important because disk structure provides clues about dust evolution, gas dynamics, and potential planet formation processes."
+  },
+  {
     "objectID": "index.html#available-disks",
     "href": "index.html#available-disks",
     "title": "Pilot Protoplanetary Disk Catalog",
     "section": "Available disks",
     "text": "Available disks\n\n\n\nHL Tau\nA young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.\nOpen disk page →"
+  },
+  {
+    "objectID": "index.html#activity",
+    "href": "index.html#activity",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Activity",
+    "text": "Activity\nComing soon"
   },
   {
     "objectID": "hl_tau.html",
