@@ -4,42 +4,49 @@
     "href": "index.html",
     "title": "Pilot Protoplanetary Disk Catalog",
     "section": "",
-    "text": "An interactive catalog of protoplanetary disks designed to explore disk morphology, annular substructures, and possible signatures of planet formation from observational data.\nThis site combines scientific summaries, individual disk pages, and future data-science activities for selected systems."
+    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
   },
   {
-    "objectID": "index.html#what-is-a-protoplanetary-disk",
-    "href": "index.html#what-is-a-protoplanetary-disk",
+    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
+    "href": "index.html#disk-accretion-and-angular-momentum-transport",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "What is a protoplanetary disk?",
-    "text": "What is a protoplanetary disk?\nA protoplanetary disk is a rotating structure of gas and dust surrounding a young star. These disks naturally form during the process of star formation, when a collapsing molecular cloud conserves angular momentum and produces a flattened disk around the central protostar.\nThe material within these disks provides the raw ingredients from which planetary systems are built. Dust grains can collide, grow, and evolve into larger solid bodies, while the gas component influences the dynamics and thermodynamics of the system.\nObservations of protoplanetary disks therefore provide a direct window into the earliest stages of planet formation and planetary system architecture."
+    "section": "Disk accretion and angular momentum transport",
+    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
   },
   {
-    "objectID": "index.html#planet-formation-theories",
-    "href": "index.html#planet-formation-theories",
+    "objectID": "index.html#gravitational-instability",
+    "href": "index.html#gravitational-instability",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Planet formation theories",
-    "text": "Planet formation theories\nAlthough many details remain uncertain, two major theoretical frameworks are commonly discussed when explaining how planets form in protoplanetary disks.\n\nCore accretion\nIn the core accretion scenario, microscopic dust grains collide and stick together through a sequence of growth stages. These grains gradually evolve into larger aggregates, pebbles, and planetesimals. Once solid bodies reach sufficiently large masses, they can gravitationally accrete surrounding material and form planetary cores.\nIf these cores grow beyond a critical mass, they may begin to accrete large envelopes of gas, eventually forming giant planets.\n\n\nGravitational instability\nAn alternative mechanism is gravitational instability, which can occur in massive disks where the disk’s own gravity becomes dynamically important.\nUnder the right conditions, the disk may fragment into dense clumps of material that collapse gravitationally, potentially forming giant planets on much shorter timescales than the core accretion scenario."
+    "section": "Gravitational instability",
+    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
   },
   {
-    "objectID": "index.html#morphology-of-protoplanetary-disks",
-    "href": "index.html#morphology-of-protoplanetary-disks",
+    "objectID": "index.html#rings-and-cavities",
+    "href": "index.html#rings-and-cavities",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Morphology of protoplanetary disks",
-    "text": "Morphology of protoplanetary disks\nHigh-resolution observations, especially those obtained with the Atacama Large Millimeter/submillimeter Array (ALMA), have revealed that many disks are not smooth or featureless. Instead, they often display a variety of substructures that may reflect the underlying physical processes shaping the disk.\nSome of the most common structures observed in protoplanetary disks include:\n\nBright rings and dark gaps\nThese annular structures are among the most common disk morphologies and may be associated with planet–disk interactions, dust growth, or changes in disk chemistry.\nSpiral arms\nSpiral patterns can arise from gravitational instabilities, perturbations by companions, or embedded planets.\nAsymmetric dust concentrations\nSome disks show crescent-like features or vortices that may act as dust traps, where solid particles accumulate efficiently.\nInner cavities\nCertain disks appear depleted of dust near their central regions, creating large inner holes or cavities.\n\nStudying these morphologies is important because disk structure provides clues about dust evolution, gas dynamics, and potential planet formation processes."
+    "section": "Rings and cavities",
+    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
   },
   {
-    "objectID": "index.html#available-disks",
-    "href": "index.html#available-disks",
+    "objectID": "index.html#rings-and-gaps",
+    "href": "index.html#rings-and-gaps",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Available disks",
-    "text": "Available disks\n\n\n\nHL Tau\nA young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.\nOpen disk page →"
+    "section": "Rings and gaps",
+    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
   },
   {
-    "objectID": "index.html#activity",
-    "href": "index.html#activity",
+    "objectID": "index.html#arcs",
+    "href": "index.html#arcs",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Activity",
-    "text": "Activity\nComing soon"
+    "section": "Arcs",
+    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
+  },
+  {
+    "objectID": "index.html#spirals",
+    "href": "index.html#spirals",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Spirals",
+    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
   },
   {
     "objectID": "hl_tau.html",
