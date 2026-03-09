@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "This project is an educational and computational pilot catalog of protoplanetary disks based on observational data.\n\n\nAS 209 HL Tau HD 163296"
+  },
+  {
+    "objectID": "index.html#available-disks",
+    "href": "index.html#available-disks",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "AS 209 HL Tau HD 163296"
+  },
+  {
+    "objectID": "hl_tau.html",
+    "href": "hl_tau.html",
+    "title": "HL Tau",
+    "section": "",
+    "text": "This is the first disk in the Pilot Protoplanetary Disk Catalog.\n\n\n\nHigh-resolution image of the protoplanetary disk around HL Tau obtained with ALMA.\n\n\n\nIf you can see this page and the image, the catalog website is working correctly."
+  },
+  {
+    "objectID": "hl_tau.html#alma-image",
+    "href": "hl_tau.html#alma-image",
+    "title": "HL Tau",
+    "section": "",
+    "text": "High-resolution image of the protoplanetary disk around HL Tau obtained with ALMA."
+  },
+  {
+    "objectID": "hl_tau.html#test",
+    "href": "hl_tau.html#test",
+    "title": "HL Tau",
+    "section": "",
+    "text": "If you can see this page and the image, the catalog website is working correctly."
+  }
+]
