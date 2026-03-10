@@ -59,17 +59,21 @@ Below are examples of protoplanetary disks observed at high angular resolution. 
 
 ::: {.disk-gallery}
 
-![](images/hl_tau_ALMA.jpg){width=70% fig-cap="Composite ALMA and Hubble image of the young star HL Tau and its protoplanetary disk, highlighting the ringed dust structure and the scale of the system relative to the Solar System. Credit: ALMA (ESO/NAOJ/NRAO), NASA/ESA."}
+::: {#fig-hltau}
+![](images/hl_tau_ALMA.jpg){width=70%}
+
+Composite image of the young star **HL Tau** and its surrounding protoplanetary disk obtained with ALMA and the Hubble Space Telescope, illustrating the ringed disk structure and the scale of the system relative to the Solar System.  
+**Credit:** ALMA (ESO/NAOJ/NRAO), NASA/ESA.
+:::
+
+::: {#fig-as209}
+![](images/as_209_eso.jpg){width=70%}
+
+ALMA image of the protoplanetary disk **AS 209**, showing thin, high-contrast rings viewed nearly face-on. These substructures were observed as part of the DSHARP survey and provide key clues about how planets may form and grow within young disks.  
+**Credit:** ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; NRAO/AUI/NSF, S. Dagnello.
+:::
 
 *(Additional images of other disks in the pilot catalog will be included here.)*
-
-Suggested examples:
-
-- HL Tau  
-- AS 209  
-- HD 163296  
-- TW Hya  
-- IM Lup  
 
 :::
 
