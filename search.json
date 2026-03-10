@@ -67,7 +67,7 @@
     "href": "as_209.html#general-system-properties",
     "title": "AS 209 — Protoplanetary Disk",
     "section": "General system properties",
-    "text": "General system properties\n\n\n\nProperty\nValue\n\n\n\n\nDistance\n126 pc\n\n\nAge\n~0.5–1 Myr\n\n\nSpectral type\nK5\n\n\nStellar mass\n~0.9 M☉\n\n\nStellar luminosity\n~1.5 L☉"
+    "text": "General system properties\n\n\n\nProperty\nValue\n\n\n\n\nDistance\n126 pc\n\n\nAge\n~0.5–1 Myr\n\n\nSpectral type\nK5\n\n\nStellar temperature\n4250 K\n\n\nStellar mass\n~0.9 M☉\n\n\nStellar luminosity\n~1.5 L☉\n\n\nDisk radius\n~200 AU\n\n\nDisk inclination\n~35°"
   },
   {
     "objectID": "as_209.html#observations",
@@ -88,7 +88,21 @@
     "href": "as_209.html#disk-morphology",
     "title": "AS 209 — Protoplanetary Disk",
     "section": "Disk morphology",
-    "text": "Disk morphology\n\n\n\nStructure\nType\nRadius (AU)\n\n\n\n\nG1\nGap\n62\n\n\nR1\nRing\n75\n\n\nG2\nGap\n103\n\n\nR2\nRing\n130"
+    "text": "Disk morphology\nALMA observations reveal a structured disk with multiple rings and gaps in the millimeter dust continuum emission. Two prominent rings are located at approximately 75 AU and 130 AU, separated by two narrow gaps at 62 AU and 103 AU."
+  },
+  {
+    "objectID": "as_209.html#morphology-measurements",
+    "href": "as_209.html#morphology-measurements",
+    "title": "AS 209 — Protoplanetary Disk",
+    "section": "Morphology measurements",
+    "text": "Morphology measurements\n\n\n\nStructure\nType\nRadius (AU)\n\n\n\n\nG1\nDark gap\n62\n\n\nR1\nBright ring\n75\n\n\nG2\nDark gap\n103\n\n\nR2\nBright ring\n130"
+  },
+  {
+    "objectID": "as_209.html#gap-properties",
+    "href": "as_209.html#gap-properties",
+    "title": "AS 209 — Protoplanetary Disk",
+    "section": "Gap properties",
+    "text": "Gap properties\n\n\n\nProperty\nValue\n\n\n\n\nGap 1 half width\n~8 AU\n\n\nGap 2 half width\n~16 AU"
   },
   {
     "objectID": "as_209.html#disk-size",
@@ -98,18 +112,11 @@
     "text": "Disk size\n\n\n\nProperty\nValue\n\n\n\n\nOuter dust emission\n~170–180 AU"
   },
   {
-    "objectID": "as_209.html#gap-parameters",
-    "href": "as_209.html#gap-parameters",
+    "objectID": "as_209.html#evidence-of-planet-formation",
+    "href": "as_209.html#evidence-of-planet-formation",
     "title": "AS 209 — Protoplanetary Disk",
-    "section": "Gap parameters",
-    "text": "Gap parameters\n\n\n\nProperty\nValue\n\n\n\n\nGap 1 center\n61.7 AU\n\n\nGap 1 half width\n8 AU\n\n\nGap 2 center\n103.2 AU\n\n\nGap 2 half width\n15.6 AU"
-  },
-  {
-    "objectID": "as_209.html#planet-candidate",
-    "href": "as_209.html#planet-candidate",
-    "title": "AS 209 — Protoplanetary Disk",
-    "section": "Planet candidate",
-    "text": "Planet candidate\n\n\n\nProperty\nValue\n\n\n\n\nPlanet mass (outer gap)\n~0.7 Saturn masses\n\n\nInner planet mass limit\n&lt;0.1 Jupiter masses\n\n\nPossible resonance\n~2:1"
+    "section": "Evidence of planet formation",
+    "text": "Evidence of planet formation\nHydrodynamic simulations of planet–disk interactions suggest that the observed gaps could be produced by embedded planets. The outer gap is consistent with a planet of approximately 0.7 Saturn masses, while the inner gap may be produced by a lower-mass planet with a mass below 0.1 Jupiter masses. The radial positions of the two gaps are also close to the ratio expected for planets trapped in a 2:1 orbital resonance, a configuration often predicted in planet formation models."
   },
   {
     "objectID": "as_209.html#activity",
