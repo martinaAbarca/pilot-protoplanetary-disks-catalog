@@ -195,6 +195,13 @@ ALMA image of the protoplanetary disk **Elias 24**, showing prominent concentric
 **Credit:** ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; N. Lira.
 :::
 
+::: {#fig-mwc758}
+![](images/mwc_758_morphology.jpg){width=70% fig-alt="MWC 758 protoplanetary disk spiral and arc structures"}
+
+Composite image of the planet-forming disk **MWC 758**, combining infrared observations from the SPHERE instrument on ESO’s Very Large Telescope with millimeter observations from ALMA. The image reveals asymmetric structures and arcs in the dust distribution that may be related to planet–disk interactions.  
+**Credit:** ESO/A. Garufi et al.; R. Dong et al.; ALMA (ESO/NAOJ/NRAO).
+:::
+
 These images illustrate how disk structures can vary significantly between systems and may provide clues about the processes occurring within them.
 
 ---

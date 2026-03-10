@@ -4,34 +4,153 @@
     "href": "index.html",
     "title": "Pilot Protoplanetary Disk Catalog",
     "section": "",
-    "text": "This project is an educational and computational pilot catalog of protoplanetary disks based on observational data.\n\n\nHL Tau"
+    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
   },
   {
-    "objectID": "index.html#available-disks",
-    "href": "index.html#available-disks",
+    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
+    "href": "index.html#disk-accretion-and-angular-momentum-transport",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "HL Tau"
+    "section": "Disk accretion and angular momentum transport",
+    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
+  },
+  {
+    "objectID": "index.html#gravitational-instability",
+    "href": "index.html#gravitational-instability",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Gravitational instability",
+    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
+  },
+  {
+    "objectID": "index.html#rings-and-cavities",
+    "href": "index.html#rings-and-cavities",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Rings and cavities",
+    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
+  },
+  {
+    "objectID": "index.html#rings-and-gaps",
+    "href": "index.html#rings-and-gaps",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Rings and gaps",
+    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
+  },
+  {
+    "objectID": "index.html#arcs",
+    "href": "index.html#arcs",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Arcs",
+    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
+  },
+  {
+    "objectID": "index.html#spirals",
+    "href": "index.html#spirals",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Spirals",
+    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
   },
   {
     "objectID": "hl_tau.html",
     "href": "hl_tau.html",
-    "title": "HL Tau",
+    "title": "HL Tau — Protoplanetary Disk",
     "section": "",
-    "text": "This is the first disk in the Pilot Protoplanetary Disk Catalog.\n\n\n\nHigh-resolution image of the protoplanetary disk around HL Tau obtained with ALMA.\n\n\n\nIf you can see this page and the image, the catalog website is working correctly."
+    "text": "Figure 1: Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk. Image credit: ALMA (ESO/NAOJ/NRAO).\nAs shown in Figure 1, the HL Tau disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission."
   },
   {
-    "objectID": "hl_tau.html#alma-image",
-    "href": "hl_tau.html#alma-image",
-    "title": "HL Tau",
-    "section": "",
-    "text": "High-resolution image of the protoplanetary disk around HL Tau obtained with ALMA."
+    "objectID": "hl_tau.html#object-names",
+    "href": "hl_tau.html#object-names",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Object names",
+    "text": "Object names\n\n\n\nCatalog\nName\n\n\n\n\nPrimary name\nHL Tau\n\n\nOther designations\nIRAS 04368+2557\n\n\nRegion\nTaurus Molecular Cloud"
   },
   {
-    "objectID": "hl_tau.html#test",
-    "href": "hl_tau.html#test",
-    "title": "HL Tau",
-    "section": "",
-    "text": "If you can see this page and the image, the catalog website is working correctly."
+    "objectID": "hl_tau.html#location",
+    "href": "hl_tau.html#location",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Location",
+    "text": "Location\nHL Tau is located in the Taurus Molecular Cloud, one of the closest star-forming regions to Earth. The system lies at a distance of approximately 140 parsecs (~450 light-years). Because of its proximity and young age, this region contains many protostars and protoplanetary disks that can be studied in detail."
+  },
+  {
+    "objectID": "hl_tau.html#overview-of-the-system",
+    "href": "hl_tau.html#overview-of-the-system",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Overview of the system",
+    "text": "Overview of the system\nHL Tau is one of the most iconic protoplanetary disks ever observed. High-resolution observations obtained with the Atacama Large Millimeter/submillimeter Array (ALMA) revealed a complex system of bright rings and dark gaps within the disk surrounding this very young star (ALMA Partnership et al. 2015).\nThese structures suggest that planet formation may begin much earlier than previously thought. With an estimated age of about 1–2 million years, HL Tau has become a key laboratory for studying the early stages of protoplanetary disk evolution and planet formation.\nPhysical models of the disk also indicate that millimeter-sized dust grains are concentrated in a very thin layer near the midplane and that turbulence in the system is relatively weak (Pinte et al. 2016). These conditions favor dust growth and the early formation of planetesimals."
+  },
+  {
+    "objectID": "hl_tau.html#general-system-properties",
+    "href": "hl_tau.html#general-system-properties",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "General system properties",
+    "text": "General system properties\n\n\n\nProperty\nValue\n\n\n\n\nDistance\n~140 pc\n\n\nAge\n~1–2 Myr\n\n\nEvolutionary class\nClass I–II\n\n\nSpectral type\nK5\n\n\nStellar mass\n~1.3–1.7 M☉\n\n\nDisk radius\n~100 AU\n\n\nDisk mass\n~0.03–0.14 M☉\n\n\nDisk inclination\n~47°\n\n\nDisk viscosity (α)\n≥ 2 × 10⁻⁴"
+  },
+  {
+    "objectID": "hl_tau.html#disk-morphology",
+    "href": "hl_tau.html#disk-morphology",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Disk morphology",
+    "text": "Disk morphology\nALMA observations show that the disk of HL Tau contains a complex radial structure composed of bright rings and dark gaps (ALMA Partnership et al. 2015). In total, 14 substructures have been identified, organized into seven bright rings (B1–B7) and seven dark gaps (D1–D7).\nThese features appear consistently across multiple millimeter wavelengths, confirming that they are real physical structures rather than observational artifacts.\nThe rings correspond to regions with a high concentration of dust, while the gaps indicate areas where the density of material is significantly reduced. This pattern suggests that strong dynamical processes are shaping the disk, possibly related to interactions between the disk and forming planets."
+  },
+  {
+    "objectID": "hl_tau.html#morphology-measurements",
+    "href": "hl_tau.html#morphology-measurements",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Morphology measurements",
+    "text": "Morphology measurements\n\n\n\nStructure\nType\nRadius (AU)\n\n\n\n\nD1\nDark gap\n13.2\n\n\nB1\nBright ring\n20.4\n\n\nD2\nDark gap\n32.3\n\n\nB2\nBright ring\n38.1\n\n\nD5\nDark gap\n64.2\n\n\nB5\nBright ring\n68.8\n\n\nD6\nDark gap\n73.7\n\n\nB6\nBright ring\n81.3\n\n\nD7\nDark gap\n~91\n\n\nB7\nBright ring\n~97"
+  },
+  {
+    "objectID": "hl_tau.html#dust-in-the-disk",
+    "href": "hl_tau.html#dust-in-the-disk",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Dust in the disk",
+    "text": "Dust in the disk\nDust in protoplanetary disks emits thermal radiation at millimeter wavelengths, allowing astronomers to study its distribution using interferometric observations. The spectral index of the emission provides information about the size and properties of the dust grains (ALMA Partnership et al. 2015).\nIn HL Tau, the central regions and some bright rings appear optically thick, indicating a high concentration of solid material. In contrast, the dark gaps exhibit lower brightness and higher spectral index values, suggesting that these regions contain less dust.\nThe dust opacity index β ≈ 0.3–0.8 indicates that dust grains have grown significantly beyond the typical size of interstellar grains, an important step toward the formation of planetesimals (ALMA Partnership et al. 2015).\nDisk models also show that millimeter-sized grains are strongly concentrated near the midplane, forming a geometrically thin layer. At a distance of about 100 AU, the vertical thickness of this dust layer is only ≈2 AU, indicating strong dust settling (Pinte et al. 2016).\nThis behavior implies that turbulence in the disk is relatively weak, with an estimated turbulent viscosity of α ≈ 3 × 10⁻⁴ (Pinte et al. 2016). Hydrodynamic simulations further show that small grains remain coupled to the gas, while larger millimeter grains migrate toward pressure maxima at the edges of gaps, where they accumulate into rings (Dipierro et al. 2015)."
+  },
+  {
+    "objectID": "hl_tau.html#dust-properties",
+    "href": "hl_tau.html#dust-properties",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Dust properties",
+    "text": "Dust properties\n\n\n\nProperty\nValue\n\n\n\n\nAverage spectral index (α)\n2.77 ± 0.13\n\n\nCentral α\n~2\n\n\nDark ring α\n~2.3–3.0\n\n\nDust opacity index (β)\n~0.3–0.8\n\n\nCentral temperature\n~212 K\n\n\nB1 temperature\n~59 K\n\n\nB6 temperature\n~24 K\n\n\nDust scale height (100 AU)\n~2 AU\n\n\nTurbulent viscosity (α)\n~3 × 10⁻⁴\n\n\nTotal dust mass\n~5 × 10⁻⁴ M☉ (~160 M⊕)"
+  },
+  {
+    "objectID": "hl_tau.html#gas-in-the-disk",
+    "href": "hl_tau.html#gas-in-the-disk",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Gas in the disk",
+    "text": "Gas in the disk\nThe disk around HL Tau also contains a large amount of molecular gas, observable through spectral lines of molecules such as CO, HCO⁺, CN, and HCN (ALMA Partnership et al. 2015). These emission lines allow astronomers to measure the velocity of the gas through the Doppler effect.\nObservations show that the gas follows a Keplerian rotation pattern around the central star, with velocities ranging from approximately 2 to 12 km/s. Position–velocity diagrams of CO emission indicate that the mass of the central star is close to 1.7 solar masses (ALMA Partnership et al. 2015).\nThe gas disk also extends farther than the region where millimeter dust emission is detected, which is typical in protoplanetary disks."
+  },
+  {
+    "objectID": "hl_tau.html#gas-properties",
+    "href": "hl_tau.html#gas-properties",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Gas properties",
+    "text": "Gas properties\n\n\n\nProperty\nValue\n\n\n\n\nMolecular tracers\nHCO⁺, CO, CN, HCN\n\n\nVelocity range\n2–12 km/s\n\n\nSystemic velocity\n7.0 ± 0.2 km/s\n\n\nRotation type\nKeplerian\n\n\nDisk inclination\n~47°\n\n\nStellar mass (kinematic)\n~1.7 M☉\n\n\nGas inner radius\n~10 AU"
+  },
+  {
+    "objectID": "hl_tau.html#evidence-of-planet-formation",
+    "href": "hl_tau.html#evidence-of-planet-formation",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Evidence of planet formation",
+    "text": "Evidence of planet formation\nSeveral lines of evidence suggest that HL Tau may already be forming planets. The dark gaps observed in the disk correspond to regions where the dust density is significantly lower than in neighboring rings (ALMA Partnership et al. 2015).\nModels indicate that the formation of the largest gaps may require the removal of up to ≈40 Earth masses of dust, material that could have been incorporated into growing planetary cores (Dipierro et al. 2015).\nHydrodynamic simulations show that embedded planets can generate these structures through gravitational perturbations. Models including three protoplanets located at approximately 13.2 AU, 32.3 AU, and 68.8 AU reproduce many of the observed features of the disk. The estimated masses of these planets are about 0.2, 0.27, and 0.55 Jupiter masses (Dipierro et al. 2015).\nThese simulations also show that gaps are easier to open in dust than in gas, meaning that the structures observed in millimeter continuum images primarily trace the distribution of solid material."
+  },
+  {
+    "objectID": "hl_tau.html#physical-interpretation-of-hl-tau",
+    "href": "hl_tau.html#physical-interpretation-of-hl-tau",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Physical interpretation of HL Tau",
+    "text": "Physical interpretation of HL Tau\nTaken together, high-resolution ALMA observations and physical models indicate that HL Tau is an extremely young system in which planet formation may already be underway. The presence of massive dust rings, deep gaps, and millimeter-sized grains suggests that solid material in the disk is evolving toward the formation of planetesimals. Hydrodynamic simulations indicate that several young protoplanets with masses comparable to giant planets could explain the observed disk structures (Dipierro et al. 2015)."
+  },
+  {
+    "objectID": "hl_tau.html#activity",
+    "href": "hl_tau.html#activity",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "Activity",
+    "text": "Activity\nComing soon"
+  },
+  {
+    "objectID": "hl_tau.html#references",
+    "href": "hl_tau.html#references",
+    "title": "HL Tau — Protoplanetary Disk",
+    "section": "References",
+    "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
   }
 ]
