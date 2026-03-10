@@ -125,15 +125,34 @@ figure img {
   border-radius: 10px;
 }
 
+/* Disk grid for Available disks */
+.disk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin: 1.4rem 0 2rem 0;
+  align-items: stretch;
+}
+
 /* Disk card */
 .disk-card {
   background: linear-gradient(180deg, rgba(26, 26, 26, 0.96), rgba(14, 14, 14, 0.96));
   border: 1px solid #2d2d2d;
   border-radius: 16px;
   padding: 1rem;
-  margin: 1.3rem 0 2rem 0;
+  margin: 0;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
-  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.disk-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
 }
 
 .disk-card h3 {
@@ -141,9 +160,23 @@ figure img {
   margin-bottom: 0.5rem;
 }
 
+.disk-card p {
+  margin-bottom: 0.8rem;
+}
+
+.disk-card p em {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #cfcfcf;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}
+
 .disk-link {
   display: inline-block;
-  margin-top: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.4rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -320,4 +353,16 @@ hr {
 .glightbox-clean .gnext,
 .glightbox-clean .gprev {
   color: #ffffff !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .disk-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .disk-card {
+    padding: 0.9rem;
+  }
 }
