@@ -87,7 +87,15 @@ ALMA observations reveal a structured disk with multiple rings and gaps in the m
 
 ## Evidence of planet formation
 
-Hydrodynamic simulations of planet–disk interactions suggest that the observed gaps could be produced by embedded planets. The outer gap is consistent with a planet of approximately **0.7 Saturn masses**, while the inner gap may be produced by a lower-mass planet with a mass below **0.1 Jupiter masses**. The radial positions of the two gaps are also close to the ratio expected for planets trapped in a **2:1 orbital resonance**, a configuration often predicted in planet formation models.
+Hydrodynamic simulations of planet–disk interactions indicate that the ringed structure observed in the AS 209 disk can be explained by the presence of a forming giant planet embedded in the disk. The best agreement between simulations and observations is obtained for a **Saturn-mass planet** with a mass of approximately **0.2 Jupiter masses (≈0.67 Saturn masses)** located at a distance of about **95 AU** from the central star.
+
+This planet is capable of producing a deep outer gap in the dust distribution while simultaneously inducing a second inner gap through its gravitational interaction with the surrounding disk material. The structure of the gaps depends strongly on the viscosity of the disk, and the simulations suggest that the disk of AS 209 likely has **very low turbulence**, corresponding to a viscosity parameter **α ≤ 10⁻⁴**.
+
+The radial positions of the two observed gaps (62 AU and 103 AU) are close to the orbital spacing expected for planets in a **2:1 orbital resonance**, which raises the possibility that a second, lower-mass planet could also be present in the inner gap. Simulations show that such a planet would need to have a mass **below ~0.1 Jupiter masses** in order to remain consistent with the observed gap widths.
+
+Radiative transfer modeling also indicates that the presence of a giant planet can create a **pressure maximum in the gas disk**, which traps drifting dust grains and produces the bright rings observed in millimeter continuum emission. Observations of the **C¹⁸O molecular emission** show extended gas emission peaking near **130 AU**, spatially coincident with the outer dust ring. This suggests that the gas surface density follows the large-scale structure of the dust disk and supports the interpretation that the observed rings and gaps are produced by planet–disk interactions.
+
+Taken together, these results indicate that the substructures observed in AS 209 are consistent with the presence of a **forming giant planet in the outer disk**, making this system an important laboratory for studying the early stages of planet formation at large orbital distances.
 
 ## Activity
 
