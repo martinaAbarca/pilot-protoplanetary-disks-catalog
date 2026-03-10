@@ -37,7 +37,24 @@ As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and 
 | Property | Value |
 |---|---|
 | Instrument | ALMA |
+| ALMA band | Band 6 |
+| Observing frequency | ~230 GHz |
 | Wavelength | 1.3 mm dust continuum |
+| Observation date | 22–26 September 2016 |
+| Number of antennas | 38–41 |
+| Integration time | ~40 min per execution block |
+| System temperature | 80–145 K |
+| Precipitable water vapour | 2.2–2.3 mm |
+| Peak flux | 13 mJy beam⁻¹ |
+| RMS noise | 0.1 mJy beam⁻¹ |
+
+## Disk geometry
+
+| Property | Value |
+|---|---|
+| Disk inclination | 35.3° |
+| Position angle | 86° |
+| Synthesized beam | 0.19″ × 0.14″ |
 
 ## Disk morphology
 
@@ -47,6 +64,21 @@ As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and 
 | R1 | Ring | 75 |
 | G2 | Gap | 103 |
 | R2 | Ring | 130 |
+
+## Disk size
+
+| Property | Value |
+|---|---|
+| Outer dust emission | ~170–180 AU |
+
+## Gap parameters
+
+| Property | Value |
+|---|---|
+| Gap 1 center | 61.7 AU |
+| Gap 1 half width | 8 AU |
+| Gap 2 center | 103.2 AU |
+| Gap 2 half width | 15.6 AU |
 
 ## Planet candidate
 
