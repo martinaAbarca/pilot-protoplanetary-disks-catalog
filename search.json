@@ -130,7 +130,14 @@
     "href": "as_209.html#observations",
     "title": "AS 209 — Protoplanetary Disk",
     "section": "Observations",
-    "text": "Observations\n\n\n\nProperty\nValue\n\n\n\n\nInstrument\nALMA\n\n\nWavelength\n1.3 mm dust continuum"
+    "text": "Observations\n\n\n\nProperty\nValue\n\n\n\n\nInstrument\nALMA\n\n\nALMA band\nBand 6\n\n\nObserving frequency\n~230 GHz\n\n\nWavelength\n1.3 mm dust continuum\n\n\nObservation date\n22–26 September 2016\n\n\nNumber of antennas\n38–41\n\n\nIntegration time\n~40 min per execution block\n\n\nSystem temperature\n80–145 K\n\n\nPrecipitable water vapour\n2.2–2.3 mm\n\n\nPeak flux\n13 mJy beam⁻¹\n\n\nRMS noise\n0.1 mJy beam⁻¹"
+  },
+  {
+    "objectID": "as_209.html#disk-geometry",
+    "href": "as_209.html#disk-geometry",
+    "title": "AS 209 — Protoplanetary Disk",
+    "section": "Disk geometry",
+    "text": "Disk geometry\n\n\n\nProperty\nValue\n\n\n\n\nDisk inclination\n35.3°\n\n\nPosition angle\n86°\n\n\nSynthesized beam\n0.19″ × 0.14″"
   },
   {
     "objectID": "as_209.html#disk-morphology",
@@ -138,6 +145,20 @@
     "title": "AS 209 — Protoplanetary Disk",
     "section": "Disk morphology",
     "text": "Disk morphology\n\n\n\nStructure\nType\nRadius (AU)\n\n\n\n\nG1\nGap\n62\n\n\nR1\nRing\n75\n\n\nG2\nGap\n103\n\n\nR2\nRing\n130"
+  },
+  {
+    "objectID": "as_209.html#disk-size",
+    "href": "as_209.html#disk-size",
+    "title": "AS 209 — Protoplanetary Disk",
+    "section": "Disk size",
+    "text": "Disk size\n\n\n\nProperty\nValue\n\n\n\n\nOuter dust emission\n~170–180 AU"
+  },
+  {
+    "objectID": "as_209.html#gap-parameters",
+    "href": "as_209.html#gap-parameters",
+    "title": "AS 209 — Protoplanetary Disk",
+    "section": "Gap parameters",
+    "text": "Gap parameters\n\n\n\nProperty\nValue\n\n\n\n\nGap 1 center\n61.7 AU\n\n\nGap 1 half width\n8 AU\n\n\nGap 2 center\n103.2 AU\n\n\nGap 2 half width\n15.6 AU"
   },
   {
     "objectID": "as_209.html#planet-candidate",
