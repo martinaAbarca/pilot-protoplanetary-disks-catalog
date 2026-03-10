@@ -202,6 +202,13 @@ Composite image of the planet-forming disk **MWC 758**, combining infrared obser
 **Credit:** ESO/A. Garufi et al.; R. Dong et al.; ALMA (ESO/NAOJ/NRAO).
 :::
 
+::: {#fig-irs48}
+![](images/irs_48_morphology.jpg){width=70% fig-alt="IRS 48 protoplanetary disk dust trap observed with ALMA"}
+
+Composite image of the planet-forming disk **IRS 48 (Oph-IRS 48)** showing a pronounced crescent-shaped dust trap where millimetre-sized grains accumulate. Such structures may help dust grow into larger bodies during planet formation.  
+**Credit:** ESO/L. Calçada; ALMA (ESO/NAOJ/NRAO); A. Pohl; van der Marel et al.; Brunken et al.
+:::
+
 :::
 
 These images illustrate how disk structures can vary significantly between systems and may provide clues about the processes occurring within them.
