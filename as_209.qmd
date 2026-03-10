@@ -22,6 +22,14 @@ As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and 
 | Other designations | — |
 | Region | Ophiuchus star-forming region |
 
+## Location
+
+This system is located in the **Ophiuchus molecular cloud**, a star-forming region that hosts many young stellar systems. Specifically, the location of this system is described as:
+
+“AS 209 (M⋆ = 0.9 M⊙, spectral type K5, L⋆ = 1.5 L⊙) is part of the young Ophiuchus star forming region at a distance of 126 pc from the Sun” (Fedele et al., 2018, p. 2).
+
+Its distance of **126 pc from Earth** makes it an accessible object for **high-resolution observations using millimeter interferometry**.
+
 ## General system properties
 
 | Property | Value |
