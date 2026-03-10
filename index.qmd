@@ -56,7 +56,7 @@ A young protoplanetary disk well known for its concentric rings and gaps reveale
 :::
 
 ::: {.disk-card}
-![](images/as_209_fichas.png){width=100%}
+![](images/as_209_ficha.png){width=100%}
 
 ### AS 209
 
