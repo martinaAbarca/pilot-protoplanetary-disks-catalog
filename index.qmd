@@ -73,6 +73,13 @@ ALMA image of the protoplanetary disk **AS 209**, showing thin, high-contrast ri
 **Credit:** ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; NRAO/AUI/NSF, S. Dagnello.
 :::
 
+::: {#fig-hd163296}
+![](images/hd_163296_gallery.jpg){width=70%}
+
+ALMA image of the protoplanetary disk surrounding the young star **HD 163296**. Observations of the disk revealed structures in both the dust and gas distributions that suggest the presence of two forming planets embedded in the disk.  
+**Credit:** ALMA (ESO/NAOJ/NRAO), AUI/NSF, A. Isella, B. Saxton.
+:::
+
 *(Additional images of other disks in the pilot catalog will be included here.)*
 
 :::
