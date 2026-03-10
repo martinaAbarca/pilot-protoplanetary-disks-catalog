@@ -67,7 +67,7 @@
     "href": "as_209.html#location",
     "title": "AS 209 — Protoplanetary Disk",
     "section": "Location",
-    "text": "Location\nThis system is located in the Ophiuchus molecular cloud, a star-forming region that hosts many young stellar systems. Specifically, the location of this system is described as:\n“AS 209 (M⋆ = 0.9 M⊙, spectral type K5, L⋆ = 1.5 L⊙) is part of the young Ophiuchus star forming region at a distance of 126 pc from the Sun” (Fedele et al., 2018, p. 2).\nIts distance of 126 pc from Earth makes it an accessible object for high-resolution observations using millimeter interferometry."
+    "text": "Location\nThis system is located in the Ophiuchus molecular cloud, a star-forming region that hosts many young stellar systems. Specifically, the location of this system is described as:\n“AS 209 (M⋆ = 0.9 M⊙, spectral type K5, L⋆ = 1.5 L⊙) is part of the young Ophiuchus star forming region at a distance of 126 pc from the Sun” (Fedele et al. 2018, 2).\nIts distance of 126 pc from Earth makes it an accessible object for high-resolution observations using millimeter interferometry."
   },
   {
     "objectID": "as_209.html#general-system-properties",
@@ -137,7 +137,7 @@
     "href": "as_209.html#references",
     "title": "AS 209 — Protoplanetary Disk",
     "section": "References",
-    "text": "References"
+    "text": "References\n\n\nFedele, Davide, Marco Tazzari, Richard Booth, Leonardo Testi, Cathie J. Clarke, Ilaria Pascucci, Agnes Kospal, et al. 2018. “ALMA Continuum Observations of the Protoplanetary Disk AS 209: Evidence of Multiple Gaps Opened by a Single Planet?” Astronomy & Astrophysics 610: A24. https://doi.org/10.1051/0004-6361/201731978."
   },
   {
     "objectID": "hl_tau.html",
