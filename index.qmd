@@ -59,7 +59,9 @@ Below are examples of protoplanetary disks observed at high angular resolution. 
 
 ::: {.disk-gallery}
 
-*(Insert images of multiple disks here)*
+![](images/hl_tau_ALMA.jpg){fig-cap="ALMA image of the protoplanetary disk around HL Tau revealing multiple concentric rings in the dust distribution. Credit: ALMA (ESO/NAOJ/NRAO)." width=70%}
+
+*(Additional images of other disks in the pilot catalog will be included here.)*
 
 Suggested examples:
 
