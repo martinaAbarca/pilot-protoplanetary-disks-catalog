@@ -1,54 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
-  },
-  {
-    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
-    "href": "index.html#disk-accretion-and-angular-momentum-transport",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Disk accretion and angular momentum transport",
-    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
-  },
-  {
-    "objectID": "index.html#gravitational-instability",
-    "href": "index.html#gravitational-instability",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Gravitational instability",
-    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
-  },
-  {
-    "objectID": "index.html#rings-and-cavities",
-    "href": "index.html#rings-and-cavities",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and cavities",
-    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
-  },
-  {
-    "objectID": "index.html#rings-and-gaps",
-    "href": "index.html#rings-and-gaps",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and gaps",
-    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
-  },
-  {
-    "objectID": "index.html#arcs",
-    "href": "index.html#arcs",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Arcs",
-    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
-  },
-  {
-    "objectID": "index.html#spirals",
-    "href": "index.html#spirals",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Spirals",
-    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
-  },
-  {
     "objectID": "hl_tau.html",
     "href": "hl_tau.html",
     "title": "HL Tau — Protoplanetary Disk",
@@ -152,5 +103,61 @@
     "title": "HL Tau — Protoplanetary Disk",
     "section": "References",
     "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
+  },
+  {
+    "objectID": "as_209.html",
+    "href": "as_209.html",
+    "title": "AS 209",
+    "section": "",
+    "text": "AS 209\nThis page will contain the catalog entry for the protoplanetary disk AS 209.\nMore information will be added soon."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
+  },
+  {
+    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
+    "href": "index.html#disk-accretion-and-angular-momentum-transport",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Disk accretion and angular momentum transport",
+    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
+  },
+  {
+    "objectID": "index.html#gravitational-instability",
+    "href": "index.html#gravitational-instability",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Gravitational instability",
+    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
+  },
+  {
+    "objectID": "index.html#rings-and-cavities",
+    "href": "index.html#rings-and-cavities",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Rings and cavities",
+    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
+  },
+  {
+    "objectID": "index.html#rings-and-gaps",
+    "href": "index.html#rings-and-gaps",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Rings and gaps",
+    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
+  },
+  {
+    "objectID": "index.html#arcs",
+    "href": "index.html#arcs",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Arcs",
+    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
+  },
+  {
+    "objectID": "index.html#spirals",
+    "href": "index.html#spirals",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Spirals",
+    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
   }
 ]
