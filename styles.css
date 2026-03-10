@@ -106,6 +106,19 @@ code {
   color: #dcdcdc;
 }
 
+/* Ensure images inside galleries are visible and centered */
+.disk-gallery img,
+.substructure-gallery img,
+.process-diagram img,
+.quarto-figure img,
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
 /* Disk card */
 .disk-card {
   background: linear-gradient(180deg, rgba(26, 26, 26, 0.96), rgba(14, 14, 14, 0.96));
@@ -162,11 +175,6 @@ figure {
   margin-bottom: 1.5rem;
 }
 
-.quarto-figure img,
-figure img {
-  border-radius: 10px;
-}
-
 /* Tables */
 table {
   width: 100%;
@@ -197,112 +205,4 @@ tbody tr:nth-child(even) td {
 
 /* Quarto / bootstrap table overrides */
 .table {
-  color: #ffffff !important;
-  --bs-table-color: #ffffff;
-  --bs-table-bg: #7f2f1b;
-  --bs-table-border-color: #c45b3e;
-  --bs-table-striped-bg: #903522;
-  --bs-table-striped-color: #ffffff;
-  --bs-table-hover-bg: #9d3a24;
-  --bs-table-hover-color: #ffffff;
-}
-
-.table th {
-  background-color: #a63f24 !important;
-  color: #ffffff !important;
-}
-
-.table td {
-  color: #ffffff !important;
-}
-
-/* References / bibliography */
-#refs,
-.references {
-  background: transparent !important;
-  color: #ffffff !important;
-  padding: 0 !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.csl-entry {
-  background: transparent !important;
-  color: #e8e8e8 !important;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-.csl-entry a,
-#refs a,
-.references a {
-  color: #7fd7ff !important;
-}
-
-.csl-entry i,
-.csl-entry em {
-  color: #dcdcdc !important;
-}
-
-/* Remove possible white bibliography blocks */
-div#refs,
-div.references,
-#refs p,
-.references p {
-  background: transparent !important;
-  color: #e8e8e8 !important;
-}
-
-/* Horizontal rules and section separators */
-hr {
-  border: 0;
-  border-top: 1px solid #2b2b2b;
-  margin: 2rem 0;
-}
-
-/* Sidebar TOC: "On this page" */
-.sidebar nav[role="doc-toc"] {
-  border-left: 2px solid #4da3ff;
-  padding-left: 0.8rem;
-}
-
-.sidebar nav[role="doc-toc"] a {
-  color: #9bbcff;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.sidebar nav[role="doc-toc"] a:hover {
-  color: #ffffff;
-}
-
-.sidebar nav[role="doc-toc"] .active {
-  color: #4da3ff !important;
-  font-weight: 700;
-}
-
-/* TOC title */
-.sidebar .toc-title,
-#quarto-margin-sidebar .toc-title {
-  color: #dfe9ff;
-  font-weight: 700;
-}
-
-/* Slightly cleaner sidebar spacing */
-#quarto-margin-sidebar .sidebar nav[role="doc-toc"] ul,
-.sidebar nav[role="doc-toc"] ul {
-  line-height: 1.45;
-}
-
-/* Lightbox / zoomed image appearance */
-.glightbox-clean .gslide-description,
-.glightbox-clean .gdesc-inner {
-  color: #f5f5f5 !important;
-  background: #111 !important;
-}
-
-.glightbox-clean .gclose,
-.glightbox-clean .gnext,
-.glightbox-clean .gprev {
-  color: #ffffff !important;
-}
+  color: #
