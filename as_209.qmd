@@ -29,8 +29,11 @@ As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and 
 | Distance | 126 pc |
 | Age | ~0.5–1 Myr |
 | Spectral type | K5 |
+| Stellar temperature | 4250 K |
 | Stellar mass | ~0.9 M☉ |
 | Stellar luminosity | ~1.5 L☉ |
+| Disk radius | ~200 AU |
+| Disk inclination | ~35° |
 
 ## Observations
 
@@ -58,12 +61,23 @@ As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and 
 
 ## Disk morphology
 
+ALMA observations reveal a structured disk with multiple rings and gaps in the millimeter dust continuum emission. Two prominent rings are located at approximately **75 AU** and **130 AU**, separated by two narrow gaps at **62 AU** and **103 AU**.
+
+## Morphology measurements
+
 | Structure | Type | Radius (AU) |
 |---|---|---|
-| G1 | Gap | 62 |
-| R1 | Ring | 75 |
-| G2 | Gap | 103 |
-| R2 | Ring | 130 |
+| G1 | Dark gap | 62 |
+| R1 | Bright ring | 75 |
+| G2 | Dark gap | 103 |
+| R2 | Bright ring | 130 |
+
+## Gap properties
+
+| Property | Value |
+|---|---|
+| Gap 1 half width | ~8 AU |
+| Gap 2 half width | ~16 AU |
 
 ## Disk size
 
@@ -71,22 +85,9 @@ As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and 
 |---|---|
 | Outer dust emission | ~170–180 AU |
 
-## Gap parameters
+## Evidence of planet formation
 
-| Property | Value |
-|---|---|
-| Gap 1 center | 61.7 AU |
-| Gap 1 half width | 8 AU |
-| Gap 2 center | 103.2 AU |
-| Gap 2 half width | 15.6 AU |
-
-## Planet candidate
-
-| Property | Value |
-|---|---|
-| Planet mass (outer gap) | ~0.7 Saturn masses |
-| Inner planet mass limit | <0.1 Jupiter masses |
-| Possible resonance | ~2:1 |
+Hydrodynamic simulations of planet–disk interactions suggest that the observed gaps could be produced by embedded planets. The outer gap is consistent with a planet of approximately **0.7 Saturn masses**, while the inner gap may be produced by a lower-mass planet with a mass below **0.1 Jupiter masses**. The radial positions of the two gaps are also close to the ratio expected for planets trapped in a **2:1 orbital resonance**, a configuration often predicted in planet formation models.
 
 ## Activity
 
