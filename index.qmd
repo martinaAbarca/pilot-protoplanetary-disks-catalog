@@ -202,6 +202,8 @@ Composite image of the planet-forming disk **MWC 758**, combining infrared obser
 **Credit:** ESO/A. Garufi et al.; R. Dong et al.; ALMA (ESO/NAOJ/NRAO).
 :::
 
+:::
+
 These images illustrate how disk structures can vary significantly between systems and may provide clues about the processes occurring within them.
 
 ---
