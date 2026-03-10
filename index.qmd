@@ -84,6 +84,20 @@ ALMA image of the protoplanetary disk surrounding the young star **HD 163296**. 
 **Credit:** ALMA (ESO/NAOJ/NRAO), AUI/NSF, A. Isella, B. Saxton.
 :::
 
+::: {#fig-imlupi}
+![](images/im_lupi_gallery.jpg){width=70% fig-alt="IM Lupi protoplanetary disk observed with SPHERE"}
+
+High-resolution image of the dusty protoplanetary disk around the young star **IM Lupi**, obtained with the SPHERE instrument on ESO’s Very Large Telescope, revealing fine structures in the disk.  
+**Credit:** ESO/H. Avenhaus et al./DARTT-S collaboration.
+:::
+
+::: {#fig-pds70}
+![](images/pds_70_gallery.jpg){width=70% fig-alt="PDS 70 protoplanetary system observed with ALMA"}
+
+ALMA image of the **PDS 70** system, a young planetary system still in formation. The planets have carved a large cavity in the circumstellar disk, and one of them is associated with a circumplanetary disk where moons may form.  
+**Credit:** ALMA (ESO/NAOJ/NRAO)/Benisty et al.
+:::
+
 *(Additional images of other disks in the pilot catalog will be included here.)*
 
 :::
@@ -174,15 +188,11 @@ Large-scale spiral patterns can arise from gravitational instability or perturba
 
 ::: {.substructure-gallery}
 
-*(Insert images of substructures here)*
+::: {#fig-elias24}
+![](images/elias_24_morphology.jpg){width=70% fig-alt="Elias 24 protoplanetary disk rings and gaps observed with ALMA"}
 
-Possible examples:
-
-- HL Tau rings  
-- AS 209 rings and gaps  
-- MWC 758 arcs  
-- spiral arms in scattered-light disks
-
+ALMA image of the protoplanetary disk **Elias 24**, showing prominent concentric rings and gaps in the dust distribution, typical substructures observed in planet-forming disks.  
+**Credit:** ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; N. Lira.
 :::
 
 These images illustrate how disk structures can vary significantly between systems and may provide clues about the processes occurring within them.
