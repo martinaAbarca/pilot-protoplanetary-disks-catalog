@@ -45,8 +45,13 @@ Understanding this density structure is essential because it determines the disk
 
 # Available disks
 
+::: {.disk-grid}
+
 ::: {.disk-card}
 ![](images/hl_tau_eso.jpg){width=100%}
+
+*Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk.  
+Credit: ALMA (ESO/NAOJ/NRAO).*
 
 ### HL Tau
 
@@ -58,11 +63,16 @@ A young protoplanetary disk well known for its concentric rings and gaps reveale
 ::: {.disk-card}
 ![](images/as_209_ficha.png){width=100%}
 
+*ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation.  
+Credit: ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile).*
+
 ### AS 209
 
 A protoplanetary disk observed with ALMA that shows multiple narrow rings and gaps, often interpreted as signatures of planet formation.
 
 [Open disk page →](as_209.qmd){.disk-link}
+:::
+
 :::
 
 ---
