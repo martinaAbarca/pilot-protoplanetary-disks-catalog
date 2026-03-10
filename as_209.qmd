@@ -1,10 +1,66 @@
 ---
-title: "AS 209"
-format: html
+title: "AS 209 — Protoplanetary Disk"
+bibliography: references.bib
+format:
+  html:
+    toc: true
+    theme: cosmo
+    css: styles.css
+    code-fold: false
+lightbox: true
 ---
 
-# AS 209
+![ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation. Credit: ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile).](images/as_209_ficha.png){#fig-as209 fig-align="center" width="650"}
 
-This page will contain the catalog entry for the protoplanetary disk **AS 209**.
+As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission.
 
-More information will be added soon.
+## Object names
+
+| Catalog | Name |
+|---|---|
+| Primary name | AS 209 |
+| Other designations | — |
+| Region | Ophiuchus star-forming region |
+
+## General system properties
+
+| Property | Value |
+|---|---|
+| Distance | 126 pc |
+| Age | ~0.5–1 Myr |
+| Spectral type | K5 |
+| Stellar mass | ~0.9 M☉ |
+| Stellar luminosity | ~1.5 L☉ |
+
+## Observations
+
+| Property | Value |
+|---|---|
+| Instrument | ALMA |
+| Wavelength | 1.3 mm dust continuum |
+
+## Disk morphology
+
+| Structure | Type | Radius (AU) |
+|---|---|---|
+| G1 | Gap | 62 |
+| R1 | Ring | 75 |
+| G2 | Gap | 103 |
+| R2 | Ring | 130 |
+
+## Planet candidate
+
+| Property | Value |
+|---|---|
+| Planet mass (outer gap) | ~0.7 Saturn masses |
+| Inner planet mass limit | <0.1 Jupiter masses |
+| Possible resonance | ~2:1 |
+
+## Activity
+
+**Coming soon**
+
+## References
+
+::: {#refs}
+:::
