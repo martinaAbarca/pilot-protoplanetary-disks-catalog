@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -37,10 +57,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -117,12 +137,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#location" id="toc-location" class="nav-link" data-scroll-target="#location">Location</a></li>
   <li><a href="#overview-of-the-system" id="toc-overview-of-the-system" class="nav-link" data-scroll-target="#overview-of-the-system">Overview of the system</a></li>
   <li><a href="#general-system-properties" id="toc-general-system-properties" class="nav-link" data-scroll-target="#general-system-properties">General system properties</a></li>
-  <li><a href="#observations" id="toc-observations" class="nav-link" data-scroll-target="#observations">Observations</a></li>
-  <li><a href="#disk-geometry" id="toc-disk-geometry" class="nav-link" data-scroll-target="#disk-geometry">Disk geometry</a></li>
   <li><a href="#disk-morphology" id="toc-disk-morphology" class="nav-link" data-scroll-target="#disk-morphology">Disk morphology</a></li>
   <li><a href="#morphology-measurements" id="toc-morphology-measurements" class="nav-link" data-scroll-target="#morphology-measurements">Morphology measurements</a></li>
-  <li><a href="#gas-structure" id="toc-gas-structure" class="nav-link" data-scroll-target="#gas-structure">Gas structure</a></li>
+  <li><a href="#dust-in-the-disk" id="toc-dust-in-the-disk" class="nav-link" data-scroll-target="#dust-in-the-disk">Dust in the disk</a></li>
+  <li><a href="#dust-properties" id="toc-dust-properties" class="nav-link" data-scroll-target="#dust-properties">Dust properties</a></li>
+  <li><a href="#gas-in-the-disk" id="toc-gas-in-the-disk" class="nav-link" data-scroll-target="#gas-in-the-disk">Gas in the disk</a></li>
+  <li><a href="#gas-properties" id="toc-gas-properties" class="nav-link" data-scroll-target="#gas-properties">Gas properties</a></li>
   <li><a href="#evidence-of-planet-formation" id="toc-evidence-of-planet-formation" class="nav-link" data-scroll-target="#evidence-of-planet-formation">Evidence of planet formation</a></li>
+  <li><a href="#physical-interpretation-of-hd-163296" id="toc-physical-interpretation-of-hd-163296" class="nav-link" data-scroll-target="#physical-interpretation-of-hd-163296">Physical interpretation of HD 163296</a></li>
   <li><a href="#activity" id="toc-activity" class="nav-link" data-scroll-target="#activity">Activity</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -150,64 +172,291 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="fig-hd163296" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" width="650">
+<div id="fig-hd163296" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-hd163296-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<p><a href="images/hd_163296_ficha.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Credit: ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF)."><img src="images/hd_163296_ficha.jpg" class="img-fluid figure-img"></a></p>
-<p>Composite ALMA image of the protoplanetary disk surrounding the young star <strong>HD 163296</strong>. The inner red region traces the dust distribution, while the broader blue component shows carbon monoxide gas in the disk. Significant decreases in CO emission within the outer dust gaps suggest the presence of forming planets.</p>
+<a href="images/hd163296.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO)."><img src="images/hd163296.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="650"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hd163296-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: <strong>Credit:</strong> ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).
+Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).
 </figcaption>
 </figure>
 </div>
-<hr>
-<section id="object-names" class="level1">
-<h1>Object names</h1>
-<hr>
-</section>
-<section id="location" class="level1">
-<h1>Location</h1>
-<hr>
-</section>
-<section id="overview-of-the-system" class="level1">
-<h1>Overview of the system</h1>
-<hr>
-</section>
-<section id="general-system-properties" class="level1">
-<h1>General system properties</h1>
-<hr>
-</section>
-<section id="observations" class="level1">
-<h1>Observations</h1>
-<hr>
-</section>
-<section id="disk-geometry" class="level1">
-<h1>Disk geometry</h1>
-<hr>
-</section>
-<section id="disk-morphology" class="level1">
-<h1>Disk morphology</h1>
+<p>As shown in <a href="#fig-hd163296" class="quarto-xref">Figure&nbsp;1</a>, the HD 163296 disk exhibits multiple dark gaps and bright rings in the millimeter dust continuum emission.</p>
+<section id="object-names" class="level2">
+<h2 class="anchored" data-anchor-id="object-names">Object names</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Catalog</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Primary name</td>
+<td>HD 163296</td>
+</tr>
+<tr class="even">
+<td>Other designations</td>
+<td>MWC 275</td>
+</tr>
+<tr class="odd">
+<td>Region</td>
+<td>Serpens star-forming region</td>
+</tr>
+</tbody>
+</table>
 <hr>
 </section>
-<section id="morphology-measurements" class="level1">
-<h1>Morphology measurements</h1>
+<section id="location" class="level2">
+<h2 class="anchored" data-anchor-id="location">Location</h2>
+<p>HD 163296 is a young <strong>Herbig Ae star</strong> located at a distance of approximately <strong>101–122 parsecs (~330–400 light-years)</strong> from Earth <span class="citation" data-cites="isella2016 rab2020">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>; <a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
+<p>The star belongs to the class of intermediate-mass pre–main sequence stars and is surrounded by one of the most extensively studied protoplanetary disks. Because the disk is large, bright, and relatively isolated, it provides an ideal laboratory for investigating the processes that shape planet-forming disks.</p>
 <hr>
 </section>
-<section id="gas-structure" class="level1">
-<h1>Gas structure</h1>
+<section id="overview-of-the-system" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-the-system">Overview of the system</h2>
+<p>HD 163296 is one of the best-studied protoplanetary disks with resolved substructures. High-resolution ALMA observations revealed a system of <strong>rings and gaps in the millimeter dust continuum emission</strong> at radii of roughly <strong>60 AU</strong>, <strong>100 AU</strong>, and <strong>160 AU</strong> <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>.</p>
+<p>Subsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in <strong>CO emission</strong> are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density <span class="citation" data-cites="rab2020">(<a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
+<p>In addition, high-resolution spectroscopic observations have revealed <strong>localized deviations from Keplerian rotation</strong>, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk <span class="citation" data-cites="pinte2018">(<a href="#ref-pinte2018" role="doc-biblioref"><strong>pinte2018?</strong></a>)</span>.</p>
+<p>Together, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks.</p>
 <hr>
 </section>
-<section id="evidence-of-planet-formation" class="level1">
-<h1>Evidence of planet formation</h1>
+<section id="general-system-properties" class="level2">
+<h2 class="anchored" data-anchor-id="general-system-properties">General system properties</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Distance</td>
+<td>~101–122 pc</td>
+</tr>
+<tr class="even">
+<td>Age</td>
+<td>~5 Myr</td>
+</tr>
+<tr class="odd">
+<td>Evolutionary class</td>
+<td>Herbig Ae</td>
+</tr>
+<tr class="even">
+<td>Spectral type</td>
+<td>A1Ve</td>
+</tr>
+<tr class="odd">
+<td>Stellar mass</td>
+<td>~2.3 M☉</td>
+</tr>
+<tr class="even">
+<td>Disk radius (gas)</td>
+<td>~550 AU</td>
+</tr>
+<tr class="odd">
+<td>Disk radius (dust continuum)</td>
+<td>~250 AU</td>
+</tr>
+<tr class="even">
+<td>Disk inclination</td>
+<td>~42°–46°</td>
+</tr>
+<tr class="odd">
+<td>Position angle</td>
+<td>~132°</td>
+</tr>
+</tbody>
+</table>
 <hr>
 </section>
-<section id="activity" class="level1">
-<h1>Activity</h1>
+<section id="disk-morphology" class="level2">
+<h2 class="anchored" data-anchor-id="disk-morphology">Disk morphology</h2>
+<p>ALMA observations show that the disk of HD 163296 contains a radial sequence of <strong>bright rings and dark gaps</strong> in the dust continuum emission <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>.</p>
+<p>The three most prominent dust gaps are located at approximately:</p>
+<ul>
+<li><strong>~60 AU</strong></li>
+<li><strong>~100 AU</strong></li>
+<li><strong>~160 AU</strong></li>
+</ul>
+<p>These substructures likely correspond to regions where the surface density of solid material has been reduced.</p>
+<p>The dust rings surrounding the gaps are interpreted as <strong>pressure maxima</strong>, where millimeter-sized particles accumulate as a consequence of radial drift and particle trapping within the disk.</p>
 <hr>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
+<section id="morphology-measurements" class="level2">
+<h2 class="anchored" data-anchor-id="morphology-measurements">Morphology measurements</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Structure</th>
+<th>Type</th>
+<th>Radius (AU)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D1</td>
+<td>Dark gap</td>
+<td>~60</td>
+</tr>
+<tr class="even">
+<td>D2</td>
+<td>Dark gap</td>
+<td>~100</td>
+</tr>
+<tr class="odd">
+<td>D3</td>
+<td>Dark gap</td>
+<td>~160</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="dust-in-the-disk" class="level2">
+<h2 class="anchored" data-anchor-id="dust-in-the-disk">Dust in the disk</h2>
+<p>Dust in protoplanetary disks emits thermal radiation at millimeter wavelengths. ALMA observations at <strong>1.3 mm</strong> revealed that the dust distribution in HD 163296 contains several radial depletions associated with the gaps <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>.</p>
+<p>Modeling of the continuum emission indicates that the dust surface density drops dramatically inside the gaps, with depletion factors reaching:</p>
+<ul>
+<li><strong>&gt;100</strong> in the inner gap<br>
+</li>
+<li><strong>~70</strong> in the middle gap<br>
+</li>
+<li><strong>~6</strong> in the outer gap</li>
+</ul>
+<p>These results suggest that solid particles are strongly concentrated in the rings, where pressure maxima trap drifting dust grains.</p>
+<p>Dust rings therefore represent locations where conditions may favor the formation of <strong>planetesimals</strong>, the building blocks of planets.</p>
+<hr>
+</section>
+<section id="dust-properties" class="level2">
+<h2 class="anchored" data-anchor-id="dust-properties">Dust properties</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Continuum wavelength</td>
+<td>1.3 mm</td>
+</tr>
+<tr class="even">
+<td>Dust gap radii</td>
+<td>~60, ~100, ~160 AU</td>
+</tr>
+<tr class="odd">
+<td>Gap widths</td>
+<td>~25, 22, 45 AU</td>
+</tr>
+<tr class="even">
+<td>Dust depletion factors</td>
+<td>&gt;100, ~70, ~6</td>
+</tr>
+<tr class="odd">
+<td>Dust disk outer radius</td>
+<td>~250 AU</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="gas-in-the-disk" class="level2">
+<h2 class="anchored" data-anchor-id="gas-in-the-disk">Gas in the disk</h2>
+<p>The gas disk in HD 163296 has been observed through molecular emission lines such as <strong>¹²CO, ¹³CO, and C¹⁸O</strong> <span class="citation" data-cites="isella2016 rab2020">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>; <a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
+<p>Unlike the dust, the gas emission is more extended and does not display equally sharp ringed structures. The gas disk extends out to approximately <strong>550 AU</strong>.</p>
+<p>Thermo-chemical modeling has shown that some radial intensity features observed in <strong>¹²CO J = 2–1</strong> are caused by radiative transfer effects rather than true gas density variations. In particular, emission from the <strong>back side of the disk</strong> can be partially absorbed by optically thick dust rings, producing apparent peaks in the radial intensity profile <span class="citation" data-cites="rab2020">(<a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
+<p>This demonstrates that interpreting gas observations requires detailed modeling of both the <strong>dust distribution and the disk temperature structure</strong>.</p>
+<hr>
+</section>
+<section id="gas-properties" class="level2">
+<h2 class="anchored" data-anchor-id="gas-properties">Gas properties</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Molecular tracers</td>
+<td>¹²CO, ¹³CO, C¹⁸O</td>
+</tr>
+<tr class="even">
+<td>Rotation type</td>
+<td>Keplerian</td>
+</tr>
+<tr class="odd">
+<td>Gas disk outer radius</td>
+<td>~550 AU</td>
+</tr>
+<tr class="even">
+<td>CO transition analyzed</td>
+<td>¹²CO J = 2–1</td>
+</tr>
+<tr class="odd">
+<td>Thermo-chemical model</td>
+<td>ProDiMo</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="evidence-of-planet-formation" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-of-planet-formation">Evidence of planet formation</h2>
+<p>Several lines of evidence suggest that HD 163296 hosts forming planets.</p>
+<p>Hydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by <strong>embedded planets</strong> with masses comparable to those of Saturn or Jupiter <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>.</p>
+<p>In addition, measurements of the gas velocity field reveal <strong>localized deviations from Keplerian rotation</strong>, which are interpreted as perturbations produced by planets embedded within the disk <span class="citation" data-cites="pinte2018">(<a href="#ref-pinte2018" role="doc-biblioref"><strong>pinte2018?</strong></a>)</span>.</p>
+<p>The inferred properties of these candidate planets are approximately:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Radius (AU)</th>
+<th>Estimated mass</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>~100 AU</td>
+<td>~1 MJ</td>
+</tr>
+<tr class="even">
+<td>~165 AU</td>
+<td>~1.3 MJ</td>
+</tr>
+</tbody>
+</table>
+<p>These measurements represent one of the first cases in which forming planets have been inferred from <strong>direct perturbations in the gas velocity field</strong> of a protoplanetary disk.</p>
+<hr>
+</section>
+<section id="physical-interpretation-of-hd-163296" class="level2">
+<h2 class="anchored" data-anchor-id="physical-interpretation-of-hd-163296">Physical interpretation of HD 163296</h2>
+<p>The structure of the HD 163296 disk is likely shaped by a combination of physical processes.</p>
+<p>The presence of deep dust gaps and pressure maxima suggests that <strong>planet–disk interaction</strong> plays a major role in sculpting the disk morphology.</p>
+<p>However, thermo-chemical modeling shows that the interpretation of gas emission lines is complicated by temperature gradients and radiative transfer effects within the disk <span class="citation" data-cites="rab2020">(<a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
+<p>Together, the observations of dust rings, gas dynamics, and velocity perturbations indicate that HD 163296 is a system in which <strong>planet formation is actively reshaping the disk structure</strong>.</p>
+<hr>
+</section>
+<section id="activity" class="level2">
+<h2 class="anchored" data-anchor-id="activity">Activity</h2>
+<p><strong>Coming soon</strong></p>
+<hr>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-isella2016" class="csl-entry" role="listitem">
+Isella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. <span>“Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.”</span> <em>Physical Review Letters</em> 117 (25): 251101. <a href="https://doi.org/10.1103/PhysRevLett.117.251101">https://doi.org/10.1103/PhysRevLett.117.251101</a>.
+</div>
+<div id="ref-rab2020" class="csl-entry" role="listitem">
+Rab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. <span>“Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.”</span> <em>Astronomy &amp; Astrophysics</em> 642: A165. <a href="https://doi.org/10.1051/0004-6361/202038712">https://doi.org/10.1051/0004-6361/202038712</a>.
+</div>
+</div>
 
 
 </section>
