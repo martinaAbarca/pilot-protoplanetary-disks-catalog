@@ -1,64 +1,181 @@
 ---
 title: "HD 163296 — Protoplanetary Disk"
+bibliography: references.bib
 format:
   html:
     toc: true
+    theme: cosmo
     css: styles.css
+    code-fold: false
 lightbox: true
 ---
 
-::: {#fig-hd163296 fig-align="center" width="650"}
-![](images/hd_163296_ficha.jpg)
+![ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).](images/hd163296.jpg){#fig-hd163296 fig-align="center" width="650"}
 
-Composite ALMA image of the protoplanetary disk surrounding the young star **HD 163296**. The inner red region traces the dust distribution, while the broader blue component shows carbon monoxide gas in the disk. Significant decreases in CO emission within the outer dust gaps suggest the presence of forming planets.
+As shown in @fig-hd163296, the HD 163296 disk exhibits multiple dark gaps and bright rings in the millimeter dust continuum emission.
 
-**Credit:** ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).
+## Object names
+
+| Catalog | Name |
+|---|---|
+| Primary name | HD 163296 |
+| Other designations | MWC 275 |
+| Region | Serpens star-forming region |
+
+---
+
+## Location
+
+HD 163296 is a young **Herbig Ae star** located at a distance of approximately **101–122 parsecs (~330–400 light-years)** from Earth [@isella2016; @rab2020].  
+
+The star belongs to the class of intermediate-mass pre–main sequence stars and is surrounded by one of the most extensively studied protoplanetary disks. Because the disk is large, bright, and relatively isolated, it provides an ideal laboratory for investigating the processes that shape planet-forming disks.
+
+---
+
+## Overview of the system
+
+HD 163296 is one of the best-studied protoplanetary disks with resolved substructures. High-resolution ALMA observations revealed a system of **rings and gaps in the millimeter dust continuum emission** at radii of roughly **60 AU**, **100 AU**, and **160 AU** [@isella2016].
+
+Subsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in **CO emission** are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density [@rab2020].
+
+In addition, high-resolution spectroscopic observations have revealed **localized deviations from Keplerian rotation**, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk [@pinte2018].
+
+Together, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks.
+
+---
+
+## General system properties
+
+| Property | Value |
+|---|---|
+| Distance | ~101–122 pc |
+| Age | ~5 Myr |
+| Evolutionary class | Herbig Ae |
+| Spectral type | A1Ve |
+| Stellar mass | ~2.3 M☉ |
+| Disk radius (gas) | ~550 AU |
+| Disk radius (dust continuum) | ~250 AU |
+| Disk inclination | ~42°–46° |
+| Position angle | ~132° |
+
+---
+
+## Disk morphology
+
+ALMA observations show that the disk of HD 163296 contains a radial sequence of **bright rings and dark gaps** in the dust continuum emission [@isella2016].
+
+The three most prominent dust gaps are located at approximately:
+
+- **~60 AU**
+- **~100 AU**
+- **~160 AU**
+
+These substructures likely correspond to regions where the surface density of solid material has been reduced.
+
+The dust rings surrounding the gaps are interpreted as **pressure maxima**, where millimeter-sized particles accumulate as a consequence of radial drift and particle trapping within the disk.
+
+---
+
+## Morphology measurements
+
+| Structure | Type | Radius (AU) |
+|---|---|---|
+| D1 | Dark gap | ~60 |
+| D2 | Dark gap | ~100 |
+| D3 | Dark gap | ~160 |
+
+---
+
+## Dust in the disk
+
+Dust in protoplanetary disks emits thermal radiation at millimeter wavelengths. ALMA observations at **1.3 mm** revealed that the dust distribution in HD 163296 contains several radial depletions associated with the gaps [@isella2016].
+
+Modeling of the continuum emission indicates that the dust surface density drops dramatically inside the gaps, with depletion factors reaching:
+
+- **>100** in the inner gap  
+- **~70** in the middle gap  
+- **~6** in the outer gap  
+
+These results suggest that solid particles are strongly concentrated in the rings, where pressure maxima trap drifting dust grains.
+
+Dust rings therefore represent locations where conditions may favor the formation of **planetesimals**, the building blocks of planets.
+
+---
+
+## Dust properties
+
+| Property | Value |
+|---|---|
+| Continuum wavelength | 1.3 mm |
+| Dust gap radii | ~60, ~100, ~160 AU |
+| Gap widths | ~25, 22, 45 AU |
+| Dust depletion factors | >100, ~70, ~6 |
+| Dust disk outer radius | ~250 AU |
+
+---
+
+## Gas in the disk
+
+The gas disk in HD 163296 has been observed through molecular emission lines such as **¹²CO, ¹³CO, and C¹⁸O** [@isella2016; @rab2020].
+
+Unlike the dust, the gas emission is more extended and does not display equally sharp ringed structures. The gas disk extends out to approximately **550 AU**.
+
+Thermo-chemical modeling has shown that some radial intensity features observed in **¹²CO J = 2–1** are caused by radiative transfer effects rather than true gas density variations. In particular, emission from the **back side of the disk** can be partially absorbed by optically thick dust rings, producing apparent peaks in the radial intensity profile [@rab2020].
+
+This demonstrates that interpreting gas observations requires detailed modeling of both the **dust distribution and the disk temperature structure**.
+
+---
+
+## Gas properties
+
+| Property | Value |
+|---|---|
+| Molecular tracers | ¹²CO, ¹³CO, C¹⁸O |
+| Rotation type | Keplerian |
+| Gas disk outer radius | ~550 AU |
+| CO transition analyzed | ¹²CO J = 2–1 |
+| Thermo-chemical model | ProDiMo |
+
+---
+
+## Evidence of planet formation
+
+Several lines of evidence suggest that HD 163296 hosts forming planets.
+
+Hydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by **embedded planets** with masses comparable to those of Saturn or Jupiter [@isella2016].
+
+In addition, measurements of the gas velocity field reveal **localized deviations from Keplerian rotation**, which are interpreted as perturbations produced by planets embedded within the disk [@pinte2018].
+
+The inferred properties of these candidate planets are approximately:
+
+| Radius (AU) | Estimated mass |
+|---|---|
+| ~100 AU | ~1 MJ |
+| ~165 AU | ~1.3 MJ |
+
+These measurements represent one of the first cases in which forming planets have been inferred from **direct perturbations in the gas velocity field** of a protoplanetary disk.
+
+---
+
+## Physical interpretation of HD 163296
+
+The structure of the HD 163296 disk is likely shaped by a combination of physical processes.
+
+The presence of deep dust gaps and pressure maxima suggests that **planet–disk interaction** plays a major role in sculpting the disk morphology.
+
+However, thermo-chemical modeling shows that the interpretation of gas emission lines is complicated by temperature gradients and radiative transfer effects within the disk [@rab2020].
+
+Together, the observations of dust rings, gas dynamics, and velocity perturbations indicate that HD 163296 is a system in which **planet formation is actively reshaping the disk structure**.
+
+---
+
+## Activity
+
+**Coming soon**
+
+---
+
+## References
+
+::: {#refs}
 :::
-
----
-
-# Object names
-
----
-
-# Location
-
----
-
-# Overview of the system
-
----
-
-# General system properties
-
----
-
-# Observations
-
----
-
-# Disk geometry
-
----
-
-# Disk morphology
-
----
-
-# Morphology measurements
-
----
-
-# Gas structure
-
----
-
-# Evidence of planet formation
-
----
-
-# Activity
-
----
-
-# References
