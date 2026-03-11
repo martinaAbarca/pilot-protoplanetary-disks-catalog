@@ -1,0 +1,64 @@
+---
+title: "IM Lup — Protoplanetary Disk"
+format:
+  html:
+    toc: true
+    css: styles.css
+lightbox: true
+---
+
+::: {#fig-imlup fig-align="center" width="650"}
+![](images/im_lupi_gallery.jpg)
+
+High-resolution image of the dusty protoplanetary disk surrounding the young star **IM Lup**, obtained with the SPHERE instrument on ESO’s Very Large Telescope. The observations reveal fine structures in the scattered light from dust grains in the outer regions of the disk.
+
+**Credit:** ESO/H. Avenhaus et al./DARTT-S collaboration.
+:::
+
+---
+
+# Object names
+
+---
+
+# Location
+
+---
+
+# Overview of the system
+
+---
+
+# General system properties
+
+---
+
+# Observations
+
+---
+
+# Disk geometry
+
+---
+
+# Disk morphology
+
+---
+
+# Morphology measurements
+
+---
+
+# Gas structure
+
+---
+
+# Evidence of planet formation
+
+---
+
+# Activity
+
+---
+
+# References

@@ -1,0 +1,64 @@
+---
+title: "HD 163296 — Protoplanetary Disk"
+format:
+  html:
+    toc: true
+    css: styles.css
+lightbox: true
+---
+
+::: {#fig-hd163296 fig-align="center" width="650"}
+![](images/hd_163296_ficha.jpg)
+
+Composite ALMA image of the protoplanetary disk surrounding the young star **HD 163296**. The inner red region traces the dust distribution, while the broader blue component shows carbon monoxide gas in the disk. Significant decreases in CO emission within the outer dust gaps suggest the presence of forming planets.
+
+**Credit:** ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).
+:::
+
+---
+
+# Object names
+
+---
+
+# Location
+
+---
+
+# Overview of the system
+
+---
+
+# General system properties
+
+---
+
+# Observations
+
+---
+
+# Disk geometry
+
+---
+
+# Disk morphology
+
+---
+
+# Morphology measurements
+
+---
+
+# Gas structure
+
+---
+
+# Evidence of planet formation
+
+---
+
+# Activity
+
+---
+
+# References

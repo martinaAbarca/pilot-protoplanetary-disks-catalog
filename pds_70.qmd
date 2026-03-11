@@ -1,0 +1,64 @@
+---
+title: "PDS 70 — Protoplanetary Disk"
+format:
+  html:
+    toc: true
+    css: styles.css
+lightbox: true
+---
+
+::: {#fig-pds70 fig-align="center" width="650"}
+![](images/pds_70_ficha.jpg)
+
+ALMA image of the young planetary system **PDS 70**, located about 400 light-years from Earth. The image shows a circumstellar disk where planets are forming, including the confirmed planets PDS 70b and PDS 70c embedded within the disk.
+
+**Credit:** ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.
+:::
+
+---
+
+# Object names
+
+---
+
+# Location
+
+---
+
+# Overview of the system
+
+---
+
+# General system properties
+
+---
+
+# Observations
+
+---
+
+# Disk geometry
+
+---
+
+# Disk morphology
+
+---
+
+# Morphology measurements
+
+---
+
+# Gas structure
+
+---
+
+# Evidence of planet formation
+
+---
+
+# Activity
+
+---
+
+# References

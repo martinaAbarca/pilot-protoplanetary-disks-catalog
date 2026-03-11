@@ -73,6 +73,45 @@ A protoplanetary disk observed with ALMA that shows multiple narrow rings and ga
 [Open disk page →](as_209.qmd){.disk-link}
 :::
 
+::: {.disk-card}
+![](images/hd_163296_ficha.jpg){width=100%}
+
+*Composite ALMA image of the protoplanetary disk around HD 163296. The red component traces dust, while the blue emission shows carbon monoxide gas; deficits in the outer disk suggest the presence of forming planets.  
+Credit: ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).*
+
+### HD 163296
+
+A structured protoplanetary disk where dust and gas observations suggest the presence of forming planets embedded in the outer disk.
+
+[Open disk page →](hd_163296.qmd){.disk-link}
+:::
+
+::: {.disk-card}
+![](images/im_lupi_gallery.jpg){width=100%}
+
+*High-resolution SPHERE image of the dusty disk around the young star IM Lupi, revealing fine structures in scattered light.  
+Credit: ESO/H. Avenhaus et al./DARTT-S collaboration.*
+
+### IM Lup
+
+A large and extended protoplanetary disk observed in scattered light, showing detailed dust structures in its outer regions.
+
+[Open disk page →](im_lup.qmd){.disk-link}
+:::
+
+::: {.disk-card}
+![](images/pds_70_ficha.jpg){width=100%}
+
+*ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity.  
+Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.*
+
+### PDS 70
+
+A young planetary system famous for hosting directly detected forming planets embedded within its protoplanetary disk.
+
+[Open disk page →](pds_70.qmd){.disk-link}
+:::
+
 :::
 
 ---
