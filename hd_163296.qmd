@@ -10,7 +10,7 @@ format:
 lightbox: true
 ---
 
-![ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).](images/hd163296.jpg){#fig-hd163296 fig-align="center" width="650"}
+![ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).](images/hd_163296_ficha.jpg){#fig-hd163296 fig-align="center" width="650"}
 
 As shown in @fig-hd163296, the HD 163296 disk exhibits multiple dark gaps and bright rings in the millimeter dust continuum emission.
 
