@@ -14,109 +14,53 @@
     "text": "High-resolution image of the dusty protoplanetary disk surrounding the young star IM Lup, obtained with the SPHERE instrument on ESO’s Very Large Telescope. The observations reveal fine structures in the scattered light from dust grains in the outer regions of the disk.\n\n\nFigure 1: Credit: ESO/H. Avenhaus et al./DARTT-S collaboration.\n\n\n\n\n\nObject names\n\n\n\nLocation\n\n\n\nOverview of the system\n\n\n\nGeneral system properties\n\n\n\nObservations\n\n\n\nDisk geometry\n\n\n\nDisk morphology\n\n\n\nMorphology measurements\n\n\n\nGas structure\n\n\n\nEvidence of planet formation\n\n\n\nActivity\n\n\n\nReferences"
   },
   {
-    "objectID": "hd_163296.html",
-    "href": "hd_163296.html",
-    "title": "HD 163296 — Protoplanetary Disk",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
     "section": "",
-    "text": "Figure 1: ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).\nAs shown in Figure 1, the HD 163296 disk exhibits multiple dark gaps and bright rings in the millimeter dust continuum emission."
+    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
   },
   {
-    "objectID": "hd_163296.html#object-names",
-    "href": "hd_163296.html#object-names",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Object names",
-    "text": "Object names\n\n\n\nCatalog\nName\n\n\n\n\nPrimary name\nHD 163296\n\n\nOther designations\nMWC 275\n\n\nRegion\nSerpens star-forming region"
+    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
+    "href": "index.html#disk-accretion-and-angular-momentum-transport",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Disk accretion and angular momentum transport",
+    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
   },
   {
-    "objectID": "hd_163296.html#location",
-    "href": "hd_163296.html#location",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Location",
-    "text": "Location\nHD 163296 is a young Herbig Ae star located at a distance of approximately 101–122 parsecs (~330–400 light-years) from Earth (Isella et al. 2016; Rab et al. 2020).\nThe star belongs to the class of intermediate-mass pre–main sequence stars and is surrounded by one of the most extensively studied protoplanetary disks. Because the disk is large, bright, and relatively isolated, it provides an ideal laboratory for investigating the processes that shape planet-forming disks."
+    "objectID": "index.html#gravitational-instability",
+    "href": "index.html#gravitational-instability",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Gravitational instability",
+    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
   },
   {
-    "objectID": "hd_163296.html#overview-of-the-system",
-    "href": "hd_163296.html#overview-of-the-system",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Overview of the system",
-    "text": "Overview of the system\nHD 163296 is one of the best-studied protoplanetary disks with resolved substructures. High-resolution ALMA observations revealed a system of rings and gaps in the millimeter dust continuum emission at radii of roughly 60 AU, 100 AU, and 160 AU (Isella et al. 2016).\nSubsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in CO emission are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density (Rab et al. 2020).\nIn addition, high-resolution spectroscopic observations have revealed localized deviations from Keplerian rotation, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk (pinte2020?).\nTogether, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks."
+    "objectID": "index.html#rings-and-cavities",
+    "href": "index.html#rings-and-cavities",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Rings and cavities",
+    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
   },
   {
-    "objectID": "hd_163296.html#general-system-properties",
-    "href": "hd_163296.html#general-system-properties",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "General system properties",
-    "text": "General system properties\n\n\n\nProperty\nValue\n\n\n\n\nDistance\n~101–122 pc\n\n\nAge\n~5 Myr\n\n\nEvolutionary class\nHerbig Ae\n\n\nSpectral type\nA1Ve\n\n\nStellar mass\n~2.3 M☉\n\n\nDisk radius (gas)\n~550 AU\n\n\nDisk radius (dust continuum)\n~250 AU\n\n\nDisk inclination\n~42°–46°\n\n\nPosition angle\n~132°"
+    "objectID": "index.html#rings-and-gaps",
+    "href": "index.html#rings-and-gaps",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Rings and gaps",
+    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
   },
   {
-    "objectID": "hd_163296.html#disk-morphology",
-    "href": "hd_163296.html#disk-morphology",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Disk morphology",
-    "text": "Disk morphology\nALMA observations show that the disk of HD 163296 contains a radial sequence of bright rings and dark gaps in the dust continuum emission (Isella et al. 2016).\nThe three most prominent dust gaps are located at approximately:\n\n~60 AU\n~100 AU\n~160 AU\n\nThese substructures likely correspond to regions where the surface density of solid material has been reduced.\nThe dust rings surrounding the gaps are interpreted as pressure maxima, where millimeter-sized particles accumulate as a consequence of radial drift and particle trapping within the disk."
+    "objectID": "index.html#arcs",
+    "href": "index.html#arcs",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Arcs",
+    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
   },
   {
-    "objectID": "hd_163296.html#morphology-measurements",
-    "href": "hd_163296.html#morphology-measurements",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Morphology measurements",
-    "text": "Morphology measurements\n\n\n\nStructure\nType\nRadius (AU)\n\n\n\n\nD1\nDark gap\n~60\n\n\nD2\nDark gap\n~100\n\n\nD3\nDark gap\n~160"
-  },
-  {
-    "objectID": "hd_163296.html#dust-in-the-disk",
-    "href": "hd_163296.html#dust-in-the-disk",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Dust in the disk",
-    "text": "Dust in the disk\nDust in protoplanetary disks emits thermal radiation at millimeter wavelengths. ALMA observations at 1.3 mm revealed that the dust distribution in HD 163296 contains several radial depletions associated with the gaps (Isella et al. 2016).\nModeling of the continuum emission indicates that the dust surface density drops dramatically inside the gaps, with depletion factors reaching:\n\n&gt;100 in the inner gap\n\n~70 in the middle gap\n\n~6 in the outer gap\n\nThese results suggest that solid particles are strongly concentrated in the rings, where pressure maxima trap drifting dust grains.\nDust rings therefore represent locations where conditions may favor the formation of planetesimals, the building blocks of planets."
-  },
-  {
-    "objectID": "hd_163296.html#dust-properties",
-    "href": "hd_163296.html#dust-properties",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Dust properties",
-    "text": "Dust properties\n\n\n\nProperty\nValue\n\n\n\n\nContinuum wavelength\n1.3 mm\n\n\nDust gap radii\n~60, ~100, ~160 AU\n\n\nGap widths\n~25, 22, 45 AU\n\n\nDust depletion factors\n&gt;100, ~70, ~6\n\n\nDust disk outer radius\n~250 AU"
-  },
-  {
-    "objectID": "hd_163296.html#gas-in-the-disk",
-    "href": "hd_163296.html#gas-in-the-disk",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Gas in the disk",
-    "text": "Gas in the disk\nThe gas disk in HD 163296 has been observed through molecular emission lines such as ¹²CO, ¹³CO, and C¹⁸O (Isella et al. 2016; Rab et al. 2020).\nUnlike the dust, the gas emission is more extended and does not display equally sharp ringed structures. The gas disk extends out to approximately 550 AU.\nThermo-chemical modeling has shown that some radial intensity features observed in ¹²CO J = 2–1 are caused by radiative transfer effects rather than true gas density variations. In particular, emission from the back side of the disk can be partially absorbed by optically thick dust rings, producing apparent peaks in the radial intensity profile (Rab et al. 2020).\nThis demonstrates that interpreting gas observations requires detailed modeling of both the dust distribution and the disk temperature structure."
-  },
-  {
-    "objectID": "hd_163296.html#gas-properties",
-    "href": "hd_163296.html#gas-properties",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Gas properties",
-    "text": "Gas properties\n\n\n\nProperty\nValue\n\n\n\n\nMolecular tracers\n¹²CO, ¹³CO, C¹⁸O\n\n\nRotation type\nKeplerian\n\n\nGas disk outer radius\n~550 AU\n\n\nCO transition analyzed\n¹²CO J = 2–1\n\n\nThermo-chemical model\nProDiMo"
-  },
-  {
-    "objectID": "hd_163296.html#evidence-of-planet-formation",
-    "href": "hd_163296.html#evidence-of-planet-formation",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Evidence of planet formation",
-    "text": "Evidence of planet formation\nSeveral lines of evidence suggest that HD 163296 hosts forming planets.\nHydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by embedded planets with masses comparable to those of Saturn or Jupiter (Isella et al. 2016).\nIn addition, measurements of the gas velocity field reveal localized deviations from Keplerian rotation, which are interpreted as perturbations produced by planets embedded within the disk (pinte2020?).\nThe inferred properties of these candidate planets are approximately:\n\n\n\nRadius (AU)\nEstimated mass\n\n\n\n\n~100 AU\n~1 MJ\n\n\n~165 AU\n~1.3 MJ\n\n\n\nThese measurements represent one of the first cases in which forming planets have been inferred from direct perturbations in the gas velocity field of a protoplanetary disk."
-  },
-  {
-    "objectID": "hd_163296.html#physical-interpretation-of-hd-163296",
-    "href": "hd_163296.html#physical-interpretation-of-hd-163296",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Physical interpretation of HD 163296",
-    "text": "Physical interpretation of HD 163296\nThe structure of the HD 163296 disk is likely shaped by a combination of physical processes.\nThe presence of deep dust gaps and pressure maxima suggests that planet–disk interaction plays a major role in sculpting the disk morphology.\nHowever, thermo-chemical modeling shows that the interpretation of gas emission lines is complicated by temperature gradients and radiative transfer effects within the disk (Rab et al. 2020).\nTogether, the observations of dust rings, gas dynamics, and velocity perturbations indicate that HD 163296 is a system in which planet formation is actively reshaping the disk structure."
-  },
-  {
-    "objectID": "hd_163296.html#activity",
-    "href": "hd_163296.html#activity",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "Activity",
-    "text": "Activity\nComing soon"
-  },
-  {
-    "objectID": "hd_163296.html#references",
-    "href": "hd_163296.html#references",
-    "title": "HD 163296 — Protoplanetary Disk",
-    "section": "References",
-    "text": "References\n\n\nIsella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. “Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.” Physical Review Letters 117 (25): 251101. https://doi.org/10.1103/PhysRevLett.117.251101.\n\n\nRab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. “Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.” Astronomy & Astrophysics 642: A165. https://doi.org/10.1051/0004-6361/202038712."
+    "objectID": "index.html#spirals",
+    "href": "index.html#spirals",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Spirals",
+    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
   },
   {
     "objectID": "as_209.html",
@@ -329,52 +273,108 @@
     "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pilot Protoplanetary Disk Catalog",
+    "objectID": "hd_163296.html",
+    "href": "hd_163296.html",
+    "title": "HD 163296 — Protoplanetary Disk",
     "section": "",
-    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
+    "text": "Figure 1: ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).\nAs shown in Figure 1, the HD 163296 disk exhibits multiple dark gaps and bright rings in the millimeter dust continuum emission."
   },
   {
-    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
-    "href": "index.html#disk-accretion-and-angular-momentum-transport",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Disk accretion and angular momentum transport",
-    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
+    "objectID": "hd_163296.html#object-names",
+    "href": "hd_163296.html#object-names",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Object names",
+    "text": "Object names\n\n\n\nCatalog\nName\n\n\n\n\nPrimary name\nHD 163296\n\n\nOther designations\nMWC 275\n\n\nRegion\nSerpens star-forming region"
   },
   {
-    "objectID": "index.html#gravitational-instability",
-    "href": "index.html#gravitational-instability",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Gravitational instability",
-    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
+    "objectID": "hd_163296.html#location",
+    "href": "hd_163296.html#location",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Location",
+    "text": "Location\nHD 163296 is a young Herbig Ae star located at a distance of approximately 101–122 parsecs (~330–400 light-years) from Earth (Isella et al. 2016; Rab et al. 2020).\nThe star belongs to the class of intermediate-mass pre–main sequence stars and is surrounded by one of the most extensively studied protoplanetary disks. Because the disk is large, bright, and relatively isolated, it provides an ideal laboratory for investigating the processes that shape planet-forming disks."
   },
   {
-    "objectID": "index.html#rings-and-cavities",
-    "href": "index.html#rings-and-cavities",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and cavities",
-    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
+    "objectID": "hd_163296.html#overview-of-the-system",
+    "href": "hd_163296.html#overview-of-the-system",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Overview of the system",
+    "text": "Overview of the system\nHD 163296 is one of the best-studied protoplanetary disks with resolved substructures. High-resolution ALMA observations revealed a system of rings and gaps in the millimeter dust continuum emission at radii of roughly 60 AU, 100 AU, and 160 AU (Isella et al. 2016).\nSubsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in CO emission are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density (Rab et al. 2020).\nIn addition, high-resolution spectroscopic observations have revealed localized deviations from Keplerian rotation, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk (pinte2020?).\nTogether, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks."
   },
   {
-    "objectID": "index.html#rings-and-gaps",
-    "href": "index.html#rings-and-gaps",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and gaps",
-    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
+    "objectID": "hd_163296.html#general-system-properties",
+    "href": "hd_163296.html#general-system-properties",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "General system properties",
+    "text": "General system properties\n\n\n\nProperty\nValue\n\n\n\n\nDistance\n~101–122 pc\n\n\nAge\n~5 Myr\n\n\nEvolutionary class\nHerbig Ae\n\n\nSpectral type\nA1Ve\n\n\nStellar mass\n~2.3 M☉\n\n\nDisk radius (gas)\n~550 AU\n\n\nDisk radius (dust continuum)\n~250 AU\n\n\nDisk inclination\n~42°–46°\n\n\nPosition angle\n~132°"
   },
   {
-    "objectID": "index.html#arcs",
-    "href": "index.html#arcs",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Arcs",
-    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
+    "objectID": "hd_163296.html#disk-morphology",
+    "href": "hd_163296.html#disk-morphology",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Disk morphology",
+    "text": "Disk morphology\nALMA observations show that the disk of HD 163296 contains a radial sequence of bright rings and dark gaps in the dust continuum emission (Isella et al. 2016).\nThe three most prominent dust gaps are located at approximately:\n\n~60 AU\n~100 AU\n~160 AU\n\nThese substructures likely correspond to regions where the surface density of solid material has been reduced.\nThe dust rings surrounding the gaps are interpreted as pressure maxima, where millimeter-sized particles accumulate as a consequence of radial drift and particle trapping within the disk."
   },
   {
-    "objectID": "index.html#spirals",
-    "href": "index.html#spirals",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Spirals",
-    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
+    "objectID": "hd_163296.html#morphology-measurements",
+    "href": "hd_163296.html#morphology-measurements",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Morphology measurements",
+    "text": "Morphology measurements\n\n\n\nStructure\nType\nRadius (AU)\n\n\n\n\nD1\nDark gap\n~60\n\n\nD2\nDark gap\n~100\n\n\nD3\nDark gap\n~160"
+  },
+  {
+    "objectID": "hd_163296.html#dust-in-the-disk",
+    "href": "hd_163296.html#dust-in-the-disk",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Dust in the disk",
+    "text": "Dust in the disk\nDust in protoplanetary disks emits thermal radiation at millimeter wavelengths. ALMA observations at 1.3 mm revealed that the dust distribution in HD 163296 contains several radial depletions associated with the gaps (Isella et al. 2016).\nModeling of the continuum emission indicates that the dust surface density drops dramatically inside the gaps, with depletion factors reaching:\n\n&gt;100 in the inner gap\n\n~70 in the middle gap\n\n~6 in the outer gap\n\nThese results suggest that solid particles are strongly concentrated in the rings, where pressure maxima trap drifting dust grains.\nDust rings therefore represent locations where conditions may favor the formation of planetesimals, the building blocks of planets."
+  },
+  {
+    "objectID": "hd_163296.html#dust-properties",
+    "href": "hd_163296.html#dust-properties",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Dust properties",
+    "text": "Dust properties\n\n\n\nProperty\nValue\n\n\n\n\nContinuum wavelength\n1.3 mm\n\n\nDust gap radii\n~60, ~100, ~160 AU\n\n\nGap widths\n~25, 22, 45 AU\n\n\nDust depletion factors\n&gt;100, ~70, ~6\n\n\nDust disk outer radius\n~250 AU"
+  },
+  {
+    "objectID": "hd_163296.html#gas-in-the-disk",
+    "href": "hd_163296.html#gas-in-the-disk",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Gas in the disk",
+    "text": "Gas in the disk\nThe gas disk in HD 163296 has been observed through molecular emission lines such as ¹²CO, ¹³CO, and C¹⁸O (Isella et al. 2016; Rab et al. 2020).\nUnlike the dust, the gas emission is more extended and does not display equally sharp ringed structures. The gas disk extends out to approximately 550 AU.\nThermo-chemical modeling has shown that some radial intensity features observed in ¹²CO J = 2–1 are caused by radiative transfer effects rather than true gas density variations. In particular, emission from the back side of the disk can be partially absorbed by optically thick dust rings, producing apparent peaks in the radial intensity profile (Rab et al. 2020).\nThis demonstrates that interpreting gas observations requires detailed modeling of both the dust distribution and the disk temperature structure."
+  },
+  {
+    "objectID": "hd_163296.html#gas-properties",
+    "href": "hd_163296.html#gas-properties",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Gas properties",
+    "text": "Gas properties\n\n\n\nProperty\nValue\n\n\n\n\nMolecular tracers\n¹²CO, ¹³CO, C¹⁸O\n\n\nRotation type\nKeplerian\n\n\nGas disk outer radius\n~550 AU\n\n\nCO transition analyzed\n¹²CO J = 2–1\n\n\nThermo-chemical model\nProDiMo"
+  },
+  {
+    "objectID": "hd_163296.html#evidence-of-planet-formation",
+    "href": "hd_163296.html#evidence-of-planet-formation",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Evidence of planet formation",
+    "text": "Evidence of planet formation\nSeveral lines of evidence suggest that HD 163296 hosts forming planets.\nHydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by embedded planets with masses comparable to those of Saturn or Jupiter (Isella et al. 2016).\nIn addition, measurements of the gas velocity field reveal localized deviations from Keplerian rotation, which are interpreted as perturbations produced by planets embedded within the disk (pinte2020?).\nThe inferred properties of these candidate planets are approximately:\n\n\n\nRadius (AU)\nEstimated mass\n\n\n\n\n~100 AU\n~1 MJ\n\n\n~165 AU\n~1.3 MJ\n\n\n\nThese measurements represent one of the first cases in which forming planets have been inferred from direct perturbations in the gas velocity field of a protoplanetary disk."
+  },
+  {
+    "objectID": "hd_163296.html#physical-interpretation-of-hd-163296",
+    "href": "hd_163296.html#physical-interpretation-of-hd-163296",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Physical interpretation of HD 163296",
+    "text": "Physical interpretation of HD 163296\nThe structure of the HD 163296 disk is likely shaped by a combination of physical processes.\nThe presence of deep dust gaps and pressure maxima suggests that planet–disk interaction plays a major role in sculpting the disk morphology.\nHowever, thermo-chemical modeling shows that the interpretation of gas emission lines is complicated by temperature gradients and radiative transfer effects within the disk (Rab et al. 2020).\nTogether, the observations of dust rings, gas dynamics, and velocity perturbations indicate that HD 163296 is a system in which planet formation is actively reshaping the disk structure."
+  },
+  {
+    "objectID": "hd_163296.html#activity",
+    "href": "hd_163296.html#activity",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "Activity",
+    "text": "Activity\nComing soon"
+  },
+  {
+    "objectID": "hd_163296.html#references",
+    "href": "hd_163296.html#references",
+    "title": "HD 163296 — Protoplanetary Disk",
+    "section": "References",
+    "text": "References\n\n\nIsella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. “Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.” Physical Review Letters 117 (25): 251101. https://doi.org/10.1103/PhysRevLett.117.251101.\n\n\nRab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. “Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.” Astronomy & Astrophysics 642: A165. https://doi.org/10.1051/0004-6361/202038712."
   }
 ]
