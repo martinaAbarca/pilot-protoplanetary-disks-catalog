@@ -448,18 +448,18 @@
     "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
   },
   {
-    "objectID": "index.html#rings-and-cavities",
-    "href": "index.html#rings-and-cavities",
+    "objectID": "index.html#rings",
+    "href": "index.html#rings",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and cavities",
-    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
+    "section": "Rings",
+    "text": "Rings\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
   },
   {
-    "objectID": "index.html#rings-and-gaps",
-    "href": "index.html#rings-and-gaps",
+    "objectID": "index.html#gaps",
+    "href": "index.html#gaps",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and gaps",
-    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
+    "section": "Gaps",
+    "text": "Gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
   },
   {
     "objectID": "index.html#arcs",
