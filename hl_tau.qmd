@@ -134,7 +134,7 @@ Taken together, high-resolution ALMA observations and physical models indicate t
 
 ## Activity
 
-**Coming soon**
+La actividad consiste en analizar una imagen del disco protoplanetario HL Tau obtenida con el telescopio ALMA para identificar las subestructuras presentes en el disco. Los estudiantes deberán cargar una imagen bidimensional del continuo de polvo (por ejemplo, en formato .fits o como matriz de intensidades) y aplicar herramientas básicas de ciencia de datos para calcular el perfil radial de brillo, es decir, cómo varía la intensidad de la emisión con la distancia al centro del disco. A partir de este perfil podrán identificar máximos y mínimos de intensidad que corresponden a anillos brillantes y brechas (gaps) en la distribución del polvo. El objetivo de la actividad es mostrar cómo el análisis computacional de imágenes astronómicas permite detectar subestructuras en discos protoplanetarios y comprender mejor los procesos físicos asociados a la formación de planetas.
 
 ## References
 

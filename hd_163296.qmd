@@ -171,7 +171,12 @@ Together, the observations of dust rings, gas dynamics, and velocity perturbatio
 
 ## Activity
 
-**Coming soon**
+En esta actividad los estudiantes analizarán una imagen del continuo de polvo del disco protoplanetario HD 163296 obtenida con el telescopio ALMA utilizando herramientas de programación en Python. La imagen del disco se cargará en el entorno de trabajo como una matriz bidimensional de intensidades, donde cada píxel representa la cantidad de emisión de polvo detectada en una región específica del disco.
+El primer paso consiste en cargar la imagen del disco en el programa y visualizarla para identificar la posición aproximada del centro del sistema, que corresponde a la ubicación de la estrella. A partir de este punto central, los estudiantes calcularán la distancia radial de cada píxel, es decir, la distancia de cada punto de la imagen con respecto al centro del disco. Este cálculo permite transformar la información espacial de la imagen en una medida de radio.
+Una vez calculadas las distancias, los estudiantes agruparán los píxeles que se encuentran a radios similares y calcularán la intensidad promedio en cada anillo radial. Este procedimiento permite construir el perfil radial de brillo del disco, que describe cómo cambia la intensidad de la emisión del polvo a medida que aumenta la distancia desde la estrella.
+Posteriormente, los estudiantes graficarán la intensidad promedio en función del radio. En este gráfico se observarán zonas donde la intensidad aumenta, correspondientes a anillos de polvo, y zonas donde la intensidad disminuye, correspondientes a brechas o gaps en la distribución del material del disco. Al analizar este perfil radial será posible identificar tres mínimos principales ubicados aproximadamente en 60 AU, 100 AU y 160 AU, que coinciden con las brechas observadas en estudios de alta resolución del disco HD 163296.
+Finalmente, los estudiantes interpretarán estos resultados desde el punto de vista físico. Las brechas observadas indican regiones donde la cantidad de polvo es menor, lo que sugiere que el material del disco ha sido redistribuido. En sistemas como HD 163296, estas estructuras se interpretan como posibles evidencias de interacción entre el disco y planetas en formación, que pueden abrir brechas en el material del disco mientras orbitan la estrella.
+Esta actividad permite mostrar cómo el análisis computacional de imágenes astronómicas puede revelar la estructura interna de los discos protoplanetarios y proporcionar pistas sobre los procesos de formación planetaria.
 
 ---
 

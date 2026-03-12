@@ -188,9 +188,7 @@ These spiral structures may also concentrate solid particles and potentially con
 
 ::: {.process-diagram}
 
-*(Insert a conceptual diagram illustrating disk physics here)*
-
-Suggested diagram elements:
+Buscar diagramas o gráficos sobre:
 
 - gas accretion toward the star  
 - outward angular momentum transport  

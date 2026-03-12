@@ -139,7 +139,7 @@ AS 209 therefore stands out as one of the best observational laboratories for st
 
 ## Activity
 
-**Coming soon**
+En esta actividad, los estudiantes trabajarán con una imagen del continuo de polvo del disco AS 209 obtenida con ALMA. Primero deberán cargar la imagen del disco y calcular el perfil radial de brillo, que describe cómo cambia la intensidad de la emisión de polvo con la distancia al centro del disco. A partir de este perfil podrán identificar mínimos de intensidad que corresponden a dust gaps y máximos asociados a dust rings. Luego deberán medir la posición radial de estas subestructuras y compararlas con los valores reportados en la literatura (gaps cerca de 62 AU y 103 AU, y anillos alrededor de 75 AU y 130 AU). Finalmente, estimarán la profundidad de los gaps comparando la intensidad mínima dentro del gap con la intensidad de los anillos vecinos. El objetivo de la actividad es mostrar cómo el análisis computacional de imágenes astronómicas permite identificar perturbaciones en la distribución del polvo y entender cómo estas estructuras pueden ser producidas por planetas en formación que modifican la densidad del gas y del polvo en el disco.
 
 ## References
 
