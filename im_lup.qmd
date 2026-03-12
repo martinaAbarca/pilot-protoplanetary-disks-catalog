@@ -1,64 +1,133 @@
 ---
 title: "IM Lup — Protoplanetary Disk"
+bibliography: references.bib
 format:
   html:
     toc: true
+    theme: cosmo
     css: styles.css
+    code-fold: false
 lightbox: true
 ---
 
-::: {#fig-imlup fig-align="center" width="650"}
-![](images/im_lupi_gallery.jpg)
+![High-resolution SPHERE image of the dusty disk around the young star IM Lupi, revealing fine structures in scattered light. Credit: ESO/H. Avenhaus et al./DARTT-S collaboration.](images/im_lupi_gallery.jpg){#fig-imlup fig-align="center" width="650"}
 
-High-resolution image of the dusty protoplanetary disk surrounding the young star **IM Lup**, obtained with the SPHERE instrument on ESO’s Very Large Telescope. The observations reveal fine structures in the scattered light from dust grains in the outer regions of the disk.
+As shown in @fig-imlup, high-resolution scattered-light observations reveal the dusty disk surrounding the young star IM Lup.
 
-**Credit:** ESO/H. Avenhaus et al./DARTT-S collaboration.
+## Object names
+
+| Catalog | Name |
+|---|---|
+| Primary name | IM Lup |
+| Other designations | Sz 82 |
+| Region | Lupus 2 cloud |
+
+## Location
+
+IM Lup is associated with the **Lupus 2 cloud** and lies at a distance of **161 ± 10 pc** [@cleeves2016]. Its location in a nearby star-forming region and its young age make it a useful system for studying how gas and dust evolve differently during the early stages of protoplanetary disk evolution.
+
+## Overview of the system
+
+IM Lup is a young, massive, and extended protoplanetary disk whose gas and dust components show markedly different spatial distributions [@cleeves2016]. ALMA observations of the continuum, **$^{12}$CO**, **$^{13}$CO**, and **C$^{18}$O** were used together with physical and chemical modeling to constrain the structure of the disk.
+
+A key result of the paper is that the **millimeter dust disk is truncated at about 313 au**, while the **gas disk extends to at least 570 au and perhaps as far as 970 au** [@cleeves2016]. This contrast indicates that large grains are more radially compact than the gas, consistent with dust growth, settling, and radial drift.
+
+The study also found tentative evidence for weak ring-like substructure in the millimeter continuum and showed that the disk is both **massive** and **flared**, properties that may be related to its young age [@cleeves2016].
+
+## General system properties
+
+| Property | Value |
+|---|---|
+| Distance | 161 ± 10 pc |
+| Age | 0.5–1 Myr |
+| Spectral type | M0 |
+| Stellar mass | ~1 M☉ |
+| Stellar luminosity | 0.9 L☉ |
+| Disk inclination | 48° ± 3° |
+| Position angle | 144° ± 3° |
+
+## Disk morphology
+
+ALMA observations show that IM Lup has a **two-component millimeter dust structure**: a bright inner disk and a broad outer dust halo truncated at **313 au** [@cleeves2016]. In contrast, the gas traced by CO isotopologues is much more extended and appears smoother in radial distribution.
+
+The continuum data also show shallow deviations from a smooth radial profile, suggesting **tentative ring-like substructure**. These features are weak and were not resolved as sharply as the rings later seen in higher-resolution disk surveys, but they are still morphologically important because they hint that substructure may already be present in IM Lup [@cleeves2016].
+
+The paper describes these features as small breaks in the deprojected continuum brightness profile near **150 au** and **250 au**.
+
+## Morphology measurements
+
+| Structure | Type | Radius (AU) |
+|---|---|---|
+| Inner bright disk | Bright central component | unresolved inner disk, within ~21 AU model component |
+| Outer dust edge | Dust truncation radius | 313 ± 15 |
+| Ring candidate 1 | Tentative ring-like break | ~150 |
+| Ring candidate 2 | Tentative ring-like break | ~250 |
+| Gas disk extent | Extended gas disk | at least 570 |
+| Gas disk extent (possible maximum) | Extended gas disk | ~970 |
+
+## Dust in the disk
+
+Dust in IM Lup was observed with ALMA continuum data at **1.3 mm** and **875 μm** [@cleeves2016]. These observations trace the distribution of large, millimeter-sized grains, which are more concentrated than the gas and appear sharply truncated at **313 au**.
+
+The continuum emission is dominated by a bright central component plus a broad outer dust distribution. The paper models the large-grain dust disk as being more radially compact and more vertically settled than the gas. This is consistent with the idea that large grains have already evolved significantly through **growth**, **settling toward the midplane**, and **radial drift** [@cleeves2016].
+
+The inner dust disk is also inferred to be **optically thick**, which helps explain the reduced line emission seen near the center in some CO isotopologue maps.
+
+## Dust properties
+
+| Property | Value |
+|---|---|
+| Continuum wavelengths | 1.3 mm, 875 μm |
+| Total dust mass | 1.7 × 10⁻³ M☉ |
+| Large-grain outer radius | 313 ± 15 AU |
+| Dust settling parameter ($\chi_{\rm bulk}$) | 0.25 |
+| Grain populations | Small grains + millimeter grains |
+| Inner disk component size | 21 AU |
+| Inner surface density enhancement factor | 4 |
+
+## Gas in the disk
+
+The gas component of IM Lup was observed in **$^{12}$CO**, **$^{13}$CO**, and **C$^{18}$O** transitions [@cleeves2016]. These lines show that the gas disk is much more extended than the millimeter dust disk.
+
+The paper finds that the gas disk extends to **at least 570 au** and possibly to **~970 au**, making IM Lup one of the clearest examples of a large dust–gas size difference in a protoplanetary disk [@cleeves2016].
+
+The gas structure appears relatively smooth compared with the dust continuum. In addition, the central low-velocity channels of **$^{12}$CO J = 2–1** show a diffuse outer component or halo, which may be associated with extended gas beyond the main disk.
+
+## Gas properties
+
+| Property | Value |
+|---|---|
+| Molecular tracers | $^{12}$CO, $^{13}$CO, C$^{18}$O |
+| Gas disk extent | at least 570 AU |
+| Gas disk extent (possible maximum) | ~970 AU |
+| Model gas outer radius | 1200 AU |
+| Estimated gas mass | ~0.17 M☉ |
+| CO reduction relative to ISM value | ~factor of 20 |
+| Gas scale height at 100 AU | 12 AU |
+| Characteristic radius of gas ($R_c$) | 100 AU |
+| Gas surface density exponent ($\gamma$) | 1.0 |
+
+## Evidence of planet formation
+
+At this stage, **Cleeves et al. (2016) do not provide direct evidence for embedded protoplanets in IM Lup**. However, the paper does identify processes that are strongly connected to early planet formation.
+
+The strong difference between the compact millimeter dust disk and the much larger gas disk is consistent with **grain growth, settling, and radial drift**, which are key steps in the evolution from dust grains to planetesimals [@cleeves2016]. The tentative ring-like breaks at **~150 au** and **~250 au** are also morphologically interesting, although the authors emphasize that higher-resolution observations are needed to confirm them.
+
+For now, this paper provides **indirect evidence of dust evolution relevant to planet formation**, rather than direct evidence of planets opening gaps.
+
+## Physical interpretation of IM Lup
+
+Cleeves et al. (2016) interpret IM Lup as a young and massive disk in which gas and dust are already evolving differently [@cleeves2016]. The large grains are more compact radially and more settled vertically than the gas, while the gas remains extended far into the outer disk.
+
+The study concludes that the dust structure can be understood as a bright inner disk plus a broad outer halo truncated at **313 au**, whereas the gas extends to much larger radii. This contrast supports a picture in which the solid component is undergoing substantial evolution, even though the system is still very young.
+
+The paper also suggests that the disk may retain some surrounding diffuse material, since the low-velocity **$^{12}$CO** emission includes a halo-like component that could be related to a remnant envelope, captured material, or other extended gas structures. Even so, the main morphological result remains the same: **IM Lup shows a clear decoupling between the spatial distributions of gas and millimeter dust** [@cleeves2016].
+
+## Activity
+
+**Coming soon**
+
+## References
+
+::: {#refs}
 :::
-
----
-
-# Object names
-
----
-
-# Location
-
----
-
-# Overview of the system
-
----
-
-# General system properties
-
----
-
-# Observations
-
----
-
-# Disk geometry
-
----
-
-# Disk morphology
-
----
-
-# Morphology measurements
-
----
-
-# Gas structure
-
----
-
-# Evidence of planet formation
-
----
-
-# Activity
-
----
-
-# References

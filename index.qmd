@@ -150,13 +150,6 @@ High-resolution image of the dusty protoplanetary disk around the young star **I
 **Credit:** ESO/H. Avenhaus et al./DARTT-S collaboration.
 :::
 
-::: {#fig-pds70}
-![](images/pds_70_gallery.jpg){width=70% fig-alt="PDS 70 protoplanetary system observed with ALMA"}
-
-ALMA image of the **PDS 70** system, a young planetary system still in formation. The planets have carved a large cavity in the circumstellar disk, and one of them is associated with a circumplanetary disk where moons may form.  
-**Credit:** ALMA (ESO/NAOJ/NRAO)/Benisty et al.
-:::
-
 *(Additional images of other disks in the pilot catalog will be included here.)*
 
 :::
