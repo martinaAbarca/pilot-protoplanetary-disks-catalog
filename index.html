@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Pilot Protoplanetary Disk Catalog</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -32,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-d6fd904d1c54ba319e3f8c30b794b012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,6 +114,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#what-is-a-protoplanetary-disk" id="toc-what-is-a-protoplanetary-disk" class="nav-link active" data-scroll-target="#what-is-a-protoplanetary-disk">What is a protoplanetary disk?</a></li>
   <li><a href="#available-disks" id="toc-available-disks" class="nav-link" data-scroll-target="#available-disks">Available disks</a></li>
+  <li><a href="#comparative-catalog-summary" id="toc-comparative-catalog-summary" class="nav-link" data-scroll-target="#comparative-catalog-summary">Comparative catalog summary</a>
+  <ul class="collapse">
+  <li><a href="#catalog-summary" id="toc-catalog-summary" class="nav-link" data-scroll-target="#catalog-summary">Catalog summary</a></li>
+  </ul></li>
   <li><a href="#images-of-protoplanetary-disks" id="toc-images-of-protoplanetary-disks" class="nav-link" data-scroll-target="#images-of-protoplanetary-disks">Images of protoplanetary disks</a></li>
   <li><a href="#physical-processes-shaping-protoplanetary-disks" id="toc-physical-processes-shaping-protoplanetary-disks" class="nav-link" data-scroll-target="#physical-processes-shaping-protoplanetary-disks">Physical processes shaping protoplanetary disks</a>
   <ul class="collapse">
@@ -185,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="disk-grid">
 <div class="disk-card">
 <p><img src="images/hl_tau_eso.jpg" class="img-fluid" style="width:100.0%"></p>
-<p><em>Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk.<br>
+<p><em>Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material.<br>
 Credit: ALMA (ESO/NAOJ/NRAO).</em></p>
 <section id="hl-tau" class="level3">
 <h3 class="anchored" data-anchor-id="hl-tau">HL Tau</h3>
@@ -235,6 +241,68 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </div>
 </div>
 <hr>
+</section>
+<section id="comparative-catalog-summary" class="level1">
+<h1>Comparative catalog summary</h1>
+<p>The following table is generated automatically from the structured catalog files in <code>data/disks_master.csv</code>. This allows the catalog to remain reproducible and scalable as new disks and properties are added.</p>
+<section id="catalog-summary" class="level2">
+<h2 class="anchored" data-anchor-id="catalog-summary">Catalog summary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Disk</th>
+<th>Distance (pc)</th>
+<th>Stellar mass (M☉)</th>
+<th>Spectral type</th>
+<th>Morphology</th>
+<th>Planet evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AS 209</td>
+<td>126</td>
+<td>0.9</td>
+<td>K5</td>
+<td>ringed disk with coordinated dust and gas substructures</td>
+<td>yes</td>
+</tr>
+<tr class="even">
+<td>HD 163296</td>
+<td>101</td>
+<td>2.3</td>
+<td>A1Ve</td>
+<td>ringed disk with prominent dust gaps and gas velocity perturbations</td>
+<td>yes</td>
+</tr>
+<tr class="odd">
+<td>HL Tau</td>
+<td>140</td>
+<td>1.5</td>
+<td>K5</td>
+<td>ringed disk with multiple bright rings and dark gaps</td>
+<td>yes</td>
+</tr>
+<tr class="even">
+<td>IM Lup</td>
+<td>161</td>
+<td>1.0</td>
+<td>M0</td>
+<td>massive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure</td>
+<td>indirect</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
 </section>
 <section id="images-of-protoplanetary-disks" class="level1">
 <h1>Images of protoplanetary disks</h1>
