@@ -1,0 +1,88 @@
+{
+  "disk_name": "AS 209",
+  "star_name": "AS 209",
+  "other_names": {
+    "value": [],
+    "source": ""
+  },
+  "region": {
+    "value": "Ophiuchus star-forming region",
+    "source": "fedele2018"
+  },
+  "distance_pc": {
+    "value": 126,
+    "source": "fedele2018"
+  },
+  "stellar_mass_msun": {
+    "value": 0.9,
+    "source": "fedele2018"
+  },
+  "spectral_type": {
+    "value": "K5",
+    "source": "fedele2018"
+  },
+  "estimated_age_myr": {
+    "value": 0.75,
+    "source": "fedele2018"
+  },
+  "evolutionary_class": {
+    "value": "T Tauri",
+    "source": "fedele2018"
+  },
+  "disk_morphology": {
+    "value": "ringed disk with coordinated dust and gas substructures",
+    "source": "fedele2018;favre2019;zhang2018"
+  },
+  "dust_rings_au": {
+    "value": [75, 130],
+    "source": "fedele2018"
+  },
+  "dust_gaps_au": {
+    "value": [62, 103],
+    "source": "fedele2018"
+  },
+  "dust_disk_outer_radius_au": {
+    "value": 175,
+    "source": "fedele2018"
+  },
+  "gas_disk_outer_radius_au": {
+    "value": 200,
+    "source": "favre2019"
+  },
+  "gas_tracers": {
+    "value": ["CO", "13CO", "C18O", "DCO+"],
+    "source": "favre2019"
+  },
+  "continuum_wavelength_mm": {
+    "value": [1.3],
+    "source": "fedele2018"
+  },
+  "main_instruments": {
+    "value": ["ALMA"],
+    "source": "fedele2018;favre2019;zhang2018"
+  },
+  "evidence_of_planets": {
+    "value": "yes",
+    "source": "favre2019"
+  },
+  "candidate_planets": {
+    "value": [
+      {
+        "radius_au": 95,
+        "estimated_mass_mj": 0.2,
+        "source": "favre2019"
+      },
+      {
+        "radius_au": 100,
+        "estimated_mass_mj": 0.3,
+        "source": "favre2019"
+      }
+    ]
+  },
+  "main_references": [
+    "fedele2018",
+    "zhang2018",
+    "favre2019"
+  ],
+  "page_file": "as_209.qmd"
+}

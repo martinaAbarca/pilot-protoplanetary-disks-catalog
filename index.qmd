@@ -5,6 +5,7 @@ format:
     css: styles.css
 resources:
   - images/*
+  - data/**
 ---
 
 ::: {.catalog-intro}
@@ -50,7 +51,7 @@ Understanding this density structure is essential because it determines the disk
 ::: {.disk-card}
 ![](images/hl_tau_eso.jpg){width=100%}
 
-*Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk.  
+*Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material.  
 Credit: ALMA (ESO/NAOJ/NRAO).*
 
 ### HL Tau
@@ -113,6 +114,14 @@ A young planetary system famous for hosting directly detected forming planets em
 :::
 
 :::
+
+---
+
+# Comparative catalog summary
+
+The following table is generated automatically from the structured catalog files in `data/disks_master.csv`. This allows the catalog to remain reproducible and scalable as new disks and properties are added.
+
+{{< include data/catalog_summary.md >}}
 
 ---
 
@@ -216,11 +225,11 @@ Substructures are particularly important because they can create **local pressur
 
 Observations have identified several common classes of disk substructures.
 
-## Rings and cavities
+## Rings 
 
 These systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of **transition disks**.
 
-## Rings and gaps
+## Gaps
 
 This is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.
 

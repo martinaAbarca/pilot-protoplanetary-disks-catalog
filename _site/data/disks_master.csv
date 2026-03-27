@@ -1,0 +1,5 @@
+disk_name,star_name,distance_pc,stellar_mass_msun,spectral_type,estimated_age_myr,disk_morphology,dust_rings_au,dust_gaps_au,gas_tracers,continuum_wavelength_mm,main_instruments,evidence_of_planets,main_references,page_file
+AS 209,AS 209,126,0.9,K5,0.75,ringed disk with coordinated dust and gas substructures,75;130,62;103,CO;13CO;C18O;DCO+,1.3,ALMA,yes,fedele2018;zhang2018;favre2019,as_209.qmd
+HD 163296,HD 163296,101,2.3,A1Ve,5.0,ringed disk with prominent dust gaps and gas velocity perturbations,,60;100;160,12CO;13CO;C18O,1.3,ALMA,yes,isella2016;rab2020;pinte2020,hd_163296.qmd
+HL Tau,HL Tau,140,1.5,K5,1.5,ringed disk with multiple bright rings and dark gaps,20.4;38.1;68.8;81.3;97.0,13.2;32.3;64.2;73.7;91.0,CO;HCO+;CN;HCN,,ALMA,yes,alma2015;pinte2016;dipierro2015,hl_tau.qmd
+IM Lup,IM Lup,161,1.0,M0,0.75,"massive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure",150;250,,12CO;13CO;C18O,1.3;0.875,ALMA,indirect,cleeves2016,im_lup.qmd

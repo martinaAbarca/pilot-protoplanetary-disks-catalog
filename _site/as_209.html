@@ -482,7 +482,7 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around AS 209 showing multi
 </section>
 <section id="activity" class="level2">
 <h2 class="anchored" data-anchor-id="activity">Activity</h2>
-<p><strong>Coming soon</strong></p>
+<p>En esta actividad, los estudiantes trabajarán con una imagen del continuo de polvo del disco AS 209 obtenida con ALMA. Primero deberán cargar la imagen del disco y calcular el perfil radial de brillo, que describe cómo cambia la intensidad de la emisión de polvo con la distancia al centro del disco. A partir de este perfil podrán identificar mínimos de intensidad que corresponden a dust gaps y máximos asociados a dust rings. Luego deberán medir la posición radial de estas subestructuras y compararlas con los valores reportados en la literatura (gaps cerca de 62 AU y 103 AU, y anillos alrededor de 75 AU y 130 AU). Finalmente, estimarán la profundidad de los gaps comparando la intensidad mínima dentro del gap con la intensidad de los anillos vecinos. El objetivo de la actividad es mostrar cómo el análisis computacional de imágenes astronómicas permite identificar perturbaciones en la distribución del polvo y entender cómo estas estructuras pueden ser producidas por planetas en formación que modifican la densidad del gas y del polvo en el disco.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
@@ -575,7 +575,7 @@ Zhang, Shangjia, Zhaohuan Zhu, Jane Huang, Viviana V. Guzmán, Sean M. Andrews, 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/martinaAbarca\.github\.io\/pilot-protoplanetary-disks-catalog\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

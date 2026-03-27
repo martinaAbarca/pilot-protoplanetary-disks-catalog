@@ -1,0 +1,88 @@
+{
+  "disk_name": "HD 163296",
+  "star_name": "HD 163296",
+  "other_names": {
+    "value": ["MWC 275"],
+    "source": "isella2016"
+  },
+  "region": {
+    "value": "Serpens star-forming region",
+    "source": "isella2016"
+  },
+  "distance_pc": {
+    "value": 101,
+    "source": "rab2020"
+  },
+  "stellar_mass_msun": {
+    "value": 2.3,
+    "source": "isella2016"
+  },
+  "spectral_type": {
+    "value": "A1Ve",
+    "source": "isella2016"
+  },
+  "estimated_age_myr": {
+    "value": 5.0,
+    "source": "isella2016"
+  },
+  "evolutionary_class": {
+    "value": "Herbig Ae",
+    "source": "isella2016"
+  },
+  "disk_morphology": {
+    "value": "ringed disk with prominent dust gaps and gas velocity perturbations",
+    "source": "isella2016;rab2020;pinte2020"
+  },
+  "dust_rings_au": {
+    "value": [],
+    "source": ""
+  },
+  "dust_gaps_au": {
+    "value": [60, 100, 160],
+    "source": "isella2016"
+  },
+  "dust_disk_outer_radius_au": {
+    "value": 250,
+    "source": "isella2016"
+  },
+  "gas_disk_outer_radius_au": {
+    "value": 550,
+    "source": "isella2016"
+  },
+  "gas_tracers": {
+    "value": ["12CO", "13CO", "C18O"],
+    "source": "isella2016;rab2020"
+  },
+  "continuum_wavelength_mm": {
+    "value": [1.3],
+    "source": "isella2016"
+  },
+  "main_instruments": {
+    "value": ["ALMA"],
+    "source": "isella2016;rab2020;pinte2020"
+  },
+  "evidence_of_planets": {
+    "value": "yes",
+    "source": "isella2016;pinte2020"
+  },
+  "candidate_planets": {
+    "value": [
+      {
+        "radius_au": 100,
+        "estimated_mass_mj": 1.0,
+        "source": "pinte2020"
+      },
+      {
+        "radius_au": 165,
+        "estimated_mass_mj": 1.3,
+        "source": "pinte2020"
+      }
+    ]
+  },
+  "main_references": [
+    "isella2016",
+    "rab2020",
+    "pinte2020"
+  ],
+  "page_file": "hd_163296.qmd"
+}

@@ -112,6 +112,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#what-is-a-protoplanetary-disk" id="toc-what-is-a-protoplanetary-disk" class="nav-link active" data-scroll-target="#what-is-a-protoplanetary-disk">What is a protoplanetary disk?</a></li>
   <li><a href="#available-disks" id="toc-available-disks" class="nav-link" data-scroll-target="#available-disks">Available disks</a></li>
+  <li><a href="#comparative-catalog-summary" id="toc-comparative-catalog-summary" class="nav-link" data-scroll-target="#comparative-catalog-summary">Comparative catalog summary</a>
+  <ul class="collapse">
+  <li><a href="#catalog-summary" id="toc-catalog-summary" class="nav-link" data-scroll-target="#catalog-summary">Catalog summary</a></li>
+  </ul></li>
   <li><a href="#images-of-protoplanetary-disks" id="toc-images-of-protoplanetary-disks" class="nav-link" data-scroll-target="#images-of-protoplanetary-disks">Images of protoplanetary disks</a></li>
   <li><a href="#physical-processes-shaping-protoplanetary-disks" id="toc-physical-processes-shaping-protoplanetary-disks" class="nav-link" data-scroll-target="#physical-processes-shaping-protoplanetary-disks">Physical processes shaping protoplanetary disks</a>
   <ul class="collapse">
@@ -122,8 +126,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#substructures-in-protoplanetary-disks" id="toc-substructures-in-protoplanetary-disks" class="nav-link" data-scroll-target="#substructures-in-protoplanetary-disks">Substructures in protoplanetary disks</a></li>
   <li><a href="#common-substructure-morphologies" id="toc-common-substructure-morphologies" class="nav-link" data-scroll-target="#common-substructure-morphologies">Common substructure morphologies</a>
   <ul class="collapse">
-  <li><a href="#rings-and-cavities" id="toc-rings-and-cavities" class="nav-link" data-scroll-target="#rings-and-cavities">Rings and cavities</a></li>
-  <li><a href="#rings-and-gaps" id="toc-rings-and-gaps" class="nav-link" data-scroll-target="#rings-and-gaps">Rings and gaps</a></li>
+  <li><a href="#rings" id="toc-rings" class="nav-link" data-scroll-target="#rings">Rings</a></li>
+  <li><a href="#gaps" id="toc-gaps" class="nav-link" data-scroll-target="#gaps">Gaps</a></li>
   <li><a href="#arcs" id="toc-arcs" class="nav-link" data-scroll-target="#arcs">Arcs</a></li>
   <li><a href="#spirals" id="toc-spirals" class="nav-link" data-scroll-target="#spirals">Spirals</a></li>
   </ul></li>
@@ -185,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="disk-grid">
 <div class="disk-card">
 <p><img src="images/hl_tau_eso.jpg" class="img-fluid" style="width:100.0%"></p>
-<p><em>Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk.<br>
+<p><em>Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material.<br>
 Credit: ALMA (ESO/NAOJ/NRAO).</em></p>
 <section id="hl-tau" class="level3">
 <h3 class="anchored" data-anchor-id="hl-tau">HL Tau</h3>
@@ -235,6 +239,68 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </div>
 </div>
 <hr>
+</section>
+<section id="comparative-catalog-summary" class="level1">
+<h1>Comparative catalog summary</h1>
+<p>The following table is generated automatically from the structured catalog files in <code>data/disks_master.csv</code>. This allows the catalog to remain reproducible and scalable as new disks and properties are added.</p>
+<section id="catalog-summary" class="level2">
+<h2 class="anchored" data-anchor-id="catalog-summary">Catalog summary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Disk</th>
+<th>Distance (pc)</th>
+<th>Stellar mass (M☉)</th>
+<th>Spectral type</th>
+<th>Morphology</th>
+<th>Planet evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AS 209</td>
+<td>126</td>
+<td>0.9</td>
+<td>K5</td>
+<td>ringed disk with coordinated dust and gas substructures</td>
+<td>yes</td>
+</tr>
+<tr class="even">
+<td>HD 163296</td>
+<td>101</td>
+<td>2.3</td>
+<td>A1Ve</td>
+<td>ringed disk with prominent dust gaps and gas velocity perturbations</td>
+<td>yes</td>
+</tr>
+<tr class="odd">
+<td>HL Tau</td>
+<td>140</td>
+<td>1.5</td>
+<td>K5</td>
+<td>ringed disk with multiple bright rings and dark gaps</td>
+<td>yes</td>
+</tr>
+<tr class="even">
+<td>IM Lup</td>
+<td>161</td>
+<td>1.0</td>
+<td>M0</td>
+<td>massive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure</td>
+<td>indirect</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
 </section>
 <section id="images-of-protoplanetary-disks" class="level1">
 <h1>Images of protoplanetary disks</h1>
@@ -315,8 +381,7 @@ Figure&nbsp;4: High-resolution image of the dusty protoplanetary disk around the
 <section id="physical-processes-diagram" class="level1">
 <h1>Physical processes diagram</h1>
 <div class="process-diagram">
-<p><em>(Insert a conceptual diagram illustrating disk physics here)</em></p>
-<p>Suggested diagram elements:</p>
+<p>Buscar diagramas o gráficos sobre:</p>
 <ul>
 <li>gas accretion toward the star<br>
 </li>
@@ -342,12 +407,12 @@ Figure&nbsp;4: High-resolution image of the dusty protoplanetary disk around the
 <section id="common-substructure-morphologies" class="level1">
 <h1>Common substructure morphologies</h1>
 <p>Observations have identified several common classes of disk substructures.</p>
-<section id="rings-and-cavities" class="level2">
-<h2 class="anchored" data-anchor-id="rings-and-cavities">Rings and cavities</h2>
+<section id="rings" class="level2">
+<h2 class="anchored" data-anchor-id="rings">Rings</h2>
 <p>These systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of <strong>transition disks</strong>.</p>
 </section>
-<section id="rings-and-gaps" class="level2">
-<h2 class="anchored" data-anchor-id="rings-and-gaps">Rings and gaps</h2>
+<section id="gaps" class="level2">
+<h2 class="anchored" data-anchor-id="gaps">Gaps</h2>
 <p>This is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.</p>
 </section>
 <section id="arcs" class="level2">
@@ -482,7 +547,7 @@ Figure&nbsp;7: Composite image of the planet-forming disk <strong>IRS 48 (Oph-IR
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/martinaAbarca\.github\.io\/pilot-protoplanetary-disks-catalog\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -11,7 +11,105 @@
     "href": "im_lup.html",
     "title": "IM Lup — Protoplanetary Disk",
     "section": "",
-    "text": "High-resolution image of the dusty protoplanetary disk surrounding the young star IM Lup, obtained with the SPHERE instrument on ESO’s Very Large Telescope. The observations reveal fine structures in the scattered light from dust grains in the outer regions of the disk.\n\n\nFigure 1: Credit: ESO/H. Avenhaus et al./DARTT-S collaboration.\n\n\n\n\n\nObject names\n\n\n\nLocation\n\n\n\nOverview of the system\n\n\n\nGeneral system properties\n\n\n\nObservations\n\n\n\nDisk geometry\n\n\n\nDisk morphology\n\n\n\nMorphology measurements\n\n\n\nGas structure\n\n\n\nEvidence of planet formation\n\n\n\nActivity\n\n\n\nReferences"
+    "text": "Figure 1: High-resolution SPHERE image of the dusty disk around the young star IM Lupi, revealing fine structures in scattered light. Credit: ESO/H. Avenhaus et al./DARTT-S collaboration.\nAs shown in Figure 1, high-resolution scattered-light observations reveal the dusty disk surrounding the young star IM Lup."
+  },
+  {
+    "objectID": "im_lup.html#object-names",
+    "href": "im_lup.html#object-names",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Object names",
+    "text": "Object names\n\n\n\nCatalog\nName\n\n\n\n\nPrimary name\nIM Lup\n\n\nOther designations\nSz 82\n\n\nRegion\nLupus 2 cloud"
+  },
+  {
+    "objectID": "im_lup.html#location",
+    "href": "im_lup.html#location",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Location",
+    "text": "Location\nIM Lup is associated with the Lupus 2 cloud and lies at a distance of 161 ± 10 pc (Cleeves et al. 2016). Its location in a nearby star-forming region and its young age make it a useful system for studying how gas and dust evolve differently during the early stages of protoplanetary disk evolution."
+  },
+  {
+    "objectID": "im_lup.html#overview-of-the-system",
+    "href": "im_lup.html#overview-of-the-system",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Overview of the system",
+    "text": "Overview of the system\nIM Lup is a young, massive, and extended protoplanetary disk whose gas and dust components show markedly different spatial distributions (Cleeves et al. 2016). ALMA observations of the continuum, \\(^{12}\\)CO, \\(^{13}\\)CO, and C\\(^{18}\\)O were used together with physical and chemical modeling to constrain the structure of the disk.\nA key result of the paper is that the millimeter dust disk is truncated at about 313 au, while the gas disk extends to at least 570 au and perhaps as far as 970 au (Cleeves et al. 2016). This contrast indicates that large grains are more radially compact than the gas, consistent with dust growth, settling, and radial drift.\nThe study also found tentative evidence for weak ring-like substructure in the millimeter continuum and showed that the disk is both massive and flared, properties that may be related to its young age (Cleeves et al. 2016)."
+  },
+  {
+    "objectID": "im_lup.html#general-system-properties",
+    "href": "im_lup.html#general-system-properties",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "General system properties",
+    "text": "General system properties\n\n\n\nProperty\nValue\n\n\n\n\nDistance\n161 ± 10 pc\n\n\nAge\n0.5–1 Myr\n\n\nSpectral type\nM0\n\n\nStellar mass\n~1 M☉\n\n\nStellar luminosity\n0.9 L☉\n\n\nDisk inclination\n48° ± 3°\n\n\nPosition angle\n144° ± 3°"
+  },
+  {
+    "objectID": "im_lup.html#disk-morphology",
+    "href": "im_lup.html#disk-morphology",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Disk morphology",
+    "text": "Disk morphology\nALMA observations show that IM Lup has a two-component millimeter dust structure: a bright inner disk and a broad outer dust halo truncated at 313 au (Cleeves et al. 2016). In contrast, the gas traced by CO isotopologues is much more extended and appears smoother in radial distribution.\nThe continuum data also show shallow deviations from a smooth radial profile, suggesting tentative ring-like substructure. These features are weak and were not resolved as sharply as the rings later seen in higher-resolution disk surveys, but they are still morphologically important because they hint that substructure may already be present in IM Lup (Cleeves et al. 2016).\nThe paper describes these features as small breaks in the deprojected continuum brightness profile near 150 au and 250 au."
+  },
+  {
+    "objectID": "im_lup.html#morphology-measurements",
+    "href": "im_lup.html#morphology-measurements",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Morphology measurements",
+    "text": "Morphology measurements\n\n\n\n\n\n\n\n\nStructure\nType\nRadius (AU)\n\n\n\n\nInner bright disk\nBright central component\nunresolved inner disk, within ~21 AU model component\n\n\nOuter dust edge\nDust truncation radius\n313 ± 15\n\n\nRing candidate 1\nTentative ring-like break\n~150\n\n\nRing candidate 2\nTentative ring-like break\n~250\n\n\nGas disk extent\nExtended gas disk\nat least 570\n\n\nGas disk extent (possible maximum)\nExtended gas disk\n~970"
+  },
+  {
+    "objectID": "im_lup.html#dust-in-the-disk",
+    "href": "im_lup.html#dust-in-the-disk",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Dust in the disk",
+    "text": "Dust in the disk\nDust in IM Lup was observed with ALMA continuum data at 1.3 mm and 875 μm (Cleeves et al. 2016). These observations trace the distribution of large, millimeter-sized grains, which are more concentrated than the gas and appear sharply truncated at 313 au.\nThe continuum emission is dominated by a bright central component plus a broad outer dust distribution. The paper models the large-grain dust disk as being more radially compact and more vertically settled than the gas. This is consistent with the idea that large grains have already evolved significantly through growth, settling toward the midplane, and radial drift (Cleeves et al. 2016).\nThe inner dust disk is also inferred to be optically thick, which helps explain the reduced line emission seen near the center in some CO isotopologue maps."
+  },
+  {
+    "objectID": "im_lup.html#dust-properties",
+    "href": "im_lup.html#dust-properties",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Dust properties",
+    "text": "Dust properties\n\n\n\nProperty\nValue\n\n\n\n\nContinuum wavelengths\n1.3 mm, 875 μm\n\n\nTotal dust mass\n1.7 × 10⁻³ M☉\n\n\nLarge-grain outer radius\n313 ± 15 AU\n\n\nDust settling parameter (\\(\\chi_{\\rm bulk}\\))\n0.25\n\n\nGrain populations\nSmall grains + millimeter grains\n\n\nInner disk component size\n21 AU\n\n\nInner surface density enhancement factor\n4"
+  },
+  {
+    "objectID": "im_lup.html#gas-in-the-disk",
+    "href": "im_lup.html#gas-in-the-disk",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Gas in the disk",
+    "text": "Gas in the disk\nThe gas component of IM Lup was observed in \\(^{12}\\)CO, \\(^{13}\\)CO, and C\\(^{18}\\)O transitions (Cleeves et al. 2016). These lines show that the gas disk is much more extended than the millimeter dust disk.\nThe paper finds that the gas disk extends to at least 570 au and possibly to ~970 au, making IM Lup one of the clearest examples of a large dust–gas size difference in a protoplanetary disk (Cleeves et al. 2016).\nThe gas structure appears relatively smooth compared with the dust continuum. In addition, the central low-velocity channels of \\(^{12}\\)CO J = 2–1 show a diffuse outer component or halo, which may be associated with extended gas beyond the main disk."
+  },
+  {
+    "objectID": "im_lup.html#gas-properties",
+    "href": "im_lup.html#gas-properties",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Gas properties",
+    "text": "Gas properties\n\n\n\nProperty\nValue\n\n\n\n\nMolecular tracers\n\\(^{12}\\)CO, \\(^{13}\\)CO, C\\(^{18}\\)O\n\n\nGas disk extent\nat least 570 AU\n\n\nGas disk extent (possible maximum)\n~970 AU\n\n\nModel gas outer radius\n1200 AU\n\n\nEstimated gas mass\n~0.17 M☉\n\n\nCO reduction relative to ISM value\n~factor of 20\n\n\nGas scale height at 100 AU\n12 AU\n\n\nCharacteristic radius of gas (\\(R_c\\))\n100 AU\n\n\nGas surface density exponent (\\(\\gamma\\))\n1.0"
+  },
+  {
+    "objectID": "im_lup.html#evidence-of-planet-formation",
+    "href": "im_lup.html#evidence-of-planet-formation",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Evidence of planet formation",
+    "text": "Evidence of planet formation\nAt this stage, Cleeves et al. (2016) do not provide direct evidence for embedded protoplanets in IM Lup. However, the paper does identify processes that are strongly connected to early planet formation.\nThe strong difference between the compact millimeter dust disk and the much larger gas disk is consistent with grain growth, settling, and radial drift, which are key steps in the evolution from dust grains to planetesimals (Cleeves et al. 2016). The tentative ring-like breaks at ~150 au and ~250 au are also morphologically interesting, although the authors emphasize that higher-resolution observations are needed to confirm them.\nFor now, this paper provides indirect evidence of dust evolution relevant to planet formation, rather than direct evidence of planets opening gaps."
+  },
+  {
+    "objectID": "im_lup.html#physical-interpretation-of-im-lup",
+    "href": "im_lup.html#physical-interpretation-of-im-lup",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Physical interpretation of IM Lup",
+    "text": "Physical interpretation of IM Lup\nCleeves et al. (2016) interpret IM Lup as a young and massive disk in which gas and dust are already evolving differently (Cleeves et al. 2016). The large grains are more compact radially and more settled vertically than the gas, while the gas remains extended far into the outer disk.\nThe study concludes that the dust structure can be understood as a bright inner disk plus a broad outer halo truncated at 313 au, whereas the gas extends to much larger radii. This contrast supports a picture in which the solid component is undergoing substantial evolution, even though the system is still very young.\nThe paper also suggests that the disk may retain some surrounding diffuse material, since the low-velocity \\(^{12}\\)CO emission includes a halo-like component that could be related to a remnant envelope, captured material, or other extended gas structures. Even so, the main morphological result remains the same: IM Lup shows a clear decoupling between the spatial distributions of gas and millimeter dust (Cleeves et al. 2016)."
+  },
+  {
+    "objectID": "im_lup.html#activity",
+    "href": "im_lup.html#activity",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "Activity",
+    "text": "Activity\nComing soon"
+  },
+  {
+    "objectID": "im_lup.html#references",
+    "href": "im_lup.html#references",
+    "title": "IM Lup — Protoplanetary Disk",
+    "section": "References",
+    "text": "References\n\n\nCleeves, L. Ilsedore, Karin I. Öberg, David J. Wilner, Jane Huang, Ryan A. Loomis, Sean M. Andrews, and Ian Czekala. 2016. “The Coupled Physical Structure of Gas and Dust in the IM Lup Protoplanetary Disk.” The Astrophysical Journal 832 (2): 110. https://doi.org/10.3847/0004-637X/832/2/110."
   },
   {
     "objectID": "hd_163296.html",
@@ -109,7 +207,7 @@
     "href": "hd_163296.html#activity",
     "title": "HD 163296 — Protoplanetary Disk",
     "section": "Activity",
-    "text": "Activity\nComing soon"
+    "text": "Activity\nEn esta actividad los estudiantes analizarán una imagen del continuo de polvo del disco protoplanetario HD 163296 obtenida con el telescopio ALMA utilizando herramientas de programación en Python. La imagen del disco se cargará en el entorno de trabajo como una matriz bidimensional de intensidades, donde cada píxel representa la cantidad de emisión de polvo detectada en una región específica del disco. El primer paso consiste en cargar la imagen del disco en el programa y visualizarla para identificar la posición aproximada del centro del sistema, que corresponde a la ubicación de la estrella. A partir de este punto central, los estudiantes calcularán la distancia radial de cada píxel, es decir, la distancia de cada punto de la imagen con respecto al centro del disco. Este cálculo permite transformar la información espacial de la imagen en una medida de radio. Una vez calculadas las distancias, los estudiantes agruparán los píxeles que se encuentran a radios similares y calcularán la intensidad promedio en cada anillo radial. Este procedimiento permite construir el perfil radial de brillo del disco, que describe cómo cambia la intensidad de la emisión del polvo a medida que aumenta la distancia desde la estrella. Posteriormente, los estudiantes graficarán la intensidad promedio en función del radio. En este gráfico se observarán zonas donde la intensidad aumenta, correspondientes a anillos de polvo, y zonas donde la intensidad disminuye, correspondientes a brechas o gaps en la distribución del material del disco. Al analizar este perfil radial será posible identificar tres mínimos principales ubicados aproximadamente en 60 AU, 100 AU y 160 AU, que coinciden con las brechas observadas en estudios de alta resolución del disco HD 163296. Finalmente, los estudiantes interpretarán estos resultados desde el punto de vista físico. Las brechas observadas indican regiones donde la cantidad de polvo es menor, lo que sugiere que el material del disco ha sido redistribuido. En sistemas como HD 163296, estas estructuras se interpretan como posibles evidencias de interacción entre el disco y planetas en formación, que pueden abrir brechas en el material del disco mientras orbitan la estrella. Esta actividad permite mostrar cómo el análisis computacional de imágenes astronómicas puede revelar la estructura interna de los discos protoplanetarios y proporcionar pistas sobre los procesos de formación planetaria."
   },
   {
     "objectID": "hd_163296.html#references",
@@ -214,7 +312,7 @@
     "href": "as_209.html#activity",
     "title": "AS 209 — Protoplanetary Disk",
     "section": "Activity",
-    "text": "Activity\nComing soon"
+    "text": "Activity\nEn esta actividad, los estudiantes trabajarán con una imagen del continuo de polvo del disco AS 209 obtenida con ALMA. Primero deberán cargar la imagen del disco y calcular el perfil radial de brillo, que describe cómo cambia la intensidad de la emisión de polvo con la distancia al centro del disco. A partir de este perfil podrán identificar mínimos de intensidad que corresponden a dust gaps y máximos asociados a dust rings. Luego deberán medir la posición radial de estas subestructuras y compararlas con los valores reportados en la literatura (gaps cerca de 62 AU y 103 AU, y anillos alrededor de 75 AU y 130 AU). Finalmente, estimarán la profundidad de los gaps comparando la intensidad mínima dentro del gap con la intensidad de los anillos vecinos. El objetivo de la actividad es mostrar cómo el análisis computacional de imágenes astronómicas permite identificar perturbaciones en la distribución del polvo y entender cómo estas estructuras pueden ser producidas por planetas en formación que modifican la densidad del gas y del polvo en el disco."
   },
   {
     "objectID": "as_209.html#references",
@@ -222,6 +320,20 @@
     "title": "AS 209 — Protoplanetary Disk",
     "section": "References",
     "text": "References\n\n\nFavre, Cécile, Davide Fedele, Luke Maud, Richard Booth, Marco Tazzari, Anna Miotello, Leonardo Testi, Dmitry Semenov, and Simon Bruderer. 2019. “Gas Density Perturbations Induced by One or More Forming Planets in the AS 209 Protoplanetary Disk as Seen with ALMA.” The Astrophysical Journal 871: 107. https://doi.org/10.3847/1538-4357/aaf80c.\n\n\nFedele, Davide, Marco Tazzari, Richard Booth, Leonardo Testi, Cathie J. Clarke, Ilaria Pascucci, Agnes Kospal, et al. 2018. “ALMA Continuum Observations of the Protoplanetary Disk AS 209: Evidence of Multiple Gaps Opened by a Single Planet?” Astronomy & Astrophysics 610: A24. https://doi.org/10.1051/0004-6361/201731978.\n\n\nZhang, Shangjia, Zhaohuan Zhu, Jane Huang, Viviana V. Guzmán, Sean M. Andrews, Tilman Birnstiel, Cornelis P. Dullemond, et al. 2018. “The Disk Substructures at High Angular Resolution Project (DSHARP). VII. The Planet–Disk Interactions Interpretation.” The Astrophysical Journal Letters 869: L47. https://doi.org/10.3847/2041-8213/aaf744."
+  },
+  {
+    "objectID": "data/catalog_summary.html",
+    "href": "data/catalog_summary.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "Disk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
+  },
+  {
+    "objectID": "data/catalog_summary.html#catalog-summary",
+    "href": "data/catalog_summary.html#catalog-summary",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "Disk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
   },
   {
     "objectID": "hl_tau.html",
@@ -319,7 +431,7 @@
     "href": "hl_tau.html#activity",
     "title": "HL Tau — Protoplanetary Disk",
     "section": "Activity",
-    "text": "Activity\nComing soon"
+    "text": "Activity\nLa actividad consiste en analizar una imagen del disco protoplanetario HL Tau obtenida con el telescopio ALMA para identificar las subestructuras presentes en el disco. Los estudiantes deberán cargar una imagen bidimensional del continuo de polvo (por ejemplo, en formato .fits o como matriz de intensidades) y aplicar herramientas básicas de ciencia de datos para calcular el perfil radial de brillo, es decir, cómo varía la intensidad de la emisión con la distancia al centro del disco. A partir de este perfil podrán identificar máximos y mínimos de intensidad que corresponden a anillos brillantes y brechas (gaps) en la distribución del polvo. El objetivo de la actividad es mostrar cómo el análisis computacional de imágenes astronómicas permite detectar subestructuras en discos protoplanetarios y comprender mejor los procesos físicos asociados a la formación de planetas."
   },
   {
     "objectID": "hl_tau.html#references",
@@ -336,6 +448,13 @@
     "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
   },
   {
+    "objectID": "index.html#catalog-summary",
+    "href": "index.html#catalog-summary",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Catalog summary",
+    "text": "Catalog summary\n\n\n\n\n\n\n\n\n\n\n\nDisk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
+  },
+  {
     "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
     "href": "index.html#disk-accretion-and-angular-momentum-transport",
     "title": "Pilot Protoplanetary Disk Catalog",
@@ -350,18 +469,18 @@
     "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
   },
   {
-    "objectID": "index.html#rings-and-cavities",
-    "href": "index.html#rings-and-cavities",
+    "objectID": "index.html#rings",
+    "href": "index.html#rings",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and cavities",
-    "text": "Rings and cavities\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
+    "section": "Rings",
+    "text": "Rings\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
   },
   {
-    "objectID": "index.html#rings-and-gaps",
-    "href": "index.html#rings-and-gaps",
+    "objectID": "index.html#gaps",
+    "href": "index.html#gaps",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings and gaps",
-    "text": "Rings and gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
+    "section": "Gaps",
+    "text": "Gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
   },
   {
     "objectID": "index.html#arcs",

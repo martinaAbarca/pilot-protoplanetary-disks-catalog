@@ -1,0 +1,101 @@
+{
+  "disk_name": "HL Tau",
+  "star_name": "HL Tau",
+  "other_names": {
+    "value": ["IRAS 04368+2557"],
+    "source": "alma2015"
+  },
+  "region": {
+    "value": "Taurus Molecular Cloud",
+    "source": "alma2015"
+  },
+  "distance_pc": {
+    "value": 140,
+    "source": "alma2015"
+  },
+  "stellar_mass_msun": {
+    "value": 1.5,
+    "source": "alma2015"
+  },
+  "spectral_type": {
+    "value": "K5",
+    "source": "alma2015"
+  },
+  "estimated_age_myr": {
+    "value": 1.5,
+    "source": "alma2015"
+  },
+  "evolutionary_class": {
+    "value": "Class I-II",
+    "source": "alma2015"
+  },
+  "disk_inclination_deg": {
+    "value": 47,
+    "source": "alma2015"
+  },
+  "stellar_mass_kinematic_msun": {
+    "value": 1.7,
+    "source": "alma2015"
+  },
+  "disk_morphology": {
+    "value": "ringed disk with multiple bright rings and dark gaps",
+    "source": "alma2015;dipierro2015;pinte2016"
+  },
+  "dust_rings_au": {
+    "value": [20.4, 38.1, 68.8, 81.3, 97.0],
+    "source": "alma2015"
+  },
+  "dust_gaps_au": {
+    "value": [13.2, 32.3, 64.2, 73.7, 91.0],
+    "source": "alma2015"
+  },
+  "dust_disk_outer_radius_au": {
+    "value": 100,
+    "source": "alma2015"
+  },
+  "gas_disk_outer_radius_au": {
+    "value": null,
+    "source": ""
+  },
+  "gas_tracers": {
+    "value": ["CO", "HCO+", "CN", "HCN"],
+    "source": "alma2015"
+  },
+  "continuum_wavelength_mm": {
+    "value": [],
+    "source": ""
+  },
+  "main_instruments": {
+    "value": ["ALMA"],
+    "source": "alma2015;pinte2016;dipierro2015"
+  },
+  "evidence_of_planets": {
+    "value": "yes",
+    "source": "dipierro2015"
+  },
+  "candidate_planets": {
+    "value": [
+      {
+        "radius_au": 13.2,
+        "estimated_mass_mj": 0.2,
+        "source": "dipierro2015"
+      },
+      {
+        "radius_au": 32.3,
+        "estimated_mass_mj": 0.27,
+        "source": "dipierro2015"
+      },
+      {
+        "radius_au": 68.8,
+        "estimated_mass_mj": 0.55,
+        "source": "dipierro2015"
+      }
+    ]
+  },
+  "main_references": [
+    "alma2015",
+    "pinte2016",
+    "dipierro2015"
+  ],
+  "page_file": "hl_tau.qmd"
+}
