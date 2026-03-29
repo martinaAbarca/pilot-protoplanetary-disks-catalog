@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/pds_70.html</loc>
-    <lastmod>2026-03-29T06:44:33.763Z</lastmod>
-  </url>
-  <url>
     <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/im_lup.html</loc>
-    <lastmod>2026-03-12T02:41:30.703Z</lastmod>
+    <lastmod>2026-03-29T06:56:08.310Z</lastmod>
   </url>
   <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/hd_163296.html</loc>
-    <lastmod>2026-03-12T02:29:37.463Z</lastmod>
-  </url>
-  <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/as_209.html</loc>
-    <lastmod>2026-03-12T02:15:59.511Z</lastmod>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/pds_70.html</loc>
+    <lastmod>2026-03-29T06:56:08.312Z</lastmod>
   </url>
   <url>
     <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/data/catalog_summary.html</loc>
-    <lastmod>2026-03-17T03:39:54.159Z</lastmod>
+    <lastmod>2026-03-29T06:56:08.309Z</lastmod>
   </url>
   <url>
     <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/hl_tau.html</loc>
-    <lastmod>2026-03-12T02:10:55.464Z</lastmod>
+    <lastmod>2026-03-29T06:56:08.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/hd_163296.html</loc>
+    <lastmod>2026-03-29T06:56:08.310Z</lastmod>
   </url>
   <url>
     <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/index.html</loc>
-    <lastmod>2026-03-17T02:56:03.682Z</lastmod>
+    <lastmod>2026-03-29T06:56:08.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/as_209.html</loc>
+    <lastmod>2026-03-29T06:56:08.309Z</lastmod>
   </url>
 </urlset>
