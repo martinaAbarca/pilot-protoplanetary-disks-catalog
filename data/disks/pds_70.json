@@ -1,0 +1,155 @@
+{
+  "disk_name": "PDS 70",
+  "star_name": "PDS 70",
+  "other_names": {
+    "value": ["V* V1032 Cen", "IRAS 14050-4109"],
+    "source": "keppler2018_pds70"
+  },
+  "region": {
+    "value": "Upper Centaurus-Lupus (Scorpius-Centaurus)",
+    "source": "keppler2018_pds70"
+  },
+  "distance_pc": {
+    "value": 113.43,
+    "source": "keppler2018_pds70"
+  },
+  "stellar_mass_msun": {
+    "value": 0.76,
+    "source": "keppler2018_pds70"
+  },
+  "spectral_type": {
+    "value": "K7",
+    "source": "keppler2018_pds70"
+  },
+  "estimated_age_myr": {
+    "value": 5.4,
+    "source": "keppler2018_pds70"
+  },
+  "evolutionary_class": {
+    "value": "T Tauri star with a transition disk",
+    "source": "keppler2018_pds70"
+  },
+  "effective_temperature_k": {
+    "value": 3972,
+    "source": "keppler2018_pds70"
+  },
+  "stellar_radius_rsun": {
+    "value": 1.26,
+    "source": "keppler2018_pds70"
+  },
+  "stellar_luminosity_lsun": {
+    "value": 0.35,
+    "source": "keppler2018_pds70"
+  },
+  "visual_extinction_mag": {
+    "value": 0.05,
+    "source": "keppler2018_pds70"
+  },
+  "disk_inclination_deg": {
+    "value": [49.7, 51.7],
+    "source": "keppler2018_pds70;keppler2019_pds70"
+  },
+  "disk_position_angle_deg": {
+    "value": [158.6, 156.7, 159.7],
+    "source": "keppler2018_pds70;keppler2019_pds70"
+  },
+  "disk_morphology": {
+    "value": "transition disk with a compact inner disk, a large cavity, a bright outer dust ring, gas substructure, a possible bridge/spur feature, and two accreting protoplanets inside the gap",
+    "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
+  },
+  "dust_rings_au": {
+    "value": [54, 73.7],
+    "source": "keppler2018_pds70;keppler2019_pds70"
+  },
+  "dust_gaps_au": {
+    "value": [54],
+    "source": "keppler2018_pds70"
+  },
+  "dust_cavity_range_au": {
+    "value": [20, 40],
+    "source": "haffert2019_pds70"
+  },
+  "inner_dust_disk_au": {
+    "value": [9, 17],
+    "source": "keppler2018_pds70;keppler2019_pds70"
+  },
+  "inner_gas_disk_au": {
+    "value": 15,
+    "source": "keppler2019_pds70"
+  },
+  "outer_dust_ring_peak_au": {
+    "value": 73.7,
+    "source": "keppler2019_pds70"
+  },
+  "outer_dust_ring_width_au": {
+    "value": {
+      "inner_width": 14.8,
+      "outer_width": 13.4
+    },
+    "source": "keppler2019_pds70"
+  },
+  "gas_gap_center_au": {
+    "value": 23,
+    "source": "keppler2019_pds70"
+  },
+  "gas_gap_width_au": {
+    "value": 11,
+    "source": "keppler2019_pds70"
+  },
+  "gas_tracers": {
+    "value": ["12CO J=3-2", "HCN", "HCO+", "H13CN"],
+    "source": "keppler2019_pds70"
+  },
+  "continuum_wavelength_mm": {
+    "value": [0.855],
+    "source": "keppler2019_pds70"
+  },
+  "main_instruments": {
+    "value": ["VLT/SPHERE", "ALMA", "VLT/MUSE", "Gemini/NICI", "VLT/NaCo"],
+    "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
+  },
+  "evidence_of_planets": {
+    "value": "yes",
+    "source": "keppler2018_pds70;haffert2019_pds70"
+  },
+  "candidate_planets": {
+    "value": [
+      {
+        "name": "PDS 70 b",
+        "radius_au": 21,
+        "projected_separation_mas": 195,
+        "estimated_mass_mj_range": [5, 9],
+        "h_alpha_detected": true,
+        "accretion_rate_mj_per_yr": 2e-8,
+        "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
+      },
+      {
+        "name": "PDS 70 c",
+        "radius_au": 38.6,
+        "projected_separation_mas": 235.5,
+        "estimated_mass_mj_range": [4, 12],
+        "h_alpha_detected": true,
+        "accretion_rate_mj_per_yr": 1e-8,
+        "source": "haffert2019_pds70"
+      }
+    ]
+  },
+  "notable_substructures": {
+    "value": [
+      "large cavity",
+      "compact inner dust disk",
+      "inner gas disk",
+      "bright outer dust ring",
+      "possible inner shoulder near 60 au",
+      "possible bridge/spur at PA ~285 deg",
+      "gas depletion near the orbit of PDS 70 b"
+    ],
+    "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
+  },
+  "main_references": [
+    "keppler2018_pds70",
+    "keppler2019_pds70",
+    "haffert2019_pds70"
+  ],
+  "page_file": "pds_70.qmd"
+}
