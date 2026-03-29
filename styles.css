@@ -100,6 +100,17 @@ code {
   margin: 1.2rem 0;
 }
 
+/* Optional box for comparative summary section */
+.catalog-summary-box {
+  background: linear-gradient(180deg, rgba(20, 20, 20, 0.96), rgba(12, 12, 12, 0.96));
+  border: 1px solid #2d2d2d;
+  border-left: 6px solid #c45b3e;
+  border-radius: 14px;
+  padding: 1.1rem 1.2rem;
+  margin: 1.2rem 0 2rem 0;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
 /* Gallery and diagram boxes */
 .disk-gallery,
 .substructure-gallery,
@@ -220,8 +231,12 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.3rem 0;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+  display: block;
+  overflow-x: auto;
+  white-space: normal;
 }
 
 thead th {
@@ -230,6 +245,8 @@ thead th {
   border: 1px solid #c45b3e !important;
   padding: 0.8rem;
   text-align: left;
+  font-weight: 700;
+  vertical-align: top;
 }
 
 tbody td {
@@ -237,10 +254,16 @@ tbody td {
   color: #ffffff !important;
   border: 1px solid #c45b3e !important;
   padding: 0.8rem;
+  vertical-align: top;
 }
 
 tbody tr:nth-child(even) td {
   background-color: #903522 !important;
+}
+
+tbody tr:hover td {
+  background-color: #9d3a24 !important;
+  transition: background-color 0.2s ease;
 }
 
 /* Quarto / bootstrap table overrides */
@@ -262,6 +285,13 @@ tbody tr:nth-child(even) td {
 
 .table td {
   color: #ffffff !important;
+}
+
+/* Improve included markdown summary table spacing */
+table p,
+table li,
+table code {
+  font-size: 0.98rem;
 }
 
 /* References / bibliography */
@@ -364,5 +394,22 @@ hr {
 
   .disk-card {
     padding: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  table {
+    font-size: 0.95rem;
+  }
+
+  thead th,
+  tbody td {
+    padding: 0.7rem;
   }
 }

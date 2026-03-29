@@ -1,64 +1,155 @@
 ---
 title: "PDS 70 — Protoplanetary Disk"
+bibliography: references.bib
 format:
   html:
     toc: true
+    theme: cosmo
     css: styles.css
+    code-fold: false
 lightbox: true
 ---
 
-::: {#fig-pds70 fig-align="center" width="650"}
-![](images/pds_70_ficha.jpg)
+![ALMA image of the young planetary system PDS 70, showing a structured circumstellar disk with a large cavity and the environment where the protoplanets PDS 70 b and PDS 70 c are forming. Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.](images/pds_70_ficha.jpg){#fig-pds70 fig-align="center" width="650"}
 
-ALMA image of the young planetary system **PDS 70**, located about 400 light-years from Earth. The image shows a circumstellar disk where planets are forming, including the confirmed planets PDS 70b and PDS 70c embedded within the disk.
+As shown in @fig-pds70, PDS 70 is one of the clearest known examples of a transition disk in which planet formation can be studied directly. The system combines a compact inner disk, a large cavity, a bright outer dust ring, and two accreting protoplanets embedded within the gap [@keppler2018_pds70; @keppler2019_pds70; @haffert2019_pds70].
 
-**Credit:** ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.
+## Object names
+
+| Catalog | Name |
+|---|---|
+| Primary name | PDS 70 |
+| Other designations | V* V1032 Cen; IRAS 14050-4109 |
+| Region | Upper Centaurus–Lupus (UCL), Scorpius–Centaurus |
+
+## Location
+
+PDS 70 is located at a distance of **113.43 ± 0.52 pc** in the **Upper Centaurus–Lupus** subgroup of the **Scorpius–Centaurus** association [@keppler2018_pds70]. Its host star is a young **K7 T Tauri star** with an estimated age of **5.4 ± 1.0 Myr**, making the system an excellent laboratory for studying the late stages of disk evolution and ongoing planet formation [@keppler2018_pds70].
+
+Because the system is both young and relatively nearby, high-angular-resolution observations can resolve not only the global disk structure, but also the relationship between the disk substructures and the forming planets embedded inside the cavity.
+
+## Overview of the system
+
+PDS 70 is a **transition disk system** with a particularly rich architecture. It contains a **compact inner disk**, a **large cavity**, and a **bright outer ring** of dust. The cavity is not empty: both dust and gas survive in the inner system, and at least two protoplanets, **PDS 70 b** and **PDS 70 c**, are located inside the gap [@keppler2018_pds70; @keppler2019_pds70; @haffert2019_pds70].
+
+This combination makes PDS 70 especially important. It is not just a disk with substructure, but a system where the connection between **disk morphology**, **planet–disk interaction**, and **active accretion onto forming planets** can be studied in the same object.
+
+## General system properties
+
+| Property | Value |
+|---|---|
+| Distance | 113.43 ± 0.52 pc |
+| Age | 5.4 ± 1.0 Myr |
+| Spectral type | K7 |
+| Stellar temperature | 3972 ± 36 K |
+| Stellar mass | 0.76 ± 0.02 M☉ |
+| Stellar radius | 1.26 ± 0.15 R☉ |
+| Stellar luminosity | 0.35 ± 0.09 L☉ |
+| Visual extinction | 0.05$^{+0.05}_{-0.03}$ mag |
+| Disk inclination | ~49.7° (NIR), ~51.7° (ALMA) |
+| Disk position angle | ~158.6° (NIR), ~156.7–159.7° (ALMA) |
+
+The stellar properties are based on the direct-imaging analysis of @keppler2018_pds70, while the disk geometry is constrained by both near-infrared and ALMA observations [@keppler2018_pds70; @keppler2019_pds70].
+
+## Disk morphology
+
+PDS 70 shows the characteristic morphology of a **transition disk**, but with especially clear and diverse substructures. In scattered light, the outer disk appears as an elliptical ring with a strong radial cavity separating it from the inner system [@keppler2018_pds70]. At millimeter wavelengths, ALMA reveals a **bright outer dust ring** with additional complexity, including a possible inner shoulder near **60 au**, an azimuthal brightness asymmetry, and a tentative **bridge/spur** feature extending from the ring toward the inner disk [@keppler2019_pds70].
+
+The system also contains an **inner dust disk** and an **inner gas disk**, showing that the region inside the large cavity is not completely cleared. The two planets, **PDS 70 b** and **PDS 70 c**, are located inside the gap, linking the disk morphology directly to ongoing planet formation [@keppler2018_pds70; @haffert2019_pds70].
+
+## Morphology measurements
+
+| Structure | Type | Measurement |
+|---|---|---|
+| Inner disk in scattered light | compact inner component | < ~17 au |
+| Inner dust disk in ALMA continuum | compact central emission | < ~9 au |
+| Inner gas disk | gas component | out to ~15 au |
+| Large cavity in NIR | cleared radial region | ~20–40 au |
+| Gap size in scattered light | dust gap | ~54 au |
+| Outer ring peak in polarized light | radial brightness peak | ~54 au |
+| Main millimeter dust ring peak | radial brightness peak | 73.7 ± 0.1 au |
+| Inner width of outer ring | radial width | 14.8 ± 0.1 au |
+| Outer width of outer ring | radial width | 13.4 ± 0.1 au |
+| Possible inner shoulder | secondary component | ~60 au |
+| Spur / bridge feature | tentative substructure | PA ~285° |
+| Main CO gap center | gas depression | ~23 au |
+| Main CO gap width | gas depression width | ~11 au |
+| Second CO depression | outer gas substructure | ~0.6" |
+
+These measurements summarize the substructures reported in the scattered-light study of @keppler2018_pds70, the ALMA analysis of @keppler2019_pds70, and the planet detections discussed in @haffert2019_pds70.
+
+## Dust in the disk
+
+The dust distribution in PDS 70 is strongly structured and depends on grain size. In **scattered light**, which mainly traces small grains in the disk surface layers, the disk shows a **large cavity** and an outer brightness peak at about **54 au** [@keppler2018_pds70]. In the same data, emission from an **inner disk component** is also detected, showing that the innermost region is not fully empty.
+
+In the **ALMA millimeter continuum**, which traces larger grains, the radial profile clearly shows a **large gap and a ring component**, with the main outer dust ring peaking at **73.7 au** [@keppler2019_pds70]. The flux inside the cavity is reduced by more than **90%**, and the ring also displays an azimuthal brightness enhancement in the northwest, where it is about **13% brighter** than the opposite side [@keppler2019_pds70].
+
+This difference between the NIR cavity wall and the millimeter dust ring indicates **radial grain-size segregation**: small grains remain closer to the cavity wall, while larger grains are concentrated farther out, in a region consistent with dust trapping near a pressure maximum [@keppler2018_pds70; @keppler2019_pds70].
+
+## Dust properties
+
+| Property | Value |
+|---|---|
+| Large gap in scattered light | ~54 au |
+| Inner dust disk in scattered light | < ~17 au |
+| Cavity wall in NIR | ~0.39" |
+| Outer ring peak in polarized light | ~54 au |
+| Main millimeter dust ring peak | 73.7 ± 0.1 au |
+| Possible inner shoulder | ~0.53" (~60 au) |
+| Ring brightness asymmetry | PA ~327°, ~13% brighter |
+| Inner dust disk in ALMA continuum | < ~80 mas (~9 au) |
+| Grain-size segregation | ~0.70" vs ~0.39" |
+
+## Gas in the disk
+
+The gas component of PDS 70 was studied mainly through **$^{12}$CO J=3–2** emission. Unlike the dust continuum, the CO emission traces an elevated emitting layer, so its morphology is more extended and geometrically more complex than the dust distribution [@keppler2019_pds70]. The ALMA analysis shows that the gas disk is not completely empty inside the cavity: an **inner gas disk** extends out to about **15 au**, while the main CO depression is centered near **23 au**, close to the orbit of **PDS 70 b** [@keppler2019_pds70].
+
+The gas also shows **kinematic deviations from Keplerian rotation** inside about **0.8" (~91 au)**. These deviations are interpreted as evidence for a pressure gradient in the disk, which helps explain why the large-grain dust ring is located much farther out than the orbital radius of PDS 70 b [@keppler2019_pds70]. In addition, the CO data reveal a possible bridge-like feature in the northwest region, which may trace gas flow between the outer disk and the inner system.
+
+## Gas properties
+
+| Property | Value |
+|---|---|
+| Main gas tracer | $^{12}$CO J=3–2 |
+| Additional detected species | HCN, HCO$^+$, H$^{13}$CN |
+| CO emitting surface | $z(r) = (0.33 \pm 0.01)\,(r/1'')^{0.76 \pm 0.01}$ |
+| Inner gas disk | out to ~15 au |
+| Main gas gap center | ~0.2" (~23 au) |
+| Main gas gap width | ~0.1" (~11 au) |
+| Approximate gap extent | ~0.1–0.3" (~11–34 au) |
+| Possible bridge-like feature | northwest region |
+| Deviation from Keplerian rotation | inside ~0.8" (~91 au) |
+| Positive pressure gradient region | ~0.4–0.8", peak near ~0.55" |
+| Second CO depression | ~0.6" |
+
+## Evidence of planet formation
+
+The case for ongoing planet formation in PDS 70 is supported by three complementary lines of evidence. First, **PDS 70 b** was directly detected as a point source within the disk gap and confirmed at multiple epochs as a co-moving planetary-mass companion [@keppler2018_pds70]. Second, **H$\alpha$ emission** was later detected at the positions of both **PDS 70 b** and **PDS 70 c**, showing that both objects are actively accreting gas [@haffert2019_pds70]. Third, the disk itself shows perturbations in both dust and gas, including a CO depression near the orbit of PDS 70 b and kinematic signatures consistent with planet–disk interaction [@keppler2019_pds70].
+
+Taken together, these observations show that PDS 70 is not just a disk with substructure, but a system in which forming planets and disk morphology can be linked observationally.
+
+## Planets and circumplanetary material
+
+PDS 70 is one of the few known systems where **two protoplanets** have been identified inside the disk cavity. PDS 70 b was first detected in direct imaging, while PDS 70 c was later identified through H$\alpha$ emission as a second accreting protoplanet [@keppler2018_pds70; @haffert2019_pds70].
+
+| Object | Key properties |
+|---|---|
+| **PDS 70 b** | Planetary-mass companion inside the cavity; projected separation ~195 mas (~22 au); typical PA ~155°; estimated mass ~5–9 M$_{\rm Jup}$; H$\alpha$ detected; accretion rate ~2 × 10$^{-8}$ M$_{\rm Jup}$ yr$^{-1}$; ALMA sets an upper limit of < ~0.01 M$_\oplus$ for circumplanetary dust [@keppler2018_pds70; @keppler2019_pds70; @haffert2019_pds70]. |
+| **PDS 70 c** | Second accreting protoplanet; H$\alpha$ separation 235.5 ± 25 mas; orbital radius 38.6 ± 4.5 au; PA ~277° in H$\alpha$ and ~283–285° in K1/L'; estimated mass ~4–12 M$_{\rm Jup}$; H$\alpha$ detected; accretion rate ~1 × 10$^{-8}$ M$_{\rm Jup}$ yr$^{-1}$ [@haffert2019_pds70]. |
+
+The H$\alpha$ detections are especially important because they show that both planets are still accreting material, making PDS 70 a direct example of planet formation in progress.
+
+## Physical interpretation
+
+PDS 70 is best interpreted as a **young multiplanet system still being assembled**, in which the planets are already reshaping the surrounding disk. The large cavity, the survival of an inner disk, the separation between the scattered-light cavity wall and the millimeter dust ring, and the gas depletion near the orbit of **PDS 70 b** all point toward ongoing **planet–disk interaction** [@keppler2018_pds70; @keppler2019_pds70].
+
+The ALMA data suggest that a single planet may not be sufficient to explain the full morphology of the system, especially the large cavity width and the additional substructures in the dust and gas [@keppler2019_pds70]. The later detection of **PDS 70 c** strengthens this interpretation and supports a more complex planetary architecture. In this framework, PDS 70 serves as a benchmark system for studying how giant planets open gaps, reshape pressure profiles, trap dust, and continue accreting while embedded in their natal disk [@haffert2019_pds70].
+
+## Activity
+
+En esta actividad, los estudiantes trabajarán con una imagen FITS del disco PDS 70 para explorar cómo se reconocen sus subestructuras con herramientas básicas de ciencia de datos. Primero cargarán la imagen y visualizarán la distribución de brillo del disco. Luego calcularán un perfil radial para identificar la caída de intensidad en la cavidad y el máximo correspondiente al anillo externo. Después compararán la posición del anillo principal y de la cavidad con los valores reportados en la literatura, y discutirán por qué la ubicación del polvo pequeño en luz dispersada y la del polvo grande en el continuo milimétrico no coinciden exactamente. El objetivo es relacionar análisis computacional, observación astronómica e interpretación física del disco.
+
+## References
+
+::: {#refs}
 :::
-
----
-
-# Object names
-
----
-
-# Location
-
----
-
-# Overview of the system
-
----
-
-# General system properties
-
----
-
-# Observations
-
----
-
-# Disk geometry
-
----
-
-# Disk morphology
-
----
-
-# Morphology measurements
-
----
-
-# Gas structure
-
----
-
-# Evidence of planet formation
-
----
-
-# Activity
-
----
-
-# References
