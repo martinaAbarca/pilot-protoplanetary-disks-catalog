@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,10 +113,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#pds-70-protoplanetary-disk" id="toc-pds-70-protoplanetary-disk" class="nav-link active" data-scroll-target="#pds-70-protoplanetary-disk">PDS 70: Protoplanetary disk</a>
-  <ul class="collapse">
-  <li><a href="#object-names" id="toc-object-names" class="nav-link" data-scroll-target="#object-names">Object names</a></li>
-  </ul></li>
+  <li><a href="#object-names" id="toc-object-names" class="nav-link active" data-scroll-target="#object-names">Object names</a></li>
   </ul>
 </nav>
     </div>
@@ -139,11 +139,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="pds-70-protoplanetary-disk" class="level1">
-<h1>PDS 70: Protoplanetary disk</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/pds_70_ficha.jpg" class="img-fluid figure-img"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pds_70_ficha.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity. Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al."><img src="images/pds_70_ficha.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity. Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al."></a></p>
+</figure>
+</div>
 <figcaption>ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity. Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</figcaption>
 </figure>
 </div>
@@ -177,7 +179,6 @@ ul.task-list li input[type="checkbox"] {
 </table>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -582,6 +583,38 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
