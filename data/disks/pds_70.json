@@ -6,27 +6,23 @@
     "source": "keppler2018_pds70"
   },
   "region": {
-    "value": "Upper Centaurus-Lupus (Scorpius-Centaurus)",
+    "value": "Upper Centaurus-Lupus (UCL), Scorpius-Centaurus",
     "source": "keppler2018_pds70"
   },
   "distance_pc": {
     "value": 113.43,
     "source": "keppler2018_pds70"
   },
-  "stellar_mass_msun": {
-    "value": 0.76,
+  "estimated_age_myr": {
+    "value": 5.4,
     "source": "keppler2018_pds70"
   },
   "spectral_type": {
     "value": "K7",
     "source": "keppler2018_pds70"
   },
-  "estimated_age_myr": {
-    "value": 5.4,
-    "source": "keppler2018_pds70"
-  },
-  "evolutionary_class": {
-    "value": "T Tauri star with a transition disk",
+  "stellar_mass_msun": {
+    "value": 0.76,
     "source": "keppler2018_pds70"
   },
   "effective_temperature_k": {
@@ -53,21 +49,13 @@
     "value": [158.6, 156.7, 159.7],
     "source": "keppler2018_pds70;keppler2019_pds70"
   },
-  "disk_morphology": {
-    "value": "transition disk with a compact inner disk, a large cavity, a bright outer dust ring, gas substructure, a possible bridge/spur feature, and two accreting protoplanets inside the gap",
-    "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
-  },
-  "dust_rings_au": {
-    "value": [54, 73.7],
-    "source": "keppler2018_pds70;keppler2019_pds70"
-  },
-  "dust_gaps_au": {
-    "value": [54],
+  "evolutionary_class": {
+    "value": "T Tauri star with a transition disk",
     "source": "keppler2018_pds70"
   },
-  "dust_cavity_range_au": {
-    "value": [20, 40],
-    "source": "haffert2019_pds70"
+  "disk_morphology": {
+    "value": "transition disk with a compact inner disk, a large cavity, a bright outer dust ring, gas substructure, a possible spur/bridge feature, and two accreting protoplanets inside the gap",
+    "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
   },
   "inner_dust_disk_au": {
     "value": [9, 17],
@@ -77,9 +65,17 @@
     "value": 15,
     "source": "keppler2019_pds70"
   },
+  "dust_cavity_range_au": {
+    "value": [20, 40],
+    "source": "haffert2019_pds70"
+  },
+  "dust_gap_scattered_light_au": {
+    "value": 54,
+    "source": "keppler2018_pds70"
+  },
   "outer_dust_ring_peak_au": {
-    "value": 73.7,
-    "source": "keppler2019_pds70"
+    "value": [54, 73.7],
+    "source": "keppler2018_pds70;keppler2019_pds70"
   },
   "outer_dust_ring_width_au": {
     "value": {
@@ -96,12 +92,16 @@
     "value": 11,
     "source": "keppler2019_pds70"
   },
+  "gas_gap_extent_au": {
+    "value": [11, 34],
+    "source": "keppler2019_pds70"
+  },
   "gas_tracers": {
     "value": ["12CO J=3-2", "HCN", "HCO+", "H13CN"],
     "source": "keppler2019_pds70"
   },
   "continuum_wavelength_mm": {
-    "value": [0.855],
+    "value": 0.855,
     "source": "keppler2019_pds70"
   },
   "main_instruments": {
@@ -116,19 +116,24 @@
     "value": [
       {
         "name": "PDS 70 b",
-        "radius_au": 21,
         "projected_separation_mas": 195,
+        "orbital_radius_au": 21,
+        "position_angle_deg": 155,
         "estimated_mass_mj_range": [5, 9],
         "h_alpha_detected": true,
+        "h_alpha_flux_erg_s_cm2": 3.9e-16,
         "accretion_rate_mj_per_yr": 2e-8,
+        "circumplanetary_dust_upper_limit_mearth": 0.01,
         "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
       },
       {
         "name": "PDS 70 c",
-        "radius_au": 38.6,
         "projected_separation_mas": 235.5,
+        "orbital_radius_au": 38.6,
+        "position_angle_deg": [277, 283, 285],
         "estimated_mass_mj_range": [4, 12],
         "h_alpha_detected": true,
+        "h_alpha_flux_erg_s_cm2": 1.9e-16,
         "accretion_rate_mj_per_yr": 1e-8,
         "source": "haffert2019_pds70"
       }
@@ -136,13 +141,13 @@
   },
   "notable_substructures": {
     "value": [
+      "compact inner disk",
       "large cavity",
-      "compact inner dust disk",
-      "inner gas disk",
       "bright outer dust ring",
-      "possible inner shoulder near 60 au",
-      "possible bridge/spur at PA ~285 deg",
-      "gas depletion near the orbit of PDS 70 b"
+      "possible shoulder near 60 au",
+      "possible spur/bridge at PA ~285 deg",
+      "gas depletion near the orbit of PDS 70 b",
+      "second CO depression near 0.6 arcsec"
     ],
     "source": "keppler2018_pds70;keppler2019_pds70;haffert2019_pds70"
   },
