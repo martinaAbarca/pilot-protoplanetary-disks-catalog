@@ -38,7 +38,7 @@ HD 163296 is one of the best-studied protoplanetary disks with resolved substruc
 
 Subsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in **CO emission** are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density [@rab2020].
 
-In addition, high-resolution spectroscopic observations have revealed **localized deviations from Keplerian rotation**, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk [@pinte2020].
+In addition, high-resolution spectroscopic observations have revealed **localized deviations from Keplerian rotation**, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk [@pinte2020_dsharp].
 
 Together, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks.
 
@@ -144,7 +144,7 @@ Several lines of evidence suggest that HD 163296 hosts forming planets.
 
 Hydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by **embedded planets** with masses comparable to those of Saturn or Jupiter [@isella2016].
 
-In addition, measurements of the gas velocity field reveal **localized deviations from Keplerian rotation**, which are interpreted as perturbations produced by planets embedded within the disk [@pinte2020].
+In addition, measurements of the gas velocity field reveal **localized deviations from Keplerian rotation**, which are interpreted as perturbations produced by planets embedded within the disk [@pinte2020_dsharp].
 
 The inferred properties of these candidate planets are approximately:
 

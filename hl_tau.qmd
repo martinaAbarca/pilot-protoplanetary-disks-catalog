@@ -19,7 +19,7 @@ As shown in @fig-hltau, the HL Tau disk exhibits a sequence of bright rings and 
 | Field | Value | Source |
 |---|---|---|
 | Main name | HL Tau | [@alma2015] |
-| Other designations | Haro 6-14 | [@Gomez1997] |
+| Other designations | Haro 6-14 | [@gomez1997] |
 | Location | Taurus Molecular Cloud | [@pinte2016] |
 
 ## Location
