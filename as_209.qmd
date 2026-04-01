@@ -1,5 +1,5 @@
 ---
-title: "AS 209 — Protoplanetary Disk"
+title: "AS 209: Protoplanetary Disk"
 bibliography: references.bib
 format:
   html:
@@ -16,11 +16,11 @@ As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and 
 
 ## Object names
 
-| Catalog | Name |
-|---|---|
-| Primary name | AS 209 |
-| Other designations | — |
-| Region | Ophiuchus star-forming region |
+| Catalog | Name | Source |
+|---|---|---|
+| Main name | AS 209 | Fedele et al. (2018) |
+| Other designations | — | Not listed in this paper |
+| Region | Ophiuchus star-forming region | Fedele et al. (2018) |
 
 ## Location
 

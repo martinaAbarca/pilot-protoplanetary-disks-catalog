@@ -219,7 +219,7 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing pr
 <h2 class="anchored" data-anchor-id="overview-of-the-system">Overview of the system</h2>
 <p>HD 163296 is one of the best-studied protoplanetary disks with resolved substructures. High-resolution ALMA observations revealed a system of <strong>rings and gaps in the millimeter dust continuum emission</strong> at radii of roughly <strong>60 AU</strong>, <strong>100 AU</strong>, and <strong>160 AU</strong> <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>.</p>
 <p>Subsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in <strong>CO emission</strong> are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density <span class="citation" data-cites="rab2020">(<a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
-<p>In addition, high-resolution spectroscopic observations have revealed <strong>localized deviations from Keplerian rotation</strong>, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk <span class="citation" data-cites="pinte2020">(<a href="#ref-pinte2020" role="doc-biblioref"><strong>pinte2020?</strong></a>)</span>.</p>
+<p>In addition, high-resolution spectroscopic observations have revealed <strong>localized deviations from Keplerian rotation</strong>, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk <span class="citation" data-cites="pinte2020_dsharp">(<a href="#ref-pinte2020_dsharp" role="doc-biblioref">Pinte et al. 2020</a>)</span>.</p>
 <p>Together, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks.</p>
 <hr>
 </section>
@@ -411,7 +411,7 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing pr
 <h2 class="anchored" data-anchor-id="evidence-of-planet-formation">Evidence of planet formation</h2>
 <p>Several lines of evidence suggest that HD 163296 hosts forming planets.</p>
 <p>Hydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by <strong>embedded planets</strong> with masses comparable to those of Saturn or Jupiter <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>.</p>
-<p>In addition, measurements of the gas velocity field reveal <strong>localized deviations from Keplerian rotation</strong>, which are interpreted as perturbations produced by planets embedded within the disk <span class="citation" data-cites="pinte2020">(<a href="#ref-pinte2020" role="doc-biblioref"><strong>pinte2020?</strong></a>)</span>.</p>
+<p>In addition, measurements of the gas velocity field reveal <strong>localized deviations from Keplerian rotation</strong>, which are interpreted as perturbations produced by planets embedded within the disk <span class="citation" data-cites="pinte2020_dsharp">(<a href="#ref-pinte2020_dsharp" role="doc-biblioref">Pinte et al. 2020</a>)</span>.</p>
 <p>The inferred properties of these candidate planets are approximately:</p>
 <table class="caption-top table">
 <thead>
@@ -452,6 +452,9 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing pr
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-isella2016" class="csl-entry" role="listitem">
 Isella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. <span>“Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.”</span> <em>Physical Review Letters</em> 117 (25): 251101. <a href="https://doi.org/10.1103/PhysRevLett.117.251101">https://doi.org/10.1103/PhysRevLett.117.251101</a>.
+</div>
+<div id="ref-pinte2020_dsharp" class="csl-entry" role="listitem">
+Pinte, Christophe, Daniel J. Price, François Ménard, Gaspard Duchêne, Valentin Christiaens, Sean M. Andrews, Jane Huang, et al. 2020. <span>“Nine Localized Deviations from Keplerian Rotation in the DSHARP Circumstellar Disks: Kinematic Evidence for Protoplanets Carving the Gaps.”</span> <em>The Astrophysical Journal Letters</em> 890: L9. <a href="https://doi.org/10.3847/2041-8213/ab6dda">https://doi.org/10.3847/2041-8213/ab6dda</a>.
 </div>
 <div id="ref-rab2020" class="csl-entry" role="listitem">
 Rab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. <span>“Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.”</span> <em>Astronomy &amp; Astrophysics</em> 642: A165. <a href="https://doi.org/10.1051/0004-6361/202038712">https://doi.org/10.1051/0004-6361/202038712</a>.
@@ -535,7 +538,7 @@ Rab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/martinaAbarca\.github\.io\/pilot-protoplanetary-disks-catalog\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

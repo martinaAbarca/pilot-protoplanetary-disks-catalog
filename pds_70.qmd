@@ -1,5 +1,5 @@
 ---
-title: "PDS 70: Protoplanetary disk"
+title: "PDS 70:Protoplanetary disk"
 lightbox: true
 bibliography: references.bib
 link-citations: true
@@ -16,7 +16,7 @@ format:
 | Object names | Names |
 |---|---|
 | Main name | PDS 70 |
-| Alternative name | V* V1032 Cen; IRAS 14050-4109 |
+| Other designations | V* V1032 Cen; IRAS 14050-4109 |
 | Location | Upper Centaurus–Lupus (UCL), asociación Scorpius–Centaurus |
 
 ## Location

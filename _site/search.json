@@ -221,7 +221,7 @@
     "href": "hd_163296.html#overview-of-the-system",
     "title": "HD 163296 — Protoplanetary Disk",
     "section": "Overview of the system",
-    "text": "Overview of the system\nHD 163296 is one of the best-studied protoplanetary disks with resolved substructures. High-resolution ALMA observations revealed a system of rings and gaps in the millimeter dust continuum emission at radii of roughly 60 AU, 100 AU, and 160 AU (Isella et al. 2016).\nSubsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in CO emission are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density (Rab et al. 2020).\nIn addition, high-resolution spectroscopic observations have revealed localized deviations from Keplerian rotation, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk (pinte2020?).\nTogether, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks."
+    "text": "Overview of the system\nHD 163296 is one of the best-studied protoplanetary disks with resolved substructures. High-resolution ALMA observations revealed a system of rings and gaps in the millimeter dust continuum emission at radii of roughly 60 AU, 100 AU, and 160 AU (Isella et al. 2016).\nSubsequent studies showed that the gas disk exhibits a more complex structure. Thermo-chemical modeling demonstrated that some radial features observed in CO emission are strongly influenced by temperature gradients and dust opacity effects rather than solely by changes in gas density (Rab et al. 2020).\nIn addition, high-resolution spectroscopic observations have revealed localized deviations from Keplerian rotation, which are interpreted as evidence for embedded planets perturbing the gas velocity field within the disk (Pinte et al. 2020).\nTogether, these results indicate that HD 163296 is a key system for studying the interaction between forming planets and their natal disks."
   },
   {
     "objectID": "hd_163296.html#general-system-properties",
@@ -277,7 +277,7 @@
     "href": "hd_163296.html#evidence-of-planet-formation",
     "title": "HD 163296 — Protoplanetary Disk",
     "section": "Evidence of planet formation",
-    "text": "Evidence of planet formation\nSeveral lines of evidence suggest that HD 163296 hosts forming planets.\nHydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by embedded planets with masses comparable to those of Saturn or Jupiter (Isella et al. 2016).\nIn addition, measurements of the gas velocity field reveal localized deviations from Keplerian rotation, which are interpreted as perturbations produced by planets embedded within the disk (pinte2020?).\nThe inferred properties of these candidate planets are approximately:\n\n\n\nRadius (AU)\nEstimated mass\n\n\n\n\n~100 AU\n~1 MJ\n\n\n~165 AU\n~1.3 MJ\n\n\n\nThese measurements represent one of the first cases in which forming planets have been inferred from direct perturbations in the gas velocity field of a protoplanetary disk."
+    "text": "Evidence of planet formation\nSeveral lines of evidence suggest that HD 163296 hosts forming planets.\nHydrodynamic simulations indicate that the gaps in the dust disk can be reproduced by embedded planets with masses comparable to those of Saturn or Jupiter (Isella et al. 2016).\nIn addition, measurements of the gas velocity field reveal localized deviations from Keplerian rotation, which are interpreted as perturbations produced by planets embedded within the disk (Pinte et al. 2020).\nThe inferred properties of these candidate planets are approximately:\n\n\n\nRadius (AU)\nEstimated mass\n\n\n\n\n~100 AU\n~1 MJ\n\n\n~165 AU\n~1.3 MJ\n\n\n\nThese measurements represent one of the first cases in which forming planets have been inferred from direct perturbations in the gas velocity field of a protoplanetary disk."
   },
   {
     "objectID": "hd_163296.html#physical-interpretation-of-hd-163296",
@@ -298,7 +298,7 @@
     "href": "hd_163296.html#references",
     "title": "HD 163296 — Protoplanetary Disk",
     "section": "References",
-    "text": "References\n\n\nIsella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. “Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.” Physical Review Letters 117 (25): 251101. https://doi.org/10.1103/PhysRevLett.117.251101.\n\n\nRab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. “Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.” Astronomy & Astrophysics 642: A165. https://doi.org/10.1051/0004-6361/202038712."
+    "text": "References\n\n\nIsella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. “Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.” Physical Review Letters 117 (25): 251101. https://doi.org/10.1103/PhysRevLett.117.251101.\n\n\nPinte, Christophe, Daniel J. Price, François Ménard, Gaspard Duchêne, Valentin Christiaens, Sean M. Andrews, Jane Huang, et al. 2020. “Nine Localized Deviations from Keplerian Rotation in the DSHARP Circumstellar Disks: Kinematic Evidence for Protoplanets Carving the Gaps.” The Astrophysical Journal Letters 890: L9. https://doi.org/10.3847/2041-8213/ab6dda.\n\n\nRab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. “Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.” Astronomy & Astrophysics 642: A165. https://doi.org/10.1051/0004-6361/202038712."
   },
   {
     "objectID": "as_209.html",
@@ -431,7 +431,7 @@
     "href": "hl_tau.html#object-names",
     "title": "HL Tau — Protoplanetary Disk",
     "section": "Object names",
-    "text": "Object names\n\n\n\nField\nValue\nSource\n\n\n\n\nMain name\nHL Tau\n(ALMA Partnership et al. 2015)\n\n\nOther designations\nHaro 6-14\n(Gomez1997?)\n\n\nLocation\nTaurus Molecular Cloud\n(Pinte et al. 2016)"
+    "text": "Object names\n\n\n\nField\nValue\nSource\n\n\n\n\nMain name\nHL Tau\n(ALMA Partnership et al. 2015)\n\n\nOther designations\nHaro 6-14\n(Gomez, Whitney, and Kenyon 1997)\n\n\nLocation\nTaurus Molecular Cloud\n(Pinte et al. 2016)"
   },
   {
     "objectID": "hl_tau.html#location",
@@ -522,7 +522,7 @@
     "href": "hl_tau.html#references",
     "title": "HL Tau — Protoplanetary Disk",
     "section": "References",
-    "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
+    "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nGomez, Mercedes, Barbara A. Whitney, and Scott J. Kenyon. 1997. “A Survey of Optical and Near-Infrared Jets in Taurus Embedded Sources.” The Astronomical Journal 114 (3): 1138–53. https://doi.org/10.1086/118545.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
   },
   {
     "objectID": "index.html",
