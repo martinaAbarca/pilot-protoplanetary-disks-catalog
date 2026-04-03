@@ -234,8 +234,7 @@ table {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
-  display: block;
-  overflow-x: auto;
+  table-layout: fixed;
   white-space: normal;
 }
 
@@ -247,6 +246,7 @@ thead th {
   text-align: left;
   font-weight: 700;
   vertical-align: top;
+  overflow-wrap: anywhere;
 }
 
 tbody td {
@@ -255,6 +255,7 @@ tbody td {
   border: 1px solid #c45b3e !important;
   padding: 0.8rem;
   vertical-align: top;
+  overflow-wrap: anywhere;
 }
 
 tbody tr:nth-child(even) td {
@@ -268,6 +269,7 @@ tbody tr:hover td {
 
 /* Quarto / bootstrap table overrides */
 .table {
+  width: 100%;
   color: #ffffff !important;
   --bs-table-color: #ffffff;
   --bs-table-bg: #7f2f1b;
@@ -281,10 +283,12 @@ tbody tr:hover td {
 .table th {
   background-color: #a63f24 !important;
   color: #ffffff !important;
+  overflow-wrap: anywhere;
 }
 
 .table td {
   color: #ffffff !important;
+  overflow-wrap: anywhere;
 }
 
 /* Improve included markdown summary table spacing */
