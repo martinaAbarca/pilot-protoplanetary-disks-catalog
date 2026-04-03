@@ -1,88 +1,288 @@
 {
-  "disk_name": "AS 209",
-  "star_name": "AS 209",
-  "other_names": {
-    "value": [],
-    "source": ""
+  "id": "as_209",
+  "title": "AS 209: Protoplanetary Disk",
+  "bibliography": "references.bib",
+  "figure": {
+    "image": "images/as_209_ficha.png",
+    "alt": "ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation.",
+    "caption": "ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation.",
+    "credit": "ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile)"
   },
-  "region": {
-    "value": "Ophiuchus star-forming region",
-    "source": "fedele2018"
-  },
-  "distance_pc": {
-    "value": 126,
-    "source": "fedele2018"
-  },
-  "stellar_mass_msun": {
-    "value": 0.9,
-    "source": "fedele2018"
-  },
-  "spectral_type": {
-    "value": "K5",
-    "source": "fedele2018"
-  },
-  "estimated_age_myr": {
-    "value": 0.75,
-    "source": "fedele2018"
-  },
-  "evolutionary_class": {
-    "value": "T Tauri",
-    "source": "fedele2018"
-  },
-  "disk_morphology": {
-    "value": "ringed disk with coordinated dust and gas substructures",
-    "source": "fedele2018;favre2019;zhang2018"
-  },
-  "dust_rings_au": {
-    "value": [75, 130],
-    "source": "fedele2018"
-  },
-  "dust_gaps_au": {
-    "value": [62, 103],
-    "source": "fedele2018"
-  },
-  "dust_disk_outer_radius_au": {
-    "value": 175,
-    "source": "fedele2018"
-  },
-  "gas_disk_outer_radius_au": {
-    "value": 200,
-    "source": "favre2019"
-  },
-  "gas_tracers": {
-    "value": ["CO", "13CO", "C18O", "DCO+"],
-    "source": "favre2019"
-  },
-  "continuum_wavelength_mm": {
-    "value": [1.3],
-    "source": "fedele2018"
-  },
-  "main_instruments": {
-    "value": ["ALMA"],
-    "source": "fedele2018;favre2019;zhang2018"
-  },
-  "evidence_of_planets": {
-    "value": "yes",
-    "source": "favre2019"
-  },
-  "candidate_planets": {
-    "value": [
+  "intro": "As shown in the ALMA image, the AS 209 disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission.",
+  "sections": {
+    "object_names": [
       {
-        "radius_au": 95,
-        "estimated_mass_mj": 0.2,
-        "source": "favre2019"
+        "catalog": "Main name",
+        "name": "AS 209",
+        "source": "Fedele et al. (2018)"
       },
       {
-        "radius_au": 100,
-        "estimated_mass_mj": 0.3,
-        "source": "favre2019"
+        "catalog": "Other designations",
+        "name": "PDS 92; V1121 Oph; HBC 270; IRAS 16464-1416",
+        "source": "Gregorio-Hetem et al. (1992); SIMBAD cross-identification"
+      },
+      {
+        "catalog": "Location",
+        "name": "Ophiuchus star-forming region",
+        "source": "Fedele et al. (2018)"
       }
-    ]
-  },
-  "main_references": [
-    "fedele2018",
-    "zhang2018",
-    "favre2019"
-  ],
-  "page_file": "as_209.qmd"
+    ],
+    "location": {
+      "text": "AS 209 is located in the Ophiuchus molecular cloud, a nearby star-forming region that hosts many young stellar systems. In the literature, the source is described as a T Tauri star in the young Ophiuchus star-forming region at a distance of 126 pc from the Sun. Its relative proximity makes AS 209 an excellent target for high-resolution millimeter observations, allowing both the dust and gas substructures of the disk to be studied in detail.",
+      "source": "Fedele et al. (2018)"
+    },
+    "general_description_of_the_system": {
+      "text": "AS 209 is a young protoplanetary system surrounding a T Tauri star, with a stellar mass of 0.9 M☉, spectral type K5, and luminosity of 1.5 L☉, located in the Ophiuchus star-forming region at a distance of 126 pc. At 1.3 mm, its disk displays a bright central core, two prominent rings at ~75 and ~130 au, and two gaps at ~62 and ~103 au, with the inner gap being narrower and shallower than the outer one. Building on this observational picture, Zhang et al. (2018) highlight the excellent agreement between observations and simulations for AS 209 and describe it as a system with many gaps, reinforcing the idea that it is a particularly valuable object for studying disk substructures and their possible connection to planet formation. In addition, the multiwavelength analysis of Tazzari et al. (2016) reveals evidence for radial dust evolution: the largest grains are concentrated in the inner regions, whereas smaller grains dominate the outer disk, suggesting that the growth and redistribution of solids do not occur uniformly throughout the disk.",
+      "sources": [
+        "Tazzari et al. (2016)",
+        "Fedele et al. (2018)",
+        "Zhang et al. (2018)"
+      ]
+    },
+    "general_system_properties": [
+      {
+        "property": "Distance",
+        "value": "126 pc",
+        "description": "Distance from the Sun to AS 209.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Age",
+        "value": "~0.5–1.0 Myr",
+        "description": "Estimated age of the system.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Spectral type",
+        "value": "K5",
+        "description": "Spectral class of the central star.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Stellar temperature",
+        "value": "4250 K",
+        "description": "Effective temperature of the star.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Stellar mass",
+        "value": "0.83–0.9 M☉",
+        "description": "Mass of the central star.",
+        "source": "Zhang et al. (2018); Fedele et al. (2018)"
+      },
+      {
+        "property": "Stellar luminosity",
+        "value": "1.5 L☉",
+        "description": "Luminosity of the central star.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Disk radius (dust)",
+        "value": "~170–180 au",
+        "description": "Outer extent of the dust continuum emission.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Disk outer radius (gas emission)",
+        "value": ">200 au",
+        "description": "Outer extent of the disk traced by CO emission.",
+        "source": "Favre et al. (2019)"
+      },
+      {
+        "property": "Disk inclination",
+        "value": "35.3 ± 0.8°",
+        "description": "Tilt of the disk with respect to the line of sight.",
+        "source": "Fedele et al. (2018)"
+      }
+    ],
+    "disk_morphology": {
+      "text": "AS 209 exhibits a radial architecture with multiple gaps, as noted by Zhang et al. (2018): Huang et al. (2018a) and Guzmán et al. (2018) identified many gaps in this system including dark annuli at 9, 24, 35, 61, 90, 105, and 137 au. Not all of these substructures have the same depth, depending on their location within the system. For example, the authors indicate that the gap at r = 61 au is shallower than the main gap, and it is at 0.5–0.7 rp. Thus, we treat it as a secondary gap induced by the planet. In other words, the gap at 61 au would be less deep than the main gap around 100 au. Within that same interpretive framework, Zhang et al. (2018) add that their simulation with one planet at 99 au not only matches the primary gap around 100 au, but also matches the position and amplitude of secondary (61 au), tertiary (35 au), and even the fourth (24 au) inner gaps. This morphology is also clearly reflected in the dust continuum observations presented by Fedele et al. (2018): the dust continuum emission is characterized by a main central core and two prominent rings at r = 75 au and r = 130 au intervaled by two gaps at r = 62 au and r = 103 au. The rings of AS 209 also show a bright central emission and two weaker dust rings peaking at ~75 and 130 au; thus, the continuum emission maxima are located in those two rings. The annular substructures in the system are not continuous, but are instead separated by narrow gaps with lower emission. In general, the architecture of AS 209 can be explained very well by a profile with two deep gaps at 62 and 103 au, respectively, and an excess ring at ~130 au.",
+      "sources": [
+        "Zhang et al. (2018)",
+        "Fedele et al. (2018)"
+      ]
+    },
+    "morphology_measurements": [
+      {
+        "structure": "G9",
+        "measurement": "9 au",
+        "description": "Inner dust gap identified in the AS 209 disk.",
+        "source": "Zhang et al. (2018)"
+      },
+      {
+        "structure": "G24",
+        "measurement": "24 au",
+        "description": "Inner dust gap; interpreted as a fourth inner gap in the one-planet scenario.",
+        "source": "Zhang et al. (2018)"
+      },
+      {
+        "structure": "G35",
+        "measurement": "35 au",
+        "description": "Inner dust gap; interpreted as a tertiary gap in the one-planet scenario.",
+        "source": "Zhang et al. (2018)"
+      },
+      {
+        "structure": "G61",
+        "measurement": "61 au",
+        "description": "Secondary dust gap; shallower than the main gap.",
+        "source": "Zhang et al. (2018)"
+      },
+      {
+        "structure": "G1",
+        "measurement": "61.7 ± 0.5 au",
+        "description": "Main inner dust gap identified in the 1.3 mm continuum.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "structure": "R1",
+        "measurement": "~75 au",
+        "description": "Inner dust ring where the continuum emission peaks.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "structure": "G90",
+        "measurement": "90 au",
+        "description": "Dust gap identified in the outer disk.",
+        "source": "Zhang et al. (2018)"
+      },
+      {
+        "structure": "G105",
+        "measurement": "105 au",
+        "description": "Dust gap associated with the main outer gap region.",
+        "source": "Zhang et al. (2018)"
+      },
+      {
+        "structure": "G2",
+        "measurement": "103.2 ± 0.4 au",
+        "description": "Main outer dust gap identified in the 1.3 mm continuum.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "structure": "R2",
+        "measurement": "~130 au",
+        "description": "Outer dust ring where the continuum emission peaks.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "structure": "G137",
+        "measurement": "137 au",
+        "description": "Outer dust gap in the external disk.",
+        "source": "Zhang et al. (2018)"
+      }
+    ],
+    "dust_in_the_disk": {
+      "text": "The observation and study of dust dynamics in protoplanetary disks are grounded in the fact that high angular resolution observations at several (sub-)mm wavelengths constitute the ideal tool with which to directly probe the bulk of dust grains and to investigate the radial distribution of their properties. In this context, it is well established that dust is not distributed uniformly, since theoretical models of grain growth predict that dust properties change as a function of disk radius, mass, age, and other physical conditions. In the case of AS 209, this radial variation is closely linked to grain size: Tazzari et al. (2016) found evidence of a decrease in the maximum dust grain size with radius, with large grains up to 1 cm in the inner disk and smaller grains of about 1 mm in the outer disk. Fedele et al. (2018) further show that this distribution changes not only with radius, but also from one disk substructure to another, since the inner gap is partially filled with millimeter grains while the outer gap is largely devoid of dust, indicating that dust depletion is not equally severe in all gaps. The reason for this behavior is that radial drift effectively depletes the large grain population within short timescales unless it is halted by dust traps. In fact, Fedele et al. explain that the millimeter dust grains are radially confined in regions where inward radial migration is slowed down or stopped, and that these dust traps provide an ideal environment for in situ grain growth. In AS 209, these dust traps help explain both the retention of large grains in the disk and their accumulation in rings, within a scenario in which the planet is responsible for the gap opening and for the pile-up of dust at the outer edge of the planet orbit.",
+      "sources": [
+        "Tazzari et al. (2016)",
+        "Fedele et al. (2018)"
+      ]
+    },
+    "dust_properties": [
+      {
+        "property": "Dust continuum outer extent",
+        "value": "~170–180 au",
+        "description": "Outer radial extent of the faint dust continuum emission.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Dust mass",
+        "value": "3.5 × 10^-4 M☉",
+        "description": "Fiducial dust mass adopted to reproduce the observed dust structure.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Maximum grain size",
+        "value": "2000 μm",
+        "description": "Maximum grain size adopted for the large dust population in the AS 209 model.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Inner gap depletion factor",
+        "value": "~0.03",
+        "description": "Best-fit brightness depletion factor of the inner dust gap.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Outer gap depletion factor",
+        "value": "~0.025",
+        "description": "Best-fit brightness depletion factor of the outer dust gap.",
+        "source": "Fedele et al. (2018)"
+      },
+      {
+        "property": "Dust surface density",
+        "value": "0.17 g cm^-2",
+        "description": "Average amount of dust per unit area in the outer disk around the main gap.",
+        "source": "Zhang et al. (2018)"
+      }
+    ],
+    "gas_in_the_disk": {
+      "text": "In AS 209, the gas is also not distributed uniformly, and its structure becomes clearer when different molecular tracers are examined together. The C18O emission first reveals a well-defined radial organization, with an inner concentration of gas close to the star and an outer ring around 140 au, separated by a region of weaker emission. In addition, its radial profile harbors a drop in intensity between the two continuum gaps, suggesting that the substructures observed in the dust are also reflected in the gas. This connection is further strengthened by Fedele et al. (2018), who note that the ALMA C18O image presented in Huang et al. (2016) shows an extended emission peaking at nearly 130 au and that this extended emission is co-spatial with the outer dust ring, indicating that the outer dust ring also has a gaseous counterpart. Along the same line, the authors add that this is a strong indication that the large-scale C18O emission follows the actual disk surface density in the outer disk and points to a gas density drop by a factor of a few inside the outer gap (G2), reinforcing the idea that the outer gap is not only a dust substructure, but also a region where the gas density decreases. In contrast, DCO+ does not follow exactly the same pattern: two rings are observed, one between the two dust gaps and another beyond the outer gap, showing that different tracers reveal different physical and chemical conditions within the disk. To explain this overall morphology, Favre et al. conclude that Σgas needs to be lowered inside the gaps, meaning that temperature or opacity effects alone are not sufficient and that a real decrease in the gas surface density is required. Taken together, this evidence supports a dynamical interpretation of the disk, in which the gaseous structure of AS 209 has been modified by one or more forming planets.",
+      "sources": [
+        "Favre et al. (2019)",
+        "Fedele et al. (2018)"
+      ]
+    },
+    "gas_properties": [
+      {
+        "property": "CO outer extent",
+        "value": ">200 au",
+        "description": "The CO gas extends farther out than the millimeter dust disk.",
+        "source": "Favre et al. (2019)"
+      },
+      {
+        "property": "C18O inner emission",
+        "value": "≤60 au",
+        "description": "Inner concentration of gas close to the star, traced by C18O.",
+        "source": "Favre et al. (2019)"
+      },
+      {
+        "property": "C18O outer ring",
+        "value": "140 au",
+        "description": "Outer gas ring detected in C18O emission.",
+        "source": "Favre et al. (2019)"
+      },
+      {
+        "property": "DCO+ inner ring",
+        "value": "66–95 au",
+        "description": "Gas ring located between the two main dust gaps.",
+        "source": "Favre et al. (2019)"
+      },
+      {
+        "property": "DCO+ outer ring",
+        "value": ">120 au",
+        "description": "Outer gas ring detected beyond the outer dust gap.",
+        "source": "Favre et al. (2019)"
+      },
+      {
+        "property": "C18O optical depth",
+        "value": "≤0.8",
+        "description": "C18O is optically thin, so it traces gas structure more directly.",
+        "source": "Favre et al. (2019)"
+      },
+      {
+        "property": "CO and 13CO optical depth",
+        "value": "≥2.5",
+        "description": "CO and 13CO are optically thick, so they hide part of the gas structure.",
+        "source": "Favre et al. (2019)"
+      }
+    ],
+    "evidence_of_planet_formation": {
+      "text": "In AS 209, the evidence for planet formation does not rest on a single isolated substructure, but rather on the consistent way in which observations and models describe the disk as a dynamically perturbed system. In the millimeter continuum, it had already been proposed that the observed rings and gaps of the 1.3 mm continuum emission are likely due to the formation of planets; this hypothesis is commensurate with hydrodynamical simulations, meaning that the ringed architecture of the disk is consistent with the action of forming planets. This interpretation is further strengthened by the results of Zhang et al. (2018), whose simulation with one planet at 99 au not only matches the primary gap around 100 au, but also matches the position and amplitude of the secondary, tertiary, and fourth inner gaps. In other words, a single embedded planet could account not only for the main gap, but also for several inner substructures in the disk. For this reason, the authors conclude that AS 209 is the most plausible case that there is indeed a planet within the 100 au gap. Moreover, the evidence does not come from the dust alone: Favre et al. (2019) add that the previously observed dust gaps are very likely due to perturbation of the gas surface density induced by a planet of at least 0.2 MJ in formation, which reinforces the interpretation that the observed gaps trace a real planet–disk interaction process rather than a merely apparent redistribution of material.",
+      "sources": [
+        "Favre et al. (2019)",
+        "Zhang et al. (2018)"
+      ]
+    },
+    "physical_interpretation": {
+      "text": "AS 209 can be understood as a young disk in which dust evolution and planet–disk interaction are operating together. On the one hand, the dust does not evolve uniformly across the system: larger grains are concentrated toward the inner regions, while smaller grains dominate farther out in the disk, a pattern that is consistent with grain growth, radial drift, and the need for retention mechanisms to keep solids from being rapidly lost. On the other hand, the observed ring-and-gap architecture is best explained if the disk is being dynamically sculpted by an embedded planet in a very low-viscosity environment, since Zhang et al. show that a q = 10^-4 planet in a α = 10^-5 and h/r = 0.05 disk can explain all five gaps at 24, 35, 62, 90, and 105 au, implying that a single outer planet could account for much of the system’s radial structure. This interpretation becomes even stronger because the gas is also genuinely perturbed: Favre et al. conclude that the previously observed dust gaps are very likely due to perturbation of the gas surface density that is induced by a planet of at least 0.2 MJ in formation, showing that the gaps are not merely brightness variations in the dust, but signatures of a real reorganization of the disk surface density. Taken together, AS 209 is best interpreted as a low-turbulence disk in which a forming planet is already reshaping both the dust and the gas, leaving an observable imprint of ongoing planet formation.",
+      "sources": [
+        "Tazzari et al. (2016)",
+        "Zhang et al. (2018)",
+        "Favre et al. (2019)"
+      ]
+    },
+    "activity": {
+      "text": "Coming soon"
+    }
+  }
 }
