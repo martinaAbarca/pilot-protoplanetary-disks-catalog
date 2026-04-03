@@ -1,5 +1,96 @@
 [
   {
+    "objectID": "pds_70.html",
+    "href": "pds_70.html",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "",
+    "text": "ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity. Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al."
+  },
+  {
+    "objectID": "pds_70.html#object-names",
+    "href": "pds_70.html#object-names",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Object names",
+    "text": "Object names\n\n\n\n\n\n\n\nObject names\nNames\n\n\n\n\nMain name\nPDS 70\n\n\nOther designations\nV* V1032 Cen; IRAS 14050-4109\n\n\nLocation\nUpper Centaurus–Lupus (UCL), asociación Scorpius–Centaurus"
+  },
+  {
+    "objectID": "pds_70.html#location",
+    "href": "pds_70.html#location",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Location",
+    "text": "Location\nPDS 70 is located at a distance of 113.43 ± 0.52 pc and is a member of the Scorpius–Centaurus stellar association, specifically of the Upper Centaurus–Lupus (UCL) subgroup. One of the pieces of evidence that this is a young system is that, as the authors note, “Strong lithium absorption and the presence of a protoplanetary disk provide evidence of a young age” (&lt;10 Myr) for PDS 70 (Gregorio-Hetem and Hetem 2002; Metchev and Hillenbrand 2004)."
+  },
+  {
+    "objectID": "pds_70.html#general-description-of-the-system",
+    "href": "pds_70.html#general-description-of-the-system",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "General Description of the System",
+    "text": "General Description of the System\nPDS 70 is a young system composed of a pre-main-sequence T Tauri star of spectral type K7, surrounded by a transition protoplanetary disk. It is an ideal laboratory for studying planet formation because it brings together, within a single system, an inner disk, a large gap, an outer ring, and protoplanets.\nThe inner disk is a compact component located very close to the star, inside the large gap. Earlier observations described it as “a small optically thick inner disk emitting in the NIR” (Hashimoto et al. 2012; Dong et al. 2012). Later, this component was shown to be detected in the continuum within ~9 au and in gas out to ~15 au (Keppler et al. 2019), indicating that the innermost region still retains material close to the star.\nThe large gap corresponds to the radial cavity that separates the inner disk from the outer disk. Its structure was confirmed when the authors stated that “we confirm the detection of a large gap of ∼54 au in size within the disk in our scattered light images” (Keppler et al. 2018). The gap also shows evidence of radial dust segregation, since “The gap is found to be larger at sub-mm wavelengths” (Keppler et al. 2019).\nThe outer disk, in turn, is observed as a bright ring whose main emission peak is located at “The best-fit model has a peak radial position of 73.7 ± 0.1 au” (Keppler et al. 2019).\nFinally, the system is especially remarkable because of the direct detection of protoplanets within the gap. Keppler et al. (Keppler et al. 2018) reported “a point source within the gap of the disk at about 195 mas (∼22 au) projected separation”, which was identified as PDS 70 b. Later, Haffert et al. (Haffert et al. 2019) detected Hα emission at two locations in the system and concluded: “We therefore identify this second source of Hα emission as the location of a second, forming planet, PDS 70 c”. The evidence for active accretion in both objects is based on the fact that “The Hα emission spectra of both proto-planets indicate ongoing accretion onto the proto-planets” (Haffert et al. 2019).\nOverall, PDS 70 stands out as a valuable laboratory for planet formation because it combines a large cavity, an inner disk, a well-resolved outer ring, and two actively accreting protoplanets within the gap."
+  },
+  {
+    "objectID": "pds_70.html#fundamental-system-properties",
+    "href": "pds_70.html#fundamental-system-properties",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Fundamental System Properties",
+    "text": "Fundamental System Properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nDistance\n113.43 ± 0.52 pc\nDistance between PDS 70 and Earth; it allows the observed angular sizes to be converted into physical sizes in the disk.\n(Keppler et al. 2018)\n\n\nAge\n5.4 ± 1.0 Myr\nIndicates that the system is very young and still in an active stage of planet formation.\n(Keppler et al. 2018)\n\n\nSpectral type\nK7\nSpectral classification of the central star; it summarizes its general temperature and emission properties.\n(Keppler et al. 2018)\n\n\nEffective temperature\n3972 ± 36 K\nEffective surface temperature of the star; it influences the heating and illumination of the disk.\n(Keppler et al. 2018)\n\n\nStellar mass\n0.76 ± 0.02 M☉\nMass of the central star; it controls the orbital dynamics of the disk and the protoplanets.\n(Keppler et al. 2018)\n\n\nStellar radius\n1.26 ± 0.15 R☉\nPhysical size of the star; it helps describe the stellar state of the system.\n(Keppler et al. 2018)\n\n\nStellar luminosity\n0.35 ± 0.09 L☉\nEnergy emitted by the star; it determines how much radiation heats the protoplanetary disk.\n(Keppler et al. 2018)\n\n\nVisual extinction\n0.05\\(^{+0.05}_{-0.03}\\) mag\nAttenuation of the starlight by dust between the source and the observer; this is important for correctly interpreting the observed brightness and colors.\n(Keppler et al. 2018)\n\n\nDisk inclination\n~49.7° (NIR) / 51.7° (ALMA)\nAngle at which we observe the disk with respect to our line of sight; it defines its apparent geometry.\n(Keppler et al. 2018, 2019)\n\n\nDisk position angle\n~158.6° (NIR) / ~156.7–159.7° (ALMA)\nOrientation of the major axis of the disk on the plane of the sky; it describes the direction in which the disk is aligned in the images.\n(Keppler et al. 2018, 2019)"
+  },
+  {
+    "objectID": "pds_70.html#disk-morphology",
+    "href": "pds_70.html#disk-morphology",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Disk Morphology",
+    "text": "Disk Morphology\nPDS 70 exhibits the characteristic morphology of a transition disk, but with an especially rich internal structure. The system includes a compact inner disk, a large cavity, and a well-resolved outer ring. In polarized light, the outer disk appears as an elliptical ring with a non-uniform brightness distribution. ALMA observations, however, reveal a more complex arrangement of dust and gas, including a main ring at ~74 au, a possible additional inner component, and a tentative bridge- or spur-like structure that may connect the outer and inner regions of the disk. Located within the large gap are the two protoplanets PDS 70 b and PDS 70 c, which makes this system a particularly important case for studying planet–disk interaction and planet formation in progress."
+  },
+  {
+    "objectID": "pds_70.html#morphology-measurements",
+    "href": "pds_70.html#morphology-measurements",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Morphology Measurements",
+    "text": "Morphology Measurements\n\n\n\n\n\n\n\n\n\nStructure\nMeasurement\nDescription\nSource\n\n\n\n\nInner disk (scattered light)\n&lt; ~17 au\nCompact inner component detected in scattered light; it shows that the innermost region of the system is not completely empty.\n(Keppler et al. 2018)\n\n\nInner disk (ALMA continuum)\n&lt; ~80 mas (~9 au)\nCompact central emission detected in the millimeter continuum; it corresponds to the inner disk observed with ALMA.\n(Keppler et al. 2019)\n\n\nInner gas disk\nup to ~15 au\nInner gaseous component detected in CO; it shows that gas also survives in the inner region of the system.\n(Keppler et al. 2019)\n\n\nCavity in the NIR\n~20–40 au\nRadially depleted dust region observed at near-infrared wavelengths; it traces the large inner gap of the disk.\n(Haffert et al. 2019)\n\n\nOuter ring peak in polarized light\n~54 au\nRadius at which the outer ring reaches its maximum brightness in polarized light.\n(Keppler et al. 2018)\n\n\nMain dust-ring peak (ALMA)\n73.7 ± 0.1 au\nRadius at which the outer dust ring reaches its main emission peak in the millimeter continuum.\n(Keppler et al. 2019)\n\n\nInner ring width\n14.8 ± 0.1 au\nRadial extent of the ring toward smaller radii from its emission peak; this shows that the ring is a broad band rather than a thin line.\n(Keppler et al. 2019)\n\n\nOuter ring width\n13.4 ± 0.1 au\nRadial extent of the ring toward larger radii from its peak.\n(Keppler et al. 2019)\n\n\nPossible shoulder / second component\n~60 au\nPossible secondary maximum or inner component of the dust ring, detected along the inner edge of the main structure.\n(Keppler et al. 2019)\n\n\nSpur / bridge\nPA ~285°\nPossible substructure extending from the ring toward the inner region; it could connect the outer disk with the inner disk.\n(Keppler et al. 2019)\n\n\nGas gap\n~23 au\nMain depression in CO emission, located near the orbit of PDS 70 b.\n(Keppler et al. 2019)\n\n\nApproximate width of the gas gap\n~11 au\nEstimated width of the main CO depression.\n(Keppler et al. 2019)\n\n\nSecond CO depression\n~0.6″\nOuter depression seen in the integrated CO emission; the paper suggests that it may be affected by continuum absorption.\n(Keppler et al. 2019)"
+  },
+  {
+    "objectID": "pds_70.html#dust-in-the-disk",
+    "href": "pds_70.html#dust-in-the-disk",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Dust in the disk",
+    "text": "Dust in the disk\nThe dust in PDS 70 is not evenly distributed, but instead organized into distinct disk substructures. Beyond the inner disk lies the gap, a region where the dust emission is strongly depleted. Farther out, ALMA millimeter continuum observations, which trace larger dust grains, show that this material is primarily concentrated in an outer ring peaking at 73.7 ± 0.1 au, with a possible additional component near 60 au. Taken together, these observations indicate that small grains remain closer to the cavity edge, whereas larger grains accumulate farther out, consistent with a dust-trapping scenario (Keppler et al. 2018, 2019)."
+  },
+  {
+    "objectID": "pds_70.html#dust-properties",
+    "href": "pds_70.html#dust-properties",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Dust properties",
+    "text": "Dust properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nLarge gap in scattered light\n~54 au\nSize of the large gap observed in the distribution of small dust grains at the disk surface.\n(Keppler et al. 2018)\n\n\nInner dust disk (scattered light)\n&lt; ~17 au\nCompact inner component detected in scattered light; it shows that the inner region is not completely empty.\n(Keppler et al. 2018)\n\n\nCavity wall in NIR\n~0.39”\nApproximate location of the cavity wall as observed in scattered light.\n(Keppler et al. 2018)\n\n\nOuter disk brightness peak in polarized light\n~54 au\nRadius at which the outer disk reaches its maximum brightness in polarized light.\n(Keppler et al. 2018)\n\n\nMain dust ring peak (ALMA)\n73.7 ± 0.1 au\nRadius at which the main millimeter dust ring reaches its peak emission.\n(Keppler et al. 2019)\n\n\nPossible second ring component\n~0.53” (~60 au)\nPossible secondary subpeak, or shoulder, at the inner edge of the main ring.\n(Keppler et al. 2019)\n\n\nAzimuthal asymmetry of the ring (ALMA)\nPA ~327°, ~13% brighter\nThe northwestern side of the ring is brighter than the opposite side.\n(Keppler et al. 2019)\n\n\nInner dust disk (ALMA)\n&lt; ~80 mas (~9 au)\nCompact central emission detected in the millimeter continuum.\n(Keppler et al. 2019)\n\n\nGrain-size segregation\n~0.70” vs ~0.39”\nLarge grains are concentrated farther out than small grains, suggesting dust accumulation in a region shaped by the local pressure gradient.\n(Keppler et al. 2018)"
+  },
+  {
+    "objectID": "pds_70.html#gas-in-the-disk",
+    "href": "pds_70.html#gas-in-the-disk",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Gas in the disk",
+    "text": "Gas in the disk\nThe gas component in PDS 70 has been studied primarily through the \\(^{12}\\)CO \\(J=3-2\\) line. Unlike the dust continuum, this emission traces an elevated layer of the disk rather than the midplane, so its observed morphology appears more extended and geometrically more complex. ALMA observations show that the gaseous cavity is not completely empty: there is an inner depression in emission near 23 au, an inner gaseous disk extending out to about 15 au, and a possible structure linking the inner disk to the outer ring in the northwestern region. In addition, the gas kinematics show departures from Keplerian rotation inside ~0.8″ (91 au), suggesting the presence of pressure gradients within the disk. Taken together, these results indicate that the gas is depleted near the orbit of PDS 70 b, but not absent, and may still be flowing between the outer disk and the inner regions (Keppler et al. 2019)."
+  },
+  {
+    "objectID": "pds_70.html#gas-properties",
+    "href": "pds_70.html#gas-properties",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Gas properties",
+    "text": "Gas properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nMain gas tracer\n\\(^{12}\\)CO \\(J=3-2\\)\nMain line used to study the gas morphology and kinematics in the disk. The paper also reports HCN, HCO\\(^+\\), and H\\(^{13}\\)CN, but its main analysis focuses on \\(^{12}\\)CO.\n(Keppler et al. 2019)\n\n\n\\(^{12}\\)CO emitting surface\n\\(z(r) = (0.33 \\pm 0.01)\\,(r/1^{\\prime\\prime})^{0.76 \\pm 0.01}\\)\nShows that the CO emission arises from an elevated layer of the disk rather than from the midplane.\n(Keppler et al. 2019)\n\n\nInner gas disk\nout to ~15 au\nClearly detected gaseous inner disk in the central region of the system.\n(Keppler et al. 2019)\n\n\nMain gaseous gap (center)\n~0.2″ (~23 au)\nMain depression in the integrated CO emission, located near the orbit of PDS 70 b.\n(Keppler et al. 2019)\n\n\nWidth of the gaseous gap\n~0.1″ (~11 au)\nCharacteristic width of the inner depression seen in \\(^{12}\\)CO.\n(Keppler et al. 2019)\n\n\nRadial extent of the gaseous gap\n~0.1–0.3″ (~11–34 au)\nApproximate full radial extent of the gaseous depression; it does not reach the location of the main dust ring.\n(Keppler et al. 2019)\n\n\nPossible bridge-like feature\nnorthwestern region\nPossible gas structure linking the inner disk to the outer ring; it may trace gas flow across the gap.\n(Keppler et al. 2019)\n\n\nDeviation from Keplerian rotation\nwithin ~0.8″ (~91 au)\nKinematic perturbation in the gas that points to the presence of a pressure gradient in the disk.\n(Keppler et al. 2019)\n\n\nPositive pressure gradient\n~0.4–0.8″, with a maximum near ~0.55″\nHelps explain why the main dust ring is located much farther out than the orbit of PDS 70 b.\n(Keppler et al. 2019)\n\n\nSecond CO depression\n~0.6″\nOuter depression seen in the integrated CO emission; the paper suggests it may be related to continuum absorption by optically thick dust.\n(Keppler et al. 2019)"
+  },
+  {
+    "objectID": "pds_70.html#evidence-of-planet-formation",
+    "href": "pds_70.html#evidence-of-planet-formation",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Evidence of planet formation",
+    "text": "Evidence of planet formation\nPDS 70 provides some of the clearest evidence of ongoing planet formation in a protoplanetary disk. First, Keppler et al. (Keppler et al. 2018) detected PDS 70 b as a point source inside the large disk gap, at a separation of about 195 mas (~22 au), and follow-up observations confirmed that it is physically associated with the system. Its photometry is also consistent with a planetary-mass companion. Second, Haffert et al. (Haffert et al. 2019) detected Hα emission from both PDS 70 b and PDS 70 c. Because Hα traces accreting gas, this shows that both protoplanets are still actively gaining material and continue to grow. Third, Keppler et al. (Keppler et al. 2019) found that the disk itself is being perturbed: the CO emission shows a depression near the orbit of PDS 70 b, together with a deviation from Keplerian rotation that reveals changes in the gas pressure structure. Taken together, these results show that PDS 70 is not only a disk with substructures, but a system where planet formation is directly observed in action.\n\nPDS 70 b\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nNature\nProtoplanet / planetary-mass companion\nObject detected inside the disk gap and confirmed to be physically associated with the system.\n(Keppler et al. 2018)\n\n\nTypical projected separation\n~195 mas (~22 au)\nObserved distance from the star in direct-imaging data.\n(Keppler et al. 2018, 2019)\n\n\nTypical position angle\n~155°\nAngular location of PDS 70 b on the plane of the sky.\n(Keppler et al. 2018, 2019)\n\n\nEstimated mass\n~5–9 M_Jup\nMass range adopted in direct-imaging studies and also used in the ALMA-based analysis.\n(Keppler et al. 2018, 2019)\n\n\nHα\nDetected\nSignature of hot gas accreting onto the protoplanet, indicating ongoing growth.\n(Haffert et al. 2019)\n\n\nHα flux\n3.9 ± 0.37 × 10^-16 erg s^-1 cm^-2\nMeasured intensity of the Hα emission from PDS 70 b.\n(Haffert et al. 2019)\n\n\nAccretion rate\n~2 × 10^-8 M_Jup yr^-1\nIndicates that PDS 70 b is still actively gaining material.\n(Haffert et al. 2019)\n\n\nCircumplanetary dust mass limit\n&lt; ~0.01 M_earth\nALMA did not detect a robust circumplanetary disk, but it placed an upper limit on its dust mass.\n(Keppler et al. 2019)\n\n\n\n\n\nPDS 70 c\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nNature\nSecond accreting protoplanet\nIdentified as a second forming planetary object within the system.\n(Haffert et al. 2019)\n\n\nHα projected separation\n235.5 ± 25 mas\nObserved separation from the star in the Hα detection.\n(Haffert et al. 2019)\n\n\nEstimated orbital radius\n38.6 ± 4.5 au\nOrbital radius inferred from the Hα detection.\n(Haffert et al. 2019)\n\n\nTypical position angle\n~277° in Hα; ~283°–285° in K1/L’\nIts location is consistent across detections at different wavelengths.\n(Haffert et al. 2019)\n\n\nEstimated mass\n~4–12 M_Jup\nProbable mass range, although still uncertain because of possible contamination from the disk or circumplanetary material.\n(Haffert et al. 2019)\n\n\nHα\nDetected\nConfirms that PDS 70 c is also accreting material.\n(Haffert et al. 2019)\n\n\nHα flux\n1.9 ± 0.32 × 10^-16 erg s^-1 cm^-2\nMeasured intensity of the Hα emission from PDS 70 c.\n(Haffert et al. 2019)\n\n\nAccretion rate\n~1 × 10^-8 M_Jup yr^-1\nShows that the protoplanet is still growing actively.\n(Haffert et al. 2019)"
+  },
+  {
+    "objectID": "pds_70.html#physical-interpretation",
+    "href": "pds_70.html#physical-interpretation",
+    "title": "PDS 70:Protoplanetary disk",
+    "section": "Physical interpretation",
+    "text": "Physical interpretation\nPDS 70 is interpreted as a young planetary system that is still forming, in which the protoplanets are already actively reshaping the disk structure. The large cavity, the segregation between small and large dust grains, and the presence of an inner disk led Keppler et al. (Keppler et al. 2018) to identify the system early on as a strong candidate for harboring planets capable of carving the gap. Later, ALMA observations showed that the gas displays a depression near the orbit of PDS 70 b, together with a departure from Keplerian rotation consistent with a pressure gradient that can explain why the main dust ring lies much farther out; however, Keppler et al. (Keppler et al. 2019) also concluded that a single planet may not be enough to reproduce the full observed morphology, suggesting a more complex system architecture, possibly including an additional low-mass companion. The later Hα detection of PDS 70 c further strengthens this picture: both protoplanets are accreting, and their orbits are consistent with a near 2:1 resonance configuration, making PDS 70 a particularly valuable system for studying planet–disk interaction and migration in young planetary systems (Haffert et al. 2019)."
+  },
+  {
     "objectID": "im_lup.html",
     "href": "im_lup.html",
     "title": "IM Lup — Protoplanetary Disk",
@@ -102,217 +193,7 @@
     "href": "im_lup.html#references",
     "title": "IM Lup — Protoplanetary Disk",
     "section": "References",
-    "text": "References\n\n\nCleeves, L. Ilsedore, Karin I. Öberg, David J. Wilner, et al. 2016. “The Coupled Physical Structure of Gas and Dust in the IM Lup Protoplanetary Disk.” The Astrophysical Journal 832 (2): 110. https://doi.org/10.3847/0004-637X/832/2/110."
-  },
-  {
-    "objectID": "pds_70.html",
-    "href": "pds_70.html",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "",
-    "text": "ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity. Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al."
-  },
-  {
-    "objectID": "pds_70.html#object-names",
-    "href": "pds_70.html#object-names",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Object names",
-    "text": "Object names\n\n\n\n\n\n\n\nObject names\nNames\n\n\n\n\nMain name\nPDS 70\n\n\nOther designations\nV* V1032 Cen; IRAS 14050-4109\n\n\nLocation\nUpper Centaurus–Lupus (UCL), asociación Scorpius–Centaurus"
-  },
-  {
-    "objectID": "pds_70.html#location",
-    "href": "pds_70.html#location",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Location",
-    "text": "Location\nPDS 70 is located at a distance of 113.43 ± 0.52 pc and is a member of the Scorpius–Centaurus stellar association, specifically of the Upper Centaurus–Lupus (UCL) subgroup. One of the pieces of evidence that this is a young system is that, as the authors note, “Strong lithium absorption and the presence of a protoplanetary disk provide evidence of a young age” (&lt;10 Myr) for PDS 70 (Gregorio-Hetem and Hetem 2002; Metchev and Hillenbrand 2004)."
-  },
-  {
-    "objectID": "pds_70.html#general-description-of-the-system",
-    "href": "pds_70.html#general-description-of-the-system",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "General Description of the System",
-    "text": "General Description of the System\nPDS 70 is a young system composed of a pre-main-sequence T Tauri star of spectral type K7, surrounded by a transition protoplanetary disk. It is an ideal laboratory for studying planet formation because it brings together, within a single system, an inner disk, a large gap, an outer ring, and protoplanets.\nThe inner disk is a compact component located very close to the star, inside the large gap. Earlier observations described it as “a small optically thick inner disk emitting in the NIR” (Hashimoto et al. 2012; Dong et al. 2012). Later, this component was shown to be detected in the continuum within ~9 au and in gas out to ~15 au (Keppler et al. 2019), indicating that the innermost region still retains material close to the star.\nThe large gap corresponds to the radial cavity that separates the inner disk from the outer disk. Its structure was confirmed when the authors stated that “we confirm the detection of a large gap of ∼54 au in size within the disk in our scattered light images” (Keppler et al. 2018). The gap also shows evidence of radial dust segregation, since “The gap is found to be larger at sub-mm wavelengths” (Keppler et al. 2019).\nThe outer disk, in turn, is observed as a bright ring whose main emission peak is located at “The best-fit model has a peak radial position of 73.7 ± 0.1 au” (Keppler et al. 2019).\nFinally, the system is especially remarkable because of the direct detection of protoplanets within the gap. Keppler et al. (Keppler et al. 2018) reported “a point source within the gap of the disk at about 195 mas (∼22 au) projected separation”, which was identified as PDS 70 b. Later, Haffert et al. (Haffert et al. 2019) detected Hα emission at two locations in the system and concluded: “We therefore identify this second source of Hα emission as the location of a second, forming planet, PDS 70 c”. The evidence for active accretion in both objects is based on the fact that “The Hα emission spectra of both proto-planets indicate ongoing accretion onto the proto-planets” (Haffert et al. 2019).\nOverall, PDS 70 stands out as a valuable laboratory for planet formation because it combines a large cavity, an inner disk, a well-resolved outer ring, and two actively accreting protoplanets within the gap."
-  },
-  {
-    "objectID": "pds_70.html#fundamental-system-properties",
-    "href": "pds_70.html#fundamental-system-properties",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Fundamental System Properties",
-    "text": "Fundamental System Properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nDistance\n113.43 ± 0.52 pc\nDistance between PDS 70 and Earth; it allows the observed angular sizes to be converted into physical sizes in the disk.\n(Keppler et al. 2018)\n\n\nAge\n5.4 ± 1.0 Myr\nIndicates that the system is very young and still in an active stage of planet formation.\n(Keppler et al. 2018)\n\n\nSpectral type\nK7\nSpectral classification of the central star; it summarizes its general temperature and emission properties.\n(Keppler et al. 2018)\n\n\nEffective temperature\n3972 ± 36 K\nEffective surface temperature of the star; it influences the heating and illumination of the disk.\n(Keppler et al. 2018)\n\n\nStellar mass\n0.76 ± 0.02 M☉\nMass of the central star; it controls the orbital dynamics of the disk and the protoplanets.\n(Keppler et al. 2018)\n\n\nStellar radius\n1.26 ± 0.15 R☉\nPhysical size of the star; it helps describe the stellar state of the system.\n(Keppler et al. 2018)\n\n\nStellar luminosity\n0.35 ± 0.09 L☉\nEnergy emitted by the star; it determines how much radiation heats the protoplanetary disk.\n(Keppler et al. 2018)\n\n\nVisual extinction\n0.05\\(^{+0.05}_{-0.03}\\) mag\nAttenuation of the starlight by dust between the source and the observer; this is important for correctly interpreting the observed brightness and colors.\n(Keppler et al. 2018)\n\n\nDisk inclination\n~49.7° (NIR) / 51.7° (ALMA)\nAngle at which we observe the disk with respect to our line of sight; it defines its apparent geometry.\n(Keppler et al. 2018, 2019)\n\n\nDisk position angle\n~158.6° (NIR) / ~156.7–159.7° (ALMA)\nOrientation of the major axis of the disk on the plane of the sky; it describes the direction in which the disk is aligned in the images.\n(Keppler et al. 2018, 2019)"
-  },
-  {
-    "objectID": "pds_70.html#disk-morphology",
-    "href": "pds_70.html#disk-morphology",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Disk Morphology",
-    "text": "Disk Morphology\nPDS 70 exhibits the characteristic morphology of a transition disk, but with an especially rich internal structure. The system includes a compact inner disk, a large cavity, and a well-resolved outer ring. In polarized light, the outer disk appears as an elliptical ring with a non-uniform brightness distribution. ALMA observations, however, reveal a more complex arrangement of dust and gas, including a main ring at ~74 au, a possible additional inner component, and a tentative bridge- or spur-like structure that may connect the outer and inner regions of the disk. Located within the large gap are the two protoplanets PDS 70 b and PDS 70 c, which makes this system a particularly important case for studying planet–disk interaction and planet formation in progress."
-  },
-  {
-    "objectID": "pds_70.html#morphology-measurements",
-    "href": "pds_70.html#morphology-measurements",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Morphology Measurements",
-    "text": "Morphology Measurements\n\n\n\n\n\n\n\n\n\nStructure\nMeasurement\nDescription\nSource\n\n\n\n\nInner disk (scattered light)\n&lt; ~17 au\nCompact inner component detected in scattered light; it shows that the innermost region of the system is not completely empty.\n(Keppler et al. 2018)\n\n\nInner disk (ALMA continuum)\n&lt; ~80 mas (~9 au)\nCompact central emission detected in the millimeter continuum; it corresponds to the inner disk observed with ALMA.\n(Keppler et al. 2019)\n\n\nInner gas disk\nup to ~15 au\nInner gaseous component detected in CO; it shows that gas also survives in the inner region of the system.\n(Keppler et al. 2019)\n\n\nCavity in the NIR\n~20–40 au\nRadially depleted dust region observed at near-infrared wavelengths; it traces the large inner gap of the disk.\n(Haffert et al. 2019)\n\n\nOuter ring peak in polarized light\n~54 au\nRadius at which the outer ring reaches its maximum brightness in polarized light.\n(Keppler et al. 2018)\n\n\nMain dust-ring peak (ALMA)\n73.7 ± 0.1 au\nRadius at which the outer dust ring reaches its main emission peak in the millimeter continuum.\n(Keppler et al. 2019)\n\n\nInner ring width\n14.8 ± 0.1 au\nRadial extent of the ring toward smaller radii from its emission peak; this shows that the ring is a broad band rather than a thin line.\n(Keppler et al. 2019)\n\n\nOuter ring width\n13.4 ± 0.1 au\nRadial extent of the ring toward larger radii from its peak.\n(Keppler et al. 2019)\n\n\nPossible shoulder / second component\n~60 au\nPossible secondary maximum or inner component of the dust ring, detected along the inner edge of the main structure.\n(Keppler et al. 2019)\n\n\nSpur / bridge\nPA ~285°\nPossible substructure extending from the ring toward the inner region; it could connect the outer disk with the inner disk.\n(Keppler et al. 2019)\n\n\nGas gap\n~23 au\nMain depression in CO emission, located near the orbit of PDS 70 b.\n(Keppler et al. 2019)\n\n\nApproximate width of the gas gap\n~11 au\nEstimated width of the main CO depression.\n(Keppler et al. 2019)\n\n\nSecond CO depression\n~0.6″\nOuter depression seen in the integrated CO emission; the paper suggests that it may be affected by continuum absorption.\n(Keppler et al. 2019)"
-  },
-  {
-    "objectID": "pds_70.html#dust-in-the-disk",
-    "href": "pds_70.html#dust-in-the-disk",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Dust in the disk",
-    "text": "Dust in the disk\nThe dust in PDS 70 is not evenly distributed, but instead organized into distinct disk substructures. Beyond the inner disk lies the gap, a region where the dust emission is strongly depleted. Farther out, ALMA millimeter continuum observations, which trace larger dust grains, show that this material is primarily concentrated in an outer ring peaking at 73.7 ± 0.1 au, with a possible additional component near 60 au. Taken together, these observations indicate that small grains remain closer to the cavity edge, whereas larger grains accumulate farther out, consistent with a dust-trapping scenario (Keppler et al. 2018, 2019)."
-  },
-  {
-    "objectID": "pds_70.html#dust-properties",
-    "href": "pds_70.html#dust-properties",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Dust properties",
-    "text": "Dust properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nLarge gap in scattered light\n~54 au\nSize of the large gap observed in the distribution of small dust grains at the disk surface.\n(Keppler et al. 2018)\n\n\nInner dust disk (scattered light)\n&lt; ~17 au\nCompact inner component detected in scattered light; it shows that the inner region is not completely empty.\n(Keppler et al. 2018)\n\n\nCavity wall in NIR\n~0.39”\nApproximate location of the cavity wall as observed in scattered light.\n(Keppler et al. 2018)\n\n\nOuter disk brightness peak in polarized light\n~54 au\nRadius at which the outer disk reaches its maximum brightness in polarized light.\n(Keppler et al. 2018)\n\n\nMain dust ring peak (ALMA)\n73.7 ± 0.1 au\nRadius at which the main millimeter dust ring reaches its peak emission.\n(Keppler et al. 2019)\n\n\nPossible second ring component\n~0.53” (~60 au)\nPossible secondary subpeak, or shoulder, at the inner edge of the main ring.\n(Keppler et al. 2019)\n\n\nAzimuthal asymmetry of the ring (ALMA)\nPA ~327°, ~13% brighter\nThe northwestern side of the ring is brighter than the opposite side.\n(Keppler et al. 2019)\n\n\nInner dust disk (ALMA)\n&lt; ~80 mas (~9 au)\nCompact central emission detected in the millimeter continuum.\n(Keppler et al. 2019)\n\n\nGrain-size segregation\n~0.70” vs ~0.39”\nLarge grains are concentrated farther out than small grains, suggesting dust accumulation in a region shaped by the local pressure gradient.\n(Keppler et al. 2018)"
-  },
-  {
-    "objectID": "pds_70.html#gas-in-the-disk",
-    "href": "pds_70.html#gas-in-the-disk",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Gas in the disk",
-    "text": "Gas in the disk\nThe gas component in PDS 70 has been studied primarily through the \\(^{12}\\)CO \\(J=3-2\\) line. Unlike the dust continuum, this emission traces an elevated layer of the disk rather than the midplane, so its observed morphology appears more extended and geometrically more complex. ALMA observations show that the gaseous cavity is not completely empty: there is an inner depression in emission near 23 au, an inner gaseous disk extending out to about 15 au, and a possible structure linking the inner disk to the outer ring in the northwestern region. In addition, the gas kinematics show departures from Keplerian rotation inside ~0.8″ (91 au), suggesting the presence of pressure gradients within the disk. Taken together, these results indicate that the gas is depleted near the orbit of PDS 70 b, but not absent, and may still be flowing between the outer disk and the inner regions (Keppler et al. 2019)."
-  },
-  {
-    "objectID": "pds_70.html#gas-properties",
-    "href": "pds_70.html#gas-properties",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Gas properties",
-    "text": "Gas properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nMain gas tracer\n\\(^{12}\\)CO \\(J=3-2\\)\nMain line used to study the gas morphology and kinematics in the disk. The paper also reports HCN, HCO\\(^+\\), and H\\(^{13}\\)CN, but its main analysis focuses on \\(^{12}\\)CO.\n(Keppler et al. 2019)\n\n\n\\(^{12}\\)CO emitting surface\n\\(z(r) = (0.33 \\pm 0.01)\\,(r/1^{\\prime\\prime})^{0.76 \\pm 0.01}\\)\nShows that the CO emission arises from an elevated layer of the disk rather than from the midplane.\n(Keppler et al. 2019)\n\n\nInner gas disk\nout to ~15 au\nClearly detected gaseous inner disk in the central region of the system.\n(Keppler et al. 2019)\n\n\nMain gaseous gap (center)\n~0.2″ (~23 au)\nMain depression in the integrated CO emission, located near the orbit of PDS 70 b.\n(Keppler et al. 2019)\n\n\nWidth of the gaseous gap\n~0.1″ (~11 au)\nCharacteristic width of the inner depression seen in \\(^{12}\\)CO.\n(Keppler et al. 2019)\n\n\nRadial extent of the gaseous gap\n~0.1–0.3″ (~11–34 au)\nApproximate full radial extent of the gaseous depression; it does not reach the location of the main dust ring.\n(Keppler et al. 2019)\n\n\nPossible bridge-like feature\nnorthwestern region\nPossible gas structure linking the inner disk to the outer ring; it may trace gas flow across the gap.\n(Keppler et al. 2019)\n\n\nDeviation from Keplerian rotation\nwithin ~0.8″ (~91 au)\nKinematic perturbation in the gas that points to the presence of a pressure gradient in the disk.\n(Keppler et al. 2019)\n\n\nPositive pressure gradient\n~0.4–0.8″, with a maximum near ~0.55″\nHelps explain why the main dust ring is located much farther out than the orbit of PDS 70 b.\n(Keppler et al. 2019)\n\n\nSecond CO depression\n~0.6″\nOuter depression seen in the integrated CO emission; the paper suggests it may be related to continuum absorption by optically thick dust.\n(Keppler et al. 2019)"
-  },
-  {
-    "objectID": "pds_70.html#evidence-of-planet-formation",
-    "href": "pds_70.html#evidence-of-planet-formation",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Evidence of planet formation",
-    "text": "Evidence of planet formation\nPDS 70 provides some of the clearest evidence of ongoing planet formation in a protoplanetary disk. First, Keppler et al. (Keppler et al. 2018) detected PDS 70 b as a point source inside the large disk gap, at a separation of about 195 mas (~22 au), and follow-up observations confirmed that it is physically associated with the system. Its photometry is also consistent with a planetary-mass companion. Second, Haffert et al. (Haffert et al. 2019) detected Hα emission from both PDS 70 b and PDS 70 c. Because Hα traces accreting gas, this shows that both protoplanets are still actively gaining material and continue to grow. Third, Keppler et al. (Keppler et al. 2019) found that the disk itself is being perturbed: the CO emission shows a depression near the orbit of PDS 70 b, together with a deviation from Keplerian rotation that reveals changes in the gas pressure structure. Taken together, these results show that PDS 70 is not only a disk with substructures, but a system where planet formation is directly observed in action.\n\nPDS 70 b\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nNature\nProtoplanet / planetary-mass companion\nObject detected inside the disk gap and confirmed to be physically associated with the system.\n(Keppler et al. 2018)\n\n\nTypical projected separation\n~195 mas (~22 au)\nObserved distance from the star in direct-imaging data.\n(Keppler et al. 2018, 2019)\n\n\nTypical position angle\n~155°\nAngular location of PDS 70 b on the plane of the sky.\n(Keppler et al. 2018, 2019)\n\n\nEstimated mass\n~5–9 M_Jup\nMass range adopted in direct-imaging studies and also used in the ALMA-based analysis.\n(Keppler et al. 2018, 2019)\n\n\nHα\nDetected\nSignature of hot gas accreting onto the protoplanet, indicating ongoing growth.\n(Haffert et al. 2019)\n\n\nHα flux\n3.9 ± 0.37 × 10^-16 erg s^-1 cm^-2\nMeasured intensity of the Hα emission from PDS 70 b.\n(Haffert et al. 2019)\n\n\nAccretion rate\n~2 × 10^-8 M_Jup yr^-1\nIndicates that PDS 70 b is still actively gaining material.\n(Haffert et al. 2019)\n\n\nCircumplanetary dust mass limit\n&lt; ~0.01 M_earth\nALMA did not detect a robust circumplanetary disk, but it placed an upper limit on its dust mass.\n(Keppler et al. 2019)\n\n\n\n\n\nPDS 70 c\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nNature\nSecond accreting protoplanet\nIdentified as a second forming planetary object within the system.\n(Haffert et al. 2019)\n\n\nHα projected separation\n235.5 ± 25 mas\nObserved separation from the star in the Hα detection.\n(Haffert et al. 2019)\n\n\nEstimated orbital radius\n38.6 ± 4.5 au\nOrbital radius inferred from the Hα detection.\n(Haffert et al. 2019)\n\n\nTypical position angle\n~277° in Hα; ~283°–285° in K1/L’\nIts location is consistent across detections at different wavelengths.\n(Haffert et al. 2019)\n\n\nEstimated mass\n~4–12 M_Jup\nProbable mass range, although still uncertain because of possible contamination from the disk or circumplanetary material.\n(Haffert et al. 2019)\n\n\nHα\nDetected\nConfirms that PDS 70 c is also accreting material.\n(Haffert et al. 2019)\n\n\nHα flux\n1.9 ± 0.32 × 10^-16 erg s^-1 cm^-2\nMeasured intensity of the Hα emission from PDS 70 c.\n(Haffert et al. 2019)\n\n\nAccretion rate\n~1 × 10^-8 M_Jup yr^-1\nShows that the protoplanet is still growing actively.\n(Haffert et al. 2019)"
-  },
-  {
-    "objectID": "pds_70.html#physical-interpretation",
-    "href": "pds_70.html#physical-interpretation",
-    "title": "PDS 70:Protoplanetary disk",
-    "section": "Physical interpretation",
-    "text": "Physical interpretation\nPDS 70 is interpreted as a young planetary system that is still forming, in which the protoplanets are already actively reshaping the disk structure. The large cavity, the segregation between small and large dust grains, and the presence of an inner disk led Keppler et al. (Keppler et al. 2018) to identify the system early on as a strong candidate for harboring planets capable of carving the gap. Later, ALMA observations showed that the gas displays a depression near the orbit of PDS 70 b, together with a departure from Keplerian rotation consistent with a pressure gradient that can explain why the main dust ring lies much farther out; however, Keppler et al. (Keppler et al. 2019) also concluded that a single planet may not be enough to reproduce the full observed morphology, suggesting a more complex system architecture, possibly including an additional low-mass companion. The later Hα detection of PDS 70 c further strengthens this picture: both protoplanets are accreting, and their orbits are consistent with a near 2:1 resonance configuration, making PDS 70 a particularly valuable system for studying planet–disk interaction and migration in young planetary systems (Haffert et al. 2019)."
-  },
-  {
-    "objectID": "data/catalog_summary.html",
-    "href": "data/catalog_summary.html",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "Disk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
-  },
-  {
-    "objectID": "data/catalog_summary.html#catalog-summary",
-    "href": "data/catalog_summary.html#catalog-summary",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "Disk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
-  },
-  {
-    "objectID": "hl_tau.html",
-    "href": "hl_tau.html",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "",
-    "text": "Figure 1: Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk. Image credit: ALMA (ESO/NAOJ/NRAO).\nAs shown in Figure 1, the HL Tau disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission."
-  },
-  {
-    "objectID": "hl_tau.html#object-names",
-    "href": "hl_tau.html#object-names",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Object names",
-    "text": "Object names\n\n\n\nField\nValue\nSource\n\n\n\n\nMain name\nHL Tau\n(ALMA Partnership et al. 2015)\n\n\nOther designations\nHaro 6-14\n(Gomez et al. 1997)\n\n\nLocation\nTaurus Molecular Cloud\n(Pinte et al. 2016)"
-  },
-  {
-    "objectID": "hl_tau.html#location",
-    "href": "hl_tau.html#location",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Location",
-    "text": "Location\nAS 209 is located in the Ophiuchus star-forming region, at a distance of 126 pc from the Sun (Fedele et al. 2018). Ophiuchus is a particularly valuable environment for the study of protoplanetary disks, as it hosts a rich population of young stellar systems observed across different evolutionary stages. Its significant number of deeply embedded sources, many with ages below about 1 Myr, makes this region especially well suited for investigating how circumstellar disks emerge and evolve during the earliest phases of star and planet formation."
-  },
-  {
-    "objectID": "hl_tau.html#general-description-of-the-system",
-    "href": "hl_tau.html#general-description-of-the-system",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "General description of the system",
-    "text": "General description of the system\nHL Tau is a remarkably important young system because, although it is still described as a “Class I–II protostar” (ALMA Partnership et al. 2015), it already hosts a compact, massive disk together with a highly collimated outflow, reflecting an early yet highly active stage of evolution. ALMA observations revealed a clear sequence of “bright and dark rings” in the disk (ALMA Partnership et al. 2015), showing that a complex architecture is already in place at this initial stage. Moreover, the dark regions are “not devoid of emission” (ALMA Partnership et al. 2015), and their properties are consistent with dust growth and evolution, suggesting that they may be linked to the earliest stages of planet formation. This interpretation becomes clearer when one considers that ALMA primarily traces millimeter-sized dust: in the presence of embedded protoplanets, that dust can respond differently from the gas, making the gaps appear sharper in the dust component (“different response of the dust compared to the gas”; “it is easier to carve gaps in dust than in gas” (Dipierro et al. 2015)). Along the same lines, radiative transfer modeling indicates that the main gaps are “depleted by at least a factor of 10” in dust and that the outermost ring contains fewer millimeter-sized grains than the inner regions, pointing to more efficient grain growth closer to the star and/or radial migration (Pinte et al. 2016). In addition, the millimeter dust forms a “geometrically thin (scale height ≈1 AU at 100 AU)” layer (Pinte et al. 2016), which is interpreted as a clear sign of strong settling toward the midplane, precisely where solid material can become concentrated and continue to evolve."
-  },
-  {
-    "objectID": "hl_tau.html#general-system-properties",
-    "href": "hl_tau.html#general-system-properties",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "General system properties",
-    "text": "General system properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nDistance\n~140 pc\nAdopted mean distance to the HL Tau region in Taurus.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nAge\n≤1–2 Myr\nYoung system, based on the age of the Taurus cluster.\n(ALMA Partnership et al. 2015)\n\n\nEvolutionary class\nClass I–II\nProtostellar source in transition, with evidence of both an envelope and a circumstellar disk.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nSpectral type\nK5\nSpectral classification from optical high-dispersion spectroscopy.\n(ALMA Partnership et al. 2015)\n\n\nStellar mass\n~1.3–1.7 M☉\nEstimated from disk gas kinematics, from HCO+ analysis to CO/HCO+ modeling consistent with Keplerian rotation.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nDisk radius\n~120 AU\nApproximate outer radius of the dust disk resolved at millimeter wavelengths.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nDisk mass\n~0.03–0.14 M☉\nRange from previous millimeter continuum modeling cited in the ALMA study.\n(ALMA Partnership et al. 2015)\n\n\nDisk inclination\n~47°\nDisk geometry derived from ellipse fitting to the resolved ring structure.\n(ALMA Partnership et al. 2015)\n\n\nDisk viscosity (α)\n~3 × 10⁻⁴\nTurbulent viscosity inferred from the degree of dust settling required to reproduce the observed ring contrast.\n(Pinte et al. 2016)"
-  },
-  {
-    "objectID": "hl_tau.html#disk-morphology",
-    "href": "hl_tau.html#disk-morphology",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Disk morphology",
-    "text": "Disk morphology\nThe morphology of the HL Tau disk is defined by a remarkably pronounced annular architecture, resolved by ALMA in unprecedented detail at 2.9, 1.3, and 0.87 mm. These observations reveal a pattern of “bright and dark rings observed at all wavelengths” (ALMA Partnership et al. 2015), demonstrating that these are genuine disk substructures rather than imaging artifacts. In the combined 1.0 mm image, the authors identify “seven pairs of ‘bright’ and ‘dark’ rings” (ALMA Partnership et al. 2015), organized as B1–B7 for the bright rings and D1–D7 for the dark gaps, revealing a complex and highly ordered radial distribution of material. Dipierro et al. (2015) further describe HL Tau as showing “concentric, axisymmetric gaps,” emphasizing the regular and symmetric character of this morphology. In their interpretation, this appearance can be understood because ALMA primarily traces millimeter-sized dust, and that component does not respond to embedded planets in the same way as the gas; as a result, while the gas may develop spiral structure, the dust tends to highlight rings and gaps because of the “different response of gas and dust” (Dipierro et al. 2015). In addition, the planets in their model are not presented as direct detections, but rather as a dynamical test of plausibility: the main observed morphology can be reproduced with “three embedded planets at 13.2, 32.3 and 68.8 au” (Dipierro et al. 2015), supporting the idea that the most prominent gaps may be linked to planet–disk interaction."
-  },
-  {
-    "objectID": "hl_tau.html#morphology-measurements",
-    "href": "hl_tau.html#morphology-measurements",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Morphology measurements",
-    "text": "Morphology measurements\n\n\n\n\n\n\n\n\n\nStructure\nMeasurement\nDescription\nSource\n\n\n\n\nD1\n13.2 AU\nInnermost dark gap identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)\n\n\nB1\n20.4 AU\nInnermost bright ring identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)\n\n\nD2\n32.3 AU\nDark gap in the inner annular structure of the disk.\n(ALMA Partnership et al. 2015)\n\n\nB2\n38.1 AU\nBright ring in the inner annular structure of the disk.\n(ALMA Partnership et al. 2015)\n\n\nD3\n~42 AU\nIntermediate dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB3\n~47 AU\nIntermediate bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD4\n~50 AU\nIntermediate dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB4\n~55 AU\nIntermediate bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD5\n64.2 AU\nOuter dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB5\n68.8 AU\nOuter bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD6\n73.7 AU\nOuter dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB6\n81.3 AU\nOuter bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD7\n~91 AU\nOutermost dark gap identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)\n\n\nB7\n~97 AU\nOutermost bright ring identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)"
-  },
-  {
-    "objectID": "hl_tau.html#dust-in-the-disk",
-    "href": "hl_tau.html#dust-in-the-disk",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Dust in the disk",
-    "text": "Dust in the disk\nIn HL Tau, dust is not distributed homogeneously, but instead exhibits a clearly differentiated radial and vertical structure. ALMA observations indicate a “pattern of bright and dark rings observed at all wavelengths,” and that the dark rings “are not devoid of emission” (ALMA Partnership et al. 2015), which indicates that the solid material does not disappear completely in those regions, but is instead redistributed within the disk. On the one hand, Pinte et al. show that the spectral index increases from the inner to the outer regions, indicating that the emission properties change with radius. In this context, the fact that the outermost ring is depleted in millimeter-sized dust is interpreted as evidence of “faster grain growth in the central regions and/or radial migration of the larger grains” (Pinte et al. 2016). Added to this is the fact that the main gaps show a drastic reduction in dust density relative to the adjacent rings, indicating that the solid material does not form a smooth disk, but is already strongly concentrated in some regions and depleted in others. Moreover, the millimeter dust is confined to a “geometrically thin (scale height ≈1 AU at 100 AU)” (Pinte et al. 2016) layer, which constitutes a clear sign of vertical settling toward the midplane. Taken together, this suggests that the millimeter continuum is dominated by large, settled grains, whereas reproducing the SED requires an additional population of submicron grains distributed in a much thicker structure, thus reinforcing the idea of strong dust stratification in the disk."
-  },
-  {
-    "objectID": "hl_tau.html#dust-properties",
-    "href": "hl_tau.html#dust-properties",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Dust properties",
-    "text": "Dust properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nSpectral index profile (0.87–2.9 mm)\n~2.2 to ~3.5\nThe spectral index increases from the inner to the outer disk, indicating radial changes in dust emissivity and/or optical depth.\n(Pinte et al. 2016)\n\n\nOutermost ring dust distribution\ndepleted in millimeter grains\nThe outermost ring shows a relative lack of large grains, consistent with less efficient grain growth there and/or radial migration of large grains toward inner regions.\n(Pinte et al. 2016)\n\n\nRing dust mass range\n7–120 M⊕\nThe rings contain a substantial fraction of the solid material in the disk.\n(Pinte et al. 2016)\n\n\nTotal dust mass\n5 × 10^-4 M☉\nTotal dust mass of the best-fit radiative transfer model.\n(Pinte et al. 2016)\n\n\nBest-fit millimeter dust scale height\nh1mm = 0.70 AU\nBest-fit scale height for 1 mm grains in the settled dust layer.\n(Pinte et al. 2016)\n\n\nMillimeter dust disk thickness at 100 AU\n~1 AU; upper limit ≲ 2 AU\nThe millimeter-emitting dust disk is geometrically very thin, consistent with strong vertical settling.\n(Pinte et al. 2016)\n\n\nTurbulent viscosity coefficient\nα = 3 × 10^-4\nBest-fit turbulent viscosity coefficient inferred from the settling model.\n(Pinte et al. 2016)\n\n\nGas-to-dust ratio in the midplane (100 AU)\n≈6\nEstimated gas-to-dust ratio in the disk midplane at 100 AU for grains up to 3 mm.\n(Pinte et al. 2016)\n\n\nSubmicron dust component for the SED\nh0 = 30 AU; dust mass = 2.8 × 10^-6 M☉\nA thicker small-grain component is required to reproduce the SED.\n(Pinte et al. 2016)"
-  },
-  {
-    "objectID": "hl_tau.html#gas-in-the-disk",
-    "href": "hl_tau.html#gas-in-the-disk",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Gas in the disk",
-    "text": "Gas in the disk\nIn HL Tau, the disk gas is not observed as a simple, isolated component, but rather as part of a system that remains embedded in an active environment. ALMA observations show that its study is affected by “spatial and kinematic confusion due to the extended ridge and outflow emission near the ambient velocity of vlsr = 6–7 km s−1” (ALMA Partnership et al. 2015), meaning that the disk signal is partially blended with that of the surrounding material. Even so, HCO+ made it possible to “spatially resolve the morphology of the HL Tau molecular gas disk for the first time” (ALMA Partnership et al. 2015), revealing a “roughly Keplerian” velocity distribution over a detectable range of 2.0 to 12.0 km s−1. Along the same lines, Pinte et al. show that both HCO+ and ^12CO display “a spatially compact component” and a “velocity gradient consistent with disk rotation” (Pinte et al. 2016), confirming that the brightest gas is truly associated with the disk and rotates around the star. Moreover, not all tracers describe this dynamics in the same way: CN and HCN “are only detected in absorption” (ALMA Partnership et al. 2015), and part of the observed asymmetry is interpreted as self-absorption linked to the outflow. Taken together, this picture shows that the gas in HL Tau follows an approximately Keplerian rotation, although its structure and kinematics are not entirely simple; indeed, while ALMA Partnership derives a stellar mass of about ~1.3 M☉, Pinte et al. conclude that the gas kinematics are more consistent with a star of ~1.7 M☉, reinforcing the view that this is a young, dynamic molecular disk whose detailed interpretation still requires further modeling."
-  },
-  {
-    "objectID": "hl_tau.html#gas-properties",
-    "href": "hl_tau.html#gas-properties",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Gas properties",
-    "text": "Gas properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nMolecular tracers\nHCO⁺, ¹²CO, CN, HCN\nMolecular lines detected toward the system. In these studies, HCO⁺ and ¹²CO are the main tracers of the disk kinematics, while CN and HCN are detected primarily in absorption.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nVelocity range\n2–12 km/s\nDetectable radial velocity range of the gas in HCO⁺, consistent with the rotating molecular disk.\n(ALMA Partnership et al. 2015)\n\n\nSystemic velocity\n7.0 ± 0.2 km/s\nAdopted systemic velocity of HL Tau, derived from the deepest CN and HCN absorption.\n(ALMA Partnership et al. 2015)\n\n\nRotation type\napproximately Keplerian\nThe gas kinematics are consistent with disk rotation around the central star, although the observed pattern is affected by absorption and environmental contamination.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nDisk inclination\n~47°\nGeometric inclination of the disk used to interpret the observed gas kinematics and estimate the stellar mass.\n(ALMA Partnership et al. 2015)\n\n\nStellar mass (kinematic)\n~1.3–1.7 M☉\nGas kinematics imply a stellar mass in this range: ALMA observations give ~1.3 M☉ from HCO⁺ under a simple Keplerian interpretation, while later analysis finds the gas more consistent with ~1.7 M☉.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nGas inner radius\n~10 AU (upper limit)\nApproximate inner radius of the gaseous disk inferred from CO; treated as an upper limit because it is constrained by sensitivity at the highest velocities.\n(Pinte et al. 2016)"
-  },
-  {
-    "objectID": "hl_tau.html#evidence-of-planet-formation",
-    "href": "hl_tau.html#evidence-of-planet-formation",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Evidence of planet formation",
-    "text": "Evidence of planet formation\nObservationally, HL Tau provides evidence of planet formation: thanks to ALMA, we know that the disk material is already being dynamically sculpted. The disk gaps “are not devoid of emission” (ALMA Partnership et al. 2015), which means that the cavity is not empty, but instead corresponds to a region where the dust has been redistributed by a physical process consistent with planet–disk interaction. In addition, several rings show center offsets, and some substructures follow resonant proportions such as D1:D2:D3:D4 = 1:4:6:8; these dynamics—opening gaps, perturbing the orbits of disk material, and organizing structures within the disk—are evidence of a protoplanet altering the disk architecture. This interpretation is further supported by the simulations of Dipierro et al. (2015), in which “three embedded planets” were modeled at 13.2, 32.3, and 68.8 au, with masses of 0.2, 0.27, and 0.55 MJ, and it was concluded that this scenario can “reproduce most of the structures seen in the ALMA image”. In other words, the planets are not presented here as directly detected objects, but as a physically plausible explanation for why the disk displays such an ordered architecture: the protoplanets open gaps, push dust toward the edges of those gaps, and—because the dust responds more clearly than the gas—the final image observed by ALMA naturally takes on this morphology of bright and dark rings."
-  },
-  {
-    "objectID": "hl_tau.html#physical-interpretation",
-    "href": "hl_tau.html#physical-interpretation",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Physical interpretation",
-    "text": "Physical interpretation\nHL Tau can be physically interpreted as an extremely young system that remains in an active evolutionary stage, yet whose disk already exhibits a complex architecture that is unlikely to arise from a passive distribution of material alone. As ALMA observations describe it, HL Tau is “an excellent example of a system just emerging from its protostellar cocoon” (ALMA Partnership et al. 2015), and even at this stage it already shows bright rings, dark gaps, evidence of grain growth, and a radial organization suggesting that both dust and gas are being dynamically rearranged. In this context, Dipierro et al. provide a broader physical interpretation: the morphology of HL Tau can be understood as the outcome of interactions between dust, gas, and embedded planets, with the millimeter dust responding more visibly than the gas to gravitational perturbations and therefore producing the sharply defined rings and gaps seen by ALMA. Taken together, these studies converge on the same picture: HL Tau is not simply a young disk with substructures, but a system in which dust evolution, material redistribution, and the possible presence of protoplanets may already be actively sculpting the disk architecture."
-  },
-  {
-    "objectID": "hl_tau.html#activity",
-    "href": "hl_tau.html#activity",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "Activity",
-    "text": "Activity\nComing soon"
-  },
-  {
-    "objectID": "hl_tau.html#references",
-    "href": "hl_tau.html#references",
-    "title": "HL Tau:Protoplanetary Disk",
-    "section": "References",
-    "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nGomez, Mercedes, Barbara A. Whitney, and Scott J. Kenyon. 1997. “A Survey of Optical and Near-Infrared Jets in Taurus Embedded Sources.” The Astronomical Journal 114 (3): 1138–53. https://doi.org/10.1086/118545.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
+    "text": "References\n\n\nCleeves, L. Ilsedore, Karin I. Öberg, David J. Wilner, Jane Huang, Ryan A. Loomis, Sean M. Andrews, and Ian Czekala. 2016. “The Coupled Physical Structure of Gas and Dust in the IM Lup Protoplanetary Disk.” The Astrophysical Journal 832 (2): 110. https://doi.org/10.3847/0004-637X/832/2/110."
   },
   {
     "objectID": "hd_163296.html",
@@ -452,63 +333,7 @@
     "href": "hd_163296.html#references",
     "title": "HD 163296 — Protoplanetary Disk",
     "section": "References",
-    "text": "References\n\n\nIsella, Andrea, Greta Guidi, Leonardo Testi, et al. 2016. “Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.” Physical Review Letters 117 (25): 251101. https://doi.org/10.1103/PhysRevLett.117.251101.\n\n\nRab, Ch., I. Kamp, C. Dominik, et al. 2020. “Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.” Astronomy & Astrophysics 642: A165. https://doi.org/10.1051/0004-6361/202038712."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "",
-    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
-  },
-  {
-    "objectID": "index.html#catalog-summary",
-    "href": "index.html#catalog-summary",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Catalog summary",
-    "text": "Catalog summary\n\n\n\n\n\n\n\n\n\n\n\nDisk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
-  },
-  {
-    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
-    "href": "index.html#disk-accretion-and-angular-momentum-transport",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Disk accretion and angular momentum transport",
-    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
-  },
-  {
-    "objectID": "index.html#gravitational-instability",
-    "href": "index.html#gravitational-instability",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Gravitational instability",
-    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
-  },
-  {
-    "objectID": "index.html#rings",
-    "href": "index.html#rings",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Rings",
-    "text": "Rings\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
-  },
-  {
-    "objectID": "index.html#gaps",
-    "href": "index.html#gaps",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Gaps",
-    "text": "Gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
-  },
-  {
-    "objectID": "index.html#arcs",
-    "href": "index.html#arcs",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Arcs",
-    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
-  },
-  {
-    "objectID": "index.html#spirals",
-    "href": "index.html#spirals",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Spirals",
-    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
+    "text": "References\n\n\nIsella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. “Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.” Physical Review Letters 117 (25): 251101. https://doi.org/10.1103/PhysRevLett.117.251101.\n\n\nRab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. “Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.” Astronomy & Astrophysics 642: A165. https://doi.org/10.1051/0004-6361/202038712."
   },
   {
     "objectID": "as_209.html",
@@ -606,6 +431,181 @@
     "href": "as_209.html#references",
     "title": "AS 209: Protoplanetary Disk",
     "section": "References",
-    "text": "References\n\n\nFedele, Davide, Marco Tazzari, Richard Booth, et al. 2018. “ALMA Continuum Observations of the Protoplanetary Disk AS 209: Evidence of Multiple Gaps Opened by a Single Planet?” Astronomy & Astrophysics 610: A24. https://doi.org/10.1051/0004-6361/201731978."
+    "text": "References\n\n\nFedele, Davide, Marco Tazzari, Richard Booth, Leonardo Testi, Cathie J. Clarke, Ilaria Pascucci, Agnes Kospal, et al. 2018. “ALMA Continuum Observations of the Protoplanetary Disk AS 209: Evidence of Multiple Gaps Opened by a Single Planet?” Astronomy & Astrophysics 610: A24. https://doi.org/10.1051/0004-6361/201731978."
+  },
+  {
+    "objectID": "data/catalog_summary.html",
+    "href": "data/catalog_summary.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "Disk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
+  },
+  {
+    "objectID": "data/catalog_summary.html#catalog-summary",
+    "href": "data/catalog_summary.html#catalog-summary",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "Disk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
+  },
+  {
+    "objectID": "hl_tau.html",
+    "href": "hl_tau.html",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "",
+    "text": "Figure 1: Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material within the disk. Image credit: ALMA (ESO/NAOJ/NRAO).\nAs shown in Figure 1, the HL Tau disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission."
+  },
+  {
+    "objectID": "hl_tau.html#object-names",
+    "href": "hl_tau.html#object-names",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Object names",
+    "text": "Object names\n\n\n\nField\nValue\nSource\n\n\n\n\nMain name\nHL Tau\n(ALMA Partnership et al. 2015)\n\n\nOther designations\nHaro 6-14\n(Gomez, Whitney, and Kenyon 1997)\n\n\nLocation\nTaurus Molecular Cloud\n(Pinte et al. 2016)"
+  },
+  {
+    "objectID": "hl_tau.html#location",
+    "href": "hl_tau.html#location",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Location",
+    "text": "Location\nAS 209 is located in the Ophiuchus star-forming region, at a distance of 126 pc from the Sun (Fedele et al. 2018). Ophiuchus is a particularly valuable environment for the study of protoplanetary disks, as it hosts a rich population of young stellar systems observed across different evolutionary stages. Its significant number of deeply embedded sources, many with ages below about 1 Myr, makes this region especially well suited for investigating how circumstellar disks emerge and evolve during the earliest phases of star and planet formation."
+  },
+  {
+    "objectID": "hl_tau.html#general-description-of-the-system",
+    "href": "hl_tau.html#general-description-of-the-system",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "General description of the system",
+    "text": "General description of the system\nHL Tau is a remarkably important young system because, although it is still described as a “Class I–II protostar” (ALMA Partnership et al. 2015), it already hosts a compact, massive disk together with a highly collimated outflow, reflecting an early yet highly active stage of evolution. ALMA observations revealed a clear sequence of “bright and dark rings” in the disk (ALMA Partnership et al. 2015), showing that a complex architecture is already in place at this initial stage. Moreover, the dark regions are “not devoid of emission” (ALMA Partnership et al. 2015), and their properties are consistent with dust growth and evolution, suggesting that they may be linked to the earliest stages of planet formation. This interpretation becomes clearer when one considers that ALMA primarily traces millimeter-sized dust: in the presence of embedded protoplanets, that dust can respond differently from the gas, making the gaps appear sharper in the dust component (“different response of the dust compared to the gas”; “it is easier to carve gaps in dust than in gas” (Dipierro et al. 2015)). Along the same lines, radiative transfer modeling indicates that the main gaps are “depleted by at least a factor of 10” in dust and that the outermost ring contains fewer millimeter-sized grains than the inner regions, pointing to more efficient grain growth closer to the star and/or radial migration (Pinte et al. 2016). In addition, the millimeter dust forms a “geometrically thin (scale height ≈1 AU at 100 AU)” layer (Pinte et al. 2016), which is interpreted as a clear sign of strong settling toward the midplane, precisely where solid material can become concentrated and continue to evolve."
+  },
+  {
+    "objectID": "hl_tau.html#general-system-properties",
+    "href": "hl_tau.html#general-system-properties",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "General system properties",
+    "text": "General system properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nDistance\n~140 pc\nAdopted mean distance to the HL Tau region in Taurus.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nAge\n≤1–2 Myr\nYoung system, based on the age of the Taurus cluster.\n(ALMA Partnership et al. 2015)\n\n\nEvolutionary class\nClass I–II\nProtostellar source in transition, with evidence of both an envelope and a circumstellar disk.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nSpectral type\nK5\nSpectral classification from optical high-dispersion spectroscopy.\n(ALMA Partnership et al. 2015)\n\n\nStellar mass\n~1.3–1.7 M☉\nEstimated from disk gas kinematics, from HCO+ analysis to CO/HCO+ modeling consistent with Keplerian rotation.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nDisk radius\n~120 AU\nApproximate outer radius of the dust disk resolved at millimeter wavelengths.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nDisk mass\n~0.03–0.14 M☉\nRange from previous millimeter continuum modeling cited in the ALMA study.\n(ALMA Partnership et al. 2015)\n\n\nDisk inclination\n~47°\nDisk geometry derived from ellipse fitting to the resolved ring structure.\n(ALMA Partnership et al. 2015)\n\n\nDisk viscosity (α)\n~3 × 10⁻⁴\nTurbulent viscosity inferred from the degree of dust settling required to reproduce the observed ring contrast.\n(Pinte et al. 2016)"
+  },
+  {
+    "objectID": "hl_tau.html#disk-morphology",
+    "href": "hl_tau.html#disk-morphology",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Disk morphology",
+    "text": "Disk morphology\nThe morphology of the HL Tau disk is defined by a remarkably pronounced annular architecture, resolved by ALMA in unprecedented detail at 2.9, 1.3, and 0.87 mm. These observations reveal a pattern of “bright and dark rings observed at all wavelengths” (ALMA Partnership et al. 2015), demonstrating that these are genuine disk substructures rather than imaging artifacts. In the combined 1.0 mm image, the authors identify “seven pairs of ‘bright’ and ‘dark’ rings” (ALMA Partnership et al. 2015), organized as B1–B7 for the bright rings and D1–D7 for the dark gaps, revealing a complex and highly ordered radial distribution of material. Dipierro et al. (2015) further describe HL Tau as showing “concentric, axisymmetric gaps,” emphasizing the regular and symmetric character of this morphology. In their interpretation, this appearance can be understood because ALMA primarily traces millimeter-sized dust, and that component does not respond to embedded planets in the same way as the gas; as a result, while the gas may develop spiral structure, the dust tends to highlight rings and gaps because of the “different response of gas and dust” (Dipierro et al. 2015). In addition, the planets in their model are not presented as direct detections, but rather as a dynamical test of plausibility: the main observed morphology can be reproduced with “three embedded planets at 13.2, 32.3 and 68.8 au” (Dipierro et al. 2015), supporting the idea that the most prominent gaps may be linked to planet–disk interaction."
+  },
+  {
+    "objectID": "hl_tau.html#morphology-measurements",
+    "href": "hl_tau.html#morphology-measurements",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Morphology measurements",
+    "text": "Morphology measurements\n\n\n\n\n\n\n\n\n\nStructure\nMeasurement\nDescription\nSource\n\n\n\n\nD1\n13.2 AU\nInnermost dark gap identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)\n\n\nB1\n20.4 AU\nInnermost bright ring identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)\n\n\nD2\n32.3 AU\nDark gap in the inner annular structure of the disk.\n(ALMA Partnership et al. 2015)\n\n\nB2\n38.1 AU\nBright ring in the inner annular structure of the disk.\n(ALMA Partnership et al. 2015)\n\n\nD3\n~42 AU\nIntermediate dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB3\n~47 AU\nIntermediate bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD4\n~50 AU\nIntermediate dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB4\n~55 AU\nIntermediate bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD5\n64.2 AU\nOuter dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB5\n68.8 AU\nOuter bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD6\n73.7 AU\nOuter dark gap in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nB6\n81.3 AU\nOuter bright ring in the annular disk structure.\n(ALMA Partnership et al. 2015)\n\n\nD7\n~91 AU\nOutermost dark gap identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)\n\n\nB7\n~97 AU\nOutermost bright ring identified in the HL Tau disk.\n(ALMA Partnership et al. 2015)"
+  },
+  {
+    "objectID": "hl_tau.html#dust-in-the-disk",
+    "href": "hl_tau.html#dust-in-the-disk",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Dust in the disk",
+    "text": "Dust in the disk\nIn HL Tau, dust is not distributed homogeneously, but instead exhibits a clearly differentiated radial and vertical structure. ALMA observations indicate a “pattern of bright and dark rings observed at all wavelengths,” and that the dark rings “are not devoid of emission” (ALMA Partnership et al. 2015), which indicates that the solid material does not disappear completely in those regions, but is instead redistributed within the disk. On the one hand, Pinte et al. show that the spectral index increases from the inner to the outer regions, indicating that the emission properties change with radius. In this context, the fact that the outermost ring is depleted in millimeter-sized dust is interpreted as evidence of “faster grain growth in the central regions and/or radial migration of the larger grains” (Pinte et al. 2016). Added to this is the fact that the main gaps show a drastic reduction in dust density relative to the adjacent rings, indicating that the solid material does not form a smooth disk, but is already strongly concentrated in some regions and depleted in others. Moreover, the millimeter dust is confined to a “geometrically thin (scale height ≈1 AU at 100 AU)” (Pinte et al. 2016) layer, which constitutes a clear sign of vertical settling toward the midplane. Taken together, this suggests that the millimeter continuum is dominated by large, settled grains, whereas reproducing the SED requires an additional population of submicron grains distributed in a much thicker structure, thus reinforcing the idea of strong dust stratification in the disk."
+  },
+  {
+    "objectID": "hl_tau.html#dust-properties",
+    "href": "hl_tau.html#dust-properties",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Dust properties",
+    "text": "Dust properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nSpectral index profile (0.87–2.9 mm)\n~2.2 to ~3.5\nThe spectral index increases from the inner to the outer disk, indicating radial changes in dust emissivity and/or optical depth.\n(Pinte et al. 2016)\n\n\nOutermost ring dust distribution\ndepleted in millimeter grains\nThe outermost ring shows a relative lack of large grains, consistent with less efficient grain growth there and/or radial migration of large grains toward inner regions.\n(Pinte et al. 2016)\n\n\nRing dust mass range\n7–120 M⊕\nThe rings contain a substantial fraction of the solid material in the disk.\n(Pinte et al. 2016)\n\n\nTotal dust mass\n5 × 10^-4 M☉\nTotal dust mass of the best-fit radiative transfer model.\n(Pinte et al. 2016)\n\n\nBest-fit millimeter dust scale height\nh1mm = 0.70 AU\nBest-fit scale height for 1 mm grains in the settled dust layer.\n(Pinte et al. 2016)\n\n\nMillimeter dust disk thickness at 100 AU\n~1 AU; upper limit ≲ 2 AU\nThe millimeter-emitting dust disk is geometrically very thin, consistent with strong vertical settling.\n(Pinte et al. 2016)\n\n\nTurbulent viscosity coefficient\nα = 3 × 10^-4\nBest-fit turbulent viscosity coefficient inferred from the settling model.\n(Pinte et al. 2016)\n\n\nGas-to-dust ratio in the midplane (100 AU)\n≈6\nEstimated gas-to-dust ratio in the disk midplane at 100 AU for grains up to 3 mm.\n(Pinte et al. 2016)\n\n\nSubmicron dust component for the SED\nh0 = 30 AU; dust mass = 2.8 × 10^-6 M☉\nA thicker small-grain component is required to reproduce the SED.\n(Pinte et al. 2016)"
+  },
+  {
+    "objectID": "hl_tau.html#gas-in-the-disk",
+    "href": "hl_tau.html#gas-in-the-disk",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Gas in the disk",
+    "text": "Gas in the disk\nIn HL Tau, the disk gas is not observed as a simple, isolated component, but rather as part of a system that remains embedded in an active environment. ALMA observations show that its study is affected by “spatial and kinematic confusion due to the extended ridge and outflow emission near the ambient velocity of vlsr = 6–7 km s−1” (ALMA Partnership et al. 2015), meaning that the disk signal is partially blended with that of the surrounding material. Even so, HCO+ made it possible to “spatially resolve the morphology of the HL Tau molecular gas disk for the first time” (ALMA Partnership et al. 2015), revealing a “roughly Keplerian” velocity distribution over a detectable range of 2.0 to 12.0 km s−1. Along the same lines, Pinte et al. show that both HCO+ and ^12CO display “a spatially compact component” and a “velocity gradient consistent with disk rotation” (Pinte et al. 2016), confirming that the brightest gas is truly associated with the disk and rotates around the star. Moreover, not all tracers describe this dynamics in the same way: CN and HCN “are only detected in absorption” (ALMA Partnership et al. 2015), and part of the observed asymmetry is interpreted as self-absorption linked to the outflow. Taken together, this picture shows that the gas in HL Tau follows an approximately Keplerian rotation, although its structure and kinematics are not entirely simple; indeed, while ALMA Partnership derives a stellar mass of about ~1.3 M☉, Pinte et al. conclude that the gas kinematics are more consistent with a star of ~1.7 M☉, reinforcing the view that this is a young, dynamic molecular disk whose detailed interpretation still requires further modeling."
+  },
+  {
+    "objectID": "hl_tau.html#gas-properties",
+    "href": "hl_tau.html#gas-properties",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Gas properties",
+    "text": "Gas properties\n\n\n\n\n\n\n\n\n\nProperty\nValue\nDescription\nSource\n\n\n\n\nMolecular tracers\nHCO⁺, ¹²CO, CN, HCN\nMolecular lines detected toward the system. In these studies, HCO⁺ and ¹²CO are the main tracers of the disk kinematics, while CN and HCN are detected primarily in absorption.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nVelocity range\n2–12 km/s\nDetectable radial velocity range of the gas in HCO⁺, consistent with the rotating molecular disk.\n(ALMA Partnership et al. 2015)\n\n\nSystemic velocity\n7.0 ± 0.2 km/s\nAdopted systemic velocity of HL Tau, derived from the deepest CN and HCN absorption.\n(ALMA Partnership et al. 2015)\n\n\nRotation type\napproximately Keplerian\nThe gas kinematics are consistent with disk rotation around the central star, although the observed pattern is affected by absorption and environmental contamination.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nDisk inclination\n~47°\nGeometric inclination of the disk used to interpret the observed gas kinematics and estimate the stellar mass.\n(ALMA Partnership et al. 2015)\n\n\nStellar mass (kinematic)\n~1.3–1.7 M☉\nGas kinematics imply a stellar mass in this range: ALMA observations give ~1.3 M☉ from HCO⁺ under a simple Keplerian interpretation, while later analysis finds the gas more consistent with ~1.7 M☉.\n(ALMA Partnership et al. 2015; Pinte et al. 2016)\n\n\nGas inner radius\n~10 AU (upper limit)\nApproximate inner radius of the gaseous disk inferred from CO; treated as an upper limit because it is constrained by sensitivity at the highest velocities.\n(Pinte et al. 2016)"
+  },
+  {
+    "objectID": "hl_tau.html#evidence-of-planet-formation",
+    "href": "hl_tau.html#evidence-of-planet-formation",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Evidence of planet formation",
+    "text": "Evidence of planet formation\nObservationally, HL Tau provides evidence of planet formation: thanks to ALMA, we know that the disk material is already being dynamically sculpted. The disk gaps “are not devoid of emission” (ALMA Partnership et al. 2015), which means that the cavity is not empty, but instead corresponds to a region where the dust has been redistributed by a physical process consistent with planet–disk interaction. In addition, several rings show center offsets, and some substructures follow resonant proportions such as D1:D2:D3:D4 = 1:4:6:8; these dynamics—opening gaps, perturbing the orbits of disk material, and organizing structures within the disk—are evidence of a protoplanet altering the disk architecture. This interpretation is further supported by the simulations of Dipierro et al. (2015), in which “three embedded planets” were modeled at 13.2, 32.3, and 68.8 au, with masses of 0.2, 0.27, and 0.55 MJ, and it was concluded that this scenario can “reproduce most of the structures seen in the ALMA image”. In other words, the planets are not presented here as directly detected objects, but as a physically plausible explanation for why the disk displays such an ordered architecture: the protoplanets open gaps, push dust toward the edges of those gaps, and—because the dust responds more clearly than the gas—the final image observed by ALMA naturally takes on this morphology of bright and dark rings."
+  },
+  {
+    "objectID": "hl_tau.html#physical-interpretation",
+    "href": "hl_tau.html#physical-interpretation",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Physical interpretation",
+    "text": "Physical interpretation\nHL Tau can be physically interpreted as an extremely young system that remains in an active evolutionary stage, yet whose disk already exhibits a complex architecture that is unlikely to arise from a passive distribution of material alone. As ALMA observations describe it, HL Tau is “an excellent example of a system just emerging from its protostellar cocoon” (ALMA Partnership et al. 2015), and even at this stage it already shows bright rings, dark gaps, evidence of grain growth, and a radial organization suggesting that both dust and gas are being dynamically rearranged. In this context, Dipierro et al. provide a broader physical interpretation: the morphology of HL Tau can be understood as the outcome of interactions between dust, gas, and embedded planets, with the millimeter dust responding more visibly than the gas to gravitational perturbations and therefore producing the sharply defined rings and gaps seen by ALMA. Taken together, these studies converge on the same picture: HL Tau is not simply a young disk with substructures, but a system in which dust evolution, material redistribution, and the possible presence of protoplanets may already be actively sculpting the disk architecture."
+  },
+  {
+    "objectID": "hl_tau.html#activity",
+    "href": "hl_tau.html#activity",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "Activity",
+    "text": "Activity\nComing soon"
+  },
+  {
+    "objectID": "hl_tau.html#references",
+    "href": "hl_tau.html#references",
+    "title": "HL Tau:Protoplanetary Disk",
+    "section": "References",
+    "text": "References\n\n\nALMA Partnership, C. L. Brogan, L. M. Pérez, et al. 2015. “The 2014 ALMA Long Baseline Campaign: First Results from High Angular Resolution Observations Toward the HL Tau Region.” The Astrophysical Journal Letters 808 (1): L3. https://doi.org/10.1088/2041-8205/808/1/L3.\n\n\nDipierro, Giovanni, Giuseppe Lodato, Leonardo Testi, et al. 2015. “Planet–Disk Interactions in the HL Tau Disk.” Monthly Notices of the Royal Astronomical Society Letters 453: L73–77. https://doi.org/10.1093/mnrasl/slv105.\n\n\nGomez, Mercedes, Barbara A. Whitney, and Scott J. Kenyon. 1997. “A Survey of Optical and Near-Infrared Jets in Taurus Embedded Sources.” The Astronomical Journal 114 (3): 1138–53. https://doi.org/10.1086/118545.\n\n\nPinte, Christophe, François Ménard, Gaspard Duchêne, et al. 2016. “Dust and Gas in the Disk of HL Tau: Surface Density, Dust Settling, and Dust-to-Gas Ratio.” The Astrophysical Journal 816 (1): 25. https://doi.org/10.3847/0004-637X/816/1/25."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "",
+    "text": "This Pilot Protoplanetary Disk Catalog is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of protoplanetary disks.\nThe goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.\nThe catalog focuses particularly on disk substructures, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks."
+  },
+  {
+    "objectID": "index.html#catalog-summary",
+    "href": "index.html#catalog-summary",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Catalog summary",
+    "text": "Catalog summary\n\n\n\n\n\n\n\n\n\n\n\nDisk\nDistance (pc)\nStellar mass (M☉)\nSpectral type\nMorphology\nPlanet evidence\n\n\n\n\nAS 209\n126\n0.9\nK5\nringed disk with coordinated dust and gas substructures\nyes\n\n\nHD 163296\n101\n2.3\nA1Ve\nringed disk with prominent dust gaps and gas velocity perturbations\nyes\n\n\nHL Tau\n140\n1.5\nK5\nringed disk with multiple bright rings and dark gaps\nyes\n\n\nIM Lup\n161\n1.0\nM0\nmassive flared disk with compact millimeter dust disk, extended gas disk, and tentative ring-like substructure\nindirect"
+  },
+  {
+    "objectID": "index.html#disk-accretion-and-angular-momentum-transport",
+    "href": "index.html#disk-accretion-and-angular-momentum-transport",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Disk accretion and angular momentum transport",
+    "text": "Disk accretion and angular momentum transport\nGas in a disk orbits the central star approximately in Keplerian rotation. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.\nDisk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:\n\n“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)\n\nTheoretical models describe this evolution using the framework of thin accretion disks, where the vertical thickness of the disk is small compared with its radius. In fact:\n\n“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)\n\nAngular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds."
+  },
+  {
+    "objectID": "index.html#gravitational-instability",
+    "href": "index.html#gravitational-instability",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Gravitational instability",
+    "text": "Gravitational instability\nIn sufficiently massive and cold disks, self-gravity can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.\nThese spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals."
+  },
+  {
+    "objectID": "index.html#rings",
+    "href": "index.html#rings",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Rings",
+    "text": "Rings\nThese systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of transition disks."
+  },
+  {
+    "objectID": "index.html#gaps",
+    "href": "index.html#gaps",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Gaps",
+    "text": "Gaps\nThis is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps."
+  },
+  {
+    "objectID": "index.html#arcs",
+    "href": "index.html#arcs",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Arcs",
+    "text": "Arcs\nSome disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations."
+  },
+  {
+    "objectID": "index.html#spirals",
+    "href": "index.html#spirals",
+    "title": "Pilot Protoplanetary Disk Catalog",
+    "section": "Spirals",
+    "text": "Spirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
   }
 ]
