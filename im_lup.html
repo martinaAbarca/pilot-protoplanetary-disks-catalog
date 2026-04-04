@@ -92,35 +92,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -154,7 +125,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -164,12 +135,11 @@ window.Quarto = {
   <ul>
   <li><a href="#object-names" id="toc-object-names" class="nav-link active" data-scroll-target="#object-names">Object names</a></li>
   <li><a href="#location" id="toc-location" class="nav-link" data-scroll-target="#location">Location</a></li>
-  <li><a href="#overview-of-the-system" id="toc-overview-of-the-system" class="nav-link" data-scroll-target="#overview-of-the-system">Overview of the system</a></li>
+  <li><a href="#general-description-of-the-system" id="toc-general-description-of-the-system" class="nav-link" data-scroll-target="#general-description-of-the-system">General description of the system</a></li>
   <li><a href="#general-system-properties" id="toc-general-system-properties" class="nav-link" data-scroll-target="#general-system-properties">General system properties</a></li>
   <li><a href="#disk-morphology" id="toc-disk-morphology" class="nav-link" data-scroll-target="#disk-morphology">Disk morphology</a></li>
   <li><a href="#morphology-measurements" id="toc-morphology-measurements" class="nav-link" data-scroll-target="#morphology-measurements">Morphology measurements</a></li>
   <li><a href="#dust-in-the-disk" id="toc-dust-in-the-disk" class="nav-link" data-scroll-target="#dust-in-the-disk">Dust in the disk</a></li>
-  <li><a href="#dust-properties" id="toc-dust-properties" class="nav-link" data-scroll-target="#dust-properties">Dust properties</a></li>
   <li><a href="#gas-in-the-disk" id="toc-gas-in-the-disk" class="nav-link" data-scroll-target="#gas-in-the-disk">Gas in the disk</a></li>
   <li><a href="#gas-properties" id="toc-gas-properties" class="nav-link" data-scroll-target="#gas-properties">Gas properties</a></li>
   <li><a href="#evidence-of-planet-formation" id="toc-evidence-of-planet-formation" class="nav-link" data-scroll-target="#evidence-of-planet-formation">Evidence of planet formation</a></li>
@@ -180,7 +150,7 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -189,7 +159,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -226,240 +196,327 @@ Figure&nbsp;1: High-resolution SPHERE image of the dusty disk around the young s
 <tr class="odd">
 <td>Main name</td>
 <td>IM Lup</td>
-<td>Cleeves et al.&nbsp;(2016)</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Other designations</td>
 <td>Sz 82</td>
-<td>Cleeves et al.&nbsp;(2016)</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Region</td>
 <td>Lupus 2 cloud</td>
-<td>Cleeves et al.&nbsp;(2016)</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="location" class="level2">
 <h2 class="anchored" data-anchor-id="location">Location</h2>
-<p>IM Lup is associated with the <strong>Lupus 2 cloud</strong> and lies at a distance of <strong>161 ± 10 pc</strong> <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. Its location in a nearby star-forming region and its young age make it a useful system for studying how gas and dust evolve differently during the early stages of protoplanetary disk evolution.</p>
+<p>IM Lup is located in “the Lupus 2 cloud” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. Within this star-forming environment, the system lies at a distance of “d = 161 ± 10 pc” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. The same study also reports “large-scale (&gt;30″) CO emission from the parent cloud” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>, indicating that the disk is embedded in a broader natal environment.</p>
 </section>
-<section id="overview-of-the-system" class="level2">
-<h2 class="anchored" data-anchor-id="overview-of-the-system">Overview of the system</h2>
-<p>IM Lup is a young, massive, and extended protoplanetary disk whose gas and dust components show markedly different spatial distributions <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. ALMA observations of the continuum, <strong><span class="math inline">\(^{12}\)</span>CO</strong>, <strong><span class="math inline">\(^{13}\)</span>CO</strong>, and <strong>C<span class="math inline">\(^{18}\)</span>O</strong> were used together with physical and chemical modeling to constrain the structure of the disk.</p>
-<p>A key result of the paper is that the <strong>millimeter dust disk is truncated at about 313 au</strong>, while the <strong>gas disk extends to at least 570 au and perhaps as far as 970 au</strong> <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. This contrast indicates that large grains are more radially compact than the gas, consistent with dust growth, settling, and radial drift.</p>
-<p>The study also found tentative evidence for weak ring-like substructure in the millimeter continuum and showed that the disk is both <strong>massive</strong> and <strong>flared</strong>, properties that may be related to its young age <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>.</p>
+<section id="general-description-of-the-system" class="level2">
+<h2 class="anchored" data-anchor-id="general-description-of-the-system">General description of the system</h2>
+<p>IM Lup is a young system located in the Lupus 2 cloud, at a distance of 161 ± 10 pc, whose central star has an estimated age of 0.5–1 Myr and a spectral type M0 <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. In general terms, this is a particularly interesting disk because earlier observations detected a gaseous disk together with “large-scale (&gt;30″) CO emission from the parent cloud,” suggesting that the system still retains a connection to its natal environment <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. In addition, the disk was described as “massive, ∼0.1 M⊙,” a striking property because “IM Lup does not appear to be actively accreting,” although the same study notes that its accretion may vary over time <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. It is also notable that “the gas is more extended than the dust, 900 au versus 400 au,” which made IM Lup “one of the first systems where this dust–gas dichotomy was clearly seen” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. This overall picture is reinforced by later studies showing that “The SPHERE and ALMA data show two very different geometries of the disk” <span class="citation" data-cites="franceschi2023">(<a href="#ref-franceschi2023" role="doc-biblioref">Franceschi et al. 2023</a>)</span>, indicating that the system displays a tracer-dependent structure: more flared and vertically extended in the near-infrared, and flatter at millimeter wavelengths. Taken together, these properties show that IM Lup is not only a large and material-rich disk, but also a key system for studying how gas and dust can become distributed differently during the early stages of protoplanetary disk evolution.</p>
 </section>
 <section id="general-system-properties" class="level2">
 <h2 class="anchored" data-anchor-id="general-system-properties">General system properties</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Property</th>
 <th>Value</th>
+<th>Description</th>
+<th>Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Distance</td>
-<td>161 ± 10 pc</td>
+<td>Spectral type</td>
+<td>M0</td>
+<td>Spectral class of the central star.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Age</td>
 <td>0.5–1 Myr</td>
+<td>Estimated age of the system.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Spectral type</td>
-<td>M0</td>
+<td>Distance</td>
+<td>161 ± 10 pc</td>
+<td>Distance from Earth.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Stellar mass</td>
-<td>~1 M☉</td>
-</tr>
-<tr class="odd">
 <td>Stellar luminosity</td>
 <td>0.9 L☉</td>
-</tr>
-<tr class="even">
-<td>Disk inclination</td>
-<td>48° ± 3°</td>
+<td>Total energy emitted by the star.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Position angle</td>
-<td>144° ± 3°</td>
+<td>Stellar mass</td>
+<td>1 M☉</td>
+<td>Mass of the central star.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Effective temperature</td>
+<td>4350 K</td>
+<td>Approximate surface temperature of the star.</td>
+<td><span class="citation" data-cites="franceschi2023">(<a href="#ref-franceschi2023" role="doc-biblioref">Franceschi et al. 2023</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Disk mass</td>
+<td>0.2 M☉</td>
+<td>Estimated total mass of the disk.</td>
+<td><span class="citation" data-cites="franceschi2023">(<a href="#ref-franceschi2023" role="doc-biblioref">Franceschi et al. 2023</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="disk-morphology" class="level2">
 <h2 class="anchored" data-anchor-id="disk-morphology">Disk morphology</h2>
-<p>ALMA observations show that IM Lup has a <strong>two-component millimeter dust structure</strong>: a bright inner disk and a broad outer dust halo truncated at <strong>313 au</strong> <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. In contrast, the gas traced by CO isotopologues is much more extended and appears smoother in radial distribution.</p>
-<p>The continuum data also show shallow deviations from a smooth radial profile, suggesting <strong>tentative ring-like substructure</strong>. These features are weak and were not resolved as sharply as the rings later seen in higher-resolution disk surveys, but they are still morphologically important because they hint that substructure may already be present in IM Lup <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>.</p>
-<p>The paper describes these features as small breaks in the deprojected continuum brightness profile near <strong>150 au</strong> and <strong>250 au</strong>.</p>
+<p>In morphological terms, IM Lup shows in the submillimeter continuum “a bright central continuum peak, and fainter emission which extends out as a broad plateau” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>, that is, a bright inner region followed by fainter and more extended outer emission. In addition, “The outer disk appears truncated at ∼2″” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>, suggesting that the observable material does not extend indefinitely outward. Superimposed on this global structure, the continuum profile exhibits “Minor breaks in the continuum slope suggestive of ring-like structures” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>, with discontinuities near 150 au and 250 au, indicating that the disk is not completely smooth but instead may host annular substructures. This picture becomes more concrete in scattered-light measurements, which report four small-grain rings at approximately 91.9, 152.1, 240.8, and 332.8 au <span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span>, consistent with a sequence of concentric structures distributed across the disk. However, because “Higher-resolution observations are necessary to confirm the presence of these rings” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>, these features should for now be interpreted as tentative evidence for rings rather than as definitively confirmed ring structures.</p>
 </section>
 <section id="morphology-measurements" class="level2">
 <h2 class="anchored" data-anchor-id="morphology-measurements">Morphology measurements</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Structure</th>
-<th>Type</th>
-<th>Radius (AU)</th>
+<th>Property</th>
+<th>Value</th>
+<th>Description</th>
+<th>Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Inner bright disk</td>
-<td>Bright central component</td>
-<td>unresolved inner disk, within ~21 AU model component</td>
+<td>Inclination</td>
+<td>48 ± 3°</td>
+<td>Tilt of the disk relative to our line of sight.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Outer dust edge</td>
-<td>Dust truncation radius</td>
-<td>313 ± 15</td>
+<td>Position angle</td>
+<td>144 ± 3°</td>
+<td>Orientation of the disk major axis on the sky.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Ring candidate 1</td>
-<td>Tentative ring-like break</td>
-<td>~150</td>
+<td>Millimeter dust outer radius</td>
+<td>313 ± 15 au</td>
+<td>Outer edge of the large-grain disk seen in the millimeter continuum.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Ring candidate 2</td>
-<td>Tentative ring-like break</td>
-<td>~250</td>
+<td>Tentative continuum rings</td>
+<td>~150 au; ~250 au</td>
+<td>Possible annular brightness breaks in the Band 7 continuum.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Gas disk extent</td>
-<td>Extended gas disk</td>
-<td>at least 570</td>
+<td>Inner disk component size</td>
+<td>≤21 au</td>
+<td>Maximum radius of the compact inner millimeter-emitting component.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Gas disk extent (possible maximum)</td>
-<td>Extended gas disk</td>
-<td>~970</td>
+<td>Small dust ring 1</td>
+<td>Radius: 91.9 ± 3.2 au; Height: 16.5 ± 2.8 au</td>
+<td>First scattered-light ring traced by small dust grains.</td>
+<td><span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Small dust ring 2</td>
+<td>Radius: 152.1 ± 4.8 au; Height: 27.4 ± 6.1 au</td>
+<td>Second scattered-light ring traced by small dust grains.</td>
+<td><span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Small dust ring 3</td>
+<td>Radius: 240.8 ± 4.8 au; Height: 55.4 ± 9.6 au</td>
+<td>Third scattered-light ring traced by small dust grains.</td>
+<td><span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Small dust ring 4</td>
+<td>Radius: 332.8 ± 12.7 au; Height: 83.2 ± 16.6 au</td>
+<td>Fourth scattered-light ring traced by small dust grains.</td>
+<td><span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="dust-in-the-disk" class="level2">
 <h2 class="anchored" data-anchor-id="dust-in-the-disk">Dust in the disk</h2>
-<p>Dust in IM Lup was observed with ALMA continuum data at <strong>1.3 mm</strong> and <strong>875 μm</strong> <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. These observations trace the distribution of large, millimeter-sized grains, which are more concentrated than the gas and appear sharply truncated at <strong>313 au</strong>.</p>
-<p>The continuum emission is dominated by a bright central component plus a broad outer dust distribution. The paper models the large-grain dust disk as being more radially compact and more vertically settled than the gas. This is consistent with the idea that large grains have already evolved significantly through <strong>growth</strong>, <strong>settling toward the midplane</strong>, and <strong>radial drift</strong> <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>.</p>
-<p>The inner dust disk is also inferred to be <strong>optically thick</strong>, which helps explain the reduced line emission seen near the center in some CO isotopologue maps.</p>
-</section>
-<section id="dust-properties" class="level2">
-<h2 class="anchored" data-anchor-id="dust-properties">Dust properties</h2>
+<p>In IM Lup, dust is not distributed uniformly, but instead arranged in a complex structure with a bright inner region and a fainter, more extended outer component: the continuum shows “a bright central continuum peak, and fainter emission which extends out as a broad plateau” <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. Overall, the large grains are more concentrated than the gas, with a smaller vertical scale height, a more compact radial distribution, and a millimeter-grain disk truncated at 313 ± 15 au, so the system can be described as having two main components: a bright inner disk and a broad outer halo <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. In addition, the dust in the inner disk is dense enough to hide part of the line emission, suggesting the presence of large grains that are vertically suspended in this central region <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. This picture is reinforced by later work showing that within ~20 au, the surface density of large dust is “10–100 times higher than expected from an extrapolation of the outer disk” and that this region contains “a mass reservoir of at least 540 M⊕ within 20 au” <span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span>. To explain these observations, Bosman et al. <span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span> propose that the large grains in the inner disk must be significantly vertically extended, to the point that “the dust scale height is the same as the gas scale height within 30 au” <span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span>. Taken together, these results show that IM Lup combines a globally settled millimeter-dust disk with an inner region that is optically thick, massive, and vertically more extended, making it a particularly interesting system for studying the early evolution of solids in protoplanetary disks. # # Dust properties</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Property</th>
 <th>Value</th>
+<th>Description</th>
+<th>Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Continuum wavelengths</td>
-<td>1.3 mm, 875 μm</td>
+<td>Dust mass</td>
+<td>1.7 × 10^-3 M☉</td>
+<td>Total dust mass in the disk.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Total dust mass</td>
-<td>1.7 × 10⁻³ M☉</td>
-</tr>
-<tr class="odd">
-<td>Large-grain outer radius</td>
-<td>313 ± 15 AU</td>
-</tr>
-<tr class="even">
-<td>Dust settling parameter (<span class="math inline">\(\chi_{\rm bulk}\)</span>)</td>
+<td>Relative scale height of millimeter grains</td>
 <td>0.25</td>
+<td>Shows that large grains are settled toward the midplane.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Grain populations</td>
-<td>Small grains + millimeter grains</td>
+<td>Mass fraction in large grains</td>
+<td>0.99</td>
+<td>Fraction of dust mass in large grains.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Inner disk component size</td>
-<td>21 AU</td>
+<td>Small dust grain size range</td>
+<td>0.005–1 μm</td>
+<td>Size range of the small-dust population.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Inner surface density enhancement factor</td>
-<td>4</td>
+<td>Large dust grain size range</td>
+<td>0.005 μm–1 mm</td>
+<td>Size range of the large-dust population.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Dust composition</td>
+<td>80% astronomical silicates + 20% graphite</td>
+<td>Dust composition adopted in the model.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Inner disk dust optical depth at 875 μm</td>
+<td>τ875μm ≳ 4 within 20 au; &gt;10 at 1 au</td>
+<td>Shows that the inner dust disk is optically thick.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Inner large-dust surface density enhancement</td>
+<td>10–100× higher than outer-disk extrapolation</td>
+<td>Strong excess of large dust in the inner disk.</td>
+<td><span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Inner dust mass reservoir</td>
+<td>≥540 M⊕ within 20 au</td>
+<td>Minimum dust mass concentrated in the inner disk.</td>
+<td><span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Inner disk dust surface density</td>
+<td>≥10 g cm^-2</td>
+<td>Minimum inner-disk dust density needed to match the observations.</td>
+<td><span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Inner-disk dust scale height</td>
+<td>Same as the gas scale height within 30 au</td>
+<td>Indicates vertically extended dust in the inner disk.</td>
+<td><span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="gas-in-the-disk" class="level2">
 <h2 class="anchored" data-anchor-id="gas-in-the-disk">Gas in the disk</h2>
-<p>The gas component of IM Lup was observed in <strong><span class="math inline">\(^{12}\)</span>CO</strong>, <strong><span class="math inline">\(^{13}\)</span>CO</strong>, and <strong>C<span class="math inline">\(^{18}\)</span>O</strong> transitions <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. These lines show that the gas disk is much more extended than the millimeter dust disk.</p>
-<p>The paper finds that the gas disk extends to <strong>at least 570 au</strong> and possibly to <strong>~970 au</strong>, making IM Lup one of the clearest examples of a large dust–gas size difference in a protoplanetary disk <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>.</p>
-<p>The gas structure appears relatively smooth compared with the dust continuum. In addition, the central low-velocity channels of <strong><span class="math inline">\(^{12}\)</span>CO J = 2–1</strong> show a diffuse outer component or halo, which may be associated with extended gas beyond the main disk.</p>
+<p>In IM Lup, the gas forms the most extended component of the disk. Observations show that <sup>12</sup>CO is detected out to <strong>970 au</strong>, while the millimeter dust is confined to a much more compact region, indicating that the gaseous disk extends far beyond the large-grain disk <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. At the observed scales, this gas appears to be distributed relatively smoothly, and the same study explains that in the outer regions, the lower dust content allows more radiation to penetrate, helping CO remain in the gas phase at large distances. From a chemical point of view, the authors estimate a gas-phase CO abundance equal to only <strong>5% of the interstellar value</strong>, suggesting that CO is depleted, although it still remains an important tracer of the disk <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. They also find that IM Lup is exposed to a <strong>low external radiation field</strong> ((G_0 )), which nevertheless influences the temperature and chemistry of the gas, especially in the outer disk <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. In addition, they propose the presence of an <strong>extended diffuse halo of <sup>12</sup>CO</strong>, suggesting that part of the gas may extend beyond the main disk, perhaps as a tenuous envelope or a gaseous continuation of the system’s surroundings <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. As a complement, Rich et al.&nbsp;(2021) show that the <sup>12</sup>CO-emitting layer also has a <strong>flared vertical structure</strong>, with (= 1.77 ) and (H_0 = 22.7 ) au at 100 au, and that beyond <strong>100 au</strong> its height exceeds that of the small-dust scattering surface <span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span>. In other words, in the outer disk the gas not only extends farther out, but also remains at higher layers of the disk than the small dust grains.</p>
 </section>
 <section id="gas-properties" class="level2">
 <h2 class="anchored" data-anchor-id="gas-properties">Gas properties</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
 <thead>
 <tr class="header">
+<th></th>
 <th>Property</th>
 <th>Value</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Molecular tracers</td>
-<td><span class="math inline">\(^{12}\)</span>CO, <span class="math inline">\(^{13}\)</span>CO, C<span class="math inline">\(^{18}\)</span>O</td>
+<td>12CO outer radius</td>
+<td>970 au</td>
+<td>Maximum observed radial extent of the gas traced by <sup>12</sup>CO.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Gas disk extent</td>
-<td>at least 570 AU</td>
+<td>Gas mass</td>
+<td>0.17 M☉</td>
+<td>Estimated total mass of gas in the disk.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Gas disk extent (possible maximum)</td>
-<td>~970 AU</td>
+<td>Gas-phase CO abundance</td>
+<td>5% of the interstellar value</td>
+<td>Indicates that CO is depleted relative to the standard interstellar abundance.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Model gas outer radius</td>
-<td>1200 AU</td>
+<td>External radiation field</td>
+<td>G0 ≤ 4</td>
+<td>Low external UV field affecting the outer disk gas.</td>
+<td><span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Estimated gas mass</td>
-<td>~0.17 M☉</td>
+<td>12CO emission surface flare parameter</td>
+<td>1.77 ± 0.04</td>
+<td>Describes how the observed <sup>12</sup>CO-emitting layer rises with radius.</td>
+<td><span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span></td>
 </tr>
 <tr class="even">
-<td>CO reduction relative to ISM value</td>
-<td>~factor of 20</td>
-</tr>
-<tr class="odd">
-<td>Gas scale height at 100 AU</td>
-<td>12 AU</td>
-</tr>
-<tr class="even">
-<td>Characteristic radius of gas (<span class="math inline">\(R_c\)</span>)</td>
-<td>100 AU</td>
-</tr>
-<tr class="odd">
-<td>Gas surface density exponent (<span class="math inline">\(\gamma\)</span>)</td>
-<td>1.0</td>
+<td>12CO emission surface height at 100 au</td>
+<td>22.7 ± 6.1 au</td>
+<td>Observed height of the <sup>12</sup>CO-emitting layer at 100 au.</td>
+<td><span class="citation" data-cites="rich2021">(<a href="#ref-rich2021" role="doc-biblioref">Rich et al. 2021</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="evidence-of-planet-formation" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-of-planet-formation">Evidence of planet formation</h2>
-<p>At this stage, <strong>Cleeves et al.&nbsp;(2016) do not provide direct evidence for embedded protoplanets in IM Lup</strong>. However, the paper does identify processes that are strongly connected to early planet formation.</p>
-<p>The strong difference between the compact millimeter dust disk and the much larger gas disk is consistent with <strong>grain growth, settling, and radial drift</strong>, which are key steps in the evolution from dust grains to planetesimals <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. The tentative ring-like breaks at <strong>~150 au</strong> and <strong>~250 au</strong> are also morphologically interesting, although the authors emphasize that higher-resolution observations are needed to confirm them.</p>
-<p>For now, this paper provides <strong>indirect evidence of dust evolution relevant to planet formation</strong>, rather than direct evidence of planets opening gaps.</p>
+<p>In IM Lup, the evidence for planet formation does not come from a directly confirmed planet, but rather from the way the disk itself appears to be evolving. Bosman et al. <span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span> argue that “the IM Lup disk shows evidence that it has been shaped by an episode of dust drift,” meaning that the system was likely shaped by radial dust drift, a key process because it transports pebbles and solids through different regions of the disk. From this picture, the same study concludes that “This scenario is ideal for the formation of giant planet cores at larger (&gt;20 au) radii” and that “The more settled regions outside 20 au are still conducive to giant planet formation” <span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span>, suggesting that the outer disk provides the most favorable conditions for the growth of giant-planet cores. This idea becomes especially important when the authors state that “The conditions in the IM Lup disk imply that giant planet formation through pebble accretion is only effective outside of 20 au” <span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span>, because that sentence directly links the observed disk structure to a physical consequence: in IM Lup, giant planet formation is not equally likely throughout the system, but appears to be favored mainly in the outer disk. Taken together, these results make IM Lup a particularly valuable case for understanding how dust evolution can point to specific regions where giant planet formation may be most efficient.</p>
 </section>
 <section id="physical-interpretation-of-im-lup" class="level2">
 <h2 class="anchored" data-anchor-id="physical-interpretation-of-im-lup">Physical interpretation of IM Lup</h2>
-<p>Cleeves et al.&nbsp;(2016) interpret IM Lup as a young and massive disk in which gas and dust are already evolving differently <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>. The large grains are more compact radially and more settled vertically than the gas, while the gas remains extended far into the outer disk.</p>
-<p>The study concludes that the dust structure can be understood as a bright inner disk plus a broad outer halo truncated at <strong>313 au</strong>, whereas the gas extends to much larger radii. This contrast supports a picture in which the solid component is undergoing substantial evolution, even though the system is still very young.</p>
-<p>The paper also suggests that the disk may retain some surrounding diffuse material, since the low-velocity <strong><span class="math inline">\(^{12}\)</span>CO</strong> emission includes a halo-like component that could be related to a remnant envelope, captured material, or other extended gas structures. Even so, the main morphological result remains the same: <strong>IM Lup shows a clear decoupling between the spatial distributions of gas and millimeter dust</strong> <span class="citation" data-cites="cleeves2016">(<a href="#ref-cleeves2016" role="doc-biblioref">Cleeves et al. 2016</a>)</span>.</p>
+<p>In physical terms, IM Lup appears to be a disk whose evolution is governed by the radial and vertical redistribution of dust. Bosman et al. <span class="citation" data-cites="bosman2023">(<a href="#ref-bosman2023" role="doc-biblioref">Bosman et al. 2023</a>)</span> propose that the system was shaped by an intense episode of dust drift, which would have transported a large amount of solids inward and created a clear division between two disk regions: an inner zone, within ~20 au, where dust is strongly concentrated and remains vertically extended, and an outer zone where solid material is still drifting inward. This interpretation is important because it suggests that the inner disk does not behave like a quiet, settled region, but rather like a more dynamically active environment, where the high dust concentration and strong vertical mixing point to a turbulent state, possibly linked to the vertical shear instability. At the same time, Cleeves et al.&nbsp;(2016) show that the disk must be understood as a system in which gas, dust, and the external environment are tightly coupled: when dust is reduced in the outer disk, that region becomes more exposed to stellar and external radiation, the freeze-out rate changes, and the gas chemistry is altered; by contrast, the inner region is so dense and optically thick that it can hide part of the line emission, reinforcing the idea of a compact, opaque, and vertically complex inner disk. Taken together, this physical picture suggests that IM Lup is not a uniform disk, but a system in which different regions evolve in different ways: the inner disk would be dominated by dust pileup, high opacity, and turbulence, whereas the outer disk would preserve conditions more favorable for pebble accretion and, therefore, for the formation of giant-planet cores.</p>
 </section>
 <section id="activity" class="level2">
 <h2 class="anchored" data-anchor-id="activity">Activity</h2>
@@ -468,8 +525,17 @@ Figure&nbsp;1: High-resolution SPHERE image of the dusty disk around the young s
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bosman2023" class="csl-entry" role="listitem">
+Bosman, Arthur D., Johan Appelgren, Edwin A. Bergin, Michiel Lambrechts, and Anders Johansen. 2023. <span>“A Potential Site for Wide-Orbit Giant Planet Formation in the IM Lup Disk.”</span> <em>The Astrophysical Journal Letters</em> 944 (2): L53. <a href="https://doi.org/10.3847/2041-8213/acb651">https://doi.org/10.3847/2041-8213/acb651</a>.
+</div>
 <div id="ref-cleeves2016" class="csl-entry" role="listitem">
 Cleeves, L. Ilsedore, Karin I. Öberg, David J. Wilner, Jane Huang, Ryan A. Loomis, Sean M. Andrews, and Ian Czekala. 2016. <span>“The Coupled Physical Structure of Gas and Dust in the IM Lup Protoplanetary Disk.”</span> <em>The Astrophysical Journal</em> 832 (2): 110. <a href="https://doi.org/10.3847/0004-637X/832/2/110">https://doi.org/10.3847/0004-637X/832/2/110</a>.
+</div>
+<div id="ref-franceschi2023" class="csl-entry" role="listitem">
+Franceschi, Riccardo, Tilman Birnstiel, Thomas Henning, and Anirudh Sharma. 2023. <span>“Constraining the Turbulence and the Dust Disk in IM Lup: Onset of Planetesimal Formation.”</span> <em>Astronomy &amp; Astrophysics</em> 671: A125. <a href="https://doi.org/10.1051/0004-6361/202244869">https://doi.org/10.1051/0004-6361/202244869</a>.
+</div>
+<div id="ref-rich2021" class="csl-entry" role="listitem">
+Rich, Evan A., Richard Teague, John D. Monnier, Claire L. Davies, Arthur Bosman, Tim J. Harries, Nuria Calvet, Fred C. Adams, David Wilner, and Zhaohuan Zhu. 2021. <span>“Investigating the Relative Gas and Small Dust Grain Surface Heights in Protoplanetary Disks.”</span> <em>The Astrophysical Journal</em> 913 (2): 138. <a href="https://doi.org/10.3847/1538-4357/abf92e">https://doi.org/10.3847/1538-4357/abf92e</a>.
 </div>
 </div>
 
