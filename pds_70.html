@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>PDS 70:Protoplanetary disk – Pilot Protoplanetary Disk Catalog</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -27,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -54,14 +52,15 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d6fd904d1c54ba319e3f8c30b794b012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -94,7 +93,7 @@ div.csl-indent {
 }</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -251,10 +250,10 @@ window.Quarto = {
 <section id="general-description-of-the-system" class="level2">
 <h2 class="anchored" data-anchor-id="general-description-of-the-system">General Description of the System</h2>
 <p>PDS 70 is a young system composed of a <strong>pre-main-sequence T Tauri star</strong> of <strong>spectral type K7</strong>, surrounded by a <strong>transition protoplanetary disk</strong>. It is an ideal laboratory for studying planet formation because it brings together, within a single system, an <strong>inner disk</strong>, a <strong>large gap</strong>, an <strong>outer ring</strong>, and <strong>protoplanets</strong>.</p>
-<p>The inner disk is a compact component located very close to the star, inside the large gap. Earlier observations described it as “a small optically thick inner disk emitting in the NIR” <span class="citation" data-cites="hashimoto2012_pds70 dong2012_missingcavities">(<a href="#ref-hashimoto2012_pds70" role="doc-biblioref"><span class="nocase">Hashimoto et al.</span> 2012</a>; <a href="#ref-dong2012_missingcavities" role="doc-biblioref"><span class="nocase">Dong et al.</span> 2012</a>)</span>. Later, this component was shown to be detected in the continuum within ~9 au and in gas out to ~15 au <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span>, indicating that the innermost region still retains material close to the star.</p>
-<p>The large gap corresponds to the radial cavity that separates the inner disk from the outer disk. Its structure was confirmed when the authors stated that “we confirm the detection of a large gap of ∼54 au in size within the disk in our scattered light images” <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span>. The gap also shows evidence of <strong>radial dust segregation</strong>, since “The gap is found to be larger at sub-mm wavelengths” <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span>.</p>
-<p>The outer disk, in turn, is observed as a bright ring whose main emission peak is located at “The best-fit model has a peak radial position of 73.7 ± 0.1 au” <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span>.</p>
-<p>Finally, the system is especially remarkable because of the <strong>direct detection of protoplanets within the gap</strong>. Keppler et al. <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span> reported “a point source within the gap of the disk at about 195 mas (∼22 au) projected separation”, which was identified as <strong>PDS 70 b</strong>. Later, Haffert et al. <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span> detected Hα emission at two locations in the system and concluded: “We therefore identify this second source of Hα emission as the location of a second, forming planet, PDS 70 c”. The evidence for <strong>active accretion</strong> in both objects is based on the fact that “The Hα emission spectra of both proto-planets indicate ongoing accretion onto the proto-planets” <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span>.</p>
+<p>The inner disk is a compact component located very close to the star, inside the large gap. Earlier observations described it as “a small optically thick inner disk emitting in the NIR” <span class="citation" data-cites="hashimoto2012_pds70 dong2012_missingcavities">(<a href="#ref-hashimoto2012_pds70" role="doc-biblioref">Hashimoto et al. 2012</a>; <a href="#ref-dong2012_missingcavities" role="doc-biblioref">Dong et al. 2012</a>)</span>. Later, this component was shown to be detected in the continuum within ~9 au and in gas out to ~15 au <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span>, indicating that the innermost region still retains material close to the star.</p>
+<p>The large gap corresponds to the radial cavity that separates the inner disk from the outer disk. Its structure was confirmed when the authors stated that “we confirm the detection of a large gap of ∼54 au in size within the disk in our scattered light images” <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span>. The gap also shows evidence of <strong>radial dust segregation</strong>, since “The gap is found to be larger at sub-mm wavelengths” <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span>.</p>
+<p>The outer disk, in turn, is observed as a bright ring whose main emission peak is located at “The best-fit model has a peak radial position of 73.7 ± 0.1 au” <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span>.</p>
+<p>Finally, the system is especially remarkable because of the <strong>direct detection of protoplanets within the gap</strong>. Keppler et al. <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span> reported “a point source within the gap of the disk at about 195 mas (∼22 au) projected separation”, which was identified as <strong>PDS 70 b</strong>. Later, Haffert et al. <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span> detected Hα emission at two locations in the system and concluded: “We therefore identify this second source of Hα emission as the location of a second, forming planet, PDS 70 c”. The evidence for <strong>active accretion</strong> in both objects is based on the fact that “The Hα emission spectra of both proto-planets indicate ongoing accretion onto the proto-planets” <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span>.</p>
 <p>Overall, PDS 70 stands out as a valuable laboratory for planet formation because it combines a <strong>large cavity</strong>, an <strong>inner disk</strong>, a <strong>well-resolved outer ring</strong>, and <strong>two actively accreting protoplanets</strong> within the gap.</p>
 </section>
 <section id="fundamental-system-properties" class="level2">
@@ -279,61 +278,61 @@ window.Quarto = {
 <td>Distance</td>
 <td>113.43 ± 0.52 pc</td>
 <td>Distance between PDS 70 and Earth; it allows the observed angular sizes to be converted into physical sizes in the disk.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Age</td>
 <td>5.4 ± 1.0 Myr</td>
 <td>Indicates that the system is very young and still in an active stage of planet formation.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Spectral type</td>
 <td>K7</td>
 <td>Spectral classification of the central star; it summarizes its general temperature and emission properties.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Effective temperature</td>
 <td>3972 ± 36 K</td>
 <td>Effective surface temperature of the star; it influences the heating and illumination of the disk.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Stellar mass</td>
 <td>0.76 ± 0.02 M☉</td>
 <td>Mass of the central star; it controls the orbital dynamics of the disk and the protoplanets.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Stellar radius</td>
 <td>1.26 ± 0.15 R☉</td>
 <td>Physical size of the star; it helps describe the stellar state of the system.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Stellar luminosity</td>
 <td>0.35 ± 0.09 L☉</td>
 <td>Energy emitted by the star; it determines how much radiation heats the protoplanetary disk.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Visual extinction</td>
 <td>0.05<span class="math inline">\(^{+0.05}_{-0.03}\)</span> mag</td>
 <td>Attenuation of the starlight by dust between the source and the observer; this is important for correctly interpreting the observed brightness and colors.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Disk inclination</td>
 <td>~49.7° (NIR) / 51.7° (ALMA)</td>
 <td>Angle at which we observe the disk with respect to our line of sight; it defines its apparent geometry.</td>
-<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Disk position angle</td>
 <td>~158.6° (NIR) / ~156.7–159.7° (ALMA)</td>
 <td>Orientation of the major axis of the disk on the plane of the sky; it describes the direction in which the disk is aligned in the images.</td>
-<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
 </tr>
 </tbody>
 </table>
@@ -364,86 +363,86 @@ window.Quarto = {
 <td>Inner disk (scattered light)</td>
 <td>&lt; ~17 au</td>
 <td>Compact inner component detected in scattered light; it shows that the innermost region of the system is not completely empty.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Inner disk (ALMA continuum)</td>
 <td>&lt; ~80 mas (~9 au)</td>
 <td>Compact central emission detected in the millimeter continuum; it corresponds to the inner disk observed with ALMA.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Inner gas disk</td>
 <td>up to ~15 au</td>
 <td>Inner gaseous component detected in CO; it shows that gas also survives in the inner region of the system.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Cavity in the NIR</td>
 <td>~20–40 au</td>
 <td>Radially depleted dust region observed at near-infrared wavelengths; it traces the large inner gap of the disk.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Outer ring peak in polarized light</td>
 <td>~54 au</td>
 <td>Radius at which the outer ring reaches its maximum brightness in polarized light.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Main dust-ring peak (ALMA)</td>
 <td>73.7 ± 0.1 au</td>
 <td>Radius at which the outer dust ring reaches its main emission peak in the millimeter continuum.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Inner ring width</td>
 <td>14.8 ± 0.1 au</td>
 <td>Radial extent of the ring toward smaller radii from its emission peak; this shows that the ring is a broad band rather than a thin line.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Outer ring width</td>
 <td>13.4 ± 0.1 au</td>
 <td>Radial extent of the ring toward larger radii from its peak.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Possible shoulder / second component</td>
 <td>~60 au</td>
 <td>Possible secondary maximum or inner component of the dust ring, detected along the inner edge of the main structure.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Spur / bridge</td>
 <td>PA ~285°</td>
 <td>Possible substructure extending from the ring toward the inner region; it could connect the outer disk with the inner disk.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Gas gap</td>
 <td>~23 au</td>
 <td>Main depression in CO emission, located near the orbit of PDS 70 b.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Approximate width of the gas gap</td>
 <td>~11 au</td>
 <td>Estimated width of the main CO depression.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Second CO depression</td>
 <td>~0.6″</td>
 <td>Outer depression seen in the integrated CO emission; the paper suggests that it may be affected by continuum absorption.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="dust-in-the-disk" class="level2">
 <h2 class="anchored" data-anchor-id="dust-in-the-disk">Dust in the disk</h2>
-<p>The dust in PDS 70 is not evenly distributed, but instead organized into distinct disk substructures. Beyond the inner disk lies the gap, a region where the dust emission is strongly depleted. Farther out, ALMA millimeter continuum observations, which trace larger dust grains, show that this material is primarily concentrated in an outer ring peaking at 73.7 ± 0.1 au, with a possible additional component near 60 au. Taken together, these observations indicate that small grains remain closer to the cavity edge, whereas larger grains accumulate farther out, consistent with a dust-trapping scenario <span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span>.</p>
+<p>The dust in PDS 70 is not evenly distributed, but instead organized into distinct disk substructures. Beyond the inner disk lies the gap, a region where the dust emission is strongly depleted. Farther out, ALMA millimeter continuum observations, which trace larger dust grains, show that this material is primarily concentrated in an outer ring peaking at 73.7 ± 0.1 au, with a possible additional component near 60 au. Taken together, these observations indicate that small grains remain closer to the cavity edge, whereas larger grains accumulate farther out, consistent with a dust-trapping scenario <span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span>.</p>
 </section>
 <section id="dust-properties" class="level2">
 <h2 class="anchored" data-anchor-id="dust-properties">Dust properties</h2>
@@ -467,62 +466,62 @@ window.Quarto = {
 <td>Large gap in scattered light</td>
 <td style="text-align: right;">~54 au</td>
 <td>Size of the large gap observed in the distribution of small dust grains at the disk surface.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Inner dust disk (scattered light)</td>
 <td style="text-align: right;">&lt; ~17 au</td>
 <td>Compact inner component detected in scattered light; it shows that the inner region is not completely empty.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Cavity wall in NIR</td>
 <td style="text-align: right;">~0.39”</td>
 <td>Approximate location of the cavity wall as observed in scattered light.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Outer disk brightness peak in polarized light</td>
 <td style="text-align: right;">~54 au</td>
 <td>Radius at which the outer disk reaches its maximum brightness in polarized light.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Main dust ring peak (ALMA)</td>
 <td style="text-align: right;">73.7 ± 0.1 au</td>
 <td>Radius at which the main millimeter dust ring reaches its peak emission.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Possible second ring component</td>
 <td style="text-align: right;">~0.53” (~60 au)</td>
 <td>Possible secondary subpeak, or shoulder, at the inner edge of the main ring.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Azimuthal asymmetry of the ring (ALMA)</td>
 <td style="text-align: right;">PA ~327°, ~13% brighter</td>
 <td>The northwestern side of the ring is brighter than the opposite side.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Inner dust disk (ALMA)</td>
 <td style="text-align: right;">&lt; ~80 mas (~9 au)</td>
 <td>Compact central emission detected in the millimeter continuum.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Grain-size segregation</td>
 <td style="text-align: right;">~0.70” vs ~0.39”</td>
 <td>Large grains are concentrated farther out than small grains, suggesting dust accumulation in a region shaped by the local pressure gradient.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="gas-in-the-disk" class="level2">
 <h2 class="anchored" data-anchor-id="gas-in-the-disk">Gas in the disk</h2>
-<p>The gas component in PDS 70 has been studied primarily through the <span class="math inline">\(^{12}\)</span>CO <span class="math inline">\(J=3-2\)</span> line. Unlike the dust continuum, this emission traces an elevated layer of the disk rather than the midplane, so its observed morphology appears more extended and geometrically more complex. ALMA observations show that the gaseous cavity is not completely empty: there is an inner depression in emission near 23 au, an inner gaseous disk extending out to about 15 au, and a possible structure linking the inner disk to the outer ring in the northwestern region. In addition, the gas kinematics show departures from Keplerian rotation inside ~0.8″ (91 au), suggesting the presence of pressure gradients within the disk. Taken together, these results indicate that the gas is depleted near the orbit of PDS 70 b, but not absent, and may still be flowing between the outer disk and the inner regions <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span>.</p>
+<p>The gas component in PDS 70 has been studied primarily through the <span class="math inline">\(^{12}\)</span>CO <span class="math inline">\(J=3-2\)</span> line. Unlike the dust continuum, this emission traces an elevated layer of the disk rather than the midplane, so its observed morphology appears more extended and geometrically more complex. ALMA observations show that the gaseous cavity is not completely empty: there is an inner depression in emission near 23 au, an inner gaseous disk extending out to about 15 au, and a possible structure linking the inner disk to the outer ring in the northwestern region. In addition, the gas kinematics show departures from Keplerian rotation inside ~0.8″ (91 au), suggesting the presence of pressure gradients within the disk. Taken together, these results indicate that the gas is depleted near the orbit of PDS 70 b, but not absent, and may still be flowing between the outer disk and the inner regions <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span>.</p>
 </section>
 <section id="gas-properties" class="level2">
 <h2 class="anchored" data-anchor-id="gas-properties">Gas properties</h2>
@@ -546,68 +545,68 @@ window.Quarto = {
 <td>Main gas tracer</td>
 <td style="text-align: right;"><span class="math inline">\(^{12}\)</span>CO <span class="math inline">\(J=3-2\)</span></td>
 <td>Main line used to study the gas morphology and kinematics in the disk. The paper also reports HCN, HCO<span class="math inline">\(^+\)</span>, and H<span class="math inline">\(^{13}\)</span>CN, but its main analysis focuses on <span class="math inline">\(^{12}\)</span>CO.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(^{12}\)</span>CO emitting surface</td>
 <td style="text-align: right;"><span class="math inline">\(z(r) = (0.33 \pm 0.01)\,(r/1^{\prime\prime})^{0.76 \pm 0.01}\)</span></td>
 <td>Shows that the CO emission arises from an elevated layer of the disk rather than from the midplane.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Inner gas disk</td>
 <td style="text-align: right;">out to ~15 au</td>
 <td>Clearly detected gaseous inner disk in the central region of the system.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Main gaseous gap (center)</td>
 <td style="text-align: right;">~0.2″ (~23 au)</td>
 <td>Main depression in the integrated CO emission, located near the orbit of PDS 70 b.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Width of the gaseous gap</td>
 <td style="text-align: right;">~0.1″ (~11 au)</td>
 <td>Characteristic width of the inner depression seen in <span class="math inline">\(^{12}\)</span>CO.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Radial extent of the gaseous gap</td>
 <td style="text-align: right;">~0.1–0.3″ (~11–34 au)</td>
 <td>Approximate full radial extent of the gaseous depression; it does not reach the location of the main dust ring.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Possible bridge-like feature</td>
 <td style="text-align: right;">northwestern region</td>
 <td>Possible gas structure linking the inner disk to the outer ring; it may trace gas flow across the gap.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Deviation from Keplerian rotation</td>
 <td style="text-align: right;">within ~0.8″ (~91 au)</td>
 <td>Kinematic perturbation in the gas that points to the presence of a pressure gradient in the disk.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Positive pressure gradient</td>
 <td style="text-align: right;">~0.4–0.8″, with a maximum near ~0.55″</td>
 <td>Helps explain why the main dust ring is located much farther out than the orbit of PDS 70 b.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Second CO depression</td>
 <td style="text-align: right;">~0.6″</td>
 <td>Outer depression seen in the integrated CO emission; the paper suggests it may be related to continuum absorption by optically thick dust.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="evidence-of-planet-formation" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-of-planet-formation">Evidence of planet formation</h2>
-<p>PDS 70 provides some of the clearest evidence of ongoing planet formation in a protoplanetary disk. First, Keppler et al. <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span> detected PDS 70 b as a point source inside the large disk gap, at a separation of about 195 mas (~22 au), and follow-up observations confirmed that it is physically associated with the system. Its photometry is also consistent with a planetary-mass companion. Second, Haffert et al. <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span> detected Hα emission from both PDS 70 b and PDS 70 c.&nbsp;Because Hα traces accreting gas, this shows that both protoplanets are still actively gaining material and continue to grow. Third, Keppler et al. <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span> found that the disk itself is being perturbed: the CO emission shows a depression near the orbit of PDS 70 b, together with a deviation from Keplerian rotation that reveals changes in the gas pressure structure. Taken together, these results show that PDS 70 is not only a disk with substructures, but a system where planet formation is directly observed in action.</p>
+<p>PDS 70 provides some of the clearest evidence of ongoing planet formation in a protoplanetary disk. First, Keppler et al. <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span> detected PDS 70 b as a point source inside the large disk gap, at a separation of about 195 mas (~22 au), and follow-up observations confirmed that it is physically associated with the system. Its photometry is also consistent with a planetary-mass companion. Second, Haffert et al. <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span> detected Hα emission from both PDS 70 b and PDS 70 c.&nbsp;Because Hα traces accreting gas, this shows that both protoplanets are still actively gaining material and continue to grow. Third, Keppler et al. <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span> found that the disk itself is being perturbed: the CO emission shows a depression near the orbit of PDS 70 b, together with a deviation from Keplerian rotation that reveals changes in the gas pressure structure. Taken together, these results show that PDS 70 is not only a disk with substructures, but a system where planet formation is directly observed in action.</p>
 <section id="pds-70-b" class="level3">
 <h3 class="anchored" data-anchor-id="pds-70-b">PDS 70 b</h3>
 <table class="caption-top table">
@@ -630,49 +629,49 @@ window.Quarto = {
 <td>Nature</td>
 <td style="text-align: right;">Protoplanet / planetary-mass companion</td>
 <td>Object detected inside the disk gap and confirmed to be physically associated with the system.</td>
-<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Typical projected separation</td>
 <td style="text-align: right;">~195 mas (~22 au)</td>
 <td>Observed distance from the star in direct-imaging data.</td>
-<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Typical position angle</td>
 <td style="text-align: right;">~155°</td>
 <td>Angular location of PDS 70 b on the plane of the sky.</td>
-<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Estimated mass</td>
 <td style="text-align: right;">~5–9 M_Jup</td>
 <td>Mass range adopted in direct-imaging studies and also used in the ALMA-based analysis.</td>
-<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2018_pds70 keppler2019_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>, <a href="#ref-keppler2019_pds70" role="doc-biblioref">2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Hα</td>
 <td style="text-align: right;">Detected</td>
 <td>Signature of hot gas accreting onto the protoplanet, indicating ongoing growth.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Hα flux</td>
 <td style="text-align: right;">3.9 ± 0.37 × 10^-16 erg s^-1 cm^-2</td>
 <td>Measured intensity of the Hα emission from PDS 70 b.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Accretion rate</td>
 <td style="text-align: right;">~2 × 10^-8 M_Jup yr^-1</td>
 <td>Indicates that PDS 70 b is still actively gaining material.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Circumplanetary dust mass limit</td>
 <td style="text-align: right;">&lt; ~0.01 M_earth</td>
 <td>ALMA did not detect a robust circumplanetary disk, but it placed an upper limit on its dust mass.</td>
-<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span></td>
 </tr>
 </tbody>
 </table>
@@ -699,49 +698,49 @@ window.Quarto = {
 <td>Nature</td>
 <td style="text-align: right;">Second accreting protoplanet</td>
 <td>Identified as a second forming planetary object within the system.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Hα projected separation</td>
 <td style="text-align: right;">235.5 ± 25 mas</td>
 <td>Observed separation from the star in the Hα detection.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Estimated orbital radius</td>
 <td style="text-align: right;">38.6 ± 4.5 au</td>
 <td>Orbital radius inferred from the Hα detection.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Typical position angle</td>
 <td style="text-align: right;">~277° in Hα; ~283°–285° in K1/L’</td>
 <td>Its location is consistent across detections at different wavelengths.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Estimated mass</td>
 <td style="text-align: right;">~4–12 M_Jup</td>
 <td>Probable mass range, although still uncertain because of possible contamination from the disk or circumplanetary material.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Hα</td>
 <td style="text-align: right;">Detected</td>
 <td>Confirms that PDS 70 c is also accreting material.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>Hα flux</td>
 <td style="text-align: right;">1.9 ± 0.32 × 10^-16 erg s^-1 cm^-2</td>
 <td>Measured intensity of the Hα emission from PDS 70 c.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Accretion rate</td>
 <td style="text-align: right;">~1 × 10^-8 M_Jup yr^-1</td>
 <td>Shows that the protoplanet is still growing actively.</td>
-<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span></td>
+<td><span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span></td>
 </tr>
 </tbody>
 </table>
@@ -749,28 +748,28 @@ window.Quarto = {
 </section>
 <section id="physical-interpretation" class="level2">
 <h2 class="anchored" data-anchor-id="physical-interpretation">Physical interpretation</h2>
-<p>PDS 70 is interpreted as a young planetary system that is still forming, in which the protoplanets are already actively reshaping the disk structure. The large cavity, the segregation between small and large dust grains, and the presence of an inner disk led Keppler et al. <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2018</a>)</span> to identify the system early on as a strong candidate for harboring planets capable of carving the gap. Later, ALMA observations showed that the gas displays a depression near the orbit of PDS 70 b, together with a departure from Keplerian rotation consistent with a pressure gradient that can explain why the main dust ring lies much farther out; however, Keppler et al. <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref"><span class="nocase">Keppler et al.</span> 2019</a>)</span> also concluded that a single planet may not be enough to reproduce the full observed morphology, suggesting a more complex system architecture, possibly including an additional low-mass companion. The later Hα detection of PDS 70 c further strengthens this picture: both protoplanets are accreting, and their orbits are consistent with a near 2:1 resonance configuration, making PDS 70 a particularly valuable system for studying planet–disk interaction and migration in young planetary systems <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref"><span class="nocase">Haffert et al.</span> 2019</a>)</span>.</p>
+<p>PDS 70 is interpreted as a young planetary system that is still forming, in which the protoplanets are already actively reshaping the disk structure. The large cavity, the segregation between small and large dust grains, and the presence of an inner disk led Keppler et al. <span class="citation" data-cites="keppler2018_pds70">(<a href="#ref-keppler2018_pds70" role="doc-biblioref">Keppler et al. 2018</a>)</span> to identify the system early on as a strong candidate for harboring planets capable of carving the gap. Later, ALMA observations showed that the gas displays a depression near the orbit of PDS 70 b, together with a departure from Keplerian rotation consistent with a pressure gradient that can explain why the main dust ring lies much farther out; however, Keppler et al. <span class="citation" data-cites="keppler2019_pds70">(<a href="#ref-keppler2019_pds70" role="doc-biblioref">Keppler et al. 2019</a>)</span> also concluded that a single planet may not be enough to reproduce the full observed morphology, suggesting a more complex system architecture, possibly including an additional low-mass companion. The later Hα detection of PDS 70 c further strengthens this picture: both protoplanets are accreting, and their orbits are consistent with a near 2:1 resonance configuration, making PDS 70 a particularly valuable system for studying planet–disk interaction and migration in young planetary systems <span class="citation" data-cites="haffert2019_pds70">(<a href="#ref-haffert2019_pds70" role="doc-biblioref">Haffert et al. 2019</a>)</span>.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-dong2012_missingcavities" class="csl-entry" role="listitem">
-<span class="nocase">Dong, R., R. Rafikov, Z. Zhu, et al.</span> 2012. <span>“The Missing Cavities in the SEEDS Polarized Scattered Light Images of Transitional Protoplanetary Disks: A Generic Disk Model.”</span> <em>The Astrophysical Journal</em> 750 (2): 161. <a href="https://doi.org/10.1088/0004-637X/750/2/161">https://doi.org/10.1088/0004-637X/750/2/161</a>.
+Dong, R., R. Rafikov, Z. Zhu, L. Hartmann, B. Whitney, T. Brandt, T. Muto, et al. 2012. <span>“The Missing Cavities in the SEEDS Polarized Scattered Light Images of Transitional Protoplanetary Disks: A Generic Disk Model.”</span> <em>The Astrophysical Journal</em> 750 (2): 161. <a href="https://doi.org/10.1088/0004-637X/750/2/161">https://doi.org/10.1088/0004-637X/750/2/161</a>.
 </div>
 <div id="ref-gregoriohetem2002_wtts" class="csl-entry" role="listitem">
 Gregorio-Hetem, J., and A. Hetem. 2002. <span>“Classification of a Selected Sample of Weak t Tauri Stars.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 336 (1): 197–206. <a href="https://doi.org/10.1046/j.1365-8711.2002.05716.x">https://doi.org/10.1046/j.1365-8711.2002.05716.x</a>.
 </div>
 <div id="ref-haffert2019_pds70" class="csl-entry" role="listitem">
-<span class="nocase">Haffert, S. Y., A. J. Bohn, J. de Boer, et al.</span> 2019. <span>“Two Accreting Proto-Planets Around the Young Star PDS 70.”</span> <em>Nature Astronomy</em> 3: 749–54. <a href="https://doi.org/10.1038/s41550-019-0740-1">https://doi.org/10.1038/s41550-019-0740-1</a>.
+Haffert, S. Y., A. J. Bohn, J. de Boer, et al. 2019. <span>“Two Accreting Proto-Planets Around the Young Star PDS 70.”</span> <em>Nature Astronomy</em> 3: 749–54. <a href="https://doi.org/10.1038/s41550-019-0740-1">https://doi.org/10.1038/s41550-019-0740-1</a>.
 </div>
 <div id="ref-hashimoto2012_pds70" class="csl-entry" role="listitem">
-<span class="nocase">Hashimoto, J., R. Dong, T. Kudo, et al.</span> 2012. <span>“Polarimetric Imaging of Large Cavity Structures in the Pre-Transitional Protoplanetary Disk Around PDS 70: Observations of the Disk.”</span> <em>The Astrophysical Journal Letters</em> 758 (1): L19. <a href="https://doi.org/10.1088/2041-8205/758/1/L19">https://doi.org/10.1088/2041-8205/758/1/L19</a>.
+Hashimoto, J., R. Dong, T. Kudo, et al. 2012. <span>“Polarimetric Imaging of Large Cavity Structures in the Pre-Transitional Protoplanetary Disk Around PDS 70: Observations of the Disk.”</span> <em>The Astrophysical Journal Letters</em> 758 (1): L19. <a href="https://doi.org/10.1088/2041-8205/758/1/L19">https://doi.org/10.1088/2041-8205/758/1/L19</a>.
 </div>
 <div id="ref-keppler2018_pds70" class="csl-entry" role="listitem">
-<span class="nocase">Keppler, M., M. Benisty, A. Müller, et al.</span> 2018. <span>“Discovery of a Planetary-Mass Companion Within the Gap of the Transition Disk Around PDS 70.”</span> <em>Astronomy &amp; Astrophysics</em> 617: A44. <a href="https://doi.org/10.1051/0004-6361/201832957">https://doi.org/10.1051/0004-6361/201832957</a>.
+Keppler, M., M. Benisty, A. Müller, et al. 2018. <span>“Discovery of a Planetary-Mass Companion Within the Gap of the Transition Disk Around PDS 70.”</span> <em>Astronomy &amp; Astrophysics</em> 617: A44. <a href="https://doi.org/10.1051/0004-6361/201832957">https://doi.org/10.1051/0004-6361/201832957</a>.
 </div>
 <div id="ref-keppler2019_pds70" class="csl-entry" role="listitem">
-<span class="nocase">Keppler, M., R. Teague, J. Bae, et al.</span> 2019. <span>“Highly Structured Disk Around the Planet Host PDS 70 Revealed by High-Angular Resolution Observations with ALMA.”</span> <em>Astronomy &amp; Astrophysics</em> 625: A118. <a href="https://doi.org/10.1051/0004-6361/201935034">https://doi.org/10.1051/0004-6361/201935034</a>.
+Keppler, M., R. Teague, J. Bae, et al. 2019. <span>“Highly Structured Disk Around the Planet Host PDS 70 Revealed by High-Angular Resolution Observations with ALMA.”</span> <em>Astronomy &amp; Astrophysics</em> 625: A118. <a href="https://doi.org/10.1051/0004-6361/201935034">https://doi.org/10.1051/0004-6361/201935034</a>.
 </div>
 <div id="ref-metchev2004_palomar" class="csl-entry" role="listitem">
 Metchev, Stanimir A., and Lynne A. Hillenbrand. 2004. <span>“Initial Results from the Palomar Adaptive Optics Survey of Young Solar-Type Stars: A Brown Dwarf and Three Stellar Companions.”</span> <em>The Astrophysical Journal</em> 617 (2): 1330–46. <a href="https://doi.org/10.1086/425410">https://doi.org/10.1086/425410</a>.
