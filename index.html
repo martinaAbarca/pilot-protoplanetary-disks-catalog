@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Pilot Protoplanetary Disk Catalog</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -20,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,15 +54,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-d6fd904d1c54ba319e3f8c30b794b012.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,6 +115,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./activities.html"> 
+<span class="menu-text">Activities</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -105,39 +130,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-is-a-protoplanetary-disk" id="toc-what-is-a-protoplanetary-disk" class="nav-link active" data-scroll-target="#what-is-a-protoplanetary-disk">What is a protoplanetary disk?</a></li>
-  <li><a href="#available-disks" id="toc-available-disks" class="nav-link" data-scroll-target="#available-disks">Available disks</a></li>
-  <li><a href="#comparative-catalog-summary" id="toc-comparative-catalog-summary" class="nav-link" data-scroll-target="#comparative-catalog-summary">Comparative catalog summary</a>
-  <ul class="collapse">
-  <li><a href="#catalog-summary" id="toc-catalog-summary" class="nav-link" data-scroll-target="#catalog-summary">Catalog summary</a></li>
-  </ul></li>
-  <li><a href="#images-of-protoplanetary-disks" id="toc-images-of-protoplanetary-disks" class="nav-link" data-scroll-target="#images-of-protoplanetary-disks">Images of protoplanetary disks</a></li>
-  <li><a href="#physical-processes-shaping-protoplanetary-disks" id="toc-physical-processes-shaping-protoplanetary-disks" class="nav-link" data-scroll-target="#physical-processes-shaping-protoplanetary-disks">Physical processes shaping protoplanetary disks</a>
-  <ul class="collapse">
-  <li><a href="#disk-accretion-and-angular-momentum-transport" id="toc-disk-accretion-and-angular-momentum-transport" class="nav-link" data-scroll-target="#disk-accretion-and-angular-momentum-transport">Disk accretion and angular momentum transport</a></li>
-  <li><a href="#gravitational-instability" id="toc-gravitational-instability" class="nav-link" data-scroll-target="#gravitational-instability">Gravitational instability</a></li>
-  </ul></li>
-  <li><a href="#physical-processes-diagram" id="toc-physical-processes-diagram" class="nav-link" data-scroll-target="#physical-processes-diagram">Physical processes diagram</a></li>
-  <li><a href="#substructures-in-protoplanetary-disks" id="toc-substructures-in-protoplanetary-disks" class="nav-link" data-scroll-target="#substructures-in-protoplanetary-disks">Substructures in protoplanetary disks</a></li>
-  <li><a href="#common-substructure-morphologies" id="toc-common-substructure-morphologies" class="nav-link" data-scroll-target="#common-substructure-morphologies">Common substructure morphologies</a>
-  <ul class="collapse">
-  <li><a href="#rings" id="toc-rings" class="nav-link" data-scroll-target="#rings">Rings</a></li>
-  <li><a href="#gaps" id="toc-gaps" class="nav-link" data-scroll-target="#gaps">Gaps</a></li>
-  <li><a href="#arcs" id="toc-arcs" class="nav-link" data-scroll-target="#arcs">Arcs</a></li>
-  <li><a href="#spirals" id="toc-spirals" class="nav-link" data-scroll-target="#spirals">Spirals</a></li>
-  </ul></li>
-  <li><a href="#images-of-disk-substructures" id="toc-images-of-disk-substructures" class="nav-link" data-scroll-target="#images-of-disk-substructures">Images of disk substructures</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -146,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -160,32 +155,35 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="catalog-intro">
 <p>This <strong>Pilot Protoplanetary Disk Catalog</strong> is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of <strong>protoplanetary disks</strong>.</p>
-<p>The goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.</p>
-<p>The catalog focuses particularly on <strong>disk substructures</strong>, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks.</p>
+<p>This pilot version combines short scientific summaries, representative images, comparative tables, and introductory programming activities based on real astronomical data products.</p>
 </div>
 <hr>
-<section id="what-is-a-protoplanetary-disk" class="level1">
-<h1>What is a protoplanetary disk?</h1>
-<p>A <strong>protoplanetary disk</strong> is a rotating structure of gas and dust that surrounds a young star during the early stages of stellar evolution. These disks form naturally during star formation, when the gravitational collapse of a molecular cloud core produces a protostar while conserving angular momentum. As a consequence, part of the infalling material settles into a flattened rotating disk.</p>
-<p>As described by Armitage (2011):</p>
-<blockquote class="blockquote">
-<p>“They can be defined as rotationally supported structures of gas (invariably containing dust) that surround young, normally pre-main-sequence stars.” (Armitage, 2011, p.&nbsp;196)</p>
-</blockquote>
-<p>These disks contain the raw material from which planetary systems form. Gas dominates the mass budget of the disk, while solid particles — dust grains and larger aggregates — represent a smaller fraction but play a fundamental role in planet formation.</p>
-<p>Protoplanetary disks are also relatively short-lived structures in astronomical terms. Observations indicate that:</p>
-<blockquote class="blockquote">
-<p>“Around low-mass stars, protoplanetary disks are persistent; the typical lifetime of ∼10⁶ years (Haisch, Lada &amp; Lada 2001) equates to thousands of dynamical times at 100 AU.” (Armitage, 2011, p.&nbsp;196)</p>
-</blockquote>
-<p>This limited lifetime sets the time window during which planets must form before the gas disperses.</p>
-<p>From a physical perspective, the most important property of a disk is how its mass is distributed. As emphasized in observational studies of disks:</p>
-<blockquote class="blockquote">
-<p>“The spatial distribution of mass—the density structure—is without question the fundamental property of interest for disks.” (Andrews, 2020)</p>
-</blockquote>
-<p>Understanding this density structure is essential because it determines the disk’s temperature, dynamics, and the processes that control planet formation.</p>
+<section id="activities" class="level2">
+<h2 class="anchored" data-anchor-id="activities">Activities</h2>
+<p>This catalog includes <strong>introductory programming activities</strong> designed to help students explore real astronomical data and analyze how disk substructures can be measured from images.</p>
+<p>Este catálogo también incluye <strong>actividades introductorias de programación</strong> pensadas para que los estudiantes trabajen con datos astronómicos reales y analicen cómo se pueden medir subestructuras de discos a partir de imágenes.</p>
+<div class="activity-grid">
+<section id="activity-1-actividad-1" class="level3 activity-card">
+<h3 class="anchored" data-anchor-id="activity-1-actividad-1">Activity 1 / Actividad 1</h3>
+<p><strong>Radial profile from a FITS image</strong><br>
+<strong>Perfil radial a partir de una imagen FITS</strong></p>
+<p>Learn how to read a FITS image, measure brightness as a function of radius, and identify rings and gaps in a protoplanetary disk.</p>
+<p>Aprende a leer una imagen FITS, medir el brillo en función del radio e identificar anillos y brechas en un disco protoplanetario.</p>
+<p><a href="./activities.html#activity-1-actividad-1" class="disk-link">Open activity →</a></p>
+</section>
+<section id="activity-2-actividad-2" class="level3 activity-card">
+<h3 class="anchored" data-anchor-id="activity-2-actividad-2">Activity 2 / Actividad 2</h3>
+<p><strong>Deprojection and polar analysis of a disk image</strong><br>
+<strong>Deproyección y análisis polar de una imagen de disco</strong></p>
+<p>Apply disk geometry to deproject an inclined image and transform it into polar coordinates to reveal substructures more clearly.</p>
+<p>Aplica la geometría del disco para deproyectar una imagen inclinada y transformarla a coordenadas polares para revelar subestructuras con mayor claridad.</p>
+<p><a href="./activities.html#activity-2-actividad-2" class="disk-link">Open activity →</a></p>
+</section>
+</div>
 <hr>
 </section>
-<section id="available-disks" class="level1">
-<h1>Available disks</h1>
+<section id="available-disks" class="level2">
+<h2 class="anchored" data-anchor-id="available-disks">Available disks</h2>
 <div class="disk-grid">
 <div class="disk-card">
 <p><img src="images/hl_tau_eso.jpg" class="img-fluid" style="width:100.0%"></p>
@@ -240,9 +238,42 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </div>
 <hr>
 </section>
-<section id="comparative-catalog-summary" class="level1">
-<h1>Comparative catalog summary</h1>
+<section id="catalog-objective" class="level2">
+<h2 class="anchored" data-anchor-id="catalog-objective">Catalog objective</h2>
+<p>The purpose of this catalog is to organize selected observational and theoretical information about <strong>young circumstellar disks</strong> in a clear and educational format. Each disk page summarizes basic system properties, disk morphology, dust and gas structure, and possible evidence of planet formation.</p>
+<p>The catalog focuses especially on <strong>disk substructures</strong> such as rings, gaps, spirals, crescents, and asymmetries, since these features have become central to modern studies of planet-forming disks <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<hr>
+</section>
+<section id="how-to-use-this-catalog" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-catalog">How to use this catalog</h2>
+<p>This catalog can be used in two complementary ways.</p>
+<section id="as-a-scientific-introduction" class="level3">
+<h3 class="anchored" data-anchor-id="as-a-scientific-introduction">As a scientific introduction</h3>
+<p>Each disk page provides a compact overview of the system, including: - object names and location - general properties of the star–disk system - morphology measurements - dust and gas properties - evidence of planet formation - physical interpretation</p>
+</section>
+<section id="as-a-programming-and-data-analysis-resource" class="level3">
+<h3 class="anchored" data-anchor-id="as-a-programming-and-data-analysis-resource">As a programming and data-analysis resource</h3>
+<p>The activities page connects the scientific content of the catalog with practical work using astronomical data. Students can use the provided materials to manipulate FITS images, extract quantitative information, and compare their results with the physical interpretation presented in the catalog.</p>
+<p><a href="./activities.html" class="disk-link">Open activities page →</a></p>
+<hr>
+</section>
+</section>
+<section id="what-is-a-protoplanetary-disk" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-protoplanetary-disk">What is a protoplanetary disk?</h2>
+<p>A <strong>protoplanetary disk</strong> is a rotating structure of gas and dust that surrounds a young star during the early stages of stellar evolution. These disks form naturally during star formation, when the gravitational collapse of a molecular cloud core produces a protostar while conserving angular momentum. As a consequence, part of the infalling material settles into a flattened rotating disk.</p>
+<p>As described by Armitage:</p>
+<blockquote class="blockquote">
+<p>“They can be defined as rotationally supported structures of gas (invariably containing dust) that surround young, normally pre-main-sequence stars.” <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span></p>
+</blockquote>
+<p>These disks contain the raw material from which planetary systems form. Gas dominates the mass budget of the disk, while solid particles — dust grains and larger aggregates — represent a smaller fraction but play a fundamental role in planet formation.</p>
+<p>Protoplanetary disks are also relatively short-lived structures in astronomical terms. Their limited lifetime sets the time window during which planets must form before the gas disperses <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
+<p>From a physical perspective, one of the most important properties of a disk is how its mass is distributed. As emphasized by Andrews, the disk structure reflects the mechanisms that drive its evolution and shape planet formation <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<hr>
+</section>
+<section id="comparative-catalog-summary" class="level2">
+<h2 class="anchored" data-anchor-id="comparative-catalog-summary">Comparative catalog summary</h2>
 <p>The following table is generated automatically from the structured catalog files in <code>data/disks_master.csv</code>. This allows the catalog to remain reproducible and scalable as new disks and properties are added.</p>
+</section>
 <section id="catalog-summary" class="level2">
 <h2 class="anchored" data-anchor-id="catalog-summary">Catalog summary</h2>
 <table class="caption-top table">
@@ -301,9 +332,8 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </table>
 <hr>
 </section>
-</section>
-<section id="images-of-protoplanetary-disks" class="level1">
-<h1>Images of protoplanetary disks</h1>
+<section id="images-of-protoplanetary-disks" class="level2">
+<h2 class="anchored" data-anchor-id="images-of-protoplanetary-disks">Images of protoplanetary disks</h2>
 <p>Below are examples of protoplanetary disks observed at high angular resolution. These observations reveal a wide diversity of disk morphologies and structures.</p>
 <div class="disk-gallery">
 <div id="fig-hltau" class="quarto-float quarto-figure quarto-figure-center anchored" alt="HL Tau protoplanetary disk observed with ALMA">
@@ -334,7 +364,7 @@ Figure&nbsp;2: ALMA image of the protoplanetary disk <strong>AS 209</strong>, sh
 <img src="images/hd_163296-gallery.jpg" class="img-fluid figure-img" style="width:70.0%" alt="HD 163296 protoplanetary disk observed with ALMA">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hd163296-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: ALMA image of the protoplanetary disk surrounding the young star <strong>HD 163296</strong>. Observations of the disk revealed structures in both the dust and gas distributions that suggest the presence of two forming planets embedded in the disk.<br>
+Figure&nbsp;3: ALMA image of the protoplanetary disk surrounding the young star <strong>HD 163296</strong>. Observations of the disk revealed structures in both the dust and gas distributions that suggest the presence of forming planets embedded in the disk.<br>
 <strong>Credit:</strong> ALMA (ESO/NAOJ/NRAO), AUI/NSF, A. Isella, B. Saxton.
 </figcaption>
 </figure>
@@ -350,83 +380,59 @@ Figure&nbsp;4: High-resolution image of the dusty protoplanetary disk around the
 </figcaption>
 </figure>
 </div>
-<p><em>(Additional images of other disks in the pilot catalog will be included here.)</em></p>
 </div>
 <p>These observations, particularly those obtained with <strong>ALMA</strong>, have revealed that disks frequently contain complex structures rather than smooth distributions of gas and dust.</p>
 <hr>
 </section>
-<section id="physical-processes-shaping-protoplanetary-disks" class="level1">
-<h1>Physical processes shaping protoplanetary disks</h1>
+<section id="physical-processes-shaping-protoplanetary-disks" class="level2">
+<h2 class="anchored" data-anchor-id="physical-processes-shaping-protoplanetary-disks">Physical processes shaping protoplanetary disks</h2>
 <p>The structure and evolution of protoplanetary disks are governed by several fundamental physical processes.</p>
-<section id="disk-accretion-and-angular-momentum-transport" class="level2">
-<h2 class="anchored" data-anchor-id="disk-accretion-and-angular-momentum-transport">Disk accretion and angular momentum transport</h2>
+<section id="disk-accretion-and-angular-momentum-transport" class="level3">
+<h3 class="anchored" data-anchor-id="disk-accretion-and-angular-momentum-transport">Disk accretion and angular momentum transport</h3>
 <p>Gas in a disk orbits the central star approximately in <strong>Keplerian rotation</strong>. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.</p>
-<p>Disk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:</p>
-<blockquote class="blockquote">
-<p>“Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)</p>
-</blockquote>
-<p>Theoretical models describe this evolution using the framework of <strong>thin accretion disks</strong>, where the vertical thickness of the disk is small compared with its radius. In fact:</p>
-<blockquote class="blockquote">
-<p>“Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height (h r), and they typically have inferred masses (M_{disk} M_*). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)</p>
-</blockquote>
-<p>Angular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds.</p>
+<p>As Andrews notes, disk structure is deeply connected with disk dynamics and evolution <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. Theoretical models commonly describe these systems within the framework of <strong>thin accretion disks</strong> <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
 </section>
-<section id="gravitational-instability" class="level2">
-<h2 class="anchored" data-anchor-id="gravitational-instability">Gravitational instability</h2>
+<section id="gravitational-instability" class="level3">
+<h3 class="anchored" data-anchor-id="gravitational-instability">Gravitational instability</h3>
 <p>In sufficiently massive and cold disks, <strong>self-gravity</strong> can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.</p>
 <p>These spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals.</p>
+</section>
+<section id="pressure-traps-and-dust-concentration" class="level3">
+<h3 class="anchored" data-anchor-id="pressure-traps-and-dust-concentration">Pressure traps and dust concentration</h3>
+<p>In many disks, local gas-pressure maxima can trap drifting solids. These regions are especially important because they help explain why dust can accumulate in rings instead of being lost rapidly through inward radial drift <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
 <hr>
 </section>
 </section>
-<section id="physical-processes-diagram" class="level1">
-<h1>Physical processes diagram</h1>
-<div class="process-diagram">
-<p>Buscar diagramas o gráficos sobre:</p>
-<ul>
-<li>gas accretion toward the star<br>
-</li>
-<li>outward angular momentum transport<br>
-</li>
-<li>spiral structures from gravitational instability<br>
-</li>
-<li>pressure traps concentrating dust<br>
-</li>
-<li>planet–disk interactions</li>
-</ul>
-</div>
-<p>Such diagrams help illustrate how multiple physical processes interact to shape disk evolution.</p>
-<hr>
-</section>
-<section id="substructures-in-protoplanetary-disks" class="level1">
-<h1>Substructures in protoplanetary disks</h1>
+<section id="substructures-in-protoplanetary-disks" class="level2">
+<h2 class="anchored" data-anchor-id="substructures-in-protoplanetary-disks">Substructures in protoplanetary disks</h2>
 <p>High-resolution observations have revealed that protoplanetary disks frequently contain <strong>substructures</strong>, meaning localized variations in the distribution of gas or dust.</p>
-<p>These structures include rings, gaps, spirals, and asymmetric features. Their discovery has significantly reshaped our understanding of disk evolution and planet formation.</p>
+<p>These structures include rings, gaps, spirals, and asymmetric features. Their discovery has significantly reshaped our understanding of disk evolution and planet formation <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
 <p>Substructures are particularly important because they can create <strong>local pressure maxima</strong> that trap drifting particles. In smooth disks, solid particles tend to migrate inward rapidly due to aerodynamic drag from the gas. However, pressure maxima can halt this inward drift and concentrate particles, potentially enabling the formation of planetesimals.</p>
 <hr>
 </section>
-<section id="common-substructure-morphologies" class="level1">
-<h1>Common substructure morphologies</h1>
+<section id="common-substructure-morphologies" class="level2">
+<h2 class="anchored" data-anchor-id="common-substructure-morphologies">Common substructure morphologies</h2>
 <p>Observations have identified several common classes of disk substructures.</p>
-<section id="rings" class="level2">
-<h2 class="anchored" data-anchor-id="rings">Rings</h2>
-<p>These systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of <strong>transition disks</strong>.</p>
+<section id="rings-and-gaps" class="level3">
+<h3 class="anchored" data-anchor-id="rings-and-gaps">Rings and gaps</h3>
+<p>This is the most common morphology observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.</p>
 </section>
-<section id="gaps" class="level2">
-<h2 class="anchored" data-anchor-id="gaps">Gaps</h2>
-<p>This is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.</p>
+<section id="cavities" class="level3">
+<h3 class="anchored" data-anchor-id="cavities">Cavities</h3>
+<p>Some systems display a large central cavity surrounded by an outer ring of emission. This morphology is commonly associated with transition disks.</p>
 </section>
-<section id="arcs" class="level2">
-<h2 class="anchored" data-anchor-id="arcs">Arcs</h2>
-<p>Some disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations.</p>
+<section id="arcs-and-crescents" class="level3">
+<h3 class="anchored" data-anchor-id="arcs-and-crescents">Arcs and crescents</h3>
+<p>Some disks show asymmetric arc-shaped or crescent-like structures, which may correspond to vortices or local dust concentrations.</p>
 </section>
-<section id="spirals" class="level2">
-<h2 class="anchored" data-anchor-id="spirals">Spirals</h2>
+<section id="spirals" class="level3">
+<h3 class="anchored" data-anchor-id="spirals">Spirals</h3>
 <p>Large-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets.</p>
 <hr>
 </section>
 </section>
-<section id="images-of-disk-substructures" class="level1">
-<h1>Images of disk substructures</h1>
+<section id="images-of-disk-substructures" class="level2">
+<h2 class="anchored" data-anchor-id="images-of-disk-substructures">Images of disk substructures</h2>
 <div class="substructure-gallery">
 <div id="fig-elias24" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Elias 24 protoplanetary disk rings and gaps observed with ALMA">
 <figure class="quarto-float quarto-float-fig figure">
@@ -465,10 +471,16 @@ Figure&nbsp;7: Composite image of the planet-forming disk <strong>IRS 48 (Oph-IR
 <p>These images illustrate how disk structures can vary significantly between systems and may provide clues about the processes occurring within them.</p>
 <hr>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
-<p>Armitage, P. J. (2011). <em>Dynamics of Protoplanetary Disks</em>. Annual Review of Astronomy and Astrophysics.</p>
-<p>Andrews, S. M. (2020). <em>Observations of Protoplanetary Disk Structures</em>. Annual Review of Astronomy and Astrophysics.</p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-andrews2020" class="csl-entry" role="listitem">
+Andrews, Sean M. 2020. <span>“Observations of Protoplanetary Disk Structures.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 58: 483–528. <a href="https://doi.org/10.1146/annurev-astro-031220-010302">https://doi.org/10.1146/annurev-astro-031220-010302</a>.
+</div>
+<div id="ref-armitage2011" class="csl-entry" role="listitem">
+Armitage, Philip J. 2011. <span>“Dynamics of Protoplanetary Disks.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 49: 195–236. <a href="https://doi.org/10.1146/annurev-astro-081710-102521">https://doi.org/10.1146/annurev-astro-081710-102521</a>.
+</div>
+</div>
 
 
 </section>
