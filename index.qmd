@@ -1,8 +1,10 @@
 ---
 title: "Pilot Protoplanetary Disk Catalog"
+bibliography: references.bib
 format:
   html:
     css: styles.css
+    toc: false
 resources:
   - images/*
   - data/**
@@ -12,39 +14,51 @@ resources:
 
 This **Pilot Protoplanetary Disk Catalog** is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of **protoplanetary disks**.
 
-The goal of this catalog is to organize observational and theoretical knowledge about young circumstellar disks using results from the scientific literature. Each disk entry summarizes its stellar properties, disk morphology, and observational signatures that may be related to planet formation.
-
-The catalog focuses particularly on **disk substructures**, such as rings, gaps, spirals, and asymmetries, which have become central observational features in modern studies of planet-forming disks.
+This pilot version combines short scientific summaries, representative images, comparative tables, and introductory programming activities based on real astronomical data products.
 
 :::
 
 ---
 
-# What is a protoplanetary disk?
+## Activities
 
-A **protoplanetary disk** is a rotating structure of gas and dust that surrounds a young star during the early stages of stellar evolution. These disks form naturally during star formation, when the gravitational collapse of a molecular cloud core produces a protostar while conserving angular momentum. As a consequence, part of the infalling material settles into a flattened rotating disk.
+This catalog includes **introductory programming activities** designed to help students explore real astronomical data and analyze how disk substructures can be measured from images.
 
-As described by Armitage (2011):
+Este catálogo también incluye **actividades introductorias de programación** pensadas para que los estudiantes trabajen con datos astronómicos reales y analicen cómo se pueden medir subestructuras de discos a partir de imágenes.
 
-> “They can be defined as rotationally supported structures of gas (invariably containing dust) that surround young, normally pre-main-sequence stars.” (Armitage, 2011, p. 196)
+::: {.activity-grid}
 
-These disks contain the raw material from which planetary systems form. Gas dominates the mass budget of the disk, while solid particles — dust grains and larger aggregates — represent a smaller fraction but play a fundamental role in planet formation.
+::: {.activity-card}
+### Activity 1 / Actividad 1
 
-Protoplanetary disks are also relatively short-lived structures in astronomical terms. Observations indicate that:
+**Radial profile from a FITS image**  
+**Perfil radial a partir de una imagen FITS**
 
-> “Around low-mass stars, protoplanetary disks are persistent; the typical lifetime of ∼10⁶ years (Haisch, Lada & Lada 2001) equates to thousands of dynamical times at 100 AU.” (Armitage, 2011, p. 196)
+Learn how to read a FITS image, measure brightness as a function of radius, and identify rings and gaps in a protoplanetary disk.
 
-This limited lifetime sets the time window during which planets must form before the gas disperses.
+Aprende a leer una imagen FITS, medir el brillo en función del radio e identificar anillos y brechas en un disco protoplanetario.
 
-From a physical perspective, the most important property of a disk is how its mass is distributed. As emphasized in observational studies of disks:
+[Open activity →](activities.qmd#activity-1-actividad-1){.disk-link}
+:::
 
-> “The spatial distribution of mass—the density structure—is without question the fundamental property of interest for disks.” (Andrews, 2020)
+::: {.activity-card}
+### Activity 2 / Actividad 2
 
-Understanding this density structure is essential because it determines the disk’s temperature, dynamics, and the processes that control planet formation.
+**Deprojection and polar analysis of a disk image**  
+**Deproyección y análisis polar de una imagen de disco**
+
+Apply disk geometry to deproject an inclined image and transform it into polar coordinates to reveal substructures more clearly.
+
+Aplica la geometría del disco para deproyectar una imagen inclinada y transformarla a coordenadas polares para revelar subestructuras con mayor claridad.
+
+[Open activity →](activities.qmd#activity-2-actividad-2){.disk-link}
+:::
+
+:::
 
 ---
 
-# Available disks
+## Available disks
 
 ::: {.disk-grid}
 
@@ -117,7 +131,53 @@ A young planetary system famous for hosting directly detected forming planets em
 
 ---
 
-# Comparative catalog summary
+## Catalog objective
+
+The purpose of this catalog is to organize selected observational and theoretical information about **young circumstellar disks** in a clear and educational format. Each disk page summarizes basic system properties, disk morphology, dust and gas structure, and possible evidence of planet formation.
+
+The catalog focuses especially on **disk substructures** such as rings, gaps, spirals, crescents, and asymmetries, since these features have become central to modern studies of planet-forming disks [@andrews2020].
+
+---
+
+## How to use this catalog
+
+This catalog can be used in two complementary ways.
+
+### As a scientific introduction
+
+Each disk page provides a compact overview of the system, including:
+- object names and location
+- general properties of the star–disk system
+- morphology measurements
+- dust and gas properties
+- evidence of planet formation
+- physical interpretation
+
+### As a programming and data-analysis resource
+
+The activities page connects the scientific content of the catalog with practical work using astronomical data. Students can use the provided materials to manipulate FITS images, extract quantitative information, and compare their results with the physical interpretation presented in the catalog.
+
+[Open activities page →](activities.qmd){.disk-link}
+
+---
+
+## What is a protoplanetary disk?
+
+A **protoplanetary disk** is a rotating structure of gas and dust that surrounds a young star during the early stages of stellar evolution. These disks form naturally during star formation, when the gravitational collapse of a molecular cloud core produces a protostar while conserving angular momentum. As a consequence, part of the infalling material settles into a flattened rotating disk.
+
+As described by Armitage:
+
+> “They can be defined as rotationally supported structures of gas (invariably containing dust) that surround young, normally pre-main-sequence stars.” [@armitage2011]
+
+These disks contain the raw material from which planetary systems form. Gas dominates the mass budget of the disk, while solid particles — dust grains and larger aggregates — represent a smaller fraction but play a fundamental role in planet formation.
+
+Protoplanetary disks are also relatively short-lived structures in astronomical terms. Their limited lifetime sets the time window during which planets must form before the gas disperses [@armitage2011].
+
+From a physical perspective, one of the most important properties of a disk is how its mass is distributed. As emphasized by Andrews, the disk structure reflects the mechanisms that drive its evolution and shape planet formation [@andrews2020].
+
+---
+
+## Comparative catalog summary
 
 The following table is generated automatically from the structured catalog files in `data/disks_master.csv`. This allows the catalog to remain reproducible and scalable as new disks and properties are added.
 
@@ -125,7 +185,7 @@ The following table is generated automatically from the structured catalog files
 
 ---
 
-# Images of protoplanetary disks
+## Images of protoplanetary disks
 
 Below are examples of protoplanetary disks observed at high angular resolution. These observations reveal a wide diversity of disk morphologies and structures.
 
@@ -148,7 +208,7 @@ ALMA image of the protoplanetary disk **AS 209**, showing thin, high-contrast ri
 ::: {#fig-hd163296}
 ![](images/hd_163296-gallery.jpg){width=70% fig-alt="HD 163296 protoplanetary disk observed with ALMA"}
 
-ALMA image of the protoplanetary disk surrounding the young star **HD 163296**. Observations of the disk revealed structures in both the dust and gas distributions that suggest the presence of two forming planets embedded in the disk.  
+ALMA image of the protoplanetary disk surrounding the young star **HD 163296**. Observations of the disk revealed structures in both the dust and gas distributions that suggest the presence of forming planets embedded in the disk.  
 **Credit:** ALMA (ESO/NAOJ/NRAO), AUI/NSF, A. Isella, B. Saxton.
 :::
 
@@ -159,91 +219,67 @@ High-resolution image of the dusty protoplanetary disk around the young star **I
 **Credit:** ESO/H. Avenhaus et al./DARTT-S collaboration.
 :::
 
-*(Additional images of other disks in the pilot catalog will be included here.)*
-
 :::
 
 These observations, particularly those obtained with **ALMA**, have revealed that disks frequently contain complex structures rather than smooth distributions of gas and dust.
 
 ---
 
-# Physical processes shaping protoplanetary disks
+## Physical processes shaping protoplanetary disks
 
 The structure and evolution of protoplanetary disks are governed by several fundamental physical processes.
 
-## Disk accretion and angular momentum transport
+### Disk accretion and angular momentum transport
 
 Gas in a disk orbits the central star approximately in **Keplerian rotation**. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.
 
-Disk dynamics therefore play a central role in shaping disk structure. As Andrews (2020) notes:
+As Andrews notes, disk structure is deeply connected with disk dynamics and evolution [@andrews2020]. Theoretical models commonly describe these systems within the framework of **thin accretion disks** [@armitage2011].
 
-> “Disks are profoundly affected by their fluid dynamics.” (Andrews, 2020)
-
-Theoretical models describe this evolution using the framework of **thin accretion disks**, where the vertical thickness of the disk is small compared with its radius. In fact:
-
-> “Protoplanetary disks are observed to be geometrically thin, in the sense that the vertical scale height \(h \ll r\), and they typically have inferred masses \(M_{disk} \ll M_*\). These properties imply that models of disk evolution should be grounded within the theory of thin accretion disks.” (Armitage, 2011)
-
-Angular momentum transport may occur through several mechanisms, including turbulence, magnetic processes, and disk winds.
-
-## Gravitational instability
+### Gravitational instability
 
 In sufficiently massive and cold disks, **self-gravity** can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.
 
 These spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals.
 
----
+### Pressure traps and dust concentration
 
-# Physical processes diagram
-
-::: {.process-diagram}
-
-Buscar diagramas o gráficos sobre:
-
-- gas accretion toward the star  
-- outward angular momentum transport  
-- spiral structures from gravitational instability  
-- pressure traps concentrating dust  
-- planet–disk interactions
-
-:::
-
-Such diagrams help illustrate how multiple physical processes interact to shape disk evolution.
+In many disks, local gas-pressure maxima can trap drifting solids. These regions are especially important because they help explain why dust can accumulate in rings instead of being lost rapidly through inward radial drift [@andrews2020].
 
 ---
 
-# Substructures in protoplanetary disks
+## Substructures in protoplanetary disks
 
 High-resolution observations have revealed that protoplanetary disks frequently contain **substructures**, meaning localized variations in the distribution of gas or dust.
 
-These structures include rings, gaps, spirals, and asymmetric features. Their discovery has significantly reshaped our understanding of disk evolution and planet formation.
+These structures include rings, gaps, spirals, and asymmetric features. Their discovery has significantly reshaped our understanding of disk evolution and planet formation [@andrews2020].
 
 Substructures are particularly important because they can create **local pressure maxima** that trap drifting particles. In smooth disks, solid particles tend to migrate inward rapidly due to aerodynamic drag from the gas. However, pressure maxima can halt this inward drift and concentrate particles, potentially enabling the formation of planetesimals.
 
 ---
 
-# Common substructure morphologies
+## Common substructure morphologies
 
 Observations have identified several common classes of disk substructures.
 
-## Rings 
+### Rings and gaps
 
-These systems display a central cavity surrounded by a bright ring of dust emission. This morphology is typical of **transition disks**.
+This is the most common morphology observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.
 
-## Gaps
+### Cavities
 
-This is the most common substructure pattern observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.
+Some systems display a large central cavity surrounded by an outer ring of emission. This morphology is commonly associated with transition disks.
 
-## Arcs
+### Arcs and crescents
 
-Some disks show asymmetric arc-shaped structures, which may correspond to vortices or local dust concentrations.
+Some disks show asymmetric arc-shaped or crescent-like structures, which may correspond to vortices or local dust concentrations.
 
-## Spirals
+### Spirals
 
 Large-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets.
 
 ---
 
-# Images of disk substructures
+## Images of disk substructures
 
 ::: {.substructure-gallery}
 
@@ -274,8 +310,7 @@ These images illustrate how disk structures can vary significantly between syste
 
 ---
 
-# References
+## References
 
-Armitage, P. J. (2011). *Dynamics of Protoplanetary Disks*. Annual Review of Astronomy and Astrophysics.
-
-Andrews, S. M. (2020). *Observations of Protoplanetary Disk Structures*. Annual Review of Astronomy and Astrophysics.
+::: {#refs}
+:::
