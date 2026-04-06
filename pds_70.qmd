@@ -146,3 +146,7 @@ PDS 70 provides some of the clearest evidence of ongoing planet formation in a p
 
 PDS 70 is interpreted as a young planetary system that is still forming, in which the protoplanets are already actively reshaping the disk structure. The large cavity, the segregation between small and large dust grains, and the presence of an inner disk led Keppler et al. [@keppler2018_pds70] to identify the system early on as a strong candidate for harboring planets capable of carving the gap. Later, ALMA observations showed that the gas displays a depression near the orbit of PDS 70 b, together with a departure from Keplerian rotation consistent with a pressure gradient that can explain why the main dust ring lies much farther out; however, Keppler et al. [@keppler2019_pds70] also concluded that a single planet may not be enough to reproduce the full observed morphology, suggesting a more complex system architecture, possibly including an additional low-mass companion. The later Hα detection of PDS 70 c further strengthens this picture: both protoplanets are accreting, and their orbits are consistent with a near 2:1 resonance configuration, making PDS 70 a particularly valuable system for studying planet–disk interaction and migration in young planetary systems [@haffert2019_pds70].
 
+## References
+
+::: {#refs}
+:::
