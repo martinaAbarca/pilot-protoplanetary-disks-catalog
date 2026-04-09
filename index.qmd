@@ -199,25 +199,9 @@ Protoplanetary disks are studied at different wavelengths because each tracer re
 
 ---
 
-## How to use this catalog
+## Why does disk morphology matter?
 
-This catalog can be used in two complementary ways.
-
-### As a scientific introduction
-
-Each disk page provides a compact overview of the system, including:
-- object names and location
-- general properties of the star–disk system
-- morphology measurements
-- dust and gas properties
-- evidence of planet formation
-- physical interpretation
-
-### As a programming and data-analysis resource
-
-The activities page connects the scientific content of the catalog with practical work using astronomical data. Students can use the provided materials to manipulate FITS images, extract quantitative information, and compare their results with the physical interpretation presented in the catalog.
-
-[Open activities page →](activities.qmd){.disk-link}
+The morphology of a protoplanetary disk matters because it reveals not only what the system looks like, but also how it evolves physically. As Williams & Cieza explain, the circumstellar medium “is composed of dust and gas,” and both components undergo “substantial processing” throughout the lifetime of the disk [@williams2011]. In that context, the gas governs much of the large-scale structure, while the dust responds to that dynamic environment: Birnstiel notes that small particles are “most strongly affected by their coupling to the gas via drag forces,” which promotes settling, radial drift, and concentration at pressure maxima [@birnstiel2024]. Rings, gaps, cavities, spirals, and asymmetries should therefore not be understood as isolated shapes, but as signatures of real redistributions of material within the disk. Along the same lines, Andrews emphasizes that “relationships among disk structure properties are also linked to the masses, environments, and evolutionary states of their stellar hosts” and that these substructures “likely trace active sites of planetesimal growth or are the hallmarks of planetary systems at their formation epoch” [@andrews2020]. From this perspective, the catalog focuses on substructures because reading disk morphology is also a way of interpreting disk evolution and its possible connection to planet formation.
 
 ---
 

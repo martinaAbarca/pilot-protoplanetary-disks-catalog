@@ -268,7 +268,7 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </section>
 <section id="thermal-continuum" class="level3 tracer-card">
 <h3 class="anchored" data-anchor-id="thermal-continuum">Thermal continuum</h3>
-<p><img src="images/MWC758.jpg" class="img-fluid" style="width:100.0%"></p>
+<p><img src="images/MWC 758.jpg" class="img-fluid" style="width:100.0%"></p>
 <p><em>Thermal continuum image of the protoplanetary disk around MWC 758, observed with ALMA (Band 7, 870 μm). At these wavelengths, the emission traces dust in the disk and reveals its ringed structure.</em></p>
 <p><strong>Credit:</strong> ESO/R. Dong et al.; ALMA (ESO/NAOJ/NRAO).</p>
 </section>
@@ -280,19 +280,10 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </div>
 <hr>
 </section>
-<section id="how-to-use-this-catalog" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-this-catalog">How to use this catalog</h2>
-<p>This catalog can be used in two complementary ways.</p>
-<section id="as-a-scientific-introduction" class="level3">
-<h3 class="anchored" data-anchor-id="as-a-scientific-introduction">As a scientific introduction</h3>
-<p>Each disk page provides a compact overview of the system, including: - object names and location - general properties of the star–disk system - morphology measurements - dust and gas properties - evidence of planet formation - physical interpretation</p>
-</section>
-<section id="as-a-programming-and-data-analysis-resource" class="level3">
-<h3 class="anchored" data-anchor-id="as-a-programming-and-data-analysis-resource">As a programming and data-analysis resource</h3>
-<p>The activities page connects the scientific content of the catalog with practical work using astronomical data. Students can use the provided materials to manipulate FITS images, extract quantitative information, and compare their results with the physical interpretation presented in the catalog.</p>
-<p><a href="./activities.html" class="disk-link">Open activities page →</a></p>
+<section id="why-does-disk-morphology-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-does-disk-morphology-matter">Why does disk morphology matter?</h2>
+<p>The morphology of a protoplanetary disk matters because it reveals not only what the system looks like, but also how it evolves physically. As Williams &amp; Cieza explain, the circumstellar medium “is composed of dust and gas,” and both components undergo “substantial processing” throughout the lifetime of the disk <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. In that context, the gas governs much of the large-scale structure, while the dust responds to that dynamic environment: Birnstiel notes that small particles are “most strongly affected by their coupling to the gas via drag forces,” which promotes settling, radial drift, and concentration at pressure maxima <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. Rings, gaps, cavities, spirals, and asymmetries should therefore not be understood as isolated shapes, but as signatures of real redistributions of material within the disk. Along the same lines, Andrews emphasizes that “relationships among disk structure properties are also linked to the masses, environments, and evolutionary states of their stellar hosts” and that these substructures “likely trace active sites of planetesimal growth or are the hallmarks of planetary systems at their formation epoch” <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. From this perspective, the catalog focuses on substructures because reading disk morphology is also a way of interpreting disk evolution and its possible connection to planet formation.</p>
 <hr>
-</section>
 </section>
 <section id="comparative-catalog-summary" class="level2">
 <h2 class="anchored" data-anchor-id="comparative-catalog-summary">Comparative catalog summary</h2>
@@ -504,6 +495,9 @@ Andrews, Sean M. 2020. <span>“Observations of Protoplanetary Disk Structures.�
 <div id="ref-armitage2011" class="csl-entry" role="listitem">
 Armitage, Philip J. 2011. <span>“Dynamics of Protoplanetary Disks.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 49: 195–236. <a href="https://doi.org/10.1146/annurev-astro-081710-102521">https://doi.org/10.1146/annurev-astro-081710-102521</a>.
 </div>
+<div id="ref-birnstiel2024" class="csl-entry" role="listitem">
+Birnstiel, Tilman. 2024. <span>“Dust Growth and Evolution in Protoplanetary Disks.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 62: 157–202. <a href="https://doi.org/10.1146/annurev-astro-071221-052705">https://doi.org/10.1146/annurev-astro-071221-052705</a>.
+</div>
 <div id="ref-williams2011" class="csl-entry" role="listitem">
 Williams, Jonathan P., and Lucas A. Cieza. 2011. <span>“Protoplanetary Disks and Their Evolution.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 49 (1): 67–117. <a href="https://doi.org/10.1146/annurev-astro-081710-102548">https://doi.org/10.1146/annurev-astro-081710-102548</a>.
 </div>
@@ -586,7 +580,7 @@ Williams, Jonathan P., and Lucas A. Cieza. 2011. <span>“Protoplanetary Disks a
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/martinaAbarca\.github\.io\/pilot-protoplanetary-disks-catalog\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
