@@ -154,6 +154,7 @@ A young planetary system famous for hosting directly detected forming planets em
 :::
 
 ---
+
 ## What is a protoplanetary disk?
 
 A protoplanetary disk is a young, flattened structure that forms around a star during its earliest stages, when part of the collapsing material no longer falls directly onto the protostar but instead settles into orbit through “angular momentum conservation” [@williams2011; @andrews2020]. In this sense, it can be understood as a “flattened disk of gas and solids” that accompanies the young star and gathers the material from which the system will continue to evolve. These disks are also the “material reservoirs and birthplaces of planetary systems,” because they host the processes that may eventually lead to the formation of planets [@andrews2020].
@@ -165,6 +166,7 @@ These disks not only store material, but also provide the setting where planet f
 ### How do we observe protoplanetary disks?
 
 Protoplanetary disks are studied at different wavelengths because each tracer reveals a different part of their structure [@andrews2020]. In the optical and near-infrared, “scattered light” primarily traces small dust grains in the disk surface; in the mid-infrared, warmer dust in the inner regions is more easily detected; and at sub-mm/mm wavelengths, “thermal continuum emission” is used to study the distribution of colder solids, while “spectral line emission” probes the properties and dynamics of the gas [@andrews2020]. Because many disks are cold, small on the sky, and emit efficiently at millimeter wavelengths, “radio interferometry” has become essential, and much of the recent progress in the field has been driven by **ALMA**, one of the most important tools for studying protoplanetary disks and their substructures [@andrews2020].
+
 ---
 
 ## How to use this catalog
@@ -186,22 +188,6 @@ Each disk page provides a compact overview of the system, including:
 The activities page connects the scientific content of the catalog with practical work using astronomical data. Students can use the provided materials to manipulate FITS images, extract quantitative information, and compare their results with the physical interpretation presented in the catalog.
 
 [Open activities page →](activities.qmd){.disk-link}
-
----
-
-## What is a protoplanetary disk?
-
-A **protoplanetary disk** is a rotating structure of gas and dust that surrounds a young star during the early stages of stellar evolution. These disks form naturally during star formation, when the gravitational collapse of a molecular cloud core produces a protostar while conserving angular momentum. As a consequence, part of the infalling material settles into a flattened rotating disk.
-
-As described by Armitage:
-
-> “They can be defined as rotationally supported structures of gas (invariably containing dust) that surround young, normally pre-main-sequence stars.” [@armitage2011]
-
-These disks contain the raw material from which planetary systems form. Gas dominates the mass budget of the disk, while solid particles — dust grains and larger aggregates — represent a smaller fraction but play a fundamental role in planet formation.
-
-Protoplanetary disks are also relatively short-lived structures in astronomical terms. Their limited lifetime sets the time window during which planets must form before the gas disperses [@armitage2011].
-
-From a physical perspective, one of the most important properties of a disk is how its mass is distributed. As emphasized by Andrews, the disk structure reflects the mechanisms that drive its evolution and shape planet formation [@andrews2020].
 
 ---
 
