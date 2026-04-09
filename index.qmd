@@ -180,7 +180,7 @@ Protoplanetary disks are studied at different wavelengths because each tracer re
 ::: {.tracer-card}
 ### Thermal continuum
 
-![](images/MWC758.jpg){width=100%}
+![](images/MWC 758.jpg){width=100%}
 
 *Thermal continuum image of the protoplanetary disk around MWC 758, observed with ALMA (Band 7, 870 μm). At these wavelengths, the emission traces dust in the disk and reveals its ringed structure.*
 
