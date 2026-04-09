@@ -301,43 +301,6 @@ code {
   color: #dcdcdc;
 }
 
-/* Trace gallery */
-.tracer-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
-  margin: 1.6rem 0 2rem 0;
-  align-items: start;
-}
-
-.tracer-card {
-  background: linear-gradient(180deg, rgba(28, 20, 30, 0.97), rgba(14, 14, 16, 0.97));
-  border: 1px solid rgba(255, 79, 163, 0.18);
-  border-radius: 16px;
-  padding: 1rem;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
-  height: 100%;
-}
-
-.tracer-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.8rem;
-  font-size: 1.35rem;
-}
-
-.tracer-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  margin-bottom: 0.8rem;
-}
-
-.tracer-card p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 /* Ensure images inside galleries are visible and centered */
 .disk-gallery img,
 .substructure-gallery img,
@@ -735,10 +698,6 @@ hr {
   .hero-button {
     width: 100%;
   }
-
-  .tracer-gallery {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 700px) {
@@ -749,8 +708,7 @@ hr {
   }
 
   .disk-card,
-  .activity-card,
-  .tracer-card {
+  .activity-card {
     padding: 0.95rem;
   }
 

@@ -1,0 +1,180 @@
+{
+  "id": "pds70",
+  "object_name": "PDS 70",
+  "alternative_names": [
+    "V* V1032 Cen",
+    "IRAS 14050-4109"
+  ],
+  "location": {
+    "association": "Scorpius-Centaurus",
+    "subgroup": "Upper Centaurus-Lupus (UCL)",
+    "distance_pc": 113.43,
+    "distance_pc_err": 0.52
+  },
+  "overview": "Young pre-main-sequence T Tauri star of spectral type K7 surrounded by a transition protoplanetary disk with an inner disk, a large gap, an outer ring, and two accreting protoplanets.",
+  "stellar_properties": {
+    "evolutionary_stage": "pre-main-sequence T Tauri star",
+    "spectral_type": "K7",
+    "age_myr": 5.4,
+    "age_myr_err": 1.0,
+    "effective_temperature_k": 3972,
+    "effective_temperature_k_err": 36,
+    "stellar_mass_msun": 0.76,
+    "stellar_mass_msun_err": 0.02,
+    "stellar_radius_rsun": 1.26,
+    "stellar_radius_rsun_err": 0.15,
+    "stellar_luminosity_lsun": 0.35,
+    "stellar_luminosity_lsun_err": 0.09,
+    "visual_extinction_mag": {
+      "value": 0.05,
+      "err_plus": 0.05,
+      "err_minus": 0.03
+    }
+  },
+  "disk_geometry": {
+    "inclination_deg": {
+      "nir": 49.7,
+      "alma": 51.7
+    },
+    "position_angle_deg": {
+      "nir": 158.6,
+      "alma_range": [156.7, 159.7]
+    }
+  },
+  "disk_morphology": {
+    "type": "transition disk",
+    "components": [
+      "inner disk",
+      "large cavity",
+      "outer ring",
+      "possible bridge/spur",
+      "protoplanets inside the gap"
+    ],
+    "summary": "PDS 70 shows a compact inner disk, a large cavity, and a resolved outer ring. ALMA also reveals a possible inner component and a tentative bridge-like structure."
+  },
+  "morphology_measurements": {
+    "inner_disk_scattered_light_au_max": 17,
+    "inner_disk_alma_au_max": 9,
+    "inner_gas_disk_au_max": 15,
+    "nir_cavity_au_range": [20, 40],
+    "outer_ring_peak_polarized_light_au": 54,
+    "main_dust_ring_peak_alma_au": 73.7,
+    "main_dust_ring_peak_alma_au_err": 0.1,
+    "inner_ring_width_au": 14.8,
+    "inner_ring_width_au_err": 0.1,
+    "outer_ring_width_au": 13.4,
+    "outer_ring_width_au_err": 0.1,
+    "possible_second_component_au": 60,
+    "spur_pa_deg": 285,
+    "gas_gap_au": 23,
+    "gas_gap_width_au": 11,
+    "second_co_depression_arcsec": 0.6
+  },
+  "dust": {
+    "summary": "Dust is not evenly distributed. Small grains remain closer to the cavity edge, while larger grains are concentrated farther out in an outer ring, consistent with dust trapping.",
+    "large_gap_scattered_light_au": 54,
+    "inner_dust_disk_scattered_light_au_max": 17,
+    "cavity_wall_nir_arcsec": 0.39,
+    "outer_disk_brightness_peak_polarized_light_au": 54,
+    "main_dust_ring_peak_alma_au": 73.7,
+    "main_dust_ring_peak_alma_au_err": 0.1,
+    "possible_second_ring_component": {
+      "arcsec": 0.53,
+      "au": 60
+    },
+    "azimuthal_asymmetry": {
+      "position_angle_deg": 327,
+      "brightness_contrast_percent": 13,
+      "brighter_side": "northwest"
+    },
+    "inner_dust_disk_alma_au_max": 9,
+    "grain_size_segregation": {
+      "small_grains_arcsec": 0.39,
+      "large_grains_arcsec": 0.70
+    }
+  },
+  "gas": {
+    "summary": "The gaseous cavity is not empty. Gas remains in the inner region, shows an emission depression near the orbit of PDS 70 b, and may still connect the outer and inner disk.",
+    "main_tracer": "12CO J=3-2",
+    "co_emitting_surface": "z(r) = (0.33 ± 0.01) (r/1'')^(0.76 ± 0.01)",
+    "inner_gas_disk_au_max": 15,
+    "main_gaseous_gap": {
+      "center_arcsec": 0.2,
+      "center_au": 23,
+      "width_arcsec": 0.1,
+      "width_au": 11,
+      "radial_extent_arcsec": [0.1, 0.3],
+      "radial_extent_au": [11, 34]
+    },
+    "possible_bridge_like_feature": "northwestern region",
+    "deviation_from_keplerian_rotation": {
+      "within_arcsec": 0.8,
+      "within_au": 91
+    },
+    "positive_pressure_gradient": {
+      "arcsec_range": [0.4, 0.8],
+      "maximum_near_arcsec": 0.55
+    },
+    "second_co_depression_arcsec": 0.6
+  },
+  "planet_formation_evidence": {
+    "summary": "PDS 70 provides direct evidence of planet formation through the detection of PDS 70 b, Halpha accretion signatures in PDS 70 b and c, and disk perturbations seen in CO and gas kinematics.",
+    "evidence": [
+      "direct detection of PDS 70 b inside the gap",
+      "Halpha emission from PDS 70 b and PDS 70 c",
+      "CO depression near the orbit of PDS 70 b",
+      "deviation from Keplerian rotation"
+    ]
+  },
+  "protoplanets": [
+    {
+      "name": "PDS 70 b",
+      "nature": "protoplanet / planetary-mass companion",
+      "projected_separation_mas": 195,
+      "projected_separation_au": 22,
+      "position_angle_deg": 155,
+      "estimated_mass_mjup_range": [5, 9],
+      "halpha_detected": true,
+      "halpha_flux_erg_s_cm2": 3.9e-16,
+      "halpha_flux_err_erg_s_cm2": 0.37e-16,
+      "accretion_rate_mjup_per_yr": 2e-8,
+      "circumplanetary_dust_mass_upper_limit_mearth": 0.01
+    },
+    {
+      "name": "PDS 70 c",
+      "nature": "second accreting protoplanet",
+      "halpha_projected_separation_mas": 235.5,
+      "halpha_projected_separation_err_mas": 25,
+      "estimated_orbital_radius_au": 38.6,
+      "estimated_orbital_radius_err_au": 4.5,
+      "position_angle_deg": {
+        "halpha": 277,
+        "k1_lprime_range": [283, 285]
+      },
+      "estimated_mass_mjup_range": [4, 12],
+      "halpha_detected": true,
+      "halpha_flux_erg_s_cm2": 1.9e-16,
+      "halpha_flux_err_erg_s_cm2": 0.32e-16,
+      "accretion_rate_mjup_per_yr": 1e-8
+    }
+  ],
+  "physical_interpretation": {
+    "summary": "PDS 70 is interpreted as a young planetary system still in formation, where the protoplanets are actively reshaping the disk. A single planet may not be enough to explain the full morphology, and the system may have a more complex architecture.",
+    "key_ideas": [
+      "planets carve and perturb the gap",
+      "dust trapping explains the outer dust ring",
+      "gas pressure gradients are important",
+      "possible additional low-mass companion",
+      "near 2:1 resonance between PDS 70 b and PDS 70 c"
+    ]
+  },
+  "references": [
+    "keppler2018_pds70",
+    "keppler2019_pds70",
+    "haffert2019_pds70",
+    "gregoriohetem2002_wtts",
+    "metchev2004_palomar",
+    "hashimoto2012_pds70",
+    "dong2012_missingcavities"
+  ]
+}

@@ -167,6 +167,36 @@ These disks not only store material, but also provide the setting where planet f
 
 Protoplanetary disks are studied at different wavelengths because each tracer reveals a different part of their structure [@andrews2020]. In the optical and near-infrared, “scattered light” primarily traces small dust grains in the disk surface; in the mid-infrared, warmer dust in the inner regions is more easily detected; and at sub-mm/mm wavelengths, “thermal continuum emission” is used to study the distribution of colder solids, while “spectral line emission” probes the properties and dynamics of the gas [@andrews2020]. Because many disks are cold, small on the sky, and emit efficiently at millimeter wavelengths, “radio interferometry” has become essential, and much of the recent progress in the field has been driven by **ALMA**, one of the most important tools for studying protoplanetary disks and their substructures [@andrews2020].
 
+::: {.tracer-gallery}
+
+::: {.tracer-card}
+### Scattered light
+
+*Image coming soon.*
+
+*This panel will show an example of a protoplanetary disk observed in scattered light, tracing small dust grains in the disk surface.*
+:::
+
+::: {.tracer-card}
+### Thermal continuum
+
+![](images/MWC758.jpg){width=100%}
+
+*Thermal continuum image of the protoplanetary disk around MWC 758, observed with ALMA (Band 7, 870 μm). At these wavelengths, the emission traces dust in the disk and reveals its ringed structure.*
+
+**Credit:** ESO/R. Dong et al.; ALMA (ESO/NAOJ/NRAO).
+:::
+
+::: {.tracer-card}
+### Spectral line emission
+
+*Image coming soon.*
+
+*This panel will show an example of molecular spectral line emission, tracing the gas and its motion in a protoplanetary disk.*
+:::
+
+:::
+
 ---
 
 ## How to use this catalog
