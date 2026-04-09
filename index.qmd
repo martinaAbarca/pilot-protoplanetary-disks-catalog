@@ -10,11 +10,35 @@ resources:
   - data/**
 ---
 
-::: {.catalog-intro}
+::: {.catalog-hero}
+
+::: {.catalog-hero-text}
+
+::: {.hero-kicker}
+Educational + scientific web catalog
+:::
 
 This **Pilot Protoplanetary Disk Catalog** is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of **protoplanetary disks**.
 
 This pilot version combines short scientific summaries, representative images, comparative tables, and introductory programming activities based on real astronomical data products.
+
+::: {.hero-badges}
+<span class="hero-badge">5 pilot disks</span>
+<span class="hero-badge">Scientific summaries</span>
+<span class="hero-badge">Programming activities</span>
+<span class="hero-badge">FITS-based learning</span>
+:::
+
+::: {.hero-actions}
+[Explore disks ↓](#available-disks){.hero-button .hero-button-primary}
+[Open activities →](activities.qmd){.hero-button .hero-button-secondary}
+:::
+
+:::
+
+::: {.catalog-hero-image}
+![](images/portada.jpg){.catalog-hero-photo}
+:::
 
 :::
 
@@ -58,7 +82,7 @@ Aplica la geometría del disco para deproyectar una imagen inclinada y transform
 
 ---
 
-## Available disks
+## Available disks {#available-disks}
 
 ::: {.disk-grid}
 
@@ -130,13 +154,17 @@ A young planetary system famous for hosting directly detected forming planets em
 :::
 
 ---
+## What is a protoplanetary disk?
 
-## Catalog objective
+A protoplanetary disk is a young, flattened structure that forms around a star during its earliest stages, when part of the collapsing material no longer falls directly onto the protostar but instead settles into orbit through “angular momentum conservation” [@williams2011; @andrews2020]. In this sense, it can be understood as a “flattened disk of gas and solids” that accompanies the young star and gathers the material from which the system will continue to evolve. These disks are also the “material reservoirs and birthplaces of planetary systems,” because they host the processes that may eventually lead to the formation of planets [@andrews2020].
 
-The purpose of this catalog is to organize selected observational and theoretical information about **young circumstellar disks** in a clear and educational format. Each disk page summarizes basic system properties, disk morphology, dust and gas structure, and possible evidence of planet formation.
+Their connection to young stars is therefore direct: they appear “shortly after their birth” and are studied especially around visible young stars such as **T Tauri stars**, during early phases like **Class II YSOs** [@williams2011]. In general, they “form almost immediately after a molecular core collapses,” and they show “an inherent and large diversity in initial disk sizes and masses” [@williams2011]. Once the initial envelope has dispersed, the system is already “truly protoplanetary, not protostellar”; at that stage, the disk contains only “a few percent of the central stellar mass,” usually has a “flared” geometry, and shows approximately “Keplerian” motions, features that describe its basic shape and dynamics [@williams2011].
 
-The catalog focuses especially on **disk substructures** such as rings, gaps, spirals, crescents, and asymmetries, since these features have become central to modern studies of planet-forming disks [@andrews2020].
+These disks not only store material, but also provide the setting where planet formation begins. In the “core accretion model,” dust grains grow through several stages until they become rocks, planetesimals, and protoplanetary cores capable of capturing gas [@williams2011]. For that reason, studying the mass, structure, and evolution of a disk helps us understand not only how a young system changes over time, but also what kinds of planets may form within it and how their properties depend on the disk’s physical conditions [@andrews2020].
 
+### How do we observe protoplanetary disks?
+
+Protoplanetary disks are studied at different wavelengths because each tracer reveals a different part of their structure [@andrews2020]. In the optical and near-infrared, “scattered light” primarily traces small dust grains in the disk surface; in the mid-infrared, warmer dust in the inner regions is more easily detected; and at sub-mm/mm wavelengths, “thermal continuum emission” is used to study the distribution of colder solids, while “spectral line emission” probes the properties and dynamics of the gas [@andrews2020]. Because many disks are cold, small on the sky, and emit efficiently at millimeter wavelengths, “radio interferometry” has become essential, and much of the recent progress in the field has been driven by **ALMA**, one of the most important tools for studying protoplanetary disks and their substructures [@andrews2020].
 ---
 
 ## How to use this catalog

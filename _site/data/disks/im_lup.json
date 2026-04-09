@@ -1,0 +1,268 @@
+{
+  "id": "im-lup",
+  "title": "IM Lup — Protoplanetary Disk",
+  "object_name": "IM Lup",
+  "image": {
+    "path": "images/im_lupi_gallery.jpg",
+    "caption": "High-resolution SPHERE image of the dusty disk around the young star IM Lupi, revealing fine structures in scattered light. Credit: ESO/H. Avenhaus et al./DARTT-S collaboration."
+  },
+  "object_names": [
+    {
+      "catalog": "Main name",
+      "name": "IM Lup",
+      "source": "cleeves2016"
+    },
+    {
+      "catalog": "Other designations",
+      "name": "Sz 82",
+      "source": "cleeves2016"
+    },
+    {
+      "catalog": "Region",
+      "name": "Lupus 2 cloud",
+      "source": "cleeves2016"
+    }
+  ],
+  "location": "IM Lup is located in the Lupus 2 cloud. Within this star-forming environment, the system lies at a distance of 161 ± 10 pc. The same study also reports large-scale (>30\") CO emission from the parent cloud, indicating that the disk is embedded in a broader natal environment.",
+  "location_sources": [
+    "cleeves2016"
+  ],
+  "general_description_of_the_system": "IM Lup is a young system located in the Lupus 2 cloud, at a distance of 161 ± 10 pc, whose central star has an estimated age of 0.5–1 Myr and a spectral type M0. In general terms, this is a particularly interesting disk because earlier observations detected a gaseous disk together with large-scale (>30\") CO emission from the parent cloud, suggesting that the system still retains a connection to its natal environment. In addition, the disk was described as massive, ~0.1 M⊙, a striking property because IM Lup does not appear to be actively accreting, although the same study notes that its accretion may vary over time. It is also notable that the gas is more extended than the dust, 900 au versus 400 au, which made IM Lup one of the first systems where this dust–gas dichotomy was clearly seen. This overall picture is reinforced by later studies showing that the SPHERE and ALMA data show two very different geometries of the disk, indicating that the system displays a tracer-dependent structure: more flared and vertically extended in the near-infrared, and flatter at millimeter wavelengths. Taken together, these properties show that IM Lup is not only a large and material-rich disk, but also a key system for studying how gas and dust can become distributed differently during the early stages of protoplanetary disk evolution.",
+  "general_description_sources": [
+    "cleeves2016",
+    "franceschi2023"
+  ],
+  "general_system_properties": [
+    {
+      "property": "Spectral type",
+      "value": "M0",
+      "description": "Spectral class of the central star.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Age",
+      "value": "0.5–1 Myr",
+      "description": "Estimated age of the system.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Distance",
+      "value": "161 ± 10 pc",
+      "description": "Distance from Earth.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Stellar luminosity",
+      "value": "0.9 L☉",
+      "description": "Total energy emitted by the star.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Stellar mass",
+      "value": "1 M☉",
+      "description": "Mass of the central star.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Effective temperature",
+      "value": "4350 K",
+      "description": "Approximate surface temperature of the star.",
+      "source": "franceschi2023"
+    },
+    {
+      "property": "Disk mass",
+      "value": "0.2 M☉",
+      "description": "Estimated total mass of the disk.",
+      "source": "franceschi2023"
+    }
+  ],
+  "disk_morphology": "In morphological terms, IM Lup shows in the submillimeter continuum a bright central continuum peak, and fainter emission which extends out as a broad plateau, that is, a bright inner region followed by fainter and more extended outer emission. In addition, the outer disk appears truncated at ~2\", suggesting that the observable material does not extend indefinitely outward. Superimposed on this global structure, the continuum profile exhibits minor breaks in the continuum slope suggestive of ring-like structures, with discontinuities near 150 au and 250 au, indicating that the disk is not completely smooth but instead may host annular substructures. This picture becomes more concrete in scattered-light measurements, which report four small-grain rings at approximately 91.9, 152.1, 240.8, and 332.8 au, consistent with a sequence of concentric structures distributed across the disk. However, because higher-resolution observations are necessary to confirm the presence of these rings, these features should for now be interpreted as tentative evidence for rings rather than as definitively confirmed ring structures.",
+  "disk_morphology_sources": [
+    "cleeves2016",
+    "rich2021"
+  ],
+  "morphology_measurements": [
+    {
+      "property": "Inclination",
+      "value": "48 ± 3°",
+      "description": "Tilt of the disk relative to our line of sight.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Position angle",
+      "value": "144 ± 3°",
+      "description": "Orientation of the disk major axis on the sky.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Millimeter dust outer radius",
+      "value": "313 ± 15 au",
+      "description": "Outer edge of the large-grain disk seen in the millimeter continuum.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Tentative continuum rings",
+      "value": "~150 au; ~250 au",
+      "description": "Possible annular brightness breaks in the Band 7 continuum.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Inner disk component size",
+      "value": "≤21 au",
+      "description": "Maximum radius of the compact inner millimeter-emitting component.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Small dust ring 1",
+      "value": "Radius: 91.9 ± 3.2 au; Height: 16.5 ± 2.8 au",
+      "description": "First scattered-light ring traced by small dust grains.",
+      "source": "rich2021"
+    },
+    {
+      "property": "Small dust ring 2",
+      "value": "Radius: 152.1 ± 4.8 au; Height: 27.4 ± 6.1 au",
+      "description": "Second scattered-light ring traced by small dust grains.",
+      "source": "rich2021"
+    },
+    {
+      "property": "Small dust ring 3",
+      "value": "Radius: 240.8 ± 4.8 au; Height: 55.4 ± 9.6 au",
+      "description": "Third scattered-light ring traced by small dust grains.",
+      "source": "rich2021"
+    },
+    {
+      "property": "Small dust ring 4",
+      "value": "Radius: 332.8 ± 12.7 au; Height: 83.2 ± 16.6 au",
+      "description": "Fourth scattered-light ring traced by small dust grains.",
+      "source": "rich2021"
+    }
+  ],
+  "dust_in_the_disk": "In IM Lup, dust is not distributed uniformly, but instead arranged in a complex structure with a bright inner region and a fainter, more extended outer component: the continuum shows a bright central continuum peak, and fainter emission which extends out as a broad plateau. Overall, the large grains are more concentrated than the gas, with a smaller vertical scale height, a more compact radial distribution, and a millimeter-grain disk truncated at 313 ± 15 au, so the system can be described as having two main components: a bright inner disk and a broad outer halo. In addition, the dust in the inner disk is dense enough to hide part of the line emission, suggesting the presence of large grains that are vertically suspended in this central region. This picture is reinforced by later work showing that within ~20 au, the surface density of large dust is 10–100 times higher than expected from an extrapolation of the outer disk and that this region contains a mass reservoir of at least 540 M⊕ within 20 au. To explain these observations, Bosman et al. propose that the large grains in the inner disk must be significantly vertically extended, to the point that the dust scale height is the same as the gas scale height within 30 au. Taken together, these results show that IM Lup combines a globally settled millimeter-dust disk with an inner region that is optically thick, massive, and vertically more extended, making it a particularly interesting system for studying the early evolution of solids in protoplanetary disks.",
+  "dust_in_the_disk_sources": [
+    "cleeves2016",
+    "bosman2023"
+  ],
+  "dust_properties": [
+    {
+      "property": "Dust mass",
+      "value": "1.7 × 10^-3 M☉",
+      "description": "Total dust mass in the disk.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Relative scale height of millimeter grains",
+      "value": "0.25",
+      "description": "Shows that large grains are settled toward the midplane.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Mass fraction in large grains",
+      "value": "0.99",
+      "description": "Fraction of dust mass in large grains.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Small dust grain size range",
+      "value": "0.005–1 μm",
+      "description": "Size range of the small-dust population.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Large dust grain size range",
+      "value": "0.005 μm–1 mm",
+      "description": "Size range of the large-dust population.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Dust composition",
+      "value": "80% astronomical silicates + 20% graphite",
+      "description": "Dust composition adopted in the model.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Inner disk dust optical depth at 875 μm",
+      "value": "τ875μm ≳ 4 within 20 au; >10 at 1 au",
+      "description": "Shows that the inner dust disk is optically thick.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Inner large-dust surface density enhancement",
+      "value": "10–100× higher than outer-disk extrapolation",
+      "description": "Strong excess of large dust in the inner disk.",
+      "source": "bosman2023"
+    },
+    {
+      "property": "Inner dust mass reservoir",
+      "value": "≥540 M⊕ within 20 au",
+      "description": "Minimum dust mass concentrated in the inner disk.",
+      "source": "bosman2023"
+    },
+    {
+      "property": "Inner disk dust surface density",
+      "value": "≥10 g cm^-2",
+      "description": "Minimum inner-disk dust density needed to match the observations.",
+      "source": "bosman2023"
+    },
+    {
+      "property": "Inner-disk dust scale height",
+      "value": "Same as the gas scale height within 30 au",
+      "description": "Indicates vertically extended dust in the inner disk.",
+      "source": "bosman2023"
+    }
+  ],
+  "gas_in_the_disk": "In IM Lup, the gas forms the most extended component of the disk. Observations show that 12CO is detected out to 970 au, while the millimeter dust is confined to a much more compact region, indicating that the gaseous disk extends far beyond the large-grain disk. At the observed scales, this gas appears to be distributed relatively smoothly, and the same study explains that in the outer regions, the lower dust content allows more radiation to penetrate, helping CO remain in the gas phase at large distances. From a chemical point of view, the authors estimate a gas-phase CO abundance equal to only 5% of the interstellar value, suggesting that CO is depleted, although it still remains an important tracer of the disk. They also find that IM Lup is exposed to a low external radiation field (G0 ≤ 4), which nevertheless influences the temperature and chemistry of the gas, especially in the outer disk. In addition, they propose the presence of an extended diffuse halo of 12CO, suggesting that part of the gas may extend beyond the main disk, perhaps as a tenuous envelope or a gaseous continuation of the system’s surroundings. As a complement, Rich et al. (2021) show that the 12CO-emitting layer also has a flared vertical structure, with β = 1.77 ± 0.04 and H0 = 22.7 ± 6.1 au at 100 au, and that beyond 100 au its height exceeds that of the small-dust scattering surface. In other words, in the outer disk the gas not only extends farther out, but also remains at higher layers of the disk than the small dust grains.",
+  "gas_in_the_disk_sources": [
+    "cleeves2016",
+    "rich2021"
+  ],
+  "gas_properties": [
+    {
+      "property": "12CO outer radius",
+      "value": "970 au",
+      "description": "Maximum observed radial extent of the gas traced by 12CO.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Gas mass",
+      "value": "0.17 M☉",
+      "description": "Estimated total mass of gas in the disk.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "Gas-phase CO abundance",
+      "value": "5% of the interstellar value",
+      "description": "Indicates that CO is depleted relative to the standard interstellar abundance.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "External radiation field",
+      "value": "G0 ≤ 4",
+      "description": "Low external UV field affecting the outer disk gas.",
+      "source": "cleeves2016"
+    },
+    {
+      "property": "12CO emission surface flare parameter",
+      "value": "1.77 ± 0.04",
+      "description": "Describes how the observed 12CO-emitting layer rises with radius.",
+      "source": "rich2021"
+    },
+    {
+      "property": "12CO emission surface height at 100 au",
+      "value": "22.7 ± 6.1 au",
+      "description": "Observed height of the 12CO-emitting layer at 100 au.",
+      "source": "rich2021"
+    }
+  ],
+  "evidence_of_planet_formation": "In IM Lup, the evidence for planet formation does not come from a directly confirmed planet, but rather from the way the disk itself appears to be evolving. Bosman et al. argue that the IM Lup disk shows evidence that it has been shaped by an episode of dust drift, meaning that the system was likely shaped by radial dust drift, a key process because it transports pebbles and solids through different regions of the disk. From this picture, the same study concludes that this scenario is ideal for the formation of giant planet cores at larger (>20 au) radii and that the more settled regions outside 20 au are still conducive to giant planet formation, suggesting that the outer disk provides the most favorable conditions for the growth of giant-planet cores. This idea becomes especially important when the authors state that the conditions in the IM Lup disk imply that giant planet formation through pebble accretion is only effective outside of 20 au, because that sentence directly links the observed disk structure to a physical consequence: in IM Lup, giant planet formation is not equally likely throughout the system, but appears to be favored mainly in the outer disk. Taken together, these results make IM Lup a particularly valuable case for understanding how dust evolution can point to specific regions where giant planet formation may be most efficient.",
+  "evidence_of_planet_formation_sources": [
+    "bosman2023"
+  ],
+  "physical_interpretation_of_im_lup": "In physical terms, IM Lup appears to be a disk whose evolution is governed by the radial and vertical redistribution of dust. Bosman et al. propose that the system was shaped by an intense episode of dust drift, which would have transported a large amount of solids inward and created a clear division between two disk regions: an inner zone, within ~20 au, where dust is strongly concentrated and remains vertically extended, and an outer zone where solid material is still drifting inward. This interpretation is important because it suggests that the inner disk does not behave like a quiet, settled region, but rather like a more dynamically active environment, where the high dust concentration and strong vertical mixing point to a turbulent state, possibly linked to the vertical shear instability. At the same time, Cleeves et al. (2016) show that the disk must be understood as a system in which gas, dust, and the external environment are tightly coupled: when dust is reduced in the outer disk, that region becomes more exposed to stellar and external radiation, the freeze-out rate changes, and the gas chemistry is altered; by contrast, the inner region is so dense and optically thick that it can hide part of the line emission, reinforcing the idea of a compact, opaque, and vertically complex inner disk. Taken together, this physical picture suggests that IM Lup is not a uniform disk, but a system in which different regions evolve in different ways: the inner disk would be dominated by dust pileup, high opacity, and turbulence, whereas the outer disk would preserve conditions more favorable for pebble accretion and, therefore, for the formation of giant-planet cores.",
+  "physical_interpretation_sources": [
+    "bosman2023",
+    "cleeves2016"
+  ],
+  "activity": {
+    "status": "Coming soon"
+  }
+}

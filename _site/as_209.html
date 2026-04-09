@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>AS 209: Protoplanetary Disk – Pilot Protoplanetary Disk Catalog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Pilot Protoplanetary Disk Catalog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./activities.html"> 
+<span class="menu-text">Activities</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#object-names" id="toc-object-names" class="nav-link active" data-scroll-target="#object-names">Object names</a></li>
+  <li><a href="#location" id="toc-location" class="nav-link" data-scroll-target="#location">Location</a></li>
+  <li><a href="#general-description-of-the-system" id="toc-general-description-of-the-system" class="nav-link" data-scroll-target="#general-description-of-the-system">General description of the system</a></li>
+  <li><a href="#general-system-properties" id="toc-general-system-properties" class="nav-link" data-scroll-target="#general-system-properties">General system properties</a></li>
+  <li><a href="#disk-morphology" id="toc-disk-morphology" class="nav-link" data-scroll-target="#disk-morphology">Disk morphology</a></li>
+  <li><a href="#morphology-measurements" id="toc-morphology-measurements" class="nav-link" data-scroll-target="#morphology-measurements">Morphology measurements</a></li>
+  <li><a href="#dust-in-the-disk" id="toc-dust-in-the-disk" class="nav-link" data-scroll-target="#dust-in-the-disk">Dust in the disk</a></li>
+  <li><a href="#dust-properties" id="toc-dust-properties" class="nav-link" data-scroll-target="#dust-properties">Dust properties</a></li>
+  <li><a href="#gas-in-the-disk" id="toc-gas-in-the-disk" class="nav-link" data-scroll-target="#gas-in-the-disk">Gas in the disk</a></li>
+  <li><a href="#gas-properties" id="toc-gas-properties" class="nav-link" data-scroll-target="#gas-properties">Gas properties</a></li>
+  <li><a href="#evidence-of-planet-formation" id="toc-evidence-of-planet-formation" class="nav-link" data-scroll-target="#evidence-of-planet-formation">Evidence of planet formation</a></li>
+  <li><a href="#physical-interpretation-of-as-209" id="toc-physical-interpretation-of-as-209" class="nav-link" data-scroll-target="#physical-interpretation-of-as-209">Physical interpretation of AS 209</a></li>
+  <li><a href="#activity" id="toc-activity" class="nav-link" data-scroll-target="#activity">Activity</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AS 209: Protoplanetary Disk</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="fig-as209" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-as209-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/as_209_ficha.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation. Credit: ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile)."><img src="images/as_209_ficha.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="650"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-as209-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation. Credit: ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile).
+</figcaption>
+</figure>
+</div>
+<p>As shown in <a href="#fig-as209" class="quarto-xref">Figure&nbsp;1</a>, the AS 209 disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission.</p>
+<section id="object-names" class="level2">
+<h2 class="anchored" data-anchor-id="object-names">Object names</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Catalog</th>
+<th>Name</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Main name</td>
+<td>AS 209</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Other designations</td>
+<td>PDS 92; V1121 Oph; HBC 270; IRAS 16464-1416</td>
+<td><span class="citation" data-cites="gregorio-hetem1992iras">(<a href="#ref-gregorio-hetem1992iras" role="doc-biblioref">Gregorio-Hetem et al. 1992</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Location</td>
+<td>Ophiuchus star-forming region</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="location" class="level2">
+<h2 class="anchored" data-anchor-id="location">Location</h2>
+<p>AS 209 is located in the <strong>Ophiuchus molecular cloud</strong>, a nearby star-forming region that hosts many young stellar systems. In the literature, the source is described as a <strong>T Tauri star</strong> in the young Ophiuchus star-forming region at a distance of <strong>126 pc</strong> from the Sun <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>.</p>
+<p>Its relative proximity makes AS 209 an excellent target for <strong>high-resolution millimeter observations</strong>, allowing both the dust and gas substructures of the disk to be studied in detail.</p>
+</section>
+<section id="general-description-of-the-system" class="level2">
+<h2 class="anchored" data-anchor-id="general-description-of-the-system">General description of the system</h2>
+<p>AS 209 is a young protoplanetary system surrounding a T Tauri star, with a stellar mass of 0.9 M☉, spectral type K5, and luminosity of 1.5 L☉ <span class="citation" data-cites="tazzari2016">(<a href="#ref-tazzari2016" role="doc-biblioref">Tazzari et al. 2016</a>)</span>, located in the Ophiuchus star-forming region at a distance of 126 pc <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>. At 1.3 mm, Fedele et al.&nbsp;show that its disk displays a bright central core, two prominent rings at ~75 and ~130 au, and two gaps at ~62 and ~103 au, with the inner gap being narrower and shallower than the outer one <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>. Building on this observational picture, Zhang et al.&nbsp;highlight the “excellent agreement between observations and simulations for AS 209” and describe it as “a system with many gaps,” reinforcing the idea that it is a particularly valuable object for studying disk substructures and their possible connection to planet formation <span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span>. In addition, the multiwavelength analysis of Tazzari et al.&nbsp;reveals evidence for radial dust evolution: the largest grains are concentrated in the inner regions, whereas smaller grains dominate the outer disk, suggesting that the growth and redistribution of solids do not occur uniformly throughout the disk <span class="citation" data-cites="tazzari2016">(<a href="#ref-tazzari2016" role="doc-biblioref">Tazzari et al. 2016</a>)</span>.</p>
+</section>
+<section id="general-system-properties" class="level2">
+<h2 class="anchored" data-anchor-id="general-system-properties">General system properties</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Value</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Distance</td>
+<td>126 pc</td>
+<td>Distance from the Sun to AS 209.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Age</td>
+<td>~0.5–1.0 Myr</td>
+<td>Estimated age of the system.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Spectral type</td>
+<td>K5</td>
+<td>Spectral class of the central star.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Stellar temperature</td>
+<td>4250 K</td>
+<td>Effective temperature of the star.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Stellar mass</td>
+<td>0.83–0.9 M☉</td>
+<td>Mass of the central star.</td>
+<td><span class="citation" data-cites="zhang2018 fedele2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>; <a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Stellar luminosity</td>
+<td>1.5 L☉</td>
+<td>Luminosity of the central star.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Disk radius (dust)</td>
+<td>~170–180 au</td>
+<td>Outer extent of the dust continuum emission.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Disk outer radius (gas emission)</td>
+<td>&gt;200 au</td>
+<td>Outer extent of the disk traced by CO emission.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Disk inclination</td>
+<td>35.3 ± 0.8°</td>
+<td>Tilt of the disk with respect to the line of sight.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="disk-morphology" class="level2">
+<h2 class="anchored" data-anchor-id="disk-morphology">Disk morphology</h2>
+<p>AS 209 exhibits a radial architecture with multiple gaps, as noted by Zhang et al.: “Huang et al.&nbsp;(2018a) and Guzmán et al.&nbsp;(2018) identified many gaps in this system including dark annuli at 9, 24, 35, 61, 90, 105, and 137 au” <span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span>. Not all of these substructures have the same depth, depending on their location within the system. For example, the authors indicate that “We find that the gap at r = 61 au is shallower than the main gap, and it is at 0.5–0.7 rp. Thus, we treat it as a secondary gap induced by the planet” <span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span>. In other words, the gap at 61 au would be less deep than the main gap around 100 au. Within that same interpretive framework, Zhang et al.&nbsp;add: “Our simulation with one planet at 99 au not only matches the primary gap around 100 au, but also matches the position and amplitude of secondary (61 au), tertiary (35 au), and even the fourth (24 au) inner gaps” <span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span>. This morphology is also clearly reflected in the dust continuum observations presented by Fedele et al.: “The dust continuum emission is characterized by a main central core and two prominent rings at r = 75 au and r = 130 au intervaled by two gaps at r = 62 au and r = 103 au” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>. The rings of AS 209 also show: “The continuum emission is characterized by a bright central emission and two weaker dust rings peaking at ∼75 and 130 au” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>; thus, the continuum emission maxima are located in those two rings. The annular substructures in the system are not continuous, but are instead separated by narrow gaps with lower emission. In general, the architecture of AS 209 is described as follows: “We find that the 1.3 mm continuum brightness distribution of AS 209 can be explained very well by a profile with two deep gaps … at 62 and 103 au, respectively, and an excess ring … at ∼130 au” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>.</p>
+</section>
+<section id="morphology-measurements" class="level2">
+<h2 class="anchored" data-anchor-id="morphology-measurements">Morphology measurements</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Structure</th>
+<th>Measurement</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>G9</td>
+<td>9 au</td>
+<td>Inner dust gap identified in the AS 209 disk.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>G24</td>
+<td>24 au</td>
+<td>Inner dust gap; interpreted as a fourth inner gap in the one-planet scenario.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>G35</td>
+<td>35 au</td>
+<td>Inner dust gap; interpreted as a tertiary gap in the one-planet scenario.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>G61</td>
+<td>61 au</td>
+<td>Secondary dust gap; shallower than the main gap.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>G1</td>
+<td>61.7 ± 0.5 au</td>
+<td>Main inner dust gap identified in the 1.3 mm continuum.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>R1</td>
+<td>~75 au</td>
+<td>Inner dust ring where the continuum emission peaks.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>G90</td>
+<td>90 au</td>
+<td>Dust gap identified in the outer disk.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>G105</td>
+<td>105 au</td>
+<td>Dust gap associated with the main outer gap region.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>G2</td>
+<td>103.2 ± 0.4 au</td>
+<td>Main outer dust gap identified in the 1.3 mm continuum.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>R2</td>
+<td>~130 au</td>
+<td>Outer dust ring where the continuum emission peaks.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>G137</td>
+<td>137 au</td>
+<td>Outer dust gap in the external disk.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dust-in-the-disk" class="level2">
+<h2 class="anchored" data-anchor-id="dust-in-the-disk">Dust in the disk</h2>
+<p>The observation and study of dust dynamics in protoplanetary disks are grounded in the fact that “High angular resolution observations at several (sub-)mm wavelengths constitute the ideal tool with which to directly probe the bulk of dust grains and to investigate the radial distribution of their properties” <span class="citation" data-cites="tazzari2016">(<a href="#ref-tazzari2016" role="doc-biblioref">Tazzari et al. 2016</a>)</span>. In this context, it is well established that dust is not distributed uniformly, since “Theoretical models of grain growth predict that dust properties change as a function of disk radius, mass, age, and other physical conditions” <span class="citation" data-cites="tazzari2016">(<a href="#ref-tazzari2016" role="doc-biblioref">Tazzari et al. 2016</a>)</span>. In the case of AS 209, this radial variation is closely linked to grain size: “In these disks we find evidence of a decrease in the maximum dust grain size, amax, with radius. We derive large amax values up to 1 cm in the inner disk 15 AU ≤ R ≤ 30 AU and smaller grains with amax ∼ 1 mm in the outer disk (R ≳ 80 AU)” <span class="citation" data-cites="tazzari2016">(<a href="#ref-tazzari2016" role="doc-biblioref">Tazzari et al. 2016</a>)</span>. Fedele et al.&nbsp;further show that this distribution changes not only with radius, but also from one disk substructure to another, since “the inner gap is partially filled with millimeter grains while the outer gap is largely devoid of dust” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>, indicating that dust depletion is not equally severe in all gaps. The reason for this behavior is that “radial drift effectively depletes the large grain population in disks within 1 Myr … unless it is halted by the occurrence of dust traps” <span class="citation" data-cites="tazzari2016">(<a href="#ref-tazzari2016" role="doc-biblioref">Tazzari et al. 2016</a>)</span>; indeed, Fedele et al.&nbsp;explain that “the millimeter dust grains are radially confined regions in which inward radial migration is slowed down or stopped” and that “dust traps provide the ideal environment … allowing dust to grow in situ” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>. In AS 209, these dust traps help explain both the retention of large grains in the disk and their accumulation in rings, within a scenario in which “the planet is responsible for the gap opening and for the pile-up of dust at the outer edge of the planet orbit” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>.</p>
+</section>
+<section id="dust-properties" class="level2">
+<h2 class="anchored" data-anchor-id="dust-properties">Dust properties</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Value</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dust continuum outer extent</td>
+<td>~170–180 au</td>
+<td>Outer radial extent of the faint dust continuum emission.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Dust mass</td>
+<td>3.5 × 10^-4 M☉</td>
+<td>Fiducial dust mass adopted to reproduce the observed dust structure.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Maximum grain size</td>
+<td>2000 μm</td>
+<td>Maximum grain size adopted for the large dust population in the AS 209 model.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Inner gap depletion factor</td>
+<td>~0.03</td>
+<td>Best-fit brightness depletion factor of the inner dust gap.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Outer gap depletion factor</td>
+<td>~0.025</td>
+<td>Best-fit brightness depletion factor of the outer dust gap.</td>
+<td><span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Dust surface density</td>
+<td>0.17 g cm^-2</td>
+<td>Average amount of dust per unit area in the outer disk around the main gap.</td>
+<td><span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gas-in-the-disk" class="level2">
+<h2 class="anchored" data-anchor-id="gas-in-the-disk">Gas in the disk</h2>
+<p>In AS 209, the gas is also not distributed uniformly, and its structure becomes clearer when different molecular tracers are examined together. The C<span class="math inline">\(^{18}\)</span>O emission first reveals a well-defined radial organization, with an inner concentration of gas close to the star and an outer ring around 140 au, separated by a region of weaker emission: “The C18O emission shows a compact (≲60 au), centrally peaked emission and an outer ring peaking at 140 au” <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>. In addition, its radial profile “harbors a drop in intensity between the two continuum gaps” <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>, suggesting that the substructures observed in the dust are also reflected in the gas. This connection is further strengthened by Fedele et al., who note that “the ALMA C18O image presented in Huang et al.&nbsp;(2016) shows an extended emission peaking at nearly 130 au. This extended emission is co-spatial to the outer dust ring” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>, indicating that the outer dust ring also has a gaseous counterpart. Along the same line, the authors add that “This is a strong indication that the large scale C18O emission follows the actual disk surface density in the outer disk and it points to a gas density drop by a factor of a few inside the outer gap (‘G2’)” <span class="citation" data-cites="fedele2018">(<a href="#ref-fedele2018" role="doc-biblioref">Fedele et al. 2018</a>)</span>, reinforcing the idea that the outer gap is not only a dust substructure, but also a region where the gas density decreases. In contrast, DCO<span class="math inline">\(^+\)</span> does not follow exactly the same pattern: “Regarding the DCO+ emission, two rings are observed” <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>, one between the two dust gaps and another beyond the outer gap, showing that different tracers reveal different physical and chemical conditions within the disk. To explain this overall morphology, Favre et al.&nbsp;conclude that “Σgas needs to be lowered” inside the gaps <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>, meaning that temperature or opacity effects alone are not sufficient and that a real decrease in the gas surface density is required. Taken together, this evidence supports a dynamical interpretation of the disk, in which the gaseous structure of AS 209 has been modified by a “gas perturbation due to one or more forming planets” <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>.</p>
+</section>
+<section id="gas-properties" class="level2">
+<h2 class="anchored" data-anchor-id="gas-properties">Gas properties</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Value</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CO outer extent</td>
+<td>&gt;200 au</td>
+<td>The CO gas extends farther out than the millimeter dust disk.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+<tr class="even">
+<td>C<span class="math inline">\(^{18}\)</span>O inner emission</td>
+<td>≤60 au</td>
+<td>Inner concentration of gas close to the star, traced by C<span class="math inline">\(^{18}\)</span>O.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>C<span class="math inline">\(^{18}\)</span>O outer ring</td>
+<td>140 au</td>
+<td>Outer gas ring detected in C<span class="math inline">\(^{18}\)</span>O emission.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+<tr class="even">
+<td>DCO<span class="math inline">\(^+\)</span> inner ring</td>
+<td>66–95 au</td>
+<td>Gas ring located between the two main dust gaps.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>DCO<span class="math inline">\(^+\)</span> outer ring</td>
+<td>&gt;120 au</td>
+<td>Outer gas ring detected beyond the outer dust gap.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+<tr class="even">
+<td>C<span class="math inline">\(^{18}\)</span>O optical depth</td>
+<td>≤0.8</td>
+<td>C<span class="math inline">\(^{18}\)</span>O is optically thin, so it traces gas structure more directly.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>CO and <span class="math inline">\(^{13}\)</span>CO optical depth</td>
+<td>≥2.5</td>
+<td>CO and <span class="math inline">\(^{13}\)</span>CO are optically thick, so they hide part of the gas structure.</td>
+<td><span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="evidence-of-planet-formation" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-of-planet-formation">Evidence of planet formation</h2>
+<p>In <strong>AS 209</strong>, the evidence for planet formation does not rest on a single isolated substructure, but rather on the consistent way in which observations and models describe the disk as a dynamically perturbed system. In the millimeter continuum, it had already been proposed that <strong>“the observed rings and gaps of the 1.3 mm continuum emission are likely due to the formation of planets; this hypothesis is commensurate with hydrodynamical simulations”</strong> <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>, meaning that the ringed architecture of the disk is consistent with the action of forming planets. This interpretation is further strengthened by the results of Zhang et al.: <strong>“our simulation with one planet at 99 au not only matches the primary gap around 100 au, but also matches the position and amplitude of secondary (61 au), tertiary (35 au), and even the fourth (24 au) inner gaps”</strong> <span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span>. In other words, a single embedded planet could account not only for the main gap, but also for several inner substructures in the disk. For this reason, the authors conclude that <strong>“This makes AS 209 the most plausible case that there is indeed a planet within the 100 au gap”</strong> <span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span>. Moreover, the evidence does not come from the dust alone: Favre et al.&nbsp;add that <strong>“Our findings confirm that the previously observed dust gaps are very likely due to perturbation of the gas surface density that is induced by a planet of at least 0.2MJ in formation”</strong> <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>, which reinforces the interpretation that the observed gaps trace a real planet–disk interaction process rather than a merely apparent redistribution of material.</p>
+</section>
+<section id="physical-interpretation-of-as-209" class="level2">
+<h2 class="anchored" data-anchor-id="physical-interpretation-of-as-209">Physical interpretation of AS 209</h2>
+<p>AS 209 can be understood as a young disk in which dust evolution and planet–disk interaction are operating together. On the one hand, the dust does not evolve uniformly across the system: larger grains are concentrated toward the inner regions, while smaller grains dominate farther out in the disk, a pattern that is consistent with grain growth, radial drift, and the need for retention mechanisms to keep solids from being rapidly lost. On the other hand, the observed ring-and-gap architecture is best explained if the disk is being dynamically sculpted by an embedded planet in a very low-viscosity environment, since Zhang et al.&nbsp;show that “the q = 10−4 planet in a α = 10−5 and h/r = 0.05 disk can explain all five gaps at 24, 35, 62, 90, and 105 au” <span class="citation" data-cites="zhang2018">(<a href="#ref-zhang2018" role="doc-biblioref">Zhang et al. 2018</a>)</span>, implying that a single outer planet could account for much of the system’s radial structure. This interpretation becomes even stronger because the gas is also genuinely perturbed: Favre et al.&nbsp;conclude that “the previously observed dust gaps are very likely due to perturbation of the gas surface density that is induced by a planet of at least 0.2MJ in formation” <span class="citation" data-cites="favre2019">(<a href="#ref-favre2019" role="doc-biblioref">Favre et al. 2019</a>)</span>, showing that the gaps are not merely brightness variations in the dust, but signatures of a real reorganization of the disk surface density. Taken together, AS 209 is best interpreted as a low-turbulence disk in which a forming planet is already reshaping both the dust and the gas, leaving an observable imprint of ongoing planet formation.</p>
+</section>
+<section id="activity" class="level2">
+<h2 class="anchored" data-anchor-id="activity">Activity</h2>
+<p>Coming soon</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-favre2019" class="csl-entry" role="listitem">
+Favre, Cécile, Davide Fedele, Luke Maud, Richard Booth, Marco Tazzari, Anna Miotello, Leonardo Testi, Dmitry Semenov, and Simon Bruderer. 2019. <span>“Gas Density Perturbations Induced by One or More Forming Planets in the AS 209 Protoplanetary Disk as Seen with ALMA.”</span> <em>The Astrophysical Journal</em> 871: 107. <a href="https://doi.org/10.3847/1538-4357/aaf80c">https://doi.org/10.3847/1538-4357/aaf80c</a>.
+</div>
+<div id="ref-fedele2018" class="csl-entry" role="listitem">
+Fedele, Davide, Marco Tazzari, Richard Booth, Leonardo Testi, Cathie J. Clarke, Ilaria Pascucci, Agnes Kospal, et al. 2018. <span>“ALMA Continuum Observations of the Protoplanetary Disk AS 209: Evidence of Multiple Gaps Opened by a Single Planet?”</span> <em>Astronomy &amp; Astrophysics</em> 610: A24. <a href="https://doi.org/10.1051/0004-6361/201731978">https://doi.org/10.1051/0004-6361/201731978</a>.
+</div>
+<div id="ref-gregorio-hetem1992iras" class="csl-entry" role="listitem">
+Gregorio-Hetem, J., J. R. D. Lepine, G. R. Quast, C. A. O. Torres, and R. de La Reza. 1992. <span>“A Search for t Tauri Stars Based on the IRAS Point Source Catalog. i.”</span> <em>Astronomical Journal</em> 103 (February): 549–63. <a href="https://doi.org/10.1086/116082">https://doi.org/10.1086/116082</a>.
+</div>
+<div id="ref-tazzari2016" class="csl-entry" role="listitem">
+Tazzari, M., L. Testi, B. Ercolano, A. Natta, A. Isella, C. J. Chandler, L. M. Pérez, et al. 2016. <span>“Multiwavelength Analysis for Interferometric (Sub-)mm Observations of Protoplanetary Disks: Radial Constraints on the Dust Properties and the Disk Structure.”</span> <em>Astronomy &amp; Astrophysics</em> 588: A53. <a href="https://doi.org/10.1051/0004-6361/201527423">https://doi.org/10.1051/0004-6361/201527423</a>.
+</div>
+<div id="ref-zhang2018" class="csl-entry" role="listitem">
+Zhang, Shangjia, Zhaohuan Zhu, Jane Huang, Viviana V. Guzmán, Sean M. Andrews, Tilman Birnstiel, Cornelis P. Dullemond, et al. 2018. <span>“The Disk Substructures at High Angular Resolution Project (DSHARP). VII. The Planet–Disk Interactions Interpretation.”</span> <em>The Astrophysical Journal Letters</em> 869: L47. <a href="https://doi.org/10.3847/2041-8213/aaf744">https://doi.org/10.3847/2041-8213/aaf744</a>.
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/martinaAbarca\.github\.io\/pilot-protoplanetary-disks-catalog\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

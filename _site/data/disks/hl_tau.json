@@ -1,0 +1,288 @@
+{
+  "id": "hl_tau",
+  "title": "HL Tau — Protoplanetary Disk",
+  "object_names": {
+    "main_name": {
+      "value": "HL Tau",
+      "source": ["alma2015"]
+    },
+    "other_designations": {
+      "value": ["Haro 6-14"],
+      "source": ["Gomez1997"]
+    },
+    "location_name": {
+      "value": "Taurus Molecular Cloud",
+      "source": ["pinte2016"]
+    }
+  },
+  "location": {
+    "summary": "HL Tau is located in the Taurus molecular cloud, within the Taurus star-forming complex, at a distance of 140 pc.",
+    "source": ["pinte2016"]
+  },
+  "general_description": {
+    "summary": "HL Tau is a remarkably important young system because, although it is still described as a Class I–II protostar, it already hosts a compact, massive disk together with a highly collimated outflow, reflecting an early yet highly active stage of evolution. ALMA observations revealed a clear sequence of bright and dark rings in the disk, showing that a complex architecture is already in place at this initial stage. Moreover, the dark regions are not devoid of emission, and their properties are consistent with dust growth and evolution, suggesting that they may be linked to the earliest stages of planet formation. This interpretation becomes clearer when one considers that ALMA primarily traces millimeter-sized dust: in the presence of embedded protoplanets, that dust can respond differently from the gas, making the gaps appear sharper in the dust component. Along the same lines, radiative transfer modeling indicates that the main gaps are depleted by at least a factor of 10 in dust and that the outermost ring contains fewer millimeter-sized grains than the inner regions, pointing to more efficient grain growth closer to the star and/or radial migration. In addition, the millimeter dust forms a geometrically thin layer, which is interpreted as a clear sign of strong settling toward the midplane, precisely where solid material can become concentrated and continue to evolve.",
+    "source": ["alma2015", "dipierro2015", "pinte2016"]
+  },
+  "general_system_properties": {
+    "distance": {
+      "value": "~140 pc",
+      "description": "Adopted mean distance to the HL Tau region in Taurus.",
+      "source": ["alma2015", "pinte2016"]
+    },
+    "age": {
+      "value": "≤1–2 Myr",
+      "description": "Young system, based on the age of the Taurus cluster.",
+      "source": ["alma2015"]
+    },
+    "evolutionary_class": {
+      "value": "Class I–II",
+      "description": "Protostellar source in transition, with evidence of both an envelope and a circumstellar disk.",
+      "source": ["alma2015", "pinte2016"]
+    },
+    "spectral_type": {
+      "value": "K5",
+      "description": "Spectral classification from optical high-dispersion spectroscopy.",
+      "source": ["alma2015"]
+    },
+    "stellar_mass": {
+      "value": "~1.3–1.7 M☉",
+      "description": "Estimated from disk gas kinematics, from HCO+ analysis to CO/HCO+ modeling consistent with Keplerian rotation.",
+      "source": ["alma2015", "pinte2016"]
+    },
+    "disk_radius": {
+      "value": "~120 AU",
+      "description": "Approximate outer radius of the dust disk resolved at millimeter wavelengths.",
+      "source": ["alma2015", "pinte2016"]
+    },
+    "disk_mass": {
+      "value": "~0.03–0.14 M☉",
+      "description": "Range from previous millimeter continuum modeling cited in the ALMA study.",
+      "source": ["alma2015"]
+    },
+    "disk_inclination": {
+      "value": "~47°",
+      "description": "Disk geometry derived from ellipse fitting to the resolved ring structure.",
+      "source": ["alma2015"]
+    },
+    "disk_viscosity_alpha": {
+      "value": "~3 × 10^-4",
+      "description": "Turbulent viscosity inferred from the degree of dust settling required to reproduce the observed ring contrast.",
+      "source": ["pinte2016"]
+    }
+  },
+  "disk_morphology": {
+    "summary": "The morphology of the HL Tau disk is defined by a remarkably pronounced annular architecture, resolved by ALMA in unprecedented detail at 2.9, 1.3, and 0.87 mm. These observations reveal a pattern of bright and dark rings observed at all wavelengths, demonstrating that these are genuine disk substructures rather than imaging artifacts. In the combined 1.0 mm image, the authors identify seven pairs of bright and dark rings, organized as B1–B7 for the bright rings and D1–D7 for the dark gaps, revealing a complex and highly ordered radial distribution of material. Dipierro et al. further describe HL Tau as showing concentric, axisymmetric gaps, emphasizing the regular and symmetric character of this morphology. In their interpretation, this appearance can be understood because ALMA primarily traces millimeter-sized dust, and that component does not respond to embedded planets in the same way as the gas. In addition, the planets in their model are not presented as direct detections, but rather as a dynamical test of plausibility: the main observed morphology can be reproduced with three embedded planets at 13.2, 32.3 and 68.8 au, supporting the idea that the most prominent gaps may be linked to planet–disk interaction.",
+    "source": ["alma2015", "dipierro2015"]
+  },
+  "morphology_measurements": [
+    {
+      "structure": "D1",
+      "measurement": "13.2 AU",
+      "description": "Innermost dark gap identified in the HL Tau disk.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "B1",
+      "measurement": "20.4 AU",
+      "description": "Innermost bright ring identified in the HL Tau disk.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "D2",
+      "measurement": "32.3 AU",
+      "description": "Dark gap in the inner annular structure of the disk.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "B2",
+      "measurement": "38.1 AU",
+      "description": "Bright ring in the inner annular structure of the disk.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "D3",
+      "measurement": "~42 AU",
+      "description": "Intermediate dark gap in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "B3",
+      "measurement": "~47 AU",
+      "description": "Intermediate bright ring in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "D4",
+      "measurement": "~50 AU",
+      "description": "Intermediate dark gap in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "B4",
+      "measurement": "~55 AU",
+      "description": "Intermediate bright ring in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "D5",
+      "measurement": "64.2 AU",
+      "description": "Outer dark gap in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "B5",
+      "measurement": "68.8 AU",
+      "description": "Outer bright ring in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "D6",
+      "measurement": "73.7 AU",
+      "description": "Outer dark gap in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "B6",
+      "measurement": "81.3 AU",
+      "description": "Outer bright ring in the annular disk structure.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "D7",
+      "measurement": "~91 AU",
+      "description": "Outermost dark gap identified in the HL Tau disk.",
+      "source": ["alma2015"]
+    },
+    {
+      "structure": "B7",
+      "measurement": "~97 AU",
+      "description": "Outermost bright ring identified in the HL Tau disk.",
+      "source": ["alma2015"]
+    }
+  ],
+  "dust_in_disk": {
+    "summary": "In HL Tau, dust is not distributed homogeneously, but instead exhibits a clearly differentiated radial and vertical structure. ALMA observations indicate a pattern of bright and dark rings observed at all wavelengths, and that the dark rings are not devoid of emission, which indicates that the solid material does not disappear completely in those regions, but is instead redistributed within the disk. Pinte et al. show that the spectral index increases from the inner to the outer regions, indicating that the emission properties change with radius. In this context, the fact that the outermost ring is depleted in millimeter-sized dust is interpreted as evidence of faster grain growth in the central regions and/or radial migration of the larger grains. Added to this is the fact that the main gaps show a drastic reduction in dust density relative to the adjacent rings, indicating that the solid material does not form a smooth disk, but is already strongly concentrated in some regions and depleted in others. Moreover, the millimeter dust is confined to a geometrically thin layer, which constitutes a clear sign of vertical settling toward the midplane. Taken together, this suggests that the millimeter continuum is dominated by large, settled grains, whereas reproducing the SED requires an additional population of submicron grains distributed in a much thicker structure, thus reinforcing the idea of strong dust stratification in the disk.",
+    "source": ["alma2015", "pinte2016"]
+  },
+  "dust_properties": [
+    {
+      "property": "Spectral index profile (0.87–2.9 mm)",
+      "value": "~2.2 to ~3.5",
+      "description": "The spectral index increases from the inner to the outer disk, indicating radial changes in dust emissivity and/or optical depth.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Outermost ring dust distribution",
+      "value": "depleted in millimeter grains",
+      "description": "The outermost ring shows a relative lack of large grains, consistent with less efficient grain growth there and/or radial migration of large grains toward inner regions.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Ring dust mass range",
+      "value": "7–120 M⊕",
+      "description": "The rings contain a substantial fraction of the solid material in the disk.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Total dust mass",
+      "value": "5 × 10^-4 M☉",
+      "description": "Total dust mass of the best-fit radiative transfer model.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Best-fit millimeter dust scale height",
+      "value": "h1mm = 0.70 AU",
+      "description": "Best-fit scale height for 1 mm grains in the settled dust layer.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Millimeter dust disk thickness at 100 AU",
+      "value": "~1 AU; upper limit ≲ 2 AU",
+      "description": "The millimeter-emitting dust disk is geometrically very thin, consistent with strong vertical settling.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Turbulent viscosity coefficient",
+      "value": "α = 3 × 10^-4",
+      "description": "Best-fit turbulent viscosity coefficient inferred from the settling model.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Gas-to-dust ratio in the midplane (100 AU)",
+      "value": "≈6",
+      "description": "Estimated gas-to-dust ratio in the disk midplane at 100 AU for grains up to 3 mm.",
+      "source": ["pinte2016"]
+    },
+    {
+      "property": "Submicron dust component for the SED",
+      "value": "h0 = 30 AU; dust mass = 2.8 × 10^-6 M☉",
+      "description": "A thicker small-grain component is required to reproduce the SED.",
+      "source": ["pinte2016"]
+    }
+  ],
+  "gas_in_disk": {
+    "summary": "In HL Tau, the disk gas is not observed as a simple, isolated component, but rather as part of a system that remains embedded in an active environment. ALMA observations show that its study is affected by spatial and kinematic confusion due to the extended ridge and outflow emission near the ambient velocity, meaning that the disk signal is partially blended with that of the surrounding material. Even so, HCO+ made it possible to spatially resolve the morphology of the HL Tau molecular gas disk for the first time, revealing a roughly Keplerian velocity distribution over a detectable range of 2.0 to 12.0 km s−1. Along the same lines, Pinte et al. show that both HCO+ and 12CO display a spatially compact component and a velocity gradient consistent with disk rotation, confirming that the brightest gas is truly associated with the disk and rotates around the star. Moreover, not all tracers describe this dynamics in the same way: CN and HCN are only detected in absorption, and part of the observed asymmetry is interpreted as self-absorption linked to the outflow. Taken together, this picture shows that the gas in HL Tau follows an approximately Keplerian rotation, although its structure and kinematics are not entirely simple.",
+    "source": ["alma2015", "pinte2016"]
+  },
+  "gas_properties": [
+    {
+      "property": "Molecular tracers",
+      "value": "HCO⁺, ¹²CO, CN, HCN",
+      "description": "Molecular lines detected toward the system. In these studies, HCO⁺ and ¹²CO are the main tracers of the disk kinematics, while CN and HCN are detected primarily in absorption.",
+      "source": ["alma2015", "pinte2016"]
+    },
+    {
+      "property": "Velocity range",
+      "value": "2–12 km/s",
+      "description": "Detectable radial velocity range of the gas in HCO⁺, consistent with the rotating molecular disk.",
+      "source": ["alma2015"]
+    },
+    {
+      "property": "Systemic velocity",
+      "value": "7.0 ± 0.2 km/s",
+      "description": "Adopted systemic velocity of HL Tau, derived from the deepest CN and HCN absorption.",
+      "source": ["alma2015"]
+    },
+    {
+      "property": "Rotation type",
+      "value": "approximately Keplerian",
+      "description": "The gas kinematics are consistent with disk rotation around the central star, although the observed pattern is affected by absorption and environmental contamination.",
+      "source": ["alma2015", "pinte2016"]
+    },
+    {
+      "property": "Disk inclination",
+      "value": "~47°",
+      "description": "Geometric inclination of the disk used to interpret the observed gas kinematics and estimate the stellar mass.",
+      "source": ["alma2015"]
+    },
+    {
+      "property": "Stellar mass (kinematic)",
+      "value": "~1.3–1.7 M☉",
+      "description": "Gas kinematics imply a stellar mass in this range: ALMA observations give ~1.3 M☉ from HCO⁺ under a simple Keplerian interpretation, while later analysis finds the gas more consistent with ~1.7 M☉.",
+      "source": ["alma2015", "pinte2016"]
+    },
+    {
+      "property": "Gas inner radius",
+      "value": "~10 AU (upper limit)",
+      "description": "Approximate inner radius of the gaseous disk inferred from CO; treated as an upper limit because it is constrained by sensitivity at the highest velocities.",
+      "source": ["pinte2016"]
+    }
+  ],
+  "evidence_of_planet_formation": {
+    "summary": "Observationally, HL Tau provides evidence of planet formation: thanks to ALMA, we know that the disk material is already being dynamically sculpted. The disk gaps are not devoid of emission, which means that the cavity is not empty, but instead corresponds to a region where the dust has been redistributed by a physical process consistent with planet–disk interaction. In addition, several rings show center offsets, and some substructures follow resonant proportions such as D1:D2:D3:D4 = 1:4:6:8; these dynamics—opening gaps, perturbing the orbits of disk material, and organizing structures within the disk—are evidence of a protoplanet altering the disk architecture. This interpretation is further supported by the simulations of Dipierro et al. (2015), in which three embedded planets were modeled at 13.2, 32.3, and 68.8 au, with masses of 0.2, 0.27, and 0.55 MJ, and it was concluded that this scenario can reproduce most of the structures seen in the ALMA image. In other words, the planets are not presented here as directly detected objects, but as a physically plausible explanation for why the disk displays such an ordered architecture.",
+    "source": ["alma2015", "dipierro2015"]
+  },
+  "physical_interpretation": {
+    "summary": "HL Tau can be physically interpreted as an extremely young system that remains in an active evolutionary stage, yet whose disk already exhibits a complex architecture that is unlikely to arise from a passive distribution of material alone. As ALMA observations describe it, HL Tau is an excellent example of a system just emerging from its protostellar cocoon, and even at this stage it already shows bright rings, dark gaps, evidence of grain growth, and a radial organization suggesting that both dust and gas are being dynamically rearranged. In this context, Dipierro et al. provide a broader physical interpretation: the morphology of HL Tau can be understood as the outcome of interactions between dust, gas, and embedded planets, with the millimeter dust responding more visibly than the gas to gravitational perturbations and therefore producing the sharply defined rings and gaps seen by ALMA. Taken together, these studies converge on the same picture: HL Tau is not simply a young disk with substructures, but a system in which dust evolution, material redistribution, and the possible presence of protoplanets may already be actively sculpting the disk architecture.",
+    "source": ["alma2015", "dipierro2015"]
+  },
+  "activity": {
+    "status": "Coming soon"
+  },
+  "references": [
+    "alma2015",
+    "pinte2016",
+    "dipierro2015",
+    "Gomez1997"
+  ]
+}
