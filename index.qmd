@@ -210,44 +210,9 @@ The morphology of a protoplanetary disk matters because it reveals not only what
 A protoplanetary disk does not look the same in every tracer because each observation highlights a different physical component of the system. As Andrews explains, “the first two are sensitive to the physical conditions and distribution of the solids, and the third is used to measure the properties of the gas” [@andrews2020]. In the dust component, this difference depends not only on the instrument but also on how particles evolve within the disk: Birnstiel notes that “starlight scattered by small dust in the disk surface as well as the thermal continuum emission of the dust particles themselves are the most readily available observational tracers,” but they do not probe the same grain population [@birnstiel2024]. Small grains remain better mixed in the disk surface, whereas larger grains tend to settle toward the midplane, drift radially, and concentrate at pressure maxima. Aikawa, Okuzumi, and Pontoppidan add that ALMA has revealed “grain growth, gas-dust decoupling, and sub-structures such as rings and gaps in the dust continuum,” while “molecular line observations” provide constraints on the radial and vertical structure of molecular abundances as well as on gas dynamics such as turbulence [@aikawa2024]. For that reason, the same disk can look significantly different in scattered light, thermal continuum emission, and molecular lines, and that is precisely why this catalog separates the sections **Dust in the disk** and **Gas in the disk**.
 
 ---
+## From dust to planets
 
-## Images of protoplanetary disks
-
-Below are examples of protoplanetary disks observed at high angular resolution. These observations reveal a wide diversity of disk morphologies and structures.
-
-::: {.disk-gallery}
-
-::: {#fig-hltau}
-![](images/hl_tau_ALMA.jpg){width=70% fig-alt="HL Tau protoplanetary disk observed with ALMA"}
-
-Composite image of the young star **HL Tau** and its surrounding protoplanetary disk obtained with ALMA and the Hubble Space Telescope, illustrating the ringed disk structure and the scale of the system relative to the Solar System.  
-**Credit:** ALMA (ESO/NAOJ/NRAO), NASA/ESA.
-:::
-
-::: {#fig-as209}
-![](images/as_209_eso.jpg){width=70% fig-alt="AS 209 protoplanetary disk observed with ALMA"}
-
-ALMA image of the protoplanetary disk **AS 209**, showing thin, high-contrast rings viewed nearly face-on. These substructures were observed as part of the DSHARP survey and provide key clues about how planets may form and grow within young disks.  
-**Credit:** ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; NRAO/AUI/NSF, S. Dagnello.
-:::
-
-::: {#fig-hd163296}
-![](images/hd_163296-gallery.jpg){width=70% fig-alt="HD 163296 protoplanetary disk observed with ALMA"}
-
-ALMA image of the protoplanetary disk surrounding the young star **HD 163296**. Observations of the disk revealed structures in both the dust and gas distributions that suggest the presence of forming planets embedded in the disk.  
-**Credit:** ALMA (ESO/NAOJ/NRAO), AUI/NSF, A. Isella, B. Saxton.
-:::
-
-::: {#fig-imlupi}
-![](images/im_lupi_gallery.jpg){width=70% fig-alt="IM Lupi protoplanetary disk observed with SPHERE"}
-
-High-resolution image of the dusty protoplanetary disk around the young star **IM Lupi**, obtained with the SPHERE instrument on ESO’s Very Large Telescope, revealing fine structures in the disk.  
-**Credit:** ESO/H. Avenhaus et al./DARTT-S collaboration.
-:::
-
-:::
-
-These observations, particularly those obtained with **ALMA**, have revealed that disks frequently contain complex structures rather than smooth distributions of gas and dust.
+The path from dust to planets begins with extremely small particles: in protoplanetary disks, the solid material starts at sizes of “≲ 1 µm” [@birnstiel2024]. From there, grains collide, and when those collisions are gentle enough, they can stick together and form progressively larger aggregates. That growth also changes how the particles move: as Williams & Cieza explain, “grain growth and dust settling are intimately interconnected processes,” because as grains grow, they become progressively less coupled to the gas and begin to settle toward the disk midplane, although turbulence can still stir some of that material upward [@williams2011]. As dust grows, its aerodynamic interaction with the gas becomes increasingly important. Birnstiel notes that particles experience a “drag force” when they move relative to the gas, and that matters because the gas orbits in a “slightly sub-Keplerian” way, a little slower than a solid particle responding only to stellar gravity [@birnstiel2024]. As a result, solids feel a small headwind that removes angular momentum and causes them to drift gradually inward toward the star: this process is known as **radial drift**. Growth also does not continue indefinitely, because collisions can stop being “growth-positive” and become “growth-neutral or even destructive”; in other words, aggregates may bounce, fragment, or erode instead of continuing to grow [@birnstiel2024]. This is why the **meter-size barrier** is not a single obstacle, but the combined effect of bouncing, fragmentation, and radial drift, making planetesimal formation far from automatic. For that reason, regions where dust no longer drifts inward so efficiently are especially important. When particles encounter a local pressure maximum, Birnstiel explains that “dust can be trapped,” allowing solids to accumulate into dense concentrations that, in many disks, are observed as dust rings or other substructures [@birnstiel2024]. Such concentrations favor further growth because they retain material and can create conditions in which “planetesimal formation becomes possible” [@birnstiel2024]. In that sense, **dust traps** are especially important because they link the physical evolution of dust with the appearance of substructures and with the formation of planetesimals, which can later become the building blocks of future planetary cores.
 
 ---
 
