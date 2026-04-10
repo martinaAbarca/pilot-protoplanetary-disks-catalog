@@ -205,11 +205,9 @@ The morphology of a protoplanetary disk matters because it reveals not only what
 
 ---
 
-## Comparative catalog summary
+## Dust and gas do not trace the same disk
 
-The following table is generated automatically from the structured catalog files in `data/disks_master.csv`. This allows the catalog to remain reproducible and scalable as new disks and properties are added.
-
-{{< include data/catalog_summary.md >}}
+A protoplanetary disk does not look the same in every tracer because each observation highlights a different physical component of the system. As Andrews explains, “the first two are sensitive to the physical conditions and distribution of the solids, and the third is used to measure the properties of the gas” [@andrews2020]. In the dust component, this difference depends not only on the instrument but also on how particles evolve within the disk: Birnstiel notes that “starlight scattered by small dust in the disk surface as well as the thermal continuum emission of the dust particles themselves are the most readily available observational tracers,” but they do not probe the same grain population [@birnstiel2024]. Small grains remain better mixed in the disk surface, whereas larger grains tend to settle toward the midplane, drift radially, and concentrate at pressure maxima. Aikawa, Okuzumi, and Pontoppidan add that ALMA has revealed “grain growth, gas-dust decoupling, and sub-structures such as rings and gaps in the dust continuum,” while “molecular line observations” provide constraints on the radial and vertical structure of molecular abundances as well as on gas dynamics such as turbulence [@aikawa2024]. For that reason, the same disk can look significantly different in scattered light, thermal continuum emission, and molecular lines, and that is precisely why this catalog separates the sections **Dust in the disk** and **Gas in the disk**.
 
 ---
 
