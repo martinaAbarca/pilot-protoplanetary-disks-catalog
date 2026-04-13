@@ -888,3 +888,51 @@ hr {
   color: #cdb4c0;
   font-style: normal;
 }
+
+.substructure-intro {
+  margin: 1rem 0 1.4rem 0;
+  padding: 1.2rem 1.35rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255, 79, 163, 0.16), rgba(139, 92, 246, 0.10));
+  border: 1px solid rgba(255, 79, 163, 0.30);
+  border-left: 6px solid #ff4fc3;
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.16),
+    0 0 18px rgba(255, 79, 163, 0.10);
+}
+
+.substructure-intro p {
+  margin: 0;
+  color: #ffd9f1 !important;
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+
+.substructure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 1.1rem 0 1.8rem 0;
+}
+
+.substructure-card {
+  padding: 1rem 1rem 0.95rem 1rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255, 79, 163, 0.88), rgba(255, 79, 163, 0.28));
+  border: 1px solid rgba(255, 79, 163, 0.34);
+  box-shadow: 0 10px 22px rgba(255, 79, 163, 0.14);
+}
+
+.substructure-card h4,
+.substructure-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  color: #ffffff !important;
+}
+
+.substructure-card p {
+  margin: 0;
+  color: #fff4fb !important;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
