@@ -39,6 +39,11 @@ This pilot version combines short scientific summaries, representative images, c
 
 ::: {.catalog-hero-image}
 ![](images/portada.jpg){.catalog-hero-photo}
+
+::: {.hero-image-caption}
+*Artist’s impression of a young star surrounded by a protoplanetary disk where planets are forming. The image highlights concentric rings and gaps associated with planet formation.*
+
+**Credit:** ESO/L. Calçada
 :::
 
 :::
