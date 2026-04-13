@@ -909,30 +909,42 @@ hr {
 }
 
 .substructure-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
   margin: 1.1rem 0 1.8rem 0;
 }
 
 .substructure-card {
-  padding: 1rem 1rem 0.95rem 1rem;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: start;
+  gap: 1rem;
+  padding: 1rem 1.15rem;
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(255, 79, 163, 0.88), rgba(255, 79, 163, 0.28));
+  background: linear-gradient(90deg, rgba(255, 79, 163, 0.92), rgba(255, 79, 163, 0.42));
   border: 1px solid rgba(255, 79, 163, 0.34);
   box-shadow: 0 10px 22px rgba(255, 79, 163, 0.14);
 }
 
 .substructure-card h4,
 .substructure-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.55rem;
+  margin: 0;
   color: #ffffff !important;
+  font-size: 1.15rem;
+  line-height: 1.2;
 }
 
 .substructure-card p {
   margin: 0;
   color: #fff4fb !important;
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   line-height: 1.65;
+}
+
+@media (max-width: 700px) {
+  .substructure-card {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
 }
