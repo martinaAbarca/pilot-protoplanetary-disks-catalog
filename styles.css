@@ -794,22 +794,33 @@ hr {
   }
 }
 
+#how-to-use-catalog {
+  color: #ffffff;
+}
+
 .catalog-use-box {
-  color: #ff7ad9;
-  background: rgba(255, 0, 140, 0.08);
-  border: 1px solid rgba(255, 0, 140, 0.25);
-  border-left: 5px solid #ff4fc3;
-  border-radius: 16px;
-  padding: 1.2rem 1.4rem;
-  line-height: 1.85;
-  box-shadow: 0 0 18px rgba(255, 79, 195, 0.12);
-  margin: 1.2rem 0 0.6rem 0;
+  margin: 1.25rem 0 2rem 0;
+  padding: 1.35rem 1.5rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 79, 163, 0.30);
+  border-left: 6px solid #ff4fc3;
+  background: linear-gradient(135deg, rgba(255, 0, 150, 0.13), rgba(139, 92, 246, 0.10));
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.18),
+    0 0 22px rgba(255, 79, 195, 0.12);
+}
+
+.catalog-use-box p {
+  color: #ffd6f2 !important;
+  font-size: 1.07rem;
+  line-height: 1.9;
+  margin-bottom: 1rem;
 }
 
 .catalog-use-box strong {
-  color: #ffb3ec;
+  color: #ffffff !important;
 }
 
 .catalog-use-box em {
-  color: #ffd4f4;
+  color: #ffb3ec !important;
 }
