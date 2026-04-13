@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Pilot Protoplanetary Disk Catalog</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -27,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -54,14 +52,15 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e42cdf836f9b904b02dd19a7390dd244.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -288,7 +287,7 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </section>
 <section id="dust-and-gas-do-not-trace-the-same-disk" class="level2">
 <h2 class="anchored" data-anchor-id="dust-and-gas-do-not-trace-the-same-disk">Dust and gas do not trace the same disk</h2>
-<p>A protoplanetary disk does not look the same in every tracer because each observation highlights a different physical component of the system. As Andrews explains, “the first two are sensitive to the physical conditions and distribution of the solids, and the third is used to measure the properties of the gas” <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In the dust component, this difference depends not only on the instrument but also on how particles evolve within the disk: Birnstiel notes that “starlight scattered by small dust in the disk surface as well as the thermal continuum emission of the dust particles themselves are the most readily available observational tracers,” but they do not probe the same grain population <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. Small grains remain better mixed in the disk surface, whereas larger grains tend to settle toward the midplane, drift radially, and concentrate at pressure maxima. Aikawa, Okuzumi, and Pontoppidan add that ALMA has revealed “grain growth, gas-dust decoupling, and sub-structures such as rings and gaps in the dust continuum,” while “molecular line observations” provide constraints on the radial and vertical structure of molecular abundances as well as on gas dynamics such as turbulence <span class="citation" data-cites="aikawa2024">(<a href="#ref-aikawa2024" role="doc-biblioref">Aikawa et al. 2024</a>)</span>. For that reason, the same disk can look significantly different in scattered light, thermal continuum emission, and molecular lines, and that is precisely why this catalog separates the sections <strong>Dust in the disk</strong> and <strong>Gas in the disk</strong>.</p>
+<p>A protoplanetary disk does not look the same in every tracer because each observation highlights a different physical component of the system. As Andrews explains, “the first two are sensitive to the physical conditions and distribution of the solids, and the third is used to measure the properties of the gas” <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In the dust component, this difference depends not only on the instrument but also on how particles evolve within the disk: Birnstiel notes that “starlight scattered by small dust in the disk surface as well as the thermal continuum emission of the dust particles themselves are the most readily available observational tracers,” but they do not probe the same grain population <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. Small grains remain better mixed in the disk surface, whereas larger grains tend to settle toward the midplane, drift radially, and concentrate at pressure maxima. Aikawa, Okuzumi, and Pontoppidan add that ALMA has revealed “grain growth, gas-dust decoupling, and sub-structures such as rings and gaps in the dust continuum,” while “molecular line observations” provide constraints on the radial and vertical structure of molecular abundances as well as on gas dynamics such as turbulence <span class="citation" data-cites="aikawa2024">(<a href="#ref-aikawa2024" role="doc-biblioref">Aikawa, Okuzumi, and Pontoppidan 2024</a>)</span>. For that reason, the same disk can look significantly different in scattered light, thermal continuum emission, and molecular lines, and that is precisely why this catalog separates the sections <strong>Dust in the disk</strong> and <strong>Gas in the disk</strong>.</p>
 <hr>
 </section>
 <section id="from-dust-to-planets" class="level2">
@@ -296,24 +295,10 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 <p>The path from dust to planets begins with extremely small particles: in protoplanetary disks, the solid material starts at sizes of “≲ 1 µm” <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. From there, grains collide, and when those collisions are gentle enough, they can stick together and form progressively larger aggregates. That growth also changes how the particles move: as Williams &amp; Cieza explain, “grain growth and dust settling are intimately interconnected processes,” because as grains grow, they become progressively less coupled to the gas and begin to settle toward the disk midplane, although turbulence can still stir some of that material upward <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. As dust grows, its aerodynamic interaction with the gas becomes increasingly important. Birnstiel notes that particles experience a “drag force” when they move relative to the gas, and that matters because the gas orbits in a “slightly sub-Keplerian” way, a little slower than a solid particle responding only to stellar gravity <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. As a result, solids feel a small headwind that removes angular momentum and causes them to drift gradually inward toward the star: this process is known as <strong>radial drift</strong>. Growth also does not continue indefinitely, because collisions can stop being “growth-positive” and become “growth-neutral or even destructive”; in other words, aggregates may bounce, fragment, or erode instead of continuing to grow <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. This is why the <strong>meter-size barrier</strong> is not a single obstacle, but the combined effect of bouncing, fragmentation, and radial drift, making planetesimal formation far from automatic. For that reason, regions where dust no longer drifts inward so efficiently are especially important. When particles encounter a local pressure maximum, Birnstiel explains that “dust can be trapped,” allowing solids to accumulate into dense concentrations that, in many disks, are observed as dust rings or other substructures <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. Such concentrations favor further growth because they retain material and can create conditions in which “planetesimal formation becomes possible” <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. In that sense, <strong>dust traps</strong> are especially important because they link the physical evolution of dust with the appearance of substructures and with the formation of planetesimals, which can later become the building blocks of future planetary cores.</p>
 <hr>
 </section>
-<section id="physical-processes-shaping-protoplanetary-disks" class="level2">
-<h2 class="anchored" data-anchor-id="physical-processes-shaping-protoplanetary-disks">Physical processes shaping protoplanetary disks</h2>
-<p>The structure and evolution of protoplanetary disks are governed by several fundamental physical processes.</p>
-<section id="disk-accretion-and-angular-momentum-transport" class="level3">
-<h3 class="anchored" data-anchor-id="disk-accretion-and-angular-momentum-transport">Disk accretion and angular momentum transport</h3>
-<p>Gas in a disk orbits the central star approximately in <strong>Keplerian rotation</strong>. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.</p>
-<p>As Andrews notes, disk structure is deeply connected with disk dynamics and evolution <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. Theoretical models commonly describe these systems within the framework of <strong>thin accretion disks</strong> <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
-</section>
-<section id="gravitational-instability" class="level3">
-<h3 class="anchored" data-anchor-id="gravitational-instability">Gravitational instability</h3>
-<p>In sufficiently massive and cold disks, <strong>self-gravity</strong> can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.</p>
-<p>These spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals.</p>
-</section>
-<section id="pressure-traps-and-dust-concentration" class="level3">
-<h3 class="anchored" data-anchor-id="pressure-traps-and-dust-concentration">Pressure traps and dust concentration</h3>
-<p>In many disks, local gas-pressure maxima can trap drifting solids. These regions are especially important because they help explain why dust can accumulate in rings instead of being lost rapidly through inward radial drift <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<section id="how-do-protoplanetary-disks-evolve-and-develop-substructures" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-protoplanetary-disks-evolve-and-develop-substructures">How do protoplanetary disks evolve and develop substructures?</h2>
+<p>The evolution of a protoplanetary disk can be understood as a process of <strong>redistributing material and angular momentum</strong>. Because these disks form through “angular momentum conservation,” gas cannot fall directly onto the star; in order to accrete, it must transfer part of its orbital motion to other regions of the disk <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. For that reason, while some material gradually moves inward, another part can spread outward; in this sense, the disk can “accrete onto the star while simultaneously spreading diffusively to large radii” <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>. This evolution is often described in terms of an <strong>effective viscosity</strong>, understood not as ordinary molecular friction but as a simplified way to represent angular momentum transport; in many models, that efficiency is summarized with the <strong>α parameter</strong> <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>. Among the relevant mechanisms are the <strong>MRI</strong>, which can “initiate and sustain MHD turbulence,” and <strong>self-gravity</strong>, which in sufficiently cold and massive disks can generate “trailing spiral arms” and redistribute both mass and angular momentum <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>. But disk evolution is not expressed only on global scales: many observed substructures likely trace <strong>local gas pressure maxima</strong>, where the migration of solids slows down and material can accumulate <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. Those pressure maxima may arise from <strong>fluid instabilities</strong> or from <strong>planet–disk interactions</strong>, and their effects can perturb both gas and dust, manifesting as rings, gaps, spirals, asymmetries, or even <strong>arc</strong>- and <strong>crescent</strong>-like features <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In that sense, disk morphology is not just appearance: it is an observable way of following the physical processes that govern disk evolution and help set the conditions for planet formation.</p>
 <hr>
-</section>
 </section>
 <section id="substructures-in-protoplanetary-disks" class="level2">
 <h2 class="anchored" data-anchor-id="substructures-in-protoplanetary-disks">Substructures in protoplanetary disks</h2>
@@ -385,9 +370,9 @@ Figure&nbsp;3: Composite image of the planet-forming disk <strong>IRS 48 (Oph-IR
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-aikawa2024" class="csl-entry" role="listitem">
-Aikawa, Yuri, Satoshi Okuzumi, and Klaus Pontoppidan. 2024. <em>The Physical and Chemical Processes in Protoplanetary Disks: Constraints on the Composition of Comets</em>. <a href="https://doi.org/10.48550/arXiv.2212.14529">https://doi.org/10.48550/arXiv.2212.14529</a>.
+Aikawa, Yuri, Satoshi Okuzumi, and Klaus Pontoppidan. 2024. <span>“The Physical and Chemical Processes in Protoplanetary Disks: Constraints on the Composition of Comets.”</span> <a href="https://doi.org/10.48550/arXiv.2212.14529">https://doi.org/10.48550/arXiv.2212.14529</a>.
 </div>
 <div id="ref-andrews2020" class="csl-entry" role="listitem">
 Andrews, Sean M. 2020. <span>“Observations of Protoplanetary Disk Structures.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 58: 483–528. <a href="https://doi.org/10.1146/annurev-astro-031220-010302">https://doi.org/10.1146/annurev-astro-031220-010302</a>.
