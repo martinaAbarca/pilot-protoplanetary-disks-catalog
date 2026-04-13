@@ -609,18 +609,11 @@
     "text": "How do protoplanetary disks evolve and develop substructures?\nThe evolution of a protoplanetary disk can be understood as a process of redistributing material and angular momentum. Because these disks form through “angular momentum conservation,” gas cannot fall directly onto the star; in order to accrete, it must transfer part of its orbital motion to other regions of the disk (Williams and Cieza 2011). For that reason, while some material gradually moves inward, another part can spread outward; in this sense, the disk can “accrete onto the star while simultaneously spreading diffusively to large radii” (Armitage 2011). This evolution is often described in terms of an effective viscosity, understood not as ordinary molecular friction but as a simplified way to represent angular momentum transport; in many models, that efficiency is summarized with the α parameter (Armitage 2011). Among the relevant mechanisms are the MRI, which can “initiate and sustain MHD turbulence,” and self-gravity, which in sufficiently cold and massive disks can generate “trailing spiral arms” and redistribute both mass and angular momentum (Armitage 2011). But disk evolution is not expressed only on global scales: many observed substructures likely trace local gas pressure maxima, where the migration of solids slows down and material can accumulate (Andrews 2020). Those pressure maxima may arise from fluid instabilities or from planet–disk interactions, and their effects can perturb both gas and dust, manifesting as rings, gaps, spirals, asymmetries, or even arc- and crescent-like features (Andrews 2020). In that sense, disk morphology is not just appearance: it is an observable way of following the physical processes that govern disk evolution and help set the conditions for planet formation."
   },
   {
-    "objectID": "index.html#substructures-in-protoplanetary-disks",
-    "href": "index.html#substructures-in-protoplanetary-disks",
+    "objectID": "index.html#how-to-use-and-expand-this-catalog",
+    "href": "index.html#how-to-use-and-expand-this-catalog",
     "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Substructures in protoplanetary disks",
-    "text": "Substructures in protoplanetary disks\nHigh-resolution observations have revealed that protoplanetary disks frequently contain substructures, meaning localized variations in the distribution of gas or dust.\nThese structures include rings, gaps, spirals, and asymmetric features. Their discovery has significantly reshaped our understanding of disk evolution and planet formation (Andrews 2020).\nSubstructures are particularly important because they can create local pressure maxima that trap drifting particles. In smooth disks, solid particles tend to migrate inward rapidly due to aerodynamic drag from the gas. However, pressure maxima can halt this inward drift and concentrate particles, potentially enabling the formation of planetesimals."
-  },
-  {
-    "objectID": "index.html#common-substructure-morphologies",
-    "href": "index.html#common-substructure-morphologies",
-    "title": "Pilot Protoplanetary Disk Catalog",
-    "section": "Common substructure morphologies",
-    "text": "Common substructure morphologies\nObservations have identified several common classes of disk substructures.\n\nRings and gaps\nThis is the most common morphology observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.\n\n\nCavities\nSome systems display a large central cavity surrounded by an outer ring of emission. This morphology is commonly associated with transition disks.\n\n\nArcs and crescents\nSome disks show asymmetric arc-shaped or crescent-like structures, which may correspond to vortices or local dust concentrations.\n\n\nSpirals\nLarge-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets."
+    "section": "How to use and expand this catalog",
+    "text": "How to use and expand this catalog"
   },
   {
     "objectID": "index.html#images-of-disk-substructures",
