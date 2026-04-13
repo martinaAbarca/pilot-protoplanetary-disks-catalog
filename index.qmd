@@ -32,6 +32,7 @@ This pilot version combines short scientific summaries, representative images, c
 ::: {.hero-actions}
 [Explore disks ↓](#available-disks){.hero-button .hero-button-primary}
 [Open activities →](activities.qmd){.hero-button .hero-button-secondary}
+[How to use this catalog ↓](#how-to-use-catalog){.hero-button .hero-button-secondary}
 :::
 
 :::
@@ -217,57 +218,21 @@ The path from dust to planets begins with extremely small particles: in protopla
 
 ---
 
-## Physical processes shaping protoplanetary disks
+## How do protoplanetary disks evolve and develop substructures?
 
-The structure and evolution of protoplanetary disks are governed by several fundamental physical processes.
-
-### Disk accretion and angular momentum transport
-
-Gas in a disk orbits the central star approximately in **Keplerian rotation**. However, for material to accrete onto the star, it must lose angular momentum. This redistribution of angular momentum drives disk evolution.
-
-As Andrews notes, disk structure is deeply connected with disk dynamics and evolution [@andrews2020]. Theoretical models commonly describe these systems within the framework of **thin accretion disks** [@armitage2011].
-
-### Gravitational instability
-
-In sufficiently massive and cold disks, **self-gravity** can become important. In this regime, gravitational instabilities can generate spiral density patterns that redistribute mass and angular momentum within the disk.
-
-These spiral structures may also concentrate solid particles and potentially contribute to the formation of planetesimals.
-
-### Pressure traps and dust concentration
-
-In many disks, local gas-pressure maxima can trap drifting solids. These regions are especially important because they help explain why dust can accumulate in rings instead of being lost rapidly through inward radial drift [@andrews2020].
+The evolution of a protoplanetary disk can be understood as a process of **redistributing material and angular momentum**. Because these disks form through “angular momentum conservation,” gas cannot fall directly onto the star; in order to accrete, it must transfer part of its orbital motion to other regions of the disk [@williams2011]. For that reason, while some material gradually moves inward, another part can spread outward; in this sense, the disk can “accrete onto the star while simultaneously spreading diffusively to large radii” [@armitage2011]. This evolution is often described in terms of an **effective viscosity**, understood not as ordinary molecular friction but as a simplified way to represent angular momentum transport; in many models, that efficiency is summarized with the **α parameter** [@armitage2011]. Among the relevant mechanisms are the **MRI**, which can “initiate and sustain MHD turbulence,” and **self-gravity**, which in sufficiently cold and massive disks can generate “trailing spiral arms” and redistribute both mass and angular momentum [@armitage2011]. But disk evolution is not expressed only on global scales: many observed substructures likely trace **local gas pressure maxima**, where the migration of solids slows down and material can accumulate [@andrews2020]. Those pressure maxima may arise from **fluid instabilities** or from **planet–disk interactions**, and their effects can perturb both gas and dust, manifesting as rings, gaps, spirals, asymmetries, or even **arc**- and **crescent**-like features [@andrews2020]. In that sense, disk morphology is not just appearance: it is an observable way of following the physical processes that govern disk evolution and help set the conditions for planet formation.
 
 ---
 
-## Substructures in protoplanetary disks
+## How to use and expand this catalog {#how-to-use-catalog}
 
-High-resolution observations have revealed that protoplanetary disks frequently contain **substructures**, meaning localized variations in the distribution of gas or dust.
+::: {.catalog-use-box}
 
-These structures include rings, gaps, spirals, and asymmetric features. Their discovery has significantly reshaped our understanding of disk evolution and planet formation [@andrews2020].
+This catalog was designed as both an **educational** and a **scientific** resource for exploring protoplanetary disks in a structured, comparative, and accessible way. Its purpose is not only to gather information about different systems, but also to help readers understand how these disks are studied, what their substructures mean, and why they matter for planet formation. For that reason, each disk page combines a clear presentation of the object with a physical reading of its morphology, dust and gas properties, possible evidence of planet formation, and broader scientific interpretation.
 
-Substructures are particularly important because they can create **local pressure maxima** that trap drifting particles. In smooth disks, solid particles tend to migrate inward rapidly due to aerodynamic drag from the gas. However, pressure maxima can halt this inward drift and concentrate particles, potentially enabling the formation of planetesimals.
+Each disk entry is organized to guide the reader from basic identification to scientific interpretation. In general, the pages include sections such as **object names**, **location**, **general description**, **morphology**, **dust**, **gas**, **evidence of planet formation**, and **physical interpretation**, so that each system can be read both as an individual astronomical object and as part of a broader comparative context. The activities are designed to be used alongside the disk entries: they allow the reader not only to view images and summaries, but also to practice how substructures can be measured, analyzed, and interpreted from real astronomical data. In that sense, the catalog is conceived as an **open, editable, and scalable** project that can continue to grow through the addition of **new disks**, **new activities**, **new comparative tables**, and **new simulations**, so that it can keep developing as both a learning tool and a scientific outreach resource.
 
----
-
-## Common substructure morphologies
-
-Observations have identified several common classes of disk substructures.
-
-### Rings and gaps
-
-This is the most common morphology observed in millimeter continuum images. It consists of concentric bright rings separated by darker gaps.
-
-### Cavities
-
-Some systems display a large central cavity surrounded by an outer ring of emission. This morphology is commonly associated with transition disks.
-
-### Arcs and crescents
-
-Some disks show asymmetric arc-shaped or crescent-like structures, which may correspond to vortices or local dust concentrations.
-
-### Spirals
-
-Large-scale spiral patterns can arise from gravitational instability or perturbations produced by massive companions or forming planets.
+:::
 
 ---
 
