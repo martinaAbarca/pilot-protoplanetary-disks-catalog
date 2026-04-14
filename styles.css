@@ -916,15 +916,21 @@ hr {
 }
 
 .substructure-card {
+  padding: 0;
+  border-radius: 18px;
+  background: linear-gradient(90deg, rgba(255, 79, 163, 0.92), rgba(255, 79, 163, 0.42));
+  border: 1px solid rgba(255, 79, 163, 0.34);
+  box-shadow: 0 10px 22px rgba(255, 79, 163, 0.14);
+  overflow: hidden;
+}
+
+/* Aquí está el arreglo real: aplicar la grilla al bloque interno que genera Quarto */
+.substructure-card > * {
   display: grid;
   grid-template-columns: 120px 1fr;
   align-items: start;
   gap: 1rem;
   padding: 1rem 1.15rem;
-  border-radius: 18px;
-  background: linear-gradient(90deg, rgba(255, 79, 163, 0.92), rgba(255, 79, 163, 0.42));
-  border: 1px solid rgba(255, 79, 163, 0.34);
-  box-shadow: 0 10px 22px rgba(255, 79, 163, 0.14);
 }
 
 .substructure-card h4,
@@ -943,8 +949,89 @@ hr {
 }
 
 @media (max-width: 700px) {
-  .substructure-card {
+  .substructure-card > * {
     grid-template-columns: 1fr;
     gap: 0.55rem;
   }
+}
+
+.activities-intro {
+  margin: 1rem 0 1.1rem 0;
+  padding: 1.15rem 1.35rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255, 79, 163, 0.14), rgba(139, 92, 246, 0.08));
+  border: 1px solid rgba(255, 79, 163, 0.28);
+  border-left: 6px solid #ff4fc3;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+.activities-intro p {
+  margin: 0;
+  color: #ffd9f1 !important;
+  line-height: 1.85;
+  font-size: 1rem;
+}
+
+.activity-card {
+  margin: 1.3rem 0 2rem 0;
+  padding: 1.3rem 1.35rem;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(255, 79, 163, 0.10), rgba(255, 79, 163, 0.03));
+  border: 1px solid rgba(255, 79, 163, 0.22);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.15),
+    0 0 18px rgba(255, 79, 163, 0.08);
+}
+
+.activity-card h3 {
+  color: #ffffff !important;
+  margin-top: 0.5rem;
+}
+
+.activity-card p {
+  color: #f5dceb !important;
+  line-height: 1.8;
+}
+
+.activity-subbox {
+  margin: 0.9rem 0 1rem 0;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 5px solid rgba(255, 79, 163, 0.75);
+}
+
+.activity-subbox p,
+.activity-subbox li {
+  color: #f8e8f2 !important;
+}
+
+.download-box {
+  margin: 1rem 0 1.1rem 0;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgba(255, 79, 163, 0.22), rgba(255, 79, 163, 0.08));
+  border: 1px solid rgba(255, 79, 163, 0.28);
+}
+
+.download-box p,
+.download-box li {
+  color: #fff1f8 !important;
+}
+
+.download-box a {
+  font-weight: 600;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.35);
+}
+
+.download-box a:hover {
+  color: #ffd6ef !important;
+  border-bottom-color: #ffd6ef;
+}
+
+#activity-1-actividad-1,
+#activity-2-actividad-2 {
+  color: #ffffff;
 }
