@@ -115,16 +115,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos" id="toc-programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos" class="nav-link active" data-scroll-target="#programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos">Programming activities with disk data / Actividades de programación con datos de discos</a></li>
-  <li><a href="#activity-1-actividad-1" id="toc-activity-1-actividad-1" class="nav-link" data-scroll-target="#activity-1-actividad-1">Activity 1 / Actividad 1</a>
-  <ul class="collapse">
-  <li><a href="#english" id="toc-english" class="nav-link" data-scroll-target="#english">English</a></li>
-  <li><a href="#español" id="toc-español" class="nav-link" data-scroll-target="#español">Español</a></li>
-  </ul></li>
-  <li><a href="#activity-2-actividad-2" id="toc-activity-2-actividad-2" class="nav-link" data-scroll-target="#activity-2-actividad-2">Activity 2 / Actividad 2</a>
-  <ul class="collapse">
-  <li><a href="#english-1" id="toc-english-1" class="nav-link" data-scroll-target="#english-1">English</a></li>
-  <li><a href="#español-1" id="toc-español-1" class="nav-link" data-scroll-target="#español-1">Español</a></li>
-  </ul></li>
+  <li><a href="#activity-1-actividad-1" id="toc-activity-1-actividad-1" class="nav-link" data-scroll-target="#activity-1-actividad-1">Activity 1 / Actividad 1</a></li>
+  <li><a href="#activity-2-actividad-2" id="toc-activity-2-actividad-2" class="nav-link" data-scroll-target="#activity-2-actividad-2">Activity 2 / Actividad 2</a></li>
   </ul>
 </nav>
     </div>
@@ -152,60 +144,78 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos" class="level2">
 <h2 class="anchored" data-anchor-id="programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos">Programming activities with disk data / Actividades de programación con datos de discos</h2>
+<div class="activities-intro">
 <p>This section presents introductory programming activities based on <strong>real protoplanetary disk data</strong>. The aim is to help students connect scientific interpretation with practical work using astronomical images.</p>
 <p>Esta sección presenta actividades introductorias de programación basadas en <strong>datos reales de discos protoplanetarios</strong>. El objetivo es ayudar a los estudiantes a conectar la interpretación científica con el trabajo práctico usando imágenes astronómicas.</p>
+</div>
+<div class="activities-intro">
 <p>The activities focus on FITS images, disk geometry, and simple analysis tools that make it possible to identify rings, gaps, and other disk substructures.</p>
 <p>Las actividades se centran en imágenes FITS, geometría de discos y herramientas simples de análisis que permiten identificar anillos, brechas y otras subestructuras del disco.</p>
+</div>
 <hr>
 </section>
 <section id="activity-1-actividad-1" class="level2">
 <h2 class="anchored" data-anchor-id="activity-1-actividad-1">Activity 1 / Actividad 1</h2>
+<div class="activity-card">
 <section id="english" class="level3">
 <h3 class="anchored" data-anchor-id="english">English</h3>
 <p><strong>Radial profile from a FITS image</strong></p>
-<p>In this activity, students work with a <strong>FITS image of a protoplanetary disk</strong> and compute a <strong>radial brightness profile</strong>. The goal is to identify how the intensity changes with distance from the central star and relate those changes to rings, gaps, or other disk substructures.</p>
-<div class="section-box">
-<p><strong>Suggested materials</strong> - FITS image of a disk - Notebook or Python script - Activity rubric - Short guide with the required libraries</p>
-<p><strong>What students practice</strong> - Reading FITS files - Visualizing astronomical images - Measuring intensity as a function of radius - Interpreting rings and gaps from data</p>
-<p><strong>Files</strong> - <a href="data/">Dataset folder</a> - <a href="#">Rubric</a> - <a href="#">Notebook or script</a></p>
+<p>In this activity, students work with a <strong>real FITS image of the protoplanetary disk HD 163296</strong> and compute a <strong>radial brightness profile</strong>. The goal is to explore how the intensity changes with distance from the central star and to relate those variations to rings, gaps, and disk substructures visible in the image.</p>
+<div class="activity-subbox">
+<p><strong>Suggested materials</strong> - FITS image of HD 163296 - Jupyter notebook or Python script - Short guide with the required libraries - Scientific context from the catalog entry</p>
+<p><strong>What students practice</strong> - Reading FITS files - Visualizing astronomical images - Understanding disk geometry - Measuring intensity as a function of radius - Identifying rings and gaps from real data</p>
+</div>
+<div class="download-box">
+<p><strong>Files</strong> - <a href="data/actividades/actividad_hd163296/HD163296_continuum.fits">FITS image</a> - <a href="data/actividades/actividad_hd163296/actividad_hd163296.zip">Complete package (.zip)</a></p>
+<p><strong>Recommendation</strong> - Download the complete package so the notebook and the FITS image remain in the same folder.</p>
 </div>
 </section>
 <section id="español" class="level3">
 <h3 class="anchored" data-anchor-id="español">Español</h3>
 <p><strong>Perfil radial a partir de una imagen FITS</strong></p>
-<p>En esta actividad, los estudiantes trabajan con una <strong>imagen FITS de un disco protoplanetario</strong> y calculan un <strong>perfil radial de brillo</strong>. El objetivo es identificar cómo cambia la intensidad con la distancia a la estrella central y relacionar esas variaciones con anillos, brechas u otras subestructuras del disco.</p>
-<div class="section-box">
-<p><strong>Materiales sugeridos</strong> - Imagen FITS de un disco - Notebook o script en Python - Rúbrica de la actividad - Guía breve con las librerías necesarias</p>
-<p><strong>Qué se practica</strong> - Lectura de archivos FITS - Visualización de imágenes astronómicas - Medición de intensidad en función del radio - Interpretación de anillos y brechas a partir de los datos</p>
-<p><strong>Archivos</strong> - <a href="data/">Carpeta de datos</a> - <a href="#">Rúbrica</a> - <a href="#">Notebook o script</a></p>
+<p>En esta actividad, los estudiantes trabajan con una <strong>imagen FITS real del disco protoplanetario HD 163296</strong> y calculan un <strong>perfil radial de brillo</strong>. El objetivo es explorar cómo cambia la intensidad con la distancia a la estrella central y relacionar esas variaciones con anillos, brechas y otras subestructuras visibles en la imagen.</p>
+<div class="activity-subbox">
+<p><strong>Materiales sugeridos</strong> - Imagen FITS de HD 163296 - Notebook o script en Python - Guía breve con las librerías necesarias - Contexto científico desde la ficha del catálogo</p>
+<p><strong>Qué se practica</strong> - Lectura de archivos FITS - Visualización de imágenes astronómicas - Comprensión de la geometría del disco - Medición de intensidad en función del radio - Identificación de anillos y brechas a partir de datos reales</p>
+</div>
+<div class="download-box">
+<p><strong>Archivos</strong> - <a href="data/actividades/actividad_hd163296/HD163296_continuum.fits">Imagen FITS</a> - <a href="data/actividades/actividad_hd163296/actividad_hd163296.zip">Paquete completo (.zip)</a></p>
+<p><strong>Recomendación</strong> - Se recomienda descargar el paquete completo para que el notebook y la imagen FITS queden en la misma carpeta.</p>
+</div>
+</section>
 </div>
 <hr>
 </section>
-</section>
 <section id="activity-2-actividad-2" class="level2">
 <h2 class="anchored" data-anchor-id="activity-2-actividad-2">Activity 2 / Actividad 2</h2>
+<div class="activity-card">
 <section id="english-1" class="level3">
 <h3 class="anchored" data-anchor-id="english-1">English</h3>
 <p><strong>Deprojection and polar analysis of a disk image</strong></p>
 <p>In this activity, students use a disk image to apply a <strong>geometric deprojection</strong> and then transform it into <strong>polar coordinates</strong>. This makes it easier to identify rings, asymmetries, and localized structures in the disk.</p>
-<div class="section-box">
-<p><strong>Suggested materials</strong> - FITS image of an inclined disk - Notebook or Python script - Activity rubric - Short methodological guide</p>
+<div class="activity-subbox">
+<p><strong>Suggested materials</strong> - FITS image of an inclined disk - Notebook or Python script - Short methodological guide</p>
 <p><strong>What students practice</strong> - Using inclination and position angle - Deprojecting a disk image - Converting an image into polar coordinates - Identifying substructures more clearly</p>
-<p><strong>Files</strong> - <a href="data/">Dataset folder</a> - <a href="#">Rubric</a> - <a href="#">Notebook or script</a></p>
+</div>
+<div class="download-box">
+<p><strong>Files</strong> - Coming soon</p>
 </div>
 </section>
 <section id="español-1" class="level3">
 <h3 class="anchored" data-anchor-id="español-1">Español</h3>
 <p><strong>Deproyección y análisis polar de una imagen de disco</strong></p>
 <p>En esta actividad, los estudiantes usan una imagen de un disco para aplicar una <strong>deproyección geométrica</strong> y luego transformarla a <strong>coordenadas polares</strong>. Esto facilita la identificación de anillos, asimetrías y estructuras localizadas en el disco.</p>
-<div class="section-box">
-<p><strong>Materiales sugeridos</strong> - Imagen FITS de un disco inclinado - Notebook o script en Python - Rúbrica de la actividad - Guía metodológica breve</p>
+<div class="activity-subbox">
+<p><strong>Materiales sugeridos</strong> - Imagen FITS de un disco inclinado - Notebook o script en Python - Guía metodológica breve</p>
 <p><strong>Qué se practica</strong> - Uso de inclinación y ángulo de posición - Deproyección de una imagen de disco - Conversión de una imagen a coordenadas polares - Identificación más clara de subestructuras</p>
-<p><strong>Archivos</strong> - <a href="data/">Carpeta de datos</a> - <a href="#">Rúbrica</a> - <a href="#">Notebook o script</a></p>
+</div>
+<div class="download-box">
+<p><strong>Archivos</strong> - Próximamente</p>
+</div>
+</section>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -282,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/martinaAbarca\.github\.io\/pilot-protoplanetary-disks-catalog\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

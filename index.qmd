@@ -41,11 +41,12 @@ This pilot version combines short scientific summaries, representative images, c
 ![](images/portada.jpg){.catalog-hero-photo}
 
 ::: {.hero-image-caption}
-*Artist’s impression of a young star surrounded by a protoplanetary disk where planets are forming. The image highlights concentric rings and gaps associated with planet formation.*
+*Artist’s impression of a young star surrounded by a protoplanetary disk where planets are forming.*
 
-**Credit:** ESO/L. Calçada
+<span class="hero-image-credit">Credit: ESO/L. Calçada</span>
 :::
 
+:::
 :::
 
 ---
@@ -205,10 +206,54 @@ Protoplanetary disks are studied at different wavelengths because each tracer re
 
 ---
 
-## Why does disk morphology matter?
+::: {.substructure-grid-clean}
 
-The morphology of a protoplanetary disk matters because it reveals not only what the system looks like, but also how it evolves physically. As Williams & Cieza explain, the circumstellar medium “is composed of dust and gas,” and both components undergo “substantial processing” throughout the lifetime of the disk [@williams2011]. In that context, the gas governs much of the large-scale structure, while the dust responds to that dynamic environment: Birnstiel notes that small particles are “most strongly affected by their coupling to the gas via drag forces,” which promotes settling, radial drift, and concentration at pressure maxima [@birnstiel2024]. Rings, gaps, cavities, spirals, and asymmetries should therefore not be understood as isolated shapes, but as signatures of real redistributions of material within the disk. Along the same lines, Andrews emphasizes that “relationships among disk structure properties are also linked to the masses, environments, and evolutionary states of their stellar hosts” and that these substructures “likely trace active sites of planetesimal growth or are the hallmarks of planetary systems at their formation epoch” [@andrews2020]. From this perspective, the catalog focuses on substructures because reading disk morphology is also a way of interpreting disk evolution and its possible connection to planet formation.
+::: {.substructure-row}
+::: {.substructure-name}
+Ring
+:::
+::: {.substructure-text}
+A bright band in the disk, where the emission increases compared with the neighboring regions. In images, it appears as a relatively narrow annulus that stands out from the surrounding material.
+:::
+:::
 
+::: {.substructure-row}
+::: {.substructure-name}
+Gap
+:::
+::: {.substructure-text}
+A dimmer band between brighter rings. In millimeter continuum observations, it is usually interpreted as a local reduction of millimeter-sized dust relative to the adjacent rings, not as a completely empty region.
+:::
+:::
+
+::: {.substructure-row}
+::: {.substructure-name}
+Cavity
+:::
+::: {.substructure-text}
+A large inner region with much weaker emission, usually surrounded by a bright outer ring. Unlike a gap, which is a narrow depression between rings, a cavity is a broader central clearing in the disk structure.
+:::
+:::
+
+::: {.substructure-row}
+::: {.substructure-name}
+Arc
+:::
+::: {.substructure-text}
+A bright feature that covers only part of the disk instead of forming a full circle. It can appear as a partial ring or as a localized concentration of emission in one sector of the disk.
+:::
+:::
+
+::: {.substructure-row}
+::: {.substructure-name}
+Spiral
+:::
+::: {.substructure-text}
+A curved arm-like feature that extends through the disk. These structures can look more open or more tightly wrapped depending on the system.
+:::
+:::
+
+:::
 ---
 
 ## Dust and gas do not trace the same disk

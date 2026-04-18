@@ -1,5 +1,13 @@
 project:
   type: website
+  render:
+    - index.qmd
+    - activities.qmd
+    - as_209.qmd
+    - hd_163296.qmd
+    - hl_tau.qmd
+    - im_lup.qmd
+    - pds_70.qmd
 
 website:
   title: "Pilot Protoplanetary Disk Catalog"

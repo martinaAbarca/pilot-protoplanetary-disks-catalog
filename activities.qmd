@@ -9,69 +9,83 @@ format:
 
 ## Programming activities with disk data / Actividades de programación con datos de discos
 
+::: {.activities-intro}
 This section presents introductory programming activities based on **real protoplanetary disk data**. The aim is to help students connect scientific interpretation with practical work using astronomical images.
 
 Esta sección presenta actividades introductorias de programación basadas en **datos reales de discos protoplanetarios**. El objetivo es ayudar a los estudiantes a conectar la interpretación científica con el trabajo práctico usando imágenes astronómicas.
+:::
 
+::: {.activities-intro}
 The activities focus on FITS images, disk geometry, and simple analysis tools that make it possible to identify rings, gaps, and other disk substructures.
 
 Las actividades se centran en imágenes FITS, geometría de discos y herramientas simples de análisis que permiten identificar anillos, brechas y otras subestructuras del disco.
+:::
 
 ---
 
 ## Activity 1 / Actividad 1 {#activity-1-actividad-1}
 
+::: {.activity-card}
+
 ### English
 
 **Radial profile from a FITS image**
 
-In this activity, students work with a **FITS image of a protoplanetary disk** and compute a **radial brightness profile**. The goal is to identify how the intensity changes with distance from the central star and relate those changes to rings, gaps, or other disk substructures.
+In this activity, students work with a **real FITS image of the protoplanetary disk HD 163296** and compute a **radial brightness profile**. The goal is to explore how the intensity changes with distance from the central star and to relate those variations to rings, gaps, and disk substructures visible in the image.
 
-::: {.section-box}
-
+::: {.activity-subbox}
 **Suggested materials**
-- FITS image of a disk
-- Notebook or Python script
-- Activity rubric
+- FITS image of HD 163296
+- Jupyter notebook or Python script
 - Short guide with the required libraries
+- Scientific context from the catalog entry
 
 **What students practice**
 - Reading FITS files
 - Visualizing astronomical images
+- Understanding disk geometry
 - Measuring intensity as a function of radius
-- Interpreting rings and gaps from data
+- Identifying rings and gaps from real data
+:::
 
+::: {.download-box}
 **Files**
-- [Dataset folder](data/)
-- [Rubric](#)
-- [Notebook or script](#)
+- [FITS image](data/actividades/actividad_hd163296/HD163296_continuum.fits)
+- [Complete package (.zip)](data/actividades/actividad_hd163296/actividad_hd163296.zip)
 
+**Recommendation**
+- Download the complete package so the notebook and the FITS image remain in the same folder.
 :::
 
 ### Español
 
 **Perfil radial a partir de una imagen FITS**
 
-En esta actividad, los estudiantes trabajan con una **imagen FITS de un disco protoplanetario** y calculan un **perfil radial de brillo**. El objetivo es identificar cómo cambia la intensidad con la distancia a la estrella central y relacionar esas variaciones con anillos, brechas u otras subestructuras del disco.
+En esta actividad, los estudiantes trabajan con una **imagen FITS real del disco protoplanetario HD 163296** y calculan un **perfil radial de brillo**. El objetivo es explorar cómo cambia la intensidad con la distancia a la estrella central y relacionar esas variaciones con anillos, brechas y otras subestructuras visibles en la imagen.
 
-::: {.section-box}
-
+::: {.activity-subbox}
 **Materiales sugeridos**
-- Imagen FITS de un disco
+- Imagen FITS de HD 163296
 - Notebook o script en Python
-- Rúbrica de la actividad
 - Guía breve con las librerías necesarias
+- Contexto científico desde la ficha del catálogo
 
 **Qué se practica**
 - Lectura de archivos FITS
 - Visualización de imágenes astronómicas
+- Comprensión de la geometría del disco
 - Medición de intensidad en función del radio
-- Interpretación de anillos y brechas a partir de los datos
+- Identificación de anillos y brechas a partir de datos reales
+:::
 
+::: {.download-box}
 **Archivos**
-- [Carpeta de datos](data/)
-- [Rúbrica](#)
-- [Notebook o script](#)
+- [Imagen FITS](data/actividades/actividad_hd163296/HD163296_continuum.fits)
+- [Paquete completo (.zip)](data/actividades/actividad_hd163296/actividad_hd163296.zip)
+
+**Recomendación**
+- Se recomienda descargar el paquete completo para que el notebook y la imagen FITS queden en la misma carpeta.
+:::
 
 :::
 
@@ -79,18 +93,18 @@ En esta actividad, los estudiantes trabajan con una **imagen FITS de un disco pr
 
 ## Activity 2 / Actividad 2 {#activity-2-actividad-2}
 
+::: {.activity-card}
+
 ### English
 
 **Deprojection and polar analysis of a disk image**
 
 In this activity, students use a disk image to apply a **geometric deprojection** and then transform it into **polar coordinates**. This makes it easier to identify rings, asymmetries, and localized structures in the disk.
 
-::: {.section-box}
-
+::: {.activity-subbox}
 **Suggested materials**
 - FITS image of an inclined disk
 - Notebook or Python script
-- Activity rubric
 - Short methodological guide
 
 **What students practice**
@@ -98,12 +112,11 @@ In this activity, students use a disk image to apply a **geometric deprojection*
 - Deprojecting a disk image
 - Converting an image into polar coordinates
 - Identifying substructures more clearly
+:::
 
+::: {.download-box}
 **Files**
-- [Dataset folder](data/)
-- [Rubric](#)
-- [Notebook or script](#)
-
+- Coming soon
 :::
 
 ### Español
@@ -112,12 +125,10 @@ In this activity, students use a disk image to apply a **geometric deprojection*
 
 En esta actividad, los estudiantes usan una imagen de un disco para aplicar una **deproyección geométrica** y luego transformarla a **coordenadas polares**. Esto facilita la identificación de anillos, asimetrías y estructuras localizadas en el disco.
 
-::: {.section-box}
-
+::: {.activity-subbox}
 **Materiales sugeridos**
 - Imagen FITS de un disco inclinado
 - Notebook o script en Python
-- Rúbrica de la actividad
 - Guía metodológica breve
 
 **Qué se practica**
@@ -125,10 +136,11 @@ En esta actividad, los estudiantes usan una imagen de un disco para aplicar una 
 - Deproyección de una imagen de disco
 - Conversión de una imagen a coordenadas polares
 - Identificación más clara de subestructuras
+:::
 
+::: {.download-box}
 **Archivos**
-- [Carpeta de datos](data/)
-- [Rúbrica](#)
-- [Notebook o script](#)
+- Próximamente
+:::
 
 :::

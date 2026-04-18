@@ -51,7 +51,6 @@ main.content,
 /* Main titles */
 h1 {
   display: inline-block;
-  max-width: 100%;
   color: #ffffff;
   font-family: "Montserrat", "Nunito Sans", Arial, sans-serif !important;
   font-weight: 800;
@@ -60,10 +59,10 @@ h1 {
   letter-spacing: 0.2px;
   margin-top: 0.5rem;
   margin-bottom: 1.3rem;
-  padding: 0.32rem 0.95rem 0.45rem 0.95rem;
-  background: linear-gradient(90deg, var(--accent-magenta), #ff78b8);
+  padding: 0.24rem 0.85rem 0.34rem 0.85rem;
+  background: linear-gradient(90deg, rgba(255, 79, 163, 0.88), rgba(255, 79, 163, 0.28));
   border-radius: 18px;
-  box-shadow: 0 12px 26px rgba(255, 79, 163, 0.24);
+  box-shadow: 0 0 18px rgba(255, 79, 163, 0.22);
   text-shadow: none;
 }
 
@@ -256,8 +255,10 @@ code {
 
 .catalog-hero-image {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.55rem;
 }
 
 .catalog-hero-photo {
@@ -858,4 +859,218 @@ hr {
 
 .hero-image-caption strong {
   color: #ffd7ea !important;
+}
+
+.hero-image-caption {
+  max-width: 390px;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #d7c3cf;
+  opacity: 0.92;
+}
+
+.hero-image-caption p {
+  margin: 0;
+  color: #d7c3cf !important;
+  font-size: 0.78rem !important;
+  line-height: 1.35;
+}
+
+.hero-image-caption em {
+  color: #ead9e3 !important;
+}
+
+.hero-image-credit {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  color: #cdb4c0;
+  font-style: normal;
+}
+
+.substructure-intro {
+  margin: 1rem 0 1.4rem 0;
+  padding: 1.2rem 1.35rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255, 79, 163, 0.16), rgba(139, 92, 246, 0.10));
+  border: 1px solid rgba(255, 79, 163, 0.30);
+  border-left: 6px solid #ff4fc3;
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.16),
+    0 0 18px rgba(255, 79, 163, 0.10);
+}
+
+.substructure-intro p {
+  margin: 0;
+  color: #ffd9f1 !important;
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+
+.substructure-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin: 1.1rem 0 1.8rem 0;
+}
+
+.substructure-card {
+  padding: 0;
+  border-radius: 18px;
+  background: linear-gradient(90deg, rgba(255, 79, 163, 0.92), rgba(255, 79, 163, 0.42));
+  border: 1px solid rgba(255, 79, 163, 0.34);
+  box-shadow: 0 10px 22px rgba(255, 79, 163, 0.14);
+  overflow: hidden;
+}
+
+/* Aquí está el arreglo real: aplicar la grilla al bloque interno que genera Quarto */
+.substructure-card > * {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: start;
+  gap: 1rem;
+  padding: 1rem 1.15rem;
+}
+
+.substructure-card h4,
+.substructure-card h3 {
+  margin: 0;
+  color: #ffffff !important;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.substructure-card p {
+  margin: 0;
+  color: #fff4fb !important;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 700px) {
+  .substructure-card > * {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+}
+
+.activities-intro {
+  margin: 1rem 0 1.1rem 0;
+  padding: 1.15rem 1.35rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255, 79, 163, 0.14), rgba(139, 92, 246, 0.08));
+  border: 1px solid rgba(255, 79, 163, 0.28);
+  border-left: 6px solid #ff4fc3;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+.activities-intro p {
+  margin: 0;
+  color: #ffd9f1 !important;
+  line-height: 1.85;
+  font-size: 1rem;
+}
+
+.activity-card {
+  margin: 1.3rem 0 2rem 0;
+  padding: 1.3rem 1.35rem;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(255, 79, 163, 0.10), rgba(255, 79, 163, 0.03));
+  border: 1px solid rgba(255, 79, 163, 0.22);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.15),
+    0 0 18px rgba(255, 79, 163, 0.08);
+}
+
+.activity-card h3 {
+  color: #ffffff !important;
+  margin-top: 0.5rem;
+}
+
+.activity-card p {
+  color: #f5dceb !important;
+  line-height: 1.8;
+}
+
+.activity-subbox {
+  margin: 0.9rem 0 1rem 0;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 5px solid rgba(255, 79, 163, 0.75);
+}
+
+.activity-subbox p,
+.activity-subbox li {
+  color: #f8e8f2 !important;
+}
+
+.download-box {
+  margin: 1rem 0 1.1rem 0;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgba(255, 79, 163, 0.22), rgba(255, 79, 163, 0.08));
+  border: 1px solid rgba(255, 79, 163, 0.28);
+}
+
+.download-box p,
+.download-box li {
+  color: #fff1f8 !important;
+}
+
+.download-box a {
+  font-weight: 600;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.35);
+}
+
+.download-box a:hover {
+  color: #ffd6ef !important;
+  border-bottom-color: #ffd6ef;
+}
+
+#activity-1-actividad-1,
+#activity-2-actividad-2 {
+  color: #ffffff;
+}
+
+.substructure-grid-clean {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin: 1.1rem 0 1.8rem 0;
+}
+
+.substructure-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem 1.15rem;
+  border-radius: 18px;
+  background: linear-gradient(90deg, rgba(255, 79, 163, 0.92), rgba(255, 79, 163, 0.42));
+  border: 1px solid rgba(255, 79, 163, 0.34);
+  box-shadow: 0 10px 22px rgba(255, 79, 163, 0.14);
+}
+
+.substructure-name {
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 1.08rem;
+  line-height: 1.2;
+}
+
+.substructure-text {
+  color: #fff4fb !important;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 700px) {
+  .substructure-row {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
 }

@@ -1,0 +1,71 @@
+---
+title: "Synthetic Disk Simulation"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+<style>
+.simulacion-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.panel-controles {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.panel-visual {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+#lienzo-disco {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  border: 1px solid #999;
+  border-radius: 12px;
+  display: block;
+  background: #000;
+}
+
+#resumen-parametros {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+</style>
+
+## Protoplanetary Disk Simulation
+
+This interactive tool will show how changing physical parameters modifies the morphology of a synthetic protoplanetary disk.
+
+<div class="simulacion-layout">
+  <div class="panel-controles">
+    <h3>Controls</h3>
+    <p>The sliders will appear here.</p>
+
+    <div id="contenedor-controles"></div>
+  </div>
+
+  <div class="panel-visual">
+    <h3>Disk view</h3>
+
+    <canvas id="lienzo-disco" width="800" height="500"></canvas>
+
+    <div id="resumen-parametros">
+      <strong>Current model:</strong>
+      <p id="texto-parametros">Loading simulation parameters...</p>
+    </div>
+  </div>
+</div>
+
+<script src="simulation.js"></script>
