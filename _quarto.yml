@@ -8,6 +8,7 @@ project:
     - hl_tau.qmd
     - im_lup.qmd
     - pds_70.qmd
+    - simulation.qmd
 
 website:
   title: "Pilot Protoplanetary Disk Catalog"
@@ -17,6 +18,8 @@ website:
         text: Home
       - href: activities.qmd
         text: Activities
+      - href: simulation.qmd
+        text: Simulation
 
 format:
   html:
@@ -28,3 +31,4 @@ format:
 resources:
   - data/**
   - images/**
+  - simulation.js
