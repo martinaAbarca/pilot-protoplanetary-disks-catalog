@@ -126,10 +126,6 @@ This interpretation is important because it suggests that the inner disk does no
 At the same time, Cleeves et al. (2016) show that the disk must be understood as a system in which gas, dust, and the external environment are tightly coupled: when dust is reduced in the outer disk, that region becomes more exposed to stellar and external radiation, the freeze-out rate changes, and the gas chemistry is altered; by contrast, the inner region is so dense and optically thick that it can hide part of the line emission, reinforcing the idea of a compact, opaque, and vertically complex inner disk. 
 Taken together, this physical picture suggests that IM Lup is not a uniform disk, but a system in which different regions evolve in different ways: the inner disk would be dominated by dust pileup, high opacity, and turbulence, whereas the outer disk would preserve conditions more favorable for pebble accretion and, therefore, for the formation of giant-planet cores.
 
-## Activity
-
-**Coming soon**
-
 ## References
 
 ::: {#refs}

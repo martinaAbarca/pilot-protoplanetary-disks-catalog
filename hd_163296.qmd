@@ -108,10 +108,6 @@ The architecture of HD 163296, particularly its gaps and rings, is linked to rea
 
 HD 163296 can be physically interpreted as a disk in which dust is not distributed uniformly, but instead tends to accumulate in specific regions of the gas. In particular, “**Dullemond et al. (2018) finds that many of the continuum rings revealed by DSHARP observations, including the rings B67 and B100 of the HD 163296 disk, have a radial width that is narrower than the estimated pressure scale height of the gaseous disk, and conclude that this is strong evidence that these rings have formed by radial migration of dust particles toward local maxima of the gas pressure**” [@isella2018]. This suggests that the rings are not simply patterns seen in the image, but regions where dust has migrated and accumulated because the local gas pressure favors it. At the same time, this architecture develops within a thin disk, and the outer region is not perfectly uniform, since “**The disc is shown to be thin … Significant modulation of the intensity of the outer ring emission is revealed and discussed**” [@diep2019]. This complexity cannot be explained by smooth dust trapping alone, because “**the observed asymmetries in the dust continuum emission corroborate the hypothesis that the complex structure of the HD 163296 disk is the result of the gravitational interaction with yet-unseen planets**” [@isella2018]. Meanwhile, the gas preserves an overall ordered motion, given that “**The three line emissions display remarkably similar kinematics dominated by Keplerian rotation. An upper limit of 9% of the rotation velocity has been placed on a possible in-fall velocity**” [@diep2019]. Taken together, these results suggest a system in which the rings arise from dust concentration at gas-pressure maxima, while the more complex structures, such as asymmetries and brightness modulations, point to active interaction between the disk and possible forming planets.
 
-## Activity
-
-Coming soon
-
 ## References
 
 ::: {#refs}

@@ -109,10 +109,6 @@ Observationally, HL Tau provides evidence of planet formation: thanks to ALMA, w
 
 HL Tau can be physically interpreted as an extremely young system that remains in an active evolutionary stage, yet whose disk already exhibits a complex architecture that is unlikely to arise from a passive distribution of material alone. As ALMA observations describe it, HL Tau is **“an excellent example of a system just emerging from its protostellar cocoon”** (ALMA Partnership et al. 2015), and even at this stage it already shows bright rings, dark gaps, evidence of grain growth, and a radial organization suggesting that both dust and gas are being dynamically rearranged. In this context, Dipierro et al. provide a broader physical interpretation: the morphology of HL Tau can be understood as the outcome of interactions between dust, gas, and embedded planets, with the millimeter dust responding more visibly than the gas to gravitational perturbations and therefore producing the sharply defined rings and gaps seen by ALMA. Taken together, these studies converge on the same picture: HL Tau is not simply a young disk with substructures, but a system in which dust evolution, material redistribution, and the possible presence of protoplanets may already be actively sculpting the disk architecture.
 
-## Activity
-
-Coming soon
-
 ## References
 
 ::: {#refs}

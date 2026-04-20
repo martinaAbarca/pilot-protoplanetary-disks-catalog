@@ -1069,3 +1069,85 @@ If you are reviewing this project, feedback is especially welcome on:
 - reproducibility,
 - pedagogical value,
 - and code structure.
+
+## Project Map / Mapa del proyecto
+
+### English
+
+This section explains the role of the main files and folders in the repository. It is especially useful for collaborators who want to review, edit, or expand the catalog in **Visual Studio Code**.
+
+- **`index.qmd`**  
+  Main homepage of the catalog. It introduces the project and serves as the main entry point to the website.
+
+- **`as_209.qmd`, `hd_163296.qmd`, `hl_tau.qmd`, `im_lup.qmd`, `pds_70.qmd`**  
+  Individual pages for each protoplanetary disk. These files contain the explanatory text, scientific sections, tables, and educational content shown on the website.
+
+- **`activities.qmd`**  
+  Page dedicated to the educational or data science activities included in the catalog.
+
+- **`simulation.qmd`**  
+  Page containing the disk simulation presented in the website interface.
+
+- **`simulation.js`**  
+  JavaScript file used by the simulation page. It controls the logic and behavior of the interactive simulation.
+
+- **`data/disks/*.json`**  
+  Structured data files for each disk. These files store object properties in an organized format and support the reproducibility and future expansion of the catalog.
+
+- **`images/`**  
+  Folder containing the figures and images used throughout the catalog, including disk images, gallery images, and interface illustrations.
+
+- **`references.bib`**  
+  Main bibliography file used by the catalog pages. New scientific references should be added here.
+
+- **`styles.css`**  
+  Custom styling file for the website. It controls visual aspects such as layout, spacing, fonts, and table appearance.
+
+- **`scripts/`**  
+  Folder containing Python scripts used to validate the catalog structure, build summary tables, and organize the structured information.
+
+- **`_quarto.yml`**  
+  Global Quarto configuration file for the website. It controls site-wide settings such as navigation, format, rendering behavior, and overall structure.
+
+- **`.github/workflows/`**  
+  Contains GitHub Actions workflows related to deployment and automation.
+
+### Español
+
+Esta sección explica la función de los principales archivos y carpetas del repositorio. Es especialmente útil para personas colaboradoras que quieran revisar, editar o ampliar el catálogo en **Visual Studio Code**.
+
+- **`index.qmd`**  
+  Página principal del catálogo. Introduce el proyecto y funciona como punto de entrada al sitio web.
+
+- **`as_209.qmd`, `hd_163296.qmd`, `hl_tau.qmd`, `im_lup.qmd`, `pds_70.qmd`**  
+  Páginas individuales de cada disco protoplanetario. Estos archivos contienen el texto explicativo, las secciones científicas, las tablas y el contenido educativo que se muestra en la web.
+
+- **`activities.qmd`**  
+  Página dedicada a las actividades educativas o de ciencia de datos incluidas en el catálogo.
+
+- **`simulation.qmd`**  
+  Página que contiene la simulación del disco presentada en la interfaz del sitio web.
+
+- **`simulation.js`**  
+  Archivo JavaScript utilizado por la página de simulación. Controla la lógica y el comportamiento de la simulación interactiva.
+
+- **`data/disks/*.json`**  
+  Archivos de datos estructurados para cada disco. Estos archivos almacenan las propiedades de cada objeto de forma organizada y apoyan la reproducibilidad y la futura expansión del catálogo.
+
+- **`images/`**  
+  Carpeta que contiene las figuras e imágenes usadas a lo largo del catálogo, incluyendo imágenes de discos, imágenes de galería e ilustraciones de la interfaz.
+
+- **`references.bib`**  
+  Archivo principal de bibliografía usado por las páginas del catálogo. Las nuevas referencias científicas deben agregarse aquí.
+
+- **`styles.css`**  
+  Archivo de estilos personalizados del sitio web. Controla aspectos visuales como la disposición, los espacios, las fuentes y la apariencia de las tablas.
+
+- **`scripts/`**  
+  Carpeta que contiene scripts en Python usados para validar la estructura del catálogo, construir tablas resumen y organizar la información estructurada.
+
+- **`_quarto.yml`**  
+  Archivo global de configuración de Quarto para el sitio web. Controla aspectos generales como la navegación, el formato, el renderizado y la estructura global del proyecto.
+
+- **`.github/workflows/`**  
+  Contiene los workflows de GitHub Actions relacionados con despliegue y automatización.

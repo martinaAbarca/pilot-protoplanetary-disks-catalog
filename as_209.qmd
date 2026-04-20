@@ -105,10 +105,6 @@ In **AS 209**, the evidence for planet formation does not rest on a single isola
 
 AS 209 can be understood as a young disk in which dust evolution and planet–disk interaction are operating together. On the one hand, the dust does not evolve uniformly across the system: larger grains are concentrated toward the inner regions, while smaller grains dominate farther out in the disk, a pattern that is consistent with grain growth, radial drift, and the need for retention mechanisms to keep solids from being rapidly lost. On the other hand, the observed ring-and-gap architecture is best explained if the disk is being dynamically sculpted by an embedded planet in a very low-viscosity environment, since Zhang et al. show that “the q = 10−4 planet in a α = 10−5 and h/r = 0.05 disk can explain all five gaps at 24, 35, 62, 90, and 105 au” [@zhang2018], implying that a single outer planet could account for much of the system’s radial structure. This interpretation becomes even stronger because the gas is also genuinely perturbed: Favre et al. conclude that “the previously observed dust gaps are very likely due to perturbation of the gas surface density that is induced by a planet of at least 0.2MJ in formation” [@favre2019], showing that the gaps are not merely brightness variations in the dust, but signatures of a real reorganization of the disk surface density. Taken together, AS 209 is best interpreted as a low-turbulence disk in which a forming planet is already reshaping both the dust and the gas, leaving an observable imprint of ongoing planet formation.
 
-## Activity
-
-Coming soon
-
 ## References
 
 ::: {#refs}
