@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/simulation.html</loc>
-    <lastmod>2026-04-20T02:03:23.919Z</lastmod>
-  </url>
-  <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/im_lup.html</loc>
-    <lastmod>2026-04-04T03:40:18.764Z</lastmod>
-  </url>
-  <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/hd_163296.html</loc>
-    <lastmod>2026-04-03T22:08:44.010Z</lastmod>
-  </url>
-  <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/activities.html</loc>
-    <lastmod>2026-04-14T03:14:57.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/index.html</loc>
-    <lastmod>2026-04-14T02:52:38.332Z</lastmod>
-  </url>
-  <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/as_209.html</loc>
-    <lastmod>2026-04-03T21:36:18.570Z</lastmod>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/pds_70.html</loc>
+    <lastmod>2026-04-20T02:53:37.489Z</lastmod>
   </url>
   <url>
     <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/hl_tau.html</loc>
-    <lastmod>2026-04-01T01:17:22.893Z</lastmod>
+    <lastmod>2026-04-20T02:53:37.484Z</lastmod>
   </url>
   <url>
-    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/pds_70.html</loc>
-    <lastmod>2026-04-03T22:14:12.306Z</lastmod>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/as_209.html</loc>
+    <lastmod>2026-04-20T02:53:37.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/index.html</loc>
+    <lastmod>2026-04-20T02:53:37.489Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/activities.html</loc>
+    <lastmod>2026-04-20T02:53:37.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/hd_163296.html</loc>
+    <lastmod>2026-04-20T02:53:37.484Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinaAbarca.github.io/pilot-protoplanetary-disks-catalog/im_lup.html</loc>
+    <lastmod>2026-04-20T02:53:37.484Z</lastmod>
   </url>
 </urlset>

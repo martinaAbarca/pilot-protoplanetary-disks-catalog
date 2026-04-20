@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Pilot Protoplanetary Disk Catalog</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -52,15 +54,14 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e42cdf836f9b904b02dd19a7390dd244.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -117,10 +118,6 @@ div.csl-indent {
   <li class="nav-item">
     <a class="nav-link" href="./activities.html"> 
 <span class="menu-text">Activities</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./simulation.html"> 
-<span class="menu-text">Simulation</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -333,7 +330,7 @@ Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
 </section>
 <section id="dust-and-gas-do-not-trace-the-same-disk" class="level2">
 <h2 class="anchored" data-anchor-id="dust-and-gas-do-not-trace-the-same-disk">Dust and gas do not trace the same disk</h2>
-<p>A protoplanetary disk does not look the same in every tracer because each observation highlights a different physical component of the system. As Andrews explains, “the first two are sensitive to the physical conditions and distribution of the solids, and the third is used to measure the properties of the gas” <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In the dust component, this difference depends not only on the instrument but also on how particles evolve within the disk: Birnstiel notes that “starlight scattered by small dust in the disk surface as well as the thermal continuum emission of the dust particles themselves are the most readily available observational tracers,” but they do not probe the same grain population <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. Small grains remain better mixed in the disk surface, whereas larger grains tend to settle toward the midplane, drift radially, and concentrate at pressure maxima. Aikawa, Okuzumi, and Pontoppidan add that ALMA has revealed “grain growth, gas-dust decoupling, and sub-structures such as rings and gaps in the dust continuum,” while “molecular line observations” provide constraints on the radial and vertical structure of molecular abundances as well as on gas dynamics such as turbulence <span class="citation" data-cites="aikawa2024">(<a href="#ref-aikawa2024" role="doc-biblioref">Aikawa, Okuzumi, and Pontoppidan 2024</a>)</span>. For that reason, the same disk can look significantly different in scattered light, thermal continuum emission, and molecular lines, and that is precisely why this catalog separates the sections <strong>Dust in the disk</strong> and <strong>Gas in the disk</strong>.</p>
+<p>A protoplanetary disk does not look the same in every tracer because each observation highlights a different physical component of the system. As Andrews explains, “the first two are sensitive to the physical conditions and distribution of the solids, and the third is used to measure the properties of the gas” <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In the dust component, this difference depends not only on the instrument but also on how particles evolve within the disk: Birnstiel notes that “starlight scattered by small dust in the disk surface as well as the thermal continuum emission of the dust particles themselves are the most readily available observational tracers,” but they do not probe the same grain population <span class="citation" data-cites="birnstiel2024">(<a href="#ref-birnstiel2024" role="doc-biblioref">Birnstiel 2024</a>)</span>. Small grains remain better mixed in the disk surface, whereas larger grains tend to settle toward the midplane, drift radially, and concentrate at pressure maxima. Aikawa, Okuzumi, and Pontoppidan add that ALMA has revealed “grain growth, gas-dust decoupling, and sub-structures such as rings and gaps in the dust continuum,” while “molecular line observations” provide constraints on the radial and vertical structure of molecular abundances as well as on gas dynamics such as turbulence <span class="citation" data-cites="aikawa2024">(<a href="#ref-aikawa2024" role="doc-biblioref">Aikawa et al. 2024</a>)</span>. For that reason, the same disk can look significantly different in scattered light, thermal continuum emission, and molecular lines, and that is precisely why this catalog separates the sections <strong>Dust in the disk</strong> and <strong>Gas in the disk</strong>.</p>
 <hr>
 </section>
 <section id="from-dust-to-planets" class="level2">
@@ -396,9 +393,9 @@ Figure&nbsp;3: Composite image of the planet-forming disk <strong>IRS 48 (Oph-IR
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-aikawa2024" class="csl-entry" role="listitem">
-Aikawa, Yuri, Satoshi Okuzumi, and Klaus Pontoppidan. 2024. <span>“The Physical and Chemical Processes in Protoplanetary Disks: Constraints on the Composition of Comets.”</span> <a href="https://doi.org/10.48550/arXiv.2212.14529">https://doi.org/10.48550/arXiv.2212.14529</a>.
+Aikawa, Yuri, Satoshi Okuzumi, and Klaus Pontoppidan. 2024. <em>The Physical and Chemical Processes in Protoplanetary Disks: Constraints on the Composition of Comets</em>. <a href="https://doi.org/10.48550/arXiv.2212.14529">https://doi.org/10.48550/arXiv.2212.14529</a>.
 </div>
 <div id="ref-andrews2020" class="csl-entry" role="listitem">
 Andrews, Sean M. 2020. <span>“Observations of Protoplanetary Disk Structures.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 58: 483–528. <a href="https://doi.org/10.1146/annurev-astro-031220-010302">https://doi.org/10.1146/annurev-astro-031220-010302</a>.
