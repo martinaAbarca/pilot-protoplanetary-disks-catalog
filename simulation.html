@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Activities – Pilot Protoplanetary Disk Catalog</title>
+<title>Synthetic Disk Simulation – Pilot Protoplanetary Disk Catalog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -97,11 +97,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./activities.html" aria-current="page"> 
+    <a class="nav-link" href="./activities.html"> 
 <span class="menu-text">Activities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./simulation.html"> 
+    <a class="nav-link active" href="./simulation.html" aria-current="page"> 
 <span class="menu-text">Simulation</span></a>
   </li>  
 </ul>
@@ -115,28 +115,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos" id="toc-programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos" class="nav-link active" data-scroll-target="#programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos">Programming activities with disk data / Actividades de programación con datos de discos</a></li>
-  <li><a href="#activity-1-actividad-1" id="toc-activity-1-actividad-1" class="nav-link" data-scroll-target="#activity-1-actividad-1">Activity 1 / Actividad 1</a></li>
-  <li><a href="#activity-2-actividad-2" id="toc-activity-2-actividad-2" class="nav-link" data-scroll-target="#activity-2-actividad-2">Activity 2 / Actividad 2</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Activities</h1>
+<h1 class="title">Synthetic Disk Simulation</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -148,78 +138,202 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos" class="level2">
-<h2 class="anchored" data-anchor-id="programming-activities-with-disk-data-actividades-de-programación-con-datos-de-discos">Programming activities with disk data / Actividades de programación con datos de discos</h2>
-<div class="activities-intro">
-<p>This section presents introductory programming activities based on <strong>real protoplanetary disk data</strong>. The aim is to help students connect scientific interpretation with practical work using astronomical images.</p>
-<p>Esta sección presenta actividades introductorias de programación basadas en <strong>datos reales de discos protoplanetarios</strong>. El objetivo es ayudar a los estudiantes a conectar la interpretación científica con el trabajo práctico usando imágenes astronómicas.</p>
+<style>
+.simulacion-layout {
+  display: grid;
+  grid-template-columns: 355px 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: start;
+}
+
+.panel-controles,
+.panel-visual {
+  padding: 1rem;
+  border: 1px solid rgba(255,255,255,0.65);
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.18);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.20);
+}
+
+.panel-controles {
+  position: sticky;
+  top: 1rem;
+}
+
+#lienzo-disco {
+  width: min(100%, 920px);
+  height: auto;
+  aspect-ratio: 920 / 590;
+  border: 1px solid rgba(255,255,255,0.55);
+  border-radius: 14px;
+  display: block;
+  background: #000;
+}
+
+#lienzo-perfiles {
+  width: min(100%, 920px);
+  height: auto;
+  aspect-ratio: 920 / 300;
+  border: 1px solid rgba(255,255,255,0.55);
+  border-radius: 14px;
+  display: block;
+  background: #000;
+  margin-top: 1rem;
+}
+
+#resumen-parametros {
+  margin-top: 1rem;
+  padding: 0.85rem;
+  border: 1px solid rgba(255,255,255,0.55);
+  border-radius: 12px;
+}
+
+.control-grupo {
+  margin-bottom: 1rem;
+}
+
+.control-grupo label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.control-grupo input[type="range"] {
+  width: 100%;
+}
+
+.bloque-opciones {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.18);
+}
+
+.opcion-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.selector-preset,
+.selector-asimetria {
+  width: 100%;
+  padding: 0.60rem 0.70rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.55);
+  background: rgba(255,255,255,0.08);
+  color: white;
+  margin-top: 0.35rem;
+}
+
+.selector-preset option,
+.selector-asimetria option {
+  color: black;
+}
+
+.boton-reset {
+  margin-top: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid rgba(255,255,255,0.60);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.08);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.boton-reset:hover {
+  background: rgba(255,255,255,0.16);
+}
+
+.texto-ayuda {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.texto-nota {
+  font-size: 0.92rem;
+  opacity: 0.92;
+  line-height: 1.45;
+}
+
+.subtitulo-bloque {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+@media (max-width: 980px) {
+  .simulacion-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-controles {
+    position: static;
+  }
+}
+</style>
+<section id="protoplanetary-disk-simulation" class="level2">
+<h2 class="anchored" data-anchor-id="protoplanetary-disk-simulation">Protoplanetary Disk Simulation</h2>
+<p>This interactive tool shows how changing physical parameters modifies the morphology of a synthetic protoplanetary disk.</p>
+<div class="simulacion-layout">
+<section id="controls" class="level3 panel-controles">
+<h3 class="anchored" data-anchor-id="controls">Controls</h3>
+<div id="contenedor-controles">
+
 </div>
-<div class="activities-intro">
-<p>The activities focus on FITS images, disk geometry, and simple analysis tools that make it possible to identify rings, gaps, and other disk substructures.</p>
-<p>Las actividades se centran en imágenes FITS, geometría de discos y herramientas simples de análisis que permiten identificar anillos, brechas y otras subestructuras del disco.</p>
+<div class="bloque-opciones">
+<h4 class="anchored">
+Presets
+</h4>
+<p><label for="selector-preset">Quick examples</label> <select id="selector-preset" class="selector-preset"> <option value="base">Base model</option> <option value="weak-gap">Weak gap</option> <option value="strong-trap">Strong trapping</option> <option value="two-planets-eccentric">Two planets + eccentricity</option> <option value="two-planets-vortex">Two planets + vortex-like clump</option> </select></p>
 </div>
-<hr>
+<div class="bloque-opciones">
+<h4 class="anchored">
+Layers
+</h4>
+<p><label class="opcion-check"> <input type="checkbox" id="toggle-gas" checked=""> <span>Show gas</span> </label></p>
+<p><label class="opcion-check"> <input type="checkbox" id="toggle-polvo-fino" checked=""> <span>Show small dust</span> </label></p>
+<p><label class="opcion-check"> <input type="checkbox" id="toggle-polvo-mm" checked=""> <span>Show mm dust</span> </label></p>
+<p><label class="opcion-check"> <input type="checkbox" id="toggle-planeta" checked=""> <span>Show planet(s)</span> </label></p>
+<p><label class="opcion-check"> <input type="checkbox" id="toggle-etiquetas" checked=""> <span>Show labels</span> </label></p>
+<p><label class="opcion-check"> <input type="checkbox" id="toggle-presion" checked=""> <span>Show pressure profile</span> </label></p>
+<p><button id="boton-reset" class="boton-reset">Reset model</button></p>
+<p class="texto-ayuda">
+The radial plot compares the normalized distributions of gas, small dust, millimeter dust, and a pressure proxy.
+</p>
+<p class="texto-nota">
+This simulator is pedagogical: it combines simplified versions of planet–disk interaction, dust trapping, and filtering to show how substructures respond to physically motivated parameters.
+</p>
+<p class="texto-nota">
+Azimuthal asymmetries, such as eccentric rings or vortex-like clumps, may be much clearer in the disk image than in the radial plot, because the radial profiles are azimuthally averaged.
+</p>
+</div>
 </section>
-<section id="activity-1-actividad-1" class="level2">
-<h2 class="anchored" data-anchor-id="activity-1-actividad-1">Activity 1 / Actividad 1</h2>
-<div class="activity-card">
-<section id="english" class="level3">
-<h3 class="anchored" data-anchor-id="english">English</h3>
-<p><strong>Radial profile from a FITS image</strong></p>
-<p>In this activity, students work with a <strong>real FITS image of the protoplanetary disk HD 163296</strong> and compute a <strong>radial brightness profile</strong>. The goal is to explore how the intensity changes with distance from the central star and to relate those variations to rings, gaps, and disk substructures visible in the image.</p>
-<div class="activity-subbox">
-<p><strong>Suggested materials</strong> - FITS image of HD 163296 - Jupyter notebook or Python script - Short guide with the required libraries - Scientific context from the catalog entry</p>
-<p><strong>What students practice</strong> - Reading FITS files - Visualizing astronomical images - Understanding disk geometry - Measuring intensity as a function of radius - Identifying rings and gaps from real data</p>
-</div>
-<div class="download-box">
-<p><strong>Files</strong> - <a href="data/actividades/actividad_hd163296/HD163296_continuum.fits">FITS image</a> - <a href="data/actividades/actividad_hd163296/actividad_hd163296.zip">Complete package (.zip)</a></p>
-<p><strong>Recommendation</strong> - Download the complete package so the notebook and the FITS image remain in the same folder.</p>
-</div>
+<div class="panel-visual">
+<section id="disk-view" class="level3">
+<h3 class="anchored" data-anchor-id="disk-view">Disk view</h3>
+<canvas id="lienzo-disco" width="920" height="590">
+</canvas>
 </section>
-<section id="español" class="level3">
-<h3 class="anchored" data-anchor-id="español">Español</h3>
-<p><strong>Perfil radial a partir de una imagen FITS</strong></p>
-<p>En esta actividad, los estudiantes trabajan con una <strong>imagen FITS real del disco protoplanetario HD 163296</strong> y calculan un <strong>perfil radial de brillo</strong>. El objetivo es explorar cómo cambia la intensidad con la distancia a la estrella central y relacionar esas variaciones con anillos, brechas y otras subestructuras visibles en la imagen.</p>
-<div class="activity-subbox">
-<p><strong>Materiales sugeridos</strong> - Imagen FITS de HD 163296 - Notebook o script en Python - Guía breve con las librerías necesarias - Contexto científico desde la ficha del catálogo</p>
-<p><strong>Qué se practica</strong> - Lectura de archivos FITS - Visualización de imágenes astronómicas - Comprensión de la geometría del disco - Medición de intensidad en función del radio - Identificación de anillos y brechas a partir de datos reales</p>
-</div>
-<div class="download-box">
-<p><strong>Archivos</strong> - <a href="data/actividades/actividad_hd163296/HD163296_continuum.fits">Imagen FITS</a> - <a href="data/actividades/actividad_hd163296/actividad_hd163296.zip">Paquete completo (.zip)</a></p>
-<p><strong>Recomendación</strong> - Se recomienda descargar el paquete completo para que el notebook y la imagen FITS queden en la misma carpeta.</p>
+<section id="radial-profiles" class="level3">
+<h3 class="anchored" data-anchor-id="radial-profiles">Radial profiles</h3>
+<canvas id="lienzo-perfiles" width="920" height="300">
+</canvas>
+<div id="resumen-parametros">
+<strong>Current model:</strong>
+<p id="texto-parametros">
+Loading simulation parameters…
+</p>
 </div>
 </section>
 </div>
-<hr>
-</section>
-<section id="activity-2-actividad-2" class="level2">
-<h2 class="anchored" data-anchor-id="activity-2-actividad-2">Activity 2 / Actividad 2</h2>
-<div class="activity-card">
-<section id="english-1" class="level3">
-<h3 class="anchored" data-anchor-id="english-1">English</h3>
-<p><strong>Deprojection and polar analysis of a disk image</strong></p>
-<p>In this activity, students use a disk image to apply a <strong>geometric deprojection</strong> and then transform it into <strong>polar coordinates</strong>. This makes it easier to identify rings, asymmetries, and localized structures in the disk.</p>
-<div class="activity-subbox">
-<p><strong>Suggested materials</strong> - FITS image of an inclined disk - Notebook or Python script - Short methodological guide</p>
-<p><strong>What students practice</strong> - Using inclination and position angle - Deprojecting a disk image - Converting an image into polar coordinates - Identifying substructures more clearly</p>
 </div>
-<div class="download-box">
-<p><strong>Files</strong> - Coming soon</p>
-</div>
-</section>
-<section id="español-1" class="level3">
-<h3 class="anchored" data-anchor-id="español-1">Español</h3>
-<p><strong>Deproyección y análisis polar de una imagen de disco</strong></p>
-<p>En esta actividad, los estudiantes usan una imagen de un disco para aplicar una <strong>deproyección geométrica</strong> y luego transformarla a <strong>coordenadas polares</strong>. Esto facilita la identificación de anillos, asimetrías y estructuras localizadas en el disco.</p>
-<div class="activity-subbox">
-<p><strong>Materiales sugeridos</strong> - Imagen FITS de un disco inclinado - Notebook o script en Python - Guía metodológica breve</p>
-<p><strong>Qué se practica</strong> - Uso de inclinación y ángulo de posición - Deproyección de una imagen de disco - Conversión de una imagen a coordenadas polares - Identificación más clara de subestructuras</p>
-</div>
-<div class="download-box">
-<p><strong>Archivos</strong> - Próximamente</p>
-</div>
-</section>
-</div>
+<script src="simulation.js?v=3"></script>
 
 
 </section>
