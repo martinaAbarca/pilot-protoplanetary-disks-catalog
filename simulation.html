@@ -94,10 +94,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./activities.html"> 
-<span class="menu-text">Activities</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Activities</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-activities">    
+        <li>
+    <a class="dropdown-item" href="./activity_morphology_en.html">
+ <span class="dropdown-text">Activity - English</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./activity_morphology_es.html">
+ <span class="dropdown-text">Actividad - Español</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./simulation.html" aria-current="page"> 
 <span class="menu-text">Simulation</span></a>
@@ -157,6 +168,9 @@ ul.task-list li input[type="checkbox"] {
 .panel-controles {
   position: sticky;
   top: 1rem;
+  max-height: 88vh;
+  overflow-y: auto;
+  padding-right: 0.8rem;
 }
 
 #lienzo-disco {
@@ -308,6 +322,9 @@ The radial plot compares the normalized distributions of gas, small dust, millim
 This simulator is pedagogical: it combines simplified versions of planet–disk interaction, dust trapping, and filtering to show how substructures respond to physically motivated parameters.
 </p>
 <p class="texto-nota">
+In this version, the dust disk size is linked to the gas disk size through a gas-to-dust size ratio. This reflects the idea that gas usually remains more extended, while solids become more compact because aerodynamic drag drives radial drift toward the inner disk.
+</p>
+<p class="texto-nota">
 Azimuthal asymmetries, such as eccentric rings or vortex-like clumps, may be much clearer in the disk image than in the radial plot, because the radial profiles are azimuthally averaged.
 </p>
 </div>
@@ -331,9 +348,50 @@ Loading simulation parameters…
 </section>
 </div>
 </div>
-<script src="simulation.js?v=3"></script>
+<script src="simulation.js?v=4"></script>
+<hr>
+</section>
+<section id="guía-de-uso-de-la-simulación" class="level2">
+<h2 class="anchored" data-anchor-id="guía-de-uso-de-la-simulación">Guía de uso de la simulación</h2>
+<p>Esta herramienta interactiva muestra cómo cambian la morfología de un disco protoplanetario y sus perfiles radiales cuando se modifican parámetros físicos asociados al gas, al polvo y a la interacción planeta–disco.</p>
+<p>Un disco protoplanetario es una estructura de gas y polvo que gira alrededor de una estrella joven. En estos discos se forman planetas, y las observaciones modernas muestran que no son estructuras lisas: suelen presentar anillos, brechas, cavidades y asimetrías. Esta simulación representa esas subestructuras de forma sintética y pedagógica.</p>
+<p>La simulación no corresponde a un modelo hidrodinámico completo ni a una observación real de ALMA. Su objetivo es mostrar, de manera visual, cómo distintos parámetros físicos pueden producir cambios en la estructura del disco.</p>
+<section id="cómo-leer-la-imagen-del-disco" class="level3">
+<h3 class="anchored" data-anchor-id="cómo-leer-la-imagen-del-disco">Cómo leer la imagen del disco</h3>
+<p>La imagen superior muestra una vista frontal del disco:</p>
+<ul>
+<li>la estrella está en el centro;</li>
+<li>el gas se representa como la componente más extendida;</li>
+<li>el polvo fino sigue de manera más cercana al gas;</li>
+<li>el polvo milimétrico aparece más concentrado en anillos;</li>
+<li>las brechas oscuras indican regiones de menor densidad asociadas a planetas;</li>
+<li>los anillos brillantes muestran acumulación de polvo en regiones de atrapamiento.</li>
+</ul>
+</section>
+<section id="cómo-leer-el-gráfico-radial" class="level3">
+<h3 class="anchored" data-anchor-id="cómo-leer-el-gráfico-radial">Cómo leer el gráfico radial</h3>
+<p>El gráfico radial compara los perfiles normalizados de gas, polvo fino, polvo milimétrico y una <em>pressure proxy</em>. Estos perfiles no representan brillo observado ni densidad superficial absoluta. Son cantidades relativas normalizadas, usadas para comparar la forma radial de cada componente.</p>
+<p>En el gráfico:</p>
+<ul>
+<li>una caída indica un <em>gap</em>;</li>
+<li>un máximo indica un anillo o acumulación de polvo;</li>
+<li>la <em>pressure proxy</em> ayuda a identificar regiones donde el polvo puede quedar atrapado.</li>
+</ul>
+<p>El eje vertical debe interpretarse como un perfil radial normalizado en unidades arbitrarias.</p>
+</section>
+<section id="qué-modifican-los-controles" class="level3">
+<h3 class="anchored" data-anchor-id="qué-modifican-los-controles">Qué modifican los controles</h3>
+<p><strong>Gas-to-dust size ratio:</strong> controla cuánto más extendido es el gas respecto del polvo. Un valor mayor produce un disco de polvo más compacto.</p>
+<p><strong>Gas outer radius:</strong> define la extensión radial máxima del gas.</p>
+<p><strong>Disk density:</strong> cambia la normalización global de densidad del disco. No representa una masa absoluta, sino una escala relativa.</p>
+<p><strong>Disk thickness h/r:</strong> controla el grosor térmico del disco. Un disco más grueso dificulta la apertura de brechas profundas.</p>
+<p><strong>Turbulence α:</strong> representa la viscosidad o turbulencia efectiva. Valores altos suavizan estructuras; valores bajos favorecen brechas y atrapamiento de polvo.</p>
+<p><strong>Flaring:</strong> controla cómo aumenta la altura del disco con el radio.</p>
+<p><strong>Planet orbital radius:</strong> fija la posición orbital del planeta y, por tanto, la ubicación principal del <em>gap</em>.</p>
+<p><strong>Planet mass:</strong> controla la intensidad de la perturbación. Planetas más masivos generan brechas más profundas y anillos más marcados.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

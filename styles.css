@@ -1074,3 +1074,245 @@ hr {
     gap: 0.45rem;
   }
 }
+
+/* =====================================================
+   MORPHOLOGY ACTIVITY PAGES
+   Scoped styles for activity_morphology_en/es.qmd
+   ===================================================== */
+
+.morphology-activity {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.morphology-activity .activity-hero-block {
+  margin: 0.8rem 0 1.8rem 0;
+  padding: 1.35rem 1.45rem;
+  border-radius: 22px;
+  background:
+    linear-gradient(135deg, rgba(255, 79, 163, 0.16), rgba(139, 92, 246, 0.08)),
+    rgba(18, 12, 20, 0.96);
+  border: 1px solid rgba(255, 79, 163, 0.32);
+  border-left: 6px solid var(--accent-magenta);
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.20),
+    0 0 20px rgba(255, 79, 163, 0.10);
+}
+
+.morphology-activity .activity-kicker {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  padding: 0.34rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 79, 163, 0.15);
+  border: 1px solid rgba(255, 79, 163, 0.35);
+  color: #ffd7ea;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.morphology-activity .activity-hero-block p {
+  color: #ffe9f4 !important;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 0.9rem;
+}
+
+.morphology-activity .activity-back-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--accent-cyan) !important;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.morphology-activity .activity-back-link:hover {
+  color: #ffffff !important;
+}
+
+.morphology-activity h2 {
+  font-size: 1.9rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  padding: 0.68rem 0.95rem;
+  border-radius: 14px;
+  border-left: 5px solid var(--accent-magenta);
+  background: linear-gradient(90deg, rgba(214, 51, 132, 0.62), rgba(214, 51, 132, 0.12));
+}
+
+.morphology-activity h3 {
+  font-size: 1.35rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.7rem;
+}
+
+.morphology-activity p,
+.morphology-activity li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.activity-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.2rem 0;
+}
+
+.activity-info-card,
+.activity-download-panel,
+.activity-step-card,
+.activity-result-card {
+  border-radius: 18px;
+  border: 1px solid rgba(255, 79, 163, 0.24);
+  background: linear-gradient(180deg, rgba(28, 18, 30, 0.96), rgba(13, 11, 16, 0.96));
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, 0.16),
+    0 0 16px rgba(255, 79, 163, 0.06);
+}
+
+.activity-info-card {
+  padding: 1.05rem 1.15rem;
+}
+
+.activity-info-card ul,
+.activity-step-card ul,
+.activity-result-card ul {
+  margin-bottom: 0;
+}
+
+.activity-download-panel {
+  margin: 1rem 0 1.7rem 0;
+  padding: 1.1rem 1.2rem;
+  background:
+    linear-gradient(90deg, rgba(255, 79, 163, 0.24), rgba(139, 92, 246, 0.08)),
+    rgba(22, 12, 24, 0.96);
+}
+
+.activity-download-panel h3 {
+  margin-top: 0;
+}
+
+.activity-download-panel a {
+  color: #ffffff !important;
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.activity-download-panel a:hover {
+  color: #ffd6ef !important;
+  border-bottom-color: #ffd6ef;
+}
+
+.activity-step-card {
+  margin: 0.95rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid rgba(255, 79, 163, 0.75);
+}
+
+.activity-step-card h3 {
+  color: #ffffff !important;
+}
+
+.activity-result-card {
+  padding: 1.05rem 1.15rem;
+  background:
+    linear-gradient(135deg, rgba(127, 215, 255, 0.08), rgba(255, 79, 163, 0.10)),
+    rgba(18, 12, 20, 0.96);
+  border-left: 5px solid var(--accent-cyan);
+}
+
+.morphology-activity table {
+  table-layout: auto !important;
+  margin-top: 0.9rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.96rem;
+}
+
+.morphology-activity thead th,
+.morphology-activity tbody td {
+  padding: 0.85rem 0.95rem;
+  line-height: 1.55;
+}
+
+.morphology-activity tbody td:first-child {
+  font-weight: 800;
+}
+
+.morphology-activity .math.display,
+.morphology-activity span.math.display {
+  margin: 1.1rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 79, 163, 0.16);
+  overflow-x: auto;
+}
+
+@media (max-width: 850px) {
+  .morphology-activity {
+    max-width: 100%;
+  }
+
+  .activity-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .morphology-activity .activity-hero-block,
+  .activity-info-card,
+  .activity-download-panel,
+  .activity-step-card,
+  .activity-result-card {
+    padding: 1rem;
+  }
+}
+
+.download-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.8rem 0 1rem 0;
+}
+
+.download-list li {
+  margin: 0.55rem 0;
+}
+
+.download-list a {
+  display: inline-block;
+  padding: 0.55rem 0.85rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 79, 163, 0.28);
+  color: #ffffff !important;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.download-list a:hover {
+  background: rgba(255, 79, 163, 0.16);
+  color: #ffd6ef !important;
+}
+
+.data-source-note {
+  margin: 1.2rem 0 1.8rem 0;
+  padding: 1.05rem 1.2rem;
+  border-radius: 18px;
+  border: 1px solid rgba(127, 215, 255, 0.28);
+  border-left: 5px solid var(--accent-cyan);
+  background:
+    linear-gradient(135deg, rgba(127, 215, 255, 0.08), rgba(255, 79, 163, 0.08)),
+    rgba(18, 12, 20, 0.96);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+}
+
+.data-source-note h3 {
+  margin-top: 0;
+}
+
+.data-source-note p {
+  color: #f1edf6 !important;
+  line-height: 1.75;
+}

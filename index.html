@@ -114,10 +114,21 @@ div.csl-indent {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./activities.html"> 
-<span class="menu-text">Activities</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Activities</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-activities">    
+        <li>
+    <a class="dropdown-item" href="./activity_morphology_en.html">
+ <span class="dropdown-text">Activity - English</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./activity_morphology_es.html">
+ <span class="dropdown-text">Actividad - Español</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./simulation.html"> 
 <span class="menu-text">Simulation</span></a>
@@ -167,7 +178,7 @@ div.csl-indent {
 <p><span class="hero-badge">5 pilot disks</span> <span class="hero-badge">Scientific summaries</span> <span class="hero-badge">Programming activities</span> <span class="hero-badge">FITS-based learning</span></p>
 </div>
 <div class="hero-actions">
-<p><a href="#available-disks" class="hero-button hero-button-primary">Explore disks ↓</a> <a href="./activities.html" class="hero-button hero-button-secondary">Open activities →</a> <a href="#how-to-use-catalog" class="hero-button hero-button-secondary">How to use this catalog ↓</a></p>
+<p><a href="#available-disks" class="hero-button hero-button-primary">Explore disks ↓</a> <a href="#activities" class="hero-button hero-button-secondary">Open activity ↓</a> <a href="#how-to-use-catalog" class="hero-button hero-button-secondary">How to use this catalog ↓</a></p>
 </div>
 </div>
 <div class="catalog-hero-image">
@@ -181,24 +192,20 @@ div.csl-indent {
 <hr>
 <section id="activities" class="level2">
 <h2 class="anchored" data-anchor-id="activities">Activities</h2>
-<p>This catalog includes <strong>introductory programming activities</strong> designed to help students explore real astronomical data and analyze how disk substructures can be measured from images.</p>
-<p>Este catálogo también incluye <strong>actividades introductorias de programación</strong> pensadas para que los estudiantes trabajen con datos astronómicos reales y analicen cómo se pueden medir subestructuras de discos a partir de imágenes.</p>
+<p>This catalog includes a <strong>FITS-based data science activity</strong> designed to help students explore real astronomical data and analyze how disk substructures can be measured from images.</p>
+<p>Este catálogo incluye una <strong>actividad de ciencia de datos basada en imágenes FITS</strong> pensada para que los estudiantes trabajen con datos astronómicos reales y analicen cómo se pueden medir subestructuras de discos a partir de imágenes.</p>
 <div class="activity-grid">
-<section id="activity-1-actividad-1" class="level3 activity-card">
-<h3 class="anchored" data-anchor-id="activity-1-actividad-1">Activity 1 / Actividad 1</h3>
-<p><strong>Radial profile from a FITS image</strong><br>
-<strong>Perfil radial a partir de una imagen FITS</strong></p>
-<p>Learn how to read a FITS image, measure brightness as a function of radius, and identify rings and gaps in a protoplanetary disk.</p>
-<p>Aprende a leer una imagen FITS, medir el brillo en función del radio e identificar anillos y brechas en un disco protoplanetario.</p>
-<p><a href="./activities.html#activity-1-actividad-1" class="disk-link">Open activity →</a></p>
+<section id="activity-english-version" class="level3 activity-card">
+<h3 class="anchored" data-anchor-id="activity-english-version">Activity / English version</h3>
+<p><strong>Morphological analysis of radial substructures</strong></p>
+<p>Use a real FITS image of <strong>IM Lup</strong> or <strong>HD 163296</strong> to deproject the disk, transform the image into polar coordinates, build a radial intensity profile, and identify rings, gaps, or radial depressions.</p>
+<p><a href="activity_morphology_en.html" class="disk-link">Open English version →</a></p>
 </section>
-<section id="activity-2-actividad-2" class="level3 activity-card">
-<h3 class="anchored" data-anchor-id="activity-2-actividad-2">Activity 2 / Actividad 2</h3>
-<p><strong>Deprojection and polar analysis of a disk image</strong><br>
-<strong>Deproyección y análisis polar de una imagen de disco</strong></p>
-<p>Apply disk geometry to deproject an inclined image and transform it into polar coordinates to reveal substructures more clearly.</p>
-<p>Aplica la geometría del disco para deproyectar una imagen inclinada y transformarla a coordenadas polares para revelar subestructuras con mayor claridad.</p>
-<p><a href="./activities.html#activity-2-actividad-2" class="disk-link">Open activity →</a></p>
+<section id="actividad-versión-en-español" class="level3 activity-card">
+<h3 class="anchored" data-anchor-id="actividad-versión-en-español">Actividad / Versión en español</h3>
+<p><strong>Análisis morfológico de subestructuras radiales</strong></p>
+<p>Usa una imagen FITS real de <strong>IM Lup</strong> o <strong>HD 163296</strong> para deproyectar el disco, transformarlo a coordenadas polares, construir un perfil radial de intensidad e identificar anillos, brechas o depresiones radiales.</p>
+<p><a href="activity_morphology_es.html" class="disk-link">Abrir versión en español →</a></p>
 </section>
 </div>
 <hr>
