@@ -96,7 +96,11 @@
       "CN",
       "HCN"
     ],
-    "continuum_wavelength_mm": [],
+    "continuum_wavelength_mm": [
+      2.9,
+      1.3,
+      0.87
+    ],
     "main_instruments": [
       "ALMA"
     ],
@@ -131,12 +135,46 @@
       0.875
     ],
     "main_instruments": [
-      "ALMA"
+      "ALMA",
+      "SPHERE"
     ],
     "evidence_of_planets": "indirect",
     "main_references": [
-      "cleeves2016"
+      "cleeves2016",
+      "bosman2023",
+      "rich2021"
     ],
     "page_file": "im_lup.qmd"
-  }
+  },
+ {
+  "disk_name": "PDS 70",
+  "star_name": "PDS 70",
+  "distance_pc": 113.43,
+  "stellar_mass_msun": 0.76,
+  "spectral_type": "K7",
+  "estimated_age_myr": 5.4,
+  "disk_morphology": "transition disk with a large cavity, an outer dust ring, an inner disk, and directly detected forming planets",
+  "dust_rings_au": [
+    73.7
+  ],
+  "dust_gaps_au": [],
+  "gas_tracers": [
+    "12CO"
+  ],
+  "continuum_wavelength_mm": [
+    0.855
+  ],
+  "main_instruments": [
+    "VLT/SPHERE",
+    "ALMA",
+    "VLT/MUSE"
+  ],
+  "evidence_of_planets": "direct",
+  "main_references": [
+    "keppler2018",
+    "keppler2019",
+    "haffert2019"
+  ],
+    "page_file": "pds_70.qmd"
+}
 ]
