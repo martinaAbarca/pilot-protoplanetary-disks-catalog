@@ -1815,3 +1815,41 @@ hr {
     font-size: 1.2rem;
   }
 }
+
+/* Special card for contributing new disks */
+.add-disk-card {
+  justify-content: center;
+  text-align: center;
+  border: 1px dashed rgba(255, 79, 163, 0.45);
+  background: linear-gradient(180deg, rgba(42, 24, 45, 0.92), rgba(14, 14, 16, 0.96));
+}
+
+.add-disk-card:hover {
+  border-color: rgba(255, 79, 163, 0.75);
+  box-shadow: 0 14px 30px rgba(214, 51, 132, 0.22);
+}
+
+.add-disk-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 79, 163, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  font-size: 2.2rem;
+  line-height: 1;
+  color: #ff7fbd;
+  background: rgba(255, 79, 163, 0.08);
+}
+
+.add-disk-card h3 {
+  margin-top: 0.3rem;
+}
+
+.add-disk-card p {
+  max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
