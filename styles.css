@@ -2072,3 +2072,22 @@ hr {
   color: #ffc8e6 !important;
   white-space: nowrap;
 }
+
+/* Make bibliography/references use the same width as the simulation guide */
+#quarto-appendix,
+.quarto-appendix,
+.quarto-appendix-contents,
+#refs,
+.references,
+.csl-bib-body {
+  max-width: none !important;
+  width: min(100%, 1240px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+main.content,
+#quarto-content,
+#quarto-document-content {
+  max-width: none !important;
+}

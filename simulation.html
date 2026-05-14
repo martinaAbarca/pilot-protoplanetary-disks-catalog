@@ -422,6 +422,17 @@ window.Quarto = {
   width: 100%;
 }
 
+.references-card {
+  width: 100%;
+  max-width: none;
+}
+
+.references-card #refs,
+.references-card .csl-bib-body {
+  width: 100%;
+  max-width: none;
+}
+
 /* Pantallas medianas o pequeñas */
 @media (max-width: 1250px) {
   .simulation-page-wide {
@@ -771,14 +782,9 @@ Loading simulation parameters…
 </ul>
 <p>Las asimetrías azimutales son representaciones cualitativas de tendencias físicas descritas en la literatura <span class="citation" data-cites="pinilla2015">(<a href="#ref-pinilla2015" role="doc-biblioref">Pinilla et al. 2015</a>)</span>, no soluciones hidrodinámicas. La fórmula de <span class="citation" data-cites="kanagawa2015">Kanagawa et al. (<a href="#ref-kanagawa2015" role="doc-biblioref">2015</a>)</span> asume un disco delgado, viscoso, axisimétrico y en estado estacionario; para valores muy altos de <span class="math inline">\(K\)</span>, puede perder precisión.</p>
 </section>
-</div>
-</section>
-</div>
-
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<section id="references" class="level3 guide-card references-card">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-andrews2020" class="csl-entry" role="listitem">
 Andrews, Sean M. 2020. <span>“Observations of Protoplanetary Disk Structures.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 58: 483–528. <a href="https://doi.org/10.1146/annurev-astro-031220-010302">https://doi.org/10.1146/annurev-astro-031220-010302</a>.
 </div>
@@ -803,7 +809,15 @@ Weidenschilling, S. J. 1977. <span>“Aerodynamics of Solid Bodies in the Solar 
 <div id="ref-williams2011" class="csl-entry" role="listitem">
 Williams, Jonathan P., and Lucas A. Cieza. 2011. <span>“Protoplanetary Disks and Their Evolution.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 49 (1): 67–117. <a href="https://doi.org/10.1146/annurev-astro-081710-102548">https://doi.org/10.1146/annurev-astro-081710-102548</a>.
 </div>
-</div></section></div></main> <!-- /main -->
+</div>
+</section>
+</div>
+</section>
+</div>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
