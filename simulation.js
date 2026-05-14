@@ -48,13 +48,16 @@
 
 const estadoSimulacion = {
   // -------- DISCO GLOBAL --------
-    radioGas: 220,                // AU
-  radioPolvo: 110,              // AU, valor derivado internamente
-  relacionGasPolvo: 2.0,        // R_gas / R_dust
-  masaDisco: 1.0,               // factor relativo respecto al modelo base
-  indiceFlaring: 1.25,          // H(R) ∝ R^psi
-  temperaturaBase: 200,         // K a 1 AU
-  masaEstelar: 1.0,             // masas solares
+  radioGas: 220,
+radioPolvo: 110,
+relacionGasPolvo: 2.0,
+masaGas: 1.0,
+dustToGasRatio: 0.01,
+etapaEvolutiva: 1,
+indiceFlaring: 1.25,
+temperaturaBase: 200,
+masaEstelar: 1.0,
+velocidadFragmentacion: 10,
 
   // -------- PLANETA 1 --------
    radioPlaneta: 40,             // AU
@@ -123,23 +126,22 @@ const estadoSimulacion = {
 
 
 // --------------------------------------
-// 2. MODELO BASE PARA RESET
-// --------------------------------------
-
 const modeloBase = {
-    radioGas: 220,
+  radioGas: 220,
   radioPolvo: 110,
   relacionGasPolvo: 2.0,
-  masaDisco: 1.0,
+  masaGas: 1.0,
+  dustToGasRatio: 0.01,
+  etapaEvolutiva: 1,
   indiceFlaring: 1.25,
   temperaturaBase: 200,
   masaEstelar: 1.0,
+  velocidadFragmentacion: 10,
 
-    radioPlaneta: 40,
+  radioPlaneta: 40,
   masaPlaneta: 0.8,
   relacionAspecto: 0.055,
   alfaTurb: 1e-2,
-  velocidadFragmentacion: 10,
 
   modoDosPlanetas: false,
   radioPlanetaExterno: 85,
@@ -155,6 +157,7 @@ const modeloBase = {
   mostrarPresion: true,
 
   presetActual: "base"
+
 };
 
 
@@ -163,18 +166,20 @@ const modeloBase = {
 // --------------------------------------
 
 const controlesPrincipales = [
-    {
-    variable: "relacionGasPolvo",
-    etiqueta: "Gas-to-dust size ratio",
+  {
+    variable: "etapaEvolutiva",
+    etiqueta: "Evolutionary stage",
+    descripcion: "Controls how compact or dispersed the disk appears. Older disks tend to show more dust concentration and clearer substructures.",
     unidad: "",
-    min: 1.2,
-    max: 4.5,
-    step: 0.1,
+    min: 0,
+    max: 2,
+    step: 1,
     grupo: "Disk"
   },
   {
     variable: "radioGas",
     etiqueta: "Gas outer radius",
+    descripcion: "Sets the outer size of the gas disk. The dust disk is derived from this value and is usually more compact.",
     unidad: "AU",
     min: 60,
     max: 400,
@@ -182,8 +187,9 @@ const controlesPrincipales = [
     grupo: "Disk"
   },
   {
-    variable: "masaDisco",
-    etiqueta: "Disk density",
+    variable: "masaGas",
+    etiqueta: "Gas mass",
+    descripcion: "Controls the relative amount of gas in the disk. Higher values make the gas profile stronger.",
     unidad: "× base",
     min: 0.3,
     max: 3.0,
@@ -191,8 +197,19 @@ const controlesPrincipales = [
     grupo: "Disk"
   },
   {
+    variable: "dustToGasRatio",
+    etiqueta: "Dust-to-gas ratio",
+    descripcion: "Controls how much dust is present compared with gas. Higher values make dust rings brighter.",
+    unidad: "",
+    min: 0.003,
+    max: 0.05,
+    step: 0.001,
+    grupo: "Disk"
+  },
+  {
     variable: "relacionAspecto",
     etiqueta: "Disk thickness h/r",
+    descripcion: "Controls how thick the disk is. Thicker disks resist planet-driven gaps more strongly.",
     unidad: "",
     min: 0.03,
     max: 0.10,
@@ -201,26 +218,19 @@ const controlesPrincipales = [
   },
   {
     variable: "alfaTurb",
-    etiqueta: "Turbulence α",
+    etiqueta: "Viscosity / turbulence α",
+    descripcion: "Controls how easily material is mixed back into gaps. Lower values allow sharper gaps and stronger dust trapping.",
     unidad: "",
     min: 0.0001,
     max: 0.01,
     step: 0.0001,
     grupo: "Disk"
   },
-  {
-    variable: "indiceFlaring",
-    etiqueta: "Flaring",
-    unidad: "",
-    min: 1.10,
-    max: 1.50,
-    step: 0.01,
-    grupo: "Disk"
-  },
 
   {
     variable: "radioPlaneta",
     etiqueta: "Planet orbital radius",
+    descripcion: "Sets where the planet orbits. The main gap appears around this radius.",
     unidad: "AU",
     min: 5,
     max: 120,
@@ -230,22 +240,14 @@ const controlesPrincipales = [
   {
     variable: "masaPlaneta",
     etiqueta: "Planet mass",
+    descripcion: "Controls the strength of the planet–disk interaction. More massive planets open deeper and wider gaps.",
     unidad: "M_Jup",
     min: 0.1,
     max: 10,
     step: 0.1,
     grupo: "Planet 1"
-  },
-
-  {
-    variable: "velocidadFragmentacion",
-    etiqueta: "Fragmentation velocity",
-    unidad: "m/s",
-    min: 5,
-    max: 30,
-    step: 1,
-    grupo: "Dust"
   }
+
 ];
 
 const controlesAvanzados = [
@@ -416,11 +418,20 @@ function suavizarArray(arr, ventana = 7) {
 }
 
 function formatearValor(variable, valor) {
+  if (variable === "etapaEvolutiva") {
+    const etapas = ["Young", "Structured", "Evolved"];
+    return etapas[Number(valor)] || "Structured";
+  }
+
+  if (variable === "dustToGasRatio") {
+    return Number(valor).toFixed(3);
+  }
+
   if (variable === "alfaTurb") return Number(valor).toExponential(1);
   if (variable === "relacionAspecto" || variable === "indiceFlaring") return Number(valor).toFixed(3);
 
   if (
-    variable === "masaDisco" ||
+    variable === "masaGas" ||
     variable === "masaPlaneta" ||
     variable === "masaPlanetaExterno"
   ) {
@@ -707,7 +718,7 @@ function calcularPerfilScaleHeight(radios) {
 
 function calcularPerfilGasBase(radios) {
   const rc = Math.max(30, 0.45 * estadoSimulacion.radioGas);
-  const factorMasa = estadoSimulacion.masaDisco;
+  const factorMasa = estadoSimulacion.masaGas;
 
   return radios.map(r => {
     const rr = Math.max(r, 0.5);
@@ -793,34 +804,48 @@ function calcularPerfilGas(radios) {
   return perfil;
 }
 
-
 function calcularPolvoFino(radios, perfilGasConGap) {
   return perfilGasConGap.map((valor, i) => {
     const rr = radios[i];
     let perfil = valor;
 
     const sigmaGap1 = Math.max(estadoSimulacion.anchoGap1 / 2.5, 1.5);
-    const dep1 = 0.55 * estadoSimulacion.nivelFiltrado1 * gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
-    perfil *= (1 - dep1);
+    const dep1 =
+      0.55 *
+      estadoSimulacion.nivelFiltrado1 *
+      gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
+
+    perfil *= 1 - dep1;
 
     if (estadoSimulacion.modoDosPlanetas) {
       const sigmaGap2 = Math.max(estadoSimulacion.anchoGap2 / 2.5, 1.5);
-      const dep2 = 0.55 * estadoSimulacion.nivelFiltrado2 * gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
-      perfil *= (1 - dep2);
+      const dep2 =
+        0.55 *
+        estadoSimulacion.nivelFiltrado2 *
+        gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
+
+      perfil *= 1 - dep2;
     }
 
     if (rr < estadoSimulacion.radioPlaneta) {
       perfil *= 0.86 + 0.24 * (1 - estadoSimulacion.nivelFiltrado1);
     }
 
-   const taperPolvo = Math.exp(-Math.pow(rr / estadoSimulacion.radioPolvo, 6));
-perfil *= taperPolvo;
+    const taperPolvo = Math.exp(
+      -Math.pow(rr / estadoSimulacion.radioPolvo, 6)
+    );
+    perfil *= taperPolvo;
+
+    perfil *= estadoSimulacion.dustToGasRatio / 0.01;
 
     return Math.max(perfil, 0);
   });
 }
 
 function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
+  const factorEtapa =
+    [0.65, 1.0, 1.35][estadoSimulacion.etapaEvolutiva] || 1.0;
+
   return perfilGasConGap.map((valor, i) => {
     const rr = radios[i];
     const temp = perfilTemperatura[i];
@@ -832,24 +857,27 @@ function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
 
     let perfil = valor;
 
-    // ----- planeta 1 -----
     const sigmaGap1 = Math.max(estadoSimulacion.anchoGap1 / 2.0, 1.5);
     const sigmaRing1 = Math.max(
       0.12 * estadoSimulacion.radioRing1 + 0.22 * estadoSimulacion.anchoGap1,
       2.0
     );
 
-    // Limitamos la intensidad del trapping para evitar anillos mm exagerados.
-    const trappingLimitado1 = Math.min(estadoSimulacion.indiceTrapping1, 1.6);
+    const trappingLimitado1 = Math.min(
+      estadoSimulacion.indiceTrapping1 * factorEtapa,
+      1.8
+    );
 
-    const sup1 = 1 - 0.92 * gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
+    const sup1 =
+      1 - 0.92 * gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
+
     const enh1 =
-      1 + clamp(0.55 * trappingLimitado1 + 0.0006 * aMaxRel, 0, 6) *
-      gauss(rr, estadoSimulacion.radioRing1, sigmaRing1);
+      1 +
+      clamp(0.55 * trappingLimitado1 + 0.0006 * aMaxRel, 0, 6) *
+        gauss(rr, estadoSimulacion.radioRing1, sigmaRing1);
 
     perfil *= sup1 * enh1;
 
-    // ----- planeta 2 -----
     if (estadoSimulacion.modoDosPlanetas) {
       const sigmaGap2 = Math.max(estadoSimulacion.anchoGap2 / 2.0, 1.5);
       const sigmaRing2 = Math.max(
@@ -857,19 +885,30 @@ function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
         2.0
       );
 
-      const trappingLimitado2 = Math.min(estadoSimulacion.indiceTrapping2, 1.8);
+      const trappingLimitado2 = Math.min(
+        estadoSimulacion.indiceTrapping2 * factorEtapa,
+        2.0
+      );
 
-      const sup2 = 1 - 0.95 * gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
+      const sup2 =
+        1 -
+        0.95 *
+          gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
+
       const enh2 =
-        1 + clamp(0.72 * trappingLimitado2 + 0.0007 * aMaxRel, 0, 8) *
-        gauss(rr, estadoSimulacion.radioRing2, sigmaRing2);
+        1 +
+        clamp(0.72 * trappingLimitado2 + 0.0007 * aMaxRel, 0, 8) *
+          gauss(rr, estadoSimulacion.radioRing2, sigmaRing2);
 
       perfil *= sup2 * enh2;
     }
 
-    // Taper suave del polvo: evita un corte brusco en R_dust.
-    const taperPolvo = Math.exp(-Math.pow(rr / estadoSimulacion.radioPolvo, 6));
+    const taperPolvo = Math.exp(
+      -Math.pow(rr / estadoSimulacion.radioPolvo, 6)
+    );
     perfil *= taperPolvo;
+
+    perfil *= estadoSimulacion.dustToGasRatio / 0.01;
 
     if (rr < 0.75 * estadoSimulacion.radioPlaneta) {
       perfil *= 0.25;
@@ -879,6 +918,83 @@ function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
   });
 }
 
+function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
+  const factorEtapa =
+    [0.65, 1.0, 1.35][estadoSimulacion.etapaEvolutiva] || 1.0;
+
+  return perfilGasConGap.map((valor, i) => {
+    const rr = radios[i];
+    const temp = perfilTemperatura[i];
+    const alpha = Math.max(estadoSimulacion.alfaTurb, 1e-6);
+    const vf = estadoSimulacion.velocidadFragmentacion;
+
+    const cs2Factor = Math.max(temp / 100, 0.1);
+    const aMaxRel = (valor / alpha) * Math.pow(vf / 10, 2) / cs2Factor;
+
+    let perfil = valor;
+
+    const sigmaGap1 = Math.max(estadoSimulacion.anchoGap1 / 2.0, 1.5);
+    const sigmaRing1 = Math.max(
+      0.12 * estadoSimulacion.radioRing1 + 0.22 * estadoSimulacion.anchoGap1,
+      2.0
+    );
+
+    const trappingLimitado1 = Math.min(
+      estadoSimulacion.indiceTrapping1 * factorEtapa,
+      1.8
+    );
+
+    const sup1 =
+      1 - 0.92 * gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
+
+    const enh1 =
+      1 +
+      clamp(0.55 * trappingLimitado1 + 0.0006 * aMaxRel, 0, 6) *
+        gauss(rr, estadoSimulacion.radioRing1, sigmaRing1);
+
+    perfil *= sup1 * enh1;
+
+    if (estadoSimulacion.modoDosPlanetas) {
+      const sigmaGap2 = Math.max(estadoSimulacion.anchoGap2 / 2.0, 1.5);
+      const sigmaRing2 = Math.max(
+        0.12 * estadoSimulacion.radioRing2 + 0.22 * estadoSimulacion.anchoGap2,
+        2.0
+      );
+
+      const trappingLimitado2 = Math.min(
+        estadoSimulacion.indiceTrapping2 * factorEtapa,
+        2.0
+      );
+
+      const sup2 =
+        1 -
+        0.95 *
+          gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
+
+      const enh2 =
+        1 +
+        clamp(0.72 * trappingLimitado2 + 0.0007 * aMaxRel, 0, 8) *
+          gauss(rr, estadoSimulacion.radioRing2, sigmaRing2);
+
+      perfil *= sup2 * enh2;
+    }
+
+    const taperPolvo = Math.exp(
+      -Math.pow(rr / estadoSimulacion.radioPolvo, 6)
+    );
+    perfil *= taperPolvo;
+
+    perfil *= estadoSimulacion.dustToGasRatio / 0.01;
+
+    if (rr < 0.75 * estadoSimulacion.radioPlaneta) {
+      perfil *= 0.25;
+    }
+
+    return Math.max(perfil, 0);
+  });
+}
+ 
+  
 function calcularPerfilPresion(perfilGas, perfilTemperatura, perfilScaleHeight, radios) {
   const raw = perfilGas.map((valorGas, i) => {
     const T = perfilTemperatura[i];
@@ -953,6 +1069,7 @@ function actualizarTextoParametros() {
     `;
   }
 
+  
   texto.innerHTML = `
     Gas radius: <strong>${formatearValor("radioGas", estadoSimulacion.radioGas)} AU</strong><br>
     Dust radius (derived): <strong>${formatearValor("radioPolvo", estadoSimulacion.radioPolvo)} AU</strong><br>
@@ -961,7 +1078,6 @@ function actualizarTextoParametros() {
     Planet mass: <strong>${formatearValor("masaPlaneta", estadoSimulacion.masaPlaneta)} M_Jup</strong><br>
     h/r: <strong>${formatearValor("relacionAspecto", estadoSimulacion.relacionAspecto)}</strong><br>
     α: <strong>${formatearValor("alfaTurb", estadoSimulacion.alfaTurb)}</strong><br>
-    v<sub>f</sub>: <strong>${formatearValor("velocidadFragmentacion", estadoSimulacion.velocidadFragmentacion)} m/s</strong><br>
     Gap depth Σp/Σ0: <strong>${estadoSimulacion.profundidadGap1.toFixed(3)}</strong><br>
     Gap opening: <strong>${estadoSimulacion.abreGap1 ? "Yes" : "Partial / shallow"}</strong><br>
     Outer ring radius: <strong>${estadoSimulacion.radioRing1.toFixed(1)} AU</strong><br>
@@ -1002,10 +1118,6 @@ function crearControles() {
     .filter(c => c.grupo === "Planet 1")
     .forEach(control => crearControlRango(control, contenedor));
 
-  contenedor.appendChild(crearTituloGrupo("Dust"));
-  controlesPrincipales
-    .filter(c => c.grupo === "Dust")
-    .forEach(control => crearControlRango(control, contenedor));
 
   contenedor.appendChild(crearTituloGrupo("Advanced V2"));
   controlesAvanzados.forEach(control => crearControlAvanzado(control, contenedor));
@@ -1049,10 +1161,18 @@ function crearControlRango(control, contenedor) {
     }
   });
 
-  grupo.appendChild(etiqueta);
-  grupo.appendChild(valorTexto);
-  grupo.appendChild(slider);
-  contenedor.appendChild(grupo);
+ grupo.appendChild(etiqueta);
+
+if (control.descripcion) {
+  const descripcion = document.createElement("div");
+  descripcion.className = "control-descripcion";
+  descripcion.textContent = control.descripcion;
+  grupo.appendChild(descripcion);
+}
+
+grupo.appendChild(valorTexto);
+grupo.appendChild(slider);
+contenedor.appendChild(grupo);
 }
 
 function crearControlAvanzado(control, contenedor) {

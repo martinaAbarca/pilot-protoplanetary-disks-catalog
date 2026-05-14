@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -69,6 +89,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -148,61 +197,126 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.simulacion-layout {
-  display: grid;
-  grid-template-columns: 355px 1fr;
-  gap: 1rem;
+/* Página completa de la simulación y la guía */
+.simulation-page-wide {
+  --sim-height: clamp(560px, 72vh, 760px);
+  width: min(96vw, 1700px);
+  margin-left: 50%;
+  transform: translateX(-50%);
   margin-top: 1rem;
-  align-items: start;
 }
 
+/* Estructura principal: Controls | Disk view | Current model + Radial profiles */
+.simulacion-layout {
+  display: grid;
+  grid-template-columns: 280px minmax(620px, 1.55fr) minmax(400px, 0.95fr);
+  gap: 1rem;
+  width: 100%;
+  align-items: stretch;
+}
+
+/* Paneles principales */
 .panel-controles,
-.panel-visual {
-  padding: 1rem;
+.panel-disco,
+.panel-perfiles,
+#resumen-parametros {
+  padding: 0.9rem;
   border: 1px solid rgba(255,255,255,0.65);
   border-radius: 14px;
   background: rgba(0, 0, 0, 0.18);
   box-shadow: 0 10px 28px rgba(0,0,0,0.20);
 }
 
+/* Las tres columnas tienen la misma altura visual */
+.panel-controles,
+.panel-disco,
+.panel-info {
+  height: var(--sim-height);
+}
+
+/* Columna izquierda: controles */
 .panel-controles {
   position: sticky;
   top: 1rem;
-  max-height: 88vh;
   overflow-y: auto;
-  padding-right: 0.8rem;
+  padding-right: 0.75rem;
+}
+
+/* Columna central: disco */
+.panel-disco {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.7rem;
+}
+
+.panel-disco h3,
+.panel-perfiles h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Marco del disco: grande, centrado y sin deformar el canvas */
+.canvas-frame {
+  width: 100%;
+  min-height: 0;
+  border: 1px solid rgba(255,255,255,0.55);
+  border-radius: 14px;
+  background: #000;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.disk-frame {
+  height: 100%;
 }
 
 #lienzo-disco {
-  width: min(100%, 920px);
-  height: auto;
-  aspect-ratio: 920 / 590;
-  border: 1px solid rgba(255,255,255,0.55);
-  border-radius: 14px;
   display: block;
-  background: #000;
+  width: auto;
+  height: auto;
+  max-width: 96%;
+  max-height: 96%;
+}
+
+/* Columna derecha: Current model arriba, Radial profiles abajo */
+.panel-info {
+  display: grid;
+  grid-template-rows: minmax(170px, 0.35fr) minmax(330px, 0.65fr);
+  gap: 1rem;
+}
+
+/* Current model */
+#resumen-parametros {
+  margin-top: 0;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  overflow-y: auto;
+}
+
+/* Panel del perfil radial */
+.panel-perfiles {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.7rem;
+  min-height: 0;
+}
+
+.profile-frame {
+  height: 100%;
 }
 
 #lienzo-perfiles {
-  width: min(100%, 920px);
-  height: auto;
-  aspect-ratio: 920 / 300;
-  border: 1px solid rgba(255,255,255,0.55);
-  border-radius: 14px;
   display: block;
-  background: #000;
-  margin-top: 1rem;
+  width: auto;
+  height: auto;
+  max-width: 96%;
+  max-height: 96%;
 }
 
-#resumen-parametros {
-  margin-top: 1rem;
-  padding: 0.85rem;
-  border: 1px solid rgba(255,255,255,0.55);
-  border-radius: 12px;
-}
-
+/* Controles */
 .control-grupo {
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
 }
 
 .control-grupo label {
@@ -211,13 +325,20 @@ ul.task-list li input[type="checkbox"] {
   margin-bottom: 0.25rem;
 }
 
+.control-descripcion {
+  font-size: 0.78rem;
+  line-height: 1.28;
+  opacity: 0.82;
+  margin-bottom: 0.4rem;
+}
+
 .control-grupo input[type="range"] {
   width: 100%;
 }
 
 .bloque-opciones {
-  margin-top: 1rem;
-  padding-top: 1rem;
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
   border-top: 1px solid rgba(255,255,255,0.18);
 }
 
@@ -225,13 +346,13 @@ ul.task-list li input[type="checkbox"] {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.55rem;
 }
 
 .selector-preset,
 .selector-asimetria {
   width: 100%;
-  padding: 0.60rem 0.70rem;
+  padding: 0.55rem 0.65rem;
   border-radius: 10px;
   border: 1px solid rgba(255,255,255,0.55);
   background: rgba(255,255,255,0.08);
@@ -247,7 +368,7 @@ ul.task-list li input[type="checkbox"] {
 .boton-reset {
   margin-top: 0.75rem;
   width: 100%;
-  padding: 0.75rem 0.9rem;
+  padding: 0.7rem 0.85rem;
   border: 1px solid rgba(255,255,255,0.60);
   border-radius: 10px;
   background: rgba(255,255,255,0.08);
@@ -262,14 +383,14 @@ ul.task-list li input[type="checkbox"] {
 
 .texto-ayuda {
   margin-top: 0.75rem;
-  font-size: 0.95rem;
-  line-height: 1.45;
+  font-size: 0.88rem;
+  line-height: 1.35;
 }
 
 .texto-nota {
-  font-size: 0.92rem;
+  font-size: 0.84rem;
   opacity: 0.92;
-  line-height: 1.45;
+  line-height: 1.35;
 }
 
 .subtitulo-bloque {
@@ -279,16 +400,67 @@ ul.task-list li input[type="checkbox"] {
   font-size: 1rem;
 }
 
-@media (max-width: 980px) {
+/* La guía usa el mismo ancho que la simulación */
+.simulation-page-wide .simulation-guide {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.simulation-page-wide .simulation-guide .guide-card {
+  max-width: none !important;
+}
+
+.simulation-page-wide .simulation-guide .guide-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.simulation-page-wide .simulation-guide table {
+  width: 100%;
+}
+
+/* Pantallas medianas o pequeñas */
+@media (max-width: 1250px) {
+  .simulation-page-wide {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+
   .simulacion-layout {
     grid-template-columns: 1fr;
   }
 
+  .panel-controles,
+  .panel-disco,
+  .panel-info {
+    height: auto;
+  }
+
   .panel-controles {
     position: static;
+    max-height: none;
+  }
+
+  .disk-frame {
+    height: auto;
+    aspect-ratio: 1050 / 700;
+  }
+
+  .profile-frame {
+    height: auto;
+    aspect-ratio: 900 / 520;
+  }
+
+  .simulation-page-wide .simulation-guide .guide-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>
+<div class="simulation-page-wide">
 <section id="protoplanetary-disk-simulation" class="level2">
 <h2 class="anchored" data-anchor-id="protoplanetary-disk-simulation">Protoplanetary Disk Simulation</h2>
 <p>This interactive tool shows how changing physical parameters modifies the morphology of a synthetic protoplanetary disk.</p>
@@ -329,72 +501,309 @@ Azimuthal asymmetries, such as eccentric rings or vortex-like clumps, may be muc
 </p>
 </div>
 </section>
-<div class="panel-visual">
-<section id="disk-view" class="level3">
+<section id="disk-view" class="level3 panel-disco">
 <h3 class="anchored" data-anchor-id="disk-view">Disk view</h3>
-<canvas id="lienzo-disco" width="920" height="590">
+<div class="canvas-frame disk-frame">
+<canvas id="lienzo-disco" width="1050" height="700">
 </canvas>
+</div>
 </section>
-<section id="radial-profiles" class="level3">
-<h3 class="anchored" data-anchor-id="radial-profiles">Radial profiles</h3>
-<canvas id="lienzo-perfiles" width="920" height="300">
-</canvas>
+<div class="panel-info">
 <div id="resumen-parametros">
 <strong>Current model:</strong>
 <p id="texto-parametros">
 Loading simulation parameters…
 </p>
 </div>
+<section id="radial-profiles" class="level3 panel-perfiles">
+<h3 class="anchored" data-anchor-id="radial-profiles">Radial profiles</h3>
+<div class="canvas-frame profile-frame">
+<canvas id="lienzo-perfiles" width="900" height="520">
+</canvas>
+</div>
 </section>
 </div>
 </div>
-<script src="simulation.js?v=4"></script>
-<hr>
+<script src="simulation.js?v=5"></script>
 </section>
 <section id="guía-de-uso-de-la-simulación" class="level2">
 <h2 class="anchored" data-anchor-id="guía-de-uso-de-la-simulación">Guía de uso de la simulación</h2>
-<p>Esta herramienta interactiva muestra cómo cambian la morfología de un disco protoplanetario y sus perfiles radiales cuando se modifican parámetros físicos asociados al gas, al polvo y a la interacción planeta–disco.</p>
-<p>Un disco protoplanetario es una estructura de gas y polvo que gira alrededor de una estrella joven. En estos discos se forman planetas, y las observaciones modernas muestran que no son estructuras lisas: suelen presentar anillos, brechas, cavidades y asimetrías. Esta simulación representa esas subestructuras de forma sintética y pedagógica.</p>
-<p>La simulación no corresponde a un modelo hidrodinámico completo ni a una observación real de ALMA. Su objetivo es mostrar, de manera visual, cómo distintos parámetros físicos pueden producir cambios en la estructura del disco.</p>
-<section id="cómo-leer-la-imagen-del-disco" class="level3">
-<h3 class="anchored" data-anchor-id="cómo-leer-la-imagen-del-disco">Cómo leer la imagen del disco</h3>
-<p>La imagen superior muestra una vista frontal del disco:</p>
+<div class="simulation-guide">
+<section id="qué-muestra-esta-simulación" class="level3 guide-card guide-intro">
+<h3 class="anchored" data-anchor-id="qué-muestra-esta-simulación">¿Qué muestra esta simulación?</h3>
+<p>Esta herramienta representa un <strong>disco protoplanetario sintético</strong>: una estructura de gas y polvo en órbita alrededor de una estrella joven, donde los planetas se forman y dejan su huella en la distribución del material. Su objetivo no es reproducir un sistema real específico, sino mostrar de forma visual y cuantitativa cómo ciertos parámetros físicos modifican la morfología del disco.</p>
+<p>La simulación permite explorar tres fenómenos centrales de la física de discos:</p>
+<ol type="1">
+<li><p><strong>Apertura de brechas (<em>gaps</em>)</strong>: un planeta masivo perturba gravitacionalmente el disco. Si su masa y las condiciones del disco lo permiten, puede vaciar material en su órbita y abrir una cavidad anular. La profundidad y el ancho del gap dependen de la masa del planeta, el grosor térmico del disco (<em>h/r</em>) y la viscosidad (<em>α</em>).</p></li>
+<li><p><strong>Atrapamiento de polvo en anillos</strong>: fuera de la órbita del planeta, la densidad del gas aumenta y genera un máximo local de presión. Las partículas sólidas migran hacia ese máximo y se acumulan, formando un anillo brillante de polvo milimétrico.</p></li>
+<li><p><strong>Separación radial entre gas y polvo</strong>: el gas y el polvo no ocupan la misma región del disco. El gas permanece más extendido; el polvo sólido, especialmente el milimétrico, migra hacia el interior por arrastre aerodinámico y se concentra en una zona más compacta.</p></li>
+</ol>
+</section>
+<div class="guide-grid">
+<section id="imagen-del-disco" class="level3 guide-card">
+<h3 class="anchored" data-anchor-id="imagen-del-disco">Imagen del disco</h3>
+<p>La imagen superior muestra una <strong>vista frontal del disco</strong>, centrada en la estrella. Cada componente tiene un color distinto:</p>
 <ul>
-<li>la estrella está en el centro;</li>
-<li>el gas se representa como la componente más extendida;</li>
-<li>el polvo fino sigue de manera más cercana al gas;</li>
-<li>el polvo milimétrico aparece más concentrado en anillos;</li>
-<li>las brechas oscuras indican regiones de menor densidad asociadas a planetas;</li>
-<li>los anillos brillantes muestran acumulación de polvo en regiones de atrapamiento.</li>
+<li>El <strong>gas</strong> (azul) es la capa más extendida. Su perfil sigue una ley de potencia con una caída exponencial suave en el borde externo.</li>
+<li>El <strong>polvo fino</strong> sigue al gas de cerca, porque los granos pequeños permanecen fuertemente acoplados a él. Experimenta cierto filtrado en el gap, pero no se separa tanto como el polvo milimétrico.</li>
+<li>El <strong>polvo milimétrico</strong> (naranja) es mucho más sensible al atrapamiento. Se concentra en anillos estrechos fuera de la órbita del planeta, donde el gradiente de presión del gas es positivo.</li>
+<li>Las <strong>zonas oscuras</strong> representan brechas donde el planeta ha vaciado material. Su profundidad visual refleja la fracción de gas que queda dentro del gap.</li>
+<li>Las <strong>órbitas planetarias</strong> se marcan con líneas punteadas blancas. La estrella aparece como un punto amarillo en el centro.</li>
 </ul>
+<p>Cuando el modo de dos planetas está activo, pueden aparecer modulaciones azimutales del brillo: un anillo excéntrico o una concentración tipo vórtice, dependiendo del régimen físico del disco.</p>
 </section>
-<section id="cómo-leer-el-gráfico-radial" class="level3">
-<h3 class="anchored" data-anchor-id="cómo-leer-el-gráfico-radial">Cómo leer el gráfico radial</h3>
-<p>El gráfico radial compara los perfiles normalizados de gas, polvo fino, polvo milimétrico y una <em>pressure proxy</em>. Estos perfiles no representan brillo observado ni densidad superficial absoluta. Son cantidades relativas normalizadas, usadas para comparar la forma radial de cada componente.</p>
-<p>En el gráfico:</p>
+<section id="perfiles-radiales" class="level3 guide-card">
+<h3 class="anchored" data-anchor-id="perfiles-radiales">Perfiles radiales</h3>
+<p>El gráfico inferior compara los <strong>perfiles radiales normalizados</strong> de las cuatro componentes del modelo: gas, polvo fino, polvo milimétrico y una <em>pressure proxy</em>.</p>
+<p>Cada perfil se divide por su propio valor máximo antes de graficarse. Esto permite comparar la <em>forma</em> radial de cada componente, pero impide interpretar el eje vertical como una cantidad absoluta (densidad superficial, brillo observado, etc.).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rasgo en el gráfico</th>
+<th>Significado físico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Caída pronunciada</td>
+<td>Brecha en la región del planeta</td>
+</tr>
+<tr class="even">
+<td>Máximo local</td>
+<td>Anillo o zona de acumulación de polvo</td>
+</tr>
+<tr class="odd">
+<td>Curva más compacta que el gas</td>
+<td>Deriva radial del polvo hacia el interior</td>
+</tr>
+<tr class="even">
+<td><em>Pressure proxy</em> desplazada hacia afuera del gap</td>
+<td>Zona de atrapamiento de polvo milimétrico</td>
+</tr>
+</tbody>
+</table>
+<p>Las líneas verticales punteadas indican la posición del planeta (rojo) y del anillo exterior de polvo milimétrico (naranja).</p>
+<p>Las asimetrías azimutales no son visibles en este gráfico porque los perfiles son promediados azimutalmente. Para observarlas, hay que mirar la imagen del disco.</p>
+</section>
+</div>
+<section id="controles-principales" class="level3 guide-card">
+<h3 class="anchored" data-anchor-id="controles-principales">Controles principales</h3>
+<p>Los controles modifican parámetros físicos reales del modelo. Los cambios se propagan de forma inmediata a la imagen del disco y a los perfiles radiales.</p>
+<section id="parámetros-del-disco" class="level4">
+<h4 class="anchored" data-anchor-id="parámetros-del-disco">Parámetros del disco</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Control</th>
+<th>Efecto físico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Evolutionary stage</strong></td>
+<td>Escala la concentración del polvo milimétrico. Un disco más evolucionado muestra anillos más marcados porque el polvo ha tenido más tiempo para migrar y acumularse.</td>
+</tr>
+<tr class="even">
+<td><strong>Gas outer radius</strong></td>
+<td>Define la extensión radial del gas. El radio del polvo se calcula automáticamente como la mitad del radio del gas, siguiendo la tendencia observacional de que <em>R</em><sub>CO</sub> ≳ 2 <em>R</em><sub>mm</sub> <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</td>
+</tr>
+<tr class="odd">
+<td><strong>Gas mass</strong></td>
+<td>Escala la cantidad relativa de gas en el perfil base. No cambia la morfología de los gaps directamente.</td>
+</tr>
+<tr class="even">
+<td><strong>Dust-to-gas ratio</strong></td>
+<td>Controla la abundancia relativa de polvo respecto al gas. El valor estándar observacional es ~0.01. Valores más altos producen anillos de polvo más brillantes.</td>
+</tr>
+<tr class="odd">
+<td><strong>Disk thickness h/r</strong></td>
+<td>El aspecto térmico del disco en la órbita del planeta. Discos más gruesos resisten mejor la perturbación gravitacional del planeta: el gap es menos profundo y más difuso.</td>
+</tr>
+<tr class="even">
+<td><strong>Viscosity / turbulence α</strong></td>
+<td>La viscosidad efectiva controla cuánto material se mezcla de vuelta hacia el gap. Un <em>α</em> bajo permite gaps profundos y trapping eficiente. Un <em>α</em> alto difumina todas las estructuras.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="parámetros-del-planeta-interior" class="level4">
+<h4 class="anchored" data-anchor-id="parámetros-del-planeta-interior">Parámetros del planeta interior</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Control</th>
+<th>Efecto físico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Planet orbital radius</strong></td>
+<td>Define la posición de la brecha principal. El anillo de polvo milimétrico aparece automáticamente fuera de esta órbita, en el máximo de presión generado por el planeta.</td>
+</tr>
+<tr class="even">
+<td><strong>Planet mass</strong></td>
+<td>Controla la intensidad de la interacción planeta–disco. Planetas más masivos abren gaps más profundos y anchos, y generan trapping más eficiente del polvo milimétrico.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="modo-avanzado-dos-planetas-y-asimetrías" class="level4">
+<h4 class="anchored" data-anchor-id="modo-avanzado-dos-planetas-y-asimetrías">Modo avanzado: dos planetas y asimetrías</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Control</th>
+<th>Efecto físico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Enable two-planet mode</strong></td>
+<td>Activa un segundo planeta exterior con su propio gap y anillo.</td>
+</tr>
+<tr class="even">
+<td><strong>Outer planet radius</strong></td>
+<td>Posición orbital del planeta exterior. Debe ser suficientemente separado del interior para que los gaps no se solapen.</td>
+</tr>
+<tr class="odd">
+<td><strong>Outer planet mass</strong></td>
+<td>Masa del planeta exterior. Valores ≥ 5 <em>M</em><sub>Jup</sub> con baja turbulencia son necesarios para activar el modo vórtice.</td>
+</tr>
+<tr class="even">
+<td><strong>Asymmetry mode</strong></td>
+<td>Permite explorar modulaciones azimutales del brillo: <em>Eccentric</em> produce un anillo con brillo no uniforme; <em>Vortex-like</em> genera un clump concentrado, pero solo se activa si el régimen físico lo permite.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="base-física-del-modelo" class="level3 guide-card">
+<h3 class="anchored" data-anchor-id="base-física-del-modelo">Base física del modelo</h3>
+<p>La simulación combina aproximaciones analíticas inspiradas en distintos trabajos científicos.</p>
+<p><strong>Estructura base del disco</strong></p>
+<p>El perfil de temperatura sigue la ley estándar de discos irradiados <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>:</p>
+<p><span class="math display">\[T(r) \simeq 200\,\text{K} \cdot \left(\frac{r}{1\,\text{au}}\right)^{-1/2}\]</span></p>
+<p>La temperatura a 1 au está fijada en 200 K y controla la velocidad del sonido local, que determina la altura de escala <span class="math inline">\(H(r) \propto r^{\psi}\)</span>, con <span class="math inline">\(\psi = 1.25\)</span> (flaring estándar). El radio del polvo se deriva del radio del gas dividido por un factor 2, siguiendo la diferencia observacional <span class="math inline">\(R_{\rm CO} \gtrsim 2\,R_{\rm mm}\)</span> <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<p><strong>Criterio de apertura del gap</strong></p>
+<p>Un planeta no siempre abre un gap profundo. La condición depende del equilibrio entre torque gravitacional, soporte de presión y viscosidad <span class="citation" data-cites="crida2006">(<a href="#ref-crida2006" role="doc-biblioref">Crida, Morbidelli, and Masset 2006</a>)</span>:</p>
+<p><span class="math display">\[\frac{3}{4}\frac{H}{R_H} + \frac{50}{q\,Re} \leq 1\]</span></p>
+<p>donde <span class="math inline">\(H\)</span> es la altura de escala, <span class="math inline">\(R_H = r_p\,(q/3)^{1/3}\)</span> es el radio de Hill, <span class="math inline">\(q = M_p/M_\star\)</span> y <span class="math inline">\(Re\)</span> es el número de Reynolds efectivo. Si esta condición se cumple, el planeta abre un gap profundo; de lo contrario, la brecha es parcial o superficial.</p>
+<p><strong>Profundidad del gap</strong></p>
+<p>La fracción de gas que permanece dentro del gap se calcula con la expresión de <span class="citation" data-cites="kanagawa2015">Kanagawa et al. (<a href="#ref-kanagawa2015" role="doc-biblioref">2015</a>)</span>:</p>
+<p><span class="math display">\[\frac{\Sigma_p}{\Sigma_0} = \frac{1}{1 + 0.04\,K}, \qquad K = \left(\frac{M_p}{M_\star}\right)^2 h_p^{-5}\,\alpha^{-1}\]</span></p>
+<p>El parámetro <span class="math inline">\(K\)</span> condensa la dependencia con la masa del planeta, el grosor térmico y la viscosidad. Los valores de <span class="math inline">\(\Sigma_p/\Sigma_0\)</span> se muestran en tiempo real en el resumen del modelo.</p>
+<p><strong>Forma radial del gap</strong></p>
+<p>Para evitar bordes artificiales, el perfil radial del gas en la zona del gap sigue un modelo analítico suave derivado de <span class="citation" data-cites="duffell2020">Duffell (<a href="#ref-duffell2020" role="doc-biblioref">2020</a>)</span>. Cuando hay dos planetas, el perfil del gas se modifica dos veces de forma consecutiva.</p>
+<p><strong>Separación entre trazadores y atrapamiento de polvo</strong></p>
+<p><span class="citation" data-cites="pinilla2015">Pinilla et al. (<a href="#ref-pinilla2015" role="doc-biblioref">2015</a>)</span> muestran que los granos micrónico y milimétrico responden de manera muy distinta a la presencia de un planeta. Los granos pequeños siguen al gas de forma cercana; los granos milimétricos son filtrados fuera del gap y se acumulan en el máximo de presión exterior. La posición del anillo milimétrico se calcula como:</p>
+<p><span class="math display">\[r_{\rm ring} = r_p + \max\!\left(\delta_{\rm Hill}\,R_H,\; 0.45\,w_{\rm gap}\right)\]</span></p>
+<p>donde <span class="math inline">\(\delta_{\rm Hill}\)</span> depende de si el planeta es el interior o el exterior. El modo de dos planetas y las asimetrías tipo vórtice se basan en los resultados de <span class="citation" data-cites="pinilla2015">Pinilla et al. (<a href="#ref-pinilla2015" role="doc-biblioref">2015</a>)</span>.</p>
+<p><strong>Deriva radial del polvo</strong></p>
+<p>En un disco con gradiente de presión negativo, el gas rota ligeramente por debajo de la velocidad kepleriana. Las partículas sólidas no reciben soporte de presión, sienten un viento de cara y pierden momento angular, migrando hacia el interior <span class="citation" data-cites="weidenschilling1977">(<a href="#ref-weidenschilling1977" role="doc-biblioref">Weidenschilling 1977</a>)</span>. Esta es la razón por la que el radio del polvo es más compacto que el del gas, y por la que granos de distintos tamaños tienen distribuciones radiales diferentes.</p>
+</section>
+<section id="parámetros-fijos-del-modelo" class="level3 guide-card">
+<h3 class="anchored" data-anchor-id="parámetros-fijos-del-modelo">Parámetros fijos del modelo</h3>
+<p>Algunos parámetros físicos no son controles del usuario. Sus valores están fijados a referencias estándar de la literatura para reducir los grados de libertad del modelo y mantener la coherencia física:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parámetro</th>
+<th>Valor fijo</th>
+<th>Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Temperatura a 1 au</td>
+<td>200 K</td>
+<td><span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Índice de flaring <span class="math inline">\(\psi\)</span></td>
+<td>1.25</td>
+<td><span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Masa estelar</td>
+<td>1.0 <span class="math inline">\(M_\odot\)</span></td>
+<td>Supuesto estándar</td>
+</tr>
+<tr class="even">
+<td>Velocidad de fragmentación</td>
+<td>10 m/s</td>
+<td><span class="citation" data-cites="pinilla2015">(<a href="#ref-pinilla2015" role="doc-biblioref">Pinilla et al. 2015</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Razón de tamaño gas/polvo</td>
+<td>2.0</td>
+<td><span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Estos valores son coherentes con discos protoplanetarios observados alrededor de estrellas de tipo solar en regiones de formación estelar cercanas.</p>
+</section>
+<section id="limitaciones" class="level3 guide-card guide-limit">
+<h3 class="anchored" data-anchor-id="limitaciones">Limitaciones</h3>
+<p>Esta simulación es <strong>pedagógica</strong>: conecta parámetros físicos con cambios visuales en la morfología del disco de manera interactiva. No es una simulación hidrodinámica completa.</p>
+<p>En particular, el modelo <strong>no</strong> calcula:</p>
 <ul>
-<li>una caída indica un <em>gap</em>;</li>
-<li>un máximo indica un anillo o acumulación de polvo;</li>
-<li>la <em>pressure proxy</em> ayuda a identificar regiones donde el polvo puede quedar atrapado.</li>
+<li>Transferencia radiativa ni imágenes sintéticas equivalentes a ALMA.</li>
+<li>Evolución temporal real del disco ni migración planetaria.</li>
+<li>Química del gas ni distribución de moléculas trazadoras.</li>
+<li>Dinámica real de vórtices ni inestabilidades de Rossby.</li>
+<li>Efectos de resonancias entre planetas.</li>
 </ul>
-<p>El eje vertical debe interpretarse como un perfil radial normalizado en unidades arbitrarias.</p>
+<p>Las asimetrías azimutales son representaciones cualitativas de tendencias físicas descritas en la literatura <span class="citation" data-cites="pinilla2015">(<a href="#ref-pinilla2015" role="doc-biblioref">Pinilla et al. 2015</a>)</span>, no soluciones hidrodinámicas. La fórmula de <span class="citation" data-cites="kanagawa2015">Kanagawa et al. (<a href="#ref-kanagawa2015" role="doc-biblioref">2015</a>)</span> asume un disco delgado, viscoso, axisimétrico y en estado estacionario; para valores muy altos de <span class="math inline">\(K\)</span>, puede perder precisión.</p>
 </section>
-<section id="qué-modifican-los-controles" class="level3">
-<h3 class="anchored" data-anchor-id="qué-modifican-los-controles">Qué modifican los controles</h3>
-<p><strong>Gas-to-dust size ratio:</strong> controla cuánto más extendido es el gas respecto del polvo. Un valor mayor produce un disco de polvo más compacto.</p>
-<p><strong>Gas outer radius:</strong> define la extensión radial máxima del gas.</p>
-<p><strong>Disk density:</strong> cambia la normalización global de densidad del disco. No representa una masa absoluta, sino una escala relativa.</p>
-<p><strong>Disk thickness h/r:</strong> controla el grosor térmico del disco. Un disco más grueso dificulta la apertura de brechas profundas.</p>
-<p><strong>Turbulence α:</strong> representa la viscosidad o turbulencia efectiva. Valores altos suavizan estructuras; valores bajos favorecen brechas y atrapamiento de polvo.</p>
-<p><strong>Flaring:</strong> controla cómo aumenta la altura del disco con el radio.</p>
-<p><strong>Planet orbital radius:</strong> fija la posición orbital del planeta y, por tanto, la ubicación principal del <em>gap</em>.</p>
-<p><strong>Planet mass:</strong> controla la intensidad de la perturbación. Planetas más masivos generan brechas más profundas y anillos más marcados.</p>
+</div>
+</section>
+</div>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-andrews2020" class="csl-entry" role="listitem">
+Andrews, Sean M. 2020. <span>“Observations of Protoplanetary Disk Structures.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 58: 483–528. <a href="https://doi.org/10.1146/annurev-astro-031220-010302">https://doi.org/10.1146/annurev-astro-031220-010302</a>.
+</div>
+<div id="ref-birnstiel2024_dustgrowth" class="csl-entry" role="listitem">
+Birnstiel, Tilman. 2024. <span>“Dust Growth and Evolution in Protoplanetary Disks.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 62: 157–202. <a href="https://arxiv.org/abs/2312.13287">https://arxiv.org/abs/2312.13287</a>.
+</div>
+<div id="ref-crida2006" class="csl-entry" role="listitem">
+Crida, A., A. Morbidelli, and F. Masset. 2006. <span>“On the Width and Shape of Gaps in Protoplanetary Disks.”</span> <em>Icarus</em> 181 (2): 587–604. <a href="https://doi.org/10.1016/j.icarus.2005.10.007">https://doi.org/10.1016/j.icarus.2005.10.007</a>.
+</div>
+<div id="ref-duffell2020" class="csl-entry" role="listitem">
+Duffell, Paul C. 2020. <span>“An Empirically Derived Formula for the Shape of Planet-Induced Gaps in Protoplanetary Disks.”</span> <em>The Astrophysical Journal</em> 889 (1): 16. <a href="https://doi.org/10.3847/1538-4357/ab5b0f">https://doi.org/10.3847/1538-4357/ab5b0f</a>.
+</div>
+<div id="ref-kanagawa2015" class="csl-entry" role="listitem">
+Kanagawa, Kazuhiro D., Takayuki Muto, Hidekazu Tanaka, Takayuki Tanigawa, Taku Takeuchi, Takashi Tsukagoshi, and Munetake Momose. 2015. <span>“Mass Estimates of a Giant Planet in a Protoplanetary Disk from the Gap Structures.”</span> <em>The Astrophysical Journal Letters</em> 806 (1): L15. <a href="https://doi.org/10.1088/2041-8205/806/1/L15">https://doi.org/10.1088/2041-8205/806/1/L15</a>.
+</div>
+<div id="ref-pinilla2015" class="csl-entry" role="listitem">
+Pinilla, P., M. de Juan Ovelar, S. Ataiee, M. Benisty, T. Birnstiel, E. F. van Dishoeck, and M. Min. 2015. <span>“Gas and Dust Structures in Protoplanetary Disks Hosting Multiple Planets.”</span> <em>Astronomy &amp; Astrophysics</em> 573: A9. <a href="https://doi.org/10.1051/0004-6361/201424679">https://doi.org/10.1051/0004-6361/201424679</a>.
+</div>
+<div id="ref-weidenschilling1977" class="csl-entry" role="listitem">
+Weidenschilling, S. J. 1977. <span>“Aerodynamics of Solid Bodies in the Solar Nebula.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 180 (2): 57–70. <a href="https://doi.org/10.1093/mnras/180.2.57">https://doi.org/10.1093/mnras/180.2.57</a>.
+</div>
+<div id="ref-williams2011" class="csl-entry" role="listitem">
+Williams, Jonathan P., and Lucas A. Cieza. 2011. <span>“Protoplanetary Disks and Their Evolution.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 49 (1): 67–117. <a href="https://doi.org/10.1146/annurev-astro-081710-102548">https://doi.org/10.1146/annurev-astro-081710-102548</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
