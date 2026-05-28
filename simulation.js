@@ -201,8 +201,8 @@ const controlesPrincipales = [
     etiqueta: "Razón polvo--gas",
     descripcion: "Controla cuánto polvo hay en comparación con el gas. Valores más altos hacen que los anillos de polvo sean más brillantes.",
     unidad: "",
-    min: 0.003,
-    max: 0.05,
+    min: 0.004,
+    max: 0.03,
     step: 0.001,
     grupo: "Disk"
   },
@@ -1420,6 +1420,16 @@ function dibujarCapaRadial(ctx, cx, cy, radios, perfil, tipo, rMax, radioVisualM
   let alphaMin = 0.03;
   let alphaMax = 0.22;
 
+    let factorBrilloPolvo = 1;
+
+  if (tipo === "polvoFino" || tipo === "polvoMm") {
+    factorBrilloPolvo = clamp(
+      Math.sqrt(estadoSimulacion.dustToGasRatio / 0.01),
+      0.45,
+      2.4
+    );
+  }
+
   if (tipo === "gas") {
     alphaMin = 0.04;
     alphaMax = 0.22;
@@ -1436,7 +1446,11 @@ function dibujarCapaRadial(ctx, cx, cy, radios, perfil, tipo, rMax, radioVisualM
     const rOut = mapearRadioVisual(radios[i], rMax, radioVisualMax);
     const intensidad = Math.pow(perfilNorm[i], 0.48);
 
-    const alpha = alphaMin + (alphaMax - alphaMin) * intensidad;
+        let alpha = alphaMin + (alphaMax - alphaMin) * intensidad;
+
+    if (tipo === "polvoFino" || tipo === "polvoMm") {
+      alpha = clamp(alpha * factorBrilloPolvo, 0.01, 0.85);
+    }
 
     let color = "";
     if (tipo === "gas") {
@@ -1658,6 +1672,14 @@ function dibujarDisco() {
       radioVisualMax
     );
 
+    const factorBrilloPolvoVisual = clamp(
+  Math.sqrt(estadoSimulacion.dustToGasRatio / 0.01),
+  0.45,
+  2.4
+);
+
+const alphaRingVisual = clamp(0.24 * factorBrilloPolvoVisual, 0.05, 0.65);
+
     // Ring 1
     const ring1AnchoFisico = Math.max(0.22 * estadoSimulacion.anchoGap1, 2.5);
     const ring1InPix = mapearRadioVisual(
@@ -1670,7 +1692,14 @@ function dibujarDisco() {
       rMax,
       radioVisualMax
     );
-    dibujarAnillo(ctx, cx, cy, ring1InPix, ring1OutPix, "rgba(255, 190, 90, 0.24)");
+    dibujarAnillo(
+  ctx,
+  cx,
+  cy,
+  ring1InPix,
+  ring1OutPix,
+  `rgba(255, 190, 90, ${alphaRingVisual})`
+);
 
     // Ring 2
     if (estadoSimulacion.modoDosPlanetas) {
@@ -1685,7 +1714,14 @@ function dibujarDisco() {
         rMax,
         radioVisualMax
       );
-      dibujarAnillo(ctx, cx, cy, ring2InPix, ring2OutPix, "rgba(255, 190, 90, 0.20)");
+      dibujarAnillo(
+  ctx,
+  cx,
+  cy,
+  ring2InPix,
+  ring2OutPix,
+  `rgba(255, 190, 90, ${clamp(0.20 * factorBrilloPolvoVisual, 0.04, 0.60)})`
+);
     }
   }
 
