@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Análisis morfológico de subestructuras radiales – Catálogo piloto de discos protoplanetarios</title>
+<title>investigaciones_publicaciones – Catálogo piloto de discos protoplanetarios</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,26 +23,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -90,35 +71,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -145,7 +97,7 @@ window.Quarto = {
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./activity_morphology_es.html" aria-current="page"> 
+    <a class="nav-link" href="./activity_morphology_es.html"> 
 <span class="menu-text">Actividad morfológica</span></a>
   </li>  
   <li class="nav-item">
@@ -153,7 +105,7 @@ window.Quarto = {
 <span class="menu-text">Simulación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./investigaciones_publicaciones.html"> 
+    <a class="nav-link active" href="./investigaciones_publicaciones.html" aria-current="page"> 
 <span class="menu-text">Investigaciones y publicaciones</span></a>
   </li>  
   <li class="nav-item">
@@ -175,240 +127,11 @@ window.Quarto = {
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Análisis morfológico de subestructuras radiales</h1>
-</div>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-page">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="morphology-activity">
-<div class="activity-hero-block">
-<div class="activity-kicker">
-<p>Actividad de ciencia de datos con imágenes FITS</p>
-</div>
-<p>En esta actividad trabajarás con una imagen FITS real de <strong>IM Lup</strong> o de <strong>HD 163296</strong>. El objetivo es analizar la morfología de la emisión continua milimétrica e identificar subestructuras radiales como anillos brillantes, brechas o depresiones radiales.</p>
-<p>El código base y las imágenes FITS están disponibles en el repositorio de GitHub. La actividad comienza cuando la imagen ya está cargada y lista para ser analizada.</p>
-<p><a href="index.html#activities" class="activity-back-link">Volver al inicio del catálogo →</a></p>
-</div>
-<hr>
-<section id="resumen-de-la-actividad" class="level2">
-<h2 class="anchored" data-anchor-id="resumen-de-la-actividad">Resumen de la actividad</h2>
-<div class="activity-overview-grid">
-<section id="qué-harás" class="level3 activity-info-card">
-<h3 class="anchored" data-anchor-id="qué-harás">Qué harás</h3>
-<ul>
-<li>Aplicar la geometría del disco usando inclinación y ángulo de posición.</li>
-<li>Deproyectar una imagen inclinada del disco.</li>
-<li>Transformar la imagen a coordenadas polares.</li>
-<li>Construir un perfil radial de intensidad promediado azimutalmente.</li>
-<li>Identificar anillos, brechas, depresiones radiales o emisión extendida.</li>
-<li>Medir el contraste observacional de una brecha o depresión radial.</li>
-</ul>
-</section>
-<div class="activity-info-card">
-<section id="materiales-sugeridos" class="level3">
-<h3 class="anchored" data-anchor-id="materiales-sugeridos">Materiales sugeridos</h3>
-<ul>
-<li>Imagen FITS de <strong>IM Lup</strong> o <strong>HD 163296</strong>.</li>
-<li>Notebook de Jupyter o script en Python.</li>
-<li>Librerías necesarias de Python.</li>
-<li>Contexto científico desde la ficha del catálogo del disco seleccionado.</li>
-</ul>
-</section>
-<section id="imágenes-fits-disponibles" class="level3">
-<h3 class="anchored" data-anchor-id="imágenes-fits-disponibles">Imágenes FITS disponibles</h3>
-<ul>
-<li>Imagen de continuo de IM Lup.</li>
-<li>Imagen de continuo de HD 163296.</li>
-</ul>
-</section>
-</div>
-</div>
-<section id="archivos-para-descargar" class="level3 activity-download-panel">
-<h3 class="anchored" data-anchor-id="archivos-para-descargar">Archivos para descargar</h3>
-<ul class="download-list">
-<li>
-<a href="data/actividades/morphology_activity_package.zip" download=""> Descargar paquete completo de la actividad (.zip) </a>
-</li>
-</ul>
-<p><strong>Recomendación:</strong> descarga el paquete completo de la actividad y descomprímelo. El paquete incluye el notebook base y las imágenes FITS de <strong>HD 163296</strong> e <strong>IM Lup</strong>, por lo que podrás elegir con qué disco trabajar al ejecutar el código.</p>
-</section>
-<hr>
-</section>
-<section id="rúbrica-orientativa" class="level2">
-<h2 class="anchored" data-anchor-id="rúbrica-orientativa">Rúbrica orientativa</h2>
-<p>Esta rúbrica no tiene puntaje. Su objetivo es guiar el desarrollo de la actividad y ayudar a verificar que el análisis morfológico del disco esté completo.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Criterio</th>
-<th>Qué se espera</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Corrección geométrica del disco</td>
-<td>Se aplica la geometría del disco usando su centro, inclinación y ángulo de posición. La imagen debe ser rotada y deproyectada para aproximar una vista <em>face-on</em> del disco.</td>
-</tr>
-<tr class="even">
-<td>Mapa polar del disco</td>
-<td>Se transforma la imagen deproyectada a coordenadas polares. El mapa debe permitir visualizar si las estructuras aparecen a radios aproximadamente constantes.</td>
-</tr>
-<tr class="odd">
-<td>Perfil radial de intensidad</td>
-<td>Se calcula el perfil radial promedio del continuo milimétrico. El perfil debe mostrar cómo cambia la intensidad con el radio y permitir identificar máximos y mínimos locales.</td>
-</tr>
-<tr class="even">
-<td>Identificación de subestructuras</td>
-<td>Se identifican subestructuras radiales visibles en la imagen deproyectada, el mapa polar o el perfil radial. Estas pueden incluir anillos brillantes, brechas, depresiones radiales, cambios bruscos de intensidad o emisión extendida.</td>
-</tr>
-<tr class="odd">
-<td>Medición del contraste de una brecha o depresión radial</td>
-<td>Se selecciona una brecha o mínimo local en el perfil radial y se estima su contraste de intensidad respecto a un anillo o máximo cercano.</td>
-</tr>
-<tr class="even">
-<td>Descripción morfológica</td>
-<td>Se describe brevemente qué revela el análisis sobre la estructura del disco elegido. Si se analizan ambos discos, se pueden comparar las principales diferencias morfológicas entre IM Lup y HD 163296.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="preguntas-guía" class="level2">
-<h2 class="anchored" data-anchor-id="preguntas-guía">Preguntas guía</h2>
-<section id="corrección-geométrica" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="corrección-geométrica">1. Corrección geométrica</h3>
-<ul>
-<li>¿Cómo cambia la forma aparente del disco después de la deproyección?</li>
-<li>¿Por qué es necesario corregir la inclinación antes de estudiar anillos o brechas?</li>
-<li>¿Qué efecto tiene el ángulo de posición en la orientación del disco?</li>
-</ul>
-</section>
-<section id="mapa-polar" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="mapa-polar">2. Mapa polar</h3>
-<ul>
-<li>¿Las subestructuras se observan con mayor claridad en coordenadas polares?</li>
-<li>¿Los anillos o brechas aparecen a radios aproximadamente constantes?</li>
-<li>¿Existen variaciones con el ángulo azimutal?</li>
-</ul>
-</section>
-<section id="perfil-radial-de-intensidad" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="perfil-radial-de-intensidad">3. Perfil radial de intensidad</h3>
-<ul>
-<li>¿Dónde se ubican los principales máximos de intensidad?</li>
-<li>¿Dónde aparecen mínimos locales o depresiones radiales?</li>
-<li>¿El perfil radial muestra una estructura suave o presenta cambios marcados?</li>
-</ul>
-</section>
-<section id="identificación-de-subestructuras" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="identificación-de-subestructuras">4. Identificación de subestructuras</h3>
-<ul>
-<li>¿Qué subestructuras puedes identificar en el disco seleccionado?</li>
-<li>¿Son más evidentes en la imagen deproyectada, en el mapa polar o en el perfil radial?</li>
-<li>¿El disco muestra anillos y brechas bien definidos o una emisión más extendida y suave?</li>
-</ul>
-</section>
-<hr>
-</section>
-<section id="medición-del-contraste-de-una-brecha" class="level2">
-<h2 class="anchored" data-anchor-id="medición-del-contraste-de-una-brecha">Medición del contraste de una brecha</h2>
-<p>Selecciona una brecha o depresión radial visible en el perfil de intensidad. Puedes estimar su contraste usando:</p>
-<p><span class="math display">\[
-\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
-\]</span></p>
-<p>donde <span class="math inline">\(I_{\mathrm{gap}}\)</span> es la intensidad mínima dentro de la brecha o depresión, e <span class="math inline">\(I_{\mathrm{ring}}\)</span> es la intensidad máxima de un anillo cercano.</p>
-<p>Si la brecha está ubicada entre dos máximos, también puedes usar:</p>
-<p><span class="math display">\[
-I_{\mathrm{ring}} = \frac{I_{\mathrm{ring,in}} + I_{\mathrm{ring,out}}}{2}
-\]</span></p>
-<p>y luego calcular:</p>
-<p><span class="math display">\[
-\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
-\]</span></p>
-<p>Como guía práctica:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Valor de <span class="math inline">\(\delta_{\mathrm{gap}}\)</span></th>
-<th>Clasificación</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0.0 – 0.3</td>
-<td>Depresión débil</td>
-</tr>
-<tr class="even">
-<td>0.3 – 0.6</td>
-<td>Brecha o depresión moderada</td>
-</tr>
-<tr class="odd">
-<td>0.6 – 1.0</td>
-<td>Brecha profunda</td>
-</tr>
-</tbody>
-</table>
-<p>Esta clasificación es solo una herramienta práctica para la actividad. El valor obtenido representa un contraste de intensidad observado, no una medición directa de la cantidad de material removido del disco.</p>
-<hr>
-</section>
-<section id="resultado-esperado" class="level2">
-<h2 class="anchored" data-anchor-id="resultado-esperado">Resultado esperado</h2>
-<div class="activity-result-card">
-<p>Al finalizar la actividad, deberías obtener:</p>
-<ul>
-<li>una imagen deproyectada del disco;</li>
-<li>un mapa polar;</li>
-<li>un perfil radial de intensidad;</li>
-<li>una identificación de las subestructuras principales;</li>
-<li>una medición simple del contraste de una brecha o depresión radial;</li>
-<li>una breve descripción morfológica del disco analizado.</li>
-</ul>
-<section id="solución-sugerida" class="level3">
-<h3 class="anchored" data-anchor-id="solución-sugerida">Solución sugerida</h3>
-<p>También está disponible un notebook completo con la solución guiada para usar como referencia.</p>
-<ul class="download-list">
-<li>
-<a href="data/actividades/solutions/morphology_activity_solution_en_es.zip" download=""> Descargar notebook de solución guiada (.zip) </a>
-</li>
-</ul>
-</section>
-<section id="fuente-de-los-datos" class="level3 data-source-note">
-<h3 class="anchored" data-anchor-id="fuente-de-los-datos">Fuente de los datos</h3>
-<p>Las imágenes FITS utilizadas en esta actividad provienen del <strong>Data Release oficial del proyecto DSHARP</strong> (<em>Disk Substructures at High Angular Resolution Project</em>), un programa grande de ALMA diseñado para estudiar subestructuras pequeñas en discos protoplanetarios mediante observaciones de alta resolución del continuo a 240 GHz / 1.25 mm y de la línea 12CO J=2–1.</p>
-<p>Estos datos corresponden al proyecto DSHARP presentado por Andrews et al. <span class="citation" data-cites="andrews2018dsharpI">(<a href="#ref-andrews2018dsharpI" role="doc-biblioref">2018</a>)</span>.</p>
-<p>Fuente web: <a href="https://almascience.eso.org/almadata/lp/DSHARP/">DSHARP Data Release</a>.</p>
-</section>
-</div>
-<hr>
-</section>
-<section id="referencias" class="level2">
-<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-andrews2018dsharpI" class="csl-entry" role="listitem">
-Andrews, Sean M., Jane Huang, Laura M. Pérez, et al. 2018. <span>“The Disk Substructures at High Angular Resolution Project (DSHARP). I. Motivation, Sample, Calibration, and Overview.”</span> <em>The Astrophysical Journal Letters</em> 869 (2): L41. <a href="https://doi.org/10.3847/2041-8213/aaf741">https://doi.org/10.3847/2041-8213/aaf741</a>.
-</div>
-</div>
-</section>
-</div>
 
 
 

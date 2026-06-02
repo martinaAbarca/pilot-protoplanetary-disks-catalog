@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Morphological analysis of radial substructures – Pilot Protoplanetary Disk Catalog</title>
+<title>Sobre el proyecto – Catálogo piloto de discos protoplanetarios</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -20,27 +23,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -52,15 +35,14 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a6dfc72b8d327676abb320b79142fc0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,35 +71,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -130,7 +83,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Pilot Protoplanetary Disk Catalog</span>
+    <span class="navbar-title">Catálogo piloto de discos protoplanetarios</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -141,26 +94,23 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Inicio</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Activities</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-activities">    
-        <li>
-    <a class="dropdown-item" href="./activity_morphology_en.html">
- <span class="dropdown-text">Activity - English</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./activity_morphology_es.html"> 
+<span class="menu-text">Actividad morfológica</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./activity_morphology_es.html">
- <span class="dropdown-text">Actividad - Español</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./simulation.html"> 
-<span class="menu-text">Simulation</span></a>
+<span class="menu-text">Simulación</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./investigaciones_publicaciones.html"> 
+<span class="menu-text">Investigaciones y publicaciones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./sobre_el_proyecto.html" aria-current="page"> 
+<span class="menu-text">Sobre el proyecto</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -173,20 +123,35 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sobre-el-proyecto" id="toc-sobre-el-proyecto" class="nav-link active" data-scroll-target="#sobre-el-proyecto">Sobre el proyecto</a>
+  <ul class="collapse">
+  <li><a href="#tesis-escrita" id="toc-tesis-escrita" class="nav-link" data-scroll-target="#tesis-escrita">Tesis escrita</a></li>
+  <li><a href="#cómo-citar-este-catálogo" id="toc-cómo-citar-este-catálogo" class="nav-link" data-scroll-target="#cómo-citar-este-catálogo">Cómo citar este catálogo</a></li>
+  <li><a href="#repositorio-y-versión-archivada" id="toc-repositorio-y-versión-archivada" class="nav-link" data-scroll-target="#repositorio-y-versión-archivada">Repositorio y versión archivada</a></li>
+  <li><a href="#financiamiento" id="toc-financiamiento" class="nav-link" data-scroll-target="#financiamiento">Financiamiento</a></li>
+  <li><a href="#colaboraciones-y-contacto" id="toc-colaboraciones-y-contacto" class="nav-link" data-scroll-target="#colaboraciones-y-contacto">Colaboraciones y contacto</a></li>
+  <li><a href="#aportes-de-investigaciones-y-nuevas-fichas" id="toc-aportes-de-investigaciones-y-nuevas-fichas" class="nav-link" data-scroll-target="#aportes-de-investigaciones-y-nuevas-fichas">Aportes de investigaciones y nuevas fichas</a></li>
+  <li><a href="#licencia" id="toc-licencia" class="nav-link" data-scroll-target="#licencia">Licencia</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Morphological analysis of radial substructures</h1>
+<h1 class="title">Sobre el proyecto</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -198,221 +163,75 @@ window.Quarto = {
 </header>
 
 
-<div class="morphology-activity">
-<div class="activity-hero-block">
-<div class="activity-kicker">
-<p>FITS-based data science activity</p>
-</div>
-<p>In this activity, you will work with a real FITS image of either <strong>IM Lup</strong> or <strong>HD 163296</strong>. The goal is to analyze the morphology of the millimeter continuum emission and identify radial substructures such as bright rings, gaps, or radial depressions.</p>
-<p>The base code and FITS images are available in the GitHub repository. The activity starts once the image has already been loaded and is ready to be analyzed.</p>
-<p><a href="index.html#activities" class="activity-back-link">Back to catalog home →</a></p>
-</div>
+<section id="sobre-el-proyecto" class="level1">
+<h1>Sobre el proyecto</h1>
+<p>Este sitio web corresponde al <strong>Catálogo piloto de discos protoplanetarios</strong>, desarrollado por <strong>Martina Ignacia Abarca Ibarra</strong> como proyecto de tesis para obtener el título de <strong>Astrofísica con mención en Ciencia de Datos</strong> en la <strong>Universidad de Santiago de Chile</strong>.</p>
+<p>El catálogo fue diseñado como una herramienta pedagógica, interactiva y reproducible para organizar información científica sobre discos protoplanetarios, sus subestructuras, propiedades de gas y polvo, evidencia de formación planetaria, actividades de ciencia de datos y una simulación sintética.</p>
+<p>El objetivo principal del sitio es transformar información proveniente de la literatura científica en un recurso educativo accesible, estructurado y ampliable.</p>
 <hr>
-<section id="activity-overview" class="level2">
-<h2 class="anchored" data-anchor-id="activity-overview">Activity overview</h2>
-<div class="activity-overview-grid">
-<section id="what-you-will-do" class="level3 activity-info-card">
-<h3 class="anchored" data-anchor-id="what-you-will-do">What you will do</h3>
-<ul>
-<li>Apply disk geometry using inclination and position angle.</li>
-<li>Deproject an inclined disk image.</li>
-<li>Transform the image into polar coordinates.</li>
-<li>Build an azimuthally averaged radial intensity profile.</li>
-<li>Identify rings, gaps, radial depressions, or extended emission.</li>
-<li>Measure the observational contrast of one gap or radial depression.</li>
-</ul>
-</section>
-<div class="activity-info-card">
-<section id="suggested-materials" class="level3">
-<h3 class="anchored" data-anchor-id="suggested-materials">Suggested materials</h3>
-<ul>
-<li>FITS image of <strong>IM Lup</strong> or <strong>HD 163296</strong>.</li>
-<li>Jupyter notebook or Python script.</li>
-<li>Required Python libraries.</li>
-<li>Scientific context from the catalog entry of the selected disk.</li>
-</ul>
-</section>
-<section id="available-fits-images" class="level3">
-<h3 class="anchored" data-anchor-id="available-fits-images">Available FITS images</h3>
-<ul>
-<li>IM Lup continuum image.</li>
-<li>HD 163296 continuum image.</li>
-</ul>
-</section>
-</div>
-</div>
-<section id="download-files" class="level3 activity-download-panel">
-<h3 class="anchored" data-anchor-id="download-files">Download files</h3>
-<ul class="download-list">
-<li>
-<a href="data/actividades/morphology_activity_package.zip" download=""> Download complete activity package (.zip) </a>
-</li>
-</ul>
-<p><strong>Recommendation:</strong> download and unzip the complete activity package. The package includes the starter notebook and the FITS images of <strong>HD 163296</strong> and <strong>IM Lup</strong>, so you can choose which disk to analyze when running the code.</p>
-</section>
+<section id="tesis-escrita" class="level2">
+<h2 class="anchored" data-anchor-id="tesis-escrita">Tesis escrita</h2>
+<p>El documento escrito de la tesis está disponible en formato PDF:</p>
+<p><a href="documents/tesis_martina_abarca.pdf">Descargar tesis en PDF</a></p>
 <hr>
 </section>
-<section id="guiding-rubric" class="level2">
-<h2 class="anchored" data-anchor-id="guiding-rubric">Guiding rubric</h2>
-<p>This rubric does not include a score. Its purpose is to guide the activity and help verify that the morphological analysis of the disk is complete.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Criterion</th>
-<th>Expected outcome</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Geometrical correction of the disk</td>
-<td>The disk geometry is applied using the disk center, inclination, and position angle. The image should be rotated and deprojected to approximate a face-on view of the disk.</td>
-</tr>
-<tr class="even">
-<td>Polar map of the disk</td>
-<td>The deprojected image is transformed into polar coordinates. The polar map should help visualize whether the structures appear at approximately constant radii.</td>
-</tr>
-<tr class="odd">
-<td>Radial intensity profile</td>
-<td>The azimuthally averaged radial profile of the millimeter continuum emission is calculated. The profile should show how the intensity changes with radius and allow local maxima and minima to be identified.</td>
-</tr>
-<tr class="even">
-<td>Identification of substructures</td>
-<td>Radial substructures are identified using the deprojected image, the polar map, or the radial profile. These may include bright rings, gaps, radial depressions, sharp intensity changes, or extended emission.</td>
-</tr>
-<tr class="odd">
-<td>Measurement of the contrast of a gap or radial depression</td>
-<td>A gap or local minimum is selected from the radial profile, and its intensity contrast is estimated relative to a nearby ring or intensity maximum.</td>
-</tr>
-<tr class="even">
-<td>Morphological description</td>
-<td>The analysis briefly describes what the results reveal about the structure of the selected disk. If both disks are analyzed, the main morphological differences between IM Lup and HD 163296 can be compared.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="guiding-questions" class="level2">
-<h2 class="anchored" data-anchor-id="guiding-questions">Guiding questions</h2>
-<section id="geometrical-correction" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="geometrical-correction">1. Geometrical correction</h3>
-<ul>
-<li>How does the apparent shape of the disk change after deprojection?</li>
-<li>Why is it necessary to correct for inclination before studying rings or gaps?</li>
-<li>What effect does the position angle have on the orientation of the disk?</li>
-</ul>
-</section>
-<section id="polar-map" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="polar-map">2. Polar map</h3>
-<ul>
-<li>Are the substructures easier to identify in polar coordinates?</li>
-<li>Do the rings or gaps appear at approximately constant radii?</li>
-<li>Are there variations with azimuthal angle?</li>
-</ul>
-</section>
-<section id="radial-intensity-profile" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="radial-intensity-profile">3. Radial intensity profile</h3>
-<ul>
-<li>Where are the main intensity maxima located?</li>
-<li>Where do local minima or radial depressions appear?</li>
-<li>Does the radial profile look smooth, or does it show strong intensity variations?</li>
-</ul>
-</section>
-<section id="identification-of-substructures" class="level3 activity-step-card">
-<h3 class="anchored" data-anchor-id="identification-of-substructures">4. Identification of substructures</h3>
-<ul>
-<li>What substructures can you identify in the selected disk?</li>
-<li>Are they more evident in the deprojected image, the polar map, or the radial profile?</li>
-<li>Does the disk show well-defined rings and gaps, or a smoother and more extended emission distribution?</li>
-</ul>
-</section>
-<hr>
-</section>
-<section id="gap-contrast-measurement" class="level2">
-<h2 class="anchored" data-anchor-id="gap-contrast-measurement">Gap contrast measurement</h2>
-<p>Select a gap or radial depression visible in the intensity profile. You can estimate its contrast using:</p>
-<p><span class="math display">\[
-\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
-\]</span></p>
-<p>where <span class="math inline">\(I_{\mathrm{gap}}\)</span> is the minimum intensity inside the gap or depression, and <span class="math inline">\(I_{\mathrm{ring}}\)</span> is the maximum intensity of a nearby ring.</p>
-<p>If the gap is located between two maxima, you can also use:</p>
-<p><span class="math display">\[
-I_{\mathrm{ring}} = \frac{I_{\mathrm{ring,in}} + I_{\mathrm{ring,out}}}{2}
-\]</span></p>
-<p>and then calculate:</p>
-<p><span class="math display">\[
-\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
-\]</span></p>
-<p>As a practical guide:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Value of <span class="math inline">\(\delta_{\mathrm{gap}}\)</span></th>
-<th>Classification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0.0 – 0.3</td>
-<td>Weak depression</td>
-</tr>
-<tr class="even">
-<td>0.3 – 0.6</td>
-<td>Moderate gap or depression</td>
-</tr>
-<tr class="odd">
-<td>0.6 – 1.0</td>
-<td>Deep gap</td>
-</tr>
-</tbody>
-</table>
-<p>This classification is only a practical tool for the activity. The measured value represents an observed intensity contrast, not a direct measurement of the amount of material removed from the disk.</p>
-<hr>
-</section>
-<section id="expected-result" class="level2">
-<h2 class="anchored" data-anchor-id="expected-result">Expected result</h2>
-<div class="activity-result-card">
-<p>By the end of the activity, you should have:</p>
-<ul>
-<li>a deprojected image of the disk;</li>
-<li>a polar map;</li>
-<li>a radial intensity profile;</li>
-<li>an identification of the main substructures;</li>
-<li>a simple measurement of the contrast of a gap or radial depression;</li>
-<li>a short morphological description of the analyzed disk.</li>
-</ul>
-<section id="suggested-solution" class="level3">
-<h3 class="anchored" data-anchor-id="suggested-solution">Suggested solution</h3>
-<p>A complete guided solution notebook is also available for reference.</p>
-<ul class="download-list">
-<li>
-<a href="data/actividades/solutions/morphology_activity_solution_en_es.zip" download=""> Download guided solution notebook (.zip) </a>
-</li>
-</ul>
-</section>
-<section id="data-source" class="level3 data-source-note">
-<h3 class="anchored" data-anchor-id="data-source">Data source</h3>
-<p>The FITS images used in this activity come from the <strong>official DSHARP Data Release</strong> (<em>Disk Substructures at High Angular Resolution Project</em>), an ALMA Large Program designed to study small-scale substructures in protoplanetary disks using high-resolution observations of the 240 GHz / 1.25 mm continuum and the 12CO J=2–1 line emission.</p>
-<p>These data correspond to the DSHARP project presented by Andrews et al. <span class="citation" data-cites="andrews2018dsharpI">(<a href="#ref-andrews2018dsharpI" role="doc-biblioref">2018</a>)</span>.</p>
-<p>Web source: <a href="https://almascience.eso.org/almadata/lp/DSHARP/">DSHARP Data Release</a>.</p>
-</section>
+<section id="cómo-citar-este-catálogo" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-citar-este-catálogo">Cómo citar este catálogo</h2>
+<p>Si usas este catálogo, por favor cítalo como:</p>
+<blockquote class="blockquote">
+<p>Abarca Ibarra, M. I. (2026). <em>Catálogo piloto de discos protoplanetarios</em> (Versión 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20513394</p>
+</blockquote>
+<p>DOI de la versión publicada:</p>
+<p><a href="https://doi.org/10.5281/zenodo.20513394">https://doi.org/10.5281/zenodo.20513394</a></p>
+<p>DOI general del proyecto en Zenodo:</p>
+<p><a href="https://doi.org/10.5281/zenodo.20513393">https://doi.org/10.5281/zenodo.20513393</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://doi.org/10.5281/zenodo.20513393"><img src="https://zenodo.org/badge/1176319104.svg" class="img-fluid figure-img"></a></p>
+<figcaption>DOI</figcaption>
+</figure>
 </div>
 <hr>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-andrews2018dsharpI" class="csl-entry" role="listitem">
-Andrews, Sean M., Jane Huang, Laura M. Pérez, Andrea Isella, Cornelis P. Dullemond, Nicolás T. Kurtovic, Viviana V. Guzmán, et al. 2018. <span>“The Disk Substructures at High Angular Resolution Project (DSHARP). I. Motivation, Sample, Calibration, and Overview.”</span> <em>The Astrophysical Journal Letters</em> 869 (2): L41. <a href="https://doi.org/10.3847/2041-8213/aaf741">https://doi.org/10.3847/2041-8213/aaf741</a>.
-</div>
-</div>
+<section id="repositorio-y-versión-archivada" class="level2">
+<h2 class="anchored" data-anchor-id="repositorio-y-versión-archivada">Repositorio y versión archivada</h2>
+<p>El código fuente del catálogo está disponible en GitHub:</p>
+<p><a href="https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog">Repositorio en GitHub</a></p>
+<p>La versión estable y citable del proyecto está archivada en Zenodo:</p>
+<p><a href="https://doi.org/10.5281/zenodo.20513394">Registro en Zenodo</a></p>
+<hr>
 </section>
-</div>
+<section id="financiamiento" class="level2">
+<h2 class="anchored" data-anchor-id="financiamiento">Financiamiento</h2>
+<p>Este trabajo fue financiado por el <strong>Proyecto DICYT de la Vicerrectoría de Investigación, Innovación y Creación de la Universidad de Santiago de Chile</strong>.</p>
+<hr>
+</section>
+<section id="colaboraciones-y-contacto" class="level2">
+<h2 class="anchored" data-anchor-id="colaboraciones-y-contacto">Colaboraciones y contacto</h2>
+<p>Este catálogo fue desarrollado como un proyecto piloto y puede ser ampliado en el futuro con nuevos discos, nuevas referencias, nuevas actividades de ciencia de datos o mejoras en la simulación interactiva.</p>
+<p>Si deseas sugerir correcciones, agregar información o colaborar con el proyecto, puedes hacerlo a través del repositorio de GitHub:</p>
+<p><a href="https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog">Repositorio del proyecto</a></p>
+<p>También puedes contactar a la autora por correo electrónico:</p>
+<p><strong>Correo:</strong> abarca.tina3@gmail.cl</p>
+<hr>
+</section>
+<section id="aportes-de-investigaciones-y-nuevas-fichas" class="level2">
+<h2 class="anchored" data-anchor-id="aportes-de-investigaciones-y-nuevas-fichas">Aportes de investigaciones y nuevas fichas</h2>
+<p>Este catálogo está pensado como un proyecto abierto a futuras ampliaciones. Si desarrollas una investigación, publicación, proyecto estudiantil o material educativo relacionado con discos protoplanetarios, puedes proponer su incorporación al sitio.</p>
+<p>También es posible sugerir nuevas fichas de discos protoplanetarios específicos, ampliar fichas ya existentes, agregar referencias recientes, proponer nuevas actividades de ciencia de datos o contribuir con material explicativo relacionado con gas, polvo, subestructuras y formación planetaria.</p>
+<p>Las contribuciones serán revisadas antes de incorporarse al catálogo, con el objetivo de mantener la claridad pedagógica, la trazabilidad de las fuentes y la coherencia científica del sitio.</p>
+<p>Para proponer cambios o colaboraciones, puedes usar el repositorio de GitHub o contactar directamente a la autora.</p>
+<hr>
+</section>
+<section id="licencia" class="level2">
+<h2 class="anchored" data-anchor-id="licencia">Licencia</h2>
+<p>El código fuente del proyecto se distribuye bajo licencia MIT.</p>
+<p>El contenido educativo original del catálogo se distribuye bajo licencia Creative Commons Attribution 4.0 International, excepto cuando se indique lo contrario.</p>
+<p>Los datos, imágenes astronómicas, archivos FITS, figuras externas, artículos científicos y otros materiales de terceros conservan sus licencias, créditos y condiciones de uso originales.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

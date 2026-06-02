@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Simulación sintética de disco – Pilot Protoplanetary Disk Catalog</title>
+<title>Simulación sintética de disco – Catálogo piloto de discos protoplanetarios</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -52,15 +54,14 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a6dfc72b8d327676abb320b79142fc0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,7 +91,7 @@ div.csl-indent {
 }</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -130,7 +131,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Pilot Protoplanetary Disk Catalog</span>
+    <span class="navbar-title">Catálogo piloto de discos protoplanetarios</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -141,26 +142,23 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Inicio</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Activities</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-activities">    
-        <li>
-    <a class="dropdown-item" href="./activity_morphology_en.html">
- <span class="dropdown-text">Activity - English</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./activity_morphology_es.html"> 
+<span class="menu-text">Actividad morfológica</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./activity_morphology_es.html">
- <span class="dropdown-text">Actividad - Español</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./simulation.html" aria-current="page"> 
-<span class="menu-text">Simulation</span></a>
+<span class="menu-text">Simulación</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./investigaciones_publicaciones.html"> 
+<span class="menu-text">Investigaciones y publicaciones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sobre_el_proyecto.html"> 
+<span class="menu-text">Sobre el proyecto</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -717,7 +715,7 @@ Cargando parámetros de la simulación…
 <p><span class="math display">\[T(r) \simeq 200\,\text{K} \cdot \left(\frac{r}{1\,\text{au}}\right)^{-1/2}\]</span></p>
 <p>La temperatura a 1 au está fijada en 200 K y controla la velocidad del sonido local, que determina la altura de escala <span class="math inline">\(H(r) \propto r^{\psi}\)</span>, con <span class="math inline">\(\psi = 1.25\)</span> (flaring estándar). El radio del polvo se deriva del radio del gas dividido por un factor 2, siguiendo la diferencia observacional <span class="math inline">\(R_{\rm CO} \gtrsim 2\,R_{\rm mm}\)</span> <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
 <p><strong>Criterio de apertura del gap</strong></p>
-<p>Un planeta no siempre abre un gap profundo. La condición depende del equilibrio entre torque gravitacional, soporte de presión y viscosidad <span class="citation" data-cites="crida2006">(<a href="#ref-crida2006" role="doc-biblioref">Crida, Morbidelli, and Masset 2006</a>)</span>:</p>
+<p>Un planeta no siempre abre un gap profundo. La condición depende del equilibrio entre torque gravitacional, soporte de presión y viscosidad <span class="citation" data-cites="crida2006">(<a href="#ref-crida2006" role="doc-biblioref">Crida et al. 2006</a>)</span>:</p>
 <p><span class="math display">\[\frac{3}{4}\frac{H}{R_H} + \frac{50}{q\,Re} \leq 1\]</span></p>
 <p>donde <span class="math inline">\(H\)</span> es la altura de escala, <span class="math inline">\(R_H = r_p\,(q/3)^{1/3}\)</span> es el radio de Hill, <span class="math inline">\(q = M_p/M_\star\)</span> y <span class="math inline">\(Re\)</span> es el número de Reynolds efectivo. Si esta condición se cumple, el planeta abre un gap profundo; de lo contrario, la brecha es parcial o superficial.</p>
 <p><strong>Profundidad del gap</strong></p>
@@ -789,7 +787,7 @@ Cargando parámetros de la simulación…
 </section>
 <section id="referencias" class="level3 guide-card references-card">
 <h3 class="anchored" data-anchor-id="referencias">Referencias</h3>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-andrews2020" class="csl-entry" role="listitem">
 Andrews, Sean M. 2020. <span>“Observations of Protoplanetary Disk Structures.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 58: 483–528. <a href="https://doi.org/10.1146/annurev-astro-031220-010302">https://doi.org/10.1146/annurev-astro-031220-010302</a>.
 </div>
@@ -803,10 +801,10 @@ Crida, A., A. Morbidelli, and F. Masset. 2006. <span>“On the Width and Shape o
 Duffell, Paul C. 2020. <span>“An Empirically Derived Formula for the Shape of Planet-Induced Gaps in Protoplanetary Disks.”</span> <em>The Astrophysical Journal</em> 889 (1): 16. <a href="https://doi.org/10.3847/1538-4357/ab5b0f">https://doi.org/10.3847/1538-4357/ab5b0f</a>.
 </div>
 <div id="ref-kanagawa2015" class="csl-entry" role="listitem">
-Kanagawa, Kazuhiro D., Takayuki Muto, Hidekazu Tanaka, Takayuki Tanigawa, Taku Takeuchi, Takashi Tsukagoshi, and Munetake Momose. 2015. <span>“Mass Estimates of a Giant Planet in a Protoplanetary Disk from the Gap Structures.”</span> <em>The Astrophysical Journal Letters</em> 806 (1): L15. <a href="https://doi.org/10.1088/2041-8205/806/1/L15">https://doi.org/10.1088/2041-8205/806/1/L15</a>.
+Kanagawa, Kazuhiro D., Takayuki Muto, Hidekazu Tanaka, et al. 2015. <span>“Mass Estimates of a Giant Planet in a Protoplanetary Disk from the Gap Structures.”</span> <em>The Astrophysical Journal Letters</em> 806 (1): L15. <a href="https://doi.org/10.1088/2041-8205/806/1/L15">https://doi.org/10.1088/2041-8205/806/1/L15</a>.
 </div>
 <div id="ref-pinilla2015" class="csl-entry" role="listitem">
-Pinilla, P., M. de Juan Ovelar, S. Ataiee, M. Benisty, T. Birnstiel, E. F. van Dishoeck, and M. Min. 2015. <span>“Gas and Dust Structures in Protoplanetary Disks Hosting Multiple Planets.”</span> <em>Astronomy &amp; Astrophysics</em> 573: A9. <a href="https://doi.org/10.1051/0004-6361/201424679">https://doi.org/10.1051/0004-6361/201424679</a>.
+Pinilla, P., M. de Juan Ovelar, S. Ataiee, et al. 2015. <span>“Gas and Dust Structures in Protoplanetary Disks Hosting Multiple Planets.”</span> <em>Astronomy &amp; Astrophysics</em> 573: A9. <a href="https://doi.org/10.1051/0004-6361/201424679">https://doi.org/10.1051/0004-6361/201424679</a>.
 </div>
 <div id="ref-weidenschilling1977" class="csl-entry" role="listitem">
 Weidenschilling, S. J. 1977. <span>“Aerodynamics of Solid Bodies in the Solar Nebula.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 180 (2): 57–70. <a href="https://doi.org/10.1093/mnras/180.2.57">https://doi.org/10.1093/mnras/180.2.57</a>.
