@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pilot Protoplanetary Disk Catalog – Catálogo piloto de discos protoplanetarios</title>
+<title>Catálogo piloto de discos protoplanetarios</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -27,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -54,14 +52,15 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a6dfc72b8d327676abb320b79142fc0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -144,421 +143,419 @@ div.csl-indent {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Pilot Protoplanetary Disk Catalog</h1>
+
+
+
+<div class="space-side space-left">
+
 </div>
+<div class="space-side space-right">
 
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="catalog-hero">
+</div>
+<div class="shooting-stars-index">
+<p><span class="shooting-star-index star-a"></span> <span class="shooting-star-index star-b"></span> <span class="shooting-star-index star-c"></span> <span class="shooting-star-index star-d"></span> <span class="shooting-star-index star-e"></span></p>
+</div>
+<div class="catalog-hero index-hero">
 <div class="catalog-hero-text">
 <div class="hero-kicker">
-<p>Educational + scientific web catalog</p>
+<p>Catálogo educativo · Ciencia de datos · Discos protoplanetarios</p>
 </div>
-<p>This <strong>Pilot Protoplanetary Disk Catalog</strong> is an educational and scientific resource designed to explore the physical properties, morphologies, and evolutionary processes of <strong>protoplanetary disks</strong>.</p>
-<p>This pilot version combines short scientific summaries, representative images, comparative tables, and introductory programming activities based on real astronomical data products.</p>
+<section id="catálogo-piloto-de-discos-protoplanetarios" class="level1">
+<h1>Catálogo piloto de discos protoplanetarios</h1>
+<p>Este <strong>Catálogo piloto de discos protoplanetarios</strong> es un recurso educativo y científico diseñado para explorar las propiedades físicas, morfologías y procesos evolutivos de discos donde pueden formarse planetas.</p>
+<p>Esta versión piloto reúne explicaciones científicas breves, imágenes representativas, tablas comparativas, fichas individuales de discos, una actividad de ciencia de datos basada en imágenes FITS y una simulación sintética interactiva.</p>
 <div class="hero-badges">
-<p><span class="hero-badge">5 pilot disks</span> <span class="hero-badge">Scientific summaries</span> <span class="hero-badge">Programming activities</span> <span class="hero-badge">FITS-based learning</span></p>
+<p><span class="hero-badge">5 discos piloto</span> <span class="hero-badge">Fichas científicas</span> <span class="hero-badge">Actividad con FITS</span> <span class="hero-badge">Simulación interactiva</span> <span class="hero-badge">DOI en Zenodo</span></p>
 </div>
 <div class="hero-actions">
-<p><a href="#available-disks" class="hero-button hero-button-primary">Explore disks ↓</a> <a href="#activities" class="hero-button hero-button-secondary">Open activity ↓</a> <a href="#how-to-use-catalog" class="hero-button hero-button-secondary">How to use this catalog ↓</a></p>
+<p><a href="#discos-disponibles" class="hero-button hero-button-primary">Explorar discos ↓</a> <a href="#actividades" class="hero-button hero-button-secondary">Abrir actividad ↓</a> <a href="#como-usar-catalogo" class="hero-button hero-button-secondary">Cómo usar el catálogo ↓</a> <a href="./sobre_el_proyecto.html" class="hero-button hero-button-secondary">Sobre el proyecto</a></p>
 </div>
+</section>
 </div>
 <div class="catalog-hero-image">
 <p><img src="images/portada.jpg" class="catalog-hero-photo img-fluid"></p>
 <div class="hero-image-caption">
-<p><em>Artist’s impression of a young star surrounded by a protoplanetary disk where planets are forming.</em></p>
-<p><span class="hero-image-credit">Credit: ESO/L. Calçada</span></p>
+<p><em>Representación artística de una estrella joven rodeada por un disco protoplanetario donde se están formando planetas.</em></p>
+<p><span class="hero-image-credit">Crédito: ESO/L. Calçada</span></p>
 </div>
 </div>
 </div>
 <hr>
-<section id="activities" class="level2">
-<h2 class="anchored" data-anchor-id="activities">Activities</h2>
-<p>This catalog includes a <strong>FITS-based data science activity</strong> designed to help students explore real astronomical data and analyze how disk substructures can be measured from images.</p>
-<p>Este catálogo incluye una <strong>actividad de ciencia de datos basada en imágenes FITS</strong> pensada para que los estudiantes trabajen con datos astronómicos reales y analicen cómo se pueden medir subestructuras de discos a partir de imágenes.</p>
+<section id="actividades" class="level2">
+<h2 class="anchored" data-anchor-id="actividades">Actividad de ciencia de datos</h2>
+<div class="index-highlight">
+<p>Este catálogo incluye una <strong>actividad de ciencia de datos basada en imágenes FITS</strong> pensada para que estudiantes y personas interesadas trabajen con datos astronómicos reales. La actividad permite visualizar discos protoplanetarios, deproyectar imágenes, construir perfiles radiales de intensidad e identificar subestructuras como anillos, brechas o depresiones radiales.</p>
+</div>
 <div class="activity-grid">
-<section id="activity-english-version" class="level3 activity-card">
-<h3 class="anchored" data-anchor-id="activity-english-version">Activity / English version</h3>
-<p><strong>Morphological analysis of radial substructures</strong></p>
-<p>Use a real FITS image of <strong>IM Lup</strong> or <strong>HD 163296</strong> to deproject the disk, transform the image into polar coordinates, build a radial intensity profile, and identify rings, gaps, or radial depressions.</p>
-<p><a href="activity_morphology_en.html" class="disk-link">Open English version →</a></p>
-</section>
-<section id="actividad-versión-en-español" class="level3 activity-card">
-<h3 class="anchored" data-anchor-id="actividad-versión-en-español">Actividad / Versión en español</h3>
-<p><strong>Análisis morfológico de subestructuras radiales</strong></p>
+<section id="análisis-morfológico-de-subestructuras-radiales" class="level3 activity-card">
+<h3 class="anchored" data-anchor-id="análisis-morfológico-de-subestructuras-radiales">Análisis morfológico de subestructuras radiales</h3>
 <p>Usa una imagen FITS real de <strong>IM Lup</strong> o <strong>HD 163296</strong> para deproyectar el disco, transformarlo a coordenadas polares, construir un perfil radial de intensidad e identificar anillos, brechas o depresiones radiales.</p>
-<p><a href="activity_morphology_es.html" class="disk-link">Abrir versión en español →</a></p>
+<p><a href="activity_morphology_es.html" class="disk-link">Abrir actividad →</a></p>
+</section>
+<section id="qué-se-aprende" class="level3 activity-card">
+<h3 class="anchored" data-anchor-id="qué-se-aprende">¿Qué se aprende?</h3>
+<p>Esta actividad conecta la observación astronómica con herramientas básicas de ciencia de datos. Permite explorar cómo una imagen de ALMA puede transformarse en un perfil radial y cómo ese perfil ayuda a reconocer estructuras asociadas con la evolución del disco y la formación planetaria.</p>
+<p><a href="./sobre_el_proyecto.html" class="disk-link">Ver recursos del proyecto →</a></p>
 </section>
 </div>
 <hr>
 </section>
-<section id="available-disks" class="level2">
-<h2 class="anchored" data-anchor-id="available-disks">Available disks</h2>
+<section id="discos-disponibles" class="level2">
+<h2 class="anchored" data-anchor-id="discos-disponibles">Discos disponibles</h2>
+<div class="section-intro">
+<p>La muestra piloto incluye cinco discos protoplanetarios bien estudiados. Cada ficha resume propiedades generales del sistema, morfología del disco, subestructuras observadas, distribución de gas y polvo, evidencia de formación planetaria e interpretación física.</p>
+</div>
 <div class="disk-grid">
 <div class="disk-card">
 <p><img src="images/hl_tau_eso.jpg" class="img-fluid" style="width:100.0%"></p>
-<p><em>Annotated ALMA image of the protoplanetary disk surrounding the young star HL Tau. The ring–gap structure visible in the dust emission traces variations in the distribution of solid material.<br>
-Credit: ALMA (ESO/NAOJ/NRAO).</em></p>
+<p><em>Imagen anotada de ALMA del disco protoplanetario que rodea a la joven estrella HL Tau. La estructura de anillos y brechas visible en la emisión de polvo muestra variaciones en la distribución del material sólido.</em><br>
+<strong>Crédito:</strong> ALMA (ESO/NAOJ/NRAO).</p>
 <section id="hl-tau" class="level3">
 <h3 class="anchored" data-anchor-id="hl-tau">HL Tau</h3>
-<p>A young protoplanetary disk well known for its concentric rings and gaps revealed by ALMA.</p>
-<p><a href="./hl_tau.html" class="disk-link">Open disk page →</a></p>
+<p>Disco protoplanetario joven conocido por sus anillos y brechas concéntricas reveladas por observaciones de alta resolución de ALMA.</p>
+<p><a href="./hl_tau.html" class="disk-link">Abrir ficha del disco →</a></p>
 </section>
 </div>
 <div class="disk-card">
 <p><img src="images/as_209_ficha.png" class="img-fluid" style="width:100.0%"></p>
-<p><em>ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation.<br>
-Credit: ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile).</em></p>
+<p><em>Imagen de ALMA del disco protoplanetario alrededor de AS 209, donde se observan múltiples anillos y brechas estrechas que podrían estar relacionadas con formación planetaria.</em><br>
+<strong>Crédito:</strong> ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile).</p>
 <section id="as-209" class="level3">
 <h3 class="anchored" data-anchor-id="as-209">AS 209</h3>
-<p>A protoplanetary disk observed with ALMA that shows multiple narrow rings and gaps, often interpreted as signatures of planet formation.</p>
-<p><a href="./as_209.html" class="disk-link">Open disk page →</a></p>
+<p>Disco observado con ALMA que muestra múltiples anillos y brechas estrechas, interpretadas frecuentemente como posibles señales de formación planetaria.</p>
+<p><a href="./as_209.html" class="disk-link">Abrir ficha del disco →</a></p>
 </section>
 </div>
 <div class="disk-card">
 <p><img src="images/hd_163296_ficha.jpg" class="img-fluid" style="width:100.0%"></p>
-<p><em>Composite ALMA image of the protoplanetary disk around HD 163296. The red component traces dust, while the blue emission shows carbon monoxide gas; deficits in the outer disk suggest the presence of forming planets.<br>
-Credit: ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).</em></p>
+<p><em>Imagen compuesta de ALMA del disco protoplanetario alrededor de HD 163296. El componente rojo traza polvo, mientras que la emisión azul muestra gas de monóxido de carbono; las depresiones en el disco externo sugieren la presencia de planetas en formación.</em><br>
+<strong>Crédito:</strong> ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).</p>
 <section id="hd-163296" class="level3">
 <h3 class="anchored" data-anchor-id="hd-163296">HD 163296</h3>
-<p>A structured protoplanetary disk where dust and gas observations suggest the presence of forming planets embedded in the outer disk.</p>
-<p><a href="./hd_163296.html" class="disk-link">Open disk page →</a></p>
+<p>Disco con subestructuras claras donde las observaciones de polvo y gas sugieren la presencia de planetas en formación embebidos en el disco externo.</p>
+<p><a href="./hd_163296.html" class="disk-link">Abrir ficha del disco →</a></p>
 </section>
 </div>
 <div class="disk-card">
 <p><img src="images/im_lupi_gallery.jpg" class="img-fluid" style="width:100.0%"></p>
-<p><em>High-resolution SPHERE image of the dusty disk around the young star IM Lupi, revealing fine structures in scattered light.<br>
-Credit: ESO/H. Avenhaus et al./DARTT-S collaboration.</em></p>
+<p><em>Imagen de alta resolución obtenida con SPHERE del disco de polvo alrededor de la joven estrella IM Lup, donde se observan estructuras finas en luz dispersada.</em><br>
+<strong>Crédito:</strong> ESO/H. Avenhaus et al./DARTT-S collaboration.</p>
 <section id="im-lup" class="level3">
 <h3 class="anchored" data-anchor-id="im-lup">IM Lup</h3>
-<p>A large and extended protoplanetary disk observed in scattered light, showing detailed dust structures in its outer regions.</p>
-<p><a href="./im_lup.html" class="disk-link">Open disk page →</a></p>
+<p>Disco protoplanetario grande y extendido, observado en luz dispersada, que muestra estructuras detalladas de polvo en sus regiones externas.</p>
+<p><a href="./im_lup.html" class="disk-link">Abrir ficha del disco →</a></p>
 </section>
 </div>
 <div class="disk-card">
 <p><img src="images/pds_70_ficha.jpg" class="img-fluid" style="width:100.0%"></p>
-<p><em>ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity.<br>
-Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</em></p>
+<p><em>Imagen de ALMA del joven sistema planetario PDS 70, donde se observa un disco circumestelar en el que se están formando planetas. El sistema contiene los planetas confirmados PDS 70 b y PDS 70 c dentro de la cavidad del disco.</em><br>
+<strong>Crédito:</strong> ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.</p>
 <section id="pds-70" class="level3">
 <h3 class="anchored" data-anchor-id="pds-70">PDS 70</h3>
-<p>A young planetary system famous for hosting directly detected forming planets embedded within its protoplanetary disk.</p>
-<p><a href="./pds_70.html" class="disk-link">Open disk page →</a></p>
+<p>Sistema joven famoso por albergar planetas en formación detectados directamente dentro de la cavidad de su disco protoplanetario.</p>
+<p><a href="./pds_70.html" class="disk-link">Abrir ficha del disco →</a></p>
 </section>
 </div>
 <div class="disk-card add-disk-card">
 <div class="add-disk-icon">
 ＋
 </div>
-<section id="contribute-a-disk" class="level3">
-<h3 class="anchored" data-anchor-id="contribute-a-disk">Contribute a disk</h3>
-<p>This catalog is designed to grow. New protoplanetary disks, updated scientific information, additional references, images, activities, or simulations can be incorporated through the GitHub repository.</p>
-<p>The repository includes the source files, structured data, references, and instructions for editing and expanding the catalog.</p>
-<p><a href="https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog" class="disk-link">View repository →</a></p>
+<section id="agregar-un-nuevo-disco" class="level3">
+<h3 class="anchored" data-anchor-id="agregar-un-nuevo-disco">Agregar un nuevo disco</h3>
+<p>Este catálogo está diseñado para crecer. Es posible incorporar nuevos discos protoplanetarios, información científica actualizada, referencias recientes, imágenes, actividades o mejoras en la simulación.</p>
+<p><a href="./investigaciones_publicaciones.html" class="disk-link">Proponer una contribución →</a></p>
 </section>
 </div>
 </div>
 <hr>
 </section>
-<section id="what-is-a-protoplanetary-disk" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-protoplanetary-disk">What is a protoplanetary disk?</h2>
-<p>A protoplanetary disk is a young, flattened structure that forms around a star during its earliest stages, when part of the collapsing material no longer falls directly onto the protostar but instead settles into orbit through “angular momentum conservation” <span class="citation" data-cites="williams2011 andrews2020">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>; <a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In this sense, it can be understood as a “flattened disk of gas and solids” that accompanies the young star and gathers the material from which the system will continue to evolve. These disks are also the “material reservoirs and birthplaces of planetary systems,” because they host the processes that may eventually lead to the formation of planets <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
-<p>Their connection to young stars is therefore direct: they appear “shortly after their birth” and are studied especially around visible young stars such as <strong>T Tauri stars</strong>, during early phases like <strong>Class II YSOs</strong> <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. In general, they “form almost immediately after a molecular core collapses,” and they show “an inherent and large diversity in initial disk sizes and masses” <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. Once the initial envelope has dispersed, the system is already “truly protoplanetary, not protostellar”; at that stage, the disk contains only “a few percent of the central stellar mass,” usually has a “flared” geometry, and shows approximately “Keplerian” motions, features that describe its basic shape and dynamics <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>.</p>
-<p>These disks not only store material, but also provide the setting where planet formation begins. In the “core accretion model,” dust grains grow through several stages until they become rocks, planetesimals, and protoplanetary cores capable of capturing gas <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. For that reason, studying the mass, structure, and evolution of a disk helps us understand not only how a young system changes over time, but also what kinds of planets may form within it and how their properties depend on the disk’s physical conditions <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
-<section id="how-do-we-observe-protoplanetary-disks" class="level3">
-<h3 class="anchored" data-anchor-id="how-do-we-observe-protoplanetary-disks">How do we observe protoplanetary disks?</h3>
-<p>Protoplanetary disks are studied at different wavelengths because each tracer reveals a different part of their structure <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In the optical and near-infrared, “scattered light” primarily traces small dust grains in the disk surface; in the mid-infrared, warmer dust in the inner regions is more easily detected; and at sub-mm/mm wavelengths, “thermal continuum emission” is used to study the distribution of colder solids, while “spectral line emission” probes the properties and dynamics of the gas <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. Because many disks are cold, small on the sky, and emit efficiently at millimeter wavelengths, “radio interferometry” has become essential, and much of the recent progress in the field has been driven by <strong>ALMA</strong>, one of the most important tools for studying protoplanetary disks and their substructures <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<section id="qué-es-un-disco-protoplanetario" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-un-disco-protoplanetario">¿Qué es un disco protoplanetario?</h2>
+<p>Un disco protoplanetario es una estructura joven, aplanada y en rotación que se forma alrededor de una estrella durante sus primeras etapas de evolución. Cuando una nube molecular colapsa, parte del material no cae directamente sobre la protoestrella, sino que queda orbitando a su alrededor debido a la conservación del momento angular <span class="citation" data-cites="williams2011 andrews2020">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>; <a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<p>Estos discos están compuestos principalmente por <strong>gas y polvo</strong>. El gas domina la masa total del disco, mientras que el polvo contiene los granos sólidos que pueden crecer, acumularse y participar en la formación de cuerpos más grandes. Por eso, los discos protoplanetarios se consideran reservorios de material y lugares de nacimiento de sistemas planetarios <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<p>En etapas tempranas, los discos suelen observarse alrededor de estrellas jóvenes, como las estrellas T Tauri. Cuando la envoltura inicial ya se ha dispersado, el sistema deja de ser principalmente protoestelar y pasa a una fase propiamente protoplanetaria. En esa etapa, el disco contiene solo una fracción pequeña de la masa estelar, suele tener una geometría acampanada y su gas se mueve aproximadamente de forma kepleriana <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>.</p>
+<p>Estos discos no solo almacenan material: también son el escenario donde comienza la formación planetaria. En el modelo de acreción de núcleo, los granos de polvo crecen mediante colisiones, forman agregados, planetesimales y núcleos protoplanetarios capaces de capturar gas <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. Por eso, estudiar la masa, estructura y evolución de un disco ayuda a entender qué tipos de planetas podrían formarse y cómo sus propiedades dependen de las condiciones físicas del disco <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<section id="cómo-observamos-los-discos-protoplanetarios" class="level3">
+<h3 class="anchored" data-anchor-id="cómo-observamos-los-discos-protoplanetarios">¿Cómo observamos los discos protoplanetarios?</h3>
+<p>Los discos protoplanetarios se estudian en diferentes longitudes de onda porque cada trazador revela una parte distinta del sistema <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. En el óptico y el infrarrojo cercano, la <strong>luz dispersada</strong> permite observar granos pequeños en la superficie del disco. En el infrarrojo medio, se detecta mejor el polvo cálido de las regiones internas. En longitudes de onda submilimétricas y milimétricas, la <strong>emisión continua térmica</strong> permite estudiar sólidos fríos, mientras que la <strong>emisión de líneas moleculares</strong> entrega información sobre el gas y su dinámica <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<p>Debido a que muchos discos son fríos, pequeños en el cielo y brillan eficientemente en longitudes de onda milimétricas, la radiointerferometría se ha vuelto esencial. Gran parte del avance reciente en el estudio de discos protoplanetarios y sus subestructuras ha sido impulsado por <strong>ALMA</strong> <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
 </section>
 <div class="tracer-gallery">
-<section id="scattered-light" class="level3 tracer-card">
-<h3 class="anchored" data-anchor-id="scattered-light">Scattered light</h3>
+<section id="luz-dispersada" class="level3 tracer-card">
+<h3 class="anchored" data-anchor-id="luz-dispersada">Luz dispersada</h3>
 <p><img src="images/tw_hya_galeria.jpg" class="trace-image img-fluid"></p>
-<p><em>Scattered-light image of the protoplanetary disk around TW Hydrae, observed with the Hubble Space Telescope/NICMOS. A coronagraphic mask blocks the central star, allowing faint light from the disk surface to reveal a gap in the disk.</em></p>
-<p><strong>Credit:</strong> NASA, ESA, J. Debes (STScI), H. Jang-Condell (University of Wyoming), A. Weinberger (Carnegie Institution of Washington), A. Roberge (Goddard Space Flight Center), G. Schneider (University of Arizona/Steward Observatory), and A. Feild (STScI/AURA).</p>
+<p><em>Imagen en luz dispersada del disco protoplanetario alrededor de TW Hydrae, observada con el Telescopio Espacial Hubble/NICMOS. Una máscara coronográfica bloquea la estrella central y permite detectar la luz tenue proveniente de la superficie del disco.</em></p>
+<p><strong>Crédito:</strong> NASA, ESA, J. Debes (STScI), H. Jang-Condell (University of Wyoming), A. Weinberger (Carnegie Institution of Washington), A. Roberge (Goddard Space Flight Center), G. Schneider (University of Arizona/Steward Observatory), and A. Feild (STScI/AURA).</p>
 </section>
-<section id="thermal-continuum" class="level3 tracer-card">
-<h3 class="anchored" data-anchor-id="thermal-continuum">Thermal continuum</h3>
+<section id="continuo-térmico" class="level3 tracer-card">
+<h3 class="anchored" data-anchor-id="continuo-térmico">Continuo térmico</h3>
 <p><img src="images/MWC 758.jpg" class="trace-image img-fluid"></p>
-<p><em>Thermal continuum image of the protoplanetary disk around MWC 758, observed with ALMA (Band 7, 870 μm). At these wavelengths, the emission traces dust in the disk and reveals its ringed structure.</em></p>
-<p><strong>Credit:</strong> ESO/R. Dong et al.; ALMA (ESO/NAOJ/NRAO).</p>
+<p><em>Imagen de continuo térmico del disco protoplanetario alrededor de MWC 758, observada con ALMA en banda 7 a 870 μm. A estas longitudes de onda, la emisión traza polvo del disco y revela su estructura anillada.</em></p>
+<p><strong>Crédito:</strong> ESO/R. Dong et al.; ALMA (ESO/NAOJ/NRAO).</p>
 </section>
-<section id="spectral-line-emission" class="level3 tracer-card">
-<h3 class="anchored" data-anchor-id="spectral-line-emission">Spectral line emission</h3>
+<section id="emisión-de-líneas-moleculares" class="level3 tracer-card">
+<h3 class="anchored" data-anchor-id="emisión-de-líneas-moleculares">Emisión de líneas moleculares</h3>
 <p><img src="images/hd_163296_ficha.jpg" class="trace-image img-fluid"></p>
-<p><em>Composite ALMA image of the protoplanetary disk around HD 163296. The red inner component shows dust continuum emission, while the broader blue disk traces carbon monoxide gas observed through molecular spectral line emission.</em></p>
-<p><strong>Credit:</strong> ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).</p>
+<p><em>Imagen compuesta de ALMA del disco protoplanetario alrededor de HD 163296. El componente rojo interno muestra emisión continua de polvo, mientras que el disco azul más extendido traza gas de monóxido de carbono observado mediante emisión de líneas moleculares.</em></p>
+<p><strong>Crédito:</strong> ALMA (ESO/NAOJ/NRAO); A. Isella; B. Saxton (NRAO/AUI/NSF).</p>
 </section>
 </div>
 <hr>
+</section>
+<section id="subestructuras-principales-en-discos" class="level2">
+<h2 class="anchored" data-anchor-id="subestructuras-principales-en-discos">Subestructuras principales en discos</h2>
 <div class="substructure-grid-clean">
 <div class="substructure-row">
 <div class="substructure-name">
-<p>Ring</p>
+<p>Anillo</p>
 </div>
 <div class="substructure-text">
-<p>A bright band in the disk, where the emission increases compared with the neighboring regions. In images, it appears as a relatively narrow annulus that stands out from the surrounding material.</p>
+<p>Banda brillante del disco donde la emisión aumenta respecto de las regiones vecinas. En las imágenes suele verse como una estructura anular relativamente estrecha que destaca sobre el material circundante.</p>
 </div>
 </div>
 <div class="substructure-row">
 <div class="substructure-name">
-<p>Gap</p>
+<p>Brecha</p>
 </div>
 <div class="substructure-text">
-<p>A dimmer band between brighter rings. In millimeter continuum observations, it is usually interpreted as a local reduction of millimeter-sized dust relative to the adjacent rings, not as a completely empty region.</p>
+<p>Banda más tenue ubicada entre anillos brillantes. En observaciones de continuo milimétrico suele interpretarse como una reducción local del polvo milimétrico respecto de los anillos adyacentes, no necesariamente como una región completamente vacía.</p>
 </div>
 </div>
 <div class="substructure-row">
 <div class="substructure-name">
-<p>Cavity</p>
+<p>Cavidad</p>
 </div>
 <div class="substructure-text">
-<p>A large inner region with much weaker emission, usually surrounded by a bright outer ring. Unlike a gap, which is a narrow depression between rings, a cavity is a broader central clearing in the disk structure.</p>
+<p>Región interna amplia con emisión mucho más débil, normalmente rodeada por un anillo externo brillante. A diferencia de una brecha, que suele ser una depresión estrecha entre anillos, una cavidad corresponde a un despeje central más extenso.</p>
 </div>
 </div>
 <div class="substructure-row">
 <div class="substructure-name">
-<p>Arc</p>
+<p>Arco</p>
 </div>
 <div class="substructure-text">
-<p>A bright feature that covers only part of the disk instead of forming a full circle. It can appear as a partial ring or as a localized concentration of emission in one sector of the disk.</p>
+<p>Estructura brillante que cubre solo una parte del disco y no forma un círculo completo. Puede verse como un anillo parcial o como una concentración localizada de emisión en un sector del disco.</p>
 </div>
 </div>
 <div class="substructure-row">
 <div class="substructure-name">
-<p>Spiral</p>
+<p>Espiral</p>
 </div>
 <div class="substructure-text">
-<p>A curved arm-like feature that extends through the disk. These structures can look more open or more tightly wrapped depending on the system.</p>
+<p>Estructura curva similar a un brazo que se extiende a través del disco. Las espirales pueden estar asociadas con inestabilidades gravitacionales, perturbaciones dinámicas o interacciones planeta-disco.</p>
 </div>
 </div>
 </div>
 <hr>
 </section>
-<section id="dust-and-gas-do-not-trace-the-same-disk" class="level2">
-<h2 class="anchored" data-anchor-id="dust-and-gas-do-not-trace-the-same-disk">Dust and gas do not trace the same disk</h2>
-<p>A protoplanetary disk does not look the same in every tracer because each observation highlights a different physical component of the system. As Andrews explains, “the first two are sensitive to the physical conditions and distribution of the solids, and the third is used to measure the properties of the gas” <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>. In the dust component, this difference depends not only on the instrument but also on how particles evolve within the disk: Birnstiel notes that “starlight scattered by small dust in the disk surface as well as the thermal continuum emission of the dust particles themselves are the most readily available observational tracers,” but they do not probe the same grain population <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>. Small grains remain better mixed in the disk surface, whereas larger grains tend to settle toward the midplane, drift radially, and concentrate at pressure maxima. Aikawa, Okuzumi, and Pontoppidan add that ALMA has revealed “grain growth, gas-dust decoupling, and sub-structures such as rings and gaps in the dust continuum,” while “molecular line observations” provide constraints on the radial and vertical structure of molecular abundances as well as on gas dynamics such as turbulence <span class="citation" data-cites="aikawa2024">(<a href="#ref-aikawa2024" role="doc-biblioref">Aikawa et al. 2024</a>)</span>. For that reason, the same disk can look significantly different in scattered light, thermal continuum emission, and molecular lines, and that is precisely why this catalog separates the sections <strong>Dust in the disk</strong> and <strong>Gas in the disk</strong>.</p>
-<p>A useful example is <strong>HD 100546</strong>. Pérez et al.&nbsp;(2020) used long-baseline ALMA observations to compare the 1.3 mm dust continuum with molecular-line emission from CO isotopologues. In the continuum, the disk shows a wide dust ring with fine radial and azimuthal structure, described by the authors as a “complex maze of ridges and trenches”. However, the gas does not simply reproduce the same pattern: the <sup>12</sup>CO channel maps show “wiggles or kinks that deviate from Keplerian kinematics”, especially near the continuum ring. The same kinematic signature is weaker or absent in the rarer isotopologues <sup>13</sup>CO and C<sup>18</sup>O, suggesting that the perturbation changes with disk height. This makes HD 100546 a clear example of why dust images and gas kinematics must be read together: the dust reveals where solid material is concentrated, while the gas reveals motions, vertical structure, and possible dynamical perturbations associated with planet–disk interactions <span class="citation" data-cites="perez2020_hd100546">(<a href="#ref-perez2020_hd100546" role="doc-biblioref">Pérez et al. 2020</a>)</span>.</p>
+<section id="el-polvo-y-el-gas-no-trazan-el-mismo-disco" class="level2">
+<h2 class="anchored" data-anchor-id="el-polvo-y-el-gas-no-trazan-el-mismo-disco">El polvo y el gas no trazan el mismo disco</h2>
+<p>Un disco protoplanetario no se ve igual en todos los trazadores, porque cada observación resalta un componente físico distinto. Las observaciones de polvo permiten estudiar la distribución de sólidos, mientras que las líneas moleculares permiten investigar propiedades del gas como temperatura, densidad, estructura vertical, turbulencia y cinemática <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<p>En el componente de polvo, la diferencia depende tanto del instrumento como de la evolución de las partículas. Los granos pequeños suelen permanecer mejor mezclados con el gas y se observan en la superficie del disco mediante luz dispersada. En cambio, los granos más grandes tienden a asentarse hacia el plano medio, derivar radialmente y acumularse en máximos de presión <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>. Por eso, el mismo disco puede tener apariencias distintas en luz dispersada, continuo térmico y líneas moleculares.</p>
+<p>Un ejemplo útil es <strong>HD 100546</strong>. Pérez et al.&nbsp;(2020) compararon observaciones de ALMA en continuo de 1.3 mm con emisión molecular de isotopólogos de CO. En el continuo, el disco muestra un anillo ancho de polvo con estructura radial y azimutal compleja. Sin embargo, el gas no reproduce simplemente el mismo patrón: los mapas de <sup>12</sup>CO muestran perturbaciones cinemáticas respecto de la rotación kepleriana, especialmente cerca del anillo de continuo. Esto convierte a HD 100546 en un buen ejemplo de por qué las imágenes de polvo y la cinemática del gas deben interpretarse en conjunto: el polvo muestra dónde se concentra el material sólido, mientras que el gas revela movimientos, estructura vertical y posibles perturbaciones dinámicas asociadas con interacciones planeta-disco <span class="citation" data-cites="perez2020_hd100546">(<a href="#ref-perez2020_hd100546" role="doc-biblioref">Pérez et al. 2020</a>)</span>.</p>
 <hr>
 </section>
-<section id="from-dust-to-planets" class="level2">
-<h2 class="anchored" data-anchor-id="from-dust-to-planets">From dust to planets</h2>
+<section id="del-polvo-a-los-planetas" class="level2">
+<h2 class="anchored" data-anchor-id="del-polvo-a-los-planetas">Del polvo a los planetas</h2>
 <div class="dust-planets-section">
 <div class="dust-intro-box">
-<p>The path from dust to planets begins with extremely small particles. In protoplanetary disks, the solid material starts at sizes of “≲ 1 µm” <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>. From there, grains collide, settle, drift, and sometimes become trapped in pressure structures. These processes make planet formation possible, but also difficult: solids must grow while avoiding destructive collisions and rapid inward drift.</p>
+<p>El camino desde el polvo hasta los planetas comienza con partículas extremadamente pequeñas. En los discos protoplanetarios, el material sólido inicia en tamaños microscópicos y luego puede crecer mediante colisiones, asentarse hacia el plano medio, derivar radialmente y, en algunos casos, quedar atrapado en estructuras de presión. Estos procesos hacen posible la formación planetaria, pero también la vuelven difícil: los sólidos deben crecer evitando tanto la fragmentación como la rápida caída hacia la estrella.</p>
 </div>
 <div class="dust-pathway-grid">
-<section id="growth-and-settling" class="level3 dust-pathway-card">
-<h3 class="anchored" data-anchor-id="growth-and-settling">1. Growth and settling</h3>
-<p>Grains collide, and when those collisions are gentle enough, they can stick together and form progressively larger aggregates. As Williams &amp; Cieza explain, “grain growth and dust settling are intimately interconnected processes,” because as grains grow, they become less coupled to the gas and begin to settle toward the disk midplane, although turbulence can still stir some material upward <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>.</p>
+<section id="crecimiento-y-asentamiento" class="level3 dust-pathway-card">
+<h3 class="anchored" data-anchor-id="crecimiento-y-asentamiento">1. Crecimiento y asentamiento</h3>
+<p>Los granos chocan entre sí y, cuando las colisiones son suficientemente suaves, pueden pegarse y formar agregados progresivamente más grandes. A medida que crecen, se acoplan menos al gas y tienden a asentarse hacia el plano medio del disco, aunque la turbulencia puede volver a mezclar parte del material <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>.</p>
 </section>
-<section id="radial-drift-and-barriers" class="level3 dust-pathway-card">
-<h3 class="anchored" data-anchor-id="radial-drift-and-barriers">2. Radial drift and barriers</h3>
-<p>As dust grows, its aerodynamic interaction with the gas becomes increasingly important. Birnstiel notes that particles experience a “drag force” when they move relative to the gas, while the gas orbits in a “slightly sub-Keplerian” way <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>. This creates a headwind that removes angular momentum from solids and causes <strong>radial drift</strong>. Growth can also become “growth-neutral or even destructive,” so aggregates may bounce, fragment, or erode instead of continuing to grow <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>.</p>
+<section id="deriva-radial-y-barreras-de-crecimiento" class="level3 dust-pathway-card">
+<h3 class="anchored" data-anchor-id="deriva-radial-y-barreras-de-crecimiento">2. Deriva radial y barreras de crecimiento</h3>
+<p>Cuando el polvo crece, su interacción aerodinámica con el gas se vuelve más importante. El gas suele orbitar de forma ligeramente subkepleriana, generando un viento en contra para las partículas sólidas. Ese efecto les hace perder momento angular y migrar hacia el interior del disco. Además, las colisiones pueden volverse destructivas, produciendo rebote, erosión o fragmentación <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>.</p>
 </section>
-<section id="dust-traps-and-planetesimals" class="level3 dust-pathway-card">
-<h3 class="anchored" data-anchor-id="dust-traps-and-planetesimals">3. Dust traps and planetesimals</h3>
-<p>Regions where dust no longer drifts inward so efficiently are especially important. When particles encounter a local pressure maximum, Birnstiel explains that “dust can be trapped,” allowing solids to accumulate into dense concentrations <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>. These concentrations can create conditions in which “planetesimal formation becomes possible” <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>.</p>
+<section id="trampas-de-polvo-y-planetesimales" class="level3 dust-pathway-card">
+<h3 class="anchored" data-anchor-id="trampas-de-polvo-y-planetesimales">3. Trampas de polvo y planetesimales</h3>
+<p>Las regiones donde la deriva radial se frena son especialmente relevantes. En máximos locales de presión, el polvo puede quedar atrapado y acumularse. Estas concentraciones pueden crear condiciones favorables para la formación de planetesimales, que luego pueden convertirse en los bloques iniciales de núcleos planetarios <span class="citation" data-cites="birnstiel2024_dustgrowth">(<a href="#ref-birnstiel2024_dustgrowth" role="doc-biblioref">Birnstiel 2024</a>)</span>.</p>
 </section>
 </div>
 <div class="dust-bridge-box">
-<p>In this sense, <strong>dust traps</strong> link the physical evolution of solids with the appearance of rings, gaps, and other substructures. They also provide a bridge between observable disk morphology and the formation of planetesimals, which can later become the building blocks of planetary cores.</p>
+<p>En este sentido, las <strong>trampas de polvo</strong> conectan la evolución física de los sólidos con la aparición de anillos, brechas y otras subestructuras. También forman un puente entre la morfología observable del disco y la formación de planetesimales.</p>
 </div>
 <div class="planet-example-grid">
 <div class="planet-example-card">
 <div class="example-label">
-<p>Low-mass planet formation</p>
+<p>Formación de planetas de baja masa</p>
 </div>
-<section id="hd-169142-a-possible-mini-neptune" class="level3">
-<h3 class="anchored" data-anchor-id="hd-169142-a-possible-mini-neptune">HD 169142: a possible mini-Neptune</h3>
-<p>A concrete example of this connection between dust and planet formation is the disk of <strong>HD 169142</strong>. Pérez et al.&nbsp;(2019) used high-resolution ALMA observations at 1.3 mm to resolve the outer disk into three narrow rings, showing that an apparently complex dust architecture can be related to the presence of a low-mass planet. The study emphasizes that the formation of pebbles, planetesimals, and planetary cores relies on “radial pressure bumps,” where the inward drift of solids can slow down and dust can accumulate.</p>
-<p>For HD 169142, the authors propose that the outer rings can be explained by “a single migrating low mass planet (10 M⊕)”. This planet, comparable to a mini-Neptune, would migrate inward and reshape the dust distribution, producing narrow rings and gaps around its orbit. This makes HD 169142 a useful example of how dust is not only the raw material for building planets, but also an observational tracer of protoplanets that may not be directly detected yet. In this case, the interpretation favors a gradual formation pathway, or “bottom-up process such as core accretion”, capable of producing a planetary embryo in the outer region of the disk <span class="citation" data-cites="perez2019_mini_neptune">(<a href="#ref-perez2019_mini_neptune" role="doc-biblioref">Pérez et al. 2019</a>)</span>.</p>
+<section id="hd-169142-un-posible-mini-neptuno" class="level3">
+<h3 class="anchored" data-anchor-id="hd-169142-un-posible-mini-neptuno">HD 169142: un posible mini-Neptuno</h3>
+<p>Un ejemplo concreto de la conexión entre polvo y formación planetaria es el disco de <strong>HD 169142</strong>. Pérez et al.&nbsp;(2019) usaron observaciones de ALMA a 1.3 mm para resolver el disco externo en tres anillos estrechos. Su interpretación sugiere que esta arquitectura de polvo puede estar relacionada con la presencia de un planeta de baja masa.</p>
+<p>En este caso, los autores proponen que los anillos externos pueden explicarse mediante un planeta migrante de aproximadamente 10 masas terrestres. Ese objeto, comparable a un mini-Neptuno, podría modificar la distribución del polvo y producir anillos y brechas alrededor de su órbita. Así, HD 169142 muestra cómo el polvo no solo es materia prima para formar planetas, sino también un trazador indirecto de protoplanetas que aún no han sido detectados directamente <span class="citation" data-cites="perez2019_mini_neptune">(<a href="#ref-perez2019_mini_neptune" role="doc-biblioref">Pérez et al. 2019</a>)</span>.</p>
 </section>
 </div>
 <div class="planet-example-card">
 <div class="example-label">
-<p>Giant planets and circumplanetary material</p>
+<p>Planetas gigantes y material circumplanetario</p>
 </div>
-<section id="v4046-sgr-dust-traps-and-a-possible-cpd-shadow" class="level3">
-<h3 class="anchored" data-anchor-id="v4046-sgr-dust-traps-and-a-possible-cpd-shadow">V4046 Sgr: dust traps and a possible CPD shadow</h3>
-<p>A complementary example is the circumbinary disk of <strong>V4046 Sgr</strong>, where dust structures may trace a more advanced planetary architecture. Weber et al.&nbsp;(2022) combined hydrodynamical simulations and radiative transfer calculations to compare models with near-infrared scattered-light and millimeter observations. Their model suggests that the observed rings and gaps are consistent with two giant planets, located at approximately 9 au and 20 au, with a pressure maximum between them where dust can accumulate.</p>
-<p>This case extends the idea of dust traps toward giant planet formation and circumplanetary material. The authors describe the ring structure as “diffusion-balanced dust trapping within the gas pressure maxima”, meaning that dust concentration is shaped by the balance between confinement toward a pressure maximum and diffusion. The study also proposes that a localized decrease in scattered-light brightness may be explained as a “shadow cast by a circumplanetary disc”. In this way, V4046 Sgr illustrates that dust substructures can not only trace embedded planets, but may also reveal circumplanetary material associated with them <span class="citation" data-cites="weber2022_v4046sgr">(<a href="#ref-weber2022_v4046sgr" role="doc-biblioref">Weber et al. 2022</a>)</span>.</p>
+<section id="v4046-sgr-trampas-de-polvo-y-una-posible-sombra-de-disco-circumplanetario" class="level3">
+<h3 class="anchored" data-anchor-id="v4046-sgr-trampas-de-polvo-y-una-posible-sombra-de-disco-circumplanetario">V4046 Sgr: trampas de polvo y una posible sombra de disco circumplanetario</h3>
+<p>Un ejemplo complementario es el disco circumbinario de <strong>V4046 Sgr</strong>, donde las estructuras de polvo podrían reflejar una arquitectura planetaria más avanzada. Weber et al.&nbsp;(2022) combinaron simulaciones hidrodinámicas y transferencia radiativa para comparar modelos con observaciones en luz dispersada e imágenes milimétricas.</p>
+<p>El modelo sugiere que los anillos y brechas observados son consistentes con dos planetas gigantes ubicados aproximadamente a 9 au y 20 au, con un máximo de presión entre ellos donde el polvo puede acumularse. El estudio también propone que una disminución localizada del brillo en luz dispersada podría explicarse como una sombra producida por un disco circumplanetario. De este modo, V4046 Sgr ilustra que las subestructuras de polvo pueden señalar no solo planetas embebidos, sino también material circumplanetario asociado a ellos <span class="citation" data-cites="weber2022_v4046sgr">(<a href="#ref-weber2022_v4046sgr" role="doc-biblioref">Weber, Casassus, and Pérez 2022</a>)</span>.</p>
 </section>
 </div>
 </div>
 </div>
 <hr>
-<hr>
 </section>
-<section id="after-the-protoplanetary-phase" class="level2">
-<h2 class="anchored" data-anchor-id="after-the-protoplanetary-phase">After the protoplanetary phase</h2>
+<section id="después-de-la-fase-protoplanetaria" class="level2">
+<h2 class="anchored" data-anchor-id="después-de-la-fase-protoplanetaria">Después de la fase protoplanetaria</h2>
 <div class="after-phase-section">
 <div class="after-phase-hero">
 <div class="after-phase-kicker">
-<p>Evolutionary context</p>
+<p>Contexto evolutivo</p>
 </div>
-<p>This catalog focuses on protoplanetary disks, but the evolution of a planetary system does not end when the primordial disk begins to disperse. At later stages, systems may host <strong>debris disks</strong>, where the dust is no longer mainly the original material of the young disk, but is instead continually replenished by collisions between larger bodies such as planetesimals, asteroids, or comet-like objects.</p>
+<p>Este catálogo se centra en discos protoplanetarios, pero la evolución de un sistema planetario no termina cuando el disco primordial comienza a dispersarse. En etapas posteriores pueden existir <strong>discos de escombros</strong>, donde el polvo ya no corresponde principalmente al material original del disco joven, sino que se repone continuamente mediante colisiones entre cuerpos mayores, como planetesimales, asteroides o cometas.</p>
 </div>
 <div class="debris-showcase">
 <div class="debris-figure-card">
 <p><img src="images/disco_escombros.jpg" class="debris-image img-fluid"></p>
 <div class="debris-caption">
-<p><em>ALMA image of the debris ring around Fomalhaut, a nearby bright star located about 25 light-years away. The ring is made of dusty debris released by collisions among exocomets and small bodies, illustrating a later evolutionary stage than the gas-rich protoplanetary disks presented in this catalog.</em></p>
-<p><strong>Credit:</strong> ALMA (ESO/NAOJ/NRAO) / L. Matrà / M. A. MacGregor</p>
+<p><em>Imagen de ALMA del anillo de escombros alrededor de Fomalhaut, una estrella cercana y brillante ubicada a unos 25 años luz. El anillo está compuesto por polvo liberado en colisiones entre exocometas y cuerpos pequeños, representando una etapa evolutiva posterior a los discos protoplanetarios ricos en gas presentados en este catálogo.</em></p>
+<p><strong>Crédito:</strong> ALMA (ESO/NAOJ/NRAO) / L. Matrà / M. A. MacGregor</p>
 </div>
 </div>
-<section id="what-is-a-debris-disk" class="level3 debris-definition-card">
-<h3 class="anchored" data-anchor-id="what-is-a-debris-disk">What is a debris disk?</h3>
+<section id="qué-es-un-disco-de-escombros" class="level3 debris-definition-card">
+<h3 class="anchored" data-anchor-id="qué-es-un-disco-de-escombros">¿Qué es un disco de escombros?</h3>
 <div class="debris-point">
-<p><strong>Gas content:</strong> debris disks were traditionally considered almost gas-poor systems, or “gas-free environments”, because the primordial gas from the protoplanetary disk was expected to have disappeared.</p>
-</div>
-<div class="debris-point">
-<p><strong>Dust origin:</strong> unlike protoplanetary disks, the dust in debris disks is usually second-generation material, replenished by collisions.</p>
+<p><strong>Contenido de gas:</strong> tradicionalmente se consideraba que los discos de escombros eran sistemas pobres en gas, porque se esperaba que el gas primordial del disco protoplanetario ya se hubiera disipado.</p>
 </div>
 <div class="debris-point">
-<p><strong>Evolutionary role:</strong> debris disks help us understand what can remain after the main planet-forming phase.</p>
+<p><strong>Origen del polvo:</strong> a diferencia de los discos protoplanetarios, el polvo en discos de escombros suele ser material de segunda generación, producido por colisiones.</p>
+</div>
+<div class="debris-point">
+<p><strong>Rol evolutivo:</strong> los discos de escombros ayudan a entender qué puede permanecer después de la fase principal de formación planetaria.</p>
 </div>
 </section>
 </div>
-<section id="hd-121617-a-possible-hybrid-disk" class="level3 hybrid-study-card">
-<h3 class="anchored" data-anchor-id="hd-121617-a-possible-hybrid-disk">HD 121617: a possible hybrid disk</h3>
-<p>Recent observations show that some debris disks still contain gas. A useful example is <strong>HD 121617</strong>, studied by Weber et al.&nbsp;(2026) as part of the ARKS survey. In this system, ALMA observes a narrow ring with a bright arc in millimeter emission, while VLT/SPHERE shows a more symmetric scattered-light ring that is shifted slightly outward.</p>
+<section id="hd-121617-un-posible-disco-híbrido" class="level3 hybrid-study-card">
+<h3 class="anchored" data-anchor-id="hd-121617-un-posible-disco-híbrido">HD 121617: un posible disco híbrido</h3>
+<p>Observaciones recientes muestran que algunos discos de escombros todavía contienen gas. Un ejemplo útil es <strong>HD 121617</strong>, estudiado por Weber et al.&nbsp;(2026) como parte del sondeo ARKS. En este sistema, ALMA observa un anillo estrecho con un arco brillante en emisión milimétrica, mientras que VLT/SPHERE muestra un anillo de luz dispersada más simétrico y desplazado ligeramente hacia afuera.</p>
 <div class="hybrid-mini-grid">
-<section id="what-do-the-observations-suggest" class="level4 hybrid-mini-card">
-<h4 class="anchored" data-anchor-id="what-do-the-observations-suggest">What do the observations suggest?</h4>
-<p>The study proposes that the observed structure may be explained by <strong>dust–gas interactions</strong>. In this scenario, an unstable gas ring can create a radial and azimuthal dust trap: millimeter-sized grains concentrate in the arc seen by ALMA, while smaller grains, more affected by stellar radiation pressure, appear farther out in scattered light.</p>
+<section id="qué-sugieren-las-observaciones" class="level4 hybrid-mini-card">
+<h4 class="anchored" data-anchor-id="qué-sugieren-las-observaciones">¿Qué sugieren las observaciones?</h4>
+<p>El estudio propone que la estructura observada puede explicarse mediante interacciones entre polvo y gas. En este escenario, un anillo de gas inestable puede crear una trampa radial y azimutal para el polvo: los granos milimétricos se concentran en el arco visto por ALMA, mientras que los granos más pequeños, más afectados por la presión de radiación estelar, aparecen más lejos en luz dispersada.</p>
 </section>
-<section id="why-is-this-important" class="level4 hybrid-mini-card">
-<h4 class="anchored" data-anchor-id="why-is-this-important">Why is this important?</h4>
-<p>If the ALMA asymmetry is caused by gas drag, then HD 121617 would require more total gas than what is inferred from CO alone. This could imply the presence of primordial gas left over from the protoplanetary disk phase. For that reason, the authors suggest that HD 121617 may be a <strong>“hybrid disc”</strong>, a system “bridging the protoplanetary and debris disc stages” <span class="citation" data-cites="weber2026_arks_ix">(<a href="#ref-weber2026_arks_ix" role="doc-biblioref">Weber et al. 2026</a>)</span>.</p>
+<section id="por-qué-es-importante" class="level4 hybrid-mini-card">
+<h4 class="anchored" data-anchor-id="por-qué-es-importante">¿Por qué es importante?</h4>
+<p>Si la asimetría observada por ALMA es causada por arrastre de gas, entonces HD 121617 requeriría más gas total que el inferido solo a partir de CO. Esto podría indicar la presencia de gas primordial remanente de la fase protoplanetaria. Por esa razón, los autores sugieren que HD 121617 podría ser un <strong>disco híbrido</strong>, un sistema que conecta la etapa protoplanetaria con la etapa de disco de escombros <span class="citation" data-cites="weber2026_arks_ix">(<a href="#ref-weber2026_arks_ix" role="doc-biblioref">Weber et al. 2026</a>)</span>.</p>
 </section>
 </div>
 <div class="after-phase-takeaway">
-<p><strong>Key idea:</strong> debris disks are not simply the “end” of disk evolution. Some may still preserve gas and show dust–gas interactions, making them valuable systems for connecting protoplanetary disks with later planetary-system stages.</p>
+<p><strong>Idea clave:</strong> los discos de escombros no son simplemente el final de la evolución de los discos. Algunos pueden conservar gas y mostrar interacciones polvo-gas, por lo que son sistemas valiosos para conectar discos protoplanetarios con etapas posteriores de sistemas planetarios.</p>
 </div>
 </section>
 </div>
 <hr>
 </section>
-<section id="how-do-protoplanetary-disks-evolve-and-develop-substructures" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-protoplanetary-disks-evolve-and-develop-substructures">How do protoplanetary disks evolve and develop substructures?</h2>
+<section id="cómo-evolucionan-los-discos-protoplanetarios-y-desarrollan-subestructuras" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-evolucionan-los-discos-protoplanetarios-y-desarrollan-subestructuras">¿Cómo evolucionan los discos protoplanetarios y desarrollan subestructuras?</h2>
 <div class="disk-evolution-section">
 <div class="evolution-intro-box">
-<p>The evolution of a protoplanetary disk can be understood as a process of <strong>redistributing material and angular momentum</strong>. Because these disks form through “angular momentum conservation,” gas cannot fall directly onto the star; in order to accrete, it must transfer part of its orbital motion to other regions of the disk <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. For that reason, while some material gradually moves inward, another part can spread outward; in this sense, the disk can “accrete onto the star while simultaneously spreading diffusively to large radii” <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
+<p>La evolución de un disco protoplanetario puede entenderse como un proceso de redistribución de material y momento angular. Debido a que los discos se forman por conservación del momento angular, el gas no puede caer directamente sobre la estrella: para acrecer, debe transferir parte de su movimiento orbital hacia otras regiones del disco <span class="citation" data-cites="williams2011">(<a href="#ref-williams2011" role="doc-biblioref">Williams and Cieza 2011</a>)</span>. Por eso, mientras una parte del material se mueve gradualmente hacia el interior, otra puede expandirse hacia radios mayores <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
 </div>
 <div class="evolution-mechanism-grid">
-<section id="angular-momentum-transport" class="level3 evolution-mechanism-card">
-<h3 class="anchored" data-anchor-id="angular-momentum-transport">Angular momentum transport</h3>
-<p>Disk evolution is often described through an <strong>effective viscosity</strong>, understood not as ordinary molecular friction but as a simplified way to represent angular momentum transport. In many models, that efficiency is summarized with the <strong>α parameter</strong> <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
+<section id="transporte-de-momento-angular" class="level3 evolution-mechanism-card">
+<h3 class="anchored" data-anchor-id="transporte-de-momento-angular">Transporte de momento angular</h3>
+<p>La evolución de los discos suele describirse mediante una viscosidad efectiva, entendida no como fricción molecular ordinaria, sino como una forma simplificada de representar el transporte de momento angular. En muchos modelos, esa eficiencia se resume mediante el parámetro <strong>α</strong> <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
 </section>
-<section id="turbulence-and-self-gravity" class="level3 evolution-mechanism-card">
-<h3 class="anchored" data-anchor-id="turbulence-and-self-gravity">Turbulence and self-gravity</h3>
-<p>Among the relevant mechanisms are the <strong>MRI</strong>, which can “initiate and sustain MHD turbulence,” and <strong>self-gravity</strong>, which in sufficiently cold and massive disks can generate “trailing spiral arms” and redistribute both mass and angular momentum <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
+<section id="turbulencia-y-autogravedad" class="level3 evolution-mechanism-card">
+<h3 class="anchored" data-anchor-id="turbulencia-y-autogravedad">Turbulencia y autogravedad</h3>
+<p>Entre los mecanismos relevantes se encuentran la inestabilidad magnetorrotacional, capaz de iniciar y sostener turbulencia magnetohidrodinámica, y la autogravedad, que en discos suficientemente fríos y masivos puede generar brazos espirales y redistribuir tanto masa como momento angular <span class="citation" data-cites="armitage2011">(<a href="#ref-armitage2011" role="doc-biblioref">Armitage 2011</a>)</span>.</p>
 </section>
-<section id="pressure-maxima-and-substructures" class="level3 evolution-mechanism-card">
-<h3 class="anchored" data-anchor-id="pressure-maxima-and-substructures">Pressure maxima and substructures</h3>
-<p>Many observed substructures likely trace <strong>local gas pressure maxima</strong>, where the migration of solids slows down and material can accumulate. These pressure maxima may arise from <strong>fluid instabilities</strong> or <strong>planet–disk interactions</strong>, producing rings, gaps, spirals, asymmetries, arcs, or crescent-like features <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
+<section id="máximos-de-presión-y-subestructuras" class="level3 evolution-mechanism-card">
+<h3 class="anchored" data-anchor-id="máximos-de-presión-y-subestructuras">Máximos de presión y subestructuras</h3>
+<p>Muchas subestructuras observadas probablemente trazan máximos locales de presión del gas, donde la migración de sólidos se frena y el material puede acumularse. Estos máximos pueden surgir por inestabilidades del fluido o por interacciones planeta-disco, produciendo anillos, brechas, espirales, asimetrías, arcos o estructuras tipo creciente <span class="citation" data-cites="andrews2020">(<a href="#ref-andrews2020" role="doc-biblioref">Andrews 2020</a>)</span>.</p>
 </section>
 </div>
 <div class="evolution-example-grid">
 <div class="evolution-example-card">
 <div class="example-label">
-<p>Gravitational instability</p>
+<p>Inestabilidad gravitacional</p>
 </div>
-<section id="elias-2-27-spiral-arms-in-a-massive-disk" class="level3">
-<h3 class="anchored" data-anchor-id="elias-2-27-spiral-arms-in-a-massive-disk">Elias 2-27: spiral arms in a massive disk</h3>
-<p>An example of this diversity is <strong>Elias 2-27</strong>, a disk with two prominent spiral arms observed in the millimeter dust continuum. Paneque-Carreño et al.&nbsp;(2021) analyzed ALMA observations at several wavelengths and found that the spiral morphology is recovered in the dust emission, while the gas also shows strong kinematic perturbations associated with the spiral regions.</p>
-<p>In this system, the spirals are interpreted as possible evidence of gravitational instability: a process that can occur when a disk is cold and massive enough for its own gravity to shape its structure. The study also reports “dust-trapping signatures”, suggesting that spiral arms may act as pressure structures where solid particles can accumulate and grow. The authors propose that material falling from the surrounding environment could trigger “infall-triggered gravitational instabilities”, making Elias 2-27 a useful example of how disk evolution, gas dynamics, and dust concentration can work together to create visible substructures <span class="citation" data-cites="panequecarreno2021_elias227">(<a href="#ref-panequecarreno2021_elias227" role="doc-biblioref">Paneque-Carreño et al. 2021</a>)</span>.</p>
+<section id="elias-2-27-brazos-espirales-en-un-disco-masivo" class="level3">
+<h3 class="anchored" data-anchor-id="elias-2-27-brazos-espirales-en-un-disco-masivo">Elias 2-27: brazos espirales en un disco masivo</h3>
+<p>Un ejemplo de esta diversidad es <strong>Elias 2-27</strong>, un disco con dos brazos espirales prominentes observados en el continuo milimétrico de polvo. Paneque-Carreño et al.&nbsp;(2021) analizaron observaciones de ALMA en varias longitudes de onda y encontraron que la morfología espiral aparece en la emisión de polvo, mientras que el gas también muestra perturbaciones cinemáticas fuertes asociadas con las regiones espirales.</p>
+<p>En este sistema, las espirales se interpretan como posible evidencia de inestabilidad gravitacional, un proceso que puede ocurrir cuando el disco es suficientemente frío y masivo para que su propia gravedad influya en la estructura. El estudio también reporta señales de atrapamiento de polvo, sugiriendo que los brazos espirales podrían actuar como estructuras de presión donde las partículas sólidas se acumulan y crecen <span class="citation" data-cites="panequecarreno2021_elias227">(<a href="#ref-panequecarreno2021_elias227" role="doc-biblioref">Paneque-Carreño et al. 2021</a>)</span>.</p>
 </section>
 </div>
 <div class="evolution-example-card">
 <div class="example-label">
-<p>Thermal evolution</p>
+<p>Evolución térmica</p>
 </div>
-<section id="v883-ori-when-accretion-moves-the-snowline" class="level3">
-<h3 class="anchored" data-anchor-id="v883-ori-when-accretion-moves-the-snowline">V883 Ori: when accretion moves the snowline</h3>
-<p>Disk evolution can also be strongly shaped by changes in the disk’s thermal structure. A useful example is <strong>V883 Ori</strong>, a FU Orionis-type object undergoing an accretion outburst. In this system, Alarcón et al.&nbsp;(2024) show that passive stellar irradiation alone cannot reproduce the observed millimeter continuum emission.</p>
-<p>The authors state that “Irradiation heating by itself is not enough to explain the spiky radial continuum profile or the high-brightness temperatures in the inner regions of V883 Ori”, so an additional heat source is required.. In their model, viscous heating from accretion becomes a dominant source of energy inside the water snowline, increasing the disk temperature, changing the disk shape, and pushing condensation fronts outward. This makes V883 Ori an important reminder that snowlines are not fixed boundaries: they can move as the disk’s energy budget changes, affecting the chemistry, dust properties, and local conditions for planet formation <span class="citation" data-cites="alarcon2024_v883ori">(<a href="#ref-alarcon2024_v883ori" role="doc-biblioref">Alarcón et al. 2024</a>)</span>.</p>
+<section id="v883-ori-cuando-la-acreción-desplaza-la-línea-de-nieve" class="level3">
+<h3 class="anchored" data-anchor-id="v883-ori-cuando-la-acreción-desplaza-la-línea-de-nieve">V883 Ori: cuando la acreción desplaza la línea de nieve</h3>
+<p>La evolución de los discos también puede estar fuertemente influida por cambios en su estructura térmica. Un ejemplo útil es <strong>V883 Ori</strong>, un objeto tipo FU Orionis que experimenta un estallido de acreción. En este sistema, Alarcón et al.&nbsp;(2024) muestran que la irradiación estelar pasiva por sí sola no reproduce la emisión milimétrica observada.</p>
+<p>En su modelo, el calentamiento viscoso asociado con la acreción se vuelve una fuente dominante de energía dentro de la línea de nieve del agua. Esto aumenta la temperatura del disco, modifica su estructura y desplaza los frentes de condensación hacia radios mayores. V883 Ori recuerda que las líneas de nieve no son fronteras fijas: pueden moverse cuando cambia el presupuesto energético del disco, afectando la química, las propiedades del polvo y las condiciones locales para la formación planetaria <span class="citation" data-cites="alarcon2024_v883ori">(<a href="#ref-alarcon2024_v883ori" role="doc-biblioref">Alarcón et al. 2024</a>)</span>.</p>
 </section>
 </div>
 </div>
 <div class="evolution-takeaway">
-<p><strong>Key idea:</strong> disk morphology is not just appearance. Rings, gaps, spirals, arcs, crescents, and moving snowlines are observable traces of the physical processes that redistribute material, change the disk temperature, and help set the conditions for planet formation.</p>
+<p><strong>Idea clave:</strong> la morfología de un disco no es solo apariencia. Anillos, brechas, espirales, arcos, crecientes y líneas de nieve móviles son huellas observables de procesos físicos que redistribuyen material, cambian la temperatura del disco y condicionan la formación planetaria.</p>
 </div>
 </div>
 <hr>
 </section>
-<section id="how-to-use-catalog" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-catalog">How to use and expand this catalog</h2>
+<section id="como-usar-catalogo" class="level2">
+<h2 class="anchored" data-anchor-id="como-usar-catalogo">Cómo usar y ampliar este catálogo</h2>
 <div class="catalog-use-box">
-<p>This catalog was designed as both an <strong>educational</strong> and a <strong>scientific</strong> resource for exploring protoplanetary disks in a structured, comparative, and accessible way. Its purpose is not only to gather information about different systems, but also to help readers understand how disks are studied, what their substructures mean, and why they matter for planet formation.</p>
-<p>Each disk page is organized to guide the reader from basic identification to scientific interpretation. In general, the pages include sections such as <strong>object names</strong>, <strong>location</strong>, <strong>general description</strong>, <strong>morphology</strong>, <strong>dust</strong>, <strong>gas</strong>, <strong>evidence of planet formation</strong>, and <strong>physical interpretation</strong>. This structure allows each system to be read both as an individual astronomical object and as part of a broader comparative context.</p>
-<p>The catalog is also intended to be an <strong>open, reproducible, and expandable</strong> project. New disks, updated scientific information, new images, additional references, data science activities, and simulations can be incorporated by editing the source files in the GitHub repository. The main content is written in <code>.qmd</code> files, structured disk information is stored in <code>data/disks/*.json</code>, references are managed in <code>references.bib</code>, and the website can be rendered locally with Quarto.</p>
-<p>For collaborators or reviewers, the repository includes a <code>README.md</code> file with instructions for opening the project, editing the catalog, adding new disks, validating the structured data, rendering the website, and contributing changes through GitHub.</p>
-<p><a href="https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog">View the GitHub repository</a></p>
+<p>Este catálogo fue diseñado como un recurso <strong>educativo, científico, reproducible y ampliable</strong> para explorar discos protoplanetarios de manera estructurada, comparativa y accesible. Su propósito no es solo reunir información sobre distintos sistemas, sino también ayudar a comprender cómo se estudian los discos, qué significan sus subestructuras y por qué son importantes para la formación planetaria.</p>
+<p>Cada ficha de disco está organizada para guiar la lectura desde la identificación básica del sistema hasta su interpretación física. En general, las páginas incluyen secciones como <strong>nombres del objeto</strong>, <strong>ubicación</strong>, <strong>descripción general</strong>, <strong>morfología</strong>, <strong>polvo</strong>, <strong>gas</strong>, <strong>evidencia de formación planetaria</strong> e <strong>interpretación física</strong>.</p>
+<p>El catálogo también está pensado como un proyecto abierto. Nuevos discos, información científica actualizada, imágenes, referencias, actividades de ciencia de datos y mejoras en la simulación pueden incorporarse editando los archivos fuente del repositorio de GitHub. El contenido principal está escrito en archivos <code>.qmd</code>, la información estructurada se almacena en <code>data/disks/*.json</code>, las referencias se gestionan en <code>references.bib</code> y el sitio puede renderizarse localmente con Quarto.</p>
+<p><a href="https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog" class="disk-link">Ver repositorio en GitHub</a></p>
 </div>
 <hr>
 </section>
-<section id="images-of-disk-substructures" class="level2">
-<h2 class="anchored" data-anchor-id="images-of-disk-substructures">Images of disk substructures</h2>
+<section id="galería-de-subestructuras-en-discos" class="level2">
+<h2 class="anchored" data-anchor-id="galería-de-subestructuras-en-discos">Galería de subestructuras en discos</h2>
 <div class="substructure-gallery">
-<div id="fig-elias24" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Elias 24 protoplanetary disk rings and gaps observed with ALMA">
+<div id="fig-elias24" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Anillos y brechas del disco protoplanetario Elias 24 observados con ALMA">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-elias24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/elias_24_morphology.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Elias 24 protoplanetary disk rings and gaps observed with ALMA">
+<img src="images/elias_24_morphology.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Anillos y brechas del disco protoplanetario Elias 24 observados con ALMA">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-elias24-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: ALMA image of the protoplanetary disk <strong>Elias 24</strong>, showing prominent concentric rings and gaps in the dust distribution, typical substructures observed in planet-forming disks.<br>
-<strong>Credit:</strong> ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; N. Lira.
+Figure&nbsp;1: Imagen de ALMA del disco protoplanetario <strong>Elias 24</strong>, donde se observan anillos y brechas concéntricas prominentes en la distribución de polvo. Estas subestructuras son comunes en discos donde podrían estar ocurriendo procesos relacionados con formación planetaria.<br>
+<strong>Crédito:</strong> ALMA (ESO/NAOJ/NRAO), S. Andrews et al.; N. Lira.
 </figcaption>
 </figure>
 </div>
-<div id="fig-mwc758" class="quarto-float quarto-figure quarto-figure-center anchored" alt="MWC 758 protoplanetary disk spiral and arc structures">
+<div id="fig-mwc758" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Estructuras espirales y arcos del disco protoplanetario MWC 758">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-mwc758-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/mwc_758_morphology.jpg" class="img-fluid figure-img" style="width:70.0%" alt="MWC 758 protoplanetary disk spiral and arc structures">
+<img src="images/mwc_758_morphology.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Estructuras espirales y arcos del disco protoplanetario MWC 758">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mwc758-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Composite image of the planet-forming disk <strong>MWC 758</strong>, combining infrared observations from the SPHERE instrument on ESO’s Very Large Telescope with millimeter observations from ALMA. The image reveals asymmetric structures and arcs in the dust distribution that may be related to planet–disk interactions.<br>
-<strong>Credit:</strong> ESO/A. Garufi et al.; R. Dong et al.; ALMA (ESO/NAOJ/NRAO).
+Figure&nbsp;2: Imagen compuesta del disco formador de planetas <strong>MWC 758</strong>, que combina observaciones infrarrojas del instrumento SPHERE en el Very Large Telescope de ESO con observaciones milimétricas de ALMA. La imagen revela estructuras asimétricas y arcos en la distribución de polvo que podrían estar relacionados con interacciones planeta-disco.<br>
+<strong>Crédito:</strong> ESO/A. Garufi et al.; R. Dong et al.; ALMA (ESO/NAOJ/NRAO).
 </figcaption>
 </figure>
 </div>
-<div id="fig-irs48" class="quarto-float quarto-figure quarto-figure-center anchored" alt="IRS 48 protoplanetary disk dust trap observed with ALMA">
+<div id="fig-irs48" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Trampa de polvo en forma de creciente del disco protoplanetario IRS 48 observada con ALMA">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-irs48-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/irs_48_morphology.jpg" class="img-fluid figure-img" style="width:70.0%" alt="IRS 48 protoplanetary disk dust trap observed with ALMA">
+<img src="images/irs_48_morphology.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Trampa de polvo en forma de creciente del disco protoplanetario IRS 48 observada con ALMA">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-irs48-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Composite image of the planet-forming disk <strong>IRS 48 (Oph-IRS 48)</strong> showing a pronounced crescent-shaped dust trap where millimetre-sized grains accumulate. Such structures may help dust grow into larger bodies during planet formation.<br>
-<strong>Credit:</strong> ESO/L. Calçada; ALMA (ESO/NAOJ/NRAO); A. Pohl; van der Marel et al.; Brunken et al.
+Figure&nbsp;3: Imagen compuesta del disco formador de planetas <strong>IRS 48 (Oph-IRS 48)</strong>, donde se observa una trampa de polvo con forma de creciente en la que se acumulan granos de tamaño milimétrico. Estas estructuras pueden facilitar el crecimiento del polvo hacia cuerpos mayores durante la formación planetaria.<br>
+<strong>Crédito:</strong> ESO/L. Calçada; ALMA (ESO/NAOJ/NRAO); A. Pohl; van der Marel et al.; Brunken et al.
 </figcaption>
 </figure>
 </div>
 </div>
-<p>These images illustrate how disk structures can vary significantly between systems and may provide clues about the processes occurring within them.</p>
+<p>Estas imágenes muestran que las subestructuras de los discos pueden variar mucho entre sistemas y entregar pistas sobre los procesos físicos que ocurren dentro de ellos.</p>
 <hr>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-aikawa2024" class="csl-entry" role="listitem">
-Aikawa, Yuri, Satoshi Okuzumi, and Klaus Pontoppidan. 2024. <em>The Physical and Chemical Processes in Protoplanetary Disks: Constraints on the Composition of Comets</em>. <a href="https://doi.org/10.48550/arXiv.2212.14529">https://doi.org/10.48550/arXiv.2212.14529</a>.
-</div>
+<section id="referencias" class="level2">
+<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-alarcon2024_v883ori" class="csl-entry" role="listitem">
 Alarcón, Felipe, Simón Casassus, Wladimir Lyra, Sebastián Pérez, and Lucas Cieza. 2024. <span>“Viscous Heating as the Dominant Heat Source Inside the Water Snowline of V883 Ori.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 527 (4): 9655–67. <a href="https://academic.oup.com/mnras/article/527/4/9655/7459921">https://academic.oup.com/mnras/article/527/4/9655/7459921</a>.
 </div>
@@ -572,19 +569,19 @@ Armitage, Philip J. 2011. <span>“Dynamics of Protoplanetary Disks.”</span> <
 Birnstiel, Tilman. 2024. <span>“Dust Growth and Evolution in Protoplanetary Disks.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 62: 157–202. <a href="https://arxiv.org/abs/2312.13287">https://arxiv.org/abs/2312.13287</a>.
 </div>
 <div id="ref-panequecarreno2021_elias227" class="csl-entry" role="listitem">
-Paneque-Carreño, T., L. M. Pérez, M. Benisty, et al. 2021. <span>“Spiral Arms and a Massive Dust Disk with Non-Keplerian Kinematics: Possible Evidence for Gravitational Instability in the Disk of Elias 2-27.”</span> <em>The Astrophysical Journal</em> 914: 88. <a href="https://arxiv.org/abs/2103.14048">https://arxiv.org/abs/2103.14048</a>.
+Paneque-Carreño, T., L. M. Pérez, M. Benisty, C. Hall, B. Veronesi, G. Lodato, A. Sierra, et al. 2021. <span>“Spiral Arms and a Massive Dust Disk with Non-Keplerian Kinematics: Possible Evidence for Gravitational Instability in the Disk of Elias 2-27.”</span> <em>The Astrophysical Journal</em> 914: 88. <a href="https://arxiv.org/abs/2103.14048">https://arxiv.org/abs/2103.14048</a>.
 </div>
 <div id="ref-perez2019_mini_neptune" class="csl-entry" role="listitem">
 Pérez, Sebastián, Simon Casassus, Clément Baruteau, Ruobing Dong, Antonio Hales, and Lucas Cieza. 2019. <span>“Dust Unveils the Formation of a Mini-Neptune Planet in a Protoplanetary Ring.”</span> <em>The Astronomical Journal</em> 158: 15. <a href="https://arxiv.org/abs/1902.05143">https://arxiv.org/abs/1902.05143</a>.
 </div>
 <div id="ref-perez2020_hd100546" class="csl-entry" role="listitem">
-Pérez, Sebastián, Simon Casassus, Antonio Hales, et al. 2020. <span>“Long Baseline Observations of the HD 100546 Protoplanetary Disk with ALMA.”</span> <em>The Astrophysical Journal Letters</em> 889: L24. <a href="https://arxiv.org/abs/1906.06305">https://arxiv.org/abs/1906.06305</a>.
+Pérez, Sebastián, Simon Casassus, Antonio Hales, Sebastián Marino, Anthony Cheetham, Alice Zurlo, Lucas Cieza, et al. 2020. <span>“Long Baseline Observations of the HD 100546 Protoplanetary Disk with ALMA.”</span> <em>The Astrophysical Journal Letters</em> 889: L24. <a href="https://arxiv.org/abs/1906.06305">https://arxiv.org/abs/1906.06305</a>.
 </div>
 <div id="ref-weber2022_v4046sgr" class="csl-entry" role="listitem">
 Weber, Philipp, Simon Casassus, and Sebastián Pérez. 2022. <span>“The Steady-State Hydrodynamics of a Long-Lived Disc: Planetary System Architecture and Prospects of Observing a Circumplanetary Disc Shadow in V4046 Sgr.”</span> <em>Monthly Notices of the Royal Astronomical Society</em> 510 (2): 1612–26. <a href="https://arxiv.org/abs/2111.12127">https://arxiv.org/abs/2111.12127</a>.
 </div>
 <div id="ref-weber2026_arks_ix" class="csl-entry" role="listitem">
-Weber, Philipp, Sebastián Pérez, Clément Baruteau, et al. 2026. <span>“The ALMA Survey to Resolve exoKuiper Belt Substructures (ARKS). IX. Gas-Driven Origin for the Continuum Arc in the Debris Disc of HD 121617.”</span> <em>Astronomy &amp; Astrophysics</em> 705: A203. <a href="https://arxiv.org/abs/2601.11709">https://arxiv.org/abs/2601.11709</a>.
+Weber, Philipp, Sebastián Pérez, Clément Baruteau, Sebastian Marino, Fernando Castillo, Marija R. Jankovic, Tim Pearce, et al. 2026. <span>“The ALMA Survey to Resolve exoKuiper Belt Substructures (ARKS). IX. Gas-Driven Origin for the Continuum Arc in the Debris Disc of HD 121617.”</span> <em>Astronomy &amp; Astrophysics</em> 705: A203. <a href="https://arxiv.org/abs/2601.11709">https://arxiv.org/abs/2601.11709</a>.
 </div>
 <div id="ref-williams2011" class="csl-entry" role="listitem">
 Williams, Jonathan P., and Lucas A. Cieza. 2011. <span>“Protoplanetary Disks and Their Evolution.”</span> <em>Annual Review of Astronomy and Astrophysics</em> 49 (1): 67–117. <a href="https://doi.org/10.1146/annurev-astro-081710-102548">https://doi.org/10.1146/annurev-astro-081710-102548</a>.

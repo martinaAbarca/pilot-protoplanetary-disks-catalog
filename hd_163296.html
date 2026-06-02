@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HD 163296 — Protoplanetary Disk – Catálogo piloto de discos protoplanetarios</title>
+<title>HD 163296: disco protoplanetario – Catálogo piloto de discos protoplanetarios</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -27,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -54,14 +52,15 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -93,6 +92,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -150,19 +178,19 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#object-names" id="toc-object-names" class="nav-link active" data-scroll-target="#object-names">Object names</a></li>
-  <li><a href="#location" id="toc-location" class="nav-link" data-scroll-target="#location">Location</a></li>
-  <li><a href="#general-description-of-the-system" id="toc-general-description-of-the-system" class="nav-link" data-scroll-target="#general-description-of-the-system">General description of the system</a></li>
-  <li><a href="#general-system-properties" id="toc-general-system-properties" class="nav-link" data-scroll-target="#general-system-properties">General system properties</a></li>
-  <li><a href="#disk-morphology" id="toc-disk-morphology" class="nav-link" data-scroll-target="#disk-morphology">Disk morphology</a></li>
-  <li><a href="#morphology-measurements" id="toc-morphology-measurements" class="nav-link" data-scroll-target="#morphology-measurements">Morphology measurements</a></li>
-  <li><a href="#dust-in-the-disk" id="toc-dust-in-the-disk" class="nav-link" data-scroll-target="#dust-in-the-disk">Dust in the disk</a></li>
-  <li><a href="#dust-properties" id="toc-dust-properties" class="nav-link" data-scroll-target="#dust-properties">Dust properties</a></li>
-  <li><a href="#gas-in-the-disk" id="toc-gas-in-the-disk" class="nav-link" data-scroll-target="#gas-in-the-disk">Gas in the disk</a></li>
-  <li><a href="#gas-properties" id="toc-gas-properties" class="nav-link" data-scroll-target="#gas-properties">Gas properties</a></li>
-  <li><a href="#evidence-of-planet-formation" id="toc-evidence-of-planet-formation" class="nav-link" data-scroll-target="#evidence-of-planet-formation">Evidence of planet formation</a></li>
-  <li><a href="#physical-interpretation-of-hd-163296" id="toc-physical-interpretation-of-hd-163296" class="nav-link" data-scroll-target="#physical-interpretation-of-hd-163296">Physical interpretation of HD 163296</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#nombres-del-objeto" id="toc-nombres-del-objeto" class="nav-link active" data-scroll-target="#nombres-del-objeto">Nombres del objeto</a></li>
+  <li><a href="#ubicación" id="toc-ubicación" class="nav-link" data-scroll-target="#ubicación">Ubicación</a></li>
+  <li><a href="#descripción-general-del-sistema" id="toc-descripción-general-del-sistema" class="nav-link" data-scroll-target="#descripción-general-del-sistema">Descripción general del sistema</a></li>
+  <li><a href="#propiedades-generales-del-sistema" id="toc-propiedades-generales-del-sistema" class="nav-link" data-scroll-target="#propiedades-generales-del-sistema">Propiedades generales del sistema</a></li>
+  <li><a href="#morfología-del-disco" id="toc-morfología-del-disco" class="nav-link" data-scroll-target="#morfología-del-disco">Morfología del disco</a></li>
+  <li><a href="#mediciones-morfológicas" id="toc-mediciones-morfológicas" class="nav-link" data-scroll-target="#mediciones-morfológicas">Mediciones morfológicas</a></li>
+  <li><a href="#polvo-en-el-disco" id="toc-polvo-en-el-disco" class="nav-link" data-scroll-target="#polvo-en-el-disco">Polvo en el disco</a></li>
+  <li><a href="#propiedades-del-polvo" id="toc-propiedades-del-polvo" class="nav-link" data-scroll-target="#propiedades-del-polvo">Propiedades del polvo</a></li>
+  <li><a href="#gas-en-el-disco" id="toc-gas-en-el-disco" class="nav-link" data-scroll-target="#gas-en-el-disco">Gas en el disco</a></li>
+  <li><a href="#propiedades-del-gas" id="toc-propiedades-del-gas" class="nav-link" data-scroll-target="#propiedades-del-gas">Propiedades del gas</a></li>
+  <li><a href="#evidencia-de-formación-planetaria" id="toc-evidencia-de-formación-planetaria" class="nav-link" data-scroll-target="#evidencia-de-formación-planetaria">Evidencia de formación planetaria</a></li>
+  <li><a href="#interpretación-física-de-hd-163296" id="toc-interpretación-física-de-hd-163296" class="nav-link" data-scroll-target="#interpretación-física-de-hd-163296">Interpretación física de HD 163296</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
   </ul>
 </nav>
     </div>
@@ -171,7 +199,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">HD 163296 — Protoplanetary Disk</h1>
+<h1 class="title">HD 163296: disco protoplanetario</h1>
 </div>
 
 
@@ -191,54 +219,56 @@ div.csl-indent {
 <div id="fig-hd163296" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-hd163296-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/hd_163296_ficha.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO)."><img src="images/hd_163296_ficha.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="650"></a>
+<a href="images/hd_163296_ficha.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Imagen de ALMA del disco protoplanetario alrededor de HD 163296, donde se observan subestructuras prominentes de anillos y brechas en el continuo de polvo. El disco presenta varios anillos y brechas de polvo asociados con estructuras de presión en el material del disco. Crédito de imagen: ALMA (ESO/NAOJ/NRAO)."><img src="images/hd_163296_ficha.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="650"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hd163296-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).
+Figure&nbsp;1: Imagen de ALMA del disco protoplanetario alrededor de HD 163296, donde se observan subestructuras prominentes de anillos y brechas en el continuo de polvo. El disco presenta varios anillos y brechas de polvo asociados con estructuras de presión en el material del disco. Crédito de imagen: ALMA (ESO/NAOJ/NRAO).
 </figcaption>
 </figure>
 </div>
-<p>As shown in <a href="#fig-hd163296" class="quarto-xref">Figure&nbsp;1</a>, the HD 163296 disk exhibits multiple dark gaps and bright rings in the millimeter dust continuum emission.</p>
-<section id="object-names" class="level2">
-<h2 class="anchored" data-anchor-id="object-names">Object names</h2>
+<p>Como se muestra en la <a href="#fig-hd163296" class="quarto-xref">Figure&nbsp;1</a>, el disco de HD 163296 presenta múltiples brechas oscuras y anillos brillantes en la emisión continua del polvo milimétrico.</p>
+<section id="nombres-del-objeto" class="level2">
+<h2 class="anchored" data-anchor-id="nombres-del-objeto">Nombres del objeto</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Catalog</th>
-<th>Name</th>
-<th>Source</th>
+<th>Catálogo</th>
+<th>Nombre</th>
+<th>Fuente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Main name</td>
+<td>Nombre principal</td>
 <td>HD 163296</td>
 <td><span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Other designations</td>
+<td>Otras designaciones</td>
 <td>MWC 275</td>
 <td><span class="citation" data-cites="benisty2010">(<a href="#ref-benisty2010" role="doc-biblioref">Benisty et al. 2010</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Location</td>
-<td>Not specified in these papers</td>
+<td>Ubicación</td>
+<td>No especificada en estos artículos</td>
 <td>—</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="location" class="level2">
-<h2 class="anchored" data-anchor-id="location">Location</h2>
-<p>HD 163296 is a young <strong>Herbig Ae star</strong> located at a distance of approximately <strong>101–122 parsecs (~330–400 light-years)</strong> from Earth <span class="citation" data-cites="isella2016 rab2020">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>; <a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
-<p>The star belongs to the class of intermediate-mass pre–main sequence stars and is surrounded by one of the most extensively studied protoplanetary disks. Because the disk is large, bright, and relatively isolated, it provides an ideal laboratory for investigating the processes that shape planet-forming disks.</p>
+<section id="ubicación" class="level2">
+<h2 class="anchored" data-anchor-id="ubicación">Ubicación</h2>
+<p>HD 163296 es una estrella joven de tipo <strong>Herbig Ae</strong>, ubicada a una distancia aproximada de <strong>101–122 parsecs</strong>, equivalente a unos <strong>330–400 años luz</strong> de la Tierra <span class="citation" data-cites="isella2016 rab2020">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>; <a href="#ref-rab2020" role="doc-biblioref">Rab et al. 2020</a>)</span>.</p>
+<p>La estrella pertenece a la clase de objetos de pre-secuencia principal de masa intermedia y está rodeada por uno de los discos protoplanetarios más estudiados. Debido a que el disco es grande, brillante y relativamente aislado, constituye un laboratorio ideal para investigar los procesos físicos que moldean los discos donde se forman planetas.</p>
 </section>
-<section id="general-description-of-the-system" class="level2">
-<h2 class="anchored" data-anchor-id="general-description-of-the-system">General description of the system</h2>
-<p>HD 163296 is a protoplanetary disk surrounding a Herbig Ae star whose dust morphology has made it a benchmark system for the study of radial substructures; indeed, it has been described as “<strong>the third system known to host multiple rings in dust emission at millimetre wavelength</strong>” <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. On global scales, the system combines a large, dynamically ordered gas disk—“<strong>The gas disc is in Keplerian motion and has a radius of about 550 au, and the millimetre continuum emission from solid particles is confined to within 250 au of the star</strong>”—with a more compact solid component, where earlier observations resolved “<strong>three concentric gap-ring pairs</strong>,” with gaps at ~54, ~100, and 160 au <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. Higher-resolution observations further show that this architecture is not limited to simple concentric rings: “<strong>The continuum observations resolve and allow us to characterize the previously discovered dust rings at radii of 68 and 100. They also reveal new small-scale structures, such as a dark gap at 10 au, a bright ring at 15 au, a dust crescent at a radius of 55 au, and several fainter azimuthal asymmetries</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. In this sense, the dust distribution is not uniform but exhibits both radial and azimuthal variations, since “<strong>The dust continuum emission is characterized by several asymmetric structures</strong>,” and these features “<strong>corroborate the hypothesis that the complex structure of the HD 163296 disk is the result of the gravitational interaction with yet-unseen planets</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<section id="descripción-general-del-sistema" class="level2">
+<h2 class="anchored" data-anchor-id="descripción-general-del-sistema">Descripción general del sistema</h2>
+<p>HD 163296 es un disco protoplanetario alrededor de una estrella Herbig Ae, cuya morfología de polvo lo ha convertido en un sistema de referencia para estudiar subestructuras radiales. El sistema combina un disco gaseoso grande y dinámicamente ordenado, en rotación kepleriana, con un componente sólido más compacto. En observaciones milimétricas, la emisión del polvo se encuentra confinada dentro de aproximadamente <strong>250 au</strong>, mientras que el gas se extiende mucho más lejos <span class="citation" data-cites="isella2016 diep2019">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>; <a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>.</p>
+<p>Observaciones anteriores resolvieron tres pares concéntricos de brecha-anillo, con brechas alrededor de <strong>54, 100 y 160 au</strong> <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. Posteriormente, observaciones de mayor resolución mostraron que esta arquitectura es todavía más rica: además de los anillos y brechas principales, se identificaron un gap oscuro cerca de <strong>10 au</strong>, un anillo brillante alrededor de <strong>15 au</strong>, un crescent o concentración asimétrica de polvo cerca de <strong>55 au</strong>, y varias asimetrías azimutales más débiles <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>En este sentido, la distribución de polvo de HD 163296 no es uniforme ni perfectamente axisimétrica. Presenta variaciones radiales y azimutales que sugieren una redistribución activa del material sólido. Estas estructuras apoyan la hipótesis de que la compleja arquitectura del disco podría estar siendo moldeada por interacción gravitacional con planetas aún no observados directamente <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
 </section>
-<section id="general-system-properties" class="level2">
-<h2 class="anchored" data-anchor-id="general-system-properties">General system properties</h2>
+<section id="propiedades-generales-del-sistema" class="level2">
+<h2 class="anchored" data-anchor-id="propiedades-generales-del-sistema">Propiedades generales del sistema</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -248,82 +278,85 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Property</th>
-<th>Value</th>
-<th>Description</th>
-<th>Source</th>
+<th>Propiedad</th>
+<th>Valor</th>
+<th>Descripción</th>
+<th>Fuente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Distance</td>
+<td>Distancia</td>
 <td>101 ± 2 pc</td>
-<td>Distance from Earth to the HD 163296 system.</td>
+<td>Distancia desde la Tierra al sistema HD 163296.</td>
 <td><span class="citation" data-cites="pinte2020_dsharp">(<a href="#ref-pinte2020_dsharp" role="doc-biblioref">Pinte et al. 2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Evolutionary class</td>
+<td>Clase evolutiva</td>
 <td>Herbig Ae</td>
-<td>Evolutionary classification of the central star.</td>
+<td>Clasificación evolutiva de la estrella central.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Stellar mass</td>
+<td>Masa estelar</td>
 <td>2.04 M☉</td>
-<td>Mass adopted for the central star in the kinematic analysis.</td>
+<td>Masa adoptada para la estrella central en el análisis cinemático.</td>
 <td><span class="citation" data-cites="pinte2020_dsharp">(<a href="#ref-pinte2020_dsharp" role="doc-biblioref">Pinte et al. 2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Gas disk size</td>
-<td>&gt;1000 au diameter</td>
-<td>Approximate full diameter of the extended Keplerian gas disk.</td>
+<td>Tamaño del disco gaseoso</td>
+<td>&gt;1000 au de diámetro</td>
+<td>Diámetro aproximado completo del disco gaseoso kepleriano extendido.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>CO extent</td>
+<td>Extensión de CO</td>
 <td>~560 au</td>
-<td>Radial extent of the CO emission from the central star.</td>
+<td>Extensión radial de la emisión de CO desde la estrella central.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Disk inclination</td>
+<td>Inclinación del disco</td>
 <td>46.7°</td>
-<td>Inclination of the disk used to interpret the CO kinematics.</td>
+<td>Inclinación usada para interpretar la cinemática del CO.</td>
 <td><span class="citation" data-cites="pinte2020_dsharp">(<a href="#ref-pinte2020_dsharp" role="doc-biblioref">Pinte et al. 2020</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Position angle</td>
+<td>Ángulo de posición</td>
 <td>133.3 ± 0.1°</td>
-<td>Orientation of the disk major axis on the sky, derived from the outer dust rings.</td>
+<td>Orientación del eje mayor del disco en el cielo, derivada de los anillos externos de polvo.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Bright dust rings</td>
+<td>Anillos brillantes de polvo</td>
 <td>~15, 67, 101 au</td>
-<td>Main bright rings resolved in the 1.25 mm dust continuum.</td>
+<td>Principales anillos brillantes resueltos en el continuo de polvo a 1.25 mm.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Main dark gaps</td>
+<td>Brechas oscuras principales</td>
 <td>~10, 45, 86, 141 au</td>
-<td>Main dark gaps identified in the dust continuum emission.</td>
+<td>Principales brechas oscuras identificadas en la emisión continua del polvo.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Dust crescents</td>
-<td>~4 and 55 au</td>
-<td>Prominent asymmetric dust crescent structures seen in the continuum emission.</td>
+<td>Crescents de polvo</td>
+<td>~4 y 55 au</td>
+<td>Estructuras asimétricas prominentes observadas en el continuo de polvo.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="disk-morphology" class="level2">
-<h2 class="anchored" data-anchor-id="disk-morphology">Disk morphology</h2>
-<p>The morphology of HD 163296 can be described as that of a dust disk with a hierarchical architecture of rings and gaps: in the 1.3 mm continuum, the disk shows “<strong>three concentric gap-ring pairs</strong>,” and at higher resolution it presents “<strong>much deeper gaps</strong>” between the rings, more clearly defining the radial redistribution of dust <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. To this global structure, <span class="citation" data-cites="isella2018">Isella et al. (<a href="#ref-isella2018" role="doc-biblioref">2018</a>)</span> add “<strong>three new morphological features</strong>,” including an inner dark gap at ~10 au, a bright ring at ~15 au, and a central azimuthal asymmetry, while in the outer disk “<strong>the outermost features B67, D86, B100, D145, and B155, are well described by concentric circles</strong>.” Beyond this concentric organization, the disk is not perfectly uniform: “<strong>the image of the residuals shows fainter asymmetries along the B67 and B100 dust rings</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>, and <span class="citation" data-cites="diep2019">Diep et al. (<a href="#ref-diep2019" role="doc-biblioref">2019</a>)</span> further conclude that the outer gap and outer ring display a “<strong>significant modulation of their morphology and intensity</strong>.” Altogether, HD 163296 exhibits a morphology in which gaps, rings, and local asymmetries coexist within a globally thin and well-organized disk structure.</p>
+<section id="morfología-del-disco" class="level2">
+<h2 class="anchored" data-anchor-id="morfología-del-disco">Morfología del disco</h2>
+<p>La morfología de HD 163296 puede describirse como la de un disco de polvo con una arquitectura jerárquica de anillos y brechas. En el continuo a 1.3 mm, el disco muestra tres pares concéntricos de brecha-anillo y, con mayor resolución, las brechas aparecen más profundas y mejor definidas <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. Esto permite observar con más claridad la redistribución radial del polvo.</p>
+<p>A esta estructura global, Isella et al.&nbsp;(2018) agregan nuevas características morfológicas: una brecha interna oscura cerca de <strong>10 au</strong>, un anillo brillante alrededor de <strong>15 au</strong> y una asimetría azimutal central. En el disco externo, las estructuras <strong>B67, D86, B100, D145 y B155</strong> son bien descritas por círculos concéntricos <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Sin embargo, el disco no es perfectamente uniforme. El mapa de residuos muestra asimetrías débiles a lo largo de los anillos <strong>B67</strong> y <strong>B100</strong>, mientras que el gap externo y el anillo externo presentan una modulación significativa de su morfología e intensidad <span class="citation" data-cites="isella2018 diep2019">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>; <a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>.</p>
+<p>En conjunto, HD 163296 presenta una morfología donde coexisten brechas, anillos y asimetrías locales dentro de una estructura globalmente delgada y bien organizada.</p>
 </section>
-<section id="morphology-measurements" class="level2">
-<h2 class="anchored" data-anchor-id="morphology-measurements">Morphology measurements</h2>
+<section id="mediciones-morfológicas" class="level2">
+<h2 class="anchored" data-anchor-id="mediciones-morfológicas">Mediciones morfológicas</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -333,88 +366,90 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Structure</th>
-<th>Measurement</th>
-<th>Description</th>
-<th>Source</th>
+<th>Estructura</th>
+<th>Medición</th>
+<th>Descripción</th>
+<th>Fuente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Disk geometry</td>
-<td>Inclination = 46.7 ± 0.1°; PA = 133.3 ± 0.1°</td>
-<td>Mean geometry derived from the outer concentric structures.</td>
+<td>Geometría del disco</td>
+<td>Inclinación = 46.7 ± 0.1°; PA = 133.3 ± 0.1°</td>
+<td>Geometría media derivada de las estructuras concéntricas externas.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>D10</td>
-<td>Radius = 9.96 ± 0.07 au</td>
-<td>Inner dark gap in the 1.25 mm continuum; its lower apparent inclination is likely affected by beam smearing.</td>
+<td>Radio = 9.96 ± 0.07 au</td>
+<td>Brecha oscura interna en el continuo a 1.25 mm; su menor inclinación aparente probablemente está afectada por el suavizado del haz.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>B14</td>
-<td>Radius = 14.44 ± 0.07 au (ellipse fit); 15.5 ± 0.2 au (Gaussian model); width = 8.7 ± 0.2 au</td>
-<td>Inner bright ring just outside D10; together with D10, it is spatially resolved mainly along the disk major axis.</td>
+<td>Radio = 14.44 ± 0.07 au mediante ajuste elíptico; 15.5 ± 0.2 au mediante modelo gaussiano; ancho = 8.7 ± 0.2 au</td>
+<td>Anillo brillante interno justo fuera de D10; junto con D10, se resuelve principalmente a lo largo del eje mayor del disco.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>D45</td>
-<td>Radius = 44.77 ± 0.19 au</td>
-<td>Dark gap in the inner outer-disk region; its morphology may be partly affected by the dust crescent at ~55 au.</td>
+<td>Radio = 44.77 ± 0.19 au</td>
+<td>Brecha oscura en la región interna del disco externo; su morfología puede estar parcialmente afectada por el crescent de polvo cercano a 55 au.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>B67</td>
-<td>Radius = 66.99 ± 0.11 au (ellipse fit); 67.08 ± 0.03 au (Gaussian model); width = 6.56 ± 0.05 au; residual asymmetry = ±0.15 mJy beam⁻¹</td>
-<td>Bright outer ring; shows real azimuthal substructure beyond beam-scale noise.</td>
+<td>Radio = 66.99 ± 0.11 au mediante ajuste elíptico; 67.08 ± 0.03 au mediante modelo gaussiano; ancho = 6.56 ± 0.05 au; asimetría residual = ±0.15 mJy beam⁻¹</td>
+<td>Anillo brillante externo; muestra subestructura azimutal real más allá del ruido asociado al haz.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>D86</td>
-<td>Radius = 86.61 ± 0.22 au</td>
-<td>Dark gap between the two main outer bright rings.</td>
+<td>Radio = 86.61 ± 0.22 au</td>
+<td>Brecha oscura entre los dos principales anillos brillantes externos.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>B100</td>
-<td>Radius = 99.69 ± 0.08 au (ellipse fit); 101.16 ± 0.04 au (Gaussian model); width = 5.8 ± 0.1 au; fainter asymmetries detected in residual map</td>
-<td>Second major bright outer ring in the dust continuum.</td>
+<td>Radio = 99.69 ± 0.08 au mediante ajuste elíptico; 101.16 ± 0.04 au mediante modelo gaussiano; ancho = 5.8 ± 0.1 au; se detectan asimetrías débiles en el mapa de residuos</td>
+<td>Segundo anillo brillante externo principal en el continuo de polvo.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>D141</td>
-<td>Radius = 140.62 ± 0.96 au</td>
-<td>Outer dark gap identified in the continuum map.</td>
+<td>Radio = 140.62 ± 0.96 au</td>
+<td>Brecha oscura externa identificada en el mapa de continuo.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>B159</td>
-<td>Radius = 158.7 ± 1.2 au</td>
-<td>Outermost bright ring detected in the continuum map.</td>
+<td>Radio = 158.7 ± 1.2 au</td>
+<td>Anillo brillante más externo detectado en el mapa de continuo.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
 <td>C4</td>
-<td>Radius ≈ 4 au; PA = −44°; peak intensity = 0.55 mJy beam⁻¹; azimuthal extent ≈ 180°</td>
-<td>Innermost crescent-like asymmetry, overlapping the innermost Gaussian ring component.</td>
+<td>Radio ≈ 4 au; PA = −44°; intensidad máxima = 0.55 mJy beam⁻¹; extensión azimutal ≈ 180°</td>
+<td>Asimetría interna tipo crescent, superpuesta al componente gaussiano más interno del anillo.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>C55</td>
-<td>Radius ≈ 55 au; PA = 99°; peak intensity = 0.64 mJy beam⁻¹; intrinsic widths = 2.2 au radial and 16.9 au azimuthal</td>
-<td>Prominent dust crescent inside the D45 region.</td>
+<td>Radio ≈ 55 au; PA = 99°; intensidad máxima = 0.64 mJy beam⁻¹; anchos intrínsecos = 2.2 au radial y 16.9 au azimutal</td>
+<td>Crescent de polvo prominente dentro de la región de D45.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="dust-in-the-disk" class="level2">
-<h2 class="anchored" data-anchor-id="dust-in-the-disk">Dust in the disk</h2>
-<p>In the case of HD 163296, dust dynamics—that is, the radial migration of solids toward local gas-pressure maxima—is interpreted as a key mechanism in the formation of the rings. These bright rings—“<strong>the rings B67 and B100 of the HD 163296 disk, have a radial width that is narrower than the estimated pressure scale height of the gaseous disk</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>—suggest that the dust is concentrated and confined within relatively narrow regions. In addition to ring and gap structures, the disk also shows asymmetric dust concentrations: “<strong>new small-scale structures, such as a dark gap at 10 au, a bright ring at 15 au, a dust crescent at a radius of 55 au, and several fainter azimuthal asymmetries</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. Among these asymmetries, the most prominent correspond to crescents, since “<strong>The dust continuum emission is characterized by several asymmetric structures. The most prominent consist in crescents centered at about 4 and 55 au</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. For this reason, the dusty environment of the disk should be understood as dynamic rather than perfectly axisymmetric. This interpretation is further reinforced by the kinematic evidence presented by <span class="citation" data-cites="pinte2020_dsharp">Pinte et al. (<a href="#ref-pinte2020_dsharp" role="doc-biblioref">2020</a>)</span>, who note that “<strong>upon deprojection, we find that all of the candidate planets lie within a gap and/or at the end of a spiral detected in dust continuum emission</strong>.” In other words, the dust substructures not only describe where solid material is concentrated or redistributed, but also spatially coincide with possible embedded perturbers, supporting the idea that part of the observed dust architecture is being sculpted by forming protoplanets.</p>
+<section id="polvo-en-el-disco" class="level2">
+<h2 class="anchored" data-anchor-id="polvo-en-el-disco">Polvo en el disco</h2>
+<p>En HD 163296, la dinámica del polvo, es decir, la migración radial de sólidos hacia máximos locales de presión del gas, se interpreta como un mecanismo clave para la formación de los anillos. Los anillos brillantes <strong>B67</strong> y <strong>B100</strong> tienen anchos radiales más estrechos que la altura de escala estimada del disco gaseoso, lo que sugiere que el polvo está concentrado y confinado en regiones relativamente angostas <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Además de los anillos y brechas, el disco también muestra concentraciones asimétricas de polvo. Entre estas destacan estructuras tipo crescent centradas aproximadamente a <strong>4 au</strong> y <strong>55 au</strong>, junto con asimetrías azimutales más débiles <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. Por esta razón, el ambiente de polvo del disco debe entenderse como dinámico y no como una estructura perfectamente axisimétrica.</p>
+<p>Esta interpretación se refuerza con evidencia cinemática. Pinte et al.&nbsp;(2020) muestran que los candidatos a planetas se ubican dentro de una brecha y/o al final de una espiral detectada en el continuo de polvo <span class="citation" data-cites="pinte2020_dsharp">(<a href="#ref-pinte2020_dsharp" role="doc-biblioref">Pinte et al. 2020</a>)</span>. En otras palabras, las subestructuras de polvo no solo indican dónde se concentra o redistribuye el material sólido, sino que también coinciden espacialmente con posibles perturbadores embebidos.</p>
 </section>
-<section id="dust-properties" class="level2">
-<h2 class="anchored" data-anchor-id="dust-properties">Dust properties</h2>
+<section id="propiedades-del-polvo" class="level2">
+<h2 class="anchored" data-anchor-id="propiedades-del-polvo">Propiedades del polvo</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -424,52 +459,58 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Property</th>
-<th>Value</th>
-<th>Description</th>
-<th>Source</th>
+<th>Propiedad</th>
+<th>Valor</th>
+<th>Descripción</th>
+<th>Fuente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Dust temperature at bright rings</td>
+<td>Temperatura del polvo en anillos brillantes</td>
 <td>B67: 24 K; B100: 15 K; B168: &gt;6 K</td>
-<td>Dust temperature, or lower limit, estimated from the continuum intensity at the main bright rings.</td>
+<td>Temperatura del polvo, o límite inferior, estimada a partir de la intensidad del continuo en los principales anillos brillantes.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Dust extinction optical depth</td>
+<td>Profundidad óptica de extinción del polvo</td>
 <td>B67: 0.64 ± 0.05; B100: 0.74 ± 0.05; B168: 0.1 ± 0.2</td>
-<td>Total dust extinction at the rings, including both absorption and scattering.</td>
+<td>Extinción total del polvo en los anillos, incluyendo absorción y dispersión.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Dust scattering optical depth</td>
+<td>Profundidad óptica de dispersión del polvo</td>
 <td>B67: ~0.1–0.2; B100: ~0.2–0.4</td>
-<td>Estimated contribution of dust scattering in the main bright rings.</td>
+<td>Contribución estimada de la dispersión del polvo en los principales anillos brillantes.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Radial extent of the millimeter dust continuum</td>
-<td>within 250 AU</td>
-<td>Maximum distance from the star where the emission from large dust grains is clearly detected in the millimeter continuum.</td>
+<td>Extensión radial del continuo de polvo milimétrico</td>
+<td>Dentro de 250 AU</td>
+<td>Distancia máxima desde la estrella donde se detecta claramente la emisión de granos grandes en el continuo milimétrico.</td>
 <td><span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Dust depletion factor in the gaps</td>
-<td>inner gap: ~13 to &gt;100; middle gap: ~7 to 70; outer gap: ~3.6 to 6</td>
-<td>Measure of how much the dust density decreases inside each gap compared with the surrounding regions; higher values indicate more strongly dust-depleted gaps.</td>
+<td>Factor de depleción de polvo en los gaps</td>
+<td>Gap interno: ~13 a &gt;100; gap medio: ~7 a 70; gap externo: ~3.6 a 6</td>
+<td>Medida de cuánto disminuye la densidad de polvo dentro de cada brecha respecto de las regiones circundantes; valores mayores indican brechas más depletadas en polvo.</td>
 <td><span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="gas-in-the-disk" class="level2">
-<h2 class="anchored" data-anchor-id="gas-in-the-disk">Gas in the disk</h2>
-<p>According to the gas structure of HD 163296, the gaseous disk does not end where the millimeter dust continuum is observed, but instead extends much farther outward: “<strong>The CO emission extends far beyond the outer edge of millimeter-wave continuum emission up to an angular distance of 5 6, or about 560 au, from the central star</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. To understand how its geometry is observed, it is important to note that the CO-traced gas does not appear as a single layer, but as two warm emitting surfaces on the front and rear sides of the disk: “<strong>The CO emission observed at intermediate velocities … shows a characteristic ‘dragonfly’ structure tracing both the front and rear warm CO-emitting layers of the disk</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. The rear-side emission appears fainter because “<strong>The emission coming from the rear of the disk is fainter than that from the front due to a combination of lower temperature of the emitting gas and absorption from the intervening material</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. The separation between these two surfaces therefore makes it possible to infer the vertical structure of the gas, since “<strong>the separation between the front and rear CO emission measures the vertical geometry of the CO-emitting surfaces</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. In addition, the CO temperature decreases with distance from the star, reaching values “<strong>as high as 120 K in the innermost disk regions and as low as 20 K at the disk outer edge</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. Finally, the global motion of the gas follows an ordered rotation dominated by stellar gravity: “<strong>The overall kinematics of the CO gas is well described by Keplerian rotation around a star with a mass of about 2.0 M⊙</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. Unlike the dust, the gas does not trace prominent rings and gaps, but instead appears in a smoother way, since “<strong>The maps of the 12CO, 13CO, and C18O J = 2 − 1 emission do not show such structures but reveal a change in the slope of the radial intensity profile across the positions of the dark rings in the continuum image</strong>” <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>. This shows that what matters is not only how much gas is present, but also how it is redistributed relative to the dust, because “<strong>we deduce that the gas-to-dust ratio varies across the disk and, in particular, it increases by at least a factor 5 within the inner dust gap compared to adjacent regions of the disk</strong>” <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>, suggesting that in this inner region the dust is more depleted than the gas.</p>
+<section id="gas-en-el-disco" class="level2">
+<h2 class="anchored" data-anchor-id="gas-en-el-disco">Gas en el disco</h2>
+<p>En HD 163296, el disco gaseoso no termina donde se observa el continuo de polvo milimétrico. Al contrario, la emisión de CO se extiende mucho más allá del borde externo del polvo, alcanzando aproximadamente <strong>560 au</strong> desde la estrella central <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Para interpretar la geometría del gas, es importante considerar que el CO no aparece como una sola capa. Las observaciones muestran dos superficies emisoras cálidas, correspondientes al lado frontal y al lado posterior del disco. Esta estructura produce una morfología característica que permite inferir la geometría vertical de las capas emisoras de CO <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>La emisión del lado posterior aparece más débil debido a una combinación de menor temperatura del gas emisor y absorción por material intermedio. La separación entre las capas frontal y posterior permite medir la geometría vertical de la superficie emisora de CO <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>La temperatura del gas trazado por CO disminuye con la distancia a la estrella: alcanza valores de hasta <strong>120 K</strong> en las regiones internas y baja hasta aproximadamente <strong>20 K</strong> en el borde externo del disco <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>En términos dinámicos, el movimiento global del gas está dominado por la gravedad estelar y se describe bien mediante rotación kepleriana alrededor de una estrella de aproximadamente <strong>2.0 M☉</strong> <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>A diferencia del polvo, el gas no muestra anillos y brechas tan marcados en los mapas de <span class="math inline">\(^{12}\)</span>CO, <span class="math inline">\(^{13}\)</span>CO y C<span class="math inline">\(^{18}\)</span>O J = 2−1. Sin embargo, estos trazadores sí muestran cambios en la pendiente del perfil radial de intensidad en posiciones asociadas con las brechas oscuras del continuo <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>. Esto indica que gas y polvo no se distribuyen de la misma manera.</p>
+<p>En particular, la razón gas/polvo varía a través del disco y aumenta al menos por un factor de 5 dentro del gap interno de polvo, en comparación con regiones adyacentes <span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span>. Esto sugiere que en esa zona el polvo está más fuertemente depletado que el gas.</p>
 </section>
-<section id="gas-properties" class="level2">
-<h2 class="anchored" data-anchor-id="gas-properties">Gas properties</h2>
+<section id="propiedades-del-gas" class="level2">
+<h2 class="anchored" data-anchor-id="propiedades-del-gas">Propiedades del gas</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -479,107 +520,116 @@ Figure&nbsp;1: ALMA image of the protoplanetary disk around HD 163296 showing pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Property</th>
-<th>Value</th>
-<th>Description</th>
-<th>Source</th>
+<th>Propiedad</th>
+<th>Valor</th>
+<th>Descripción</th>
+<th>Fuente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Radial extent of the CO emission</td>
+<td>Extensión radial de la emisión de CO</td>
 <td>~560 au</td>
-<td>Maximum distance from the star at which CO-traced gas is still clearly detected; it shows that the gaseous disk extends much farther out than the millimeter dust continuum.</td>
+<td>Distancia máxima desde la estrella donde el gas trazado por CO todavía se detecta claramente; muestra que el disco gaseoso se extiende mucho más que el continuo de polvo milimétrico.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Geometry of the CO-emitting layer</td>
+<td>Geometría de la capa emisora de CO</td>
 <td>z<sub>CO</sub>(100 au) = 30 au; q = 0.5</td>
-<td>Describes the height of the warm CO-emitting surface above the disk midplane and how that height changes with radius; it summarizes the vertical structure of the observed gas.</td>
+<td>Describe la altura de la superficie cálida emisora de CO sobre el plano medio del disco y cómo cambia con el radio; resume la estructura vertical observada del gas.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Temperature range of the CO-traced gas</td>
-<td>inner disk: up to 120 K; outer edge: down to 20 K</td>
-<td>Approximate temperature of the gas detected in CO from the inner regions to the outer disk; it shows that the gas is hotter near the star and colder at larger radii.</td>
+<td>Rango de temperatura del gas trazado por CO</td>
+<td>Disco interno: hasta 120 K; borde externo: hasta 20 K</td>
+<td>Temperatura aproximada del gas detectado en CO desde las regiones internas hasta el disco externo; muestra que el gas es más caliente cerca de la estrella y más frío a radios mayores.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Radial CO temperature profile</td>
-<td>T<sub>CO</sub>(K) ≈ 87 − 0.14 (r/au), between 30 and 500 au</td>
-<td>Empirical relation describing how the gas temperature decreases with distance from the star across a large fraction of the disk.</td>
+<td>Perfil radial de temperatura del CO</td>
+<td>T<sub>CO</sub>(K) ≈ 87 − 0.14 (r/au), entre 30 y 500 au</td>
+<td>Relación empírica que describe cómo la temperatura del gas disminuye con la distancia a la estrella en una gran parte del disco.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Systemic velocity</td>
+<td>Velocidad sistémica</td>
 <td>5.8 km s<sup>−1</sup></td>
-<td>Reference velocity of the HD 163296 system inferred from the CO observations; it is used to describe the disk’s overall rotation pattern.</td>
+<td>Velocidad de referencia del sistema HD 163296 inferida a partir de observaciones de CO; se usa para describir el patrón global de rotación del disco.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Gas kinematics</td>
-<td>Keplerian rotation around a star of ~2.0 M☉</td>
-<td>Global dynamical behavior of the gas, consistent with a disk whose rotation is primarily governed by the gravity of the central star.</td>
+<td>Cinemática del gas</td>
+<td>Rotación kepleriana alrededor de una estrella de ~2.0 M☉</td>
+<td>Comportamiento dinámico global del gas, consistente con un disco cuya rotación está gobernada principalmente por la gravedad de la estrella central.</td>
 <td><span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Radius of the Keplerian gaseous disk</td>
+<td>Radio del disco gaseoso kepleriano</td>
 <td>~550 AU</td>
-<td>Approximate size of the gaseous disk orbiting the star; it indicates how far the gas remains part of the main rotating disk structure.</td>
+<td>Tamaño aproximado del disco gaseoso que orbita la estrella; indica hasta dónde el gas forma parte de la estructura principal en rotación.</td>
 <td><span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>CO depletion in the gaps</td>
-<td>inner gap: ΔCO1 = 0–2.5; middle gap: ΔCO2 = 3.5–70; outer gap: ΔCO3 = 1.8–6</td>
-<td>Measure of how strongly the CO-traced gas decreases inside each gap; higher values indicate a stronger reduction of gas in that region.</td>
+<td>Depleción de CO en las brechas</td>
+<td>Gap interno: ΔCO1 = 0–2.5; gap medio: ΔCO2 = 3.5–70; gap externo: ΔCO3 = 1.8–6</td>
+<td>Medida de cuánto disminuye el gas trazado por CO dentro de cada brecha; valores mayores indican una reducción más fuerte del gas en esa región.</td>
 <td><span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Gas-to-dust ratio</td>
-<td>~40 at 100 AU; &gt;1000 for r &gt; 250 AU; at least 5 times higher inside the inner gap</td>
-<td>Ratio between gaseous material and dust in different parts of the disk; it shows that gas and dust are not distributed in the same way, and that some regions are relatively more depleted in dust than in gas.</td>
+<td>Razón gas/polvo</td>
+<td>~40 a 100 AU; &gt;1000 para r &gt; 250 AU; al menos 5 veces mayor dentro del gap interno</td>
+<td>Razón entre material gaseoso y polvo en distintas zonas del disco; muestra que gas y polvo no se distribuyen de la misma manera y que algunas regiones están relativamente más depletadas en polvo que en gas.</td>
 <td><span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Gas aspect ratio</td>
-<td>h = 0.05 at 60 AU; 0.065 at 100 AU; 0.07 at 160 AU</td>
-<td>Ratio between the thickness of the gaseous disk and its radius; it helps describe how vertically extended or “flared” the gas is in different regions of the disk.</td>
+<td>Relación de aspecto del gas</td>
+<td>h = 0.05 a 60 AU; 0.065 a 100 AU; 0.07 a 160 AU</td>
+<td>Razón entre el grosor del disco gaseoso y su radio; ayuda a describir qué tan verticalmente extendido o acampanado está el gas en distintas regiones.</td>
 <td><span class="citation" data-cites="isella2016">(<a href="#ref-isella2016" role="doc-biblioref">Isella et al. 2016</a>)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="evidence-of-planet-formation" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-of-planet-formation">Evidence of planet formation</h2>
-<p>The architecture of HD 163296, particularly its gaps and rings, is linked to real perturbations in the disk gas rather than to changes in dust opacity alone, as shown by the fact that “The recent detection of deviations from Keplerian rotation at the location of the gaps and rings by Teague et al.&nbsp;(2018) confirms that these structures correspond to variations in the gas pressure (i.e., variations in the gas density and/or temperature), as opposed to radial changes in the dust opacity” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. In this context, comparisons between the observations and planet–disk interaction models suggest that several of these gaps may have been carved by planets, since “The comparison between the observations and planet–disk interaction models indicates that the density gaps might have been carved by planets with masses between 0.5 and 1 MJ orbiting at 48, 86, and 131 au from the central star” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. The paper also shows that this evidence does not rely on a single scenario, because under very low-viscosity conditions “the observed multiple ring structure may also result from the gravitational interaction with a single planet that is less massive than Saturn at 100 au orbital radius” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. In addition, substructures such as the crescent observed inside D45 reinforce this interpretation, since “features similar to the crescent observed inside the D45 gap (inset b of Figure 1) are naturally produced by the planet–disk interaction whenever the disk viscosity is low (α &lt; 10−3) and the planet mass is above about 0.1 MJ” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. Finally, the continuum asymmetries are not interpreted merely as morphological details, but as further support for this hypothesis, because “these asymmetries trace local variations in the dust densities and support the hypothesis that the HD 163296 disk is shaped by the gravitational interaction with yet-unseen planets” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. This interpretation is extended by recent dynamical studies, in which HD 163296 “has been proposed to host at least four giant planets on wide orbits as well as a massive planetesimal disc” <span class="citation" data-cites="polychroni2025">(<a href="#ref-polychroni2025" role="doc-biblioref">Polychroni et al. 2025</a>)</span>, so that the evidence for planet formation is not limited to the observed morphology, but also includes its consequences for the solid material in the system. Within that framework, “in our simulations the formation of giant planets in the HD 163296 system creates a large population of dynamically excited planetesimals, the majority of which originate from beyond the CO snowline” <span class="citation" data-cites="polychroni2025">(<a href="#ref-polychroni2025" role="doc-biblioref">Polychroni et al. 2025</a>)</span>, and “HD 163296’s giant planets between 50 and 260 au are capable of delivering large amounts of planetesimals inwards of 40 au” <span class="citation" data-cites="polychroni2025">(<a href="#ref-polychroni2025" role="doc-biblioref">Polychroni et al. 2025</a>)</span>, suggesting that the presence of young giant planets may not only sculpt rings and gaps, but also redistribute material toward the inner regions of the system.</p>
+<section id="evidencia-de-formación-planetaria" class="level2">
+<h2 class="anchored" data-anchor-id="evidencia-de-formación-planetaria">Evidencia de formación planetaria</h2>
+<p>La arquitectura de HD 163296, especialmente sus anillos y brechas, se asocia con perturbaciones reales en el gas del disco y no solo con cambios de opacidad del polvo. La detección de desviaciones respecto de la rotación kepleriana en las posiciones de anillos y brechas confirma que estas estructuras están relacionadas con variaciones en la presión del gas, es decir, con cambios en la densidad y/o temperatura del gas <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>En este contexto, la comparación entre observaciones y modelos de interacción planeta-disco sugiere que varias brechas podrían haber sido abiertas por planetas. Isella et al.&nbsp;(2018) indican que las brechas de densidad podrían explicarse mediante planetas con masas entre <strong>0.5 y 1 M_J</strong>, orbitando aproximadamente a <strong>48, 86 y 131 au</strong> de la estrella central <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>El mismo estudio también considera otro escenario: bajo condiciones de muy baja viscosidad, la estructura múltiple de anillos podría surgir por la interacción gravitacional con un único planeta de masa menor que Saturno, ubicado cerca de <strong>100 au</strong> <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Además, subestructuras como el crescent observado dentro de D45 refuerzan esta interpretación. En discos de baja viscosidad, las interacciones planeta-disco pueden producir concentraciones asimétricas similares, especialmente si la masa planetaria supera aproximadamente <strong>0.1 M_J</strong> <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Las asimetrías del continuo tampoco se interpretan como simples detalles morfológicos, sino como indicios de variaciones locales en la densidad de polvo. Estas variaciones apoyan la hipótesis de que la estructura compleja del disco de HD 163296 está siendo moldeada por interacción gravitacional con planetas todavía no observados directamente <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Estudios dinámicos recientes extienden esta interpretación al proponer que HD 163296 podría albergar varios planetas gigantes en órbitas amplias, junto con un disco de planetesimales masivo <span class="citation" data-cites="polychroni2025">(<a href="#ref-polychroni2025" role="doc-biblioref">Polychroni et al. 2025</a>)</span>. En ese marco, la formación de planetas gigantes en el sistema puede excitar dinámicamente planetesimales y transportar material hacia regiones internas del disco <span class="citation" data-cites="polychroni2025">(<a href="#ref-polychroni2025" role="doc-biblioref">Polychroni et al. 2025</a>)</span>. Así, la evidencia de formación planetaria no se limita a la morfología observada, sino que también incluye sus posibles efectos sobre la redistribución de sólidos en el sistema.</p>
 </section>
-<section id="physical-interpretation-of-hd-163296" class="level2">
-<h2 class="anchored" data-anchor-id="physical-interpretation-of-hd-163296">Physical interpretation of HD 163296</h2>
-<p>HD 163296 can be physically interpreted as a disk in which dust is not distributed uniformly, but instead tends to accumulate in specific regions of the gas. In particular, “<strong>Dullemond et al.&nbsp;(2018) finds that many of the continuum rings revealed by DSHARP observations, including the rings B67 and B100 of the HD 163296 disk, have a radial width that is narrower than the estimated pressure scale height of the gaseous disk, and conclude that this is strong evidence that these rings have formed by radial migration of dust particles toward local maxima of the gas pressure</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. This suggests that the rings are not simply patterns seen in the image, but regions where dust has migrated and accumulated because the local gas pressure favors it. At the same time, this architecture develops within a thin disk, and the outer region is not perfectly uniform, since “<strong>The disc is shown to be thin … Significant modulation of the intensity of the outer ring emission is revealed and discussed</strong>” <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. This complexity cannot be explained by smooth dust trapping alone, because “<strong>the observed asymmetries in the dust continuum emission corroborate the hypothesis that the complex structure of the HD 163296 disk is the result of the gravitational interaction with yet-unseen planets</strong>” <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>. Meanwhile, the gas preserves an overall ordered motion, given that “<strong>The three line emissions display remarkably similar kinematics dominated by Keplerian rotation. An upper limit of 9% of the rotation velocity has been placed on a possible in-fall velocity</strong>” <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. Taken together, these results suggest a system in which the rings arise from dust concentration at gas-pressure maxima, while the more complex structures, such as asymmetries and brightness modulations, point to active interaction between the disk and possible forming planets.</p>
+<section id="interpretación-física-de-hd-163296" class="level2">
+<h2 class="anchored" data-anchor-id="interpretación-física-de-hd-163296">Interpretación física de HD 163296</h2>
+<p>HD 163296 puede interpretarse físicamente como un disco donde el polvo no está distribuido de forma uniforme, sino que tiende a acumularse en regiones específicas del gas. En particular, los anillos <strong>B67</strong> y <strong>B100</strong> son estrechos en comparación con la altura de escala estimada del disco gaseoso, lo que se interpreta como evidencia de que el polvo migró radialmente y se concentró en máximos locales de presión <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Esto significa que los anillos no son solo patrones visuales en la imagen, sino regiones donde el polvo se ha acumulado porque la presión local del gas favorece su concentración.</p>
+<p>Al mismo tiempo, esta arquitectura se desarrolla dentro de un disco delgado y globalmente ordenado. La región externa no es perfectamente uniforme: presenta modulación significativa en la intensidad del anillo externo y asimetrías en la emisión de polvo <span class="citation" data-cites="diep2019 isella2018">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>; <a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Esta complejidad no puede explicarse únicamente mediante atrapamiento suave de polvo. Las asimetrías observadas en el continuo apoyan la hipótesis de que la estructura compleja del disco es resultado de interacción gravitacional con planetas aún no detectados directamente <span class="citation" data-cites="isella2018">(<a href="#ref-isella2018" role="doc-biblioref">Isella et al. 2018</a>)</span>.</p>
+<p>Mientras tanto, el gas conserva un movimiento global ordenado, dominado por rotación kepleriana <span class="citation" data-cites="diep2019">(<a href="#ref-diep2019" role="doc-biblioref">Diep et al. 2019</a>)</span>. En conjunto, estos resultados sugieren un sistema donde los anillos surgen por concentración de polvo en máximos de presión del gas, mientras que las estructuras más complejas, como asimetrías y modulaciones de brillo, apuntan a interacción activa entre el disco y posibles planetas en formación.</p>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<section id="referencias" class="level2">
+<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-benisty2010" class="csl-entry" role="listitem">
-Benisty, M., A. Natta, A. Isella, et al. 2010. <span>“Strong Near-Infrared Emission in the Sub-AU Disk of the Herbig Ae Star HD 163296: Evidence of Refractory Dust?”</span> <em>Astronomy &amp; Astrophysics</em> 511: A74. <a href="https://doi.org/10.1051/0004-6361/200912898">https://doi.org/10.1051/0004-6361/200912898</a>.
+Benisty, M., A. Natta, A. Isella, J.-P. Berger, F. Massi, J.-B. Le Bouquin, A. Mérand, et al. 2010. <span>“Strong Near-Infrared Emission in the Sub-AU Disk of the Herbig Ae Star HD 163296: Evidence of Refractory Dust?”</span> <em>Astronomy &amp; Astrophysics</em> 511: A74. <a href="https://doi.org/10.1051/0004-6361/200912898">https://doi.org/10.1051/0004-6361/200912898</a>.
 </div>
 <div id="ref-diep2019" class="csl-entry" role="listitem">
-Diep, P. N., D. T. Hoai, N. B. Ngoc, et al. 2019. <span>“The Protoplanetary Disc HD 163296 as Observed by ALMA.”</span> <em>Vietnam Journal of Science, Technology and Engineering</em> 61 (2): 3–16. <a href="https://doi.org/10.31276/VJSTE.61(2).03-16">https://doi.org/10.31276/VJSTE.61(2).03-16</a>.
+Diep, P. N., D. T. Hoai, N. B. Ngoc, P. T. Nhung, N. T. Phuong, T. T. Thai, and P. Tuan-Anh. 2019. <span>“The Protoplanetary Disc HD 163296 as Observed by ALMA.”</span> <em>Vietnam Journal of Science, Technology and Engineering</em> 61 (2): 3–16. <a href="https://doi.org/10.31276/VJSTE.61(2).03-16">https://doi.org/10.31276/VJSTE.61(2).03-16</a>.
 </div>
 <div id="ref-isella2016" class="csl-entry" role="listitem">
-Isella, Andrea, Greta Guidi, Leonardo Testi, et al. 2016. <span>“Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.”</span> <em>Physical Review Letters</em> 117 (25): 251101. <a href="https://doi.org/10.1103/PhysRevLett.117.251101">https://doi.org/10.1103/PhysRevLett.117.251101</a>.
+Isella, Andrea, Greta Guidi, Leonardo Testi, Shangfei Liu, Hui Li, Shengtai Li, Erik Weaver, et al. 2016. <span>“Ringed Structures of the HD 163296 Protoplanetary Disk Revealed by ALMA.”</span> <em>Physical Review Letters</em> 117 (25): 251101. <a href="https://doi.org/10.1103/PhysRevLett.117.251101">https://doi.org/10.1103/PhysRevLett.117.251101</a>.
 </div>
 <div id="ref-isella2018" class="csl-entry" role="listitem">
-Isella, Andrea, Jane Huang, Sean M. Andrews, et al. 2018. <span>“The Disk Substructures at High Angular Resolution Project (DSHARP). IX. A High-Definition Study of the HD 163296 Planet-Forming Disk.”</span> <em>The Astrophysical Journal Letters</em> 869 (2): L49. <a href="https://doi.org/10.3847/2041-8213/aaf747">https://doi.org/10.3847/2041-8213/aaf747</a>.
+Isella, Andrea, Jane Huang, Sean M. Andrews, Cornelis P. Dullemond, Tilman Birnstiel, Shangjia Zhang, Zhaohuan Zhu, et al. 2018. <span>“The Disk Substructures at High Angular Resolution Project (DSHARP). IX. A High-Definition Study of the HD 163296 Planet-Forming Disk.”</span> <em>The Astrophysical Journal Letters</em> 869 (2): L49. <a href="https://doi.org/10.3847/2041-8213/aaf747">https://doi.org/10.3847/2041-8213/aaf747</a>.
 </div>
 <div id="ref-pinte2020_dsharp" class="csl-entry" role="listitem">
-Pinte, Christophe, Daniel J. Price, François Ménard, et al. 2020. <span>“Nine Localized Deviations from Keplerian Rotation in the DSHARP Circumstellar Disks: Kinematic Evidence for Protoplanets Carving the Gaps.”</span> <em>The Astrophysical Journal Letters</em> 890: L9. <a href="https://doi.org/10.3847/2041-8213/ab6dda">https://doi.org/10.3847/2041-8213/ab6dda</a>.
+Pinte, Christophe, Daniel J. Price, François Ménard, Gaspard Duchêne, Valentin Christiaens, Sean M. Andrews, Jane Huang, et al. 2020. <span>“Nine Localized Deviations from Keplerian Rotation in the DSHARP Circumstellar Disks: Kinematic Evidence for Protoplanets Carving the Gaps.”</span> <em>The Astrophysical Journal Letters</em> 890: L9. <a href="https://doi.org/10.3847/2041-8213/ab6dda">https://doi.org/10.3847/2041-8213/ab6dda</a>.
 </div>
 <div id="ref-polychroni2025" class="csl-entry" role="listitem">
-Polychroni, D., D. Turrini, S. Ivanovski, et al. 2025. <span>“HD 163296 and Its Giant Planets: Creation of Exo-Comets, Interstellar Objects and Transport of Volatile Material.”</span> <em>Astronomy &amp; Astrophysics</em> 697: A158. <a href="https://doi.org/10.1051/0004-6361/202453097">https://doi.org/10.1051/0004-6361/202453097</a>.
+Polychroni, D., D. Turrini, S. Ivanovski, F. Marzari, L. Testi, R. Politi, A. Sozzetti, et al. 2025. <span>“HD 163296 and Its Giant Planets: Creation of Exo-Comets, Interstellar Objects and Transport of Volatile Material.”</span> <em>Astronomy &amp; Astrophysics</em> 697: A158. <a href="https://doi.org/10.1051/0004-6361/202453097">https://doi.org/10.1051/0004-6361/202453097</a>.
 </div>
 <div id="ref-rab2020" class="csl-entry" role="listitem">
-Rab, Ch., I. Kamp, C. Dominik, et al. 2020. <span>“Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.”</span> <em>Astronomy &amp; Astrophysics</em> 642: A165. <a href="https://doi.org/10.1051/0004-6361/202038712">https://doi.org/10.1051/0004-6361/202038712</a>.
+Rab, Ch., I. Kamp, C. Dominik, C. Ginski, G. A. Muro-Arena, W.-F. Thi, L. B. F. M. Waters, and P. Woitke. 2020. <span>“Interpreting High Spatial Resolution Line Observations of Planet-Forming Disks with Gaps and Rings: The Case of HD 163296.”</span> <em>Astronomy &amp; Astrophysics</em> 642: A165. <a href="https://doi.org/10.1051/0004-6361/202038712">https://doi.org/10.1051/0004-6361/202038712</a>.
 </div>
 </div>
 
