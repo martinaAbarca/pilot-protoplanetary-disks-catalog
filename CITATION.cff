@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Si usas este catálogo, por favor cítalo como se indica abajo. / If you use this catalog, please cite it as indicated below."
+title: "Catálogo piloto de discos protoplanetarios"
+authors:
+  - family-names: "Abarca Ibarra"
+    given-names: "Martina Ignacia"
+version: "1.0.0"
+date-released: "2026-06-02"
+url: "https://martinaabarca.github.io/pilot-protoplanetary-disks-catalog/""
+repository-code: "https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog"
+license: "MIT AND CC-BY-4.0"
+doi: "10.5281/zenodo.20513394"

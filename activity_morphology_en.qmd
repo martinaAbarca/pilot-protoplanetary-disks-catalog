@@ -1,0 +1,201 @@
+---
+title: "Morphological analysis of radial substructures"
+bibliography: references.bib
+format:
+  html:
+    css: styles.css
+    toc: true
+---
+
+::: {.morphology-activity}
+
+::: {.activity-hero-block}
+::: {.activity-kicker}
+FITS-based data science activity
+:::
+
+In this activity, you will work with a real FITS image of either **IM Lup** or **HD 163296**. The goal is to analyze the morphology of the millimeter continuum emission and identify radial substructures such as bright rings, gaps, or radial depressions.
+
+The base code and FITS images are available in the GitHub repository. The activity starts once the image has already been loaded and is ready to be analyzed.
+
+[Back to catalog home →](index.html#activities){.activity-back-link}
+:::
+
+---
+
+## Activity overview
+
+::: {.activity-overview-grid}
+
+::: {.activity-info-card}
+### What you will do
+
+- Apply disk geometry using inclination and position angle.
+- Deproject an inclined disk image.
+- Transform the image into polar coordinates.
+- Build an azimuthally averaged radial intensity profile.
+- Identify rings, gaps, radial depressions, or extended emission.
+- Measure the observational contrast of one gap or radial depression.
+:::
+
+::: {.activity-info-card}
+### Suggested materials
+
+- FITS image of **IM Lup** or **HD 163296**.
+- Jupyter notebook or Python script.
+- Required Python libraries.
+- Scientific context from the catalog entry of the selected disk.
+
+### Available FITS images
+
+- IM Lup continuum image.
+- HD 163296 continuum image.
+:::
+
+:::
+
+::: {.activity-download-panel}
+### Download files
+
+<ul class="download-list">
+  <li>
+    <a href="data/actividades/morphology_activity_package.zip" download>
+      Download complete activity package (.zip)
+    </a>
+  </li>
+</ul>
+
+**Recommendation:** download and unzip the complete activity package. The package includes the starter notebook and the FITS images of **HD 163296** and **IM Lup**, so you can choose which disk to analyze when running the code.
+
+:::
+---
+
+## Guiding rubric
+
+This rubric does not include a score. Its purpose is to guide the activity and help verify that the morphological analysis of the disk is complete.
+
+| Criterion | Expected outcome |
+|---|---|
+| Geometrical correction of the disk | The disk geometry is applied using the disk center, inclination, and position angle. The image should be rotated and deprojected to approximate a face-on view of the disk. |
+| Polar map of the disk | The deprojected image is transformed into polar coordinates. The polar map should help visualize whether the structures appear at approximately constant radii. |
+| Radial intensity profile | The azimuthally averaged radial profile of the millimeter continuum emission is calculated. The profile should show how the intensity changes with radius and allow local maxima and minima to be identified. |
+| Identification of substructures | Radial substructures are identified using the deprojected image, the polar map, or the radial profile. These may include bright rings, gaps, radial depressions, sharp intensity changes, or extended emission. |
+| Measurement of the contrast of a gap or radial depression | A gap or local minimum is selected from the radial profile, and its intensity contrast is estimated relative to a nearby ring or intensity maximum. |
+| Morphological description | The analysis briefly describes what the results reveal about the structure of the selected disk. If both disks are analyzed, the main morphological differences between IM Lup and HD 163296 can be compared. |
+
+---
+
+## Guiding questions
+
+::: {.activity-step-card}
+### 1. Geometrical correction
+
+- How does the apparent shape of the disk change after deprojection?
+- Why is it necessary to correct for inclination before studying rings or gaps?
+- What effect does the position angle have on the orientation of the disk?
+:::
+
+::: {.activity-step-card}
+### 2. Polar map
+
+- Are the substructures easier to identify in polar coordinates?
+- Do the rings or gaps appear at approximately constant radii?
+- Are there variations with azimuthal angle?
+:::
+
+::: {.activity-step-card}
+### 3. Radial intensity profile
+
+- Where are the main intensity maxima located?
+- Where do local minima or radial depressions appear?
+- Does the radial profile look smooth, or does it show strong intensity variations?
+:::
+
+::: {.activity-step-card}
+### 4. Identification of substructures
+
+- What substructures can you identify in the selected disk?
+- Are they more evident in the deprojected image, the polar map, or the radial profile?
+- Does the disk show well-defined rings and gaps, or a smoother and more extended emission distribution?
+:::
+
+---
+
+## Gap contrast measurement
+
+Select a gap or radial depression visible in the intensity profile. You can estimate its contrast using:
+
+$$
+\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
+$$
+
+where $I_{\mathrm{gap}}$ is the minimum intensity inside the gap or depression, and $I_{\mathrm{ring}}$ is the maximum intensity of a nearby ring.
+
+If the gap is located between two maxima, you can also use:
+
+$$
+I_{\mathrm{ring}} = \frac{I_{\mathrm{ring,in}} + I_{\mathrm{ring,out}}}{2}
+$$
+
+and then calculate:
+
+$$
+\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
+$$
+
+As a practical guide:
+
+| Value of $\delta_{\mathrm{gap}}$ | Classification |
+|---|---|
+| 0.0 – 0.3 | Weak depression |
+| 0.3 – 0.6 | Moderate gap or depression |
+| 0.6 – 1.0 | Deep gap |
+
+This classification is only a practical tool for the activity. The measured value represents an observed intensity contrast, not a direct measurement of the amount of material removed from the disk.
+
+---
+
+## Expected result
+
+::: {.activity-result-card}
+By the end of the activity, you should have:
+
+- a deprojected image of the disk;
+- a polar map;
+- a radial intensity profile;
+- an identification of the main substructures;
+- a simple measurement of the contrast of a gap or radial depression;
+- a short morphological description of the analyzed disk.
+
+### Suggested solution
+
+A complete guided solution notebook is also available for reference.
+
+<ul class="download-list">
+  <li>
+    <a href="data/actividades/solutions/morphology_activity_solution_en_es.zip" download>
+      Download guided solution notebook (.zip)
+    </a>
+  </li>
+</ul>
+
+::: {.data-source-note}
+### Data source
+
+The FITS images used in this activity come from the **official DSHARP Data Release** (*Disk Substructures at High Angular Resolution Project*), an ALMA Large Program designed to study small-scale substructures in protoplanetary disks using high-resolution observations of the 240 GHz / 1.25 mm continuum and the 12CO J=2–1 line emission.
+
+These data correspond to the DSHARP project presented by Andrews et al. [-@andrews2018dsharpI].
+
+Web source: [DSHARP Data Release](https://almascience.eso.org/almadata/lp/DSHARP/).
+:::
+
+:::
+
+---
+
+## References
+
+::: {#refs}
+:::
+
+:::

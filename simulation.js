@@ -1,5 +1,5 @@
 // ======================================
-// SYNTHETIC PROTOPLANETARY DISK SIMULATION
+// SIMULACIÓN SINTÉTICA DE DISCO PROTOPLANETARIO
 // V2 refinada: física + estética + dos planetas + asimetrías
 // ======================================
 //
@@ -48,18 +48,22 @@
 
 const estadoSimulacion = {
   // -------- DISCO GLOBAL --------
-  radioPolvo: 120,              // AU
-  radioGas: 220,                // AU
-  masaDisco: 1.0,               // factor relativo respecto al modelo base
-  indiceFlaring: 1.25,          // H(R) ∝ R^psi
-  temperaturaBase: 200,         // K a 1 AU
-  masaEstelar: 1.0,             // masas solares
+  radioGas: 220,
+radioPolvo: 110,
+relacionGasPolvo: 2.0,
+masaGas: 1.0,
+dustToGasRatio: 0.01,
+etapaEvolutiva: 1,
+indiceFlaring: 1.25,
+temperaturaBase: 200,
+masaEstelar: 1.0,
+velocidadFragmentacion: 10,
 
   // -------- PLANETA 1 --------
    radioPlaneta: 40,             // AU
   masaPlaneta: 0.8,             // masas de Júpiter
   relacionAspecto: 0.055,       // h_p = H(Rp)/Rp
-  alfaTurb: 1.5e-3,             // turbulencia / viscosidad efectiva
+  alfaTurb: 1e-2,             // turbulencia / viscosidad efectiva
   velocidadFragmentacion: 10,   // m/s
 
   // -------- PLANETA 2 --------
@@ -122,22 +126,22 @@ const estadoSimulacion = {
 
 
 // --------------------------------------
-// 2. MODELO BASE PARA RESET
-// --------------------------------------
-
 const modeloBase = {
-  radioPolvo: 120,
   radioGas: 220,
-  masaDisco: 1.0,
+  radioPolvo: 110,
+  relacionGasPolvo: 2.0,
+  masaGas: 1.0,
+  dustToGasRatio: 0.01,
+  etapaEvolutiva: 1,
   indiceFlaring: 1.25,
   temperaturaBase: 200,
   masaEstelar: 1.0,
+  velocidadFragmentacion: 10,
 
-    radioPlaneta: 40,
+  radioPlaneta: 40,
   masaPlaneta: 0.8,
   relacionAspecto: 0.055,
-  alfaTurb: 1.5e-3,
-  velocidadFragmentacion: 10,
+  alfaTurb: 1e-2,
 
   modoDosPlanetas: false,
   radioPlanetaExterno: 85,
@@ -153,6 +157,7 @@ const modeloBase = {
   mostrarPresion: true,
 
   presetActual: "base"
+
 };
 
 
@@ -162,17 +167,19 @@ const modeloBase = {
 
 const controlesPrincipales = [
   {
-    variable: "radioPolvo",
-    etiqueta: "Dust outer radius",
-    unidad: "AU",
-    min: 30,
-    max: 250,
+    variable: "etapaEvolutiva",
+    etiqueta: "Etapa evolutiva",
+    descripcion: "Controla qué tan compacto o disperso aparece el disco. Los discos más evolucionados muestran mayor concentración de polvo y subestructuras más claras.",
+    unidad: "",
+    min: 0,
+    max: 2,
     step: 1,
     grupo: "Disk"
   },
   {
     variable: "radioGas",
-    etiqueta: "Gas outer radius",
+    etiqueta: "Radio externo del gas",
+    descripcion: "Define el tamaño externo del disco de gas. El disco de polvo se deriva de este valor y suele ser más compacto.",
     unidad: "AU",
     min: 60,
     max: 400,
@@ -180,8 +187,9 @@ const controlesPrincipales = [
     grupo: "Disk"
   },
   {
-    variable: "masaDisco",
-    etiqueta: "Disk density",
+    variable: "masaGas",
+    etiqueta: "Masa de gas",
+    descripcion: "Controla la cantidad relativa de gas en el disco. Valores más altos hacen que el perfil de gas sea más intenso.",
     unidad: "× base",
     min: 0.3,
     max: 3.0,
@@ -189,8 +197,19 @@ const controlesPrincipales = [
     grupo: "Disk"
   },
   {
+    variable: "dustToGasRatio",
+    etiqueta: "Razón polvo--gas",
+    descripcion: "Controla cuánto polvo hay en comparación con el gas. Valores más altos hacen que los anillos de polvo sean más brillantes.",
+    unidad: "",
+    min: 0.004,
+    max: 0.03,
+    step: 0.001,
+    grupo: "Disk"
+  },
+  {
     variable: "relacionAspecto",
-    etiqueta: "Disk thickness h/r",
+    etiqueta: "Grosor del disco h/r",
+    descripcion: "Controla qué tan grueso es el disco. Los discos más gruesos resisten con más fuerza la apertura de brechas producidas por planetas.",
     unidad: "",
     min: 0.03,
     max: 0.10,
@@ -199,26 +218,19 @@ const controlesPrincipales = [
   },
   {
     variable: "alfaTurb",
-    etiqueta: "Turbulence α",
+    etiqueta: "Viscosidad / turbulencia α",
+    descripcion: "Controla qué tan fácilmente el material vuelve a mezclarse dentro de las brechas. Valores más bajos permiten brechas más definidas y atrapamiento de polvo más eficiente.",
     unidad: "",
     min: 0.0001,
     max: 0.01,
     step: 0.0001,
     grupo: "Disk"
   },
-  {
-    variable: "indiceFlaring",
-    etiqueta: "Flaring",
-    unidad: "",
-    min: 1.10,
-    max: 1.50,
-    step: 0.01,
-    grupo: "Disk"
-  },
 
   {
     variable: "radioPlaneta",
-    etiqueta: "Planet orbital radius",
+    etiqueta: "Radio orbital del planeta",
+    descripcion: "Define dónde orbita el planeta. La brecha principal aparece alrededor de este radio.",
     unidad: "AU",
     min: 5,
     max: 120,
@@ -227,35 +239,27 @@ const controlesPrincipales = [
   },
   {
     variable: "masaPlaneta",
-    etiqueta: "Planet mass",
+    etiqueta: "Masa del planeta",
+    descripcion: "Controla la intensidad de la interacción planeta--disco. Planetas más masivos abren brechas más profundas y anchas.",
     unidad: "M_Jup",
     min: 0.1,
     max: 10,
     step: 0.1,
     grupo: "Planet 1"
-  },
-
-  {
-    variable: "velocidadFragmentacion",
-    etiqueta: "Fragmentation velocity",
-    unidad: "m/s",
-    min: 5,
-    max: 30,
-    step: 1,
-    grupo: "Dust"
   }
+
 ];
 
 const controlesAvanzados = [
   {
     variable: "modoDosPlanetas",
-    etiqueta: "Enable two-planet mode",
+    etiqueta: "Activar modo de dos planetas",
     tipo: "checkbox",
     grupo: "Advanced V2"
   },
   {
     variable: "radioPlanetaExterno",
-    etiqueta: "Outer planet radius",
+    etiqueta: "Radio del planeta exterior",
     unidad: "AU",
     min: 15,
     max: 200,
@@ -265,7 +269,7 @@ const controlesAvanzados = [
   },
   {
     variable: "masaPlanetaExterno",
-    etiqueta: "Outer planet mass",
+    etiqueta: "Masa del planeta exterior",
     unidad: "M_Jup",
     min: 0.5,
     max: 15,
@@ -275,26 +279,27 @@ const controlesAvanzados = [
   },
   {
     variable: "modoAsimetria",
-    etiqueta: "Asymmetry mode",
+    etiqueta: "Modo de asimetría",
     tipo: "select",
     opciones: [
-      { valor: "ninguna", texto: "Off" },
-      { valor: "excentricidad", texto: "Eccentric" },
-      { valor: "vortice", texto: "Vortex-like" }
+      { valor: "ninguna", texto: "Desactivado" },
+      { valor: "excentricidad", texto: "Excéntrico" },
+      { valor: "vortice", texto: "Tipo vórtice" }
     ],
     grupo: "Advanced V2"
   }
 ];
 
 const presets = {
-  base: {
-    radioPolvo: 120,
+    base: {
     radioGas: 220,
+    radioPolvo: 110,
+    relacionGasPolvo: 2.0,
     masaDisco: 1.0,
     radioPlaneta: 40,
     masaPlaneta: 0.8,
     relacionAspecto: 0.055,
-    alfaTurb: 1.5e-3,
+    alfaTurb: 1e-3,
     indiceFlaring: 1.25,
     velocidadFragmentacion: 10,
     modoDosPlanetas: false,
@@ -303,9 +308,10 @@ const presets = {
     modoAsimetria: "ninguna"
   },
 
-  "weak-gap": {
-    radioPolvo: 120,
+   "weak-gap": {
     radioGas: 220,
+    radioPolvo: 110,
+    relacionGasPolvo: 2.0,
     masaDisco: 1.0,
     radioPlaneta: 45,
     masaPlaneta: 0.4,
@@ -319,9 +325,10 @@ const presets = {
     modoAsimetria: "ninguna"
   },
 
-  "strong-trap": {
-    radioPolvo: 130,
+    "strong-trap": {
     radioGas: 240,
+    radioPolvo: 120,
+    relacionGasPolvo: 2.0,
     masaDisco: 1.3,
     radioPlaneta: 45,
     masaPlaneta: 4.0,
@@ -335,9 +342,10 @@ const presets = {
     modoAsimetria: "ninguna"
   },
 
-  "two-planets-eccentric": {
-    radioPolvo: 145,
+    "two-planets-eccentric": {
     radioGas: 270,
+    radioPolvo: 135,
+    relacionGasPolvo: 2.0,
     masaDisco: 1.1,
     radioPlaneta: 28,
     masaPlaneta: 1.2,
@@ -351,9 +359,10 @@ const presets = {
     modoAsimetria: "excentricidad"
   },
 
-  "two-planets-vortex": {
-    radioPolvo: 150,
+    "two-planets-vortex": {
     radioGas: 280,
+    radioPolvo: 140,
+    relacionGasPolvo: 2.0,
     masaDisco: 1.2,
     radioPlaneta: 28,
     masaPlaneta: 1.2,
@@ -409,11 +418,20 @@ function suavizarArray(arr, ventana = 7) {
 }
 
 function formatearValor(variable, valor) {
+  if (variable === "etapaEvolutiva") {
+    const etapas = ["Joven", "Estructurado", "Evolucionado"];
+    return etapas[Number(valor)] || "Estructurado";
+  }
+
+  if (variable === "dustToGasRatio") {
+    return Number(valor).toFixed(3);
+  }
+
   if (variable === "alfaTurb") return Number(valor).toExponential(1);
   if (variable === "relacionAspecto" || variable === "indiceFlaring") return Number(valor).toFixed(3);
 
   if (
-    variable === "masaDisco" ||
+    variable === "masaGas" ||
     variable === "masaPlaneta" ||
     variable === "masaPlanetaExterno"
   ) {
@@ -421,7 +439,7 @@ function formatearValor(variable, valor) {
   }
 
   if (typeof valor === "boolean") {
-    return valor ? "On" : "Off";
+    return valor ? "Activado" : "Desactivado";
   }
 
   return Number(valor).toFixed(0);
@@ -436,6 +454,20 @@ function aspectRatioEnRadio(r) {
   const rr = Math.max(r, 0.5);
 
   return hp * Math.pow(rr / rp, psi - 1);
+}
+
+function actualizarRadioPolvoDerivado() {
+  // El radio del polvo ya no se trata como libre.
+  // Se deriva del gas mediante una razón gas/polvo.
+  estadoSimulacion.radioPolvo =
+    estadoSimulacion.radioGas / estadoSimulacion.relacionGasPolvo;
+
+  // Evitamos radios absurdamente pequeños
+  estadoSimulacion.radioPolvo = clamp(
+    estadoSimulacion.radioPolvo,
+    0.15 * estadoSimulacion.radioGas,
+    estadoSimulacion.radioGas
+  );
 }
 
 function limitarEstado() {
@@ -685,8 +717,8 @@ function calcularPerfilScaleHeight(radios) {
 }
 
 function calcularPerfilGasBase(radios) {
-  const rc = Math.max(30, 0.45 * estadoSimulacion.radioPolvo);
-  const factorMasa = estadoSimulacion.masaDisco;
+  const rc = Math.max(30, 0.45 * estadoSimulacion.radioGas);
+  const factorMasa = estadoSimulacion.masaGas;
 
   return radios.map(r => {
     const rr = Math.max(r, 0.5);
@@ -694,15 +726,54 @@ function calcularPerfilGasBase(radios) {
   });
 }
 
-function aplicarGapSimple(radios, perfilBase, centro, sigma, profundidad, abreGap) {
+// =====================================================
+// PERFIL DE GAP TIPO DUFFELL (2020)
+// Este bloque reemplaza la idea de un gap gaussiano simple.
+// Calcula una depleción radial suave de la densidad superficial
+// del gas en función de q, Mach y alpha.
+// =====================================================
+
+function deltaDuffell(q, alpha, mach) {
+  const qNL = 1.04 / Math.pow(mach, 3);
+  const qW = 34 * qNL * Math.sqrt(alpha * mach);
+
+  let delt = 1.0;
+
+  if (q > qNL) {
+    delt = Math.sqrt(qNL / q);
+  }
+
+  delt += Math.pow(q / qW, 3);
+
+  return delt;
+}
+
+function qTildeDuffell(q, alpha, mach, x) {
+  const D = 7 * Math.pow(mach, 1.5) / Math.pow(alpha, 0.25);
+  const termino = 1 + Math.pow(D, 3) * Math.pow(Math.pow(x, 1 / 6) - 1, 6);
+
+  return q / Math.pow(termino, 1 / 3);
+}
+
+function sigmaGapDuffell(q, alpha, mach) {
+  const d = deltaDuffell(q, alpha, mach);
+  const coef = 0.45 / (3 * Math.PI);
+
+  return 1 / (1 + coef * Math.pow(q, 2) * Math.pow(mach, 5) * d / alpha);
+}
+
+function factorGapDuffell(r, rp, q, alpha, mach) {
+  const x = Math.max(r / rp, 1e-6);
+  const qt = qTildeDuffell(q, alpha, mach, x);
+
+  return sigmaGapDuffell(qt, alpha, mach);
+}
+
+function aplicarGapDuffell(radios, perfilBase, q, rp, alpha, mach) {
   return perfilBase.map((valor, i) => {
-    const g = gauss(radios[i], centro, sigma);
+    const r = radios[i];
+    const factor = factorGapDuffell(r, rp, q, alpha, mach);
 
-    const profundidadObjetivo = abreGap
-      ? profundidad
-      : Math.max(0.55, profundidad);
-
-    const factor = 1 - (1 - profundidadObjetivo) * g;
     return valor * factor;
   });
 }
@@ -710,26 +781,24 @@ function aplicarGapSimple(radios, perfilBase, centro, sigma, profundidad, abreGa
 function calcularPerfilGas(radios) {
   let perfil = calcularPerfilGasBase(radios);
 
-  const sigma1 = Math.max(estadoSimulacion.anchoGap1 / 2.355, 1.0);
-  perfil = aplicarGapSimple(
-    radios,
-    perfil,
-    estadoSimulacion.radioPlaneta,
-    sigma1,
-    estadoSimulacion.profundidadGap1,
-    estadoSimulacion.abreGap1
-  );
+  const q1 =
+  (estadoSimulacion.masaPlaneta * 0.0009543) /
+  estadoSimulacion.masaEstelar;
+  const rp1 = estadoSimulacion.radioPlaneta;
+  const alpha1 = estadoSimulacion.alfaTurb;
+  const mach1 = 1 / Math.max(estadoSimulacion.relacionAspecto, 1e-4);
+
+  perfil = aplicarGapDuffell(radios, perfil, q1, rp1, alpha1, mach1);
 
   if (estadoSimulacion.modoDosPlanetas) {
-    const sigma2 = Math.max(estadoSimulacion.anchoGap2 / 2.355, 1.0);
-    perfil = aplicarGapSimple(
-      radios,
-      perfil,
-      estadoSimulacion.radioPlanetaExterno,
-      sigma2,
-      estadoSimulacion.profundidadGap2,
-      estadoSimulacion.abreGap2
-    );
+    const q2 =
+  (estadoSimulacion.masaPlanetaExterno * 0.0009543) /
+  estadoSimulacion.masaEstelar;
+    const rp2 = estadoSimulacion.radioPlanetaExterno;
+    const alpha2 = estadoSimulacion.alfaTurb;
+    const mach2 = 1 / Math.max(estadoSimulacion.relacionAspecto, 1e-4);
+
+    perfil = aplicarGapDuffell(radios, perfil, q2, rp2, alpha2, mach2);
   }
 
   return perfil;
@@ -741,28 +810,42 @@ function calcularPolvoFino(radios, perfilGasConGap) {
     let perfil = valor;
 
     const sigmaGap1 = Math.max(estadoSimulacion.anchoGap1 / 2.5, 1.5);
-    const dep1 = 0.55 * estadoSimulacion.nivelFiltrado1 * gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
-    perfil *= (1 - dep1);
+    const dep1 =
+      0.55 *
+      estadoSimulacion.nivelFiltrado1 *
+      gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
+
+    perfil *= 1 - dep1;
 
     if (estadoSimulacion.modoDosPlanetas) {
       const sigmaGap2 = Math.max(estadoSimulacion.anchoGap2 / 2.5, 1.5);
-      const dep2 = 0.55 * estadoSimulacion.nivelFiltrado2 * gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
-      perfil *= (1 - dep2);
+      const dep2 =
+        0.55 *
+        estadoSimulacion.nivelFiltrado2 *
+        gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
+
+      perfil *= 1 - dep2;
     }
 
     if (rr < estadoSimulacion.radioPlaneta) {
       perfil *= 0.86 + 0.24 * (1 - estadoSimulacion.nivelFiltrado1);
     }
 
-    if (rr > estadoSimulacion.radioPolvo) {
-      perfil *= 0.25;
-    }
+    const taperPolvo = Math.exp(
+      -Math.pow(rr / estadoSimulacion.radioPolvo, 6)
+    );
+    perfil *= taperPolvo;
+
+    perfil *= estadoSimulacion.dustToGasRatio / 0.01;
 
     return Math.max(perfil, 0);
   });
 }
 
 function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
+  const factorEtapa =
+    [0.65, 1.0, 1.35][estadoSimulacion.etapaEvolutiva] || 1.0;
+
   return perfilGasConGap.map((valor, i) => {
     const rr = radios[i];
     const temp = perfilTemperatura[i];
@@ -774,33 +857,82 @@ function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
 
     let perfil = valor;
 
-    // ----- planeta 1 -----
     const sigmaGap1 = Math.max(estadoSimulacion.anchoGap1 / 2.0, 1.5);
-    const sigmaRing1 = Math.max(0.12 * estadoSimulacion.radioRing1 + 0.22 * estadoSimulacion.anchoGap1, 2.0);
+    const sigmaRing1 = Math.max(
+      0.12 * estadoSimulacion.radioRing1 + 0.22 * estadoSimulacion.anchoGap1,
+      2.0
+    );
 
-    const sup1 = 1 - 0.92 * gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
+    const trappingLimitado1 = Math.min(
+      estadoSimulacion.indiceTrapping1 * factorEtapa,
+      1.8
+    );
+
+    const profundidadRealGap1 = clamp(
+      1 - estadoSimulacion.profundidadGap1,
+      0,
+      1
+    );
+
+    const supresionMm1 = clamp(
+      0.25 + 0.55 * profundidadRealGap1 + 0.25 * estadoSimulacion.nivelFiltrado1,
+      0.25,
+      0.98
+    );
+
+    const sup1 =
+      1 - supresionMm1 * gauss(rr, estadoSimulacion.radioPlaneta, sigmaGap1);
+
     const enh1 =
-      1 + clamp(0.55 * estadoSimulacion.indiceTrapping1 + 0.0006 * aMaxRel, 0, 6) *
-      gauss(rr, estadoSimulacion.radioRing1, sigmaRing1);
+      1 +
+      clamp(0.55 * trappingLimitado1 + 0.0006 * aMaxRel, 0, 6) *
+        gauss(rr, estadoSimulacion.radioRing1, sigmaRing1);
 
     perfil *= sup1 * enh1;
 
-    // ----- planeta 2 -----
     if (estadoSimulacion.modoDosPlanetas) {
       const sigmaGap2 = Math.max(estadoSimulacion.anchoGap2 / 2.0, 1.5);
-      const sigmaRing2 = Math.max(0.12 * estadoSimulacion.radioRing2 + 0.22 * estadoSimulacion.anchoGap2, 2.0);
+      const sigmaRing2 = Math.max(
+        0.12 * estadoSimulacion.radioRing2 + 0.22 * estadoSimulacion.anchoGap2,
+        2.0
+      );
 
-      const sup2 = 1 - 0.95 * gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
+      const trappingLimitado2 = Math.min(
+        estadoSimulacion.indiceTrapping2 * factorEtapa,
+        2.0
+      );
+
+      const profundidadRealGap2 = clamp(
+        1 - estadoSimulacion.profundidadGap2,
+        0,
+        1
+      );
+
+      const supresionMm2 = clamp(
+        0.28 + 0.55 * profundidadRealGap2 + 0.25 * estadoSimulacion.nivelFiltrado2,
+        0.25,
+        0.99
+      );
+
+      const sup2 =
+        1 -
+        supresionMm2 *
+          gauss(rr, estadoSimulacion.radioPlanetaExterno, sigmaGap2);
+
       const enh2 =
-        1 + clamp(0.72 * estadoSimulacion.indiceTrapping2 + 0.0007 * aMaxRel, 0, 8) *
-        gauss(rr, estadoSimulacion.radioRing2, sigmaRing2);
+        1 +
+        clamp(0.72 * trappingLimitado2 + 0.0007 * aMaxRel, 0, 8) *
+          gauss(rr, estadoSimulacion.radioRing2, sigmaRing2);
 
       perfil *= sup2 * enh2;
     }
 
-    if (rr > estadoSimulacion.radioPolvo) {
-      perfil *= 0.05;
-    }
+    const taperPolvo = Math.exp(
+      -Math.pow(rr / estadoSimulacion.radioPolvo, 6)
+    );
+    perfil *= taperPolvo;
+
+    perfil *= estadoSimulacion.dustToGasRatio / 0.01;
 
     if (rr < 0.75 * estadoSimulacion.radioPlaneta) {
       perfil *= 0.25;
@@ -809,7 +941,7 @@ function calcularPolvoMm(radios, perfilGasConGap, perfilTemperatura) {
     return Math.max(perfil, 0);
   });
 }
-
+  
 function calcularPerfilPresion(perfilGas, perfilTemperatura, perfilScaleHeight, radios) {
   const raw = perfilGas.map((valorGas, i) => {
     const T = perfilTemperatura[i];
@@ -873,33 +1005,41 @@ function actualizarTextoParametros() {
   const texto = document.getElementById("texto-parametros");
   if (!texto) return;
 
+  const gasRemanenteGap1 = estadoSimulacion.profundidadGap1;
+  const profundidadRealGap1 = 1 - gasRemanenteGap1;
+
+  const gasRemanenteGap2 = estadoSimulacion.profundidadGap2;
+  const profundidadRealGap2 = 1 - gasRemanenteGap2;
+
   let bloquePlaneta2 = "";
   if (estadoSimulacion.modoDosPlanetas) {
     bloquePlaneta2 = `
-      Outer planet radius: <strong>${formatearValor("radioPlanetaExterno", estadoSimulacion.radioPlanetaExterno)} AU</strong><br>
-      Outer planet mass: <strong>${formatearValor("masaPlanetaExterno", estadoSimulacion.masaPlanetaExterno)} M_Jup</strong><br>
-      Outer gap depth Σp/Σ0: <strong>${estadoSimulacion.profundidadGap2.toFixed(3)}</strong><br>
-      Outer ring radius: <strong>${estadoSimulacion.radioRing2.toFixed(1)} AU</strong><br>
-      Outer trapping strength: <strong>${estadoSimulacion.indiceTrapping2.toFixed(2)}</strong><br>
+      Radio del planeta exterior: <strong>${formatearValor("radioPlanetaExterno", estadoSimulacion.radioPlanetaExterno)} AU</strong><br>
+      Masa del planeta exterior: <strong>${formatearValor("masaPlanetaExterno", estadoSimulacion.masaPlanetaExterno)} M_Jup</strong><br>
+      Gas remanente en el gap exterior Σp/Σ0: <strong>${gasRemanenteGap2.toFixed(3)}</strong><br>
+      Profundidad del gap exterior (1 − Σp/Σ0): <strong>${(100 * profundidadRealGap2).toFixed(1)}%</strong><br>
+      Radio del anillo exterior: <strong>${estadoSimulacion.radioRing2.toFixed(1)} AU</strong><br>
+      Intensidad de atrapamiento exterior: <strong>${estadoSimulacion.indiceTrapping2.toFixed(2)}</strong><br>
     `;
   }
 
   texto.innerHTML = `
-    Dust radius: <strong>${formatearValor("radioPolvo", estadoSimulacion.radioPolvo)} AU</strong><br>
-    Gas radius: <strong>${formatearValor("radioGas", estadoSimulacion.radioGas)} AU</strong><br>
-    Planet radius: <strong>${formatearValor("radioPlaneta", estadoSimulacion.radioPlaneta)} AU</strong><br>
-    Planet mass: <strong>${formatearValor("masaPlaneta", estadoSimulacion.masaPlaneta)} M_Jup</strong><br>
+    Radio del gas: <strong>${formatearValor("radioGas", estadoSimulacion.radioGas)} AU</strong><br>
+    Radio del polvo (derivado): <strong>${formatearValor("radioPolvo", estadoSimulacion.radioPolvo)} AU</strong><br>
+    Razón de tamaño gas--polvo: <strong>${Number(estadoSimulacion.relacionGasPolvo).toFixed(1)}</strong><br>
+    Radio del planeta: <strong>${formatearValor("radioPlaneta", estadoSimulacion.radioPlaneta)} AU</strong><br>
+    Masa del planeta: <strong>${formatearValor("masaPlaneta", estadoSimulacion.masaPlaneta)} M_Jup</strong><br>
     h/r: <strong>${formatearValor("relacionAspecto", estadoSimulacion.relacionAspecto)}</strong><br>
     α: <strong>${formatearValor("alfaTurb", estadoSimulacion.alfaTurb)}</strong><br>
-    v<sub>f</sub>: <strong>${formatearValor("velocidadFragmentacion", estadoSimulacion.velocidadFragmentacion)} m/s</strong><br>
-    Gap depth Σp/Σ0: <strong>${estadoSimulacion.profundidadGap1.toFixed(3)}</strong><br>
-    Gap opening: <strong>${estadoSimulacion.abreGap1 ? "Yes" : "Partial / shallow"}</strong><br>
-    Outer ring radius: <strong>${estadoSimulacion.radioRing1.toFixed(1)} AU</strong><br>
-    Trapping strength: <strong>${estadoSimulacion.indiceTrapping1.toFixed(2)}</strong><br>
-    Small-dust filtering: <strong>${estadoSimulacion.nivelFiltrado1.toFixed(2)}</strong><br>
-    Two-planet mode: <strong>${estadoSimulacion.modoDosPlanetas ? "On" : "Off"}</strong><br>
-    Requested asymmetry: <strong>${estadoSimulacion.modoAsimetria}</strong><br>
-    Active asymmetry: <strong>${estadoSimulacion.modoAsimetriaActivo}</strong><br>
+    Gas remanente en el gap Σp/Σ0: <strong>${gasRemanenteGap1.toFixed(3)}</strong><br>
+    Profundidad del gap (1 − Σp/Σ0): <strong>${(100 * profundidadRealGap1).toFixed(1)}%</strong><br>
+    Apertura de brecha: <strong>${estadoSimulacion.abreGap1 ? "Sí" : "Parcial / superficial"}</strong><br>
+    Radio del anillo exterior: <strong>${estadoSimulacion.radioRing1.toFixed(1)} AU</strong><br>
+    Intensidad de atrapamiento: <strong>${estadoSimulacion.indiceTrapping1.toFixed(2)}</strong><br>
+    Filtrado de polvo fino: <strong>${estadoSimulacion.nivelFiltrado1.toFixed(2)}</strong><br>
+    Modo de dos planetas: <strong>${estadoSimulacion.modoDosPlanetas ? "Activado" : "Desactivado"}</strong><br>
+    Asimetría solicitada: <strong>${estadoSimulacion.modoAsimetria}</strong><br>
+    Asimetría activa: <strong>${estadoSimulacion.modoAsimetriaActivo}</strong><br>
     ${bloquePlaneta2}
   `;
 }
@@ -922,22 +1062,18 @@ function crearControles() {
 
   contenedor.innerHTML = "";
 
-  contenedor.appendChild(crearTituloGrupo("Disk"));
+  contenedor.appendChild(crearTituloGrupo("Disco"));
   controlesPrincipales
     .filter(c => c.grupo === "Disk")
     .forEach(control => crearControlRango(control, contenedor));
 
-  contenedor.appendChild(crearTituloGrupo("Planet 1"));
+  contenedor.appendChild(crearTituloGrupo("Planeta 1"));
   controlesPrincipales
     .filter(c => c.grupo === "Planet 1")
     .forEach(control => crearControlRango(control, contenedor));
 
-  contenedor.appendChild(crearTituloGrupo("Dust"));
-  controlesPrincipales
-    .filter(c => c.grupo === "Dust")
-    .forEach(control => crearControlRango(control, contenedor));
 
-  contenedor.appendChild(crearTituloGrupo("Advanced V2"));
+  contenedor.appendChild(crearTituloGrupo("Avanzado V2"));
   controlesAvanzados.forEach(control => crearControlAvanzado(control, contenedor));
 }
 
@@ -974,22 +1110,23 @@ function crearControlRango(control, contenedor) {
         `${formatearValor(control.variable, estadoSimulacion[control.variable])} ${control.unidad}`.trim();
     }
 
-    if (control.variable === "radioPolvo") {
-      const sliderGas = document.getElementById("radioGas");
-      const textoGas = document.getElementById("valor-radioGas");
-      if (sliderGas) sliderGas.value = estadoSimulacion.radioGas;
-      if (textoGas) textoGas.textContent = `${formatearValor("radioGas", estadoSimulacion.radioGas)} AU`;
-    }
-
     if (control.variable === "radioPlaneta") {
       actualizarControlesDesdeEstado();
     }
   });
 
-  grupo.appendChild(etiqueta);
-  grupo.appendChild(valorTexto);
-  grupo.appendChild(slider);
-  contenedor.appendChild(grupo);
+ grupo.appendChild(etiqueta);
+
+if (control.descripcion) {
+  const descripcion = document.createElement("div");
+  descripcion.className = "control-descripcion";
+  descripcion.textContent = control.descripcion;
+  grupo.appendChild(descripcion);
+}
+
+grupo.appendChild(valorTexto);
+grupo.appendChild(slider);
+contenedor.appendChild(grupo);
 }
 
 function crearControlAvanzado(control, contenedor) {
@@ -1011,11 +1148,11 @@ function crearControlAvanzado(control, contenedor) {
 
     const span = document.createElement("span");
     span.id = `texto-${control.variable}`;
-    span.textContent = estadoSimulacion[control.variable] ? "On" : "Off";
+    span.textContent = estadoSimulacion[control.variable] ? "Activado" : "Desactivado";
 
     input.addEventListener("change", () => {
       estadoSimulacion[control.variable] = input.checked;
-      span.textContent = input.checked ? "On" : "Off";
+      span.textContent = input.checked ? "Activado" : "Desactivado";
       actualizarControlesDesdeEstado();
       actualizarSimulacion();
     });
@@ -1092,7 +1229,7 @@ function actualizarControlesDesdeEstado() {
     if (control.tipo === "checkbox") {
       elemento.checked = estadoSimulacion[control.variable];
       const texto = document.getElementById(`texto-${control.variable}`);
-      if (texto) texto.textContent = estadoSimulacion[control.variable] ? "On" : "Off";
+      if (texto) texto.textContent = estadoSimulacion[control.variable] ? "Activado" : "Desactivado";
     } else if (control.tipo === "select") {
       elemento.value = estadoSimulacion[control.variable];
     } else {
@@ -1283,6 +1420,16 @@ function dibujarCapaRadial(ctx, cx, cy, radios, perfil, tipo, rMax, radioVisualM
   let alphaMin = 0.03;
   let alphaMax = 0.22;
 
+    let factorBrilloPolvo = 1;
+
+  if (tipo === "polvoFino" || tipo === "polvoMm") {
+    factorBrilloPolvo = clamp(
+      Math.sqrt(estadoSimulacion.dustToGasRatio / 0.01),
+      0.45,
+      2.4
+    );
+  }
+
   if (tipo === "gas") {
     alphaMin = 0.04;
     alphaMax = 0.22;
@@ -1299,7 +1446,11 @@ function dibujarCapaRadial(ctx, cx, cy, radios, perfil, tipo, rMax, radioVisualM
     const rOut = mapearRadioVisual(radios[i], rMax, radioVisualMax);
     const intensidad = Math.pow(perfilNorm[i], 0.48);
 
-    const alpha = alphaMin + (alphaMax - alphaMin) * intensidad;
+        let alpha = alphaMin + (alphaMax - alphaMin) * intensidad;
+
+    if (tipo === "polvoFino" || tipo === "polvoMm") {
+      alpha = clamp(alpha * factorBrilloPolvo, 0.01, 0.85);
+    }
 
     let color = "";
     if (tipo === "gas") {
@@ -1521,6 +1672,14 @@ function dibujarDisco() {
       radioVisualMax
     );
 
+    const factorBrilloPolvoVisual = clamp(
+  Math.sqrt(estadoSimulacion.dustToGasRatio / 0.01),
+  0.45,
+  2.4
+);
+
+const alphaRingVisual = clamp(0.24 * factorBrilloPolvoVisual, 0.05, 0.65);
+
     // Ring 1
     const ring1AnchoFisico = Math.max(0.22 * estadoSimulacion.anchoGap1, 2.5);
     const ring1InPix = mapearRadioVisual(
@@ -1533,7 +1692,14 @@ function dibujarDisco() {
       rMax,
       radioVisualMax
     );
-    dibujarAnillo(ctx, cx, cy, ring1InPix, ring1OutPix, "rgba(255, 190, 90, 0.24)");
+    dibujarAnillo(
+  ctx,
+  cx,
+  cy,
+  ring1InPix,
+  ring1OutPix,
+  `rgba(255, 190, 90, ${alphaRingVisual})`
+);
 
     // Ring 2
     if (estadoSimulacion.modoDosPlanetas) {
@@ -1548,7 +1714,14 @@ function dibujarDisco() {
         rMax,
         radioVisualMax
       );
-      dibujarAnillo(ctx, cx, cy, ring2InPix, ring2OutPix, "rgba(255, 190, 90, 0.20)");
+      dibujarAnillo(
+  ctx,
+  cx,
+  cy,
+  ring2InPix,
+  ring2OutPix,
+  `rgba(255, 190, 90, ${clamp(0.20 * factorBrilloPolvoVisual, 0.04, 0.60)})`
+);
     }
   }
 
@@ -1602,27 +1775,27 @@ function dibujarDisco() {
     const ring1LabelR = mapearRadioVisual(estadoSimulacion.radioRing1, rMax, radioVisualMax);
 
     dibujarEtiqueta(ctx, "Gas", cx - gasLabelR * 0.70, cy - gasLabelR * 0.62);
-    dibujarEtiqueta(ctx, "Small dust", cx - dustLabelR * 0.55, cy - dustLabelR * 0.36);
-    dibujarEtiqueta(ctx, "Mm ring 1", cx + ring1LabelR + 16, cy - 12);
-    dibujarEtiqueta(ctx, "Star", cx + 12, cy - 10);
-    dibujarEtiqueta(ctx, "Planet 1", cx + orbitaPlaneta1Pix + 14, cy + 12);
+    dibujarEtiqueta(ctx, "Polvo fino", cx - dustLabelR * 0.55, cy - dustLabelR * 0.36);
+    dibujarEtiqueta(ctx, "Anillo mm 1", cx + ring1LabelR + 16, cy - 12);
+    dibujarEtiqueta(ctx, "Estrella", cx + 12, cy - 10);
+    dibujarEtiqueta(ctx, "Planeta 1", cx + orbitaPlaneta1Pix + 14, cy + 12);
 
     if (estadoSimulacion.modoDosPlanetas) {
       const ring2LabelR = mapearRadioVisual(estadoSimulacion.radioRing2, rMax, radioVisualMax);
-      dibujarEtiqueta(ctx, "Mm ring 2", cx + ring2LabelR + 16, cy + 18);
+      dibujarEtiqueta(ctx, "Anillo mm 2", cx + ring2LabelR + 16, cy + 18);
 
       const x2 = cx + orbitaPlaneta2Pix * Math.cos(0.65);
       const y2 = cy + orbitaPlaneta2Pix * Math.sin(0.65);
-      dibujarEtiqueta(ctx, "Planet 2", x2 + 14, y2 + 12);
+      dibujarEtiqueta(ctx, "Planeta 2", x2 + 14, y2 + 12);
     }
 
         if (estadoSimulacion.modoAsimetriaActivo !== "ninguna") {
-      let textoAsim = "Asymmetry: ";
+      let textoAsim = "Asimetría: ";
 
       if (estadoSimulacion.modoAsimetriaActivo === "excentricidad") {
-        textoAsim += "eccentric";
+        textoAsim += "excéntrica";
       } else if (estadoSimulacion.modoAsimetriaActivo === "vortice") {
-        textoAsim += "vortex-like";
+        textoAsim += "tipo vórtice";
       } else {
         textoAsim += estadoSimulacion.modoAsimetriaActivo;
       }
@@ -1640,12 +1813,12 @@ function dibujarDisco() {
 function dibujarLeyendaPerfiles(ctx, x, y) {
   const entradas = [
     { texto: "Gas", color: "rgba(75, 135, 255, 1)" },
-    { texto: "Small dust", color: "rgba(255, 235, 180, 1)" },
-    { texto: "Mm dust", color: "rgba(255, 176, 78, 1)" }
+    { texto: "Polvo fino", color: "rgba(255, 235, 180, 1)" },
+    { texto: "Polvo mm", color: "rgba(255, 176, 78, 1)" }
   ];
 
   if (estadoSimulacion.mostrarPresion) {
-    entradas.push({ texto: "Pressure proxy", color: "rgba(90, 255, 150, 1)" });
+    entradas.push({ texto: "Proxy de presión", color: "rgba(90, 255, 150, 1)" });
   }
 
   let offsetX = x;
@@ -1679,12 +1852,39 @@ function obtenerIndicesVisibles(radios, rMinVisible, rMaxVisible) {
 }
 
 function normalizarTramoVisible(perfil, indices) {
-  if (!indices.length) return [];
+  const valores = indices.map((i) => {
+    const valor = perfil[i];
+    return Number.isFinite(valor) ? Math.max(valor, 0) : 0;
+  });
 
-  const valores = indices.map(i => perfil[i]);
   const maximo = Math.max(...valores, 1e-12);
 
-  return valores.map(v => v / maximo);
+  return valores.map((valor) => {
+    return clamp(valor / maximo, 0, 1);
+  });
+}
+
+function crearPerfilReferenciaPolvo(radios, perfilGasBase) {
+  return perfilGasBase.map((valor, i) => {
+    const rr = radios[i];
+
+    const taperPolvo = Math.exp(
+      -Math.pow(rr / estadoSimulacion.radioPolvo, 6)
+    );
+
+    const perfilReferencia =
+      valor *
+      taperPolvo *
+      (estadoSimulacion.dustToGasRatio / 0.01);
+
+    return Math.max(perfilReferencia, 1e-12);
+  });
+}
+
+function crearPerfilRelativo(perfil, referencia) {
+  return perfil.map((valor, i) => {
+    return Math.max(valor / Math.max(referencia[i], 1e-12), 0);
+  });
 }
 
 function dibujarCurvaPerfil(ctx, perfil, radios, color, area, rMinVisible, rMaxVisible) {
@@ -1741,7 +1941,7 @@ function dibujarMarcadoresRadiales(ctx, area, rMinVisible, rMaxVisible) {
 
     ctx.fillStyle = "#ffffff";
     ctx.font = "11px sans-serif";
-    ctx.fillText("Planet 1", xPlaneta1 + 5, y0 + 14);
+    ctx.fillText("Planeta 1", xPlaneta1 + 5, y0 + 14);
   }
 
   if (
@@ -1760,7 +1960,7 @@ function dibujarMarcadoresRadiales(ctx, area, rMinVisible, rMaxVisible) {
 
     ctx.fillStyle = "#ffffff";
     ctx.font = "11px sans-serif";
-    ctx.fillText("Ring 1", xRing1 + 5, y0 + 56);
+    ctx.fillText("Anillo 1", xRing1 + 5, y0 + 56);
   }
 
   if (estadoSimulacion.modoDosPlanetas) {
@@ -1780,7 +1980,7 @@ function dibujarMarcadoresRadiales(ctx, area, rMinVisible, rMaxVisible) {
 
       ctx.fillStyle = "#ffffff";
       ctx.font = "11px sans-serif";
-      ctx.fillText("Planet 2", xPlaneta2 + 5, y0 + 28);
+      ctx.fillText("Planeta 2", xPlaneta2 + 5, y0 + 28);
     }
 
     if (
@@ -1799,7 +1999,7 @@ function dibujarMarcadoresRadiales(ctx, area, rMinVisible, rMaxVisible) {
 
       ctx.fillStyle = "#ffffff";
       ctx.font = "11px sans-serif";
-      ctx.fillText("Ring 2", xRing2 + 5, y0 + 42);
+      ctx.fillText("Anillo 2", xRing2 + 5, y0 + 42);
     }
   }
 
@@ -1866,12 +2066,12 @@ function dibujarEjesPerfiles(ctx, area, rMinVisible, rMaxVisible) {
 
   ctx.fillStyle = "#ffffff";
   ctx.font = "12px sans-serif";
-  ctx.fillText("Radius (AU)", x0 + w / 2 - 28, y0 + h + 36);
+  ctx.fillText("Radio (AU)", x0 + w / 2 - 28, y0 + h + 36);
 
   ctx.save();
   ctx.translate(x0 - 42, y0 + h / 2 + 10);
   ctx.rotate(-Math.PI / 2);
-  ctx.fillText("Normalized profile", 0, 0);
+  ctx.fillText("Perfil relativo", 0, 0);
   ctx.restore();
 }
 
@@ -1900,10 +2100,32 @@ function dibujarGraficaRadial() {
 
   dibujarEjesPerfiles(ctx, area, rMinVisible, rMaxVisible);
 
+  const perfilGasBaseGrafico = calcularPerfilGasBase(estadoSimulacion.radios);
+
+  const perfilPolvoReferenciaGrafico = crearPerfilReferenciaPolvo(
+    estadoSimulacion.radios,
+    perfilGasBaseGrafico
+  );
+
+  const perfilGasGrafico = crearPerfilRelativo(
+    estadoSimulacion.perfilGas,
+    perfilGasBaseGrafico
+  );
+
+  const perfilPolvoFinoGrafico = crearPerfilRelativo(
+    estadoSimulacion.perfilPolvoFino,
+    perfilPolvoReferenciaGrafico
+  );
+
+  const perfilPolvoMmGrafico = crearPerfilRelativo(
+    estadoSimulacion.perfilPolvoMm,
+    perfilPolvoReferenciaGrafico
+  );
+
   if (estadoSimulacion.mostrarGas) {
     dibujarCurvaPerfil(
       ctx,
-      estadoSimulacion.perfilGas,
+      perfilGasGrafico,
       estadoSimulacion.radios,
       "rgba(75, 135, 255, 1)",
       area,
@@ -1915,7 +2137,7 @@ function dibujarGraficaRadial() {
   if (estadoSimulacion.mostrarPolvoFino) {
     dibujarCurvaPerfil(
       ctx,
-      estadoSimulacion.perfilPolvoFino,
+      perfilPolvoFinoGrafico,
       estadoSimulacion.radios,
       "rgba(255, 235, 180, 1)",
       area,
@@ -1927,7 +2149,7 @@ function dibujarGraficaRadial() {
   if (estadoSimulacion.mostrarPolvoMm) {
     dibujarCurvaPerfil(
       ctx,
-      estadoSimulacion.perfilPolvoMm,
+      perfilPolvoMmGrafico,
       estadoSimulacion.radios,
       "rgba(255, 176, 78, 1)",
       area,
@@ -1963,6 +2185,7 @@ function renderizarVistas() {
 }
 
 function actualizarSimulacion() {
+  actualizarRadioPolvoDerivado();
   limitarEstado();
   calcularVariablesInternas();
   calcularPerfiles();

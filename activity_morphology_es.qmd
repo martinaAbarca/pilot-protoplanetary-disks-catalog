@@ -1,0 +1,202 @@
+---
+title: "Análisis morfológico de subestructuras radiales"
+bibliography: references.bib
+format:
+  html:
+    css: styles.css
+    toc: true
+---
+
+::: {.morphology-activity}
+
+::: {.activity-hero-block}
+::: {.activity-kicker}
+Actividad de ciencia de datos con imágenes FITS
+:::
+
+En esta actividad trabajarás con una imagen FITS real de **IM Lup** o de **HD 163296**. El objetivo es analizar la morfología de la emisión continua milimétrica e identificar subestructuras radiales como anillos brillantes, brechas o depresiones radiales.
+
+El código base y las imágenes FITS están disponibles en el repositorio de GitHub. La actividad comienza cuando la imagen ya está cargada y lista para ser analizada.
+
+[Volver al inicio del catálogo →](index.html#activities){.activity-back-link}
+:::
+
+---
+
+## Resumen de la actividad
+
+::: {.activity-overview-grid}
+
+::: {.activity-info-card}
+### Qué harás
+
+- Aplicar la geometría del disco usando inclinación y ángulo de posición.
+- Deproyectar una imagen inclinada del disco.
+- Transformar la imagen a coordenadas polares.
+- Construir un perfil radial de intensidad promediado azimutalmente.
+- Identificar anillos, brechas, depresiones radiales o emisión extendida.
+- Medir el contraste observacional de una brecha o depresión radial.
+:::
+
+::: {.activity-info-card}
+### Materiales sugeridos
+
+- Imagen FITS de **IM Lup** o **HD 163296**.
+- Notebook de Jupyter o script en Python.
+- Librerías necesarias de Python.
+- Contexto científico desde la ficha del catálogo del disco seleccionado.
+
+### Imágenes FITS disponibles
+
+- Imagen de continuo de IM Lup.
+- Imagen de continuo de HD 163296.
+:::
+
+:::
+
+::: {.activity-download-panel}
+### Archivos para descargar
+
+<ul class="download-list">
+  <li>
+    <a href="data/actividades/morphology_activity_package.zip" download>
+      Descargar paquete completo de la actividad (.zip)
+    </a>
+  </li>
+</ul>
+
+**Recomendación:** descarga el paquete completo de la actividad y descomprímelo. El paquete incluye el notebook base y las imágenes FITS de **HD 163296** e **IM Lup**, por lo que podrás elegir con qué disco trabajar al ejecutar el código.
+
+:::
+
+---
+
+## Rúbrica orientativa
+
+Esta rúbrica no tiene puntaje. Su objetivo es guiar el desarrollo de la actividad y ayudar a verificar que el análisis morfológico del disco esté completo.
+
+| Criterio | Qué se espera |
+|---|---|
+| Corrección geométrica del disco | Se aplica la geometría del disco usando su centro, inclinación y ángulo de posición. La imagen debe ser rotada y deproyectada para aproximar una vista *face-on* del disco. |
+| Mapa polar del disco | Se transforma la imagen deproyectada a coordenadas polares. El mapa debe permitir visualizar si las estructuras aparecen a radios aproximadamente constantes. |
+| Perfil radial de intensidad | Se calcula el perfil radial promedio del continuo milimétrico. El perfil debe mostrar cómo cambia la intensidad con el radio y permitir identificar máximos y mínimos locales. |
+| Identificación de subestructuras | Se identifican subestructuras radiales visibles en la imagen deproyectada, el mapa polar o el perfil radial. Estas pueden incluir anillos brillantes, brechas, depresiones radiales, cambios bruscos de intensidad o emisión extendida. |
+| Medición del contraste de una brecha o depresión radial | Se selecciona una brecha o mínimo local en el perfil radial y se estima su contraste de intensidad respecto a un anillo o máximo cercano. |
+| Descripción morfológica | Se describe brevemente qué revela el análisis sobre la estructura del disco elegido. Si se analizan ambos discos, se pueden comparar las principales diferencias morfológicas entre IM Lup y HD 163296. |
+
+---
+
+## Preguntas guía
+
+::: {.activity-step-card}
+### 1. Corrección geométrica
+
+- ¿Cómo cambia la forma aparente del disco después de la deproyección?
+- ¿Por qué es necesario corregir la inclinación antes de estudiar anillos o brechas?
+- ¿Qué efecto tiene el ángulo de posición en la orientación del disco?
+:::
+
+::: {.activity-step-card}
+### 2. Mapa polar
+
+- ¿Las subestructuras se observan con mayor claridad en coordenadas polares?
+- ¿Los anillos o brechas aparecen a radios aproximadamente constantes?
+- ¿Existen variaciones con el ángulo azimutal?
+:::
+
+::: {.activity-step-card}
+### 3. Perfil radial de intensidad
+
+- ¿Dónde se ubican los principales máximos de intensidad?
+- ¿Dónde aparecen mínimos locales o depresiones radiales?
+- ¿El perfil radial muestra una estructura suave o presenta cambios marcados?
+:::
+
+::: {.activity-step-card}
+### 4. Identificación de subestructuras
+
+- ¿Qué subestructuras puedes identificar en el disco seleccionado?
+- ¿Son más evidentes en la imagen deproyectada, en el mapa polar o en el perfil radial?
+- ¿El disco muestra anillos y brechas bien definidos o una emisión más extendida y suave?
+:::
+
+---
+
+## Medición del contraste de una brecha
+
+Selecciona una brecha o depresión radial visible en el perfil de intensidad. Puedes estimar su contraste usando:
+
+$$
+\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
+$$
+
+donde $I_{\mathrm{gap}}$ es la intensidad mínima dentro de la brecha o depresión, e $I_{\mathrm{ring}}$ es la intensidad máxima de un anillo cercano.
+
+Si la brecha está ubicada entre dos máximos, también puedes usar:
+
+$$
+I_{\mathrm{ring}} = \frac{I_{\mathrm{ring,in}} + I_{\mathrm{ring,out}}}{2}
+$$
+
+y luego calcular:
+
+$$
+\delta_{\mathrm{gap}} = 1 - \frac{I_{\mathrm{gap}}}{I_{\mathrm{ring}}}
+$$
+
+Como guía práctica:
+
+| Valor de $\delta_{\mathrm{gap}}$ | Clasificación |
+|---|---|
+| 0.0 – 0.3 | Depresión débil |
+| 0.3 – 0.6 | Brecha o depresión moderada |
+| 0.6 – 1.0 | Brecha profunda |
+
+Esta clasificación es solo una herramienta práctica para la actividad. El valor obtenido representa un contraste de intensidad observado, no una medición directa de la cantidad de material removido del disco.
+
+---
+
+## Resultado esperado
+
+::: {.activity-result-card}
+Al finalizar la actividad, deberías obtener:
+
+- una imagen deproyectada del disco;
+- un mapa polar;
+- un perfil radial de intensidad;
+- una identificación de las subestructuras principales;
+- una medición simple del contraste de una brecha o depresión radial;
+- una breve descripción morfológica del disco analizado.
+
+### Solución sugerida
+
+También está disponible un notebook completo con la solución guiada para usar como referencia.
+
+<ul class="download-list">
+  <li>
+    <a href="data/actividades/solutions/morphology_activity_solution_en_es.zip" download>
+      Descargar notebook de solución guiada (.zip)
+    </a>
+  </li>
+</ul>
+
+::: {.data-source-note}
+### Fuente de los datos
+
+Las imágenes FITS utilizadas en esta actividad provienen del **Data Release oficial del proyecto DSHARP** (*Disk Substructures at High Angular Resolution Project*), un programa grande de ALMA diseñado para estudiar subestructuras pequeñas en discos protoplanetarios mediante observaciones de alta resolución del continuo a 240 GHz / 1.25 mm y de la línea 12CO J=2–1.
+
+Estos datos corresponden al proyecto DSHARP presentado por Andrews et al. [-@andrews2018dsharpI].
+
+Fuente web: [DSHARP Data Release](https://almascience.eso.org/almadata/lp/DSHARP/).
+:::
+
+:::
+
+---
+
+## Referencias
+
+::: {#refs}
+:::
+
+:::

@@ -1074,3 +1074,1020 @@ hr {
     gap: 0.45rem;
   }
 }
+
+/* =====================================================
+   MORPHOLOGY ACTIVITY PAGES
+   Scoped styles for activity_morphology_en/es.qmd
+   ===================================================== */
+
+.morphology-activity {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.morphology-activity .activity-hero-block {
+  margin: 0.8rem 0 1.8rem 0;
+  padding: 1.35rem 1.45rem;
+  border-radius: 22px;
+  background:
+    linear-gradient(135deg, rgba(255, 79, 163, 0.16), rgba(139, 92, 246, 0.08)),
+    rgba(18, 12, 20, 0.96);
+  border: 1px solid rgba(255, 79, 163, 0.32);
+  border-left: 6px solid var(--accent-magenta);
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.20),
+    0 0 20px rgba(255, 79, 163, 0.10);
+}
+
+.morphology-activity .activity-kicker {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  padding: 0.34rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 79, 163, 0.15);
+  border: 1px solid rgba(255, 79, 163, 0.35);
+  color: #ffd7ea;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.morphology-activity .activity-hero-block p {
+  color: #ffe9f4 !important;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 0.9rem;
+}
+
+.morphology-activity .activity-back-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--accent-cyan) !important;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.morphology-activity .activity-back-link:hover {
+  color: #ffffff !important;
+}
+
+.morphology-activity h2 {
+  font-size: 1.9rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  padding: 0.68rem 0.95rem;
+  border-radius: 14px;
+  border-left: 5px solid var(--accent-magenta);
+  background: linear-gradient(90deg, rgba(214, 51, 132, 0.62), rgba(214, 51, 132, 0.12));
+}
+
+.morphology-activity h3 {
+  font-size: 1.35rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.7rem;
+}
+
+.morphology-activity p,
+.morphology-activity li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.activity-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.2rem 0;
+}
+
+.activity-info-card,
+.activity-download-panel,
+.activity-step-card,
+.activity-result-card {
+  border-radius: 18px;
+  border: 1px solid rgba(255, 79, 163, 0.24);
+  background: linear-gradient(180deg, rgba(28, 18, 30, 0.96), rgba(13, 11, 16, 0.96));
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, 0.16),
+    0 0 16px rgba(255, 79, 163, 0.06);
+}
+
+.activity-info-card {
+  padding: 1.05rem 1.15rem;
+}
+
+.activity-info-card ul,
+.activity-step-card ul,
+.activity-result-card ul {
+  margin-bottom: 0;
+}
+
+.activity-download-panel {
+  margin: 1rem 0 1.7rem 0;
+  padding: 1.1rem 1.2rem;
+  background:
+    linear-gradient(90deg, rgba(255, 79, 163, 0.24), rgba(139, 92, 246, 0.08)),
+    rgba(22, 12, 24, 0.96);
+}
+
+.activity-download-panel h3 {
+  margin-top: 0;
+}
+
+.activity-download-panel a {
+  color: #ffffff !important;
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.activity-download-panel a:hover {
+  color: #ffd6ef !important;
+  border-bottom-color: #ffd6ef;
+}
+
+.activity-step-card {
+  margin: 0.95rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid rgba(255, 79, 163, 0.75);
+}
+
+.activity-step-card h3 {
+  color: #ffffff !important;
+}
+
+.activity-result-card {
+  padding: 1.05rem 1.15rem;
+  background:
+    linear-gradient(135deg, rgba(127, 215, 255, 0.08), rgba(255, 79, 163, 0.10)),
+    rgba(18, 12, 20, 0.96);
+  border-left: 5px solid var(--accent-cyan);
+}
+
+.morphology-activity table {
+  table-layout: auto !important;
+  margin-top: 0.9rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.96rem;
+}
+
+.morphology-activity thead th,
+.morphology-activity tbody td {
+  padding: 0.85rem 0.95rem;
+  line-height: 1.55;
+}
+
+.morphology-activity tbody td:first-child {
+  font-weight: 800;
+}
+
+.morphology-activity .math.display,
+.morphology-activity span.math.display {
+  margin: 1.1rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 79, 163, 0.16);
+  overflow-x: auto;
+}
+
+@media (max-width: 850px) {
+  .morphology-activity {
+    max-width: 100%;
+  }
+
+  .activity-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .morphology-activity .activity-hero-block,
+  .activity-info-card,
+  .activity-download-panel,
+  .activity-step-card,
+  .activity-result-card {
+    padding: 1rem;
+  }
+}
+
+.download-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.8rem 0 1rem 0;
+}
+
+.download-list li {
+  margin: 0.55rem 0;
+}
+
+.download-list a {
+  display: inline-block;
+  padding: 0.55rem 0.85rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 79, 163, 0.28);
+  color: #ffffff !important;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.download-list a:hover {
+  background: rgba(255, 79, 163, 0.16);
+  color: #ffd6ef !important;
+}
+
+.data-source-note {
+  margin: 1.2rem 0 1.8rem 0;
+  padding: 1.05rem 1.2rem;
+  border-radius: 18px;
+  border: 1px solid rgba(127, 215, 255, 0.28);
+  border-left: 5px solid var(--accent-cyan);
+  background:
+    linear-gradient(135deg, rgba(127, 215, 255, 0.08), rgba(255, 79, 163, 0.08)),
+    rgba(18, 12, 20, 0.96);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+}
+
+.data-source-note h3 {
+  margin-top: 0;
+}
+
+.data-source-note p {
+  color: #f1edf6 !important;
+  line-height: 1.75;
+}
+
+/* =====================================================
+   FROM DUST TO PLANETS SECTION
+   ===================================================== */
+
+.dust-planets-section {
+  margin: 1.2rem 0 2.2rem 0;
+}
+
+.dust-intro-box {
+  margin: 1.1rem 0 1.35rem 0;
+  padding: 1.25rem 1.4rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 79, 163, 0.32);
+  border-left: 6px solid var(--accent-magenta);
+  background:
+    linear-gradient(135deg, rgba(255, 79, 163, 0.16), rgba(139, 92, 246, 0.10)),
+    rgba(18, 12, 20, 0.96);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.18),
+    0 0 20px rgba(255, 79, 163, 0.10);
+}
+
+.dust-intro-box p {
+  margin: 0;
+  color: #ffe3f3 !important;
+  font-size: 1.06rem;
+  line-height: 1.85;
+}
+
+.dust-pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.35rem 0;
+}
+
+.dust-pathway-card {
+  padding: 1.1rem 1.15rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(28, 18, 30, 0.97), rgba(13, 11, 16, 0.97));
+  border: 1px solid rgba(255, 79, 163, 0.22);
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, 0.16),
+    0 0 16px rgba(255, 79, 163, 0.06);
+}
+
+.dust-pathway-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #ffffff !important;
+  font-size: 1.22rem;
+}
+
+.dust-pathway-card p {
+  color: #f4e3ee !important;
+  font-size: 0.98rem;
+  line-height: 1.68;
+  margin-bottom: 0;
+}
+
+.dust-bridge-box {
+  margin: 1.2rem 0 1.45rem 0;
+  padding: 1rem 1.15rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px dashed rgba(127, 215, 255, 0.32);
+  border-left: 5px solid var(--accent-cyan);
+}
+
+.dust-bridge-box p {
+  margin: 0;
+  color: #edf8ff !important;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.planet-example-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin: 1.3rem 0 1.8rem 0;
+}
+
+.planet-example-card {
+  position: relative;
+  padding: 1.25rem 1.25rem 1.15rem 1.25rem;
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, rgba(31, 20, 34, 0.98), rgba(12, 12, 17, 0.98));
+  border: 1px solid rgba(255, 79, 163, 0.25);
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.20),
+    0 0 18px rgba(255, 79, 163, 0.08);
+  overflow: hidden;
+}
+
+.planet-example-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  background: linear-gradient(180deg, var(--accent-magenta), var(--accent-violet));
+}
+
+.example-label {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 79, 163, 0.13);
+  border: 1px solid rgba(255, 79, 163, 0.28);
+  color: #ffd8ec !important;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+.planet-example-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  color: #ffffff !important;
+  font-size: 1.35rem;
+}
+
+.planet-example-card p {
+  color: #f2e4ee !important;
+  font-size: 0.99rem;
+  line-height: 1.72;
+}
+
+.planet-example-card strong {
+  color: #ffffff !important;
+}
+
+@media (max-width: 1000px) {
+  .dust-pathway-grid,
+  .planet-example-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .dust-intro-box,
+  .dust-pathway-card,
+  .dust-bridge-box,
+  .planet-example-card {
+    padding: 1rem;
+  }
+
+  .planet-example-card h3 {
+    font-size: 1.22rem;
+  }
+}
+
+/* =====================================================
+   AFTER THE PROTOPLANETARY PHASE
+   ===================================================== */
+
+.after-phase-section {
+  margin: 1.2rem 0 2.4rem 0;
+}
+
+.after-phase-hero {
+  margin: 1rem 0 1.4rem 0;
+  padding: 1.25rem 1.4rem;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 79, 163, 0.32);
+  border-left: 6px solid var(--accent-magenta);
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 163, 0.20), transparent 34%),
+    linear-gradient(135deg, rgba(28, 18, 32, 0.98), rgba(10, 10, 16, 0.98));
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.22),
+    0 0 24px rgba(255, 79, 163, 0.10);
+}
+
+.after-phase-kicker {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.32rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 79, 163, 0.14);
+  border: 1px solid rgba(255, 79, 163, 0.30);
+  color: #ffd7ea !important;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.after-phase-hero p {
+  margin: 0;
+  color: #ffe8f4 !important;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.debris-showcase {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 1.2rem;
+  align-items: stretch;
+  margin: 1.35rem 0 1.45rem 0;
+}
+
+.debris-figure-card,
+.debris-definition-card,
+.hybrid-study-card {
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(31, 20, 34, 0.98), rgba(12, 12, 18, 0.98));
+  border: 1px solid rgba(255, 79, 163, 0.24);
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.22),
+    0 0 20px rgba(255, 79, 163, 0.07);
+}
+
+.debris-figure-card {
+  padding: 1rem;
+}
+
+.debris-image {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  margin: 0 auto 0.85rem auto;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.30),
+    0 0 18px rgba(255, 155, 60, 0.10);
+}
+
+.debris-caption {
+  padding: 0.75rem 0.85rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  border-left: 4px solid rgba(255, 179, 90, 0.85);
+}
+
+.debris-caption p {
+  margin: 0;
+  color: #f4e5dc !important;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.debris-caption strong {
+  color: #ffffff !important;
+}
+
+.debris-definition-card {
+  padding: 1.15rem 1.2rem;
+}
+
+.debris-definition-card h3,
+.hybrid-study-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  color: #ffffff !important;
+  font-size: 1.38rem;
+}
+
+.debris-point {
+  margin: 0.85rem 0;
+  padding: 0.85rem 0.95rem;
+  border-radius: 16px;
+  background:
+    linear-gradient(90deg, rgba(127, 215, 255, 0.09), rgba(255, 79, 163, 0.05));
+  border: 1px solid rgba(127, 215, 255, 0.20);
+  border-left: 4px solid var(--accent-cyan);
+}
+
+.debris-point p {
+  margin: 0;
+  color: #eef8ff !important;
+  font-size: 0.96rem;
+  line-height: 1.62;
+}
+
+.hybrid-study-card {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  border-left: 6px solid var(--accent-magenta);
+}
+
+.hybrid-study-card > p {
+  color: #f3e5ee !important;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.hybrid-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.hybrid-mini-card {
+  padding: 1rem 1.05rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 79, 163, 0.18);
+}
+
+.hybrid-mini-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  color: #ffffff !important;
+  font-size: 1.08rem;
+}
+
+.hybrid-mini-card p {
+  margin-bottom: 0;
+  color: #f2e6ef !important;
+  font-size: 0.97rem;
+  line-height: 1.68;
+}
+
+.after-phase-takeaway {
+  margin-top: 1.1rem;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(90deg, rgba(127, 215, 255, 0.12), rgba(255, 79, 163, 0.06));
+  border: 1px dashed rgba(127, 215, 255, 0.35);
+  border-left: 5px solid var(--accent-cyan);
+}
+
+.after-phase-takeaway p {
+  margin: 0;
+  color: #edf8ff !important;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+@media (max-width: 1000px) {
+  .debris-showcase,
+  .hybrid-mini-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .after-phase-hero,
+  .debris-figure-card,
+  .debris-definition-card,
+  .hybrid-study-card,
+  .hybrid-mini-card,
+  .after-phase-takeaway {
+    padding: 1rem;
+  }
+
+  .debris-definition-card h3,
+  .hybrid-study-card h3 {
+    font-size: 1.22rem;
+  }
+}
+
+/* =====================================================
+   DISK EVOLUTION AND SUBSTRUCTURES SECTION
+   ===================================================== */
+
+.disk-evolution-section {
+  margin: 1.2rem 0 2.4rem 0;
+}
+
+.evolution-intro-box {
+  margin: 1rem 0 1.35rem 0;
+  padding: 1.25rem 1.4rem;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 79, 163, 0.32);
+  border-left: 6px solid var(--accent-magenta);
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 163, 0.18), transparent 36%),
+    linear-gradient(135deg, rgba(28, 18, 32, 0.98), rgba(10, 10, 16, 0.98));
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.22),
+    0 0 22px rgba(255, 79, 163, 0.09);
+}
+
+.evolution-intro-box p {
+  margin: 0;
+  color: #ffe8f4 !important;
+  font-size: 1.04rem;
+  line-height: 1.8;
+}
+
+.evolution-mechanism-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.45rem 0;
+}
+
+.evolution-mechanism-card {
+  padding: 1.05rem 1.1rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(31, 20, 34, 0.98), rgba(12, 12, 18, 0.98));
+  border: 1px solid rgba(255, 79, 163, 0.22);
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, 0.18),
+    0 0 16px rgba(255, 79, 163, 0.06);
+}
+
+.evolution-mechanism-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  color: #ffffff !important;
+  font-size: 1.18rem;
+}
+
+.evolution-mechanism-card p {
+  margin-bottom: 0;
+  color: #f3e5ee !important;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+.evolution-example-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin: 1.35rem 0 1.55rem 0;
+}
+
+.evolution-example-card {
+  position: relative;
+  padding: 1.25rem 1.25rem 1.15rem 1.25rem;
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, rgba(31, 20, 34, 0.98), rgba(12, 12, 18, 0.98));
+  border: 1px solid rgba(255, 79, 163, 0.25);
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.20),
+    0 0 18px rgba(255, 79, 163, 0.08);
+  overflow: hidden;
+}
+
+.evolution-example-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  background: linear-gradient(180deg, var(--accent-magenta), var(--accent-violet));
+}
+
+.evolution-example-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  color: #ffffff !important;
+  font-size: 1.32rem;
+}
+
+.evolution-example-card p {
+  color: #f2e4ee !important;
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.evolution-takeaway {
+  margin-top: 1.2rem;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(90deg, rgba(127, 215, 255, 0.12), rgba(255, 79, 163, 0.06));
+  border: 1px dashed rgba(127, 215, 255, 0.35);
+  border-left: 5px solid var(--accent-cyan);
+}
+
+.evolution-takeaway p {
+  margin: 0;
+  color: #edf8ff !important;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+@media (max-width: 1000px) {
+  .evolution-mechanism-grid,
+  .evolution-example-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .evolution-intro-box,
+  .evolution-mechanism-card,
+  .evolution-example-card,
+  .evolution-takeaway {
+    padding: 1rem;
+  }
+
+  .evolution-example-card h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Special card for contributing new disks */
+.add-disk-card {
+  justify-content: center;
+  text-align: center;
+  border: 1px dashed rgba(255, 79, 163, 0.45);
+  background: linear-gradient(180deg, rgba(42, 24, 45, 0.92), rgba(14, 14, 16, 0.96));
+}
+
+.add-disk-card:hover {
+  border-color: rgba(255, 79, 163, 0.75);
+  box-shadow: 0 14px 30px rgba(214, 51, 132, 0.22);
+}
+
+.add-disk-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 79, 163, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  font-size: 2.2rem;
+  line-height: 1;
+  color: #ff7fbd;
+  background: rgba(255, 79, 163, 0.08);
+}
+
+.add-disk-card h3 {
+  margin-top: 0.3rem;
+}
+
+.add-disk-card p {
+  max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =====================================================
+   SIMULATION GUIDE — guía de uso de simulation.qmd
+   ===================================================== */
+
+.simulation-guide {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* ── Tarjeta base ─────────────────────────────────────────── */
+.guide-card {
+  padding: 1.35rem 1.5rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(28, 18, 30, 0.97), rgba(13, 11, 16, 0.97));
+  border: 1px solid rgba(255, 79, 163, 0.18);
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.20),
+    0 0 18px rgba(255, 79, 163, 0.06);
+  margin-bottom: 1.35rem;
+}
+
+.guide-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.38rem;
+  color: #ffffff !important;
+  border-bottom: 1px solid rgba(255, 79, 163, 0.22);
+  padding-bottom: 0.5rem;
+}
+
+.guide-card h4 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.55rem;
+  font-size: 1.08rem;
+  color: #ffd3e8 !important;
+}
+
+.guide-card p,
+.guide-card li {
+  color: #ecdae5 !important;
+  font-size: 1.02rem;
+  line-height: 1.78;
+}
+
+.guide-card strong {
+  color: #ffffff !important;
+}
+
+.guide-card em {
+  color: #ffc8e6 !important;
+}
+
+/* ── Tarjeta de introducción ──────────────────────────────── */
+.guide-intro {
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 163, 0.18), transparent 38%),
+    linear-gradient(135deg, rgba(32, 18, 34, 0.98), rgba(12, 10, 18, 0.98));
+  border: 1px solid rgba(255, 79, 163, 0.32);
+  border-left: 6px solid var(--accent-magenta);
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.22),
+    0 0 24px rgba(255, 79, 163, 0.10);
+}
+
+.guide-intro h3 {
+  border-bottom-color: rgba(255, 79, 163, 0.35);
+}
+
+.guide-intro ol {
+  padding-left: 1.3rem;
+  margin: 0.6rem 0 0 0;
+}
+
+.guide-intro ol li {
+  margin-bottom: 0.7rem;
+  color: #f5dded !important;
+  line-height: 1.72;
+}
+
+/* ── Grid de dos columnas ─────────────────────────────────── */
+.guide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1.35rem;
+}
+
+@media (max-width: 780px) {
+  .guide-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Badges de componente ─────────────────────────────────── */
+.badge {
+  display: inline-block;
+  padding: 0.16rem 0.58rem;
+  border-radius: 999px;
+  font-size: 0.79rem;
+  font-weight: 700;
+  margin-right: 0.28rem;
+  vertical-align: middle;
+  letter-spacing: 0.01em;
+}
+
+.badge-gas {
+  background: rgba(75, 135, 255, 0.18);
+  color: #90c6ff;
+  border: 1px solid rgba(75, 135, 255, 0.38);
+}
+
+.badge-fine {
+  background: rgba(255, 235, 180, 0.14);
+  color: #ffe8b8;
+  border: 1px solid rgba(255, 220, 150, 0.32);
+}
+
+.badge-mm {
+  background: rgba(255, 176, 78, 0.16);
+  color: #ffbd64;
+  border: 1px solid rgba(255, 176, 78, 0.38);
+}
+
+.badge-pres {
+  background: rgba(90, 255, 150, 0.14);
+  color: #80ffaa;
+  border: 1px solid rgba(90, 255, 150, 0.32);
+}
+
+/* ── Ecuaciones destacadas ────────────────────────────────── */
+.guide-card .math.display,
+.guide-card span.math.display {
+  display: block;
+  margin: 1.1rem 0;
+  padding: 0.85rem 1.1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 79, 163, 0.18);
+  border-left: 4px solid var(--accent-magenta);
+  overflow-x: auto;
+  text-align: center;
+}
+
+/* ── Separador interno de secciones ──────────────────────── */
+.guide-card hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 79, 163, 0.16);
+  margin: 1.3rem 0;
+}
+
+/* ── Tarjeta de parámetros fijos ──────────────────────────── */
+.guide-card.guide-fixed {
+  border-left: 5px solid var(--accent-cyan);
+  background:
+    linear-gradient(135deg, rgba(127, 215, 255, 0.06), rgba(255, 79, 163, 0.06)),
+    rgba(18, 12, 20, 0.97);
+}
+
+.guide-card.guide-fixed h3 {
+  color: var(--accent-cyan) !important;
+  border-bottom-color: rgba(127, 215, 255, 0.22);
+}
+
+.guide-card.guide-fixed p,
+.guide-card.guide-fixed li {
+  color: #ddf2ff !important;
+}
+
+/* ── Tarjeta de limitaciones ──────────────────────────────── */
+.guide-limit {
+  background:
+    linear-gradient(135deg, rgba(255, 140, 50, 0.10), rgba(255, 79, 163, 0.06)),
+    rgba(18, 12, 16, 0.97);
+  border: 1px solid rgba(255, 160, 60, 0.26);
+  border-left: 6px solid #ff9f43;
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.18),
+    0 0 16px rgba(255, 140, 50, 0.08);
+}
+
+.guide-limit h3 {
+  color: #ffc87a !important;
+  border-bottom-color: rgba(255, 160, 60, 0.28) !important;
+}
+
+.guide-limit p,
+.guide-limit li {
+  color: #f5e6d5 !important;
+}
+
+.guide-limit strong {
+  color: #ffffff !important;
+}
+
+/* ── Tabla dentro de guide-card ───────────────────────────── */
+/* Hereda el sistema de tablas global del styles.css,
+   solo ajustamos tamaño de fuente para que sea más compacta
+   dentro de las tarjetas */
+.guide-card table {
+  font-size: 0.95rem !important;
+  margin: 0.8rem 0 1rem 0 !important;
+}
+
+.guide-card thead th {
+  font-size: 0.92rem !important;
+}
+
+.guide-card tbody td {
+  line-height: 1.55 !important;
+}
+
+/* Primera columna de la tabla de controles: monospace */
+.guide-card tbody td:first-child {
+  font-family: "Courier New", monospace !important;
+  font-size: 0.88rem !important;
+  color: #ffc8e6 !important;
+  white-space: nowrap;
+}
+
+/* Make bibliography/references use the same width as the simulation guide */
+#quarto-appendix,
+.quarto-appendix,
+.quarto-appendix-contents,
+#refs,
+.references,
+.csl-bib-body {
+  max-width: none !important;
+  width: min(100%, 1240px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+main.content,
+#quarto-content,
+#quarto-document-content {
+  max-width: none !important;
+}

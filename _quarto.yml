@@ -2,24 +2,34 @@ project:
   type: website
   render:
     - index.qmd
-    - activities.qmd
+    - activity_morphology_es.qmd
     - as_209.qmd
     - hd_163296.qmd
     - hl_tau.qmd
     - im_lup.qmd
     - pds_70.qmd
     - simulation.qmd
+    - investigaciones_publicaciones.qmd
+    - sobre_el_proyecto.qmd
 
 website:
-  title: "Pilot Protoplanetary Disk Catalog"
+  title: "Catálogo piloto de discos protoplanetarios"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: activities.qmd
-        text: Activities
+        text: Inicio
+
+      - href: activity_morphology_es.qmd
+        text: Actividad morfológica
+
       - href: simulation.qmd
-        text: Simulation
+        text: Simulación
+
+      - href: investigaciones_publicaciones.qmd
+        text: Investigaciones y publicaciones
+
+      - href: sobre_el_proyecto.qmd
+        text: Sobre el proyecto
 
 format:
   html:
@@ -31,4 +41,5 @@ format:
 resources:
   - data/**
   - images/**
+  - documents/**
   - simulation.js
