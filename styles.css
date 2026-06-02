@@ -3336,3 +3336,24 @@ main.content,
 .pagina-index-catalogo .quarto-title-banner {
   display: none !important;
 }
+
+/* Título interno más pequeño en Sobre el proyecto */
+.pagina-sobre-proyecto .about-hero-title-small {
+  font-size: clamp(2rem, 4.2vw, 4rem);
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: #fff7fb;
+  max-width: 760px;
+  margin: 1rem 0 1.4rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 74, 170, 0.72),
+    rgba(120, 50, 160, 0.35)
+  );
+  box-shadow:
+    0 0 18px rgba(255, 83, 180, 0.22),
+    inset 0 0 18px rgba(255, 255, 255, 0.04);
+}
