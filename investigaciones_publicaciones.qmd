@@ -1,0 +1,140 @@
+---
+title: ""
+page-layout: full
+toc: false
+body-class: "pagina-sobre-proyecto pagina-investigaciones"
+---
+
+::: {.space-side .space-left}
+:::
+
+::: {.space-side .space-right}
+:::
+
+::: {.about-hero}
+::: {.about-kicker}
+Colaboraciones · Nuevas fichas · Publicaciones científicas
+:::
+
+# Investigaciones y publicaciones
+
+Esta sección está pensada como un espacio abierto para reunir futuras investigaciones, publicaciones, proyectos estudiantiles y aportes relacionados con **discos protoplanetarios**.
+
+El objetivo es que el catálogo pueda crecer más allá de la muestra piloto inicial, incorporando nuevos sistemas, nuevas referencias científicas, nuevas fichas de discos, nuevas actividades educativas y material complementario desarrollado por otras personas interesadas en el estudio de discos protoplanetarios.
+
+::: {.about-actions}
+[Proponer una contribución](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog){.about-button}
+[Ver el proyecto en GitHub](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog){.about-button-secondary}
+[Sobre el proyecto](sobre_el_proyecto.qmd){.about-button-secondary}
+:::
+:::
+
+## Formas de contribuir
+
+::: {.about-grid}
+
+::: {.about-card}
+### Nuevas fichas de discos
+
+Puedes proponer fichas de discos protoplanetarios que no estén incluidos en la muestra piloto inicial.
+
+Estas fichas pueden incluir propiedades generales del sistema, morfología del disco, subestructuras observadas, gas, polvo, evidencia de formación planetaria y referencias principales.
+:::
+
+::: {.about-card}
+### Investigaciones y publicaciones
+
+También se pueden proponer resúmenes o materiales basados en publicaciones científicas, tesis, trabajos de curso, proyectos estudiantiles o investigaciones independientes relacionadas con discos protoplanetarios.
+:::
+
+::: {.about-card}
+### Actividades y recursos educativos
+
+El catálogo también puede ampliarse con actividades de ciencia de datos, notebooks, visualizaciones, esquemas, simulaciones o explicaciones pedagógicas sobre gas, polvo y formación planetaria.
+:::
+
+:::
+
+## Nuevas fichas de discos protoplanetarios
+
+::: {.about-card-wide}
+Una de las formas principales de ampliar el catálogo es incorporar fichas de discos protoplanetarios más específicos o no incluidos en la versión piloto.
+
+Cada nueva ficha debería incluir, en la medida de lo posible:
+
+- nombre del sistema;
+- nombres alternativos;
+- región o asociación estelar;
+- distancia;
+- edad aproximada;
+- masa estelar;
+- inclinación y ángulo de posición del disco;
+- principales subestructuras observadas;
+- propiedades del gas y del polvo;
+- evidencia de formación planetaria;
+- referencias bibliográficas principales;
+- imágenes o datos disponibles, indicando claramente su origen.
+
+El objetivo es mantener una estructura similar a la de las fichas ya existentes, para que el catálogo siga siendo claro, comparable y fácil de navegar.
+:::
+
+## Investigaciones, publicaciones y proyectos
+
+::: {.about-grid-two}
+
+::: {.about-card}
+### Temas posibles
+
+Los aportes pueden estar relacionados con análisis morfológico de discos, comparación entre emisión de gas y polvo, identificación de anillos, brechas, cavidades, espirales o asimetrías, formación planetaria, visualización científica o análisis de datos astronómicos.
+:::
+
+::: {.about-card}
+### Tipos de material
+
+Se pueden proponer publicaciones científicas, tesis, proyectos de curso, notebooks, actividades educativas, fichas de objetos, material explicativo, scripts de análisis o recursos visuales con sus respectivos créditos.
+:::
+
+:::
+
+## Requisitos generales para contribuir
+
+::: {.about-highlight}
+Para mantener la calidad científica y pedagógica del catálogo, cada aporte debería incluir una descripción clara del contenido propuesto, referencias bibliográficas confiables, créditos de imágenes o datos externos, y una indicación de si el aporte corresponde a una publicación, tesis, proyecto estudiantil, actividad educativa o material complementario.
+:::
+
+::: {.about-card-wide}
+Las contribuciones serán revisadas antes de incorporarse al sitio, con el objetivo de mantener la coherencia científica, la claridad pedagógica, la trazabilidad de las fuentes y el formato general del catálogo.
+
+Esto permite que el sitio siga creciendo sin perder su estructura principal: un recurso educativo, reproducible y científicamente respaldado sobre discos protoplanetarios.
+:::
+
+## Cómo proponer una contribución
+
+::: {.about-grid-two}
+
+::: {.about-card}
+### Repositorio de GitHub
+
+Las propuestas pueden realizarse a través del repositorio del proyecto. Desde ahí es posible sugerir cambios, revisar la estructura del catálogo o proponer nuevas secciones.
+
+[Repositorio del proyecto](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog){.about-link}
+:::
+
+::: {.about-card}
+### Contacto
+
+También puedes contactar directamente a la autora para proponer una colaboración, corrección o nueva ficha.
+
+**Martina Ignacia Abarca Ibarra**  
+**Correo:** abarca.tina3@gmail.com
+:::
+
+:::
+
+## Créditos y uso de material externo
+
+::: {.about-card-wide}
+Los datos, imágenes astronómicas, archivos FITS, figuras de artículos científicos y otros materiales externos conservan sus licencias, créditos y condiciones de uso originales.
+
+Por esta razón, cualquier aporte que incluya material de terceros debe indicar claramente la fuente original y, cuando corresponda, las condiciones de uso o citación.
+:::

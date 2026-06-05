@@ -1,5 +1,5 @@
 ---
-title: "HD 163296 — Protoplanetary Disk"
+title: "HD 163296: disco protoplanetario"
 bibliography: references.bib
 format:
   html:
@@ -10,105 +10,149 @@ format:
 lightbox: true
 ---
 
-![ALMA image of the protoplanetary disk around HD 163296 showing prominent ring–gap substructures in the dust continuum. The disk exhibits several dust rings and gaps associated with pressure structures in the disk material. Image credit: ALMA (ESO/NAOJ/NRAO).](images/hd_163296_ficha.jpg){#fig-hd163296 fig-align="center" width="650"}
+![Imagen de ALMA del disco protoplanetario alrededor de HD 163296, donde se observan subestructuras prominentes de anillos y brechas en el continuo de polvo. El disco presenta varios anillos y brechas de polvo asociados con estructuras de presión en el material del disco. Crédito de imagen: ALMA (ESO/NAOJ/NRAO).](images/hd_163296_ficha.jpg){#fig-hd163296 fig-align="center" width="650"}
 
-As shown in @fig-hd163296, the HD 163296 disk exhibits multiple dark gaps and bright rings in the millimeter dust continuum emission.
+Como se muestra en la @fig-hd163296, el disco de HD 163296 presenta múltiples brechas oscuras y anillos brillantes en la emisión continua del polvo milimétrico.
 
-## Object names
+## Nombres del objeto
 
-| Catalog | Name | Source |
+| Catálogo | Nombre | Fuente |
 |---|---|---|
-| Main name | HD 163296 | [@isella2016] |
-| Other designations | MWC 275 | [@benisty2010] |
-| Location | Not specified in these papers | — |
+| Nombre principal | HD 163296 | [@isella2016] |
+| Otras designaciones | MWC 275 | [@benisty2010] |
+| Ubicación | No especificada en estos artículos | — |
 
-## Location
+## Ubicación
 
-HD 163296 is a young **Herbig Ae star** located at a distance of approximately **101–122 parsecs (~330–400 light-years)** from Earth [@isella2016; @rab2020].
+HD 163296 es una estrella joven de tipo **Herbig Ae**, ubicada a una distancia aproximada de **101–122 parsecs**, equivalente a unos **330–400 años luz** de la Tierra [@isella2016; @rab2020].
 
-The star belongs to the class of intermediate-mass pre–main sequence stars and is surrounded by one of the most extensively studied protoplanetary disks. Because the disk is large, bright, and relatively isolated, it provides an ideal laboratory for investigating the processes that shape planet-forming disks.
+La estrella pertenece a la clase de objetos de pre-secuencia principal de masa intermedia y está rodeada por uno de los discos protoplanetarios más estudiados. Debido a que el disco es grande, brillante y relativamente aislado, constituye un laboratorio ideal para investigar los procesos físicos que moldean los discos donde se forman planetas.
 
-## General description of the system
+## Descripción general del sistema
 
-HD 163296 is a protoplanetary disk surrounding a Herbig Ae star whose dust morphology has made it a benchmark system for the study of radial substructures; indeed, it has been described as “**the third system known to host multiple rings in dust emission at millimetre wavelength**” [@diep2019]. On global scales, the system combines a large, dynamically ordered gas disk—“**The gas disc is in Keplerian motion and has a radius of about 550 au, and the millimetre continuum emission from solid particles is confined to within 250 au of the star**”—with a more compact solid component, where earlier observations resolved “**three concentric gap-ring pairs**,” with gaps at ~54, ~100, and 160 au [@diep2019]. Higher-resolution observations further show that this architecture is not limited to simple concentric rings: “**The continuum observations resolve and allow us to characterize the previously discovered dust rings at radii of 68 and 100. They also reveal new small-scale structures, such as a dark gap at 10 au, a bright ring at 15 au, a dust crescent at a radius of 55 au, and several fainter azimuthal asymmetries**” [@isella2018]. In this sense, the dust distribution is not uniform but exhibits both radial and azimuthal variations, since “**The dust continuum emission is characterized by several asymmetric structures**,” and these features “**corroborate the hypothesis that the complex structure of the HD 163296 disk is the result of the gravitational interaction with yet-unseen planets**” [@isella2018].
+HD 163296 es un disco protoplanetario alrededor de una estrella Herbig Ae, cuya morfología de polvo lo ha convertido en un sistema de referencia para estudiar subestructuras radiales. El sistema combina un disco gaseoso grande y dinámicamente ordenado, en rotación kepleriana, con un componente sólido más compacto. En observaciones milimétricas, la emisión del polvo se encuentra confinada dentro de aproximadamente **250 au**, mientras que el gas se extiende mucho más lejos [@isella2016; @diep2019].
 
-## General system properties
+Observaciones anteriores resolvieron tres pares concéntricos de brecha-anillo, con brechas alrededor de **54, 100 y 160 au** [@diep2019]. Posteriormente, observaciones de mayor resolución mostraron que esta arquitectura es todavía más rica: además de los anillos y brechas principales, se identificaron un gap oscuro cerca de **10 au**, un anillo brillante alrededor de **15 au**, un crescent o concentración asimétrica de polvo cerca de **55 au**, y varias asimetrías azimutales más débiles [@isella2018].
 
-| Property | Value | Description | Source |
+En este sentido, la distribución de polvo de HD 163296 no es uniforme ni perfectamente axisimétrica. Presenta variaciones radiales y azimutales que sugieren una redistribución activa del material sólido. Estas estructuras apoyan la hipótesis de que la compleja arquitectura del disco podría estar siendo moldeada por interacción gravitacional con planetas aún no observados directamente [@isella2018].
+
+## Propiedades generales del sistema
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Distance | 101 ± 2 pc | Distance from Earth to the HD 163296 system. | [@pinte2020_dsharp] |
-| Evolutionary class | Herbig Ae | Evolutionary classification of the central star. | [@isella2018] |
-| Stellar mass | 2.04 M☉ | Mass adopted for the central star in the kinematic analysis. | [@pinte2020_dsharp] |
-| Gas disk size | >1000 au diameter | Approximate full diameter of the extended Keplerian gas disk. | [@isella2018] |
-| CO extent | ~560 au | Radial extent of the CO emission from the central star. | [@isella2018] |
-| Disk inclination | 46.7° | Inclination of the disk used to interpret the CO kinematics. | [@pinte2020_dsharp] |
-| Position angle | 133.3 ± 0.1° | Orientation of the disk major axis on the sky, derived from the outer dust rings. | [@isella2018] |
-| Bright dust rings | ~15, 67, 101 au | Main bright rings resolved in the 1.25 mm dust continuum. | [@isella2018] |
-| Main dark gaps | ~10, 45, 86, 141 au | Main dark gaps identified in the dust continuum emission. | [@isella2018] |
-| Dust crescents | ~4 and 55 au | Prominent asymmetric dust crescent structures seen in the continuum emission. | [@isella2018] |
+| Distancia | 101 ± 2 pc | Distancia desde la Tierra al sistema HD 163296. | [@pinte2020_dsharp] |
+| Clase evolutiva | Herbig Ae | Clasificación evolutiva de la estrella central. | [@isella2018] |
+| Masa estelar | 2.04 M☉ | Masa adoptada para la estrella central en el análisis cinemático. | [@pinte2020_dsharp] |
+| Tamaño del disco gaseoso | >1000 au de diámetro | Diámetro aproximado completo del disco gaseoso kepleriano extendido. | [@isella2018] |
+| Extensión de CO | ~560 au | Extensión radial de la emisión de CO desde la estrella central. | [@isella2018] |
+| Inclinación del disco | 46.7° | Inclinación usada para interpretar la cinemática del CO. | [@pinte2020_dsharp] |
+| Ángulo de posición | 133.3 ± 0.1° | Orientación del eje mayor del disco en el cielo, derivada de los anillos externos de polvo. | [@isella2018] |
+| Anillos brillantes de polvo | ~15, 67, 101 au | Principales anillos brillantes resueltos en el continuo de polvo a 1.25 mm. | [@isella2018] |
+| Brechas oscuras principales | ~10, 45, 86, 141 au | Principales brechas oscuras identificadas en la emisión continua del polvo. | [@isella2018] |
+| Crescents de polvo | ~4 y 55 au | Estructuras asimétricas prominentes observadas en el continuo de polvo. | [@isella2018] |
 
-## Disk morphology
+## Morfología del disco
 
-The morphology of HD 163296 can be described as that of a dust disk with a hierarchical architecture of rings and gaps: in the 1.3 mm continuum, the disk shows “**three concentric gap-ring pairs**,” and at higher resolution it presents “**much deeper gaps**” between the rings, more clearly defining the radial redistribution of dust [@diep2019]. To this global structure, @isella2018 add “**three new morphological features**,” including an inner dark gap at ~10 au, a bright ring at ~15 au, and a central azimuthal asymmetry, while in the outer disk “**the outermost features B67, D86, B100, D145, and B155, are well described by concentric circles**.” Beyond this concentric organization, the disk is not perfectly uniform: “**the image of the residuals shows fainter asymmetries along the B67 and B100 dust rings**” [@isella2018], and @diep2019 further conclude that the outer gap and outer ring display a “**significant modulation of their morphology and intensity**.” Altogether, HD 163296 exhibits a morphology in which gaps, rings, and local asymmetries coexist within a globally thin and well-organized disk structure.
+La morfología de HD 163296 puede describirse como la de un disco de polvo con una arquitectura jerárquica de anillos y brechas. En el continuo a 1.3 mm, el disco muestra tres pares concéntricos de brecha-anillo y, con mayor resolución, las brechas aparecen más profundas y mejor definidas [@diep2019]. Esto permite observar con más claridad la redistribución radial del polvo.
 
-## Morphology measurements
+A esta estructura global, Isella et al. (2018) agregan nuevas características morfológicas: una brecha interna oscura cerca de **10 au**, un anillo brillante alrededor de **15 au** y una asimetría azimutal central. En el disco externo, las estructuras **B67, D86, B100, D145 y B155** son bien descritas por círculos concéntricos [@isella2018].
 
-| Structure | Measurement | Description | Source |
+Sin embargo, el disco no es perfectamente uniforme. El mapa de residuos muestra asimetrías débiles a lo largo de los anillos **B67** y **B100**, mientras que el gap externo y el anillo externo presentan una modulación significativa de su morfología e intensidad [@isella2018; @diep2019].
+
+En conjunto, HD 163296 presenta una morfología donde coexisten brechas, anillos y asimetrías locales dentro de una estructura globalmente delgada y bien organizada.
+
+## Mediciones morfológicas
+
+| Estructura | Medición | Descripción | Fuente |
 |---|---|---|---|
-| Disk geometry | Inclination = 46.7 ± 0.1°; PA = 133.3 ± 0.1° | Mean geometry derived from the outer concentric structures. | [@isella2018] |
-| D10 | Radius = 9.96 ± 0.07 au | Inner dark gap in the 1.25 mm continuum; its lower apparent inclination is likely affected by beam smearing. | [@isella2018] |
-| B14 | Radius = 14.44 ± 0.07 au (ellipse fit); 15.5 ± 0.2 au (Gaussian model); width = 8.7 ± 0.2 au | Inner bright ring just outside D10; together with D10, it is spatially resolved mainly along the disk major axis. | [@isella2018] |
-| D45 | Radius = 44.77 ± 0.19 au | Dark gap in the inner outer-disk region; its morphology may be partly affected by the dust crescent at ~55 au. | [@isella2018] |
-| B67 | Radius = 66.99 ± 0.11 au (ellipse fit); 67.08 ± 0.03 au (Gaussian model); width = 6.56 ± 0.05 au; residual asymmetry = ±0.15 mJy beam⁻¹ | Bright outer ring; shows real azimuthal substructure beyond beam-scale noise. | [@isella2018] |
-| D86 | Radius = 86.61 ± 0.22 au | Dark gap between the two main outer bright rings. | [@isella2018] |
-| B100 | Radius = 99.69 ± 0.08 au (ellipse fit); 101.16 ± 0.04 au (Gaussian model); width = 5.8 ± 0.1 au; fainter asymmetries detected in residual map | Second major bright outer ring in the dust continuum. | [@isella2018] |
-| D141 | Radius = 140.62 ± 0.96 au | Outer dark gap identified in the continuum map. | [@isella2018] |
-| B159 | Radius = 158.7 ± 1.2 au | Outermost bright ring detected in the continuum map. | [@isella2018] |
-| C4 | Radius ≈ 4 au; PA = −44°; peak intensity = 0.55 mJy beam⁻¹; azimuthal extent ≈ 180° | Innermost crescent-like asymmetry, overlapping the innermost Gaussian ring component. | [@isella2018] |
-| C55 | Radius ≈ 55 au; PA = 99°; peak intensity = 0.64 mJy beam⁻¹; intrinsic widths = 2.2 au radial and 16.9 au azimuthal | Prominent dust crescent inside the D45 region. | [@isella2018] |
+| Geometría del disco | Inclinación = 46.7 ± 0.1°; PA = 133.3 ± 0.1° | Geometría media derivada de las estructuras concéntricas externas. | [@isella2018] |
+| D10 | Radio = 9.96 ± 0.07 au | Brecha oscura interna en el continuo a 1.25 mm; su menor inclinación aparente probablemente está afectada por el suavizado del haz. | [@isella2018] |
+| B14 | Radio = 14.44 ± 0.07 au mediante ajuste elíptico; 15.5 ± 0.2 au mediante modelo gaussiano; ancho = 8.7 ± 0.2 au | Anillo brillante interno justo fuera de D10; junto con D10, se resuelve principalmente a lo largo del eje mayor del disco. | [@isella2018] |
+| D45 | Radio = 44.77 ± 0.19 au | Brecha oscura en la región interna del disco externo; su morfología puede estar parcialmente afectada por el crescent de polvo cercano a 55 au. | [@isella2018] |
+| B67 | Radio = 66.99 ± 0.11 au mediante ajuste elíptico; 67.08 ± 0.03 au mediante modelo gaussiano; ancho = 6.56 ± 0.05 au; asimetría residual = ±0.15 mJy beam⁻¹ | Anillo brillante externo; muestra subestructura azimutal real más allá del ruido asociado al haz. | [@isella2018] |
+| D86 | Radio = 86.61 ± 0.22 au | Brecha oscura entre los dos principales anillos brillantes externos. | [@isella2018] |
+| B100 | Radio = 99.69 ± 0.08 au mediante ajuste elíptico; 101.16 ± 0.04 au mediante modelo gaussiano; ancho = 5.8 ± 0.1 au; se detectan asimetrías débiles en el mapa de residuos | Segundo anillo brillante externo principal en el continuo de polvo. | [@isella2018] |
+| D141 | Radio = 140.62 ± 0.96 au | Brecha oscura externa identificada en el mapa de continuo. | [@isella2018] |
+| B159 | Radio = 158.7 ± 1.2 au | Anillo brillante más externo detectado en el mapa de continuo. | [@isella2018] |
+| C4 | Radio ≈ 4 au; PA = −44°; intensidad máxima = 0.55 mJy beam⁻¹; extensión azimutal ≈ 180° | Asimetría interna tipo crescent, superpuesta al componente gaussiano más interno del anillo. | [@isella2018] |
+| C55 | Radio ≈ 55 au; PA = 99°; intensidad máxima = 0.64 mJy beam⁻¹; anchos intrínsecos = 2.2 au radial y 16.9 au azimutal | Crescent de polvo prominente dentro de la región de D45. | [@isella2018] |
 
-## Dust in the disk
+## Polvo en el disco
 
-In the case of HD 163296, dust dynamics—that is, the radial migration of solids toward local gas-pressure maxima—is interpreted as a key mechanism in the formation of the rings. These bright rings—“**the rings B67 and B100 of the HD 163296 disk, have a radial width that is narrower than the estimated pressure scale height of the gaseous disk**” [@isella2018]—suggest that the dust is concentrated and confined within relatively narrow regions. In addition to ring and gap structures, the disk also shows asymmetric dust concentrations: “**new small-scale structures, such as a dark gap at 10 au, a bright ring at 15 au, a dust crescent at a radius of 55 au, and several fainter azimuthal asymmetries**” [@isella2018]. Among these asymmetries, the most prominent correspond to crescents, since “**The dust continuum emission is characterized by several asymmetric structures. The most prominent consist in crescents centered at about 4 and 55 au**” [@isella2018]. For this reason, the dusty environment of the disk should be understood as dynamic rather than perfectly axisymmetric. This interpretation is further reinforced by the kinematic evidence presented by @pinte2020_dsharp, who note that “**upon deprojection, we find that all of the candidate planets lie within a gap and/or at the end of a spiral detected in dust continuum emission**.” In other words, the dust substructures not only describe where solid material is concentrated or redistributed, but also spatially coincide with possible embedded perturbers, supporting the idea that part of the observed dust architecture is being sculpted by forming protoplanets.
+En HD 163296, la dinámica del polvo, es decir, la migración radial de sólidos hacia máximos locales de presión del gas, se interpreta como un mecanismo clave para la formación de los anillos. Los anillos brillantes **B67** y **B100** tienen anchos radiales más estrechos que la altura de escala estimada del disco gaseoso, lo que sugiere que el polvo está concentrado y confinado en regiones relativamente angostas [@isella2018].
 
-## Dust properties
+Además de los anillos y brechas, el disco también muestra concentraciones asimétricas de polvo. Entre estas destacan estructuras tipo crescent centradas aproximadamente a **4 au** y **55 au**, junto con asimetrías azimutales más débiles [@isella2018]. Por esta razón, el ambiente de polvo del disco debe entenderse como dinámico y no como una estructura perfectamente axisimétrica.
 
-| Property | Value | Description | Source |
+Esta interpretación se refuerza con evidencia cinemática. Pinte et al. (2020) muestran que los candidatos a planetas se ubican dentro de una brecha y/o al final de una espiral detectada en el continuo de polvo [@pinte2020_dsharp]. En otras palabras, las subestructuras de polvo no solo indican dónde se concentra o redistribuye el material sólido, sino que también coinciden espacialmente con posibles perturbadores embebidos.
+
+## Propiedades del polvo
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Dust temperature at bright rings | B67: 24 K; B100: 15 K; B168: >6 K | Dust temperature, or lower limit, estimated from the continuum intensity at the main bright rings. | [@isella2018] |
-| Dust extinction optical depth | B67: 0.64 ± 0.05; B100: 0.74 ± 0.05; B168: 0.1 ± 0.2 | Total dust extinction at the rings, including both absorption and scattering. | [@isella2018] |
-| Dust scattering optical depth | B67: ~0.1–0.2; B100: ~0.2–0.4 | Estimated contribution of dust scattering in the main bright rings. | [@isella2018] |
-| Radial extent of the millimeter dust continuum | within 250 AU | Maximum distance from the star where the emission from large dust grains is clearly detected in the millimeter continuum. | [@isella2016] |
-| Dust depletion factor in the gaps | inner gap: ~13 to >100; middle gap: ~7 to 70; outer gap: ~3.6 to 6 | Measure of how much the dust density decreases inside each gap compared with the surrounding regions; higher values indicate more strongly dust-depleted gaps. | [@isella2016] |
+| Temperatura del polvo en anillos brillantes | B67: 24 K; B100: 15 K; B168: >6 K | Temperatura del polvo, o límite inferior, estimada a partir de la intensidad del continuo en los principales anillos brillantes. | [@isella2018] |
+| Profundidad óptica de extinción del polvo | B67: 0.64 ± 0.05; B100: 0.74 ± 0.05; B168: 0.1 ± 0.2 | Extinción total del polvo en los anillos, incluyendo absorción y dispersión. | [@isella2018] |
+| Profundidad óptica de dispersión del polvo | B67: ~0.1–0.2; B100: ~0.2–0.4 | Contribución estimada de la dispersión del polvo en los principales anillos brillantes. | [@isella2018] |
+| Extensión radial del continuo de polvo milimétrico | Dentro de 250 AU | Distancia máxima desde la estrella donde se detecta claramente la emisión de granos grandes en el continuo milimétrico. | [@isella2016] |
+| Factor de depleción de polvo en los gaps | Gap interno: ~13 a >100; gap medio: ~7 a 70; gap externo: ~3.6 a 6 | Medida de cuánto disminuye la densidad de polvo dentro de cada brecha respecto de las regiones circundantes; valores mayores indican brechas más depletadas en polvo. | [@isella2016] |
 
-## Gas in the disk
+## Gas en el disco
 
-According to the gas structure of HD 163296, the gaseous disk does not end where the millimeter dust continuum is observed, but instead extends much farther outward: “**The CO emission extends far beyond the outer edge of millimeter-wave continuum emission up to an angular distance of 5 6, or about 560 au, from the central star**” [@isella2018]. To understand how its geometry is observed, it is important to note that the CO-traced gas does not appear as a single layer, but as two warm emitting surfaces on the front and rear sides of the disk: “**The CO emission observed at intermediate velocities … shows a characteristic ‘dragonfly’ structure tracing both the front and rear warm CO-emitting layers of the disk**” [@isella2018]. The rear-side emission appears fainter because “**The emission coming from the rear of the disk is fainter than that from the front due to a combination of lower temperature of the emitting gas and absorption from the intervening material**” [@isella2018]. The separation between these two surfaces therefore makes it possible to infer the vertical structure of the gas, since “**the separation between the front and rear CO emission measures the vertical geometry of the CO-emitting surfaces**” [@isella2018]. In addition, the CO temperature decreases with distance from the star, reaching values “**as high as 120 K in the innermost disk regions and as low as 20 K at the disk outer edge**” [@isella2018]. Finally, the global motion of the gas follows an ordered rotation dominated by stellar gravity: “**The overall kinematics of the CO gas is well described by Keplerian rotation around a star with a mass of about 2.0 M⊙**” [@isella2018]. Unlike the dust, the gas does not trace prominent rings and gaps, but instead appears in a smoother way, since “**The maps of the 12CO, 13CO, and C18O J = 2 − 1 emission do not show such structures but reveal a change in the slope of the radial intensity profile across the positions of the dark rings in the continuum image**” [@isella2016]. This shows that what matters is not only how much gas is present, but also how it is redistributed relative to the dust, because “**we deduce that the gas-to-dust ratio varies across the disk and, in particular, it increases by at least a factor 5 within the inner dust gap compared to adjacent regions of the disk**” [@isella2016], suggesting that in this inner region the dust is more depleted than the gas.
+En HD 163296, el disco gaseoso no termina donde se observa el continuo de polvo milimétrico. Al contrario, la emisión de CO se extiende mucho más allá del borde externo del polvo, alcanzando aproximadamente **560 au** desde la estrella central [@isella2018].
 
-## Gas properties
+Para interpretar la geometría del gas, es importante considerar que el CO no aparece como una sola capa. Las observaciones muestran dos superficies emisoras cálidas, correspondientes al lado frontal y al lado posterior del disco. Esta estructura produce una morfología característica que permite inferir la geometría vertical de las capas emisoras de CO [@isella2018].
 
-| Property | Value | Description | Source |
+La emisión del lado posterior aparece más débil debido a una combinación de menor temperatura del gas emisor y absorción por material intermedio. La separación entre las capas frontal y posterior permite medir la geometría vertical de la superficie emisora de CO [@isella2018].
+
+La temperatura del gas trazado por CO disminuye con la distancia a la estrella: alcanza valores de hasta **120 K** en las regiones internas y baja hasta aproximadamente **20 K** en el borde externo del disco [@isella2018].
+
+En términos dinámicos, el movimiento global del gas está dominado por la gravedad estelar y se describe bien mediante rotación kepleriana alrededor de una estrella de aproximadamente **2.0 M☉** [@isella2018].
+
+A diferencia del polvo, el gas no muestra anillos y brechas tan marcados en los mapas de $^{12}$CO, $^{13}$CO y C$^{18}$O J = 2−1. Sin embargo, estos trazadores sí muestran cambios en la pendiente del perfil radial de intensidad en posiciones asociadas con las brechas oscuras del continuo [@isella2016]. Esto indica que gas y polvo no se distribuyen de la misma manera.
+
+En particular, la razón gas/polvo varía a través del disco y aumenta al menos por un factor de 5 dentro del gap interno de polvo, en comparación con regiones adyacentes [@isella2016]. Esto sugiere que en esa zona el polvo está más fuertemente depletado que el gas.
+
+## Propiedades del gas
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Radial extent of the CO emission | ~560 au | Maximum distance from the star at which CO-traced gas is still clearly detected; it shows that the gaseous disk extends much farther out than the millimeter dust continuum. | [@isella2018] |
-| Geometry of the CO-emitting layer | z<sub>CO</sub>(100 au) = 30 au; q = 0.5 | Describes the height of the warm CO-emitting surface above the disk midplane and how that height changes with radius; it summarizes the vertical structure of the observed gas. | [@isella2018] |
-| Temperature range of the CO-traced gas | inner disk: up to 120 K; outer edge: down to 20 K | Approximate temperature of the gas detected in CO from the inner regions to the outer disk; it shows that the gas is hotter near the star and colder at larger radii. | [@isella2018] |
-| Radial CO temperature profile | T<sub>CO</sub>(K) ≈ 87 − 0.14 (r/au), between 30 and 500 au | Empirical relation describing how the gas temperature decreases with distance from the star across a large fraction of the disk. | [@isella2018] |
-| Systemic velocity | 5.8 km s<sup>−1</sup> | Reference velocity of the HD 163296 system inferred from the CO observations; it is used to describe the disk’s overall rotation pattern. | [@isella2018] |
-| Gas kinematics | Keplerian rotation around a star of ~2.0 M☉ | Global dynamical behavior of the gas, consistent with a disk whose rotation is primarily governed by the gravity of the central star. | [@isella2018] |
-| Radius of the Keplerian gaseous disk | ~550 AU | Approximate size of the gaseous disk orbiting the star; it indicates how far the gas remains part of the main rotating disk structure. | [@isella2016] |
-| CO depletion in the gaps | inner gap: ΔCO1 = 0–2.5; middle gap: ΔCO2 = 3.5–70; outer gap: ΔCO3 = 1.8–6 | Measure of how strongly the CO-traced gas decreases inside each gap; higher values indicate a stronger reduction of gas in that region. | [@isella2016] |
-| Gas-to-dust ratio | ~40 at 100 AU; >1000 for r > 250 AU; at least 5 times higher inside the inner gap | Ratio between gaseous material and dust in different parts of the disk; it shows that gas and dust are not distributed in the same way, and that some regions are relatively more depleted in dust than in gas. | [@isella2016] |
-| Gas aspect ratio | h = 0.05 at 60 AU; 0.065 at 100 AU; 0.07 at 160 AU | Ratio between the thickness of the gaseous disk and its radius; it helps describe how vertically extended or “flared” the gas is in different regions of the disk. | [@isella2016] |
+| Extensión radial de la emisión de CO | ~560 au | Distancia máxima desde la estrella donde el gas trazado por CO todavía se detecta claramente; muestra que el disco gaseoso se extiende mucho más que el continuo de polvo milimétrico. | [@isella2018] |
+| Geometría de la capa emisora de CO | z<sub>CO</sub>(100 au) = 30 au; q = 0.5 | Describe la altura de la superficie cálida emisora de CO sobre el plano medio del disco y cómo cambia con el radio; resume la estructura vertical observada del gas. | [@isella2018] |
+| Rango de temperatura del gas trazado por CO | Disco interno: hasta 120 K; borde externo: hasta 20 K | Temperatura aproximada del gas detectado en CO desde las regiones internas hasta el disco externo; muestra que el gas es más caliente cerca de la estrella y más frío a radios mayores. | [@isella2018] |
+| Perfil radial de temperatura del CO | T<sub>CO</sub>(K) ≈ 87 − 0.14 (r/au), entre 30 y 500 au | Relación empírica que describe cómo la temperatura del gas disminuye con la distancia a la estrella en una gran parte del disco. | [@isella2018] |
+| Velocidad sistémica | 5.8 km s<sup>−1</sup> | Velocidad de referencia del sistema HD 163296 inferida a partir de observaciones de CO; se usa para describir el patrón global de rotación del disco. | [@isella2018] |
+| Cinemática del gas | Rotación kepleriana alrededor de una estrella de ~2.0 M☉ | Comportamiento dinámico global del gas, consistente con un disco cuya rotación está gobernada principalmente por la gravedad de la estrella central. | [@isella2018] |
+| Radio del disco gaseoso kepleriano | ~550 AU | Tamaño aproximado del disco gaseoso que orbita la estrella; indica hasta dónde el gas forma parte de la estructura principal en rotación. | [@isella2016] |
+| Depleción de CO en las brechas | Gap interno: ΔCO1 = 0–2.5; gap medio: ΔCO2 = 3.5–70; gap externo: ΔCO3 = 1.8–6 | Medida de cuánto disminuye el gas trazado por CO dentro de cada brecha; valores mayores indican una reducción más fuerte del gas en esa región. | [@isella2016] |
+| Razón gas/polvo | ~40 a 100 AU; >1000 para r > 250 AU; al menos 5 veces mayor dentro del gap interno | Razón entre material gaseoso y polvo en distintas zonas del disco; muestra que gas y polvo no se distribuyen de la misma manera y que algunas regiones están relativamente más depletadas en polvo que en gas. | [@isella2016] |
+| Relación de aspecto del gas | h = 0.05 a 60 AU; 0.065 a 100 AU; 0.07 a 160 AU | Razón entre el grosor del disco gaseoso y su radio; ayuda a describir qué tan verticalmente extendido o acampanado está el gas en distintas regiones. | [@isella2016] |
 
-## Evidence of planet formation
+## Evidencia de formación planetaria
 
-The architecture of HD 163296, particularly its gaps and rings, is linked to real perturbations in the disk gas rather than to changes in dust opacity alone, as shown by the fact that “The recent detection of deviations from Keplerian rotation at the location of the gaps and rings by Teague et al. (2018) confirms that these structures correspond to variations in the gas pressure (i.e., variations in the gas density and/or temperature), as opposed to radial changes in the dust opacity” [@isella2018]. In this context, comparisons between the observations and planet–disk interaction models suggest that several of these gaps may have been carved by planets, since “The comparison between the observations and planet–disk interaction models indicates that the density gaps might have been carved by planets with masses between 0.5 and 1 MJ orbiting at 48, 86, and 131 au from the central star” [@isella2018]. The paper also shows that this evidence does not rely on a single scenario, because under very low-viscosity conditions “the observed multiple ring structure may also result from the gravitational interaction with a single planet that is less massive than Saturn at 100 au orbital radius” [@isella2018]. In addition, substructures such as the crescent observed inside D45 reinforce this interpretation, since “features similar to the crescent observed inside the D45 gap (inset b of Figure 1) are naturally produced by the planet–disk interaction whenever the disk viscosity is low (α < 10−3) and the planet mass is above about 0.1 MJ” [@isella2018]. Finally, the continuum asymmetries are not interpreted merely as morphological details, but as further support for this hypothesis, because “these asymmetries trace local variations in the dust densities and support the hypothesis that the HD 163296 disk is shaped by the gravitational interaction with yet-unseen planets” [@isella2018]. This interpretation is extended by recent dynamical studies, in which HD 163296 “has been proposed to host at least four giant planets on wide orbits as well as a massive planetesimal disc” [@polychroni2025], so that the evidence for planet formation is not limited to the observed morphology, but also includes its consequences for the solid material in the system. Within that framework, “in our simulations the formation of giant planets in the HD 163296 system creates a large population of dynamically excited planetesimals, the majority of which originate from beyond the CO snowline” [@polychroni2025], and “HD 163296’s giant planets between 50 and 260 au are capable of delivering large amounts of planetesimals inwards of 40 au” [@polychroni2025], suggesting that the presence of young giant planets may not only sculpt rings and gaps, but also redistribute material toward the inner regions of the system.
+La arquitectura de HD 163296, especialmente sus anillos y brechas, se asocia con perturbaciones reales en el gas del disco y no solo con cambios de opacidad del polvo. La detección de desviaciones respecto de la rotación kepleriana en las posiciones de anillos y brechas confirma que estas estructuras están relacionadas con variaciones en la presión del gas, es decir, con cambios en la densidad y/o temperatura del gas [@isella2018].
 
-## Physical interpretation of HD 163296
+En este contexto, la comparación entre observaciones y modelos de interacción planeta-disco sugiere que varias brechas podrían haber sido abiertas por planetas. Isella et al. (2018) indican que las brechas de densidad podrían explicarse mediante planetas con masas entre **0.5 y 1 M_J**, orbitando aproximadamente a **48, 86 y 131 au** de la estrella central [@isella2018].
 
-HD 163296 can be physically interpreted as a disk in which dust is not distributed uniformly, but instead tends to accumulate in specific regions of the gas. In particular, “**Dullemond et al. (2018) finds that many of the continuum rings revealed by DSHARP observations, including the rings B67 and B100 of the HD 163296 disk, have a radial width that is narrower than the estimated pressure scale height of the gaseous disk, and conclude that this is strong evidence that these rings have formed by radial migration of dust particles toward local maxima of the gas pressure**” [@isella2018]. This suggests that the rings are not simply patterns seen in the image, but regions where dust has migrated and accumulated because the local gas pressure favors it. At the same time, this architecture develops within a thin disk, and the outer region is not perfectly uniform, since “**The disc is shown to be thin … Significant modulation of the intensity of the outer ring emission is revealed and discussed**” [@diep2019]. This complexity cannot be explained by smooth dust trapping alone, because “**the observed asymmetries in the dust continuum emission corroborate the hypothesis that the complex structure of the HD 163296 disk is the result of the gravitational interaction with yet-unseen planets**” [@isella2018]. Meanwhile, the gas preserves an overall ordered motion, given that “**The three line emissions display remarkably similar kinematics dominated by Keplerian rotation. An upper limit of 9% of the rotation velocity has been placed on a possible in-fall velocity**” [@diep2019]. Taken together, these results suggest a system in which the rings arise from dust concentration at gas-pressure maxima, while the more complex structures, such as asymmetries and brightness modulations, point to active interaction between the disk and possible forming planets.
+El mismo estudio también considera otro escenario: bajo condiciones de muy baja viscosidad, la estructura múltiple de anillos podría surgir por la interacción gravitacional con un único planeta de masa menor que Saturno, ubicado cerca de **100 au** [@isella2018].
 
-## References
+Además, subestructuras como el crescent observado dentro de D45 refuerzan esta interpretación. En discos de baja viscosidad, las interacciones planeta-disco pueden producir concentraciones asimétricas similares, especialmente si la masa planetaria supera aproximadamente **0.1 M_J** [@isella2018].
+
+Las asimetrías del continuo tampoco se interpretan como simples detalles morfológicos, sino como indicios de variaciones locales en la densidad de polvo. Estas variaciones apoyan la hipótesis de que la estructura compleja del disco de HD 163296 está siendo moldeada por interacción gravitacional con planetas todavía no observados directamente [@isella2018].
+
+Estudios dinámicos recientes extienden esta interpretación al proponer que HD 163296 podría albergar varios planetas gigantes en órbitas amplias, junto con un disco de planetesimales masivo [@polychroni2025]. En ese marco, la formación de planetas gigantes en el sistema puede excitar dinámicamente planetesimales y transportar material hacia regiones internas del disco [@polychroni2025]. Así, la evidencia de formación planetaria no se limita a la morfología observada, sino que también incluye sus posibles efectos sobre la redistribución de sólidos en el sistema.
+
+## Interpretación física de HD 163296
+
+HD 163296 puede interpretarse físicamente como un disco donde el polvo no está distribuido de forma uniforme, sino que tiende a acumularse en regiones específicas del gas. En particular, los anillos **B67** y **B100** son estrechos en comparación con la altura de escala estimada del disco gaseoso, lo que se interpreta como evidencia de que el polvo migró radialmente y se concentró en máximos locales de presión [@isella2018].
+
+Esto significa que los anillos no son solo patrones visuales en la imagen, sino regiones donde el polvo se ha acumulado porque la presión local del gas favorece su concentración.
+
+Al mismo tiempo, esta arquitectura se desarrolla dentro de un disco delgado y globalmente ordenado. La región externa no es perfectamente uniforme: presenta modulación significativa en la intensidad del anillo externo y asimetrías en la emisión de polvo [@diep2019; @isella2018].
+
+Esta complejidad no puede explicarse únicamente mediante atrapamiento suave de polvo. Las asimetrías observadas en el continuo apoyan la hipótesis de que la estructura compleja del disco es resultado de interacción gravitacional con planetas aún no detectados directamente [@isella2018].
+
+Mientras tanto, el gas conserva un movimiento global ordenado, dominado por rotación kepleriana [@diep2019]. En conjunto, estos resultados sugieren un sistema donde los anillos surgen por concentración de polvo en máximos de presión del gas, mientras que las estructuras más complejas, como asimetrías y modulaciones de brillo, apuntan a interacción activa entre el disco y posibles planetas en formación.
+
+## Referencias
 
 ::: {#refs}
 :::

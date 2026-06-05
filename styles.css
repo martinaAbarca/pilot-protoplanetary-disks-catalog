@@ -2091,3 +2091,1269 @@ main.content,
 #quarto-document-content {
   max-width: none !important;
 }
+
+/* ============================================================
+   Página: Sobre el proyecto - versión brillante
+   ============================================================ */
+
+.pagina-sobre-proyecto .quarto-title-block {
+  display: none;
+}
+
+.pagina-sobre-proyecto {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255, 79, 174, 0.26), transparent 28%),
+    radial-gradient(circle at 85% 20%, rgba(100, 217, 255, 0.16), transparent 30%),
+    radial-gradient(circle at 50% 85%, rgba(186, 82, 255, 0.18), transparent 35%),
+    #050308;
+}
+
+.pagina-sobre-proyecto main {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem 2rem;
+}
+
+.about-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 2rem 0 3.5rem 0;
+  padding: 4rem;
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 135, 210, 0.58), transparent 28%),
+    radial-gradient(circle at 85% 20%, rgba(110, 222, 255, 0.25), transparent 30%),
+    linear-gradient(135deg, rgba(172, 28, 117, 0.96), rgba(72, 14, 78, 0.95), rgba(15, 8, 24, 0.98));
+  border: 1px solid rgba(255, 160, 220, 0.55);
+  box-shadow:
+    0 0 45px rgba(255, 79, 174, 0.38),
+    0 0 100px rgba(186, 82, 255, 0.16),
+    inset 0 0 55px rgba(255, 255, 255, 0.06);
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.38) 0 1px, transparent 2px);
+  background-size: 42px 42px;
+  opacity: 0.18;
+  transform: rotate(12deg);
+  pointer-events: none;
+}
+
+.about-hero::after {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  right: -120px;
+  bottom: -150px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 79, 174, 0.48), transparent 65%);
+  filter: blur(8px);
+  opacity: 0.75;
+  pointer-events: none;
+}
+
+.about-hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+.about-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffe2f5;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.08);
+}
+
+.about-hero h1 {
+  max-width: 950px;
+  margin: 1rem 0 1.4rem 0;
+  font-size: clamp(3rem, 6vw, 6.2rem);
+  line-height: 0.95;
+  color: #ffffff;
+  letter-spacing: -0.06em;
+  text-shadow:
+    0 0 18px rgba(255, 255, 255, 0.18),
+    0 0 34px rgba(255, 79, 174, 0.35);
+}
+
+.about-hero p {
+  max-width: 950px;
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.93);
+}
+
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2.3rem;
+}
+
+.about-button,
+.about-button-secondary {
+  display: inline-block;
+  padding: 0.95rem 1.35rem;
+  border-radius: 999px;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.about-button {
+  background: linear-gradient(135deg, #ff4fae, #ff8acb);
+  color: #ffffff !important;
+  box-shadow:
+    0 0 24px rgba(255, 79, 174, 0.65),
+    0 8px 30px rgba(255, 79, 174, 0.28);
+}
+
+.about-button-secondary {
+  background: rgba(255, 255, 255, 0.13);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 0 0 22px rgba(255, 255, 255, 0.06);
+}
+
+.about-button:hover,
+.about-button-secondary:hover {
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+.about-button:hover {
+  box-shadow:
+    0 0 35px rgba(255, 79, 174, 0.9),
+    0 12px 40px rgba(255, 79, 174, 0.35);
+}
+
+.about-button-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 30px rgba(100, 217, 255, 0.22);
+}
+
+.pagina-sobre-proyecto h2 {
+  margin-top: 3.8rem;
+  margin-bottom: 1.4rem;
+  padding: 1rem 1.3rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(90deg, rgba(209, 39, 142, 0.96), rgba(87, 18, 80, 0.82), rgba(18, 8, 26, 0.25));
+  border-left: 6px solid #ff66bd;
+  color: #ffffff;
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+  box-shadow:
+    0 0 25px rgba(255, 79, 174, 0.2),
+    inset 0 0 24px rgba(255, 255, 255, 0.04);
+}
+
+.about-grid,
+.about-grid-two {
+  display: grid;
+  gap: 1.4rem;
+  margin: 1.3rem 0 2.3rem 0;
+}
+
+.about-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.about-grid-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.about-card,
+.about-card-wide,
+.about-highlight,
+.citation-box {
+  border-radius: 24px;
+  padding: 1.6rem;
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 174, 0.13), transparent 36%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.028));
+  border: 1px solid rgba(255, 145, 215, 0.28);
+  box-shadow:
+    0 14px 36px rgba(0, 0, 0, 0.32),
+    inset 0 0 22px rgba(255, 255, 255, 0.035);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.about-card:hover,
+.about-card-wide:hover,
+.about-highlight:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 130, 205, 0.55);
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.38),
+    0 0 30px rgba(255, 79, 174, 0.18);
+}
+
+.about-card h3 {
+  margin-top: 0;
+  color: #ff9bd3;
+  font-size: 1.28rem;
+  letter-spacing: -0.015em;
+}
+
+.about-card p,
+.about-card-wide p,
+.about-highlight p,
+.citation-box p {
+  line-height: 1.75;
+}
+
+.about-card-wide {
+  margin: 1.2rem 0 2.4rem 0;
+}
+
+.about-highlight {
+  margin: 1.2rem 0 2.4rem 0;
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 174, 0.25), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(100, 217, 255, 0.12), transparent 35%),
+    linear-gradient(135deg, rgba(92, 18, 76, 0.88), rgba(18, 10, 24, 0.92));
+}
+
+.citation-box {
+  margin: 1.1rem 0 1.8rem 0;
+  border-left: 6px solid #ff66bd;
+  background:
+    linear-gradient(135deg, rgba(255, 79, 174, 0.18), rgba(255, 255, 255, 0.045));
+  font-size: 1.08rem;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.about-link {
+  font-weight: 900;
+}
+
+.pagina-sobre-proyecto a {
+  color: #75e3ff;
+}
+
+.pagina-sobre-proyecto a:hover {
+  color: #b6f2ff;
+}
+
+@media (max-width: 1050px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid-two {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .pagina-sobre-proyecto main {
+    padding: 1rem;
+  }
+
+  .about-hero {
+    padding: 1.6rem;
+    border-radius: 24px;
+  }
+
+  .about-actions {
+    flex-direction: column;
+  }
+
+  .about-button,
+  .about-button-secondary {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ============================================================
+   Decoración espacial visible para Sobre el proyecto
+   ============================================================ */
+
+.pagina-sobre-proyecto {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Capas espaciales laterales */
+.space-side {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 28vw;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.95;
+}
+
+.space-left {
+  left: 0;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 90, 190, 0.55), transparent 18%),
+    radial-gradient(circle at 42% 68%, rgba(150, 80, 255, 0.38), transparent 22%),
+    radial-gradient(circle at 75% 35%, rgba(90, 220, 255, 0.24), transparent 18%),
+    radial-gradient(circle at 25% 35%, rgba(255,255,255,0.95) 0 1.3px, transparent 2.4px),
+    radial-gradient(circle at 55% 22%, rgba(255,255,255,0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 70% 78%, rgba(255,255,255,0.75) 0 1px, transparent 2px),
+    radial-gradient(circle at 15% 82%, rgba(255,255,255,0.9) 0 1.2px, transparent 2.2px),
+    radial-gradient(circle at 82% 55%, rgba(255,255,255,0.7) 0 1px, transparent 2px);
+  animation: spaceFloatLeft 14s ease-in-out infinite alternate,
+             spaceTwinkle 4s ease-in-out infinite;
+}
+
+.space-right {
+  right: 0;
+  background:
+    radial-gradient(circle at 82% 20%, rgba(255, 90, 190, 0.50), transparent 18%),
+    radial-gradient(circle at 58% 72%, rgba(150, 80, 255, 0.38), transparent 22%),
+    radial-gradient(circle at 25% 34%, rgba(90, 220, 255, 0.24), transparent 18%),
+    radial-gradient(circle at 75% 38%, rgba(255,255,255,0.95) 0 1.3px, transparent 2.4px),
+    radial-gradient(circle at 40% 18%, rgba(255,255,255,0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 30% 80%, rgba(255,255,255,0.75) 0 1px, transparent 2px),
+    radial-gradient(circle at 88% 76%, rgba(255,255,255,0.9) 0 1.2px, transparent 2.2px),
+    radial-gradient(circle at 18% 55%, rgba(255,255,255,0.7) 0 1px, transparent 2px);
+  animation: spaceFloatRight 16s ease-in-out infinite alternate,
+             spaceTwinkle 5s ease-in-out infinite;
+}
+
+/* Nebulosas grandes decorativas */
+.space-left::before,
+.space-right::before {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(35px);
+  opacity: 0.55;
+}
+
+.space-left::before {
+  left: -150px;
+  top: 25%;
+  background: rgba(255, 70, 180, 0.55);
+}
+
+.space-right::before {
+  right: -150px;
+  top: 45%;
+  background: rgba(120, 80, 255, 0.50);
+}
+
+/* Estrella fugaz izquierda */
+.space-left::after {
+  content: "";
+  position: absolute;
+  top: 18%;
+  left: 8%;
+  width: 130px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.95), transparent);
+  box-shadow: 0 0 18px rgba(255,255,255,0.85);
+  transform: rotate(-28deg);
+  animation: shootingStarLeft 6s ease-in-out infinite;
+}
+
+/* Estrella fugaz derecha */
+.space-right::after {
+  content: "";
+  position: absolute;
+  top: 62%;
+  right: 8%;
+  width: 130px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.95), transparent);
+  box-shadow: 0 0 18px rgba(255,255,255,0.85);
+  transform: rotate(28deg);
+  animation: shootingStarRight 7s ease-in-out infinite;
+}
+
+/* El contenido siempre queda encima */
+.pagina-sobre-proyecto main,
+.pagina-sobre-proyecto .navbar,
+.pagina-sobre-proyecto .about-hero,
+.pagina-sobre-proyecto h2,
+.pagina-sobre-proyecto .about-grid,
+.pagina-sobre-proyecto .about-grid-two,
+.pagina-sobre-proyecto .about-card,
+.pagina-sobre-proyecto .about-card-wide,
+.pagina-sobre-proyecto .about-highlight,
+.pagina-sobre-proyecto .citation-box {
+  position: relative;
+  z-index: 5;
+}
+
+@keyframes spaceFloatLeft {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  100% {
+    transform: translateY(-18px) translateX(8px) scale(1.04);
+  }
+}
+
+@keyframes spaceFloatRight {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  100% {
+    transform: translateY(18px) translateX(-8px) scale(1.04);
+  }
+}
+
+@keyframes spaceTwinkle {
+  0%, 100% {
+    opacity: 0.72;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes shootingStarLeft {
+  0%, 70%, 100% {
+    opacity: 0;
+    transform: translateX(-40px) translateY(20px) rotate(-28deg);
+  }
+  78% {
+    opacity: 1;
+  }
+  88% {
+    opacity: 0;
+    transform: translateX(120px) translateY(-55px) rotate(-28deg);
+  }
+}
+
+@keyframes shootingStarRight {
+  0%, 62%, 100% {
+    opacity: 0;
+    transform: translateX(40px) translateY(20px) rotate(28deg);
+  }
+  72% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+    transform: translateX(-120px) translateY(-55px) rotate(28deg);
+  }
+}
+
+/* En pantallas pequeñas bajamos la intensidad */
+@media (max-width: 900px) {
+  .space-side {
+    width: 16vw;
+    opacity: 0.45;
+  }
+
+  .space-left::after,
+  .space-right::after {
+    display: none;
+  }
+}
+
+/* ============================================================
+   Página principal: Index en español con estética espacial
+   ============================================================ */
+
+.pagina-index-catalogo {
+  position: relative;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 79, 174, 0.20), transparent 28%),
+    radial-gradient(circle at 90% 20%, rgba(100, 217, 255, 0.12), transparent 30%),
+    radial-gradient(circle at 50% 90%, rgba(186, 82, 255, 0.16), transparent 35%),
+    #050308;
+}
+
+/* Oculta título automático duplicado */
+.pagina-index-catalogo .quarto-title-block {
+  display: none;
+}
+
+.pagina-index-catalogo main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem 2rem;
+}
+
+/* Capas espaciales laterales */
+.pagina-index-catalogo .space-side {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 26vw;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.pagina-index-catalogo .space-left {
+  left: 0;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255, 90, 190, 0.55), transparent 18%),
+    radial-gradient(circle at 38% 64%, rgba(150, 80, 255, 0.34), transparent 22%),
+    radial-gradient(circle at 75% 35%, rgba(90, 220, 255, 0.20), transparent 18%),
+    radial-gradient(circle at 25% 35%, rgba(255,255,255,0.95) 0 1.3px, transparent 2.4px),
+    radial-gradient(circle at 55% 22%, rgba(255,255,255,0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 70% 78%, rgba(255,255,255,0.75) 0 1px, transparent 2px),
+    radial-gradient(circle at 15% 82%, rgba(255,255,255,0.9) 0 1.2px, transparent 2.2px);
+  animation: indexSpaceFloatLeft 16s ease-in-out infinite alternate,
+             indexSpaceTwinkle 5s ease-in-out infinite;
+}
+
+.pagina-index-catalogo .space-right {
+  right: 0;
+  background:
+    radial-gradient(circle at 82% 20%, rgba(255, 90, 190, 0.46), transparent 18%),
+    radial-gradient(circle at 58% 72%, rgba(150, 80, 255, 0.34), transparent 22%),
+    radial-gradient(circle at 25% 34%, rgba(90, 220, 255, 0.20), transparent 18%),
+    radial-gradient(circle at 75% 38%, rgba(255,255,255,0.95) 0 1.3px, transparent 2.4px),
+    radial-gradient(circle at 40% 18%, rgba(255,255,255,0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 30% 80%, rgba(255,255,255,0.75) 0 1px, transparent 2px),
+    radial-gradient(circle at 88% 76%, rgba(255,255,255,0.9) 0 1.2px, transparent 2.2px);
+  animation: indexSpaceFloatRight 18s ease-in-out infinite alternate,
+             indexSpaceTwinkle 6s ease-in-out infinite;
+}
+
+.pagina-index-catalogo .space-left::before,
+.pagina-index-catalogo .space-right::before {
+  content: "";
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  border-radius: 50%;
+  filter: blur(38px);
+  opacity: 0.55;
+}
+
+.pagina-index-catalogo .space-left::before {
+  left: -160px;
+  top: 18%;
+  background: rgba(255, 70, 180, 0.56);
+}
+
+.pagina-index-catalogo .space-right::before {
+  right: -160px;
+  top: 44%;
+  background: rgba(120, 80, 255, 0.52);
+}
+
+.pagina-index-catalogo .space-left::after,
+.pagina-index-catalogo .space-right::after {
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.95), transparent);
+  box-shadow: 0 0 20px rgba(255,255,255,0.9);
+}
+
+.pagina-index-catalogo .space-left::after {
+  top: 18%;
+  left: 7%;
+  transform: rotate(-28deg);
+  animation: indexShootingStarLeft 7s ease-in-out infinite;
+}
+
+.pagina-index-catalogo .space-right::after {
+  top: 62%;
+  right: 8%;
+  transform: rotate(28deg);
+  animation: indexShootingStarRight 8s ease-in-out infinite;
+}
+
+/* Contenido por encima de las animaciones */
+.pagina-index-catalogo main,
+.pagina-index-catalogo .catalog-hero,
+.pagina-index-catalogo h2,
+.pagina-index-catalogo .disk-grid,
+.pagina-index-catalogo .activity-grid,
+.pagina-index-catalogo .tracer-gallery,
+.pagina-index-catalogo .substructure-grid-clean,
+.pagina-index-catalogo .dust-planets-section,
+.pagina-index-catalogo .after-phase-section,
+.pagina-index-catalogo .disk-evolution-section,
+.pagina-index-catalogo .catalog-use-box,
+.pagina-index-catalogo .substructure-gallery {
+  position: relative;
+  z-index: 5;
+}
+
+/* Hero principal */
+.pagina-index-catalogo .catalog-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 2.2rem 0 3.5rem 0;
+  padding: 3.2rem;
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 135, 210, 0.55), transparent 28%),
+    radial-gradient(circle at 85% 20%, rgba(110, 222, 255, 0.22), transparent 30%),
+    linear-gradient(135deg, rgba(172, 28, 117, 0.96), rgba(72, 14, 78, 0.95), rgba(15, 8, 24, 0.98));
+  border: 1px solid rgba(255, 160, 220, 0.55);
+  box-shadow:
+    0 0 45px rgba(255, 79, 174, 0.36),
+    0 0 100px rgba(186, 82, 255, 0.14),
+    inset 0 0 55px rgba(255, 255, 255, 0.06);
+}
+
+.pagina-index-catalogo .catalog-hero::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.34) 0 1px, transparent 2px);
+  background-size: 40px 40px;
+  opacity: 0.16;
+  transform: rotate(12deg);
+  pointer-events: none;
+}
+
+.pagina-index-catalogo .catalog-hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+.pagina-index-catalogo .catalog-hero-text {
+  max-width: 760px;
+}
+
+.pagina-index-catalogo .catalog-hero h1 {
+  margin: 1rem 0 1.3rem 0;
+  font-size: clamp(3rem, 6vw, 6.4rem);
+  line-height: 0.95;
+  color: #ffffff;
+  letter-spacing: -0.06em;
+  text-shadow:
+    0 0 18px rgba(255, 255, 255, 0.18),
+    0 0 34px rgba(255, 79, 174, 0.35);
+}
+
+.pagina-index-catalogo .catalog-hero p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.93);
+}
+
+.pagina-index-catalogo .hero-kicker {
+  display: inline-flex;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffe2f5;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.pagina-index-catalogo .hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.3rem 0 2rem 0;
+}
+
+.pagina-index-catalogo .hero-badge {
+  padding: 0.48rem 0.78rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffe6f5;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-weight: 750;
+  font-size: 0.9rem;
+}
+
+.pagina-index-catalogo .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+.pagina-index-catalogo .hero-button {
+  display: inline-block;
+  padding: 0.9rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 900;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.pagina-index-catalogo .hero-button-primary {
+  background: linear-gradient(135deg, #ff4fae, #ff8acb);
+  color: #ffffff !important;
+  box-shadow:
+    0 0 24px rgba(255, 79, 174, 0.65),
+    0 8px 30px rgba(255, 79, 174, 0.28);
+}
+
+.pagina-index-catalogo .hero-button-secondary {
+  background: rgba(255, 255, 255, 0.13);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.pagina-index-catalogo .hero-button:hover {
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+.pagina-index-catalogo .catalog-hero-image {
+  align-self: center;
+}
+
+.pagina-index-catalogo .catalog-hero-photo {
+  border-radius: 24px;
+  border: 1px solid rgba(255, 160, 220, 0.35);
+  box-shadow:
+    0 0 28px rgba(255, 79, 174, 0.22),
+    0 18px 42px rgba(0, 0, 0, 0.35);
+}
+
+.pagina-index-catalogo .hero-image-caption {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* Títulos de sección */
+.pagina-index-catalogo h2 {
+  margin-top: 3.8rem;
+  margin-bottom: 1.4rem;
+  padding: 1rem 1.3rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(90deg, rgba(209, 39, 142, 0.96), rgba(87, 18, 80, 0.82), rgba(18, 8, 26, 0.25));
+  border-left: 6px solid #ff66bd;
+  color: #ffffff;
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+  box-shadow:
+    0 0 25px rgba(255, 79, 174, 0.2),
+    inset 0 0 24px rgba(255, 255, 255, 0.04);
+}
+
+.pagina-index-catalogo h3 {
+  color: #ff9bd3;
+}
+
+/* Bloques y tarjetas */
+.pagina-index-catalogo .section-intro,
+.pagina-index-catalogo .index-highlight,
+.pagina-index-catalogo .catalog-use-box,
+.pagina-index-catalogo .dust-intro-box,
+.pagina-index-catalogo .dust-bridge-box,
+.pagina-index-catalogo .after-phase-hero,
+.pagina-index-catalogo .after-phase-takeaway,
+.pagina-index-catalogo .evolution-intro-box,
+.pagina-index-catalogo .evolution-takeaway {
+  border-radius: 24px;
+  padding: 1.6rem;
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 174, 0.18), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.028));
+  border: 1px solid rgba(255, 145, 215, 0.28);
+  box-shadow:
+    0 14px 36px rgba(0, 0, 0, 0.32),
+    inset 0 0 22px rgba(255, 255, 255, 0.035);
+}
+
+.pagina-index-catalogo .disk-card,
+.pagina-index-catalogo .activity-card,
+.pagina-index-catalogo .tracer-card,
+.pagina-index-catalogo .dust-pathway-card,
+.pagina-index-catalogo .planet-example-card,
+.pagina-index-catalogo .debris-figure-card,
+.pagina-index-catalogo .debris-definition-card,
+.pagina-index-catalogo .hybrid-study-card,
+.pagina-index-catalogo .hybrid-mini-card,
+.pagina-index-catalogo .evolution-mechanism-card,
+.pagina-index-catalogo .evolution-example-card {
+  border-radius: 24px;
+  padding: 1.3rem;
+  background:
+    radial-gradient(circle at top left, rgba(255, 79, 174, 0.13), transparent 36%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.028));
+  border: 1px solid rgba(255, 145, 215, 0.28);
+  box-shadow:
+    0 14px 36px rgba(0, 0, 0, 0.32),
+    inset 0 0 22px rgba(255, 255, 255, 0.035);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.pagina-index-catalogo .disk-card:hover,
+.pagina-index-catalogo .activity-card:hover,
+.pagina-index-catalogo .tracer-card:hover,
+.pagina-index-catalogo .dust-pathway-card:hover,
+.pagina-index-catalogo .planet-example-card:hover,
+.pagina-index-catalogo .evolution-example-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 130, 205, 0.55);
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.38),
+    0 0 34px rgba(255, 79, 174, 0.22);
+}
+
+.pagina-index-catalogo .disk-card img,
+.pagina-index-catalogo .tracer-card img,
+.pagina-index-catalogo .debris-image,
+.pagina-index-catalogo .substructure-gallery img {
+  border-radius: 18px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.36);
+}
+
+/* Grillas */
+.pagina-index-catalogo .disk-grid,
+.pagina-index-catalogo .activity-grid,
+.pagina-index-catalogo .tracer-gallery,
+.pagina-index-catalogo .dust-pathway-grid,
+.pagina-index-catalogo .planet-example-grid,
+.pagina-index-catalogo .evolution-mechanism-grid,
+.pagina-index-catalogo .evolution-example-grid,
+.pagina-index-catalogo .hybrid-mini-grid {
+  display: grid;
+  gap: 1.35rem;
+}
+
+.pagina-index-catalogo .disk-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pagina-index-catalogo .activity-grid,
+.pagina-index-catalogo .planet-example-grid,
+.pagina-index-catalogo .evolution-example-grid,
+.pagina-index-catalogo .hybrid-mini-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.pagina-index-catalogo .tracer-gallery,
+.pagina-index-catalogo .dust-pathway-grid,
+.pagina-index-catalogo .evolution-mechanism-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* Subestructuras */
+.pagina-index-catalogo .substructure-grid-clean {
+  display: grid;
+  gap: 1rem;
+}
+
+.pagina-index-catalogo .substructure-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1rem;
+  align-items: stretch;
+  padding: 1.1rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 145, 215, 0.22);
+}
+
+.pagina-index-catalogo .substructure-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ff4fae, #8d45ff);
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 1.15rem;
+}
+
+.pagina-index-catalogo .substructure-text {
+  line-height: 1.7;
+}
+
+/* Enlaces */
+.pagina-index-catalogo a {
+  color: #75e3ff;
+}
+
+.pagina-index-catalogo a:hover {
+  color: #b6f2ff;
+}
+
+.pagina-index-catalogo .disk-link {
+  font-weight: 900;
+}
+
+/* Animaciones */
+@keyframes indexSpaceFloatLeft {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  100% {
+    transform: translateY(-18px) translateX(8px) scale(1.04);
+  }
+}
+
+@keyframes indexSpaceFloatRight {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  100% {
+    transform: translateY(18px) translateX(-8px) scale(1.04);
+  }
+}
+
+@keyframes indexSpaceTwinkle {
+  0%, 100% {
+    opacity: 0.72;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes indexShootingStarLeft {
+  0%, 70%, 100% {
+    opacity: 0;
+    transform: translateX(-40px) translateY(20px) rotate(-28deg);
+  }
+  78% {
+    opacity: 1;
+  }
+  88% {
+    opacity: 0;
+    transform: translateX(120px) translateY(-55px) rotate(-28deg);
+  }
+}
+
+@keyframes indexShootingStarRight {
+  0%, 62%, 100% {
+    opacity: 0;
+    transform: translateX(40px) translateY(20px) rotate(28deg);
+  }
+  72% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+    transform: translateX(-120px) translateY(-55px) rotate(28deg);
+  }
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .pagina-index-catalogo .disk-grid,
+  .pagina-index-catalogo .tracer-gallery,
+  .pagina-index-catalogo .dust-pathway-grid,
+  .pagina-index-catalogo .evolution-mechanism-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 820px) {
+  .pagina-index-catalogo main {
+    padding: 1rem;
+  }
+
+  .pagina-index-catalogo .catalog-hero {
+    padding: 2rem;
+  }
+
+  .pagina-index-catalogo .disk-grid,
+  .pagina-index-catalogo .activity-grid,
+  .pagina-index-catalogo .tracer-gallery,
+  .pagina-index-catalogo .dust-pathway-grid,
+  .pagina-index-catalogo .planet-example-grid,
+  .pagina-index-catalogo .evolution-mechanism-grid,
+  .pagina-index-catalogo .evolution-example-grid,
+  .pagina-index-catalogo .hybrid-mini-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pagina-index-catalogo .substructure-row {
+    grid-template-columns: 1fr;
+  }
+
+  .pagina-index-catalogo .hero-actions {
+    flex-direction: column;
+  }
+
+  .pagina-index-catalogo .hero-button {
+    text-align: center;
+  }
+
+  .pagina-index-catalogo .space-side {
+    width: 14vw;
+    opacity: 0.42;
+  }
+}
+
+/* ============================================================
+   Más estrellas fugaces para la portada
+   ============================================================ */
+
+.pagina-index-catalogo .index-hero {
+  position: relative;
+}
+
+/* Estrellas fugaces dentro del hero principal */
+.pagina-index-catalogo .index-hero::after {
+  content: "";
+  position: absolute;
+  top: 18%;
+  left: -20%;
+  width: 180px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.95), transparent);
+  box-shadow:
+    0 0 18px rgba(255,255,255,0.9),
+    0 0 32px rgba(255, 120, 210, 0.7);
+  transform: rotate(-24deg);
+  opacity: 0;
+  animation: heroShootingStar 8s ease-in-out infinite;
+}
+
+/* Segunda estrella fugaz en el hero */
+.pagina-index-catalogo .index-hero::before {
+  content: "";
+  position: absolute;
+  top: 68%;
+  right: -25%;
+  width: 150px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.95), transparent);
+  box-shadow:
+    0 0 18px rgba(255,255,255,0.85),
+    0 0 30px rgba(120, 220, 255, 0.65);
+  transform: rotate(22deg);
+  opacity: 0;
+  animation: heroShootingStarReverse 10s ease-in-out infinite;
+}
+
+/* Estrellas extra en los costados */
+.pagina-index-catalogo .space-left {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255, 90, 190, 0.55), transparent 18%),
+    radial-gradient(circle at 38% 64%, rgba(150, 80, 255, 0.34), transparent 22%),
+    radial-gradient(circle at 75% 35%, rgba(90, 220, 255, 0.20), transparent 18%),
+    radial-gradient(circle at 25% 35%, rgba(255,255,255,0.95) 0 1.3px, transparent 2.4px),
+    radial-gradient(circle at 55% 22%, rgba(255,255,255,0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 70% 78%, rgba(255,255,255,0.75) 0 1px, transparent 2px),
+    radial-gradient(circle at 15% 82%, rgba(255,255,255,0.9) 0 1.2px, transparent 2.2px),
+    radial-gradient(circle at 42% 12%, rgba(255,255,255,0.95) 0 1px, transparent 2px),
+    radial-gradient(circle at 88% 48%, rgba(255,255,255,0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 12% 55%, rgba(255,255,255,0.75) 0 1px, transparent 2px);
+}
+
+.pagina-index-catalogo .space-right {
+  background:
+    radial-gradient(circle at 82% 20%, rgba(255, 90, 190, 0.46), transparent 18%),
+    radial-gradient(circle at 58% 72%, rgba(150, 80, 255, 0.34), transparent 22%),
+    radial-gradient(circle at 25% 34%, rgba(90, 220, 255, 0.20), transparent 18%),
+    radial-gradient(circle at 75% 38%, rgba(255,255,255,0.95) 0 1.3px, transparent 2.4px),
+    radial-gradient(circle at 40% 18%, rgba(255,255,255,0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 30% 80%, rgba(255,255,255,0.75) 0 1px, transparent 2px),
+    radial-gradient(circle at 88% 76%, rgba(255,255,255,0.9) 0 1.2px, transparent 2.2px),
+    radial-gradient(circle at 62% 10%, rgba(255,255,255,0.95) 0 1px, transparent 2px),
+    radial-gradient(circle at 12% 52%, rgba(255,255,255,0.8) 0 1px, transparent 2px),
+    radial-gradient(circle at 92% 44%, rgba(255,255,255,0.75) 0 1px, transparent 2px);
+}
+
+@keyframes heroShootingStar {
+  0%, 58%, 100% {
+    opacity: 0;
+    transform: translateX(0) translateY(0) rotate(-24deg);
+  }
+  64% {
+    opacity: 1;
+  }
+  74% {
+    opacity: 0;
+    transform: translateX(520px) translateY(-210px) rotate(-24deg);
+  }
+}
+
+@keyframes heroShootingStarReverse {
+  0%, 38%, 100% {
+    opacity: 0;
+    transform: translateX(0) translateY(0) rotate(22deg);
+  }
+  45% {
+    opacity: 1;
+  }
+  56% {
+    opacity: 0;
+    transform: translateX(-520px) translateY(-190px) rotate(22deg);
+  }
+}
+
+/* ============================================================
+   Estrellas fugaces visibles en la portada
+   ============================================================ */
+
+.pagina-index-catalogo .shooting-stars-index {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.pagina-index-catalogo .shooting-star-index {
+  position: absolute;
+  display: block;
+  width: 190px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 1),
+    rgba(255, 160, 220, 0.95),
+    transparent
+  );
+  box-shadow:
+    0 0 14px rgba(255, 255, 255, 0.95),
+    0 0 28px rgba(255, 100, 200, 0.9),
+    0 0 42px rgba(120, 220, 255, 0.45);
+  opacity: 0;
+}
+
+/* Estrella 1 */
+.pagina-index-catalogo .star-a {
+  top: 16%;
+  left: -12%;
+  transform: rotate(-24deg);
+  animation: shootingAcrossA 6s ease-in-out infinite;
+}
+
+/* Estrella 2 */
+.pagina-index-catalogo .star-b {
+  top: 32%;
+  right: -15%;
+  transform: rotate(24deg);
+  animation: shootingAcrossB 8s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+/* Estrella 3 */
+.pagina-index-catalogo .star-c {
+  top: 58%;
+  left: -18%;
+  transform: rotate(-20deg);
+  animation: shootingAcrossA 9s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+/* Estrella 4 */
+.pagina-index-catalogo .star-d {
+  top: 74%;
+  right: -16%;
+  transform: rotate(22deg);
+  animation: shootingAcrossB 7s ease-in-out infinite;
+  animation-delay: 4.3s;
+}
+
+/* Estrella 5 */
+.pagina-index-catalogo .star-e {
+  top: 10%;
+  right: -20%;
+  transform: rotate(18deg);
+  animation: shootingAcrossB 11s ease-in-out infinite;
+  animation-delay: 5.5s;
+}
+
+@keyframes shootingAcrossA {
+  0%, 55%, 100% {
+    opacity: 0;
+    transform: translateX(0) translateY(0) rotate(-24deg);
+  }
+
+  62% {
+    opacity: 1;
+  }
+
+  78% {
+    opacity: 0;
+    transform: translateX(135vw) translateY(-45vh) rotate(-24deg);
+  }
+}
+
+@keyframes shootingAcrossB {
+  0%, 50%, 100% {
+    opacity: 0;
+    transform: translateX(0) translateY(0) rotate(24deg);
+  }
+
+  58% {
+    opacity: 1;
+  }
+
+  76% {
+    opacity: 0;
+    transform: translateX(-135vw) translateY(-42vh) rotate(24deg);
+  }
+}
+
+/* Asegura que el contenido quede encima de las estrellas */
+.pagina-index-catalogo main,
+.pagina-index-catalogo .catalog-hero,
+.pagina-index-catalogo h2,
+.pagina-index-catalogo .disk-grid,
+.pagina-index-catalogo .activity-grid,
+.pagina-index-catalogo .tracer-gallery,
+.pagina-index-catalogo .substructure-grid-clean,
+.pagina-index-catalogo .dust-planets-section,
+.pagina-index-catalogo .after-phase-section,
+.pagina-index-catalogo .disk-evolution-section,
+.pagina-index-catalogo .catalog-use-box,
+.pagina-index-catalogo .substructure-gallery {
+  position: relative;
+  z-index: 5;
+}
+
+/* Ocultar título automático de Quarto en la portada */
+.pagina-index-catalogo .quarto-title-block,
+.pagina-index-catalogo header.quarto-title-block,
+.pagina-index-catalogo .quarto-title,
+.pagina-index-catalogo .quarto-title-banner {
+  display: none !important;
+}
+
+/* Título interno más pequeño en Sobre el proyecto */
+.pagina-sobre-proyecto .about-hero-title-small {
+  font-size: clamp(2rem, 4.2vw, 4rem);
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: #fff7fb;
+  max-width: 760px;
+  margin: 1rem 0 1.4rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 74, 170, 0.72),
+    rgba(120, 50, 160, 0.35)
+  );
+  box-shadow:
+    0 0 18px rgba(255, 83, 180, 0.22),
+    inset 0 0 18px rgba(255, 255, 255, 0.04);
+}

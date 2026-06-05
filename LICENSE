@@ -1,13 +1,30 @@
+Project: Catálogo web interactivo de discos protoplanetarios a nivel piloto:
+Una herramienta pedagógica para explorar la morfología y los procesos físicos asociados a la formación planetaria
+
+Author: Martina Ignacia Abarca Ibarra
+Institution: Universidad de Santiago de Chile
+Academic program: Astrofísica con mención en Ciencia de Datos
+Project type: Completed and approved thesis project
+Funding: Proyecto DICYT de la Vicerrectoría de Investigación, Innovación y Creación de la Universidad de Santiago de Chile
+
+Website: https://martinaabarca.github.io/pilot-protoplanetary-disks-catalog/
+Source code repository: https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog
+Zenodo record: https://zenodo.org/records/20515766
+Version DOI: https://doi.org/10.5281/zenodo.20515766
+General DOI: https://doi.org/10.5281/zenodo.20513393
+
+
 MIT License for source code
 
 Copyright (c) 2026 Martina Ignacia Abarca Ibarra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of the source code files in this repository, including scripts, stylesheets,
-JavaScript files, notebooks, and Quarto source files, to deal in the Software
-without restriction, including without limitation the rights to use, copy,
-modify, merge, publish, distribute, sublicense, and/or sell copies of the
-Software, subject to the following conditions:
+JavaScript files, notebooks, Quarto source files, configuration files, and
+other software components, to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, subject to the
+following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -20,16 +37,29 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 Creative Commons Attribution 4.0 International License for educational content
 
 Except where otherwise noted, the educational text, catalog descriptions,
-tables, diagrams, and original documentation in this repository are licensed
-under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+tables, diagrams, original documentation, and original pedagogical material
+included in this repository are licensed under the Creative Commons Attribution
+4.0 International License (CC BY 4.0).
 
-This means that others may share and adapt the material, provided that proper
-credit is given to the author.
+This means that others may share and adapt the educational material, provided
+that proper credit is given to the author and that the original source is
+appropriately cited.
+
+Suggested citation:
+
+Abarca Ibarra, M. I. (2026). Catálogo web interactivo de discos protoplanetarios
+a nivel piloto: Una herramienta pedagógica para explorar la morfología y los
+procesos físicos asociados a la formación planetaria. Zenodo.
+https://doi.org/10.5281/zenodo.20515766
 
 
 Third-party material
 
 External datasets, astronomical images, FITS files, article figures, logos,
-and bibliographic sources included or referenced in this project remain under
-their original licenses and citation requirements. They are not relicensed by
-this repository.
+bibliographic sources, and any other third-party materials included or
+referenced in this project remain under their original licenses, credits, and
+citation requirements.
+
+These third-party materials are not relicensed by this repository. Users who
+reuse such materials must consult and respect the original source, license, and
+usage conditions.

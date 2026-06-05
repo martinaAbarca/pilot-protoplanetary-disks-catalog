@@ -1,92 +1,173 @@
 ---
 title: "Sobre el proyecto"
 page-layout: full
+toc: false
+body-class: "pagina-sobre-proyecto"
+format:
+  html:
+    css: styles.css
 ---
 
-# Sobre el proyecto
+<div class="space-side space-left"></div>
+<div class="space-side space-right"></div>
+
+::: {.about-hero}
+
+::: {.about-kicker}
+Proyecto de tesis · Universidad de Santiago de Chile · DOI Zenodo
+:::
+
+<h2 class="about-hero-title-small">Catálogo piloto de discos protoplanetarios</h2>
 
 Este sitio web corresponde al **Catálogo piloto de discos protoplanetarios**, desarrollado por **Martina Ignacia Abarca Ibarra** como proyecto de tesis para obtener el título de **Astrofísica con mención en Ciencia de Datos** en la **Universidad de Santiago de Chile**.
 
-El catálogo fue diseñado como una herramienta pedagógica, interactiva y reproducible para organizar información científica sobre discos protoplanetarios, sus subestructuras, propiedades de gas y polvo, evidencia de formación planetaria, actividades de ciencia de datos y una simulación sintética.
+El catálogo fue diseñado como una herramienta **pedagógica, interactiva y reproducible** para organizar información científica sobre discos protoplanetarios, sus subestructuras, propiedades de gas y polvo, evidencia de formación planetaria, actividades de ciencia de datos y una simulación sintética.
+
+::: {.about-actions}
+[Descargar tesis en PDF](documents/tesis_martina_abarca.pdf){.about-button}
+[Ver repositorio en GitHub](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog){.about-button-secondary}
+[Ver registro en Zenodo](https://doi.org/10.5281/zenodo.20513393){.about-button-secondary}
+:::
+
+:::
+
+## Información general
+
+::: {.about-grid}
+
+::: {.about-card}
+### Autoría
+
+**Autora:** Martina Ignacia Abarca Ibarra  
+**Institución:** Universidad de Santiago de Chile  
+**Carrera:** Astrofísica con mención en Ciencia de Datos  
+
+Este proyecto fue desarrollado como parte del trabajo de tesis de la autora.
+:::
+
+::: {.about-card}
+### Propósito del catálogo
 
 El objetivo principal del sitio es transformar información proveniente de la literatura científica en un recurso educativo accesible, estructurado y ampliable.
 
----
+El catálogo busca conectar conceptos de astronomía, formación planetaria, ciencia de datos y visualización interactiva.
+:::
+
+::: {.about-card}
+### Contenido del sitio
+
+El sitio incluye fichas de discos protoplanetarios, tablas de propiedades físicas, información sobre gas y polvo, evidencia de formación planetaria, una actividad de ciencia de datos y una simulación sintética.
+:::
+
+:::
 
 ## Tesis escrita
 
-El documento escrito de la tesis está disponible en formato PDF:
+::: {.about-highlight}
+El documento escrito de la tesis está disponible en formato PDF.
 
-[Descargar tesis en PDF](documents/tesis_martina_abarca.pdf)
-
----
+[Descargar tesis en PDF](documents/tesis_martina_abarca.pdf){.about-button}
+:::
 
 ## Cómo citar este catálogo
 
 Si usas este catálogo, por favor cítalo como:
 
-> Abarca Ibarra, M. I. (2026). *Catálogo piloto de discos protoplanetarios* (Versión 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20513394
+::: {.citation-box}
+Abarca Ibarra, M. I. (2026). *Catálogo piloto de discos protoplanetarios* (Versión 1.0.1). Zenodo.  
+https://doi.org/10.5281/zenodo.20517686
+:::
 
-DOI de la versión publicada:
+::: {.about-grid-two}
 
-[https://doi.org/10.5281/zenodo.20513394](https://doi.org/10.5281/zenodo.20513394)
+::: {.about-card}
+### DOI de la versión actual
 
-DOI general del proyecto en Zenodo:
+Esta versión corresponde a la release estable `v1.0.1` archivada en Zenodo.
+
+[https://doi.org/10.5281/zenodo.20517686](https://doi.org/10.5281/zenodo.20517686)
+:::
+
+::: {.about-card}
+### DOI general del proyecto
+
+Este DOI apunta al registro general del proyecto en Zenodo y puede agrupar futuras versiones.
 
 [https://doi.org/10.5281/zenodo.20513393](https://doi.org/10.5281/zenodo.20513393)
 
 [![DOI](https://zenodo.org/badge/1176319104.svg)](https://doi.org/10.5281/zenodo.20513393)
+:::
 
----
+:::
 
 ## Repositorio y versión archivada
 
-El código fuente del catálogo está disponible en GitHub:
+::: {.about-grid-two}
 
-[Repositorio en GitHub](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog)
+::: {.about-card}
+### Código fuente
 
-La versión estable y citable del proyecto está archivada en Zenodo:
+El código fuente del catálogo está disponible en GitHub. Desde allí se puede revisar la estructura del proyecto, proponer cambios o reutilizar el material con la licencia correspondiente.
 
-[Registro en Zenodo](https://doi.org/10.5281/zenodo.20513394)
+[Repositorio en GitHub](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog){.about-link}
+:::
 
----
+::: {.about-card}
+### Versión citable
+
+La versión estable y citable del proyecto está archivada en Zenodo. Esta versión permite que el catálogo pueda ser referenciado formalmente mediante DOI.
+
+[Registro de la versión 1.0.1 en Zenodo](https://doi.org/10.5281/zenodo.20517686){.about-link}
+:::
+
+:::
 
 ## Financiamiento
 
+::: {.about-highlight}
 Este trabajo fue financiado por el **Proyecto DICYT de la Vicerrectoría de Investigación, Innovación y Creación de la Universidad de Santiago de Chile**.
-
----
+:::
 
 ## Colaboraciones y contacto
 
+::: {.about-card-wide}
 Este catálogo fue desarrollado como un proyecto piloto y puede ser ampliado en el futuro con nuevos discos, nuevas referencias, nuevas actividades de ciencia de datos o mejoras en la simulación interactiva.
 
 Si deseas sugerir correcciones, agregar información o colaborar con el proyecto, puedes hacerlo a través del repositorio de GitHub:
 
-[Repositorio del proyecto](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog)
+[Repositorio del proyecto](https://github.com/martinaAbarca/pilot-protoplanetary-disks-catalog){.about-link}
 
 También puedes contactar a la autora por correo electrónico:
 
-**Correo:** abarca.tina3@gmail.cl
-
----
+**Correo:** abarca.tina3@gmail.com
+:::
 
 ## Aportes de investigaciones y nuevas fichas
 
+::: {.about-card-wide}
 Este catálogo está pensado como un proyecto abierto a futuras ampliaciones. Si desarrollas una investigación, publicación, proyecto estudiantil o material educativo relacionado con discos protoplanetarios, puedes proponer su incorporación al sitio.
 
 También es posible sugerir nuevas fichas de discos protoplanetarios específicos, ampliar fichas ya existentes, agregar referencias recientes, proponer nuevas actividades de ciencia de datos o contribuir con material explicativo relacionado con gas, polvo, subestructuras y formación planetaria.
 
 Las contribuciones serán revisadas antes de incorporarse al catálogo, con el objetivo de mantener la claridad pedagógica, la trazabilidad de las fuentes y la coherencia científica del sitio.
-
-Para proponer cambios o colaboraciones, puedes usar el repositorio de GitHub o contactar directamente a la autora.
-
----
+:::
 
 ## Licencia
 
-El código fuente del proyecto se distribuye bajo licencia MIT.
+::: {.about-grid-two}
 
-El contenido educativo original del catálogo se distribuye bajo licencia Creative Commons Attribution 4.0 International, excepto cuando se indique lo contrario.
+::: {.about-card}
+### Código fuente
+
+El código fuente del proyecto se distribuye bajo licencia **MIT**.
+:::
+
+::: {.about-card}
+### Contenido educativo
+
+El contenido educativo original del catálogo se distribuye bajo licencia **Creative Commons Attribution 4.0 International**, excepto cuando se indique lo contrario.
 
 Los datos, imágenes astronómicas, archivos FITS, figuras externas, artículos científicos y otros materiales de terceros conservan sus licencias, créditos y condiciones de uso originales.
+:::
+
+:::

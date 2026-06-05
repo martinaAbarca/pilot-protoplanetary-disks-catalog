@@ -1,5 +1,5 @@
 ---
-title: "AS 209: Protoplanetary Disk"
+title: "AS 209: disco protoplanetario"
 bibliography: references.bib
 format:
   html:
@@ -10,102 +10,154 @@ format:
 lightbox: true
 ---
 
-![ALMA image of the protoplanetary disk around AS 209 showing multiple narrow rings and gaps that may indicate ongoing planet formation. Credit: ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile).](images/as_209_ficha.png){#fig-as209 fig-align="center" width="650"}
+![Imagen de ALMA del disco protoplanetario alrededor de AS 209, donde se observan múltiples anillos estrechos y brechas que podrían indicar formación planetaria en curso. Crédito: ALMA (ESO/NAOJ/NRAO); A. Sierra (U. Chile).](images/as_209_ficha.png){#fig-as209 fig-align="center" width="650"}
 
-As shown in @fig-as209, the AS 209 disk exhibits a sequence of bright rings and dark gaps in the dust continuum emission.
+Como se muestra en la @fig-as209, el disco de AS 209 presenta una secuencia de anillos brillantes y brechas oscuras en la emisión continua del polvo.
 
-## Object names
+## Nombres del objeto
 
-| Catalog | Name | Source |
+| Catálogo | Nombre | Fuente |
 |---|---|---|
-| Main name | AS 209 | [@fedele2018] |
-| Other designations | PDS 92; V1121 Oph; HBC 270; IRAS 16464-1416 | [@gregorio-hetem1992iras] |
-| Location | Ophiuchus star-forming region | [@fedele2018] |
+| Nombre principal | AS 209 | [@fedele2018] |
+| Otras designaciones | PDS 92; V1121 Oph; HBC 270; IRAS 16464-1416 | [@gregorio-hetem1992iras] |
+| Ubicación | Región de formación estelar de Ofiuco | [@fedele2018] |
 
-## Location
+## Ubicación
 
-AS 209 is located in the **Ophiuchus molecular cloud**, a nearby star-forming region that hosts many young stellar systems. In the literature, the source is described as a **T Tauri star** in the young Ophiuchus star-forming region at a distance of **126 pc** from the Sun [@fedele2018].
+AS 209 se encuentra en la **nube molecular de Ofiuco**, una región cercana de formación estelar que alberga numerosos sistemas jóvenes. En la literatura, la fuente se describe como una **estrella T Tauri** ubicada en la joven región de formación estelar de Ofiuco, a una distancia de **126 pc** del Sol [@fedele2018].
 
-Its relative proximity makes AS 209 an excellent target for **high-resolution millimeter observations**, allowing both the dust and gas substructures of the disk to be studied in detail.
+Su cercanía convierte a AS 209 en un objetivo excelente para observaciones milimétricas de alta resolución, ya que permite estudiar con detalle tanto las subestructuras del polvo como las del gas.
 
-## General description of the system
+## Descripción general del sistema
 
-AS 209 is a young protoplanetary system surrounding a T Tauri star, with a stellar mass of 0.9 M☉, spectral type K5, and luminosity of 1.5 L☉ [@tazzari2016], located in the Ophiuchus star-forming region at a distance of 126 pc [@fedele2018]. At 1.3 mm, Fedele et al. show that its disk displays a bright central core, two prominent rings at ~75 and ~130 au, and two gaps at ~62 and ~103 au, with the inner gap being narrower and shallower than the outer one [@fedele2018]. Building on this observational picture, Zhang et al. highlight the “excellent agreement between observations and simulations for AS 209” and describe it as “a system with many gaps,” reinforcing the idea that it is a particularly valuable object for studying disk substructures and their possible connection to planet formation [@zhang2018]. In addition, the multiwavelength analysis of Tazzari et al. reveals evidence for radial dust evolution: the largest grains are concentrated in the inner regions, whereas smaller grains dominate the outer disk, suggesting that the growth and redistribution of solids do not occur uniformly throughout the disk [@tazzari2016].
+AS 209 es un sistema protoplanetario joven alrededor de una estrella T Tauri, con tipo espectral **K5**, masa estelar de aproximadamente **0.83–0.9 M☉** y luminosidad de **1.5 L☉** [@tazzari2016; @fedele2018; @zhang2018]. Se encuentra en la región de formación estelar de Ofiuco, a una distancia de **126 pc** [@fedele2018].
 
-## General system properties
+En el continuo a **1.3 mm**, Fedele et al. muestran que su disco presenta un núcleo central brillante, dos anillos prominentes alrededor de **~75 au** y **~130 au**, y dos brechas alrededor de **~62 au** y **~103 au**. La brecha interna es más estrecha y menos profunda que la externa [@fedele2018].
 
-| Property | Value | Description | Source |
+Sobre esta base observacional, Zhang et al. destacan la buena concordancia entre observaciones y simulaciones para AS 209, describiéndolo como un sistema con muchas brechas. Esto refuerza la idea de que AS 209 es un objeto especialmente valioso para estudiar subestructuras de disco y su posible conexión con la formación planetaria [@zhang2018].
+
+Además, el análisis multi-longitud de onda de Tazzari et al. muestra evidencia de evolución radial del polvo: los granos más grandes se concentran en las regiones internas, mientras que los granos más pequeños dominan el disco externo [@tazzari2016]. Esto sugiere que el crecimiento y la redistribución de sólidos no ocurren de forma uniforme en todo el disco.
+
+## Propiedades generales del sistema
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Distance | 126 pc | Distance from the Sun to AS 209. | [@fedele2018] |
-| Age | ~0.5–1.0 Myr | Estimated age of the system. | [@fedele2018] |
-| Spectral type | K5 | Spectral class of the central star. | [@fedele2018] |
-| Stellar temperature | 4250 K | Effective temperature of the star. | [@fedele2018] |
-| Stellar mass | 0.83–0.9 M☉ | Mass of the central star. | [@zhang2018; @fedele2018] |
-| Stellar luminosity | 1.5 L☉ | Luminosity of the central star. | [@fedele2018] |
-| Disk radius (dust) | ~170–180 au | Outer extent of the dust continuum emission. | [@fedele2018] |
-| Disk outer radius (gas emission) | >200 au | Outer extent of the disk traced by CO emission. | [@favre2019] |
-| Disk inclination | 35.3 ± 0.8° | Tilt of the disk with respect to the line of sight. | [@fedele2018] |
+| Distancia | 126 pc | Distancia desde el Sol hasta AS 209. | [@fedele2018] |
+| Edad | ~0.5–1.0 Myr | Edad estimada del sistema. | [@fedele2018] |
+| Tipo espectral | K5 | Clase espectral de la estrella central. | [@fedele2018] |
+| Temperatura estelar | 4250 K | Temperatura efectiva de la estrella. | [@fedele2018] |
+| Masa estelar | 0.83–0.9 M☉ | Masa de la estrella central. | [@zhang2018; @fedele2018] |
+| Luminosidad estelar | 1.5 L☉ | Luminosidad de la estrella central. | [@fedele2018] |
+| Radio del disco de polvo | ~170–180 au | Extensión externa de la emisión continua del polvo. | [@fedele2018] |
+| Radio externo del gas | >200 au | Extensión externa del disco trazado por emisión de CO. | [@favre2019] |
+| Inclinación del disco | 35.3 ± 0.8° | Inclinación del disco respecto de la línea de visión. | [@fedele2018] |
 
-## Disk morphology
+## Morfología del disco
 
-AS 209 exhibits a radial architecture with multiple gaps, as noted by Zhang et al.: “Huang et al. (2018a) and Guzmán et al. (2018) identified many gaps in this system including dark annuli at 9, 24, 35, 61, 90, 105, and 137 au” [@zhang2018]. Not all of these substructures have the same depth, depending on their location within the system. For example, the authors indicate that “We find that the gap at r = 61 au is shallower than the main gap, and it is at 0.5–0.7 rp. Thus, we treat it as a secondary gap induced by the planet” [@zhang2018]. In other words, the gap at 61 au would be less deep than the main gap around 100 au. Within that same interpretive framework, Zhang et al. add: “Our simulation with one planet at 99 au not only matches the primary gap around 100 au, but also matches the position and amplitude of secondary (61 au), tertiary (35 au), and even the fourth (24 au) inner gaps” [@zhang2018]. This morphology is also clearly reflected in the dust continuum observations presented by Fedele et al.: “The dust continuum emission is characterized by a main central core and two prominent rings at r = 75 au and r = 130 au intervaled by two gaps at r = 62 au and r = 103 au” [@fedele2018]. The rings of AS 209 also show: “The continuum emission is characterized by a bright central emission and two weaker dust rings peaking at ∼75 and 130 au” [@fedele2018]; thus, the continuum emission maxima are located in those two rings. The annular substructures in the system are not continuous, but are instead separated by narrow gaps with lower emission. In general, the architecture of AS 209 is described as follows: “We find that the 1.3 mm continuum brightness distribution of AS 209 can be explained very well by a profile with two deep gaps … at 62 and 103 au, respectively, and an excess ring … at ∼130 au” [@fedele2018].
+AS 209 presenta una arquitectura radial con múltiples brechas. Zhang et al. señalan que estudios previos identificaron varios anillos oscuros en este sistema, ubicados aproximadamente a **9, 24, 35, 61, 90, 105 y 137 au** [@zhang2018]. Estas subestructuras no tienen todas la misma profundidad, sino que varían dependiendo de su ubicación dentro del disco.
 
-## Morphology measurements
+Por ejemplo, la brecha alrededor de **61 au** es menos profunda que la brecha principal y se ubica a una distancia que permite interpretarla como una brecha secundaria inducida por un planeta [@zhang2018]. En otras palabras, esta brecha sería menos marcada que la brecha principal cercana a **100 au**.
 
-| Structure | Measurement | Description | Source |
+Dentro de ese mismo marco interpretativo, Zhang et al. muestran que una simulación con un planeta ubicado a **99 au** puede reproducir no solo la brecha principal alrededor de **100 au**, sino también la posición y amplitud de brechas internas secundarias, terciarias e incluso una cuarta brecha a **61, 35 y 24 au** [@zhang2018].
+
+Esta morfología también se observa claramente en el continuo de polvo presentado por Fedele et al. En esas observaciones, la emisión continua está caracterizada por un núcleo central brillante y dos anillos de polvo más débiles que alcanzan su máximo cerca de **~75 au** y **~130 au**, separados por dos brechas a **~62 au** y **~103 au** [@fedele2018].
+
+En general, la distribución de brillo a **1.3 mm** de AS 209 puede describirse mediante un perfil con dos brechas profundas y un anillo externo de exceso de emisión alrededor de **~130 au** [@fedele2018]. Por lo tanto, el disco no es una estructura continua y lisa, sino un sistema con anillos y brechas radiales bien definidos.
+
+## Mediciones morfológicas
+
+| Estructura | Medición | Descripción | Fuente |
 |---|---|---|---|
-| G9 | 9 au | Inner dust gap identified in the AS 209 disk. | [@zhang2018] |
-| G24 | 24 au | Inner dust gap; interpreted as a fourth inner gap in the one-planet scenario. | [@zhang2018] |
-| G35 | 35 au | Inner dust gap; interpreted as a tertiary gap in the one-planet scenario. | [@zhang2018] |
-| G61 | 61 au | Secondary dust gap; shallower than the main gap. | [@zhang2018] |
-| G1 | 61.7 ± 0.5 au | Main inner dust gap identified in the 1.3 mm continuum. | [@fedele2018] |
-| R1 | ~75 au | Inner dust ring where the continuum emission peaks. | [@fedele2018] |
-| G90 | 90 au | Dust gap identified in the outer disk. | [@zhang2018] |
-| G105 | 105 au | Dust gap associated with the main outer gap region. | [@zhang2018] |
-| G2 | 103.2 ± 0.4 au | Main outer dust gap identified in the 1.3 mm continuum. | [@fedele2018] |
-| R2 | ~130 au | Outer dust ring where the continuum emission peaks. | [@fedele2018] |
-| G137 | 137 au | Outer dust gap in the external disk. | [@zhang2018] |
+| D9 | 9 au | Brecha de polvo interna identificada en el disco de AS 209. | [@zhang2018] |
+| D24 | 24 au | Brecha interna de polvo; interpretada como una cuarta brecha interna en el escenario de un solo planeta. | [@zhang2018] |
+| D35 | 35 au | Brecha interna de polvo; interpretada como una brecha terciaria en el escenario de un solo planeta. | [@zhang2018] |
+| D61 | 61 au | Brecha secundaria de polvo; menos profunda que la brecha principal. | [@zhang2018] |
+| D62 | 61.7 ± 0.5 au | Brecha interna principal identificada en el continuo a 1.3 mm. | [@fedele2018] |
+| B75 | ~75 au | Anillo interno de polvo donde la emisión continua alcanza un máximo. | [@fedele2018] |
+| D90 | 90 au | Brecha de polvo identificada en el disco externo. | [@zhang2018] |
+| D105 | 105 au | Brecha de polvo asociada con la región de la brecha externa principal. | [@zhang2018] |
+| D103 | 103.2 ± 0.4 au | Brecha externa principal identificada en el continuo a 1.3 mm. | [@fedele2018] |
+| B130 | ~130 au | Anillo externo de polvo donde la emisión continua alcanza un máximo. | [@fedele2018] |
+| D137 | 137 au | Brecha externa de polvo en la región más alejada del disco. | [@zhang2018] |
 
-## Dust in the disk
+## Polvo en el disco
 
-The observation and study of dust dynamics in protoplanetary disks are grounded in the fact that “High angular resolution observations at several (sub-)mm wavelengths constitute the ideal tool with which to directly probe the bulk of dust grains and to investigate the radial distribution of their properties” [@tazzari2016]. In this context, it is well established that dust is not distributed uniformly, since “Theoretical models of grain growth predict that dust properties change as a function of disk radius, mass, age, and other physical conditions” [@tazzari2016]. In the case of AS 209, this radial variation is closely linked to grain size: “In these disks we find evidence of a decrease in the maximum dust grain size, amax, with radius. We derive large amax values up to 1 cm in the inner disk 15 AU ≤ R ≤ 30 AU and smaller grains with amax ∼ 1 mm in the outer disk (R ≳ 80 AU)” [@tazzari2016]. Fedele et al. further show that this distribution changes not only with radius, but also from one disk substructure to another, since “the inner gap is partially filled with millimeter grains while the outer gap is largely devoid of dust” [@fedele2018], indicating that dust depletion is not equally severe in all gaps. The reason for this behavior is that “radial drift effectively depletes the large grain population in disks within 1 Myr … unless it is halted by the occurrence of dust traps” [@tazzari2016]; indeed, Fedele et al. explain that “the millimeter dust grains are radially confined regions in which inward radial migration is slowed down or stopped” and that “dust traps provide the ideal environment ... allowing dust to grow in situ” [@fedele2018]. In AS 209, these dust traps help explain both the retention of large grains in the disk and their accumulation in rings, within a scenario in which “the planet is responsible for the gap opening and for the pile-up of dust at the outer edge of the planet orbit” [@fedele2018].
+El estudio del polvo en discos protoplanetarios se apoya en observaciones de alta resolución angular a longitudes de onda submilimétricas y milimétricas, ya que estas permiten rastrear la distribución radial de los granos sólidos [@tazzari2016].
 
-## Dust properties
+En AS 209, el polvo no se distribuye de manera uniforme. El análisis multi-longitud de onda muestra que el tamaño máximo de grano disminuye con el radio: en el disco interno, entre **15 y 30 au**, se infieren granos grandes de hasta aproximadamente **1 cm**, mientras que en el disco externo, a radios mayores que **~80 au**, predominan granos más pequeños, de tamaño cercano a **1 mm** [@tazzari2016].
 
-| Property | Value | Description | Source |
+Esta variación radial indica que el crecimiento y la evolución del polvo dependen de las condiciones locales del disco. Los granos grandes tienden a concentrarse en regiones internas, mientras que el material de menor tamaño domina las zonas externas.
+
+Fedele et al. muestran además que la depleción de polvo no es igual en todas las brechas. La brecha interna se encuentra parcialmente rellena por granos milimétricos, mientras que la brecha externa está mucho más vacía de polvo [@fedele2018]. Esto indica que las subestructuras del disco afectan de manera distinta a los sólidos dependiendo de su ubicación.
+
+Un proceso clave para interpretar esta distribución es la deriva radial. En principio, la deriva radial tendería a remover rápidamente los granos grandes del disco en escalas menores a 1 Myr, a menos que existan mecanismos capaces de detener o ralentizar su migración [@tazzari2016]. En AS 209, los anillos pueden actuar como **trampas de polvo**, donde la migración radial hacia el interior se reduce o se detiene [@fedele2018].
+
+Estas trampas ofrecen un ambiente favorable para que el polvo crezca localmente y se acumule. En este escenario, un planeta podría abrir una brecha y producir una acumulación de polvo en el borde externo de su órbita [@fedele2018].
+
+## Propiedades del polvo
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Dust continuum outer extent | ~170–180 au | Outer radial extent of the faint dust continuum emission. | [@fedele2018] |
-| Dust mass | 3.5 × 10^-4 M☉ | Fiducial dust mass adopted to reproduce the observed dust structure. | [@fedele2018] |
-| Maximum grain size | 2000 μm | Maximum grain size adopted for the large dust population in the AS 209 model. | [@fedele2018] |
-| Inner gap depletion factor | ~0.03 | Best-fit brightness depletion factor of the inner dust gap. | [@fedele2018] |
-| Outer gap depletion factor | ~0.025 | Best-fit brightness depletion factor of the outer dust gap. | [@fedele2018] |
-| Dust surface density | 0.17 g cm^-2 | Average amount of dust per unit area in the outer disk around the main gap. | [@zhang2018] |
+| Extensión externa del continuo de polvo | ~170–180 au | Extensión radial externa de la emisión tenue del continuo de polvo. | [@fedele2018] |
+| Masa de polvo | 3.5 × 10^-4 M☉ | Masa de polvo fiducial adoptada para reproducir la estructura observada del polvo. | [@fedele2018] |
+| Tamaño máximo de grano | 2000 μm | Tamaño máximo de grano adoptado para la población de polvo grande en el modelo de AS 209. | [@fedele2018] |
+| Factor de depleción del gap interno | ~0.03 | Factor de reducción de brillo del gap interno en el mejor ajuste. | [@fedele2018] |
+| Factor de depleción del gap externo | ~0.025 | Factor de reducción de brillo del gap externo en el mejor ajuste. | [@fedele2018] |
+| Densidad superficial de polvo | 0.17 g cm^-2 | Cantidad promedio de polvo por unidad de área en el disco externo, alrededor del gap principal. | [@zhang2018] |
 
-## Gas in the disk
+## Gas en el disco
 
-In AS 209, the gas is also not distributed uniformly, and its structure becomes clearer when different molecular tracers are examined together. The C$^{18}$O emission first reveals a well-defined radial organization, with an inner concentration of gas close to the star and an outer ring around 140 au, separated by a region of weaker emission: “The C18O emission shows a compact (≲60 au), centrally peaked emission and an outer ring peaking at 140 au” [@favre2019]. In addition, its radial profile “harbors a drop in intensity between the two continuum gaps” [@favre2019], suggesting that the substructures observed in the dust are also reflected in the gas. This connection is further strengthened by Fedele et al., who note that “the ALMA C18O image presented in Huang et al. (2016) shows an extended emission peaking at nearly 130 au. This extended emission is co-spatial to the outer dust ring” [@fedele2018], indicating that the outer dust ring also has a gaseous counterpart. Along the same line, the authors add that “This is a strong indication that the large scale C18O emission follows the actual disk surface density in the outer disk and it points to a gas density drop by a factor of a few inside the outer gap (‘G2’)” [@fedele2018], reinforcing the idea that the outer gap is not only a dust substructure, but also a region where the gas density decreases. In contrast, DCO$^+$ does not follow exactly the same pattern: “Regarding the DCO+ emission, two rings are observed” [@favre2019], one between the two dust gaps and another beyond the outer gap, showing that different tracers reveal different physical and chemical conditions within the disk. To explain this overall morphology, Favre et al. conclude that “Σgas needs to be lowered” inside the gaps [@favre2019], meaning that temperature or opacity effects alone are not sufficient and that a real decrease in the gas surface density is required. Taken together, this evidence supports a dynamical interpretation of the disk, in which the gaseous structure of AS 209 has been modified by a “gas perturbation due to one or more forming planets” [@favre2019].
+En AS 209, el gas tampoco se distribuye uniformemente, y su estructura se vuelve más clara cuando se analizan distintos trazadores moleculares en conjunto.
 
-## Gas properties
+La emisión de C$^{18}$O revela una organización radial bien definida, con una concentración interna de gas cerca de la estrella y un anillo externo alrededor de **140 au**, separados por una región de emisión más débil [@favre2019]. Además, su perfil radial presenta una caída de intensidad entre las dos brechas del continuo, lo que sugiere que las subestructuras observadas en el polvo también tienen una contraparte en el gas [@favre2019].
 
-| Property | Value | Description | Source |
+Esta conexión se refuerza con Fedele et al., quienes señalan que la emisión extendida de C$^{18}$O alcanza un máximo cerca de **130 au**, en una región coespacial con el anillo externo de polvo [@fedele2018]. Esto indica que el anillo externo de polvo también tiene una contraparte gaseosa.
+
+Además, esa emisión a gran escala de C$^{18}$O parece seguir la densidad superficial real del gas en el disco externo y apunta a una caída de densidad de gas por un factor de algunos dentro de la brecha externa **D103** [@fedele2018]. Por lo tanto, la brecha externa no es solo una subestructura del polvo, sino también una región donde disminuye la densidad del gas.
+
+En contraste, DCO$^+$ no sigue exactamente el mismo patrón que C$^{18}$O. Favre et al. reportan dos anillos de DCO$^+$: uno ubicado entre las dos brechas principales de polvo y otro más allá de la brecha externa [@favre2019]. Esto muestra que distintos trazadores revelan distintas condiciones físicas y químicas dentro del disco.
+
+Para explicar la morfología observada, Favre et al. concluyen que la densidad superficial del gas debe disminuir dentro de las brechas [@favre2019]. Esto significa que los efectos de temperatura u opacidad por sí solos no son suficientes: se requiere una disminución real en la densidad superficial del gas.
+
+En conjunto, esta evidencia apoya una interpretación dinámica del disco, donde la estructura gaseosa de AS 209 habría sido modificada por una perturbación del gas producida por uno o más planetas en formación [@favre2019].
+
+## Propiedades del gas
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| CO outer extent | >200 au | The CO gas extends farther out than the millimeter dust disk. | [@favre2019] |
-| C$^{18}$O inner emission | ≤60 au | Inner concentration of gas close to the star, traced by C$^{18}$O. | [@favre2019] |
-| C$^{18}$O outer ring | 140 au | Outer gas ring detected in C$^{18}$O emission. | [@favre2019] |
-| DCO$^+$ inner ring | 66–95 au | Gas ring located between the two main dust gaps. | [@favre2019] |
-| DCO$^+$ outer ring | >120 au | Outer gas ring detected beyond the outer dust gap. | [@favre2019] |
-| C$^{18}$O optical depth | ≤0.8 | C$^{18}$O is optically thin, so it traces gas structure more directly. | [@favre2019] |
-| CO and $^{13}$CO optical depth | ≥2.5 | CO and $^{13}$CO are optically thick, so they hide part of the gas structure. | [@favre2019] |
+| Extensión externa de CO | >200 au | El gas trazado por CO se extiende más lejos que el disco de polvo milimétrico. | [@favre2019] |
+| Emisión interna de C$^{18}$O | ≤60 au | Concentración interna de gas cerca de la estrella, trazada por C$^{18}$O. | [@favre2019] |
+| Anillo externo de C$^{18}$O | 140 au | Anillo gaseoso externo detectado en emisión de C$^{18}$O. | [@favre2019] |
+| Anillo interno de DCO$^+$ | 66–95 au | Anillo gaseoso ubicado entre las dos brechas principales de polvo. | [@favre2019] |
+| Anillo externo de DCO$^+$ | >120 au | Anillo gaseoso externo detectado más allá de la brecha externa de polvo. | [@favre2019] |
+| Profundidad óptica de C$^{18}$O | ≤0.8 | C$^{18}$O es ópticamente delgado, por lo que traza de manera más directa la estructura del gas. | [@favre2019] |
+| Profundidad óptica de CO y $^{13}$CO | ≥2.5 | CO y $^{13}$CO son ópticamente gruesos, por lo que pueden ocultar parte de la estructura del gas. | [@favre2019] |
 
-## Evidence of planet formation
+## Evidencia de formación planetaria
 
-In **AS 209**, the evidence for planet formation does not rest on a single isolated substructure, but rather on the consistent way in which observations and models describe the disk as a dynamically perturbed system. In the millimeter continuum, it had already been proposed that **“the observed rings and gaps of the 1.3 mm continuum emission are likely due to the formation of planets; this hypothesis is commensurate with hydrodynamical simulations”** [@favre2019], meaning that the ringed architecture of the disk is consistent with the action of forming planets. This interpretation is further strengthened by the results of Zhang et al.: **“our simulation with one planet at 99 au not only matches the primary gap around 100 au, but also matches the position and amplitude of secondary (61 au), tertiary (35 au), and even the fourth (24 au) inner gaps”** [@zhang2018]. In other words, a single embedded planet could account not only for the main gap, but also for several inner substructures in the disk. For this reason, the authors conclude that **“This makes AS 209 the most plausible case that there is indeed a planet within the 100 au gap”** [@zhang2018]. Moreover, the evidence does not come from the dust alone: Favre et al. add that **“Our findings confirm that the previously observed dust gaps are very likely due to perturbation of the gas surface density that is induced by a planet of at least 0.2MJ in formation”** [@favre2019], which reinforces the interpretation that the observed gaps trace a real planet–disk interaction process rather than a merely apparent redistribution of material.
+En AS 209, la evidencia de formación planetaria no depende de una única subestructura aislada, sino de la forma consistente en que observaciones y modelos describen el disco como un sistema dinámicamente perturbado.
 
-## Physical interpretation of AS 209
+En el continuo milimétrico, ya se había propuesto que los anillos y brechas observados a **1.3 mm** probablemente se deben a la formación de planetas, en concordancia con simulaciones hidrodinámicas [@favre2019]. Esto significa que la arquitectura anillada del disco es compatible con la acción de planetas en formación.
 
-AS 209 can be understood as a young disk in which dust evolution and planet–disk interaction are operating together. On the one hand, the dust does not evolve uniformly across the system: larger grains are concentrated toward the inner regions, while smaller grains dominate farther out in the disk, a pattern that is consistent with grain growth, radial drift, and the need for retention mechanisms to keep solids from being rapidly lost. On the other hand, the observed ring-and-gap architecture is best explained if the disk is being dynamically sculpted by an embedded planet in a very low-viscosity environment, since Zhang et al. show that “the q = 10−4 planet in a α = 10−5 and h/r = 0.05 disk can explain all five gaps at 24, 35, 62, 90, and 105 au” [@zhang2018], implying that a single outer planet could account for much of the system’s radial structure. This interpretation becomes even stronger because the gas is also genuinely perturbed: Favre et al. conclude that “the previously observed dust gaps are very likely due to perturbation of the gas surface density that is induced by a planet of at least 0.2MJ in formation” [@favre2019], showing that the gaps are not merely brightness variations in the dust, but signatures of a real reorganization of the disk surface density. Taken together, AS 209 is best interpreted as a low-turbulence disk in which a forming planet is already reshaping both the dust and the gas, leaving an observable imprint of ongoing planet formation.
+Esta interpretación se fortalece con los resultados de Zhang et al. Una simulación con un planeta ubicado a **99 au** no solo reproduce la brecha principal alrededor de **100 au**, sino también la posición y amplitud de varias brechas internas, incluyendo las de **61, 35 y 24 au** [@zhang2018]. En otras palabras, un solo planeta embebido podría explicar tanto la brecha principal como varias subestructuras internas.
 
-## References
+Por esta razón, Zhang et al. concluyen que AS 209 es uno de los casos más plausibles donde realmente podría existir un planeta dentro de la brecha de **~100 au** [@zhang2018].
+
+La evidencia no proviene solo del polvo. Favre et al. concluyen que las brechas de polvo observadas probablemente se deben a una perturbación de la densidad superficial del gas inducida por un planeta en formación de al menos **0.2 M_J** [@favre2019]. Esto refuerza la idea de que las brechas no son simples variaciones aparentes de brillo, sino el resultado de un proceso real de interacción planeta-disco.
+
+## Interpretación física de AS 209
+
+AS 209 puede entenderse como un disco joven donde la evolución del polvo y la interacción planeta-disco actúan de manera conjunta.
+
+Por un lado, el polvo no evoluciona uniformemente en todo el sistema. Los granos más grandes se concentran hacia las regiones internas, mientras que los granos más pequeños dominan en zonas más externas. Este patrón es consistente con crecimiento de granos, deriva radial y la necesidad de mecanismos de retención que eviten que los sólidos se pierdan rápidamente hacia la estrella [@tazzari2016].
+
+Por otro lado, la arquitectura de anillos y brechas se explica mejor si el disco está siendo esculpido dinámicamente por un planeta embebido en un ambiente de muy baja viscosidad. Zhang et al. muestran que un planeta con \(q = 10^{-4}\), en un disco con \(\alpha = 10^{-5}\) y \(h/r = 0.05\), puede explicar cinco brechas ubicadas a **24, 35, 62, 90 y 105 au** [@zhang2018]. Esto implica que un único planeta externo podría explicar gran parte de la estructura radial del sistema.
+
+Esta interpretación es aún más fuerte porque el gas también se encuentra genuinamente perturbado. Favre et al. concluyen que las brechas de polvo observadas probablemente se deben a una perturbación en la densidad superficial del gas inducida por un planeta de al menos **0.2 M_J** en formación [@favre2019]. Esto indica que las brechas no son solo variaciones de brillo en el polvo, sino señales de una reorganización real de la densidad superficial del disco.
+
+En conjunto, AS 209 se interpreta mejor como un disco de baja turbulencia en el que un planeta en formación ya estaría remodelando tanto el polvo como el gas, dejando una huella observable de formación planetaria en curso.
+
+## Referencias
 
 ::: {#refs}
 :::

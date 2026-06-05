@@ -1,5 +1,5 @@
 ---
-title: "IM Lup — Protoplanetary Disk"
+title: "IM Lup: disco protoplanetario"
 bibliography: references.bib
 format:
   html:
@@ -10,123 +10,152 @@ format:
 lightbox: true
 ---
 
-![High-resolution SPHERE image of the dusty disk around the young star IM Lupi, revealing fine structures in scattered light. Credit: ESO/H. Avenhaus et al./DARTT-S collaboration.](images/im_lupi_gallery.jpg){#fig-imlup fig-align="center" width="650"}
+![Imagen de alta resolución obtenida con SPHERE del disco de polvo alrededor de la joven estrella IM Lup, donde se revelan estructuras finas en luz dispersada. Crédito: ESO/H. Avenhaus et al./DARTT-S collaboration.](images/im_lupi_gallery.jpg){#fig-imlup fig-align="center" width="650"}
 
-As shown in @fig-imlup, high-resolution scattered-light observations reveal the dusty disk surrounding the young star IM Lup.
+Como se muestra en la @fig-imlup, las observaciones de alta resolución en luz dispersada revelan el disco de polvo que rodea a la joven estrella IM Lup.
 
-## Object names
+## Nombres del objeto
 
-
-| Catalog | Name | Source |
+| Catálogo | Nombre | Fuente |
 |---|---|---|
-| Main name | IM Lup | [@cleeves2016] |
-| Other designations | Sz 82 | [@cleeves2016] |
-| Region | Lupus 2 cloud | [@cleeves2016] |
+| Nombre principal | IM Lup | [@cleeves2016] |
+| Otras designaciones | Sz 82 | [@cleeves2016] |
+| Región | Nube de Lupus 2 | [@cleeves2016] |
 
-## Location
+## Ubicación
 
-IM Lup is located in “the Lupus 2 cloud” [@cleeves2016].
- Within this star-forming environment, the system lies at a distance of “d = 161 ± 10 pc” [@cleeves2016]. 
-The same study also reports “large-scale (>30″) CO emission from the parent cloud” [@cleeves2016], indicating that the disk is embedded in a broader natal environment.
+IM Lup se encuentra en la nube de Lupus 2, una región de formación estelar cercana [@cleeves2016]. Dentro de este entorno, el sistema se ubica a una distancia de **161 ± 10 pc** [@cleeves2016].
 
+El mismo estudio reporta emisión de CO a gran escala, mayor que 30", proveniente de la nube parental [@cleeves2016]. Esto indica que el disco no debe interpretarse como un sistema completamente aislado, sino como un objeto joven todavía asociado con su ambiente natal.
 
-## General description of the system
+## Descripción general del sistema
 
-IM Lup is a young system located in the Lupus 2 cloud, at a distance of 161 ± 10 pc, whose central star has an estimated age of 0.5–1 Myr and a spectral type M0 [@cleeves2016]. In general terms, this is a particularly interesting disk because earlier observations detected a gaseous disk together with “large-scale (>30″) CO emission from the parent cloud,” suggesting that the system still retains a connection to its natal environment [@cleeves2016].
- In addition, the disk was described as “massive, ∼0.1 M⊙,” a striking property because “IM Lup does not appear to be actively accreting,” although the same study notes that its accretion may vary over time [@cleeves2016]. 
- It is also notable that “the gas is more extended than the dust, 900 au versus 400 au,” which made IM Lup “one of the first systems where this dust–gas dichotomy was clearly seen” [@cleeves2016]. This overall picture is reinforced by later studies showing that “The SPHERE and ALMA data show two very different geometries of the disk” [@franceschi2023], indicating that the system displays a tracer-dependent structure: more flared and vertically extended in the near-infrared, and flatter at millimeter wavelengths. Taken together, these properties show that IM Lup is not only a large and material-rich disk, but also a key system for studying how gas and dust can become distributed differently during the early stages of protoplanetary disk evolution.
+IM Lup es un sistema joven ubicado en la nube de Lupus 2, a una distancia de **161 ± 10 pc**. Su estrella central tiene una edad estimada de **0.5–1 Myr** y un tipo espectral **M0** [@cleeves2016].
 
-## General system properties
+Este disco es especialmente interesante porque las observaciones muestran un disco gaseoso extendido junto con emisión de CO a gran escala proveniente de la nube parental [@cleeves2016]. Esto sugiere que el sistema conserva una conexión con el ambiente donde se formó.
 
-| Property | Value | Description | Source |
+Además, IM Lup ha sido descrito como un disco masivo, con una masa del orden de **~0.1 M☉**, lo que resulta llamativo porque el sistema no parece estar acreciendo activamente de forma intensa, aunque su acreción podría variar con el tiempo [@cleeves2016].
+
+Una de sus características más importantes es que el gas se extiende mucho más que el polvo. Cleeves et al. (2016) señalan que el gas alcanza escalas cercanas a **900 au**, mientras que el polvo se concentra dentro de una región más compacta, de alrededor de **400 au**. Por eso, IM Lup se convirtió en uno de los primeros sistemas donde la diferencia entre la distribución del gas y la del polvo se observó con claridad [@cleeves2016].
+
+Estudios posteriores refuerzan esta idea al mostrar que los datos de SPHERE y ALMA trazan geometrías muy distintas del disco: una estructura más acampanada y verticalmente extendida en el infrarrojo cercano, y una distribución más plana en longitudes de onda milimétricas [@franceschi2023]. En conjunto, estas propiedades muestran que IM Lup no es solo un disco grande y rico en material, sino también un sistema clave para estudiar cómo el gas y el polvo pueden distribuirse de manera diferente durante las primeras etapas de evolución de los discos protoplanetarios.
+
+## Propiedades generales del sistema
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Spectral type | M0 | Spectral class of the central star. | [@cleeves2016] |
-| Age | 0.5–1 Myr | Estimated age of the system. | [@cleeves2016] |
-| Distance | 161 ± 10 pc | Distance from Earth. | [@cleeves2016] |
-| Stellar luminosity | 0.9 L☉ | Total energy emitted by the star. | [@cleeves2016] |
-| Stellar mass | 1 M☉ | Mass of the central star. | [@cleeves2016] |
-| Effective temperature | 4350 K | Approximate surface temperature of the star. | [@franceschi2023] |
-| Disk mass | 0.2 M☉ | Estimated total mass of the disk. | [@franceschi2023] |
+| Tipo espectral | M0 | Clase espectral de la estrella central. | [@cleeves2016] |
+| Edad | 0.5–1 Myr | Edad estimada del sistema. | [@cleeves2016] |
+| Distancia | 161 ± 10 pc | Distancia desde la Tierra. | [@cleeves2016] |
+| Luminosidad estelar | 0.9 L☉ | Energía total emitida por la estrella. | [@cleeves2016] |
+| Masa estelar | 1 M☉ | Masa de la estrella central. | [@cleeves2016] |
+| Temperatura efectiva | 4350 K | Temperatura superficial aproximada de la estrella. | [@franceschi2023] |
+| Masa del disco | 0.2 M☉ | Masa total estimada del disco. | [@franceschi2023] |
 
-## Disk morphology
+## Morfología del disco
 
-In morphological terms, IM Lup shows in the submillimeter continuum “a bright central continuum peak, and fainter emission which extends out as a broad plateau” [@cleeves2016], that is, a bright inner region followed by fainter and more extended outer emission.
- In addition, “The outer disk appears truncated at ∼2″” [@cleeves2016], suggesting that the observable material does not extend indefinitely outward. 
- Superimposed on this global structure, the continuum profile exhibits “Minor breaks in the continuum slope suggestive of ring-like structures” [@cleeves2016], with discontinuities near 150 au and 250 au, indicating that the disk is not completely smooth but instead may host annular substructures.
- This picture becomes more concrete in scattered-light measurements, which report four small-grain rings at approximately 91.9, 152.1, 240.8, and 332.8 au [@rich2021], consistent with a sequence of concentric structures distributed across the disk. However, because “Higher-resolution observations are necessary to confirm the presence of these rings” [@cleeves2016], these features should for now be interpreted as tentative evidence for rings rather than as definitively confirmed ring structures.
+Desde el punto de vista morfológico, IM Lup muestra en el continuo submilimétrico una estructura compuesta por un pico central brillante y una emisión más tenue que se extiende hacia afuera como una meseta amplia [@cleeves2016]. Esto indica la presencia de una región interna brillante seguida por un componente externo más débil y extendido.
 
-## Morphology measurements
+Además, el disco externo parece truncarse cerca de **~2"**, lo que sugiere que el material observable no se extiende indefinidamente hacia radios mayores [@cleeves2016].
 
-| Property | Value | Description | Source |
+Sobre esta estructura global se observan pequeñas discontinuidades en la pendiente del perfil de continuo, interpretadas como posibles estructuras anulares [@cleeves2016]. Estas discontinuidades aparecen cerca de **150 au** y **250 au**, lo que indica que el disco no es completamente liso, sino que podría contener subestructuras radiales.
+
+Esta imagen se vuelve más concreta al considerar observaciones en luz dispersada, donde se reportan cuatro anillos trazados por granos pequeños a radios aproximados de **91.9, 152.1, 240.8 y 332.8 au** [@rich2021]. Estos anillos son consistentes con una secuencia de estructuras concéntricas distribuidas a lo largo del disco.
+
+Sin embargo, debido a que se requieren observaciones de mayor resolución para confirmar completamente algunas de estas estructuras, las discontinuidades observadas en el continuo deben interpretarse con cautela como evidencia tentativa de anillos, más que como estructuras definitivamente confirmadas [@cleeves2016].
+
+## Mediciones morfológicas
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Inclination | 48 ± 3° | Tilt of the disk relative to our line of sight. | [@cleeves2016] |
-| Position angle | 144 ± 3° | Orientation of the disk major axis on the sky. | [@cleeves2016] |
-| Millimeter dust outer radius | 313 ± 15 au | Outer edge of the large-grain disk seen in the millimeter continuum. | [@cleeves2016] |
-| Tentative continuum rings | ~150 au; ~250 au | Possible annular brightness breaks in the Band 7 continuum. | [@cleeves2016] |
-| Inner disk component size | ≤21 au | Maximum radius of the compact inner millimeter-emitting component. | [@cleeves2016] |
-| Small dust ring 1 | Radius: 91.9 ± 3.2 au; Height: 16.5 ± 2.8 au | First scattered-light ring traced by small dust grains. | [@rich2021] |
-| Small dust ring 2 | Radius: 152.1 ± 4.8 au; Height: 27.4 ± 6.1 au | Second scattered-light ring traced by small dust grains. | [@rich2021] |
-| Small dust ring 3 | Radius: 240.8 ± 4.8 au; Height: 55.4 ± 9.6 au | Third scattered-light ring traced by small dust grains. | [@rich2021] |
-| Small dust ring 4 | Radius: 332.8 ± 12.7 au; Height: 83.2 ± 16.6 au | Fourth scattered-light ring traced by small dust grains. | [@rich2021] |
+| Inclinación | 48 ± 3° | Inclinación del disco respecto de la línea de visión. | [@cleeves2016] |
+| Ángulo de posición | 144 ± 3° | Orientación del eje mayor del disco en el cielo. | [@cleeves2016] |
+| Radio externo del polvo milimétrico | 313 ± 15 au | Borde externo del disco de granos grandes observado en continuo milimétrico. | [@cleeves2016] |
+| Anillos tentativos en continuo | ~150 au; ~250 au | Posibles cambios anulares de brillo en el continuo de banda 7. | [@cleeves2016] |
+| Tamaño del componente interno del disco | ≤21 au | Radio máximo del componente interno compacto que emite en longitudes de onda milimétricas. | [@cleeves2016] |
+| Anillo de polvo pequeño 1 | Radio: 91.9 ± 3.2 au; altura: 16.5 ± 2.8 au | Primer anillo trazado por granos pequeños en luz dispersada. | [@rich2021] |
+| Anillo de polvo pequeño 2 | Radio: 152.1 ± 4.8 au; altura: 27.4 ± 6.1 au | Segundo anillo trazado por granos pequeños en luz dispersada. | [@rich2021] |
+| Anillo de polvo pequeño 3 | Radio: 240.8 ± 4.8 au; altura: 55.4 ± 9.6 au | Tercer anillo trazado por granos pequeños en luz dispersada. | [@rich2021] |
+| Anillo de polvo pequeño 4 | Radio: 332.8 ± 12.7 au; altura: 83.2 ± 16.6 au | Cuarto anillo trazado por granos pequeños en luz dispersada. | [@rich2021] |
 
-## Dust in the disk
+## Polvo en el disco
 
-In IM Lup, dust is not distributed uniformly, but instead arranged in a complex structure with a bright inner region and a fainter, more extended outer component: the continuum shows “a bright central continuum peak, and fainter emission which extends out as a broad plateau” [@cleeves2016].
- Overall, the large grains are more concentrated than the gas, with a smaller vertical scale height, a more compact radial distribution, and a millimeter-grain disk truncated at 313 ± 15 au, so the system can be described as having two main components: a bright inner disk and a broad outer halo [@cleeves2016].
- In addition, the dust in the inner disk is dense enough to hide part of the line emission, suggesting the presence of large grains that are vertically suspended in this central region [@cleeves2016]. 
- This picture is reinforced by later work showing that within ~20 au, the surface density of large dust is “10–100 times higher than expected from an extrapolation of the outer disk” and that this region contains “a mass reservoir of at least 540 M⊕ within 20 au” [@bosman2023].
-To explain these observations, Bosman et al. [@bosman2023] propose that the large grains in the inner disk must be significantly vertically extended, to the point that “the dust scale height is the same as the gas scale height within 30 au” [@bosman2023]. 
- Taken together, these results show that IM Lup combines a globally settled millimeter-dust disk with an inner region that is optically thick, massive, and vertically more extended, making it a particularly interesting system for studying the early evolution of solids in protoplanetary disks.
-#
-# Dust properties
+En IM Lup, el polvo no se distribuye de forma uniforme, sino que forma una estructura compleja con una región interna brillante y un componente externo más tenue y extendido. El continuo muestra un pico central brillante y una emisión más débil que se extiende hacia afuera como una meseta amplia [@cleeves2016].
 
-| Property | Value | Description | Source |
+En términos generales, los granos grandes están más concentrados que el gas. Tienen una altura de escala menor, una distribución radial más compacta y un disco de granos milimétricos truncado en **313 ± 15 au** [@cleeves2016]. Por esta razón, el sistema puede describirse como compuesto por dos componentes principales: un disco interno brillante y un halo externo amplio.
+
+Además, el polvo del disco interno es suficientemente denso como para ocultar parte de la emisión de líneas moleculares, lo que sugiere la presencia de granos grandes suspendidos verticalmente en esta región central [@cleeves2016].
+
+Esta imagen se refuerza con trabajos posteriores. Bosman et al. (2023) muestran que dentro de **~20 au**, la densidad superficial de polvo grande es **10–100 veces mayor** que la esperada si se extrapola la distribución del disco externo. También estiman que esta región contiene un reservorio de al menos **540 M⊕** de polvo dentro de 20 au [@bosman2023].
+
+Para explicar estas observaciones, Bosman et al. (2023) proponen que los granos grandes en el disco interno deben estar significativamente extendidos verticalmente, hasta el punto de que la altura de escala del polvo sería comparable a la del gas dentro de 30 au [@bosman2023].
+
+En conjunto, estos resultados muestran que IM Lup combina un disco global de polvo milimétrico relativamente asentado con una región interna ópticamente gruesa, masiva y verticalmente más extendida. Esto lo convierte en un sistema especialmente interesante para estudiar la evolución temprana de los sólidos en discos protoplanetarios.
+
+## Propiedades del polvo
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Dust mass | 1.7 × 10^-3 M☉ | Total dust mass in the disk. | [@cleeves2016] |
-| Relative scale height of millimeter grains | 0.25 | Shows that large grains are settled toward the midplane. | [@cleeves2016] |
-| Mass fraction in large grains | 0.99 | Fraction of dust mass in large grains. | [@cleeves2016] |
-| Small dust grain size range | 0.005–1 μm | Size range of the small-dust population. | [@cleeves2016] |
-| Large dust grain size range | 0.005 μm–1 mm | Size range of the large-dust population. | [@cleeves2016] |
-| Dust composition | 80% astronomical silicates + 20% graphite | Dust composition adopted in the model. | [@cleeves2016] |
-| Inner disk dust optical depth at 875 μm | τ875μm ≳ 4 within 20 au; >10 at 1 au | Shows that the inner dust disk is optically thick. | [@cleeves2016] |
-| Inner large-dust surface density enhancement | 10–100× higher than outer-disk extrapolation | Strong excess of large dust in the inner disk. | [@bosman2023] |
-| Inner dust mass reservoir | ≥540 M⊕ within 20 au | Minimum dust mass concentrated in the inner disk. | [@bosman2023] |
-| Inner disk dust surface density | ≥10 g cm^-2 | Minimum inner-disk dust density needed to match the observations. | [@bosman2023] |
-| Inner-disk dust scale height | Same as the gas scale height within 30 au | Indicates vertically extended dust in the inner disk. | [@bosman2023] |
+| Masa de polvo | 1.7 × 10^-3 M☉ | Masa total de polvo en el disco. | [@cleeves2016] |
+| Altura de escala relativa de granos milimétricos | 0.25 | Indica que los granos grandes están asentados hacia el plano medio. | [@cleeves2016] |
+| Fracción de masa en granos grandes | 0.99 | Fracción de la masa de polvo contenida en granos grandes. | [@cleeves2016] |
+| Rango de tamaño de granos pequeños | 0.005–1 μm | Rango de tamaño de la población de polvo pequeño. | [@cleeves2016] |
+| Rango de tamaño de granos grandes | 0.005 μm–1 mm | Rango de tamaño de la población de polvo grande. | [@cleeves2016] |
+| Composición del polvo | 80% silicatos astronómicos + 20% grafito | Composición de polvo adoptada en el modelo. | [@cleeves2016] |
+| Profundidad óptica del polvo interno a 875 μm | τ875μm ≳ 4 dentro de 20 au; >10 a 1 au | Muestra que el disco interno de polvo es ópticamente grueso. | [@cleeves2016] |
+| Aumento de densidad superficial de polvo grande en el disco interno | 10–100× mayor que la extrapolación del disco externo | Exceso fuerte de polvo grande en el disco interno. | [@bosman2023] |
+| Reservorio de polvo interno | ≥540 M⊕ dentro de 20 au | Masa mínima de polvo concentrada en el disco interno. | [@bosman2023] |
+| Densidad superficial de polvo en el disco interno | ≥10 g cm^-2 | Densidad mínima de polvo interno necesaria para reproducir las observaciones. | [@bosman2023] |
+| Altura de escala del polvo en el disco interno | Igual a la altura de escala del gas dentro de 30 au | Indica que el polvo del disco interno está verticalmente extendido. | [@bosman2023] |
 
-## Gas in the disk
+## Gas en el disco
 
-In IM Lup, the gas forms the most extended component of the disk. Observations show that ^12^CO is detected out to **970 au**, while the millimeter dust is confined to a much more compact region, indicating that the gaseous disk extends far beyond the large-grain disk [@cleeves2016]. At the observed scales, this gas appears to be distributed relatively smoothly, and the same study explains that in the outer regions, the lower dust content allows more radiation to penetrate, helping CO remain in the gas phase at large distances.
-From a chemical point of view, the authors estimate a gas-phase CO abundance equal to only **5% of the interstellar value**, suggesting that CO is depleted, although it still remains an important tracer of the disk [@cleeves2016]. 
-They also find that IM Lup is exposed to a **low external radiation field** \((G_0 \leq 4)\), which nevertheless influences the temperature and chemistry of the gas, especially in the outer disk [@cleeves2016]. In addition, they propose the presence of an **extended diffuse halo of ^12^CO**, suggesting that part of the gas may extend beyond the main disk, perhaps as a tenuous envelope or a gaseous continuation of the system’s surroundings [@cleeves2016].
-As a complement, Rich et al. (2021) show that the ^12^CO-emitting layer also has a **flared vertical structure**, with \(\beta = 1.77 \pm 0.04\) and \(H_0 = 22.7 \pm 6.1\) au at 100 au, and that beyond **100 au** its height exceeds that of the small-dust scattering surface [@rich2021]. In other words, in the outer disk the gas not only extends farther out, but also remains at higher layers of the disk than the small dust grains.
+En IM Lup, el gas constituye el componente más extendido del disco. Las observaciones muestran que **^12^CO** se detecta hasta **970 au**, mientras que el polvo milimétrico está confinado a una región mucho más compacta [@cleeves2016]. Esto indica que el disco gaseoso se extiende mucho más allá del disco de granos grandes.
 
-## Gas properties
+A las escalas observadas, el gas parece distribuirse de manera relativamente suave. Cleeves et al. (2016) explican que en las regiones externas, el menor contenido de polvo permite que penetre más radiación, lo que ayuda a que el CO permanezca en fase gaseosa a grandes distancias.
 
-|| Property | Value | Description | Source |
+Desde el punto de vista químico, se estima que la abundancia de CO en fase gaseosa es solo el **5% del valor interestelar**, lo que sugiere que el CO está depletado, aunque sigue siendo un trazador importante del disco [@cleeves2016].
+
+El sistema también está expuesto a un campo de radiación externo bajo, con **G0 ≤ 4**, que aun así influye en la temperatura y la química del gas, especialmente en el disco externo [@cleeves2016]. Además, se propone la presencia de un **halo difuso extendido de ^12^CO**, lo que sugiere que parte del gas podría extenderse más allá del disco principal, quizá como una envoltura tenue o como una continuación gaseosa del ambiente del sistema [@cleeves2016].
+
+Como complemento, Rich et al. (2021) muestran que la capa emisora de **^12^CO** tiene una estructura vertical acampanada, con \(\beta = 1.77 \pm 0.04\) y \(H_0 = 22.7 \pm 6.1\) au a 100 au. Además, a radios mayores que **100 au**, su altura supera la superficie de dispersión del polvo pequeño [@rich2021]. En otras palabras, en el disco externo el gas no solo se extiende más lejos radialmente, sino que también se ubica en capas más altas que los granos pequeños.
+
+## Propiedades del gas
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| 12CO outer radius | 970 au | Maximum observed radial extent of the gas traced by ^12^CO. | [@cleeves2016] |
-| Gas mass | 0.17 M☉ | Estimated total mass of gas in the disk. | [@cleeves2016] |
-| Gas-phase CO abundance | 5% of the interstellar value | Indicates that CO is depleted relative to the standard interstellar abundance. | [@cleeves2016] |
-| External radiation field | G0 ≤ 4 | Low external UV field affecting the outer disk gas. | [@cleeves2016] |
-| 12CO emission surface flare parameter | 1.77 ± 0.04 | Describes how the observed ^12^CO-emitting layer rises with radius. | [@rich2021] |
-| 12CO emission surface height at 100 au | 22.7 ± 6.1 au | Observed height of the ^12^CO-emitting layer at 100 au. | [@rich2021] |
+| Radio externo de ^12^CO | 970 au | Extensión radial máxima observada del gas trazado por ^12^CO. | [@cleeves2016] |
+| Masa de gas | 0.17 M☉ | Masa total estimada del gas en el disco. | [@cleeves2016] |
+| Abundancia de CO en fase gaseosa | 5% del valor interestelar | Indica que el CO está depletado respecto de la abundancia interestelar estándar. | [@cleeves2016] |
+| Campo de radiación externo | G0 ≤ 4 | Campo UV externo bajo que afecta al gas del disco externo. | [@cleeves2016] |
+| Parámetro de acampanamiento de la superficie emisora de ^12^CO | 1.77 ± 0.04 | Describe cómo la capa emisora de ^12^CO aumenta su altura con el radio. | [@rich2021] |
+| Altura de la superficie emisora de ^12^CO a 100 au | 22.7 ± 6.1 au | Altura observada de la capa emisora de ^12^CO a 100 au. | [@rich2021] |
 
-## Evidence of planet formation
+## Evidencia de formación planetaria
 
-In IM Lup, the evidence for planet formation does not come from a directly confirmed planet, but rather from the way the disk itself appears to be evolving. 
-Bosman et al. [@bosman2023] argue that “the IM Lup disk shows evidence that it has been shaped by an episode of dust drift,” meaning that the system was likely shaped by radial dust drift, a key process because it transports pebbles and solids through different regions of the disk.
-From this picture, the same study concludes that “This scenario is ideal for the formation of giant planet cores at larger (>20 au) radii” and that “The more settled regions outside 20 au are still conducive to giant planet formation” [@bosman2023], suggesting that the outer disk provides the most favorable conditions for the growth of giant-planet cores.
-This idea becomes especially important when the authors state that “The conditions in the IM Lup disk imply that giant planet formation through pebble accretion is only effective outside of 20 au” [@bosman2023], because that sentence directly links the observed disk structure to a physical consequence: in IM Lup, giant planet formation is not equally likely throughout the system, but appears to be favored mainly in the outer disk. Taken together, these results make IM Lup a particularly valuable case for understanding how dust evolution can point to specific regions where giant planet formation may be most efficient.
+En IM Lup, la evidencia de formación planetaria no proviene de un planeta confirmado directamente, sino de la forma en que el propio disco parece estar evolucionando.
 
-## Physical interpretation of IM Lup
+Bosman et al. (2023) argumentan que el disco de IM Lup muestra evidencia de haber sido moldeado por un episodio de deriva radial del polvo [@bosman2023]. Este proceso es importante porque transporta guijarros y sólidos a través de distintas regiones del disco, modificando la distribución del material disponible para formar planetas.
 
-In physical terms, IM Lup appears to be a disk whose evolution is governed by the radial and vertical redistribution of dust. Bosman et al. [@bosman2023] propose that the system was shaped by an intense episode of dust drift, which would have transported a large amount of solids inward and created a clear division between two disk regions: an inner zone, within ~20 au, where dust is strongly concentrated and remains vertically extended, and an outer zone where solid material is still drifting inward.
-This interpretation is important because it suggests that the inner disk does not behave like a quiet, settled region, but rather like a more dynamically active environment, where the high dust concentration and strong vertical mixing point to a turbulent state, possibly linked to the vertical shear instability.
-At the same time, Cleeves et al. (2016) show that the disk must be understood as a system in which gas, dust, and the external environment are tightly coupled: when dust is reduced in the outer disk, that region becomes more exposed to stellar and external radiation, the freeze-out rate changes, and the gas chemistry is altered; by contrast, the inner region is so dense and optically thick that it can hide part of the line emission, reinforcing the idea of a compact, opaque, and vertically complex inner disk. 
-Taken together, this physical picture suggests that IM Lup is not a uniform disk, but a system in which different regions evolve in different ways: the inner disk would be dominated by dust pileup, high opacity, and turbulence, whereas the outer disk would preserve conditions more favorable for pebble accretion and, therefore, for the formation of giant-planet cores.
+A partir de este escenario, el mismo estudio concluye que las condiciones son favorables para la formación de núcleos de planetas gigantes a radios mayores que **20 au**, y que las regiones más asentadas fuera de 20 au siguen siendo propicias para la formación de planetas gigantes [@bosman2023].
 
-## References
+Esta idea es especialmente relevante porque conecta directamente la estructura observada del disco con una consecuencia física: en IM Lup, la formación de planetas gigantes mediante acreción de guijarros no sería igualmente eficiente en todo el sistema, sino que estaría favorecida principalmente en el disco externo [@bosman2023].
+
+En conjunto, estos resultados convierten a IM Lup en un caso valioso para comprender cómo la evolución del polvo puede señalar regiones específicas donde la formación de núcleos de planetas gigantes podría ser más eficiente.
+
+## Interpretación física de IM Lup
+
+En términos físicos, IM Lup parece ser un disco cuya evolución está gobernada por la redistribución radial y vertical del polvo. Bosman et al. (2023) proponen que el sistema fue moldeado por un episodio intenso de deriva del polvo, que habría transportado una gran cantidad de sólidos hacia el interior y creado una división clara entre dos regiones del disco [@bosman2023].
+
+La primera región corresponde al disco interno, dentro de **~20 au**, donde el polvo está fuertemente concentrado y permanece verticalmente extendido. La segunda corresponde al disco externo, donde el material sólido todavía estaría derivando hacia el interior [@bosman2023].
+
+Esta interpretación es importante porque sugiere que el disco interno no se comporta como una región tranquila y asentada, sino como un ambiente más dinámicamente activo. La alta concentración de polvo y la fuerte mezcla vertical apuntan a un estado turbulento, posiblemente relacionado con la inestabilidad de cizalla vertical.
+
+Al mismo tiempo, Cleeves et al. (2016) muestran que el disco debe entenderse como un sistema donde el gas, el polvo y el ambiente externo están estrechamente conectados. Cuando el polvo se reduce en el disco externo, esa región queda más expuesta a la radiación estelar y externa, cambia la tasa de congelamiento y se modifica la química del gas. En contraste, la región interna es tan densa y ópticamente gruesa que puede ocultar parte de la emisión de líneas moleculares [@cleeves2016].
+
+En conjunto, esta imagen física sugiere que IM Lup no es un disco uniforme, sino un sistema donde distintas regiones evolucionan de maneras diferentes. El disco interno estaría dominado por acumulación de polvo, alta opacidad y turbulencia, mientras que el disco externo conservaría condiciones más favorables para la acreción de guijarros y, por lo tanto, para la formación de núcleos de planetas gigantes.
+
+## Referencias
 
 ::: {#refs}
 :::

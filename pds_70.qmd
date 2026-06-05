@@ -1,5 +1,5 @@
 ---
-title: "PDS 70:Protoplanetary disk"
+title: "PDS 70: disco protoplanetario"
 lightbox: true
 bibliography: references.bib
 link-citations: true
@@ -9,144 +9,175 @@ format:
     toc-depth: 2
 ---
 
-![ALMA image of the young planetary system PDS 70, showing a circumstellar disk where planets are forming. The system hosts the confirmed planets PDS 70b and PDS 70c within the disk cavity. Credit: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.](images/pds_70_ficha.jpg){fig-align="center"}
+![Imagen de ALMA del joven sistema planetario PDS 70, donde se observa un disco circumestelar en el que se están formando planetas. El sistema contiene los planetas confirmados PDS 70 b y PDS 70 c dentro de la cavidad del disco. Crédito: ALMA (ESO/NAOJ/NRAO) / Balsalobre-Ruza et al.](images/pds_70_ficha.jpg){fig-align="center"}
 
-## Object names
+## Nombres del objeto
 
-| Object names | Names |
+| Campo | Nombre |
 |---|---|
-| Main name | PDS 70 |
-| Other designations | V* V1032 Cen; IRAS 14050-4109 |
-| Location | Upper Centaurus–Lupus (UCL), asociación Scorpius–Centaurus |
+| Nombre principal | PDS 70 |
+| Otras designaciones | V* V1032 Cen; IRAS 14050-4109 |
+| Ubicación | Upper Centaurus–Lupus (UCL), asociación Scorpius–Centaurus |
 
-## Location
+## Ubicación
 
-PDS 70 is located at a distance of **113.43 ± 0.52 pc** and is a member of the **Scorpius–Centaurus** stellar association, specifically of the **Upper Centaurus–Lupus (UCL)** subgroup. One of the pieces of evidence that this is a young system is that, as the authors note, “Strong lithium absorption and the presence of a protoplanetary disk provide evidence of a young age” (**<10 Myr**) for PDS 70 [@gregoriohetem2002_wtts; @metchev2004_palomar].
+PDS 70 se encuentra a una distancia de **113.43 ± 0.52 pc** y pertenece a la asociación estelar **Scorpius–Centaurus**, específicamente al subgrupo **Upper Centaurus–Lupus (UCL)**.
 
-## General Description of the System
+Una de las evidencias de que se trata de un sistema joven es la presencia de una fuerte absorción de litio y de un disco protoplanetario. Estos rasgos indican que PDS 70 tiene una edad joven, menor que **10 Myr** [@gregoriohetem2002_wtts; @metchev2004_palomar].
 
-PDS 70 is a young system composed of a **pre-main-sequence T Tauri star** of **spectral type K7**, surrounded by a **transition protoplanetary disk**. It is an ideal laboratory for studying planet formation because it brings together, within a single system, an **inner disk**, a **large gap**, an **outer ring**, and **protoplanets**.
+## Descripción general del sistema
 
-The inner disk is a compact component located very close to the star, inside the large gap. Earlier observations described it as “a small optically thick inner disk emitting in the NIR” [@hashimoto2012_pds70; @dong2012_missingcavities]. Later, this component was shown to be detected in the continuum within ~9 au and in gas out to ~15 au [@keppler2019_pds70], indicating that the innermost region still retains material close to the star.
+PDS 70 es un sistema joven compuesto por una estrella **T Tauri de pre-secuencia principal**, de tipo espectral **K7**, rodeada por un **disco protoplanetario transicional**. Es un laboratorio ideal para estudiar formación planetaria porque reúne, dentro de un mismo sistema, un **disco interno**, una **gran brecha o cavidad**, un **anillo externo** y **protoplanetas**.
 
-The large gap corresponds to the radial cavity that separates the inner disk from the outer disk. Its structure was confirmed when the authors stated that “we confirm the detection of a large gap of ∼54 au in size within the disk in our scattered light images” [@keppler2018_pds70]. The gap also shows evidence of **radial dust segregation**, since “The gap is found to be larger at sub-mm wavelengths” [@keppler2019_pds70].
+El disco interno es un componente compacto ubicado muy cerca de la estrella, dentro de la gran brecha. Observaciones previas lo describieron como un pequeño disco interno ópticamente grueso que emite en el infrarrojo cercano [@hashimoto2012_pds70; @dong2012_missingcavities]. Posteriormente, este componente fue detectado en el continuo dentro de **~9 au** y en gas hasta **~15 au** [@keppler2019_pds70], lo que indica que la región más interna del sistema todavía conserva material cerca de la estrella.
 
-The outer disk, in turn, is observed as a bright ring whose main emission peak is located at “The best-fit model has a peak radial position of 73.7 ± 0.1 au” [@keppler2019_pds70].
+La gran brecha corresponde a la cavidad radial que separa el disco interno del disco externo. Su estructura fue confirmada en imágenes de luz dispersada, donde se detecta una brecha grande de aproximadamente **~54 au** [@keppler2018_pds70]. Además, esta brecha muestra evidencia de **segregación radial del polvo**, ya que se observa más grande en longitudes de onda submilimétricas [@keppler2019_pds70].
 
-Finally, the system is especially remarkable because of the **direct detection of protoplanets within the gap**. Keppler et al. [@keppler2018_pds70] reported “a point source within the gap of the disk at about 195 mas (∼22 au) projected separation”, which was identified as **PDS 70 b**. Later, Haffert et al. [@haffert2019_pds70] detected Hα emission at two locations in the system and concluded: “We therefore identify this second source of Hα emission as the location of a second, forming planet, PDS 70 c”. The evidence for **active accretion** in both objects is based on the fact that “The Hα emission spectra of both proto-planets indicate ongoing accretion onto the proto-planets” [@haffert2019_pds70].
+El disco externo se observa como un anillo brillante. En observaciones de ALMA, el pico principal de emisión del anillo se ubica en **73.7 ± 0.1 au** [@keppler2019_pds70].
 
-Overall, PDS 70 stands out as a valuable laboratory for planet formation because it combines a **large cavity**, an **inner disk**, a **well-resolved outer ring**, and **two actively accreting protoplanets** within the gap.
+Finalmente, el sistema es especialmente notable por la **detección directa de protoplanetas dentro de la brecha**. Keppler et al. [@keppler2018_pds70] reportaron una fuente puntual dentro de la brecha del disco, a una separación proyectada de aproximadamente **195 mas**, equivalente a **~22 au**, identificada como **PDS 70 b**. Más tarde, Haffert et al. [@haffert2019_pds70] detectaron emisión Hα en dos posiciones del sistema e identificaron la segunda fuente como un segundo planeta en formación, **PDS 70 c**. La emisión Hα de ambos objetos indica que los dos protoplanetas siguen acreciendo material activamente [@haffert2019_pds70].
 
-## Fundamental System Properties
+En conjunto, PDS 70 destaca como un laboratorio muy valioso para estudiar formación planetaria, porque combina una **gran cavidad**, un **disco interno**, un **anillo externo bien resuelto** y **dos protoplanetas en acreción activa** dentro de la brecha.
 
-| Property | Value | Description | Source |
+## Propiedades fundamentales del sistema
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---|---|---|
-| Distance | 113.43 ± 0.52 pc | Distance between PDS 70 and Earth; it allows the observed angular sizes to be converted into physical sizes in the disk. | [@keppler2018_pds70] |
-| Age | 5.4 ± 1.0 Myr | Indicates that the system is very young and still in an active stage of planet formation. | [@keppler2018_pds70] |
-| Spectral type | K7 | Spectral classification of the central star; it summarizes its general temperature and emission properties. | [@keppler2018_pds70] |
-| Effective temperature | 3972 ± 36 K | Effective surface temperature of the star; it influences the heating and illumination of the disk. | [@keppler2018_pds70] |
-| Stellar mass | 0.76 ± 0.02 M☉ | Mass of the central star; it controls the orbital dynamics of the disk and the protoplanets. | [@keppler2018_pds70] |
-| Stellar radius | 1.26 ± 0.15 R☉ | Physical size of the star; it helps describe the stellar state of the system. | [@keppler2018_pds70] |
-| Stellar luminosity | 0.35 ± 0.09 L☉ | Energy emitted by the star; it determines how much radiation heats the protoplanetary disk. | [@keppler2018_pds70] |
-| Visual extinction | 0.05$^{+0.05}_{-0.03}$ mag | Attenuation of the starlight by dust between the source and the observer; this is important for correctly interpreting the observed brightness and colors. | [@keppler2018_pds70] |
-| Disk inclination | ~49.7° (NIR) / 51.7° (ALMA) | Angle at which we observe the disk with respect to our line of sight; it defines its apparent geometry. | [@keppler2018_pds70; @keppler2019_pds70] |
-| Disk position angle | ~158.6° (NIR) / ~156.7–159.7° (ALMA) | Orientation of the major axis of the disk on the plane of the sky; it describes the direction in which the disk is aligned in the images. | [@keppler2018_pds70; @keppler2019_pds70] |
+| Distancia | 113.43 ± 0.52 pc | Distancia entre PDS 70 y la Tierra; permite convertir tamaños angulares observados en tamaños físicos dentro del disco. | [@keppler2018_pds70] |
+| Edad | 5.4 ± 1.0 Myr | Indica que el sistema es muy joven y todavía se encuentra en una etapa activa de formación planetaria. | [@keppler2018_pds70] |
+| Tipo espectral | K7 | Clasificación espectral de la estrella central; resume sus propiedades generales de temperatura y emisión. | [@keppler2018_pds70] |
+| Temperatura efectiva | 3972 ± 36 K | Temperatura efectiva superficial de la estrella; influye en el calentamiento e iluminación del disco. | [@keppler2018_pds70] |
+| Masa estelar | 0.76 ± 0.02 M☉ | Masa de la estrella central; controla la dinámica orbital del disco y de los protoplanetas. | [@keppler2018_pds70] |
+| Radio estelar | 1.26 ± 0.15 R☉ | Tamaño físico de la estrella; ayuda a describir el estado estelar del sistema. | [@keppler2018_pds70] |
+| Luminosidad estelar | 0.35 ± 0.09 L☉ | Energía emitida por la estrella; determina cuánta radiación calienta el disco protoplanetario. | [@keppler2018_pds70] |
+| Extinción visual | 0.05$^{+0.05}_{-0.03}$ mag | Atenuación de la luz estelar por polvo entre la fuente y el observador; es importante para interpretar correctamente el brillo y los colores observados. | [@keppler2018_pds70] |
+| Inclinación del disco | ~49.7° (NIR) / 51.7° (ALMA) | Ángulo con el que observamos el disco respecto de la línea de visión; define su geometría aparente. | [@keppler2018_pds70; @keppler2019_pds70] |
+| Ángulo de posición del disco | ~158.6° (NIR) / ~156.7–159.7° (ALMA) | Orientación del eje mayor del disco en el plano del cielo; describe la dirección en que el disco aparece alineado en las imágenes. | [@keppler2018_pds70; @keppler2019_pds70] |
 
-## Disk Morphology
+## Morfología del disco
 
-PDS 70 exhibits the characteristic morphology of a transition disk, but with an especially rich internal structure. The system includes a **compact inner disk**, a **large cavity**, and a **well-resolved outer ring**. In polarized light, the outer disk appears as an elliptical ring with a non-uniform brightness distribution. ALMA observations, however, reveal a more complex arrangement of dust and gas, including a main ring at **~74 au**, a possible additional inner component, and a tentative **bridge- or spur-like structure** that may connect the outer and inner regions of the disk. Located within the large gap are the two protoplanets **PDS 70 b** and **PDS 70 c**, which makes this system a particularly important case for studying **planet–disk interaction** and **planet formation in progress**.
+PDS 70 presenta la morfología característica de un disco transicional, pero con una estructura interna especialmente rica. El sistema incluye un **disco interno compacto**, una **gran cavidad** y un **anillo externo bien resuelto**.
 
+En luz polarizada, el disco externo aparece como un anillo elíptico con una distribución de brillo no uniforme. Sin embargo, las observaciones de ALMA revelan una organización más compleja del polvo y del gas, incluyendo un anillo principal a **~74 au**, un posible componente interno adicional y una estructura tentativa tipo **puente** o **spur** que podría conectar las regiones externas e internas del disco.
 
-## Morphology Measurements
+Dentro de la gran brecha se ubican los dos protoplanetas **PDS 70 b** y **PDS 70 c**, lo que convierte a este sistema en un caso particularmente importante para estudiar **interacción planeta-disco** y **formación planetaria en curso**.
 
-| Structure | Measurement | Description | Source |
+## Mediciones morfológicas
+
+| Estructura | Medición | Descripción | Fuente |
 |---|---|---|---|
-| Inner disk (scattered light) | < ~17 au | Compact inner component detected in scattered light; it shows that the innermost region of the system is not completely empty. | [@keppler2018_pds70] |
-| Inner disk (ALMA continuum) | < ~80 mas (~9 au) | Compact central emission detected in the millimeter continuum; it corresponds to the inner disk observed with ALMA. | [@keppler2019_pds70] |
-| Inner gas disk | up to ~15 au | Inner gaseous component detected in CO; it shows that gas also survives in the inner region of the system. | [@keppler2019_pds70] |
-| Cavity in the NIR | ~20–40 au | Radially depleted dust region observed at near-infrared wavelengths; it traces the large inner gap of the disk. | [@haffert2019_pds70] |
-| Outer ring peak in polarized light | ~54 au | Radius at which the outer ring reaches its maximum brightness in polarized light. | [@keppler2018_pds70] |
-| Main dust-ring peak (ALMA) | 73.7 ± 0.1 au | Radius at which the outer dust ring reaches its main emission peak in the millimeter continuum. | [@keppler2019_pds70] |
-| Inner ring width | 14.8 ± 0.1 au | Radial extent of the ring toward smaller radii from its emission peak; this shows that the ring is a broad band rather than a thin line. | [@keppler2019_pds70] |
-| Outer ring width | 13.4 ± 0.1 au | Radial extent of the ring toward larger radii from its peak. | [@keppler2019_pds70] |
-| Possible shoulder / second component | ~60 au | Possible secondary maximum or inner component of the dust ring, detected along the inner edge of the main structure. | [@keppler2019_pds70] |
-| Spur / bridge | PA ~285° | Possible substructure extending from the ring toward the inner region; it could connect the outer disk with the inner disk. | [@keppler2019_pds70] |
-| Gas gap | ~23 au | Main depression in CO emission, located near the orbit of PDS 70 b. | [@keppler2019_pds70] |
-| Approximate width of the gas gap | ~11 au | Estimated width of the main CO depression. | [@keppler2019_pds70] |
-| Second CO depression | ~0.6″ | Outer depression seen in the integrated CO emission; the paper suggests that it may be affected by continuum absorption. | [@keppler2019_pds70] |
+| Disco interno en luz dispersada | < ~17 au | Componente interno compacto detectado en luz dispersada; muestra que la región más interna del sistema no está completamente vacía. | [@keppler2018_pds70] |
+| Disco interno en continuo de ALMA | < ~80 mas (~9 au) | Emisión central compacta detectada en el continuo milimétrico; corresponde al disco interno observado con ALMA. | [@keppler2019_pds70] |
+| Disco gaseoso interno | Hasta ~15 au | Componente gaseoso interno detectado en CO; muestra que el gas también sobrevive en la región interna del sistema. | [@keppler2019_pds70] |
+| Cavidad en el infrarrojo cercano | ~20–40 au | Región radialmente depletada en polvo observada en longitudes de onda del infrarrojo cercano; traza la gran brecha interna del disco. | [@haffert2019_pds70] |
+| Pico del anillo externo en luz polarizada | ~54 au | Radio donde el anillo externo alcanza su máximo brillo en luz polarizada. | [@keppler2018_pds70] |
+| Pico principal del anillo de polvo en ALMA | 73.7 ± 0.1 au | Radio donde el anillo externo de polvo alcanza su máximo de emisión en el continuo milimétrico. | [@keppler2019_pds70] |
+| Ancho interno del anillo | 14.8 ± 0.1 au | Extensión radial del anillo hacia radios menores desde su pico de emisión; muestra que el anillo es una banda ancha y no una línea delgada. | [@keppler2019_pds70] |
+| Ancho externo del anillo | 13.4 ± 0.1 au | Extensión radial del anillo hacia radios mayores desde su pico. | [@keppler2019_pds70] |
+| Posible shoulder / segundo componente | ~60 au | Posible máximo secundario o componente interno del anillo de polvo, detectado cerca del borde interno de la estructura principal. | [@keppler2019_pds70] |
+| Spur / puente | PA ~285° | Posible subestructura que se extiende desde el anillo hacia la región interna; podría conectar el disco externo con el disco interno. | [@keppler2019_pds70] |
+| Brecha de gas | ~23 au | Depresión principal en la emisión de CO, ubicada cerca de la órbita de PDS 70 b. | [@keppler2019_pds70] |
+| Ancho aproximado de la brecha de gas | ~11 au | Ancho estimado de la depresión principal observada en CO. | [@keppler2019_pds70] |
+| Segunda depresión de CO | ~0.6″ | Depresión externa observada en la emisión integrada de CO; el estudio sugiere que puede estar afectada por absorción del continuo. | [@keppler2019_pds70] |
 
-## Dust in the disk
+## Polvo en el disco
 
-The dust in PDS 70 is not evenly distributed, but instead organized into distinct disk substructures. Beyond the inner disk lies the gap, a region where the dust emission is strongly depleted. Farther out, ALMA millimeter continuum observations, which trace larger dust grains, show that this material is primarily concentrated in an outer ring peaking at 73.7 ± 0.1 au, with a possible additional component near 60 au. Taken together, these observations indicate that small grains remain closer to the cavity edge, whereas larger grains accumulate farther out, consistent with a dust-trapping scenario [@keppler2018_pds70; @keppler2019_pds70].
+El polvo en PDS 70 no está distribuido uniformemente, sino que se organiza en subestructuras bien diferenciadas. Más allá del disco interno se encuentra la brecha, una región donde la emisión de polvo está fuertemente depletada.
 
-## Dust properties
+A radios mayores, las observaciones del continuo milimétrico de ALMA, que trazan granos de polvo más grandes, muestran que este material se concentra principalmente en un anillo externo cuyo pico se ubica en **73.7 ± 0.1 au**, con un posible componente adicional cerca de **60 au** [@keppler2019_pds70].
 
-| Property | Value | Description | Source |
+En conjunto, estas observaciones indican que los granos pequeños permanecen más cerca del borde de la cavidad, mientras que los granos grandes se acumulan más lejos. Esto es consistente con un escenario de **atrapamiento de polvo**, donde los granos milimétricos se concentran en regiones asociadas con máximos de presión [@keppler2018_pds70; @keppler2019_pds70].
+
+## Propiedades del polvo
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---:|---|---|
-| Large gap in scattered light | ~54 au | Size of the large gap observed in the distribution of small dust grains at the disk surface. | [@keppler2018_pds70] |
-| Inner dust disk (scattered light) | < ~17 au | Compact inner component detected in scattered light; it shows that the inner region is not completely empty. | [@keppler2018_pds70] |
-| Cavity wall in NIR | ~0.39" | Approximate location of the cavity wall as observed in scattered light. | [@keppler2018_pds70] |
-| Outer disk brightness peak in polarized light | ~54 au | Radius at which the outer disk reaches its maximum brightness in polarized light. | [@keppler2018_pds70] |
-| Main dust ring peak (ALMA) | 73.7 ± 0.1 au | Radius at which the main millimeter dust ring reaches its peak emission. | [@keppler2019_pds70] |
-| Possible second ring component | ~0.53" (~60 au) | Possible secondary subpeak, or shoulder, at the inner edge of the main ring. | [@keppler2019_pds70] |
-| Azimuthal asymmetry of the ring (ALMA) | PA ~327°, ~13% brighter | The northwestern side of the ring is brighter than the opposite side. | [@keppler2019_pds70] |
-| Inner dust disk (ALMA) | < ~80 mas (~9 au) | Compact central emission detected in the millimeter continuum. | [@keppler2019_pds70] |
-| Grain-size segregation | ~0.70" vs ~0.39" | Large grains are concentrated farther out than small grains, suggesting dust accumulation in a region shaped by the local pressure gradient. | [@keppler2018_pds70] |
+| Gran brecha en luz dispersada | ~54 au | Tamaño de la gran brecha observada en la distribución de granos pequeños en la superficie del disco. | [@keppler2018_pds70] |
+| Disco interno de polvo en luz dispersada | < ~17 au | Componente interno compacto detectado en luz dispersada; muestra que la región interna no está completamente vacía. | [@keppler2018_pds70] |
+| Pared de la cavidad en NIR | ~0.39″ | Ubicación aproximada de la pared de la cavidad observada en luz dispersada. | [@keppler2018_pds70] |
+| Pico de brillo del disco externo en luz polarizada | ~54 au | Radio donde el disco externo alcanza su máximo brillo en luz polarizada. | [@keppler2018_pds70] |
+| Pico principal del anillo de polvo en ALMA | 73.7 ± 0.1 au | Radio donde el anillo principal de polvo milimétrico alcanza su máximo de emisión. | [@keppler2019_pds70] |
+| Posible segundo componente del anillo | ~0.53″ (~60 au) | Posible subpico secundario, o shoulder, en el borde interno del anillo principal. | [@keppler2019_pds70] |
+| Asimetría azimutal del anillo en ALMA | PA ~327°, ~13% más brillante | El lado noroeste del anillo es más brillante que el lado opuesto. | [@keppler2019_pds70] |
+| Disco interno de polvo en ALMA | < ~80 mas (~9 au) | Emisión central compacta detectada en el continuo milimétrico. | [@keppler2019_pds70] |
+| Segregación por tamaño de grano | ~0.70″ vs ~0.39″ | Los granos grandes se concentran más lejos que los granos pequeños, sugiriendo acumulación de polvo en una región moldeada por el gradiente local de presión. | [@keppler2018_pds70] |
 
-## Gas in the disk
+## Gas en el disco
 
-The gas component in PDS 70 has been studied primarily through the $^{12}$CO $J=3-2$ line. Unlike the dust continuum, this emission traces an elevated layer of the disk rather than the midplane, so its observed morphology appears more extended and geometrically more complex. ALMA observations show that the gaseous cavity is not completely empty: there is an inner depression in emission near 23 au, an inner gaseous disk extending out to about 15 au, and a possible structure linking the inner disk to the outer ring in the northwestern region. In addition, the gas kinematics show departures from Keplerian rotation inside ~0.8″ (91 au), suggesting the presence of pressure gradients within the disk. Taken together, these results indicate that the gas is depleted near the orbit of PDS 70 b, but not absent, and may still be flowing between the outer disk and the inner regions [@keppler2019_pds70].
+El componente gaseoso de PDS 70 ha sido estudiado principalmente mediante la línea $^{12}$CO $J=3-2$. A diferencia del continuo de polvo, esta emisión traza una capa elevada del disco y no directamente el plano medio. Por eso, su morfología observada aparece más extendida y geométricamente más compleja.
 
-## Gas properties
+Las observaciones de ALMA muestran que la cavidad gaseosa no está completamente vacía. Existe una depresión interna de emisión cerca de **23 au**, un disco gaseoso interno que se extiende hasta aproximadamente **15 au**, y una posible estructura que conecta el disco interno con el anillo externo en la región noroeste [@keppler2019_pds70].
 
-| Property | Value | Description | Source |
+Además, la cinemática del gas muestra desviaciones respecto de la rotación kepleriana dentro de **~0.8″**, equivalente a **~91 au**, lo que sugiere la presencia de gradientes de presión dentro del disco [@keppler2019_pds70].
+
+En conjunto, estos resultados indican que el gas está depletado cerca de la órbita de PDS 70 b, pero no ausente. También sugieren que todavía podría existir flujo de gas entre el disco externo y las regiones internas del sistema [@keppler2019_pds70].
+
+## Propiedades del gas
+
+| Propiedad | Valor | Descripción | Fuente |
 |---|---:|---|---|
-| Main gas tracer | $^{12}$CO $J=3-2$ | Main line used to study the gas morphology and kinematics in the disk. The paper also reports HCN, HCO$^+$, and H$^{13}$CN, but its main analysis focuses on $^{12}$CO. | [@keppler2019_pds70] |
-| $^{12}$CO emitting surface | $z(r) = (0.33 \pm 0.01)\,(r/1^{\prime\prime})^{0.76 \pm 0.01}$ | Shows that the CO emission arises from an elevated layer of the disk rather than from the midplane. | [@keppler2019_pds70] |
-| Inner gas disk | out to ~15 au | Clearly detected gaseous inner disk in the central region of the system. | [@keppler2019_pds70] |
-| Main gaseous gap (center) | ~0.2″ (~23 au) | Main depression in the integrated CO emission, located near the orbit of PDS 70 b. | [@keppler2019_pds70] |
-| Width of the gaseous gap | ~0.1″ (~11 au) | Characteristic width of the inner depression seen in $^{12}$CO. | [@keppler2019_pds70] |
-| Radial extent of the gaseous gap | ~0.1–0.3″ (~11–34 au) | Approximate full radial extent of the gaseous depression; it does not reach the location of the main dust ring. | [@keppler2019_pds70] |
-| Possible bridge-like feature | northwestern region | Possible gas structure linking the inner disk to the outer ring; it may trace gas flow across the gap. | [@keppler2019_pds70] |
-| Deviation from Keplerian rotation | within ~0.8″ (~91 au) | Kinematic perturbation in the gas that points to the presence of a pressure gradient in the disk. | [@keppler2019_pds70] |
-| Positive pressure gradient | ~0.4–0.8″, with a maximum near ~0.55″ | Helps explain why the main dust ring is located much farther out than the orbit of PDS 70 b. | [@keppler2019_pds70] |
-| Second CO depression | ~0.6″ | Outer depression seen in the integrated CO emission; the paper suggests it may be related to continuum absorption by optically thick dust. | [@keppler2019_pds70] |
+| Trazador principal del gas | $^{12}$CO $J=3-2$ | Línea principal usada para estudiar la morfología y cinemática del gas en el disco. El estudio también reporta HCN, HCO$^+$ y H$^{13}$CN, pero el análisis principal se centra en $^{12}$CO. | [@keppler2019_pds70] |
+| Superficie emisora de $^{12}$CO | $z(r) = (0.33 \pm 0.01)\,(r/1^{\prime\prime})^{0.76 \pm 0.01}$ | Muestra que la emisión de CO proviene de una capa elevada del disco y no del plano medio. | [@keppler2019_pds70] |
+| Disco gaseoso interno | Hasta ~15 au | Disco gaseoso interno claramente detectado en la región central del sistema. | [@keppler2019_pds70] |
+| Brecha gaseosa principal | ~0.2″ (~23 au) | Depresión principal en la emisión integrada de CO, ubicada cerca de la órbita de PDS 70 b. | [@keppler2019_pds70] |
+| Ancho de la brecha gaseosa | ~0.1″ (~11 au) | Ancho característico de la depresión interna observada en $^{12}$CO. | [@keppler2019_pds70] |
+| Extensión radial de la brecha gaseosa | ~0.1–0.3″ (~11–34 au) | Extensión radial aproximada completa de la depresión gaseosa; no alcanza la ubicación del anillo principal de polvo. | [@keppler2019_pds70] |
+| Posible estructura tipo puente | Región noroeste | Posible estructura gaseosa que conecta el disco interno con el anillo externo; podría trazar flujo de gas a través de la brecha. | [@keppler2019_pds70] |
+| Desviación de la rotación kepleriana | Dentro de ~0.8″ (~91 au) | Perturbación cinemática del gas que apunta a la presencia de un gradiente de presión en el disco. | [@keppler2019_pds70] |
+| Gradiente de presión positivo | ~0.4–0.8″, con máximo cerca de ~0.55″ | Ayuda a explicar por qué el anillo principal de polvo se ubica mucho más lejos que la órbita de PDS 70 b. | [@keppler2019_pds70] |
+| Segunda depresión de CO | ~0.6″ | Depresión externa observada en la emisión integrada de CO; el estudio sugiere que puede estar relacionada con absorción del continuo por polvo ópticamente grueso. | [@keppler2019_pds70] |
 
-## Evidence of planet formation
+## Evidencia de formación planetaria
 
-PDS 70 provides some of the clearest evidence of ongoing planet formation in a protoplanetary disk. First, Keppler et al. [@keppler2018_pds70] detected PDS 70 b as a point source inside the large disk gap, at a separation of about 195 mas (~22 au), and follow-up observations confirmed that it is physically associated with the system. Its photometry is also consistent with a planetary-mass companion. Second, Haffert et al. [@haffert2019_pds70] detected Hα emission from both PDS 70 b and PDS 70 c. Because Hα traces accreting gas, this shows that both protoplanets are still actively gaining material and continue to grow. Third, Keppler et al. [@keppler2019_pds70] found that the disk itself is being perturbed: the CO emission shows a depression near the orbit of PDS 70 b, together with a deviation from Keplerian rotation that reveals changes in the gas pressure structure. Taken together, these results show that PDS 70 is not only a disk with substructures, but a system where planet formation is directly observed in action.
+PDS 70 ofrece una de las evidencias más claras de formación planetaria en curso dentro de un disco protoplanetario.
+
+Primero, Keppler et al. [@keppler2018_pds70] detectaron **PDS 70 b** como una fuente puntual dentro de la gran brecha del disco, a una separación aproximada de **195 mas**, equivalente a **~22 au**. Observaciones posteriores confirmaron que el objeto está físicamente asociado con el sistema. Su fotometría también es consistente con un compañero de masa planetaria.
+
+Segundo, Haffert et al. [@haffert2019_pds70] detectaron emisión **Hα** tanto en **PDS 70 b** como en **PDS 70 c**. Como Hα traza gas en acreción, esta detección muestra que ambos protoplanetas todavía están ganando material activamente y continúan creciendo.
+
+Tercero, Keppler et al. [@keppler2019_pds70] encontraron que el propio disco está siendo perturbado: la emisión de CO muestra una depresión cerca de la órbita de PDS 70 b, junto con una desviación respecto de la rotación kepleriana que revela cambios en la estructura de presión del gas.
+
+En conjunto, estos resultados muestran que PDS 70 no es solo un disco con subestructuras, sino un sistema donde la formación planetaria se observa directamente en acción.
 
 ### PDS 70 b
 
-| Property | Value | Description | Source |
+| Propiedad | Valor | Descripción | Fuente |
 |---|---:|---|---|
-| Nature | Protoplanet / planetary-mass companion | Object detected inside the disk gap and confirmed to be physically associated with the system. | [@keppler2018_pds70] |
-| Typical projected separation | ~195 mas (~22 au) | Observed distance from the star in direct-imaging data. | [@keppler2018_pds70; @keppler2019_pds70] |
-| Typical position angle | ~155° | Angular location of PDS 70 b on the plane of the sky. | [@keppler2018_pds70; @keppler2019_pds70] |
-| Estimated mass | ~5–9 M_Jup | Mass range adopted in direct-imaging studies and also used in the ALMA-based analysis. | [@keppler2018_pds70; @keppler2019_pds70] |
-| Hα | Detected | Signature of hot gas accreting onto the protoplanet, indicating ongoing growth. | [@haffert2019_pds70] |
-| Hα flux | 3.9 ± 0.37 × 10^-16 erg s^-1 cm^-2 | Measured intensity of the Hα emission from PDS 70 b. | [@haffert2019_pds70] |
-| Accretion rate | ~2 × 10^-8 M_Jup yr^-1 | Indicates that PDS 70 b is still actively gaining material. | [@haffert2019_pds70] |
-| Circumplanetary dust mass limit | < ~0.01 M_earth | ALMA did not detect a robust circumplanetary disk, but it placed an upper limit on its dust mass. | [@keppler2019_pds70] |
+| Naturaleza | Protoplaneta / compañero de masa planetaria | Objeto detectado dentro de la brecha del disco y confirmado como físicamente asociado al sistema. | [@keppler2018_pds70] |
+| Separación proyectada típica | ~195 mas (~22 au) | Distancia observada desde la estrella en datos de imagen directa. | [@keppler2018_pds70; @keppler2019_pds70] |
+| Ángulo de posición típico | ~155° | Ubicación angular de PDS 70 b en el plano del cielo. | [@keppler2018_pds70; @keppler2019_pds70] |
+| Masa estimada | ~5–9 M_Jup | Rango de masa adoptado en estudios de imagen directa y también usado en el análisis basado en ALMA. | [@keppler2018_pds70; @keppler2019_pds70] |
+| Hα | Detectado | Firma de gas caliente acreciendo sobre el protoplaneta, lo que indica crecimiento en curso. | [@haffert2019_pds70] |
+| Flujo Hα | 3.9 ± 0.37 × 10^-16 erg s^-1 cm^-2 | Intensidad medida de la emisión Hα de PDS 70 b. | [@haffert2019_pds70] |
+| Tasa de acreción | ~2 × 10^-8 M_Jup yr^-1 | Indica que PDS 70 b todavía está ganando material activamente. | [@haffert2019_pds70] |
+| Límite de masa de polvo circumplanetario | < ~0.01 M_earth | ALMA no detectó de forma robusta un disco circumplanetario, pero estableció un límite superior para su masa de polvo. | [@keppler2019_pds70] |
 
 ### PDS 70 c
 
-| Property | Value | Description | Source |
+| Propiedad | Valor | Descripción | Fuente |
 |---|---:|---|---|
-| Nature | Second accreting protoplanet | Identified as a second forming planetary object within the system. | [@haffert2019_pds70] |
-| Hα projected separation | 235.5 ± 25 mas | Observed separation from the star in the Hα detection. | [@haffert2019_pds70] |
-| Estimated orbital radius | 38.6 ± 4.5 au | Orbital radius inferred from the Hα detection. | [@haffert2019_pds70] |
-| Typical position angle | ~277° in Hα; ~283°–285° in K1/L' | Its location is consistent across detections at different wavelengths. | [@haffert2019_pds70] |
-| Estimated mass | ~4–12 M_Jup | Probable mass range, although still uncertain because of possible contamination from the disk or circumplanetary material. | [@haffert2019_pds70] |
-| Hα | Detected | Confirms that PDS 70 c is also accreting material. | [@haffert2019_pds70] |
-| Hα flux | 1.9 ± 0.32 × 10^-16 erg s^-1 cm^-2 | Measured intensity of the Hα emission from PDS 70 c. | [@haffert2019_pds70] |
-| Accretion rate | ~1 × 10^-8 M_Jup yr^-1 | Shows that the protoplanet is still growing actively. | [@haffert2019_pds70] |
+| Naturaleza | Segundo protoplaneta en acreción | Identificado como un segundo objeto planetario en formación dentro del sistema. | [@haffert2019_pds70] |
+| Separación proyectada en Hα | 235.5 ± 25 mas | Separación observada respecto de la estrella en la detección de Hα. | [@haffert2019_pds70] |
+| Radio orbital estimado | 38.6 ± 4.5 au | Radio orbital inferido a partir de la detección en Hα. | [@haffert2019_pds70] |
+| Ángulo de posición típico | ~277° en Hα; ~283°–285° en K1/L' | Su ubicación es consistente entre detecciones en diferentes longitudes de onda. | [@haffert2019_pds70] |
+| Masa estimada | ~4–12 M_Jup | Rango probable de masa, aunque todavía incierto por posible contaminación del disco o material circumplanetario. | [@haffert2019_pds70] |
+| Hα | Detectado | Confirma que PDS 70 c también está acreciendo material. | [@haffert2019_pds70] |
+| Flujo Hα | 1.9 ± 0.32 × 10^-16 erg s^-1 cm^-2 | Intensidad medida de la emisión Hα de PDS 70 c. | [@haffert2019_pds70] |
+| Tasa de acreción | ~1 × 10^-8 M_Jup yr^-1 | Muestra que el protoplaneta todavía está creciendo activamente. | [@haffert2019_pds70] |
 
-## Physical interpretation
+## Interpretación física
 
-PDS 70 is interpreted as a young planetary system that is still forming, in which the protoplanets are already actively reshaping the disk structure. The large cavity, the segregation between small and large dust grains, and the presence of an inner disk led Keppler et al. [@keppler2018_pds70] to identify the system early on as a strong candidate for harboring planets capable of carving the gap. Later, ALMA observations showed that the gas displays a depression near the orbit of PDS 70 b, together with a departure from Keplerian rotation consistent with a pressure gradient that can explain why the main dust ring lies much farther out; however, Keppler et al. [@keppler2019_pds70] also concluded that a single planet may not be enough to reproduce the full observed morphology, suggesting a more complex system architecture, possibly including an additional low-mass companion. The later Hα detection of PDS 70 c further strengthens this picture: both protoplanets are accreting, and their orbits are consistent with a near 2:1 resonance configuration, making PDS 70 a particularly valuable system for studying planet–disk interaction and migration in young planetary systems [@haffert2019_pds70].
+PDS 70 se interpreta como un sistema planetario joven que todavía se encuentra en formación, donde los protoplanetas ya están remodelando activamente la estructura del disco.
 
-## References
+La gran cavidad, la segregación entre granos de polvo pequeños y grandes, y la presencia de un disco interno llevaron a Keppler et al. [@keppler2018_pds70] a identificar tempranamente el sistema como un fuerte candidato a albergar planetas capaces de abrir la brecha.
+
+Posteriormente, las observaciones de ALMA mostraron que el gas presenta una depresión cerca de la órbita de PDS 70 b, junto con una desviación respecto de la rotación kepleriana. Esta desviación es consistente con un gradiente de presión que ayuda a explicar por qué el anillo principal de polvo se ubica mucho más lejos que la órbita de PDS 70 b [@keppler2019_pds70].
+
+Sin embargo, Keppler et al. [@keppler2019_pds70] también concluyeron que un solo planeta podría no ser suficiente para reproducir toda la morfología observada. Esto sugiere una arquitectura más compleja del sistema, posiblemente incluyendo un compañero adicional de baja masa.
+
+La detección posterior de Hα en PDS 70 c refuerza aún más esta interpretación: ambos protoplanetas están acreciendo material, y sus órbitas son consistentes con una configuración cercana a una resonancia 2:1 [@haffert2019_pds70]. Por esta razón, PDS 70 es un sistema especialmente valioso para estudiar interacción planeta-disco, migración planetaria y formación de planetas jóvenes dentro de discos protoplanetarios.
+
+## Referencias
 
 ::: {#refs}
 :::
